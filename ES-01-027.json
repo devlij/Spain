@@ -1,0 +1,238 @@
+{
+  "entry_id": "ES-01-027",
+  "country": "Spain",
+  "city": "Covadonga",
+  "region": "Asturias",
+  "caption": "Basílica, Covadonga",
+  "revision": "r1",
+  "viewpoint": "Public basilica esplanade, eye-level frontal view toward the twin-tower facade. Model coordinates 43.3083,-5.0550 approximate the sanctuary, not a surveyed camera. Exact heading and camera correspondence unverified.",
+  "anchors": [
+    "Twin square pink-limestone bell towers with pointed pyramid roofs",
+    "Lower central Romanesque gable and round arches",
+    "Stone esplanade and steep wooded mountain backdrop"
+  ],
+  "limitations": "Exact facade proportions and forecourt geometry require Cosmo review. Historical photographs establish exterior lighting precedent, not tonight's operating schedule. No seasonal decorations included.",
+  "refs": [
+    [
+      "https://www.turismoasturias.es/en/covadonga/espiritual",
+      "Official tourism search extract reviewed 23 September 2026: pink Peñalba limestone and Cueto hill location; direct page timed out."
+    ],
+    [
+      "https://www.locationscout.net/spain/12693-covadonga",
+      "Complementary night photograph listed August 2018; image download forbidden; not claimed visually inspected."
+    ],
+    [
+      "https://www.lne.es/oriente/2020/12/04/inaugurado-artistico-alumbrado-navideno-real-25953044.html",
+      "4 December 2020 exterior-lighting photograph; seasonal decorations are excluded."
+    ],
+    [
+      "https://en.wikipedia.org/wiki/Bas%C3%ADlica_de_Santa_Mar%C3%ADa_la_Real_de_Covadonga",
+      "Complementary architectural description, last edited 11 July 2026, read 23 September 2026."
+    ],
+    [
+      "https://www.travelinfusedlife.com/covadonga-a-must-visit-place-in-asturias/",
+      "Complementary daytime photograph, asset path December 2021, visually inspected 23 September 2026; verifies facade, forecourt and hills."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public basilica esplanade, eye-level frontal view toward the twin-tower facade. Model coordinates 43.3083,-5.0550 approximate the sanctuary, not a surveyed camera. Exact heading and camera correspondence unverified. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Basílica, Covadonga at night.",
+  "description": "Twin square pink-limestone bell towers with pointed pyramid roofs; Lower central Romanesque gable and round arches; Stone esplanade and steep wooded mountain backdrop.",
+  "file_16x9": "es-01-027-r1-16x9.png",
+  "file_4x5": "es-01-027-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4a8de2fe1a71224a79265c092ad877291912903e71654439e305fb5f4b3461fb"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "31749a4a20b9d460c8c68136b106215361e0fc7e547f5e94eb44c6bd7e097bde"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-027-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2616860,
+      "sha256": "4a8de2fe1a71224a79265c092ad877291912903e71654439e305fb5f4b3461fb",
+      "source_file": "027/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Basílica, Covadonga",
+        "Scenario: 23 September 2026 · 23:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-027-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1242577,
+      "sha256": "31749a4a20b9d460c8c68136b106215361e0fc7e547f5e94eb44c6bd7e097bde",
+      "source_file": "027/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Basílica, Covadonga",
+        "Scenario: 23 September 2026 · 23:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T21:29:29.867213+00:00",
+    "retrieved_local": "2026-09-23T23:29:29.867213+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3083&longitude=-5.055&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 43.31,
+      "longitude": -5.06,
+      "generationtime_ms": 17.44985580444336,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 259.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T23:15",
+        "interval": 900,
+        "temperature_2m": 16.4,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 3.1
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:08"
+        ],
+        "sunset": [
+          "2026-09-23T20:16"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+    "requested_coordinates": [
+      43.3083,
+      -5.055
+    ],
+    "model_grid_coordinates": [
+      43.31,
+      -5.06
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -33.38,
+      "azimuth_deg": 308.6
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:08:00+02:00",
+    "sunset_local": "2026-09-23T20:16:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-23T23:29:29.867213+02:00, valid 2026-09-23T23:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of Basilica of Santa Maria la Real, Covadonga, Spain. Eye-level public esplanade frontal view, slightly to left of center, twin-tower facade and small amount of right nave visible. Faithful neo-Romanesque pink limestone building: two equal square slender bell towers flanking central facade; round clock faces below paired arched louvered belfry openings; very tall dark narrow pyramid spires with tiny corner pinnacles and crosses. Lower central triangular gable with stepped group of five tall narrow round-headed windows, balustrade under windows; three rounded entrance archways at bottom. No Gothic rose window or invented giant dome. Entire basilica facade and tower tips fit in middle38% of wide16:9 scene; generous black sky above, broad dry stone esplanade below, modest clipped planting beds to edges and steep wooded mountain silhouette behind. True Night23September2026 23:29Europe/Madrid. Open-Meteo model valid23:15:16.4C,clear0%cloud,no precipitation,wind3.1km/h. Sun elevation-33.38 degrees below northwestern horizon. No twilight glow, moon or stars. Restrained warm exterior lighting as in historical photographs, not garish orange, upper belfry arches slightly brighter; current switch-on schedule unverified. No Christmas lights, no seasonal tree, no spotlit cross projection, no wet paving, no people or statues as focal point. Original photorealistic artistic rendering, not copy of photograph. No text, logos, signature or watermark; lower20% quiet plaza reserved for captions.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "c57513237c52d7fb602a8dd824c019144efac51d883e08a4682da60ac4e77153",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": [
+    {
+      "file": "covadonga-day.jpg",
+      "sha256": "072022a424cc898f6c216663cc808eb9396752043de06531d9a0aa846be9bb5d"
+    },
+    {
+      "file": "covadonga-seasonal-lighting.jpg",
+      "sha256": "2d4de88a4958944905d5deda922145d84667623622ee2cd111ebb998b1f6c41a"
+    }
+  ]
+}
