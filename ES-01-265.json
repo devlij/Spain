@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-265",
+  "country": "Spain",
+  "city": "Sant Josep de sa Talaia",
+  "region": "Catalonia",
+  "caption": "Es Vedrà, Sant Josep de sa Talaia",
+  "revision": "r1",
+  "viewpoint": "Cala d'Hort beach, eye-level, facing Es Vedrà. Exact camera point approximate.",
+  "anchors": [
+    "Massive sheer-sided limestone islet rises centered from the sea",
+    "Dark beach and pine trees form the mainland foreground",
+    "Starry sky with a few thin clouds above"
+  ],
+  "limitations": "Exact camera point approximate; naturally dark view — no artificial lighting claimed or depicted; current conditions unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Es_Vedr%C3%A0",
+      "Es Vedrà (limestone islet off Ibiza)"
+    ],
+    [
+      "https://www.ibiza.travel/en/es-vedra",
+      "Es Vedrà official guide (rock island, Cala d'Hort viewpoint)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:26 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Lone rock island rising from the dark sea at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Es Vedrà, Sant Josep de sa Talaia at night.",
+  "description": "From Cala d'Hort beach, the massive sheer-sided limestone islet of Es Vedrà rises centered from the dark Mediterranean, thin moonlight edging its cliffs. A few thin clouds drift across the starry sky while the dark beach and pine trees of the mainland form the foreground. A naturally dark-friendly view with no artificial lighting — a moonlit long-exposure feel on a 21.0°C night.",
+  "file_16x9": "es-01-265-r1-16x9.png",
+  "file_4x5": "es-01-265-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e21d1408c5232f8cbf5027eabcb29e4cd2145101c04020668217b4e37a22fca3"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6a2be52415682c7ccbf0dc92377b806651b3e33359c174e4b094732955766d16"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-265-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1520649,
+      "sha256": "e21d1408c5232f8cbf5027eabcb29e4cd2145101c04020668217b4e37a22fca3",
+      "source_file": "source-265.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Es Vedrà, Sant Josep de sa Talaia",
+        "Scenario: 24 September 2026 · 01:26 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-265-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1064563,
+      "sha256": "6a2be52415682c7ccbf0dc92377b806651b3e33359c174e4b094732955766d16",
+      "source_file": "source-265.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Es Vedrà, Sant Josep de sa Talaia",
+        "Scenario: 24 September 2026 · 01:26 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=38.8668&longitude=1.1995&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:15",
+    "temperature_c": 21.0,
+    "weather_code": 1,
+    "weather_word": "mainly clear",
+    "cloud_cover_pct": 31,
+    "is_day": 0,
+    "wind_kmh": 3.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Es Vedrà rock island off Ibiza, Balearic Islands, at night, viewed from Cala d'Hort beach. The massive sheer-sided limestone islet rises centered from the dark Mediterranean; a few thin clouds drift across the starry sky; the dark beach and pine trees of the mainland form the foreground. Thin moonlight edging the islet; naturally dark-friendly view with no artificial lighting — moonlit long-exposure feel."
+  },
+  "source_files": [
+    {
+      "file": "source-265.png",
+      "sha256": "489e8a516d2abefee2dedeb4c211f007581d9df9b8617a439369dc88f27e2eb3",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
