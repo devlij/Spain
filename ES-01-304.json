@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-304",
+  "country": "Spain",
+  "city": "Santiago de Compostela",
+  "region": "Galicia",
+  "caption": "Cathedral, Santiago de Compostela",
+  "revision": "r1",
+  "viewpoint": "From the Praza do Obradoiro near 42.8806,-8.5446, looking at the Obradoiro façade of the cathedral. Approximate point only.",
+  "anchors": [
+    "Baroque Obradoiro façade with twin towers — plaza lamps and moonlight only, no floodlighting claimed",
+    "Lamp-lit cobbles of the square in the foreground",
+    "Starry sky with thin cloud above (18% model cloud)"
+  ],
+  "limitations": "Façade illumination is plaza lamps and moonlight only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cathedral_of_Santiago_de_Compostela",
+      "Encyclopedic description of the Santiago de Compostela Cathedral (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Catedral_de_Santiago_de_Compostela",
+      "Spanish Wikipedia entry for the Santiago de Compostela Cathedral; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Santiago de Compostela Cathedral from the Praza do Obradoiro near 42.8806,-8.5446. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Santiago de Compostela Cathedral at night.",
+  "description": "From the Praza do Obradoiro the cathedral's baroque façade rises with its twin towers, lit only by ordinary plaza lamps and moonlight — no floodlighting is claimed or depicted. The square's cobbles glow warmly in the foreground while a few thin clouds drift across the stars (18% model cloud). The end of the pilgrimage road, at night, kept honest.",
+  "file_16x9": "es-01-304-r1-16x9.png",
+  "file_4x5": "es-01-304-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "385aea384f671c1c3ac063c0a7ef06015c44a490cafeba342d7acc5eacf07ac7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "746574507747d35079947671bd45aaa58c4ee185dc6fb04c6f267a9e71f31da1"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-304-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2534285,
+      "sha256": "385aea384f671c1c3ac063c0a7ef06015c44a490cafeba342d7acc5eacf07ac7",
+      "source_file": "media-generation-src-es-01-304-0-6c5c3630-0a1f-40ea-b680-2af5a746edac.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Santiago de Compostela",
+        "Scenario: 24 September 2026 · 01:35 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-304-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1339865,
+      "sha256": "746574507747d35079947671bd45aaa58c4ee185dc6fb04c6f267a9e71f31da1",
+      "source_file": "media-generation-src-es-01-304-0-6c5c3630-0a1f-40ea-b680-2af5a746edac.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Santiago de Compostela",
+        "Scenario: 24 September 2026 · 01:35 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.8806&longitude=-8.5446&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Santiago de Compostela Cathedral in Galicia from the Praza do Obradoiro: the baroque Obradoiro facade with its twin towers rising over the square, lit only by ordinary plaza street lamps and moonlight, no floodlighting; lamp-lit cobbles in the foreground; a few lit windows; starry sky above with a little thin cloud; no prominent people, no text, no logos; cathedral centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-304-0-6c5c3630-0a1f-40ea-b680-2af5a746edac.png",
+      "sha256": "a965ee4ce702ef940976deb47f155b5ea09e10b1dac2e5bef4b8ec9f3471fa96",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
