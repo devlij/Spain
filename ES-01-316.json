@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-316",
+  "country": "Spain",
+  "city": "Santander",
+  "region": "Cantabria",
+  "caption": "Santander Bay, Cantabria",
+  "revision": "r1",
+  "viewpoint": "From the bay near 43.4620,-3.8090, looking at the city lights. Approximate point only.",
+  "anchors": [
+    "City lights strung along the dark bay",
+    "Warm harbor lamps reflected in the calm moonlit water",
+    "Dark silhouette of the Magdalena peninsula at the bay's edge; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "City and harbor lamps are generic; no specific fixtures claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Bay_of_Santander",
+      "Encyclopedic description of the Bay of Santander (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Bah%C3%ADa_de_Santander",
+      "Spanish Wikipedia entry for the Bay of Santander; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:47 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Santander bay, city lights reflected in moonlit water near 43.4620,-3.8090. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Bay of Santander at night.",
+  "description": "Santander's city lights are strung along the dark bay, their warmth reflected in the calm moonlit water. The Magdalena peninsula rises as a dark silhouette at the bay's edge. With 0% model cloud the sky stays clear and starry over the bay.",
+  "file_16x9": "es-01-316-r1-16x9.png",
+  "file_4x5": "es-01-316-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d12a913576b104cb47d270540334f8a73c1e983cce55a25d84ff1d63a6d83f22"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7e864420fddf0045c61b97102ff8334d9d09b2fcd4ba4feaf5ec488d9cd2f455"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-316-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1316407,
+      "sha256": "d12a913576b104cb47d270540334f8a73c1e983cce55a25d84ff1d63a6d83f22",
+      "source_file": "media-generation-src-es-01-316-0-04501838-ec3a-43e1-b166-2c6cfb95ee98.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Santander Bay, Cantabria",
+        "Scenario: 24 September 2026 · 01:47 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-316-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 705159,
+      "sha256": "7e864420fddf0045c61b97102ff8334d9d09b2fcd4ba4feaf5ec488d9cd2f455",
+      "source_file": "media-generation-src-es-01-316-0-04501838-ec3a-43e1-b166-2c6cfb95ee98.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Santander Bay, Cantabria",
+        "Scenario: 24 September 2026 · 01:47 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.4620&longitude=-3.8090&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:45+02:00",
+    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Bay of Santander in Cantabria: the city lights strung along the dark bay; warm harbor lamps reflected in the calm moonlit water; the dark silhouette of the Magdalena peninsula at the bay's edge; clear starry sky; no prominent people, no text, no logos; bay centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-316-0-04501838-ec3a-43e1-b166-2c6cfb95ee98.png",
+      "sha256": "9537022a29c1008ee69395fa966d7bf32c476f96ca315ef3a073018ef0c47fd3",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
