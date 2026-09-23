@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-201",
+  "country": "Spain",
+  "city": "Málaga",
+  "region": "Andalusia",
+  "caption": "Gibralfaro Castle, Málaga",
+  "revision": "r1",
+  "viewpoint": "Mirador de Gibralfaro, the free viewpoint on the castle path before the entrance",
+  "anchors": [
+    "Moorish rampart walls and a stone tower in the left foreground",
+    "Málaga's night lights spread below — the port, the La Malagueta bullring, the cathedral tower",
+    "dark Mediterranean coastline curving to the horizon under a starry sky"
+  ],
+  "limitations": "Text-only generation; no photographic input. The mirador is freely accessible but the castle interior is closed at night; wall illumination is artistic interpretation. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://heymalaga.com/gibralfaro-castle/",
+      "Málaga guide — 14th-century Moorish fortress, mirador views of bullring, port, cathedral"
+    ],
+    [
+      "https://www.visitanddo.com/en/gibralfaro-viewpoint/",
+      "Viewpoint guide — free mirador on the castle path, panoramic view of Málaga and the coast"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Moorish ramparts above the lit city and bay · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Gibralfaro Castle at night.",
+  "description": "From the Mirador de Gibralfaro, the castle's ancient ramparts frame the whole of Málaga glittering below — the port, the bullring's perfect circle and the cathedral's tower picked out in light. The Mediterranean stretches dark to the horizon under a clear, starry sky. On this mild night of about 21°C, the viewpoint belongs to the quiet few who climb up after the crowds have gone.",
+  "file_16x9": "es-01-201-r1-16x9.png",
+  "file_4x5": "es-01-201-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c11c10d44470d89eede30752354ddced24476dc19d6ce9da9e7691f05c049a82"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "24102e4e32517f21099328f1d6dc360307d4ba0ae88b37d09f3b001e27f9dfe8"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-201-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2796873,
+      "sha256": "c11c10d44470d89eede30752354ddced24476dc19d6ce9da9e7691f05c049a82",
+      "source_file": "media-generation-es-01-201-source-0-49ee3ea0-9162-494e-84da-3a925e46df0b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Gibralfaro Castle, Málaga",
+        "Scenario: 24 September 2026 · 01:15 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-201-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1448645,
+      "sha256": "24102e4e32517f21099328f1d6dc360307d4ba0ae88b37d09f3b001e27f9dfe8",
+      "source_file": "media-generation-es-01-201-source-0-49ee3ea0-9162-494e-84da-3a925e46df0b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Gibralfaro Castle, Málaga",
+        "Scenario: 24 September 2026 · 01:15 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:13:14+02:00",
+    "valid": "2026-09-24T01:15:17+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 20.9,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 5.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:13:14+02:00, valid 2026-09-24T01:15:17+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Gibralfaro Castle in Malaga, Spain, at night, seen from the Mirador de Gibralfaro viewpoint. Tourist viewpoint: the free mirador on the castle path, looking over the city. Frame: the castle's ancient Moorish rampart walls and a stone tower in the left foreground; the glittering night lights of Malaga spread below — the port, the La Malagueta bullring's circular outline, and the cathedral's tower; the dark Mediterranean coastline curving along the horizon under a clear starry sky. Night light: city glow from below, castle walls dimly moonlit, 21 degrees C, clear skies, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-201-source-0-49ee3ea0-9162-494e-84da-3a925e46df0b.png",
+      "sha256": "79e3d1c3c91b19bc47a5e7cb443b117f532d078f76d9ec33f5c662c728055d82",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
