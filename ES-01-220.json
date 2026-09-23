@@ -1,0 +1,150 @@
+{
+  "entry_id": "ES-01-220",
+  "country": "Spain",
+  "city": "Cabo de Gata",
+  "region": "Andalusia",
+  "caption": "Cabo de Gata, Almería",
+  "revision": "r1",
+  "viewpoint": "the Mirador de las Sirenas, facing the lighthouse on the Morrón at night",
+  "anchors": [
+    "the Cabo de Gata lighthouse and its rotating beam on the Morrón",
+    "the volcanic Sirens Reef and steep cliffs below the viewpoint",
+    "a star-filled sky over the southeasternmost point of the Iberian Peninsula"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time lighting of the lighthouse area is unverified. Exact camera position unverified.",
+  "refs": [
+    "https://randomtrip.net/cabo-de-gata-travel-guide/",
+    "https://www.getyourguide.com/en-au/cabo-de-gata-nijar-natural-park-l96730/cabo-de-gata-guided-night-walk-with-stargazing-t387436/"
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:36 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · lighthouse beam over the Sirens Reef and starry sky at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cabo de Gata lighthouse at night.",
+  "description": "From the Mirador de las Sirenas, the beam of the Cabo de Gata lighthouse sweeps across the volcanic cliffs of the Sirens Reef and out to sea. Below the viewpoint, the jagged Morrón rock rises from the water at the southeasternmost point of the Iberian Peninsula. Under a clear, star-filled sky with minimal light pollution, this is one of the darkest, most dramatic nightscapes in Spain.",
+  "file_16x9": "es-01-220-r1-16x9.png",
+  "file_4x5": "es-01-220-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6c2c6bc15a18f1ce35bc3c1b15be5ce8e31bbca6506c4af59fb026ebf3f8c55b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "3956339b9daac6a272c2bf5a84539c794720580d32487d3a15e9db812e2da607"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-220-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2914413,
+      "sha256": "6c2c6bc15a18f1ce35bc3c1b15be5ce8e31bbca6506c4af59fb026ebf3f8c55b",
+      "source_file": "media-generation-es-01-220-source-0-dc458211-7402-4442-882a-2be80dac0d42.webp",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cabo de Gata, Almería",
+        "Scenario: 24 September 2026 · 01:36 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-220-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1457086,
+      "sha256": "3956339b9daac6a272c2bf5a84539c794720580d32487d3a15e9db812e2da607",
+      "source_file": "media-generation-es-01-220-source-0-dc458211-7402-4442-882a-2be80dac0d42.webp",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cabo de Gata, Almería",
+        "Scenario: 24 September 2026 · 01:36 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:30:46+02:00",
+    "valid": "2026-09-24T01:33:28+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": null,
+    "temperature_2m": 24.7,
+    "weather_code": 0,
+    "cloud_cover": 1,
+    "wind_speed_10m": 7.2
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:46+02:00, valid 2026-09-24T01:33:28+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Cabo de Gata, Almería, Spain, at night. Tourist viewpoint: the Mirador de las Sirenas, facing the lighthouse on the Morrón. ANCHORS: the Cabo de Gata lighthouse and its rotating beam on the Morrón; the volcanic Sirens Reef and steep cliffs below the viewpoint; a star-filled sky over the southeasternmost point of the Iberian Peninsula. LIGHTING: the lighthouse's rotating beam sweeping the cliffs, moonlight, minimal light pollution, clear starry sky. Photorealistic, night coastal landscape, no people, no watermark."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-220-source-0-dc458211-7402-4442-882a-2be80dac0d42.webp",
+      "sha256": "c82048f210a8e63c924443a5a3c46d27dcc513191b799b7dcdfef19239f403ff",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
