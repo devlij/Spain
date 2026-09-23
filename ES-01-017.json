@@ -1,0 +1,42 @@
+{
+  "entry_id": "ES-01-017",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Córdoba",
+  "caption": "Puerta del Puente, Córdoba",
+  "scenario_label": "23 September 2026 · 02:36 Europe/Madrid",
+  "composition": "Night · The freestanding Renaissance gate viewed from Plaza del Triunfo toward the Roman Bridge · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Puerta del Puente in Córdoba at night, with the bridge visible through its opening.",
+  "description": "Pale stone columns frame the rectangular passage at the northern end of the Roman Bridge. This early Spain scene looks through the gate from Plaza del Triunfo toward the river crossing. Former entry ID: ES-AN-001.",
+  "viewpoint": "Plaza del Triunfo, looking toward the bridge. Exact camera point remains provisional.",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "limitations": "Cosmo approval relayed by Jason; no new independent audit claimed. Historical provenance and weather limitations retained. Internal approval does not certify third-party rights.",
+  "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
+  "file_16x9": "es-an-001-16x9.png",
+  "file_4x5": "es-an-001-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "editions": [
+    {
+      "label": "Original 16:9 · 1536×864",
+      "file": "ES-AN-001-landscape.png"
+    },
+    {
+      "label": "Original 4:5 · 800×1000",
+      "file": "ES-AN-001-portrait.png"
+    }
+  ],
+  "time_of_day": "Night",
+  "legacy_ids": [
+    "ES-AN-001"
+  ],
+  "approval_state": "approved",
+  "gates": {
+    "visual": "pass",
+    "technical": "pass",
+    "provenance": "pass",
+    "commercial_ip": "pass",
+    "publication": "pass"
+  },
+  "approval_basis": "Cosmo QC: 5/5 approved, relayed and authorized by Jason on 23 September 2026. Internal review, not legal certification."
+}

@@ -1,0 +1,42 @@
+{
+  "entry_id": "ES-01-018",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Córdoba",
+  "caption": "Roman Bridge, Córdoba",
+  "scenario_label": "23 September 2026 · 03:33 Europe/Madrid",
+  "composition": "Night · Calahorra-side approach toward Puerta del Puente and the Mosque–Cathedral skyline · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation looking along Córdoba’s Roman Bridge at night toward Puerta del Puente and the Mosque–Cathedral skyline.",
+  "description": "The pedestrian deck leads between stone parapets toward Puerta del Puente. The Guadalquivir flanks the crossing, with the Mosque–Cathedral rising beyond the northern riverbank. Former entry ID: ES-AN-002.",
+  "viewpoint": "Calahorra-side bridge deck, looking northwest. Exact camera correspondence remains provisional.",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "limitations": "Cosmo approval relayed by Jason; no new independent audit claimed. Historical provenance and weather limitations retained. Internal approval does not certify third-party rights.",
+  "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
+  "file_16x9": "es-an-002-16x9.png",
+  "file_4x5": "es-an-002-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "editions": [
+    {
+      "label": "Original 16:9 · 1536×864",
+      "file": "ES-AN-002-landscape.png"
+    },
+    {
+      "label": "Original 4:5 · 800×1000",
+      "file": "ES-AN-002-portrait.png"
+    }
+  ],
+  "time_of_day": "Night",
+  "legacy_ids": [
+    "ES-AN-002"
+  ],
+  "approval_state": "approved",
+  "gates": {
+    "visual": "pass",
+    "technical": "pass",
+    "provenance": "pass",
+    "commercial_ip": "pass",
+    "publication": "pass"
+  },
+  "approval_basis": "Cosmo QC: 5/5 approved, relayed and authorized by Jason on 23 September 2026. Internal review, not legal certification."
+}

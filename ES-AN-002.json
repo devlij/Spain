@@ -1,29 +1,5 @@
 {
-  "entry_id": "ES-AN-002",
-  "country": "Spain",
-  "region": "Andalusia",
-  "city": "Córdoba",
-  "caption": "Roman Bridge, Córdoba",
-  "scenario_label": "23 September 2026 · 03:33 Europe/Madrid",
-  "composition": "Calahorra-side approach toward Puerta del Puente and the Mosque–Cathedral skyline · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation looking along Córdoba’s Roman Bridge at night toward Puerta del Puente and the Mosque–Cathedral skyline.",
-  "description": "The pedestrian deck leads between stone parapets toward Puerta del Puente. The Guadalquivir flanks the crossing, with the Mosque–Cathedral rising beyond the northern riverbank.",
-  "viewpoint": "Calahorra-side bridge deck, looking northwest. Exact camera correspondence remains provisional.",
-  "status": "Earlier candidate · not approved",
-  "limitations": "Fine geometry, monument placement and overnight illumination remain unverified. Created before the current evidence-card rules; historical weather was not sourced from Open-Meteo.",
-  "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
-  "file_16x9": "es-an-002-16x9.png",
-  "file_4x5": "es-an-002-4x5.png",
-  "license_badge": "Free · no credit needed",
-  "license_anchor": "#license",
-  "editions": [
-    {
-      "label": "Original 16:9 · 1536×864",
-      "file": "ES-AN-002-landscape.png"
-    },
-    {
-      "label": "Original 4:5 · 800×1000",
-      "file": "ES-AN-002-portrait.png"
-    }
-  ]
+  "legacy_entry_id": "ES-AN-002",
+  "canonical_entry_id": "ES-01-018",
+  "manifest": "ES-01-018.json"
 }

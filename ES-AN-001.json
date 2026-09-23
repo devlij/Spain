@@ -1,29 +1,5 @@
 {
-  "entry_id": "ES-AN-001",
-  "country": "Spain",
-  "region": "Andalusia",
-  "city": "Córdoba",
-  "caption": "Puerta del Puente, Córdoba",
-  "scenario_label": "23 September 2026 · 02:36 Europe/Madrid",
-  "composition": "The freestanding Renaissance gate viewed from Plaza del Triunfo toward the Roman Bridge · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Puerta del Puente in Córdoba at night, with the bridge visible through its opening.",
-  "description": "Pale stone columns frame the rectangular passage at the northern end of the Roman Bridge. This early Spain scene looks through the gate from Plaza del Triunfo toward the river crossing.",
-  "viewpoint": "Plaza del Triunfo, looking toward the bridge. Exact camera point remains provisional.",
-  "status": "Earlier candidate · not approved",
-  "limitations": "Precise geometry and overnight lighting remain unverified. Created before the current evidence-card rules; historical weather was not sourced from Open-Meteo.",
-  "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
-  "file_16x9": "es-an-001-16x9.png",
-  "file_4x5": "es-an-001-4x5.png",
-  "license_badge": "Free · no credit needed",
-  "license_anchor": "#license",
-  "editions": [
-    {
-      "label": "Original 16:9 · 1536×864",
-      "file": "ES-AN-001-landscape.png"
-    },
-    {
-      "label": "Original 4:5 · 800×1000",
-      "file": "ES-AN-001-portrait.png"
-    }
-  ]
+  "legacy_entry_id": "ES-AN-001",
+  "canonical_entry_id": "ES-01-017",
+  "manifest": "ES-01-017.json"
 }

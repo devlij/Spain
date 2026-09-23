@@ -1,5 +1,7 @@
 # Jason D’s Vision — Spain
 
-Spain-only public preview. Approved gallery and unapproved pipeline are separate. No current scene is approved.
+https://devlij.github.io/Spain/
 
-GitHub Pages serves main at root. The root files are the deployable preview; Spain-merge-source.zip preserves the hierarchical source, manifests and image bytes for later merging. No private research is published.
+2 approved scenes (Cosmo QC relayed by Jason), 1 revision candidate, 15 queued. Approved imagery and pipeline remain separate. Internal QC is not legal certification. ES-01-NNN is the canonical numbering scheme: ES-AN-001 -> ES-01-017; ES-AN-002 -> ES-01-018. IDs 001–016 remain reserved for the prescribed starter sequence. Existing image paths retained as stable historical references.
+
+Main branch root is the deployed site. Source archive includes current public data and original editions; no private research.
