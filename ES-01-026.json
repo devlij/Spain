@@ -1,0 +1,230 @@
+{
+  "entry_id": "ES-01-026",
+  "country": "Spain",
+  "city": "Oviedo",
+  "region": "Asturias",
+  "caption": "Cathedral, Oviedo",
+  "revision": "r2",
+  "viewpoint": "Western Plaza Alfonso II el Casto near43.3622,-5.8449, eye-level looking approximately east at west facade. Camera coordinates approximate, not surveyed.",
+  "anchors": [
+    "Single tall Gothic tower on viewer right",
+    "Low three-bay pointed porch with small upper central traceried window",
+    "Flat broad stone plaza and flanking historic buildings"
+  ],
+  "limitations": "r1 rejected locally for oversized rose window and invented triangular facade gable; r2 corrects these in new text-only generation. Porch openings, stonework, tower proportions and surrounding facades remain subject to independent visual QC. Nighttime illumination is historically evidenced but current operating schedule unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/cathedral-oviedo/",
+      "Official Spain tourism architectural description and complementary image; retrieved23September2026."
+    ],
+    [
+      "https://www.turismoasturias.es/en/-/blogs/las-10-mejores-cosas-que-ver-y-hacer-en-oviedo",
+      "Official regional tourism, dated16December2025, historic-center context."
+    ],
+    [
+      "https://www.65ymas.com/ocio/viajes/ruta-mayores-recorrer-sitios-emblematicos-oviedo_12123_102.html",
+      "Night facade photograph visually inspected; date unknown. Geometry and lighting precedent only; wet pavement and flags not carried into generation."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Western Plaza Alfonso II el Casto near43.3622,-5.8449, eye-level looking approximately east at west facade. Camera coordinates approximate, not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cathedral, Oviedo at night.",
+  "description": "Single tall Gothic tower on viewer right; Low three-bay pointed porch with small upper central traceried window; Flat broad stone plaza and flanking historic buildings.",
+  "file_16x9": "es-01-026-r2-16x9.png",
+  "file_4x5": "es-01-026-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "18faea962746f21d26e0741ac239dfab366b955b6c7558f4a3311502bfc799cf"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "577a0753bf5e6557dd3e852c148ef5f18e9d98f6d599db7a0bf42ed531c17d39"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-026-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2213209,
+      "sha256": "18faea962746f21d26e0741ac239dfab366b955b6c7558f4a3311502bfc799cf",
+      "source_file": "026/source-r2.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Oviedo",
+        "Scenario: 23 September 2026 · 23:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. Oviedo r1 retained but rejected for exaggerated facade geometry; r2 is a new text-only corrected source.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-026-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1100536,
+      "sha256": "577a0753bf5e6557dd3e852c148ef5f18e9d98f6d599db7a0bf42ed531c17d39",
+      "source_file": "026/source-r2.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Oviedo",
+        "Scenario: 23 September 2026 · 23:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. Oviedo r1 retained but rejected for exaggerated facade geometry; r2 is a new text-only corrected source.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T21:07:17.342426+00:00",
+    "retrieved_local": "2026-09-23T23:07:17.342426+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3622&longitude=-5.8449&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 43.36,
+      "longitude": -5.84,
+      "generationtime_ms": 1.6089677810668945,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 239.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T23:00",
+        "interval": 900,
+        "temperature_2m": 17.5,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 1.1
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:11"
+        ],
+        "sunset": [
+          "2026-09-23T20:19"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
+    "requested_coordinates": [
+      43.3622,
+      -5.8449
+    ],
+    "model_grid_coordinates": [
+      43.36,
+      -5.84
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -29.59,
+      "azimuth_deg": 302.63
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:11:00+02:00",
+    "sunset_local": "2026-09-23T20:19:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-23T23:07:17.342426+02:00, valid 2026-09-23T23:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of Cathedral of San Salvador, Oviedo, Spain, seen eastward at eye level from western Plaza Alfonso II el Casto. Wide16:9 image, entire cathedral including spire and base in central42% of frame so portrait crop retains whole facade. Real geometry: asymmetrical Gothic west facade with three deep pointed portal arches, large middle portal, traceried rose window above central facade, only ONE very tall square Gothic clock/bell tower on viewer RIGHT with elaborate openwork stone spire; left side has lower church structures, NOT a matching tower. Warm pale limestone, flanking historic stone buildings at edges, broad flat stone plaza foreground. Scenario23September2026 23:07 Europe/Madrid true Night. Model valid23:00:17.5C,clear0% cloud,no precipitation,wind1.1km/h. Nearly black clear sky with no moon or stars, no blue-hour glow. Historically documented warm facade lighting interpreted conservatively, not claiming tonight's schedule; no brightly lit portal interiors. Matte dry paving no wet reflections. Natural understated night exposure, authentic masonry, no HDR, no extra spires, no banners or flags or crowds or cars or identifiable people or artwork focal point. No text/signature/watermark; bottom20% quiet plaza for later captions. Do not copy any specific photo.\n",
+    "prompt-r2.txt": "Create a new corrected photorealistic artistic interpretation of Oviedo Cathedral from the west edge of Plaza Alfonso II, eye-level, distant/pulled-back composition. Faithful west front: three entrance bays in a LOW BROAD PORCH. The middle bay is a large plain pointed arch opening whose height is about1.5 times the two smaller pointed arches on either side. Above the middle porch roof is a SMALL rose/tracery window in a plain RECTANGULAR squat upper nave wall, with a straight flat horizontal roofline; NO giant rose window, NO triangular sculpted gable. Single tall square Gothic tower on the RIGHT of the facade, integrated above right porch bay, clock midway up, narrower ornate pierced stone spire above belfry. Tower is dominant and taller than twice the central facade. Small lower pale structures at left and contextual buildings at edges. Entire church group including all spire, complete porch and immediate side structures occupies middle40% of wide16:9 frame; spire top below upper15% with generous black sky margin. Foreground plaza lower25%. True night23September2026 23:07Europe/Madrid, modelclear0% clouds,17.5C,no precip,wind1.1. Warm subdued historically-informed exterior light, almost-black sky with no stars/moon/twilight. Matte dry paving,no reflections. No text,logos,people,flags,watermark. Original rendering, not a copy of a photograph. Natural masonry detail, not ornate fantasy Gothic. No front sculpture foreground.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r2.png",
+      "sha256": "6a98c3ea468317df12806dc4b2f12030c31b995e6edd6972dca84933e430e9d4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    },
+    {
+      "file": "source-r1.png",
+      "sha256": "63ab1091f55d78511a369b758a57c90f8214e926eb6fbd55e4d4863176b096f9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source1672x941; landscape enlarged to1920x1080; portrait is a central crop enlarged to864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison complete; specific limitations above require reviewer judgment.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification."
+}
