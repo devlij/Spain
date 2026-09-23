@@ -1,0 +1,225 @@
+{
+  "entry_id": "ES-01-033",
+  "country": "Spain",
+  "city": "Deià",
+  "region": "Balearic Islands",
+  "caption": "Village, Deià",
+  "revision": "r1",
+  "viewpoint": "Public roadside overlook on the Ma-10 southeast of Deià, approximately 39.7458, 2.6505, looking northwest across the terraced hillside village toward Sant Joan Baptista church and the Tramuntana slope. Exact generated camera correspondence is approximate.",
+  "anchors": [
+    "Ochre limestone houses stepping up a steep terraced hillside",
+    "Sant Joan Baptista church and bell tower crowning the village",
+    "Dark Serra de Tramuntana rock and olive terraces enclosing the settlement"
+  ],
+  "limitations": "Night illumination is an artistic long-exposure interpretation, not a verified current lighting schedule. Exact roof distribution, church-tower proportions and camera correspondence require independent review. No sea view is asserted from this inland-facing composition.",
+  "refs": [
+    [
+      "https://www.illesbalears.travel/en/mallorca/municipalities/deia",
+      "Official Balearic tourism municipality page; village and Serra de Tramuntana context; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.illesbalears.travel/en/mallorca/cemetery-deia",
+      "Official Balearic tourism page locating the cemetery beside Sant Joan Baptista parish church; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.gettyimages.com/photos/deia-mallorca",
+      "Complementary dated Deià hillside dusk photographs visually inspected; geometry and lighting precedent only, not supplied to generation."
+    ],
+    [
+      "https://whc.unesco.org/en/list/1371/",
+      "UNESCO Serra de Tramuntana cultural landscape description; retrieved 23 September 2026."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public roadside overlook on the Ma-10 southeast of Deià, approximately 39.7458, 2.6505, looking northwest across the terraced hillside village toward Sant Joan Baptista church and the Tramuntana slope. Exact generated camera correspondence is approximate. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Village, Deià at night.",
+  "description": "Ochre limestone houses stepping up a steep terraced hillside; Sant Joan Baptista church and bell tower crowning the village; Dark Serra de Tramuntana rock and olive terraces enclosing the settlement.",
+  "file_16x9": "es-01-033-r1-16x9.png",
+  "file_4x5": "es-01-033-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3b31d87f2907893af1a07e9fef6676fdfafc1d57469528a7671e5f1fff1028e7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "dc36b237e9af25bc85c7fa2a00d3417b39ad923c31de68a177f2af7a54dba4db"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-033-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3073927,
+      "sha256": "3b31d87f2907893af1a07e9fef6676fdfafc1d57469528a7671e5f1fff1028e7",
+      "source_file": "033/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Village, Deià",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-033-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1414848,
+      "sha256": "dc36b237e9af25bc85c7fa2a00d3417b39ad923c31de68a177f2af7a54dba4db",
+      "source_file": "033/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Village, Deià",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T23:14:34.752553+00:00",
+    "retrieved_local": "2026-09-24T01:14:34.752553+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.748&longitude=2.6487&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 39.75,
+      "longitude": 2.6875,
+      "generationtime_ms": 0.09226799011230469,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 182.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T01:00",
+        "interval": 900,
+        "temperature_2m": 20.7,
+        "weather_code": 0,
+        "cloud_cover": 8,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 3.2
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:38"
+        ],
+        "sunset": [
+          "2026-09-24T19:43"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+    "requested_coordinates": [
+      39.748,
+      2.6487
+    ],
+    "model_grid_coordinates": [
+      39.75,
+      2.6875
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -49.71,
+      "azimuth_deg": 349.52
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:38:00+02:00",
+    "sunset_local": "2026-09-24T19:43:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:14:34.752553+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Asset: Spain gallery documentary master. Create a wide 16:9 full-frame night photograph of Deià, Mallorca at 01:14 local time on 24 September 2026. Real public Ma-10 roadside overlook southeast of the village, eye-level looking northwest across the steep terraced settlement. Recognizable anchors: tightly packed ochre limestone houses with terracotta roofs stepping up the slope; Sant Joan Baptista church and modest bell tower crowning the village; dark rugged Serra de Tramuntana rock, olive terraces and slender cypress trees around it. Calm clear night, deep navy-black sky, warm restrained window and street lighting as artistic precedent only, realistic low-light exposure. No sea, moon, stars, Milky Way, people, cars, signs, fantasy castle, duplicate church tower, modern skyline, exaggerated HDR, text, logos or watermark. Natural stone texture and subdued colour. Compose the village and church centrally enough for a coherent 4:5 crop.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "597013dce940fe716dc298e6aa44f101db096b1341c5c24035cac8f8447bc4cc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
