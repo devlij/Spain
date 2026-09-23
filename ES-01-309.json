@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-309",
+  "country": "Spain",
+  "city": "Ourense",
+  "region": "Galicia",
+  "caption": "Ourense, Galicia",
+  "revision": "r1",
+  "viewpoint": "From the old town near 42.3360,-7.8640, looking at historic façades. Approximate point only.",
+  "anchors": [
+    "Historic stone façades and balconies",
+    "Ordinary warm street lamps only — no floodlighting claimed",
+    "Clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Illumination is ordinary street lamps only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Ourense",
+      "Encyclopedic description of Ourense (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Orense",
+      "Spanish Wikipedia entry for Ourense; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:40 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Ourense old town, stone façades under street lamps near 42.3360,-7.8640. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Ourense old town at night.",
+  "description": "Inland Ourense sleeps under a perfectly clear model sky (0% cloud). The old town's historic stone façades and balconies catch the warm light of ordinary street lamps — no floodlighting is claimed or depicted — and a few windows still burn. A quiet Galician interior night.",
+  "file_16x9": "es-01-309-r1-16x9.png",
+  "file_4x5": "es-01-309-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "23b07ef5e8a4cf10d88c372e25249778e926d6d9cca0c3a00df06c42f450e1cc"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "d072df4f674f6d5ff940cc78ae6f0f3dfe70ee9067c16620b6b1701b13433d5d"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-309-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2381000,
+      "sha256": "23b07ef5e8a4cf10d88c372e25249778e926d6d9cca0c3a00df06c42f450e1cc",
+      "source_file": "media-generation-src-es-01-309-0-c298eee3-0209-4b17-b6df-428a74d55087.png",
+      "source_dimensions": [
+        2304,
+        1104
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Ourense, Galicia",
+        "Scenario: 24 September 2026 · 01:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [2304, 1104]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-309-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1065500,
+      "sha256": "d072df4f674f6d5ff940cc78ae6f0f3dfe70ee9067c16620b6b1701b13433d5d",
+      "source_file": "media-generation-src-es-01-309-0-c298eee3-0209-4b17-b6df-428a74d55087.png",
+      "source_dimensions": [
+        2304,
+        1104
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Ourense, Galicia",
+        "Scenario: 24 September 2026 · 01:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [2304, 1104]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.3360&longitude=-7.8640&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the old town of Ourense in Galicia: historic stone facades and balconies around a quiet square, lit only by ordinary warm street lamps, no floodlighting; a few lit windows; clear starry sky above; no prominent people, no text, no logos; old town centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-309-0-c298eee3-0209-4b17-b6df-428a74d55087.png",
+      "sha256": "4698bf2de0e10b8c1156b9c2c8bafd943b05997bafda8fab8849b2d328475989",
+      "dimensions": [
+        2304,
+        1104
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [2304, 1104]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
