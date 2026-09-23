@@ -4,4 +4,6 @@ https://devlij.github.io/Spain/
 
 2 approved scenes (Cosmo QC relayed by Jason), 1 revision candidate, 15 queued. Approved imagery and pipeline remain separate. Internal QC is not legal certification. ES-01-NNN is the canonical numbering scheme: ES-AN-001 -> ES-01-017; ES-AN-002 -> ES-01-018. IDs 001–016 remain reserved for the prescribed starter sequence. Existing image paths retained as stable historical references.
 
-Main branch root is the deployed site. Source archive includes current public data and original editions; no private research.
+Main branch root is the current deployed source. Sagrada daylight-r4 is a candidate only: full-height framing corrected, tower geometry still fails review. Earlier editions remain preserved.
+
+Spain-merge-source.zip is a historical snapshot from before daylight-r3/r4, not the current production authority. The updated all-editions archive exceeds GitHub's browser per-file upload limit; current files and manifests are available individually in this repository. No private research is published.
