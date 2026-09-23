@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-243",
+  "country": "Spain",
+  "city": "Girona",
+  "region": "Catalonia",
+  "caption": "Old town, Girona",
+  "revision": "r1",
+  "viewpoint": "Pujada de Sant Domènec stone steps, eye-level, looking up toward the cathedral. Exact camera point approximate.",
+  "anchors": [
+    "Steep medieval stone staircase climbs through the center of the frame",
+    "Old stone houses flank the stairs on both sides",
+    "Dark silhouette of Girona Cathedral crowns the top of the stairway"
+  ],
+  "limitations": "Exact camera point unverified; illumination is warm street-lamp light only — no claim about the cathedral's actual night lighting; current conditions unverified.",
+  "refs": [
+    [
+      "https://travelsaroundspain.com/girona/",
+      "Girona old town guide (medieval walls, Jewish Quarter, cathedral)"
+    ],
+    [
+      "https://www.barcelona.de/en/barcelona-excursions-catalonia-gerona.html",
+      "Girona old town sights (Força Vella, cathedral, city walls)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Lamplit medieval stairway climbing toward the cathedral silhouette · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Girona at night.",
+  "description": "Climbing the Pujada de Sant Domènec, the steep stone steps of Girona's old town wind upward between medieval houses lit by warm street lamps. The dark silhouette of the cathedral crowns the top of the stairway against a clear night sky, and the empty lanes hold a deep, quiet calm. The model weather reports a clear 16.9°C night, and the lamplit stones glow against the dark.",
+  "file_16x9": "es-01-243-r1-16x9.png",
+  "file_4x5": "es-01-243-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "86034449243c6771a9d5d617dcfed82bc79accfcea706d6a36f2c0bdbc189309"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "69f4f2004ffe64edd54f1e4698818f5bfe7a69f81f7c4670919d0a2f4a233a3f"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-243-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3143948,
+      "sha256": "86034449243c6771a9d5d617dcfed82bc79accfcea706d6a36f2c0bdbc189309",
+      "source_file": "source-243.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Girona",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-243-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1406968,
+      "sha256": "69f4f2004ffe64edd54f1e4698818f5bfe7a69f81f7c4670919d0a2f4a233a3f",
+      "source_file": "source-243.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Girona",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.9794&longitude=2.8214&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:00",
+    "temperature_c": 16.9,
+    "weather_code": 0,
+    "weather_word": "clear sky",
+    "cloud_cover_pct": 29,
+    "is_day": 0,
+    "wind_kmh": 1.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the old town of Girona, Catalonia, at night, viewed from the Pujada de Sant Domènec stone steps. A steep medieval stone staircase climbs through the center of the frame, flanked by old stone houses on both sides; the dark silhouette of Girona Cathedral looms above at the top of the steps. Warm street lamps glow along the stairs and doorways under a clear night sky; quiet, empty old-town atmosphere."
+  },
+  "source_files": [
+    {
+      "file": "source-243.png",
+      "sha256": "b2394287ff4909ce1b0c4c896d0678ebe2dc18a83870c999aa7cffb2b1c26a38",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
