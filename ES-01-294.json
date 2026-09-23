@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-294",
+  "country": "Spain",
+  "city": "Tenerife",
+  "region": "Canary Islands",
+  "caption": "Las Teresitas, Tenerife",
+  "revision": "r1",
+  "viewpoint": "From the Las Teresitas beach near 28.5083,-16.1867, looking along the shore with the palm-lined promenade and the Anaga mountains behind. Approximate point only.",
+  "anchors": [
+    "Golden sand curving along the shore with rows of palm trees",
+    "Calm moonlit Atlantic beyond the offshore breakwater",
+    "Dark Anaga mountains rising behind; a few generic warm lights of San Andrés village behind the palms"
+  ],
+  "limitations": "Village lights are generic and approximate, not specific fixtures. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Las_Teresitas",
+      "Encyclopedic description of Las Teresitas beach (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Playa_de_Las_Teresitas",
+      "Spanish Wikipedia entry for Las Teresitas beach, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From Las Teresitas beach, looking along the moonlit shore toward the Anaga mountains near 28.5083,-16.1867. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Las Teresitas, Tenerife at night.",
+  "description": "Las Teresitas curves away under moonlight, its golden sand edged by rows of palm trees, the calm Atlantic glinting beyond the offshore breakwater. Behind the palms the dark Anaga mountains rise, with a few generic warm lights of the San Andrés village. With 8% model cloud the stars stay sharp — a quiet Canarian beach at night, lit only by the moon.",
+  "file_16x9": "es-01-294-r1-16x9.png",
+  "file_4x5": "es-01-294-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "23b3c8da39f98666902b413a9ac96292159c74aff09b51e09a2c8cab20907571"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "eaf6085be5db9494ac0972bf4a0f8c9d2a880bdb16466eb3e955f54b205c5180"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-294-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2038662,
+      "sha256": "23b3c8da39f98666902b413a9ac96292159c74aff09b51e09a2c8cab20907571",
+      "source_file": "media-generation-src-es-01-294-0-c699f7ca-5138-41f3-94c0-e7e1fe0cf1e5.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Las Teresitas, Tenerife",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-294-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1091953,
+      "sha256": "eaf6085be5db9494ac0972bf4a0f8c9d2a880bdb16466eb3e955f54b205c5180",
+      "source_file": "media-generation-src-es-01-294-0-c699f7ca-5138-41f3-94c0-e7e1fe0cf1e5.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Las Teresitas, Tenerife",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.5083&longitude=-16.1867&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:15+02:00",
+    "valid": "2026-09-24T01:15+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15+02:00, valid 2026-09-24T01:15+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic moonlit night interpretation of Las Teresitas beach in Tenerife, Canary Islands: golden sand curving along the shore with rows of palm trees; the calm moonlit Atlantic beyond the offshore breakwater; the dark Anaga mountains rising behind; a few warm distant lights of the San Andres village behind the palms, kept generic and minimal; clear starry sky; no prominent people, no text, no logos; beach centered so it survives a center crop; clean uncluttered lower foreground."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-294-0-c699f7ca-5138-41f3-94c0-e7e1fe0cf1e5.png",
+      "sha256": "f2d79dbfc4227ab0fac8e650a28cdca27d3b4865b61ca4a99bcb8d97d3eac832",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
