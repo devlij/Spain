@@ -11,7 +11,7 @@
     "White church of Sant Cristòfol small against the crags",
     "Dark reservoir gleams far below"
   ],
-  "limitations": "Exact camera point approximate; naturally dark view — no artificial lighting claimed or depicted; current conditions unverified.",
+  "limitations": "Exact camera point approximate; naturally dark view — no artificial lighting claimed or depicted; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Tavertet",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.9962&longitude=2.4201&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:35+02:00",
     "valid_local": "2026-09-24T01:30",
     "temperature_c": 14.4,
     "weather_code": 0,
