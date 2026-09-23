@@ -803,9 +803,9 @@
       "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
       "composition": "NIGHT · Public Balcón de San Lázaro on the north bank near 41.6582,-0.8741, eye level, looking southwest across the Ebro and Puente de Piedra toward the Basílica del Pilar. Approximate camera, not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Basílica del Pilar, Zaragoza at night. Puente de Piedra crosses the Ebro below the four-towered Basílica del Pilar under an overcast night sky.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit 2026-09-23: Gate 1 visual/location PASS (Basílica del Pilar towers and domes illuminated at night across the Ebro, Puente de Piedra foreground; caption/scenario/signature/disclosure correct); Gate 2 technical PASS (1920x1080 + 864x1080 exact, SHA-256 matches packet); Gate 3 provenance PASS (AI-generated, no photographic inputs; r1 selected); Gate 4 commercial/IP documentation-only (public monument, Spain FoP; chain not certified); Gate 5 publication readiness PASS."
     }
   ],
   "starters": [
