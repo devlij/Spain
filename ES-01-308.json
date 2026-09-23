@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-308",
+  "country": "Spain",
+  "city": "Lugo",
+  "region": "Galicia",
+  "caption": "Roman Walls, Lugo",
+  "revision": "r1",
+  "viewpoint": "From outside the walls near 43.0090,-7.5570, looking at the Roman walls with a defensive tower. Approximate point only.",
+  "anchors": [
+    "Intact Roman walls with a defensive tower",
+    "Faint low mist drifting around the base (model reports fog)",
+    "Ordinary street lamps only — no floodlighting claimed; starry sky with thin cloud (12% model cloud)"
+  ],
+  "limitations": "Wall illumination is ordinary street lamps only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Roman_walls_of_Lugo",
+      "Encyclopedic description of the Roman Walls of Lugo (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Muralla_romana_de_Lugo",
+      "Spanish Wikipedia entry for the Roman Walls of Lugo; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:40 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Roman Walls of Lugo, tower and parapet, in drifting mist near 43.0090,-7.5570. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Roman Walls of Lugo at night.",
+  "description": "The intact Roman Walls of Lugo stretch into the night, a defensive tower rising over the parapet. Faint low mist drifts around the base — the model reports fog at this hour — while a few ordinary street lamps mark the wall walk; no floodlighting is claimed or depicted. Thin cloud crosses the stars (12% model cloud).",
+  "file_16x9": "es-01-308-r1-16x9.png",
+  "file_4x5": "es-01-308-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "570712dd20977f84e865ca409c495eea117286826df162f8524966ee1fd5bcf0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "4c7433e629fd81ca421114030bc32057ed59ec0358af251fa1e89d280bea1262"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-308-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2529953,
+      "sha256": "570712dd20977f84e865ca409c495eea117286826df162f8524966ee1fd5bcf0",
+      "source_file": "media-generation-src-es-01-308-0-e9ec8e2f-0c54-46d8-a382-9deee02f1c3b.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roman Walls, Lugo",
+        "Scenario: 24 September 2026 · 01:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-308-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1288926,
+      "sha256": "4c7433e629fd81ca421114030bc32057ed59ec0358af251fa1e89d280bea1262",
+      "source_file": "media-generation-src-es-01-308-0-e9ec8e2f-0c54-46d8-a382-9deee02f1c3b.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roman Walls, Lugo",
+        "Scenario: 24 September 2026 · 01:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.0090&longitude=-7.5570&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Roman Walls of Lugo in Galicia: the intact Roman walls with a defensive tower, faint low mist drifting around the base; a few ordinary street lamps along the wall walk, no floodlighting; the wall stretching into the distance; starry sky above with thin cloud; no prominent people, no text, no logos; wall centered so it survives a center crop; clean uncluttered lower foreground."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-308-0-e9ec8e2f-0c54-46d8-a382-9deee02f1c3b.png",
+      "sha256": "d6af25e1c326d912100a11ef5c1468888e1068451e51743093f92d639c2d754b",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
