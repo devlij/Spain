@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-225",
+  "country": "Spain",
+  "city": "Minas de Riotinto",
+  "region": "Andalusia",
+  "caption": "Corta Atalaya, Minas de Riotinto",
+  "revision": "r1",
+  "viewpoint": "the official Mirador de Corta Atalaya, looking into the pit",
+  "anchors": [
+    "the vast terraced open-pit bowl of Corta Atalaya, 1,200 m long and 350 m deep",
+    "rust-red, ochre and violet mineral strata banding the terraced walls",
+    "the dark still depths of the pit floor far below under a starry sky"
+  ],
+  "limitations": "Text-only generation; no photographic input. The pit is not floodlit at night; the moonlit rendering is an artistic interpretation and unverified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.parquemineroderiotinto.es/que-puedes-visitar-en-el-parque-minero/#CortaAtalaya",
+      "Parque Minero de Riotinto — official Mirador de Corta Atalaya viewpoint page"
+    ],
+    [
+      "https://we-travel.at/minas-de-rio-tinto/",
+      "Riotinto travel report — Corta Atalaya 1,200 m long, 350 m deep, once the largest open-pit mine in the world; red acidic Rio Tinto waters"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:41 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · giant terraced mining pit under moonlight · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Corta Atalaya at night.",
+  "description": "From the official viewpoint, the Corta Atalaya opens as a vast terraced bowl — once among the largest open pits in the world at 1,200 m long and 350 m deep — its mineral walls banded in rust-red, ochre and violet under moonlight. The dark depths far below hold the pit's stillness, the famous red Rio Tinto flowing somewhere beyond the rim. On a clear 21°C night with almost no wind, the moonscape of Europe's largest open-pit mine feels like another planet.",
+  "file_16x9": "es-01-225-r1-16x9.png",
+  "file_4x5": "es-01-225-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "197e3719380840f8a5d52a5b533421c1a9b2e6cf14bccf29695a0f4814e8a3b9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "8c10e9d44afc3be74e0c6bef5e880aeec33b2ef77ce4f9ebfacfde4cb0842cdd"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-225-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3350502,
+      "sha256": "197e3719380840f8a5d52a5b533421c1a9b2e6cf14bccf29695a0f4814e8a3b9",
+      "source_file": "media-generation-es-01-225-source-0-98172a73-943a-4abf-9ab3-6813234ee117.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Corta Atalaya, Minas de Riotinto",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-225-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1512900,
+      "sha256": "8c10e9d44afc3be74e0c6bef5e880aeec33b2ef77ce4f9ebfacfde4cb0842cdd",
+      "source_file": "media-generation-es-01-225-source-0-98172a73-943a-4abf-9ab3-6813234ee117.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Corta Atalaya, Minas de Riotinto",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:38:39+02:00",
+    "valid": "2026-09-24T01:41:33+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 21.2,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 6.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:38:39+02:00, valid 2026-09-24T01:41:33+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Corta Atalaya open-pit mine, Minas de Riotinto, Huelva, Spain, at night. Tourist viewpoint: the official Mirador de Corta Atalaya, looking into the pit. Frame: the vast terraced open-pit bowl of Corta Atalaya centered, its concentric terraces descending; rust-red, ochre and violet mineral strata banding the terraced walls; the dark still depths of the pit floor far below under a starry sky. Night light: restrained moonlight and starlight on the terraced mineral walls, no floodlighting, clear starry sky, 21 degrees C, almost no wind. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-225-source-0-98172a73-943a-4abf-9ab3-6813234ee117.png",
+      "sha256": "6154c8dfcd239bcda4d31ac57e8d6d9d9c934aef4de0e6a5e3c213b749e431f1",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
