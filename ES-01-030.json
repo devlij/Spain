@@ -1,0 +1,234 @@
+{
+  "entry_id": "ES-01-030",
+  "country": "Spain",
+  "city": "Palma",
+  "region": "Balearic Islands",
+  "caption": "La Seu, Palma",
+  "revision": "r1",
+  "viewpoint": "Public Parc de la Mar waterside promenade near 39.5674,2.6483, eye-level looking north across the reflecting pool toward the cathedral's long south elevation. Coordinates approximate, not surveyed.",
+  "anchors": [
+    "Long honey-stone Gothic south wall with repeated tall buttresses and pinnacles",
+    "Large eastern rose window and layered flying-buttress geometry toward viewer right",
+    "Raised city wall and palms above the Parc de la Mar reflecting pool"
+  ],
+  "limitations": "Historic night photographs support illumination precedent, not the operating schedule tonight. Exact buttress rhythm, rose-window tracery, palace relationship and water-reflection strength need independent visual review. Portrait retains the cathedral's eastern mass but not the full lateral pool panorama.",
+  "refs": [
+    [
+      "https://catedraldemallorca.org/en/visits/opening-hours/",
+      "Official cathedral address and current 2026 visitor information, retrieved 24 September 2026; no lighting schedule claimed."
+    ],
+    [
+      "https://holiday.saga.co.uk/blog/majorca-palma-cathedral-visitors-guide",
+      "Complementary 9 October 2025 description places La Seu beside Almudaina overlooking Parc de la Mar."
+    ],
+    [
+      "https://www.tickets-mallorca.com/palma-cathedral/location-directions-getting-there/",
+      "Complementary daylight south-elevation photograph visually inspected 24 September 2026; capture date unknown."
+    ],
+    [
+      "https://www.brussels-charleroi-airport.com/en/destinations",
+      "Complementary night photograph asset dated June 2021 visually inspected; geometry and illumination precedent only. Fountain omitted because present operation was not verified."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public Parc de la Mar waterside promenade near 39.5674,2.6483, eye-level looking north across the reflecting pool toward the cathedral's long south elevation. Coordinates approximate, not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of La Seu, Palma at night.",
+  "description": "Long honey-stone Gothic south wall with repeated tall buttresses and pinnacles; Large eastern rose window and layered flying-buttress geometry toward viewer right; Raised city wall and palms above the Parc de la Mar reflecting pool.",
+  "file_16x9": "es-01-030-r1-16x9.png",
+  "file_4x5": "es-01-030-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "77e3d5bec7c48cdff83b95e74459d7a5661cbf15cb2f5232530bd151a15bc804"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "92d89d655d33b338a2fac4066dd75e70f3ff497c9195bd38fd3daf6d9333002a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-030-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2923623,
+      "sha256": "77e3d5bec7c48cdff83b95e74459d7a5661cbf15cb2f5232530bd151a15bc804",
+      "source_file": "030/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "La Seu, Palma",
+        "Scenario: 24 September 2026 · 00:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-030-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1418214,
+      "sha256": "92d89d655d33b338a2fac4066dd75e70f3ff497c9195bd38fd3daf6d9333002a",
+      "source_file": "030/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "La Seu, Palma",
+        "Scenario: 24 September 2026 · 00:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T22:30:25.794383+00:00",
+    "retrieved_local": "2026-09-24T00:30:25.794383+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.5674&longitude=2.6483&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 39.5625,
+      "longitude": 2.625,
+      "generationtime_ms": 0.6934404373168945,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 22.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T00:30",
+        "interval": 900,
+        "temperature_2m": 21.8,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 4.7
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:38"
+        ],
+        "sunset": [
+          "2026-09-24T19:43"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
+    "requested_coordinates": [
+      39.5674,
+      2.6483
+    ],
+    "model_grid_coordinates": [
+      39.5625,
+      2.625
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -47.14,
+      "azimuth_deg": 333.3
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:38:00+02:00",
+    "sunset_local": "2026-09-24T19:43:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T00:30:25.794383+02:00, valid 2026-09-24T00:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of La Seu Cathedral, Palma, Mallorca, from the public Parc de la Mar waterside promenade, eye-level looking north across the still rectangular reflecting pool toward the cathedral's long south elevation. Faithful geometry: an enormous elongated honey-colored Gothic nave elevated above the old city wall; repeated tall vertical buttresses and narrow pointed windows along the south side; many slender triangular pinnacles; toward viewer RIGHT a massive eastern end with a large circular rose window set high between angular flying buttresses; square plain bell-tower mass partly visible toward LEFT/rear; lower crenellated Almudaina mass and palm silhouettes to left. No twin western towers, no freestanding fountain, no giant invented dome. Entire cathedral and pool fit wide16:9, cathedral central45% so portrait crop retains main eastern mass; pool and low stone edge fill lower25%. Scenario24September2026 00:30Europe/Madrid, true Night. Fresh Open-Meteo model valid00:30:21.8C,clear0%cloud,0mm precipitation,wind4.7km/h. Sun elevation-47.14deg below northwestern horizon. Almost black clear sky, no moon, stars, clouds or twilight. Restrained warm historic-reference-informed exterior lighting, not claiming tonight's schedule; natural dark-gold reflections on calm water, no emerald fountain or HDR glare. Dry stone promenade, no people, cars, boats, flags, text, logos or watermark. Original scene, not a photograph copy. Lower20% quiet water reserved for later captions.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "8f8be50e2f5337a1e7ae014fd60fb071ca259dc68ff5736098d3fc6e59fdd08c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": [
+    {
+      "file": "palma-night.jpg",
+      "sha256": "0e967e64399a466564386dfc87449f4067d3ca7c19df90f5a6cd8152d10a64ae"
+    },
+    {
+      "file": "palma-day.jpg",
+      "sha256": "c8e2c7faa20ee1cb57a8255de4d1504eb83e987a01b58381ccf10b5e0228f3df"
+    }
+  ]
+}
