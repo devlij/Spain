@@ -907,9 +907,9 @@
       "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
       "composition": "Night · Public south-side village overlook near Carrer de na Mas/MA-1110 approach, approximately 39.7108,2.6229, eye-level looking north across stone houses toward the Cartoixa church tower. Exact camera coordinate is approximate and not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cartoixa, Valldemossa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: recognizably Cartoixa de Valldemossa — the monastery mass with its green-spired tower rising above the village rooftops against the Tramuntana mountain backdrop from the documented overlook viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night lighting noted as precedent-based per the packet's honest limitations disclosure."
     },
     {
       "entry_id": "ES-01-032",
