@@ -881,9 +881,9 @@
       "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
       "composition": "Night · Public El Muro promenade at western San Lorenzo beach near 43.5426,-5.6569, eye-level looking approximately northwest toward San Pedro church, with sea to right. Approximate coordinates, not surveyed camera. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Playa de San Lorenzo, Gijón at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit passed. Gate 1: San Pedro church with its single square sandy-stone belfry and pointed tile roof stands on the stone seawall at the western beach end, town buildings behind left, Cantabrian surf breaking right; recognizably the real landmark from the El Muro promenade viewpoint. The packet's residual deviations (main window slightly pointed, side-aisle treatment differing from reference) assessed as acceptable ornament-level differences, not misconfiguration. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents own text-only r2 source edited to r3, no third-party image pixels; tide depicted is compositional (disclosed) and lighting precedent historical only. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready."
     }
   ],
   "starters": [
