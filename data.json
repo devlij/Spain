@@ -248,29 +248,59 @@
       "region": "Andalusia",
       "city": "Granada",
       "caption": "Alhambra, Granada",
-      "scenario_label": "23 September 2026 · 11:34 Europe/Madrid",
-      "composition": "Morning daylight · Ensemble from Mirador de San Nicolás · AI-generated artistic interpretation",
-      "alt_text": "AI-generated artistic interpretation of the Alhambra across its wooded ridge in morning daylight. Candidate review draft.",
-      "description": "The palace-and-fortress ensemble spans the wooded ridge above the Darro valley. Both formats retain the main landmark span. The central palace mass and tower proportions need correction before approval.",
+      "scenario_label": "23 September 2026 · 12:33 Europe/Madrid",
+      "composition": "Midday daylight · Ensemble from Mirador de San Nicolás · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Alhambra palace-and-fortress ensemble from Mirador de San Nicolás in clear midday light.",
+      "description": "The Alhambra spans its wooded ridge above the Darro valley: Generalife separate at far left, the Nasrid Palace and Comares group left-center, and the military Alcazaba with bell-topped Torre de la Vela to the right. Both formats retain the full main ensemble.",
       "viewpoint": "Mirador de San Nicolás, looking south-southeast at approximate eye level. Named viewpoint is map-supported; exact generated camera correspondence is unverified.",
-      "status": "Candidate · palace and tower proportions require correction · not approved",
-      "approval_state": "candidate",
+      "status": "Approved · internal editorial QC · Midday daylight",
+      "approval_state": "approved",
       "gates": {
-        "visual": "not passed — central palace mass and tower proportions differ from reference; façade illumination also requires review",
-        "technical": "pass — inspected both exact PNG exports, full main landmark span and all four labels",
-        "provenance": "recorded — text-only generation followed by own-image framing edit; originality not independently established",
-        "commercial_ip": "no prominent identifiable people or legible logos seen; third-party clearance unverified; internal review only",
-        "publication": "pipeline review only — not approved gallery"
+        "visual": "pass — reference comparison confirms major ridge order and permanent skyline anchors; fine generated detail remains interpretive",
+        "technical": "pass — both exact PNG dimensions inspected; full ensemble, margins, gradient labels and signature retained; no stretching",
+        "provenance": "pass for recorded production lineage — text-only generation, two own-image edits, deterministic same-source exports; uniqueness not independently guaranteed",
+        "commercial_ip": "pass for internal blocking-artifact review — no prominent people, logos or focal copyrighted artwork seen; third-party rights not legally certified",
+        "publication": "pass — exact caption, scenario, disclosure and signature present; gallery placement authorized by standing production rules"
       },
-      "weather": "Model data from Open-Meteo, retrieved 23 September 2026 11:34:40 Europe/Madrid, valid 11:30 Europe/Madrid — not a verified on-site observation. 25.6°C, mainly clear, cloud 29%. Sunrise 08:02, sunset 20:09; outside twilight window.",
-      "limitations": "Not approved. Central palace mass, tower proportions and directional façade lighting need review. Generated vegetation and fine architectural details are not on-site observations. Originality and commercial/IP clearance remain unverified.",
-      "file_16x9": "es-01-004-16x9.png",
-      "file_4x5": "es-01-004-4x5.png",
+      "weather": "Model data from Open-Meteo, retrieved 23 September 2026 12:33:24 Europe/Madrid, valid 12:30 Europe/Madrid — not a verified on-site observation. 27.9°C, mainly clear, cloud 21%, precipitation 0 mm, wind 10.5 km/h. Sunrise 08:02, sunset 20:09; daylight outside the twilight window.",
+      "limitations": "Editorially approved as an AI-generated artistic interpretation. Fine masonry, vegetation and transient details are generated rather than on-site observations. Originality and third-party commercial/IP clearance are not legally certified.",
+      "file_16x9": "es-01-004-r2-16x9.png",
+      "file_4x5": "es-01-004-r2-4x5.png",
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license",
-      "editions": [],
-      "time_of_day": "Morning daylight",
-      "revision_lineage": "Built-in image_gen.imagegen text-only generation followed by one own-image framing edit. No external photographic pixels supplied. Both masters exported from the same edited source with uniform resampling, center crop and deterministic gradient text."
+      "editions": [
+        {
+          "label": "Earlier candidate · 11:34 · architecture rejected · 16:9",
+          "file": "es-01-004-16x9.png",
+          "status": "rejected candidate"
+        },
+        {
+          "label": "Earlier candidate · 11:34 · architecture rejected · 4:5",
+          "file": "es-01-004-4x5.png",
+          "status": "rejected candidate"
+        }
+      ],
+      "time_of_day": "Midday daylight",
+      "revision_lineage": "Built-in image generation from a text-only prompt, then one own-image skyline correction and one own-image framing expansion. No photographic pixels supplied. Both masters exported from the same final source with uniform resampling, center crop and deterministic gradient text.",
+      "approval_basis": "Internal five-gate editorial review on 23 September 2026 after direct comparison with two complementary references. The major ridge arrangement, permanent skyline anchors, scenario lighting and paired framing pass the adopted qualitative target. This is not legal certification.",
+      "review_history": [
+        {
+          "previous_status": "Candidate · palace and tower proportions require correction · not approved",
+          "previous_scenario": "23 September 2026 · 11:34 Europe/Madrid",
+          "previous_files": [
+            "es-01-004-16x9.png",
+            "es-01-004-4x5.png"
+          ],
+          "previous_gates": {
+            "visual": "not passed — central palace mass and tower proportions differ from reference; façade illumination also requires review",
+            "technical": "pass — inspected both exact PNG exports, full main landmark span and all four labels",
+            "provenance": "recorded — text-only generation followed by own-image framing edit; originality not independently established",
+            "commercial_ip": "no prominent identifiable people or legible logos seen; third-party clearance unverified; internal review only",
+            "publication": "pipeline review only — not approved gallery"
+          },
+          "resolution": "Superseded by a fresh 12:33 text-only revision correcting the Palace of Charles V prominence, permanent bell-tower skyline and paired framing. Earlier bytes remain preserved."
+        }
+      ]
     }
   ],
   "starters": [
