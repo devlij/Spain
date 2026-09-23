@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-321",
+  "country": "Spain",
+  "city": "Castro Urdiales",
+  "region": "Cantabria",
+  "caption": "Castro Urdiales, Cantabria",
+  "revision": "r1",
+  "viewpoint": "From the harbor near 43.3820,-3.2140, looking at the church and medieval bridge. Approximate point only.",
+  "anchors": [
+    "Gothic church of Santa María and medieval bridge silhouettes",
+    "Ordinary harbor lamps and moonlight only — no floodlighting claimed",
+    "Warm harbor lamps reflected in the calm moonlit water; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Illumination is harbor lamps and moonlight only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Castro_Urdiales",
+      "Encyclopedic description of Castro Urdiales (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Castro-Urdiales",
+      "Spanish Wikipedia entry for Castro Urdiales; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From Castro Urdiales, the Santa María church and medieval bridge near 43.3820,-3.2140. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Castro Urdiales at night.",
+  "description": "In Castro Urdiales the Gothic church of Santa María and the medieval bridge stand as silhouettes against the night, lit only by ordinary harbor lamps and moonlight — no floodlighting is claimed or depicted. Their warmth is reflected in the calm moonlit water under a clear model sky (0% cloud).",
+  "file_16x9": "es-01-321-r1-16x9.png",
+  "file_4x5": "es-01-321-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0a289cd543199393599a94b42b990c55868202fd0eb893bf0d10b5eafe5adf1d"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "1d4cce8d313db740d4be72a7eeed3310a579eb6e5ffedb23b89bbe2aa1d87471"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-321-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2088251,
+      "sha256": "0a289cd543199393599a94b42b990c55868202fd0eb893bf0d10b5eafe5adf1d",
+      "source_file": "media-generation-src-es-01-321-0-959023d3-18e2-4156-a3ea-ab4c03956c7d.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Castro Urdiales, Cantabria",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-321-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1106215,
+      "sha256": "1d4cce8d313db740d4be72a7eeed3310a579eb6e5ffedb23b89bbe2aa1d87471",
+      "source_file": "media-generation-src-es-01-321-0-959023d3-18e2-4156-a3ea-ab4c03956c7d.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Castro Urdiales, Cantabria",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3820&longitude=-3.2140&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:45+02:00",
+    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of Castro Urdiales in Cantabria: the Gothic church of Santa Maria and the medieval bridge silhouettes against the night, lit only by ordinary harbor lamps and moonlight, no floodlighting; warm harbor lamps reflected in the calm moonlit water; clear starry sky; no prominent people, no text, no logos; church and bridge centered so they survive a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-321-0-959023d3-18e2-4156-a3ea-ab4c03956c7d.png",
+      "sha256": "fc0bd3061ccee60892658323b23229aa8773fdd990ae2ef1deeb95128ca777fe",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
