@@ -415,32 +415,37 @@
       "file_4x5": "es-01-005-r3-4x5.png",
       "license_badge": "Free · no credit needed",
       "license_anchor": "#license",
-      "status": "Awaiting Cosmo QC · Daylight",
-      "limitations": "Independent Cosmo QC is pending. The earlier production record contains an internal review only; it is not a Cosmo verdict or legal certification. Fine architecture, transient conditions, originality and third-party rights remain subject to review.",
+      "status": "Approved · Cosmo QC 5/5 · Daylight",
+      "limitations": "Cosmo approval relayed by Jason for the exact r3 pair. Earlier internal approval was demoted and retained as history; the independent verdict is Cosmo’s. Generated fine detail and third-party rights are not legally certified.",
       "historical_editions": [
         "Initial 3:2 source before lateral outpaint",
         "r2 pair before correction of the invented clock-like detail",
         "first truncated landscape export attempt, rejected as invalid"
       ],
-      "approval_state": "candidate",
+      "approval_state": "approved",
       "description": "The bell tower and Puerta del Perdón rise at the north edge of the Patio de los Naranjos. The view looks along a courtyard path between orange trees toward the tower and gateway.",
       "viewpoint": "Central path of the Patio de los Naranjos, approximately 37.87923, -4.77982, looking north at eye level. Exact generated camera correspondence is unverified.",
       "weather": "Model data from Open-Meteo, retrieved 23 September 2026 13:35:20 Europe/Madrid, valid 13:30 Europe/Madrid — not a verified on-site observation. 31.9°C, clear, cloud 12%. Sunrise 08:07, sunset 20:14.",
-      "approval_basis": "No independent approval claimed. Saved r3 pair placed in candidate pipeline for Cosmo review.",
+      "approval_basis": "Cosmo APPROVED 5/5 for the exact r3 pair, relayed by Jason on 23 September 2026. The reviewer reports matching both review-packet SHA-256 hashes, correct courtyard tower/gateway, and removal of the invented r2 clock detail. Not a Jason review or publishing-agent verdict.",
       "time_of_day": "Daylight",
       "editions": [],
       "gates": {
-        "visual": "pending — Cosmo QC",
+        "visual": "Cosmo QC APPROVED 5/5, relayed by Jason; not a new agent review",
         "technical": "PNG bytes fully decoded; dimensions and SHA-256 recorded",
         "provenance": "saved generation lineage; uniqueness unverified",
         "commercial_ip": "unverified; no legal certification",
-        "publication": "candidate pipeline only"
+        "publication": "Approved gallery authorized by relayed Cosmo verdict; live status requires successful deployment"
       },
       "review_history": [
         {
           "date": "2026-09-23",
           "previous_status": "Approved · internal five-gate editorial review · Daylight",
           "resolution": "Independent QC is reserved for Cosmo. Earlier internal review is retained as production history, not treated as independent approval. Existing r3 image bytes preserved."
+        },
+        {
+          "date": "2026-09-23",
+          "previous_status": "Awaiting Cosmo QC · Daylight",
+          "resolution": "Cosmo APPROVED 5/5 for the exact r3 pair, relayed by Jason on 23 September 2026. The reviewer reports matching both review-packet SHA-256 hashes, correct courtyard tower/gateway, and removal of the invented r2 clock detail. Not a Jason review or publishing-agent verdict."
         }
       ],
       "dimensions": {
@@ -457,27 +462,64 @@
           "bytes": 1236714
         }
       }
-    }
-  ],
-  "starters": [
-    {
-      "entry_id": "ES-01-005",
-      "caption": "Mezquita-Catedral, Córdoba",
-      "city": "Córdoba",
-      "region": "Andalusia",
-      "composition": "A specifically identified exterior façade and its relationship to the surrounding streets.",
-      "status": "Queued — not generated",
-      "country": "Spain"
     },
     {
       "entry_id": "ES-01-006",
-      "caption": "Seville Cathedral and Giralda, Seville",
-      "city": "Seville",
+      "country": "Spain",
       "region": "Andalusia",
-      "composition": "The cathedral mass and Giralda tower from a named public square.",
-      "status": "Queued — not generated",
-      "country": "Spain"
-    },
+      "city": "Seville",
+      "caption": "Seville Cathedral and Giralda, Seville",
+      "scenario_label": "23 September 2026 · 16:35 Europe/Madrid",
+      "composition": "Daylight · Plaza Virgen de los Reyes · AI-generated artistic interpretation",
+      "alt_text": "AI-generated interpretation of Seville Cathedral and Giralda from Plaza Virgen de los Reyes, with removed azucena finials and localized crown scaffolding, in clear afternoon daylight.",
+      "description": "The cathedral’s Gothic east end stands left of the Giralda, with the Archbishop’s Palace at the right edge and the fountain-lamp in the plaza foreground. The Giralda’s azucena finials are currently removed for restoration: one group fell in the February storm and the remaining three were removed on 21 February 2026. The central Giraldillo remains. Localized upper-crown scaffolding is depicted using the 3 September report and photograph; its exact arrangement on the scenario date is not independently observed.",
+      "restoration_status": "The Giralda’s azucena finials are currently removed for restoration: one group fell in the February storm and the remaining three were removed on 21 February 2026. The central Giraldillo remains. Localized upper-crown scaffolding is depicted using the 3 September report and photograph; its exact arrangement on the scenario date is not independently observed.",
+      "viewpoint": "East side of Plaza Virgen de los Reyes looking west, approximate eye-level camera at 37.386192, -5.991889. Coordinates are reported for a historical reference viewpoint, not a surveyed generated camera.",
+      "weather": "Model data from Open-Meteo, retrieved 23 September 2026 16:35:12 Europe/Madrid, valid 16:30 Europe/Madrid — not a verified on-site observation. 35.8°C, clear, cloud 0%, precipitation 0 mm. Sunrise 08:12, sunset 20:19. Approximate solar elevation 40.94°, azimuth 228.95°.",
+      "status": "Awaiting Cosmo QC · Daylight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval claimed. Independent verdict reserved for Cosmo.",
+      "time_of_day": "Daylight",
+      "limitations": "Awaiting independent Cosmo QC. Scaffold placement is an interpretation of the 3 September photograph, not a same-day survey. Fine masonry, lamp/fountain proportions and solar shading require review. Exact-size exports are upscaled from a 1672×941 generated source; pixel dimensions do not imply native detail. Third-party rights are not legally certified.",
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license",
+      "editions": [],
+      "historical_editions": [
+        "r1 generated source rejected for an invented foreground column/monument; preserved privately"
+      ],
+      "revision_lineage": "Built-in text-only image generation followed by one own-image correction removing an invented foreground monument and correcting the fountain base. Uniform Lanczos resampling and crop from the same 1672×941 r2 source; deterministic gradient/text export. No photographic input pixels supplied.",
+      "dimensions": {
+        "16x9": {
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3058001,
+          "sha256": "e78ec18ae12f8414da3c57a07f504cc347d382c27beee992343abd459bd58e8a",
+          "source_width": 1672,
+          "source_height": 941,
+          "resampled": true
+        },
+        "4x5": {
+          "width": 864,
+          "height": 1080,
+          "bytes": 1293511,
+          "sha256": "ba9371f2b6baa448463027d21971f832f5583e7d8c44dcd5f51ae2263d3ae652",
+          "source_width": 1672,
+          "source_height": 941,
+          "resampled": true
+        }
+      },
+      "gates": {
+        "visual": "pending — independent Cosmo QC",
+        "technical": "Local PNGs fully decoded; exact dimensions and SHA-256 recorded; both final exports visually opened",
+        "provenance": "Built-in generation and one own-image correction recorded; uniqueness not established",
+        "commercial_ip": "unverified; no legal certification",
+        "publication": "candidate pipeline only; independent approval pending"
+      },
+      "file_16x9": "es-01-006-r2-16x9.png",
+      "file_4x5": "es-01-006-r2-4x5.png"
+    }
+  ],
+  "starters": [
     {
       "entry_id": "ES-01-007",
       "caption": "Plaza de España, Seville",
