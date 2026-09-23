@@ -764,9 +764,9 @@
       "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
       "composition": "NIGHT · Public Carrera del Darro parapet immediately east of Puente de Cabrera, looking west along the river toward the small stone bridge; Albaicín street on image right. Weather anchor37.1786,-3.5932 approximate; exact camera not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Carrera del Darro, Granada at night. A small stone bridge crosses the shallow Darro beside the lamplit Carrera del Darro in the Albaicín.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit PASS: Gate 1 — small stone bridge over the shallow Darro beside the lamplit Carrera del Darro from the east parapet, recognizably the captioned Albaicín streetscape at night, clean framing, no artifacts; Gate 2 — both masters at exact 1920×1080/864×1080 with SHAs matching the packet, exact caption 'Carrera del Darro, Granada', scenario timestamp '23 September 2026 · 21:52 Europe/Madrid', disclosure and 'Jason D's Vision' signature legible on the bottom gradient; Gate 3 — packet documents reference evidence only, no third-party image pixels used as generation inputs; Gate 4 documentation-only — no visible people/logos; public streetscape; Gate 5 — publication ready, no open blockers."
     }
   ],
   "starters": [
