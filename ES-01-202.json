@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-202",
+  "country": "Spain",
+  "city": "Málaga",
+  "region": "Andalusia",
+  "caption": "Málaga Cathedral, Málaga",
+  "revision": "r1",
+  "viewpoint": "Plaza del Obispo, looking up at the cathedral",
+  "anchors": [
+    "84-metre north tower ('La Manquita') rising right of center",
+    "Renaissance west façade with arches, columns and carved reliefs",
+    "old-town rooftops and glowing street lamps in the foreground"
+  ],
+  "limitations": "Text-only generation; no photographic input. Façade floodlighting is an artistic interpretation; actual illumination state at the scenario hour is unverified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.andalucia.org/en/malaga-cultural-tourism-catedral-de-malaga",
+      "Andalucía tourism board — Catedral de Málaga, Calle Molina Lario 9"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/M%C3%A1laga_Cathedral",
+      "Encyclopedia — Renaissance cathedral built 1528–1782, 84 m north tower, unfinished south tower"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · 'La Manquita' tower over the old town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Málaga Cathedral at night.",
+  "description": "From Plaza del Obispo, Málaga's 'one-armed lady' rises against the night — the 84-metre north tower standing right of center, the grand Renaissance façade glowing below it. Street lamps dot the old-town rooftops in the foreground. The night is clear and mild at about 21°C, and the lit stonework gives the unfinished cathedral a theatrical presence.",
+  "file_16x9": "es-01-202-r1-16x9.png",
+  "file_4x5": "es-01-202-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "dd27569d2c8af63c54f39307165105d04ed9b7210ce205d85d2ca93c8309d340"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "ffc5cb06e1be21d43708a1be0b9cebadc4010b294bd6ed1835c3e2d3e7113c68"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-202-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2290091,
+      "sha256": "dd27569d2c8af63c54f39307165105d04ed9b7210ce205d85d2ca93c8309d340",
+      "source_file": "media-generation-es-01-202-source-0-6c45d46a-9cfe-4fed-b180-292aee0b53e8.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Málaga Cathedral, Málaga",
+        "Scenario: 24 September 2026 · 01:15 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-202-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1141146,
+      "sha256": "ffc5cb06e1be21d43708a1be0b9cebadc4010b294bd6ed1835c3e2d3e7113c68",
+      "source_file": "media-generation-es-01-202-source-0-6c45d46a-9cfe-4fed-b180-292aee0b53e8.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Málaga Cathedral, Málaga",
+        "Scenario: 24 September 2026 · 01:15 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:13:14+02:00",
+    "valid": "2026-09-24T01:15:17+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 20.9,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 5.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:13:14+02:00, valid 2026-09-24T01:15:17+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Malaga Cathedral ('La Manquita'), Spain, at night. Tourist viewpoint: Plaza del Obispo looking up at the cathedral. Frame: the 84-metre north tower rising right of center, its Baroque stonework catching warm light; the grand Renaissance west facade with arches, columns and carved reliefs; old-town rooftops and glowing street lamps in the foreground. Night light: warm street and facade lighting, clear sky, 21 degrees C, light breeze; monument illumination is an artistic interpretation. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-202-source-0-6c45d46a-9cfe-4fed-b180-292aee0b53e8.png",
+      "sha256": "fcc7e3d28eb56d5695f5178ff69b1087273f9a63a23db1979e4ebdde7bbb239b",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
