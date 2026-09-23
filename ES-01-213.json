@@ -1,0 +1,150 @@
+{
+  "entry_id": "ES-01-213",
+  "country": "Spain",
+  "city": "Zahara de la Sierra",
+  "region": "Andalusia",
+  "caption": "Zahara de la Sierra, Cádiz",
+  "revision": "r1",
+  "viewpoint": "the village plaza below, looking up past whitewashed houses to the castle ruins and Torre del Homenaje on the peak",
+  "anchors": [
+    "the Torre del Homenaje and ruined castle walls silhouetted on the peak, moonlit",
+    "whitewashed houses cascading down the hillside, scattered warm windows",
+    "the dark turquoise reservoir glinting at the foot of the mountains behind"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time state of castle lighting is unverified; the castle is closed at night. Exact camera position unverified.",
+  "refs": [
+    "https://andalucialovers.com/en/things-to-do-village-zahara-de-la-sierra-visit/",
+    "https://www.thevivalavita.com/day-trip-to-zahara-de-la-sierra-spain/"
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · castle ruins above the white village at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Zahara de la Sierra at night.",
+  "description": "From the village plaza, Zahara de la Sierra's 13th-century castle crowns the peak, its Torre del Homenaje and ruined walls moonlit above the cascade of whitewashed houses. Warm windows glow here and there along the steep streets, and the turquoise Zahara-El Gastor reservoir glints dark at the foot of the Grazalema mountains. On a clear 23°C night in one of Andalusia's most beautiful inland villages, the frontier fortress feels like the silent watchman it once was.",
+  "file_16x9": "es-01-213-r1-16x9.png",
+  "file_4x5": "es-01-213-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "80b87a56d889bbb6fbeddd43435b67d869f64d5b19c68c90cca8ca2a3f17d918"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "2e8fdec0c45694b22ba36da1505106d210b0ffda63d2dce0ef1ec490f62afa1f"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-213-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2448836,
+      "sha256": "80b87a56d889bbb6fbeddd43435b67d869f64d5b19c68c90cca8ca2a3f17d918",
+      "source_file": "media-generation-es-01-213-source-0-35e200ea-b7a5-47b5-96ad-a548a1b73259.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Zahara de la Sierra, Cádiz",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-213-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1309950,
+      "sha256": "2e8fdec0c45694b22ba36da1505106d210b0ffda63d2dce0ef1ec490f62afa1f",
+      "source_file": "media-generation-es-01-213-source-0-35e200ea-b7a5-47b5-96ad-a548a1b73259.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Zahara de la Sierra, Cádiz",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:23:32+02:00",
+    "valid": "2026-09-24T01:24:36+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": null,
+    "temperature_2m": 23.1,
+    "weather_code": 0,
+    "cloud_cover": 2,
+    "wind_speed_10m": 9.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:23:32+02:00, valid 2026-09-24T01:24:36+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Zahara de la Sierra, Spain, at night. Tourist viewpoint: the village plaza below, looking up past whitewashed houses to the castle ruins on the peak. ANCHORS: the Torre del Homenaje and ruined castle walls silhouetted on the peak, moonlit; whitewashed houses cascading down the hillside with scattered warm windows; the dark reservoir glinting at the foot of the mountains behind. LIGHTING: moonlight on the ruined walls and the water, warm village windows below, clear starry sky. Photorealistic, night landscape, no people, no watermark."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-213-source-0-35e200ea-b7a5-47b5-96ad-a548a1b73259.png",
+      "sha256": "dc50b5503652c3604f5cbec48c88e4f946da25858cabe01c5676d76694dbae06",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
