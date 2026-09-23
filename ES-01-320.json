@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-320",
+  "country": "Spain",
+  "city": "San Vicente de la Barquera",
+  "region": "Cantabria",
+  "caption": "San Vicente de la Barquera, Cantabria",
+  "revision": "r1",
+  "viewpoint": "From the estuary near 43.3840,-4.3980, looking at the old town on the hill. Approximate point only.",
+  "anchors": [
+    "Old town lights scattered on the hill with the church silhouette above",
+    "Warm harbor lamps reflected in the calm moonlit estuary",
+    "Clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Church and town lamps are generic; no specific fixtures claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/San_Vicente_de_la_Barquera",
+      "Encyclopedic description of San Vicente de la Barquera (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/San_Vicente_de_la_Barquera",
+      "Spanish Wikipedia entry for San Vicente de la Barquera; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From San Vicente de la Barquera, old town on the hill above the estuary near 43.3840,-4.3980. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of San Vicente de la Barquera at night.",
+  "description": "San Vicente de la Barquera's old town lights are scattered on the hill, the church silhouette rising above them. Warm harbor lamps are reflected in the calm moonlit estuary. With 0% model cloud the sky stays clear and starry over the Cantabrian coast.",
+  "file_16x9": "es-01-320-r1-16x9.png",
+  "file_4x5": "es-01-320-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bc5679c24e227eada90d42e3197e3ddbbcba33d94120bfa4b8eb31c740e626f8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "91cf57a870b208e2fe2831a962bfe64cce024bbd8234cab87267e0e3ef61b8a1"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-320-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2163444,
+      "sha256": "bc5679c24e227eada90d42e3197e3ddbbcba33d94120bfa4b8eb31c740e626f8",
+      "source_file": "media-generation-src-es-01-320-0-072c5b8f-e318-4703-9ee2-65b8cbfc1853.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "San Vicente de la Barquera, Cantabria",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-320-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1097028,
+      "sha256": "91cf57a870b208e2fe2831a962bfe64cce024bbd8234cab87267e0e3ef61b8a1",
+      "source_file": "media-generation-src-es-01-320-0-072c5b8f-e318-4703-9ee2-65b8cbfc1853.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "San Vicente de la Barquera, Cantabria",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3840&longitude=-4.3980&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:45+02:00",
+    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of San Vicente de la Barquera in Cantabria: the old town lights scattered on the hill with the church silhouette above; warm harbor lamps reflected in the calm moonlit estuary; a low fishing boat silhouette in the foreground; clear starry sky; no prominent people, no text, no logos; town and church centered so they survive a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-320-0-072c5b8f-e318-4703-9ee2-65b8cbfc1853.png",
+      "sha256": "70491ff2b447357c2e4bbc9dde511ace16be287ca9ef1cd75798a9833fad82b6",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
