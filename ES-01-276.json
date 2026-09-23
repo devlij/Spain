@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-276",
+  "country": "Spain",
+  "city": "Altea",
+  "region": "Catalonia",
+  "caption": "Old town, Altea",
+  "revision": "r1",
+  "viewpoint": "Waterfront promenade, eye-level, facing the old town. Exact camera point approximate.",
+  "anchors": [
+    "Whitewashed old town climbs centered",
+    "Blue-domed church of Nuestra Señora del Consuelo with tiled dome",
+    "Dark sea lies in the foreground"
+  ],
+  "limitations": "Exact camera point approximate; lamp light only — no claim about specific illumination; current conditions unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Altea",
+      "Altea (whitewashed old town, Nuestra Señora del Consuelo)"
+    ],
+    [
+      "https://www.costablanca.org/en/discover_alicante/place/altea",
+      "Altea guide (old town, blue-domed church, waterfront)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Whitewashed old town under the blue-domed church · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Altea at night.",
+  "description": "From the waterfront promenade, the whitewashed old town of Altea climbs centered to the church of Nuestra Señora del Consuelo, its blue tiled dome catching warm lamplight, while the white houses glow softly. The dark sea lies in the foreground under a mainly clear starry sky. A 21.3°C night; lamp light only, no floodlighting claimed.",
+  "file_16x9": "es-01-276-r1-16x9.png",
+  "file_4x5": "es-01-276-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3c87a41706d8737ada67dac73e61bb2c56e46a9a7b7ba7440ebd762e0540687b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "4501bb18b55230ea585eb05914f5b3ef1971613a1c25fc295501da8179205550"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-276-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2207634,
+      "sha256": "3c87a41706d8737ada67dac73e61bb2c56e46a9a7b7ba7440ebd762e0540687b",
+      "source_file": "source-276.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Altea",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-276-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1160440,
+      "sha256": "4501bb18b55230ea585eb05914f5b3ef1971613a1c25fc295501da8179205550",
+      "source_file": "source-276.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Altea",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=38.6&longitude=-0.048&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:30",
+    "temperature_c": 21.3,
+    "weather_code": 1,
+    "weather_word": "mainly clear",
+    "cloud_cover_pct": 16,
+    "is_day": 0,
+    "wind_kmh": 6.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the old town of Altea on the Costa Blanca at night, viewed from the waterfront promenade. The whitewashed old town climbs centered to the blue-domed church of Nuestra Señora del Consuelo, its tiled dome catching warm lamplight; white houses glow softly; the dark sea lies in the foreground under a mainly clear starry sky."
+  },
+  "source_files": [
+    {
+      "file": "source-276.png",
+      "sha256": "c14ebfe1f816397b7902569bf570abe7a229590e066a6628993f159cc98d0a70",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
