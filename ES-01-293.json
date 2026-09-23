@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-293",
+  "country": "Spain",
+  "city": "Lanzarote",
+  "region": "Canary Islands",
+  "caption": "Cueva de los Verdes, Lanzarote",
+  "revision": "r1",
+  "viewpoint": "Inside the Cueva de los Verdes lava tube near 29.1610,-13.4380, looking along the illuminated underground passage. Approximate point only.",
+  "anchors": [
+    "Long volcanic tunnel stretching into darkness",
+    "Designed warm amber accent lighting washing the tube walls",
+    "Still dark pool in the foreground mirroring the tunnel — the cave's famous optical illusion"
+  ],
+  "limitations": "Lighting arrangement is approximate and artistic; the auditorium is not depicted. Exact viewpoint unverified. Current opening status not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cueva_de_los_Verdes",
+      "Encyclopedic description of the Cueva de los Verdes (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Cueva_de_los_Verdes",
+      "Spanish Wikipedia entry for the Cueva de los Verdes, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Cueva de los Verdes lava tube, looking along the illuminated underground passage near 29.1610,-13.4380. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Cueva de los Verdes, Lanzarote at night.",
+  "description": "Inside the Cueva de los Verdes the great lava tube stretches into darkness, its walls washed by the venue's designed warm amber lighting — this is a concert venue carved into the volcanic rock, so the illumination is part of the place itself. A still pool in the foreground mirrors the tunnel in the cave's famous optical illusion. With 0% model cloud above ground, the scene underground stays crisp and self-contained.",
+  "file_16x9": "es-01-293-r1-16x9.png",
+  "file_4x5": "es-01-293-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e26fcfc9797ce2fa2649ee4019daf1399371d5784835fc098d1a35d3570812c6"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "33e60224e1237821d665b159c23561635e92ce60467d4fa30389076cbb9efa12"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-293-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3159561,
+      "sha256": "e26fcfc9797ce2fa2649ee4019daf1399371d5784835fc098d1a35d3570812c6",
+      "source_file": "media-generation-src-es-01-293-0-2ac15cbd-7f7d-4afc-8c56-6f3dac9e8c75.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cueva de los Verdes, Lanzarote",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-293-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1435068,
+      "sha256": "33e60224e1237821d665b159c23561635e92ce60467d4fa30389076cbb9efa12",
+      "source_file": "media-generation-src-es-01-293-0-2ac15cbd-7f7d-4afc-8c56-6f3dac9e8c75.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cueva de los Verdes, Lanzarote",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=29.1610&longitude=-13.4380&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:15+02:00",
+    "valid": "2026-09-24T01:15+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15+02:00, valid 2026-09-24T01:15+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation inside the Cueva de los Verdes lava tube in Lanzarote, Canary Islands, at night: a long volcanic tunnel stretching into darkness; the tube walls washed by the venue's designed warm amber accent lighting; a still dark pool in the foreground creating a mirror reflection of the tunnel, the cave's famous optical illusion; no prominent people, no text, no logos; tunnel centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-293-0-2ac15cbd-7f7d-4afc-8c56-6f3dac9e8c75.png",
+      "sha256": "ade6ca1e4b1d8010788e906c31582998c059d87a1cb76f2ea8e8fafe3c9fc710",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
