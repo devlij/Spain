@@ -1,0 +1,300 @@
+{
+  "entry_id": "ES-01-016",
+  "country": "Spain",
+  "region": "Valencian Community",
+  "city": "Valencia",
+  "caption": "City of Arts and Sciences, Valencia",
+  "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+  "composition": "NIGHT · Northeast reflecting-pool promenade facing southwest toward the Hemisfèric; approximate camera near 39.457168,-0.353358, based on the documented Commons viewpoint, not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of City of Arts and Sciences, Valencia at night. The Hemisfèric glass shell and central auditorium reflect in the basin beneath a partly cloudy night sky.",
+  "description": "The Hemisfèric glass shell and central auditorium reflect in the basin beneath a partly cloudy night sky.",
+  "viewpoint": "Northeast reflecting-pool promenade facing southwest toward the Hemisfèric; approximate camera near 39.457168,-0.353358, based on the documented Commons viewpoint, not surveyed.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T21:52:42.263740+02:00, valid 2026-09-23T21:45 Europe/Madrid; not a verified on-site observation. 24.2°C, WMO 2, 55% cloud, 0.0 mm precipitation, 2.0 km/h wind. Sunrise 07:49, sunset 19:57; sun elevation -22.44°, azimuth 290.07° clockwise from north, below horizon. Night; no direct sunlight.",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "approval_basis": "No approval claimed. Independent exact-pair five-gate review pending.",
+  "time_of_day": "Night",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "The shell opening state and architectural illumination are not verified for this particular night; the skyline and fine rib geometry remain subject to independent review. Exact-size PNGs are resampled from a 1672×941 built-in generated source; dimensions do not imply native detail. Model weather is not observation. Internal review is not legal certification.",
+  "revision": "r2",
+  "revision_lineage": "Built-in text-only generation r1; built-in own-source framing edit r2, retaining the original recorded scenario. Both formats use the same selected source, uniform Lanczos crop/resampling, deterministic gradient and typography; no separate portrait generation. Model version not exposed.",
+  "historical_editions": [
+    {
+      "file": "source-r1.png",
+      "sha256": "7a41c22fad276d3de892faffadc3b8f41770fdfefec9592195cf2ea82c034737",
+      "bytes": 2076857,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "retained_in_review_archive": true
+    }
+  ],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f",
+      "bytes": 2532585,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2",
+      "bytes": 1135717,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    }
+  },
+  "file_16x9": "es-01-016-r2-16x9.png",
+  "file_4x5": "es-01-016-r2-4x5.png",
+  "references": [
+    {
+      "url": "https://cultural.valencia.es/en/espais/the-hemisferic/",
+      "note": "Municipal architectural description, eye and central projection dome.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:L%27Hemisferic,_Valencia,_Spain_(Unsplash).jpg",
+      "note": "Tim de Groot, CC0; page date2016-06-26, EXIF2007-10-07 discrepancy retained; viewpoint and night ribs/reflection inspected.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://www.vinetur.com/2015062620030/noche-del-vino-de-la-dop-valencia.html",
+      "note": "2015 event photo; complementary exterior/reflection and illumination precedent, not tonight's lighting schedule.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T19:52:42.263740+00:00",
+    "retrieved_local": "2026-09-23T21:52:42.263740+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.457168&longitude=-0.353358&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 39.4375,
+      "longitude": -0.375,
+      "generationtime_ms": 0.13077259063720703,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 5.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T21:45",
+        "interval": 900,
+        "temperature_2m": 24.2,
+        "weather_code": 2,
+        "cloud_cover": 55,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 2.0
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T07:49"
+        ],
+        "sunset": [
+          "2026-09-23T19:57"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+    "requested_coordinates": [
+      39.457168,
+      -0.353358
+    ],
+    "model_grid_coordinates": [
+      39.4375,
+      -0.375
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -22.44,
+      "azimuth_deg": 290.07
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T07:49:00+02:00",
+    "sunset_local": "2026-09-23T19:57:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "gates": {
+    "visual": "Pending independent Cosmo QC; no pass claimed",
+    "technical": "Pending independent Cosmo QC; no pass claimed",
+    "provenance": "Pending independent Cosmo QC; no pass claimed",
+    "commercial_ip": "Pending independent Cosmo QC; no pass claimed",
+    "publication": "Pending independent Cosmo QC; no pass claimed"
+  },
+  "review_packet": {
+    "schema": "Spain candidate asset-only handoff v1",
+    "reviewed_revision": "r2",
+    "exact_pair": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f",
+        "bytes": 2532585,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-016-r2-16x9.png"
+      },
+      "4x5": {
+        "width": 864,
+        "height": 1080,
+        "sha256": "36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2",
+        "bytes": 1135717,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-016-r2-4x5.png"
+      }
+    },
+    "prompts": {
+      "prompt-r1.txt": "Use case: photorealistic-natural. Create one original high-detail 16:9 landscape scene, documentary tourist eye-level photographic realism, an AI artistic interpretation of City of Arts and Sciences, Valencia. One real Hemisfèric only: shallow elliptical ribbed glazed shell like an opening eye, central white hemispherical IMAX dome sits inside, straight low waterline beneath; matching pool reflection below. No generic spaceship, no extra dome on roof, no duplicated arches. Show the entire building distant and centered within central 40% of landscape width so a centered portrait crop retains its entire shell and reflection. Pool covers lower half; just a strip of walkway at bottom and lateral context. Not a drone. Eye-level public northeast basin edge looking southwest, slightly oblique but near frontal. Restrained cool-white and faint cyan architectural lighting, supported by historical night photography; no purple event display.\nScenario: 23 September 2026 · 21:52 Europe/Madrid; full NIGHT, sun elevation -22.44 degrees, azimuth 290.07 degrees below horizon; no sunlight, no dusk orange horizon. Fresh Open-Meteo model: 24.2C, cloud cover 55%, precipitation 0mm, wind 2km/h; model data not an on-site observation. Sky near-black with subdued broken cloud texture, no moon or visible stars. Artificial lighting modest with realistic shadow falloff; preserve stone/glass detail without fake HDR. No rain, fog, reflections on dry pavement, obvious people, contemporary artwork focal subject, logos, promotional lettering, or fantasy details. Make a coherent real place with straight architectural verticals, plausible spatial scale and non-repeated surface texture. Leave bottom 15% visually quiet for later captions. IMPORTANT: NO TEXT, no signature, no watermark in this source; exact labels will be typeset on the exported masters later. Wide environmental composition with main subject fully in the central portrait-safe crop as described, do not enlarge subject to fill entire landscape width. Photographic tonal range, no cinematic golden hour.",
+      "prompt-r2.txt": "Edit this generated source image only for framing. Zoom the camera OUT substantially, keeping eye-level and the same front northeast-pool view. Make the COMPLETE Hemisfèric building including both tapered tips occupy ONLY 36% of the total canvas width, centered horizontally. It currently occupies around60%; reduce it to60% of its current displayed size, with more surrounding pool, sky and lateral promenade. Wide16:9 canvas. Preserve its existing architectural identity, geometry, materials, cloudy deep night, restrained cool light and reflection. Keep the whole building and reflection inside the central40% of the frame for a later vertical crop. Do not change the recorded scene time/weather:23September2026,21:52Europe/Madrid. No people, no moon or stars, no new landmark, no text, no border. Photorealistic artistic interpretation.\n"
+    },
+    "generated_source_records": [
+      {
+        "file": "source-r1.png",
+        "sha256": "7a41c22fad276d3de892faffadc3b8f41770fdfefec9592195cf2ea82c034737",
+        "bytes": 2076857,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": false,
+        "retained_in_review_archive": true
+      },
+      {
+        "file": "source-r2.png",
+        "sha256": "94e1576dcecf2dbe2d243e3f7ef83f76ea0525085861c4af14e8cabe063ac5e8",
+        "bytes": 2108393,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": true,
+        "retained_in_review_archive": true
+      }
+    ],
+    "architectural_anchors": [
+      "Single broad low eye-shaped ribbed glass shell surrounding the central opaque hemispherical auditorium",
+      "Waterline reflection makes the central dome appear spherical; shallow reflecting pool fills foreground",
+      "Whole principal Hemisfèric silhouette isolated against dark sky; surrounding promenade at edges"
+    ],
+    "reference_evidence": [
+      {
+        "url": "https://cultural.valencia.es/en/espais/the-hemisferic/",
+        "note": "Municipal architectural description, eye and central projection dome.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:L%27Hemisferic,_Valencia,_Spain_(Unsplash).jpg",
+        "note": "Tim de Groot, CC0; page date2016-06-26, EXIF2007-10-07 discrepancy retained; viewpoint and night ribs/reflection inspected.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://www.vinetur.com/2015062620030/noche-del-vino-de-la-dop-valencia.html",
+        "note": "2015 event photo; complementary exterior/reflection and illumination precedent, not tonight's lighting schedule.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      }
+    ],
+    "local_technical_checks": [
+      {
+        "file": "016/masters/es-01-016-r2-16x9.png",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "byte_length": 2532585,
+        "sha256": "9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f",
+        "source_file": "016/source-r2.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "City of Arts and Sciences, Valencia",
+          "Scenario: 23 September 2026 · 21:52 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation, with framing edits for 016 and 019; same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      },
+      {
+        "file": "016/masters/es-01-016-r2-4x5.png",
+        "dimensions": [
+          864,
+          1080
+        ],
+        "byte_length": 1135717,
+        "sha256": "36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2",
+        "source_file": "016/source-r2.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "City of Arts and Sciences, Valencia",
+          "Scenario: 23 September 2026 · 21:52 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation, with framing edits for 016 and 019; same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      }
+    ],
+    "producer_check": "Both PNGs decoded and verified, exact dimensions and full SHA-256 computed. Contact sheet visually inspected for complete landmark retention and labels. This is not independent QC.",
+    "served_verification": "To be recorded separately after single-file submission; no live claim in this pre-publication packet.",
+    "card_handoff": {
+      "owner": "Independent Cosmo sweep",
+      "pipeline": "Candidate, separate from approved gallery",
+      "thumbnail": "es-01-016-r2-16x9.png",
+      "href": "es-01-016-r2-16x9.png",
+      "target": "_blank",
+      "portrait_retained": "es-01-016-r2-4x5.png",
+      "controls": "One wide thumbnail opening the full-size wide PNG; no extra viewer/download controls",
+      "preserve": "Caption, scenario, composition, status, license/badge, footer, search, navigation and country switcher"
+    },
+    "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
+    "rejection_notes": [],
+    "independent_verdict": null
+  }
+}
