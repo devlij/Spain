@@ -11,7 +11,7 @@
     "Red lattice ironwork of the Eiffel Bridge frames the foreground",
     "Bell tower of Sant Feliu and the cathedral mass rise behind the rooftops"
   ],
-  "limitations": "Exact camera point approximate; facade lighting is street-lamp light only — no claim about specific building illumination; current conditions unverified.",
+  "limitations": "Exact camera point approximate; facade lighting is street-lamp light only — no claim about specific building illumination; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://sworld.co.uk/the-onyar-river-houses-girona-s-colorful-soul",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.9794&longitude=2.8214&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:14+02:00",
     "valid_local": "2026-09-24T01:00",
     "temperature_c": 16.9,
     "weather_code": 0,
