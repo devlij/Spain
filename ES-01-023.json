@@ -1,0 +1,294 @@
+{
+  "entry_id": "ES-01-023",
+  "country": "Spain",
+  "region": "Aragon",
+  "city": "Zaragoza",
+  "caption": "Basílica del Pilar, Zaragoza",
+  "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
+  "composition": "NIGHT · Public Balcón de San Lázaro on the north bank near 41.6582,-0.8741, eye level, looking southwest across the Ebro and Puente de Piedra toward the Basílica del Pilar. Approximate camera, not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Basílica del Pilar, Zaragoza at night. Puente de Piedra crosses the Ebro below the four-towered Basílica del Pilar under an overcast night sky.",
+  "description": "Puente de Piedra crosses the Ebro below the four-towered Basílica del Pilar under an overcast night sky.",
+  "viewpoint": "Public Balcón de San Lázaro on the north bank near 41.6582,-0.8741, eye level, looking southwest across the Ebro and Puente de Piedra toward the Basílica del Pilar. Approximate camera, not surveyed.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T22:33:52.278348+02:00, valid 2026-09-23T22:30 Europe/Madrid; not a verified on-site observation. 24.6°C, WMO 3, 77% cloud, 0.0 mm precipitation, 2.7 km/h wind. Sunrise 07:51, sunset 19:59; sun elevation -28.31°, azimuth 298.84° clockwise from north, below horizon. Night; no direct sunlight.",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "approval_basis": "No approval claimed. Independent exact-pair five-gate review pending.",
+  "time_of_day": "Night",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "Basilica tower/dome details, bridge arch cadence and illumination remain subject to independent review; lighting operation tonight is unverified. Exact-size PNGs are resampled from a 1672×940 built-in generated source; dimensions do not imply native detail. Model weather is not observation. Internal review is not legal certification.",
+  "revision": "r1",
+  "revision_lineage": "Built-in text-only generation r1. Both formats use the same selected source, uniform Lanczos crop/resampling, deterministic gradient and typography; no separate portrait generation. Model version not exposed.",
+  "historical_editions": [],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "91b46fc6cf110fb8962a302fed9749bdad495645c1e2b79073bdcb514d33bd24",
+      "bytes": 2609434,
+      "source_width": 1672,
+      "source_height": 940,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "8fb0b16630b14914f8fb5f7ab92f9f1887a5aecab891e6ed1525ede9d0c04a4a",
+      "bytes": 1255580,
+      "source_width": 1672,
+      "source_height": 940,
+      "resampled": true
+    }
+  },
+  "file_16x9": "es-01-023-r1-16x9.png",
+  "file_4x5": "es-01-023-r1-4x5.png",
+  "references": [
+    {
+      "title": "Aragón Tourism — Pilar Basilica",
+      "url": "https://www.turismodearagon.com/en/ficha/basilica-de-nuestra-senora-del-pilar-zaragoza/",
+      "note": "Official identity, riverside context and Baroque massing; checked 23 September 2026.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "Zaragoza municipal tourism — bridges",
+      "url": "https://www.zaragoza.es/ciudad/turismo/en/que-visitar/sitios-interes/puentes.htm",
+      "note": "Official description connecting Puente de Piedra, the Ebro and views of the basilica.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "Zaragoza Tourism Balcón de San Lázaro post",
+      "url": "https://x.com/Visit_Zaragoza/status/1762036089194234287",
+      "note": "Official tourism post naming this public viewpoint and its Stone Bridge/Pilar panorama; published 26 February 2024.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "Vagamundos Zaragoza night panorama",
+      "url": "https://vagamundosviajeros.com/espana-aragon-zaragoza-que-ver",
+      "note": "October 2021 page; night bridge/basilica relationship inspected. Lighting precedent only, not tonight's schedule.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T20:33:52.278348+00:00",
+    "retrieved_local": "2026-09-23T22:33:52.278348+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.6582&longitude=-0.8741&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 41.6875,
+      "longitude": -0.875,
+      "generationtime_ms": 0.3139972686767578,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 204.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T22:30",
+        "interval": 900,
+        "temperature_2m": 24.6,
+        "weather_code": 3,
+        "cloud_cover": 77,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 2.7
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T07:51"
+        ],
+        "sunset": [
+          "2026-09-23T19:59"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
+    "requested_coordinates": [
+      41.6582,
+      -0.8741
+    ],
+    "model_grid_coordinates": [
+      41.6875,
+      -0.875
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -28.31,
+      "azimuth_deg": 298.84
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T07:51:00+02:00",
+    "sunset_local": "2026-09-23T19:59:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "gates": {
+    "visual": "Pending independent Cosmo QC; no pass claimed",
+    "technical": "Pending independent Cosmo QC; no pass claimed",
+    "provenance": "Pending independent Cosmo QC; no pass claimed",
+    "commercial_ip": "Pending independent Cosmo QC; no pass claimed",
+    "publication": "Pending independent Cosmo QC; no pass claimed"
+  },
+  "review_packet": {
+    "schema": "Spain candidate asset-only handoff v1",
+    "reviewed_revision": "r1",
+    "exact_pair": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "91b46fc6cf110fb8962a302fed9749bdad495645c1e2b79073bdcb514d33bd24",
+        "bytes": 2609434,
+        "source_width": 1672,
+        "source_height": 940,
+        "resampled": true,
+        "file": "es-01-023-r1-16x9.png"
+      },
+      "4x5": {
+        "width": 864,
+        "height": 1080,
+        "sha256": "8fb0b16630b14914f8fb5f7ab92f9f1887a5aecab891e6ed1525ede9d0c04a4a",
+        "bytes": 1255580,
+        "source_width": 1672,
+        "source_height": 940,
+        "resampled": true,
+        "file": "es-01-023-r1-4x5.png"
+      }
+    },
+    "prompts": {
+      "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D’s Vision location master source, wide landscape, later cropped to 16:9 and centered 4:5.\nPrimary request: An original photorealistic artistic interpretation of the Basílica de Nuestra Señora del Pilar, Zaragoza, at 22:33 Europe/Madrid on 23 September 2026, from the public Balcón de San Lázaro on the north bank near 41.6582,-0.8741, eye level looking southwest across the Ebro and Puente de Piedra. It is Night. Open-Meteo model valid 22:30: overcast, 24.6°C, WMO 3, 77% cloud, no precipitation, 2.7 km/h wind; model data, not an on-site observation. Sun below horizon at elevation -28.31°, azimuth 298.84°; no direct sunlight.\nScene/backdrop: The Ebro and a low shadowed vegetated near bank fill the foreground. Puente de Piedra crosses diagonally across the central midground with several broad stone arches and small restrained lamps. Immediately behind on the south bank, the Basilica forms its recognizable LONG horizontal Baroque mass with FOUR tall slender corner towers, one dominant central dome and several smaller colorful tiled domes; preserve the real hierarchy rather than multiplying towers.\nComposition/framing: Distant public-bank panorama, not aerial. The entire principal bridge/basilica group occupies only the central 45% of the wide canvas, centered as one ensemble, with both outer basilica towers and the relevant bridge arches fully retained for a centered portrait crop. Ample overcast sky and river foreground; realistic city scale.\nLighting/mood: Heavy broken overcast night with no moon or stars. Historically documented warm illumination may outline the basilica and bridge, but tonight’s lighting schedule is unverified; keep the glow restrained, clouds dimly visible and reflections short/subtle on gently moving water. No rain and no glossy promenade.\nConstraints: Accurate Zaragoza skyline; four main basilica towers, not six or eight; no Gothic cathedral spires, no fantasy palace, no modern bridge substituted, no boats as focal points, no crowds, logos, readable signs or fireworks. No text, caption, signature, border or watermark.\n"
+    },
+    "generated_source_records": [
+      {
+        "file": "source-r1.png",
+        "sha256": "9bb755716b9c4e1163f4cfb09d07222559ec82272af3c29687f1441f4e244de0",
+        "bytes": 2167135,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "selected": true,
+        "retained_in_review_archive": true
+      }
+    ],
+    "architectural_anchors": [
+      "Puente de Piedra crosses diagonally through the foreground/midground with several broad stone arches and restrained lamps",
+      "The basilica forms a long riverside Baroque mass with four tall corner towers and a dominant central dome plus smaller tiled domes",
+      "Ebro water and a low vegetated bank occupy the foreground; cathedral and bridge remain together in the central composition"
+    ],
+    "reference_evidence": [
+      {
+        "title": "Aragón Tourism — Pilar Basilica",
+        "url": "https://www.turismodearagon.com/en/ficha/basilica-de-nuestra-senora-del-pilar-zaragoza/",
+        "note": "Official identity, riverside context and Baroque massing; checked 23 September 2026.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "Zaragoza municipal tourism — bridges",
+        "url": "https://www.zaragoza.es/ciudad/turismo/en/que-visitar/sitios-interes/puentes.htm",
+        "note": "Official description connecting Puente de Piedra, the Ebro and views of the basilica.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "Zaragoza Tourism Balcón de San Lázaro post",
+        "url": "https://x.com/Visit_Zaragoza/status/1762036089194234287",
+        "note": "Official tourism post naming this public viewpoint and its Stone Bridge/Pilar panorama; published 26 February 2024.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "Vagamundos Zaragoza night panorama",
+        "url": "https://vagamundosviajeros.com/espana-aragon-zaragoza-que-ver",
+        "note": "October 2021 page; night bridge/basilica relationship inspected. Lighting precedent only, not tonight's schedule.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      }
+    ],
+    "local_technical_checks": [
+      {
+        "file": "023/masters/es-01-023-r1-16x9.png",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "byte_length": 2609434,
+        "sha256": "91b46fc6cf110fb8962a302fed9749bdad495645c1e2b79073bdcb514d33bd24",
+        "source_file": "023/source-r1.png",
+        "source_dimensions": [
+          1672,
+          940
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Basílica del Pilar, Zaragoza",
+          "Scenario: 23 September 2026 · 22:33 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation; 021 includes two own-source framing edits. Same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      },
+      {
+        "file": "023/masters/es-01-023-r1-4x5.png",
+        "dimensions": [
+          864,
+          1080
+        ],
+        "byte_length": 1255580,
+        "sha256": "8fb0b16630b14914f8fb5f7ab92f9f1887a5aecab891e6ed1525ede9d0c04a4a",
+        "source_file": "023/source-r1.png",
+        "source_dimensions": [
+          1672,
+          940
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Basílica del Pilar, Zaragoza",
+          "Scenario: 23 September 2026 · 22:33 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation; 021 includes two own-source framing edits. Same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      }
+    ],
+    "producer_check": "Both PNGs decoded and verified, exact dimensions and full SHA-256 computed. Contact sheet visually inspected for complete landmark retention and labels. This is not independent QC.",
+    "served_verification": "To be recorded separately after single-file submission; no live claim in this pre-publication packet.",
+    "card_handoff": {
+      "owner": "Independent Cosmo sweep",
+      "pipeline": "Candidate, separate from approved gallery",
+      "thumbnail": "es-01-023-r1-16x9.png",
+      "href": "es-01-023-r1-16x9.png",
+      "target": "_blank",
+      "portrait_retained": "es-01-023-r1-4x5.png",
+      "controls": "One wide thumbnail opening the full-size wide PNG; no extra viewer/download controls",
+      "preserve": "Caption, scenario, composition, status, license/badge, footer, search, navigation and country switcher"
+    },
+    "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
+    "rejection_notes": [],
+    "independent_verdict": null
+  }
+}
