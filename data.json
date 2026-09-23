@@ -894,9 +894,9 @@
       "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
       "composition": "Night · Public Parc de la Mar waterside promenade near 39.5674,2.6483, eye-level looking north across the reflecting pool toward the cathedral's long south elevation. Coordinates approximate, not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of La Seu, Palma at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: recognizably La Seu — long Gothic south wall with repeated buttresses and pinnacles, large eastern rose window right, raised city wall, palms, and Parc de la Mar reflecting pool from the documented public promenade viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920×1080 and 864×1080 with SHA-256 matching the review packet; exact 'Jason D's Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night illumination noted as precedent-based per the packet's honest limitations disclosure."
     },
     {
       "entry_id": "ES-01-031",
