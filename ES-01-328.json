@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-328",
+  "country": "Spain",
+  "city": "Ávila",
+  "region": "Castile and León",
+  "caption": "City walls, Ávila",
+  "revision": "r1",
+  "viewpoint": "Cuatro Postes viewpoint, west of the city across the Adaja (approx 40.6547N, 4.6967W)",
+  "anchors": [
+    "Long crenellated Romanesque wall with round towers, floodlit warm gold against the night sky",
+    "Puerta del Alcazar gate with its twin towers integrated into the wall line",
+    "Cathedral apse rising behind the walls; dark hillside foreground with scattered city lights"
+  ],
+  "limitations": "Night floodlighting of the walls is widely documented and supported by references, but is not verified for this specific hour. Tower count and ornament detail are interpretive. Camera point is the well-known Cuatro Postes viewpoint, a conventional tourist position, not map-verified.",
+  "refs": [
+    [
+      "https://www.expedia.com/Walls-Of-Avila-Old-Town-of-Avila.d6356720.Vacation-Attraction",
+      "Travel guide: walls at night bathed in golden light; Cuatro Postes panoramic viewpoint"
+    ],
+    [
+      "https://wanderlog.com/place/details/9773170/c-cuatro-postes",
+      "Viewpoint guide: most famous viewpoint, city illuminated, floodlit walls against dark sky"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:50 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Walls from the Cuatro Postes viewpoint, floodlit against the dark sky · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the walls of Ávila at night.",
+  "description": "From the Cuatro Postes monument across the river you get the classic postcard view: the long crenellated wall of Ávila, its round towers and the Puerta del Alcazar gate washed in warm golden floodlight against the dark cloudy sky. Behind the ramparts the apse of the cathedral pushes into the wall line, a reminder that the church is part of the fortification. The foreground hillside is dark, the city beyond the walls a sparse scatter of lights under thin broken cloud.",
+  "file_16x9": "es-01-328-r1-16x9.png",
+  "file_4x5": "es-01-328-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2554db2354c9e79438f05477744147a543307f3d6c3d92fc780ee9d252ca877e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "d7c6b4436dc41cc05cb3b345acfcd63fc67d1e9afa979538c7132b082f46305a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-328-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2609842,
+      "sha256": "2554db2354c9e79438f05477744147a543307f3d6c3d92fc780ee9d252ca877e",
+      "source_file": "media-generation-es-01-328-source-0-1d170683-a7ff-4b7f-b5e0-3ed7be86a0f6.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "City walls, Ávila",
+        "Scenario: 24 September 2026 · 01:50 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-328-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1229669,
+      "sha256": "d7c6b4436dc41cc05cb3b345acfcd63fc67d1e9afa979538c7132b082f46305a",
+      "source_file": "media-generation-es-01-328-source-0-1d170683-a7ff-4b7f-b5e0-3ed7be86a0f6.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "City walls, Ávila",
+        "Scenario: 24 September 2026 · 01:50 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 78,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.1,
+    "weather_code": 2,
+    "wind_speed_10m": 5.4
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the medieval walls of Avila, Spain, at night, viewed from the Cuatro Postes viewpoint outside the walls. The long crenellated Romanesque wall with its round towers and the Puerta del Alcazar gate glows warm under floodlighting against a cloudy night sky; the cathedral apse rises behind the walls. Dark foreground hillside, a few scattered city lights. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere in the image, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-328-source-0-1d170683-a7ff-4b7f-b5e0-3ed7be86a0f6.png",
+      "sha256": "fe48e3ed8de49599d3869a64d911be193d432b29984f809493c9e4424cf7117d",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
