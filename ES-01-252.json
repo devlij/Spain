@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-252",
+  "country": "Spain",
+  "city": "Lleida",
+  "region": "Catalonia",
+  "caption": "La Seu Vella, Lleida",
+  "revision": "r1",
+  "viewpoint": "Avinguda Enric Granados below the hill, slightly elevated, facing the cathedral. Exact camera point approximate.",
+  "anchors": [
+    "Romanesque-Gothic hilltop cathedral with slender octagonal bell tower",
+    "Fortress walls of the Turó de la Seu slope down around it",
+    "Warm lamps line the ramparts and terraced gardens"
+  ],
+  "limitations": "Exact camera point approximate; restrained night interpretation — no claim about the cathedral's actual night illumination; current conditions unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Old_Cathedral_of_Lleida",
+      "Old Cathedral of Lleida (La Seu Vella, hilltop, octagonal bell tower)"
+    ],
+    [
+      "https://www.ad-hoc-news.de/unterhaltung/reisen/la-seu-vella-lleida-s-hilltop-cathedral-fortress/70109219",
+      "La Seu Vella guide (hilltop cathedral-fortress over Lleida)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:18 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Hilltop old cathedral over the fortress walls at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of La Seu Vella, Lleida at night.",
+  "description": "From the avenue below, La Seu Vella rises on its hill — the Romanesque-Gothic old cathedral with its slender octagonal bell tower centered over the fortress walls of the Turó de la Seu. Warm lamps line the ramparts and terraced gardens as they slope down toward the viewer, glowing under a deep blue night sky. A mainly clear 20.3°C night; no dramatic floodlighting is claimed, only restrained night light.",
+  "file_16x9": "es-01-252-r1-16x9.png",
+  "file_4x5": "es-01-252-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c258fb90f7d0d79812c244bf390ac669b2e5f5895826470df9ec87b583f8ebe9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "9bfa7e32016e3252e56ea1d4c8bdad74179f64d2a3a6d997084c00d5e0f2a0a3"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-252-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2700496,
+      "sha256": "c258fb90f7d0d79812c244bf390ac669b2e5f5895826470df9ec87b583f8ebe9",
+      "source_file": "source-252.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "La Seu Vella, Lleida",
+        "Scenario: 24 September 2026 · 01:18 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-252-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1210040,
+      "sha256": "9bfa7e32016e3252e56ea1d4c8bdad74179f64d2a3a6d997084c00d5e0f2a0a3",
+      "source_file": "source-252.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "La Seu Vella, Lleida",
+        "Scenario: 24 September 2026 · 01:18 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.6184&longitude=0.6251&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:15",
+    "temperature_c": 20.3,
+    "weather_code": 1,
+    "weather_word": "mainly clear",
+    "cloud_cover_pct": 20,
+    "is_day": 0,
+    "wind_kmh": 3.6
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of La Seu Vella, the old cathedral of Lleida, Catalonia, at night, viewed from the Enric Granados avenue below. The Romanesque-Gothic hilltop cathedral with its slender octagonal bell tower rises centered on the illuminated hill; the fortress walls and terraced gardens of the Turó de la Seu slope down toward the viewer; warm lamps along the ramparts glow under a deep blue night sky. No dramatic floodlighting claimed — restrained night interpretation."
+  },
+  "source_files": [
+    {
+      "file": "source-252.png",
+      "sha256": "56b2b4d1e9d5e72b0fb48f8f6a4210474d56169718de017caeb9194aea4c85be",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
