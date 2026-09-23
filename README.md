@@ -15,3 +15,5 @@ Córdoba and Park Güell retain the previously relayed Cosmo QC status. Alhambra
 Never attribute review to Jason without his explicit review of the exact revision. Reports may claim verification only for checks actually performed on the exact served bytes. Independent QC is performed by Cosmo.
 
 ES-01-005 Mezquita-Catedral r3 is Approved on Cosmo QC 5/5 relayed by Jason, with the reviewed image bytes unchanged. ES-01-006 Seville Cathedral and Giralda r2 is Approved on Cosmo QC 5/5 relayed by Jason for the exact reviewed pair. No image bytes changed in this approval update. The finials are currently removed for restoration; localized scaffolding follows September evidence. These are source counts; deployment success must be checked separately.
+
+Section 15: every scene card presents exactly one 16:9 master thumbnail linking directly to the full-size landscape in a new tab. Portrait previews, paired download buttons, VIEW IMAGE controls and the lightbox are removed. Portrait masters and historical files remain in the repository. All scene metadata, search, header/navigation, license and footer are preserved.
