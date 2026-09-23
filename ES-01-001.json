@@ -1,0 +1,28 @@
+{
+  "entry_id": "ES-01-001",
+  "country": "Spain",
+  "region": "Catalonia",
+  "city": "Barcelona",
+  "caption": "Sagrada Família, Barcelona",
+  "scenario_label": "23 September 2026 · 04:32 Europe/Madrid",
+  "composition": "Nativity façade across Plaça de Gaudí pond · AI-generated artistic interpretation",
+  "alt_text": "Unapproved AI-generated nighttime interpretation of Sagrada Família across a park pond; central cross requires correction.",
+  "description": "An eye-level southwest view from Plaça de Gaudí. This review draft retains the pond, trees and Nativity-side tower arrangement, but the central cross and tower geometry require correction.",
+  "viewpoint": "Plaça de Gaudí, northeast side of pond, southwest view. Reference-reported camera41.404469 N,2.175836 E; exact generated camera and overnight access unverified.",
+  "status": "Revision required · visual QC failed · not approved",
+  "approval_state": "candidate",
+  "gates": {
+    "visual": "fail",
+    "technical": "pass",
+    "provenance": "unverified",
+    "commercial_ip": "unverified",
+    "publication": "fail"
+  },
+  "weather": "Model data from Open-Meteo, retrieved23 September2026 04:32:08 Europe/Madrid, valid04:30 Europe/Madrid — not a verified on-site observation. Mainly clear,19.8°C,23% cloud; night.",
+  "limitations": "Thin cross and central-tower hierarchy do not match references sufficiently. Overnight illumination and construction details remain unverified. Internal review is not third-party rights clearance.",
+  "file_16x9": "es-01-001-16x9.png",
+  "file_4x5": "es-01-001-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "editions": []
+}

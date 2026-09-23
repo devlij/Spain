@@ -1,0 +1,328 @@
+{
+  "scenes": [
+    {
+      "entry_id": "ES-AN-001",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Córdoba",
+      "caption": "Puerta del Puente, Córdoba",
+      "scenario_label": "23 September 2026 · 02:36 Europe/Madrid",
+      "composition": "The freestanding Renaissance gate viewed from Plaza del Triunfo toward the Roman Bridge · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Puerta del Puente in Córdoba at night, with the bridge visible through its opening.",
+      "description": "Pale stone columns frame the rectangular passage at the northern end of the Roman Bridge. This early Spain scene looks through the gate from Plaza del Triunfo toward the river crossing.",
+      "viewpoint": "Plaza del Triunfo, looking toward the bridge. Exact camera point remains provisional.",
+      "status": "Earlier candidate · not approved",
+      "limitations": "Precise geometry and overnight lighting remain unverified. Created before the current evidence-card rules; historical weather was not sourced from Open-Meteo.",
+      "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
+      "file_16x9": "es-an-001-16x9.png",
+      "file_4x5": "es-an-001-4x5.png",
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license",
+      "editions": [
+        {
+          "label": "Original 16:9 · 1536×864",
+          "file": "ES-AN-001-landscape.png"
+        },
+        {
+          "label": "Original 4:5 · 800×1000",
+          "file": "ES-AN-001-portrait.png"
+        }
+      ]
+    },
+    {
+      "entry_id": "ES-AN-002",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Córdoba",
+      "caption": "Roman Bridge, Córdoba",
+      "scenario_label": "23 September 2026 · 03:33 Europe/Madrid",
+      "composition": "Calahorra-side approach toward Puerta del Puente and the Mosque–Cathedral skyline · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation looking along Córdoba’s Roman Bridge at night toward Puerta del Puente and the Mosque–Cathedral skyline.",
+      "description": "The pedestrian deck leads between stone parapets toward Puerta del Puente. The Guadalquivir flanks the crossing, with the Mosque–Cathedral rising beyond the northern riverbank.",
+      "viewpoint": "Calahorra-side bridge deck, looking northwest. Exact camera correspondence remains provisional.",
+      "status": "Earlier candidate · not approved",
+      "limitations": "Fine geometry, monument placement and overnight illumination remain unverified. Created before the current evidence-card rules; historical weather was not sourced from Open-Meteo.",
+      "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
+      "file_16x9": "es-an-002-16x9.png",
+      "file_4x5": "es-an-002-4x5.png",
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license",
+      "editions": [
+        {
+          "label": "Original 16:9 · 1536×864",
+          "file": "ES-AN-002-landscape.png"
+        },
+        {
+          "label": "Original 4:5 · 800×1000",
+          "file": "ES-AN-002-portrait.png"
+        }
+      ]
+    },
+    {
+      "entry_id": "ES-01-001",
+      "country": "Spain",
+      "region": "Catalonia",
+      "city": "Barcelona",
+      "caption": "Sagrada Família, Barcelona",
+      "scenario_label": "23 September 2026 · 04:32 Europe/Madrid",
+      "composition": "Nativity façade across Plaça de Gaudí pond · AI-generated artistic interpretation",
+      "alt_text": "Unapproved AI-generated nighttime interpretation of Sagrada Família across a park pond; central cross requires correction.",
+      "description": "An eye-level southwest view from Plaça de Gaudí. This review draft retains the pond, trees and Nativity-side tower arrangement, but the central cross and tower geometry require correction.",
+      "viewpoint": "Plaça de Gaudí, northeast side of pond, southwest view. Reference-reported camera41.404469 N,2.175836 E; exact generated camera and overnight access unverified.",
+      "status": "Revision required · visual QC failed · not approved",
+      "approval_state": "candidate",
+      "gates": {
+        "visual": "fail",
+        "technical": "pass",
+        "provenance": "unverified",
+        "commercial_ip": "unverified",
+        "publication": "fail"
+      },
+      "weather": "Model data from Open-Meteo, retrieved23 September2026 04:32:08 Europe/Madrid, valid04:30 Europe/Madrid — not a verified on-site observation. Mainly clear,19.8°C,23% cloud; night.",
+      "limitations": "Thin cross and central-tower hierarchy do not match references sufficiently. Overnight illumination and construction details remain unverified. Internal review is not third-party rights clearance.",
+      "file_16x9": "es-01-001-16x9.png",
+      "file_4x5": "es-01-001-4x5.png",
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license",
+      "editions": []
+    }
+  ],
+  "starters": [
+    {
+      "entry_id": "ES-01-002",
+      "caption": "Park Güell, Barcelona",
+      "city": "Barcelona",
+      "region": "Catalonia",
+      "composition": "Carrer d’Olot entrance pavilions and the uphill stairway; use a publicly accessible viewpoint for the scenario hour.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-003",
+      "caption": "Casa Batlló, Barcelona",
+      "city": "Barcelona",
+      "region": "Catalonia",
+      "composition": "The mosaic façade, mask-like balconies and dragon-back roof from Passeig de Gràcia.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-004",
+      "caption": "Alhambra, Granada",
+      "city": "Granada",
+      "region": "Andalusia",
+      "composition": "The palace and fortress ensemble across the valley; verify the selected public overlook.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-005",
+      "caption": "Mezquita-Catedral, Córdoba",
+      "city": "Córdoba",
+      "region": "Andalusia",
+      "composition": "A specifically identified exterior façade and its relationship to the surrounding streets.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-006",
+      "caption": "Seville Cathedral and Giralda, Seville",
+      "city": "Seville",
+      "region": "Andalusia",
+      "composition": "The cathedral mass and Giralda tower from a named public square.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-007",
+      "caption": "Plaza de España, Seville",
+      "city": "Seville",
+      "region": "Andalusia",
+      "composition": "The semicircular building, canal and bridges from an accessible plaza position.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-008",
+      "caption": "Royal Palace, Madrid",
+      "city": "Madrid",
+      "region": "Madrid",
+      "composition": "The palace façade and forecourt from a named public viewpoint.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-009",
+      "caption": "Plaza Mayor, Madrid",
+      "city": "Madrid",
+      "region": "Madrid",
+      "composition": "The enclosed arcaded square and central statue with the correct surrounding façades.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-010",
+      "caption": "Guggenheim Museum, Bilbao",
+      "city": "Bilbao",
+      "region": "Basque Country",
+      "composition": "The museum’s curved titanium volumes and riverside setting; avoid artwork as a focal subject.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-011",
+      "caption": "Cathedral, Santiago de Compostela",
+      "city": "Santiago de Compostela",
+      "region": "Galicia",
+      "composition": "The Obradoiro façade from the public square.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-012",
+      "caption": "Roman Aqueduct, Segovia",
+      "city": "Segovia",
+      "region": "Castile and León",
+      "composition": "The stacked granite arches and their relationship to Plaza del Azoguejo.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-013",
+      "caption": "Old town and Alcázar, Toledo",
+      "city": "Toledo",
+      "region": "Castilla-La Mancha",
+      "composition": "The hilltop skyline above the Tagus from a verified overlook.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-014",
+      "caption": "Puente Nuevo, Ronda",
+      "city": "Ronda",
+      "region": "Andalusia",
+      "composition": "The stone bridge spanning El Tajo, with real gorge geometry and a verified viewpoint.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-015",
+      "caption": "La Concha Bay, San Sebastián",
+      "city": "San Sebastián",
+      "region": "Basque Country",
+      "composition": "The crescent bay, beach and headlands from a verified promenade or overlook.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    },
+    {
+      "entry_id": "ES-01-016",
+      "caption": "City of Arts and Sciences, Valencia",
+      "city": "Valencia",
+      "region": "Valencian Community",
+      "composition": "A named building ensemble, water basin and pedestrian viewpoint.",
+      "status": "Queued — not generated",
+      "country": "Spain"
+    }
+  ],
+  "coverage": {
+    "Andalusia": [
+      "Seville — Cathedral/Giralda, Plaza de España, Alcázar",
+      "Granada — Alhambra, Albaicín",
+      "Córdoba — Mezquita-Catedral",
+      "Ronda — Puente Nuevo",
+      "Málaga — Alcazaba",
+      "Cádiz — old town"
+    ],
+    "Aragon": [
+      "Zaragoza — Basílica del Pilar",
+      "Albarracín",
+      "Ordesa y Monte Perdido"
+    ],
+    "Asturias": [
+      "Oviedo — Cathedral",
+      "Covadonga — lakes and basilica",
+      "Gijón — waterfront"
+    ],
+    "Balearic Islands": [
+      "Mallorca — Palma La Seu, Valldemossa, Sa Calobra, Deià",
+      "Menorca — Ciutadella, Naveta des Tudons",
+      "Ibiza — Dalt Vila, Es Vedrà",
+      "Formentera — beaches"
+    ],
+    "Basque Country": [
+      "Bilbao — Guggenheim Museum",
+      "San Sebastián — La Concha Bay",
+      "Hondarribia — old town"
+    ],
+    "Canary Islands": [
+      "Tenerife — Teide, La Laguna old town",
+      "Gran Canaria — Maspalomas dunes, Las Palmas old town",
+      "Lanzarote — Timanfaya, Jameos del Agua",
+      "Fuerteventura — Corralejo dunes",
+      "La Palma — Caldera",
+      "La Gomera — Garajonay",
+      "El Hierro — viewpoints and significant sites to research"
+    ],
+    "Cantabria": [
+      "Santander — bay",
+      "Santillana del Mar",
+      "Altamira — exterior/museum"
+    ],
+    "Castile and León": [
+      "Segovia — Aqueduct, Alcázar",
+      "Salamanca — Plaza Mayor",
+      "Burgos — Cathedral",
+      "León — Cathedral",
+      "Ávila — walls"
+    ],
+    "Castilla-La Mancha": [
+      "Toledo — old town, Alcázar",
+      "Cuenca — hanging houses",
+      "Consuegra — windmills"
+    ],
+    "Catalonia": [
+      "Barcelona — Sagrada Família, Park Güell, Casa Batlló, Gothic Quarter",
+      "Montserrat",
+      "Girona — old town",
+      "Tarragona — Roman ruins"
+    ],
+    "Extremadura": [
+      "Mérida — Roman theatre",
+      "Cáceres — old town",
+      "Trujillo — Plaza Mayor"
+    ],
+    "Galicia": [
+      "Santiago de Compostela — Cathedral",
+      "A Coruña — Tower of Hercules",
+      "Cíes Islands"
+    ],
+    "La Rioja": [
+      "Logroño — old town",
+      "San Millán de la Cogolla — monasteries"
+    ],
+    "Madrid": [
+      "Madrid — Royal Palace, Plaza Mayor, Retiro Park/Crystal Palace, Gran Vía",
+      "El Escorial"
+    ],
+    "Murcia": [
+      "Cartagena — Roman theatre",
+      "Murcia — Cathedral"
+    ],
+    "Navarre": [
+      "Pamplona — old town",
+      "Olite — Royal Palace",
+      "Bardenas Reales"
+    ],
+    "Valencian Community": [
+      "Valencia — City of Arts and Sciences, old town",
+      "Alicante — Santa Bárbara Castle",
+      "Peñíscola"
+    ],
+    "Ceuta": [
+      "Royal Walls of Ceuta"
+    ],
+    "Melilla": [
+      "Melilla la Vieja"
+    ]
+  }
+}
