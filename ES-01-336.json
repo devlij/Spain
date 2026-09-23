@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-336",
+  "country": "Spain",
+  "city": "Almagro",
+  "region": "Castilla-La Mancha",
+  "caption": "Plaza Mayor, Almagro",
+  "revision": "r1",
+  "viewpoint": "Gallery level of the Plaza Mayor, facing the Town Hall (approx 38.8889N, 3.7142W)",
+  "anchors": [
+    "Rectangular plaza with two arcaded galleries of green wooden columns",
+    "Town Hall standing at one end of the square",
+    "Warm light spilling from a few terrace taverns under the galleries"
+  ],
+  "limitations": "No night floodlighting is claimed — traveller reports describe the square's night lighting as poor, and the scene reflects only terrace spill light; unverified for this specific hour. Gallery columns and Town Hall detail are interpretive. Camera point is a conventional square viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://gdh.org/model/point-cloud-plaza-mayor-de-almagro-spain/",
+      "Global Digital Heritage: rectangular plaza, twin arcaded galleries of stone columns, Town Hall, corral de comedias"
+    ],
+    [
+      "https://Www.tripadvisor.in/Attraction_Review-g562641-d4544493-Reviews-Plaza_Mayor_De_Almagro-Almagro_Province_of_Ciudad_Real_Castile_La_Mancha.html",
+      "Tripadvisor reviews: best enjoyed at night, but note the night lighting is poor"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:54 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Plaza from gallery level, terrace light spilling onto the dark square · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Plaza Mayor of Almagro at night.",
+  "description": "At night Almagro's Plaza Mayor lies mostly in darkness — no floodlit spectacle here. Warm light spills from a few terrace taverns beneath the twin galleries of green wooden columns, catching the Town Hall's lit windows at one end. The rectangular square, once a market and bullring, settles into quiet, and the famed galleries glow only where the evening crowd lingers. Travellers note the square's night lighting is modest — honest and unhurried.",
+  "file_16x9": "es-01-336-r1-16x9.png",
+  "file_4x5": "es-01-336-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "155e7e5f7a3214935d8955ea800ec13eaa56255fa8fe793939d529ee6e363ce7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "90bc3cdb3e625516799c0ac854364fa023ac9a78f55768c26b4feb7a2110fc1e"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-336-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2036365,
+      "sha256": "155e7e5f7a3214935d8955ea800ec13eaa56255fa8fe793939d529ee6e363ce7",
+      "source_file": "media-generation-es-01-336-source-0-36492434-0850-4a27-821d-e512d2d2e84b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Mayor, Almagro",
+        "Scenario: 24 September 2026 · 02:54 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-336-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 953347,
+      "sha256": "90bc3cdb3e625516799c0ac854364fa023ac9a78f55768c26b4feb7a2110fc1e",
+      "source_file": "media-generation-es-01-336-source-0-36492434-0850-4a27-821d-e512d2d2e84b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Mayor, Almagro",
+        "Scenario: 24 September 2026 · 02:54 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Plaza Mayor of Almagro, Spain, at night. IMPORTANT: the square is NOT floodlit — it lies mostly in darkness. The rectangular plaza with its two arcaded galleries of green wooden columns is dim, with warm light spilling only from a few terrace taverns under the galleries; the Town Hall at one end shows a couple of lit windows. Dark night sky, quiet empty square, the stone columns catching faint warm light. Modest honest night mood. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-336-source-0-36492434-0850-4a27-821d-e512d2d2e84b.png",
+      "sha256": "8468edf9be7f1d0bc8e6ec1a495cbcb0c374c3438225a6fbe9fbd40ae74fa36d",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
