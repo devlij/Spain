@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-312",
+  "country": "Spain",
+  "city": "Oviedo",
+  "region": "Asturias",
+  "caption": "Cathedral, Oviedo",
+  "revision": "r1",
+  "viewpoint": "From the square near 43.3600,-5.8450, looking at the Oviedo Cathedral. Approximate point only.",
+  "anchors": [
+    "Gothic tower and façade — plaza lamps and moonlight only, no floodlighting claimed",
+    "Lamp-lit cobbles in the foreground",
+    "Clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Façade illumination is plaza lamps and moonlight only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Oviedo_Cathedral",
+      "Encyclopedic description of the Oviedo Cathedral (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Catedral_de_Oviedo",
+      "Spanish Wikipedia entry for the Oviedo Cathedral; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:42 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Oviedo Cathedral, Gothic tower, from the square near 43.3600,-5.8450. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Oviedo Cathedral at night.",
+  "description": "In Oviedo the cathedral's Gothic tower rises over a quiet square, lit only by ordinary plaza lamps and moonlight — no floodlighting is claimed or depicted. The lamp-lit cobbles of the square lead up to the façade, and the model sky is perfectly clear (0% cloud).",
+  "file_16x9": "es-01-312-r1-16x9.png",
+  "file_4x5": "es-01-312-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "612bf8296e0584e799b10307c304fe39bb433c885f0c6131c5cdd25e07342324"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "b6bd64bd7cc9f33310b0d42e712eb8b9fb6599dacf180ca12c88ad97fa6f2a48"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-312-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2065688,
+      "sha256": "612bf8296e0584e799b10307c304fe39bb433c885f0c6131c5cdd25e07342324",
+      "source_file": "media-generation-src-es-01-312-0-81430b9c-1eae-4a9b-8a3b-1ca975b65ead.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Oviedo",
+        "Scenario: 24 September 2026 · 01:42 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-312-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1138050,
+      "sha256": "b6bd64bd7cc9f33310b0d42e712eb8b9fb6599dacf180ca12c88ad97fa6f2a48",
+      "source_file": "media-generation-src-es-01-312-0-81430b9c-1eae-4a9b-8a3b-1ca975b65ead.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Oviedo",
+        "Scenario: 24 September 2026 · 01:42 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3600&longitude=-5.8450&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Oviedo Cathedral in Asturias: the Gothic tower and facade rising over a quiet square, lit only by ordinary plaza street lamps and moonlight, no floodlighting; lamp-lit cobbles in the foreground; a few lit windows; clear starry sky above; no prominent people, no text, no logos; cathedral centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-312-0-81430b9c-1eae-4a9b-8a3b-1ca975b65ead.png",
+      "sha256": "55d86c2d55e72f5811405dc9f96114b53c567f60e74d6d145a52f46686186d56",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
