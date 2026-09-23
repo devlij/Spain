@@ -8,3 +8,19 @@ $('search').addEventListener('input',filter);$('clear').addEventListener('click'
 document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{$('search').value=b.dataset.filter;filter()}));document.querySelectorAll('.scene-link').forEach(a=>a.addEventListener('click',()=>{$('search').value='';filter()}));
 
 filter();
+
+/* Section 16: 16:9 / 4:5 format tab switching per card. */
+document.querySelectorAll('.card').forEach(card=>{
+  const tabs=card.querySelectorAll('.fmt-tab');
+  const link=card.querySelector('a.thumb');
+  const img=link&&link.querySelector('img');
+  tabs.forEach(tab=>tab.addEventListener('click',e=>{
+    e.preventDefault();
+    const fmt=tab.dataset.format;
+    tabs.forEach(t=>t.classList.toggle('is-active',t===tab));
+    if(!img||!link)return;
+    const next=fmt==='4x5'?img.dataset.src45:img.dataset.src16;
+    if(next){img.src=next;link.href=next;}
+    link.classList.toggle('tall',fmt==='4x5');
+  }));
+});
