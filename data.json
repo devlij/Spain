@@ -829,9 +829,9 @@
       "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
       "composition": "Night · Public Pradera de Ordesa trailhead/gravel parking-edge near42.6493,-0.0606, eye-level looking approximately north toward the limestone escarpment. No assertion of nighttime transport or access availability. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Valle de Ordesa, Torla-Ordesa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit 2026-09-23: visual/location inspected; SHA-256 + exact 1920x1080/864x1080 verified; provenance documented; Gate 4 documentation-only; publication readiness passed."
     },
     {
       "entry_id": "ES-01-026",
