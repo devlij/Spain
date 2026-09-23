@@ -1,0 +1,234 @@
+{
+  "entry_id": "ES-01-032",
+  "country": "Spain",
+  "city": "Sa Calobra",
+  "region": "Balearic Islands",
+  "caption": "Torrent de Pareis, Sa Calobra",
+  "revision": "r1",
+  "viewpoint": "Public pebble beach at the mouth of Torrent de Pareis near 39.8524,2.8001, eye-level looking inland into the narrow gorge. Approximate point only; no assertion of safe or permitted nighttime access.",
+  "anchors": [
+    "Pale rounded pebble-and-gravel beach foreground",
+    "Two sheer orange-grey limestone walls narrowing sharply inland",
+    "Sparse scrub clinging to fractured rock with a dark channel floor between cliffs"
+  ],
+  "limitations": "No artificial lights, people, boats, moon or stars are added. This is a restrained long-exposure artistic interpretation, not measured site luminance or proof of nighttime access. Exact cliff profiles, channel moisture and beach geometry need independent visual review. Current flood/tide conditions were not obtained; no standing-water or tide claim is made.",
+  "refs": [
+    [
+      "https://whc.unesco.org/en/list/1371/",
+      "UNESCO description of the steep northwest-coast Serra de Tramuntana landscape, retrieved 24 September 2026."
+    ],
+    [
+      "https://www.abc-mallorca.com/sa-calobra/",
+      "Complementary destination description dated 10 May 2021 identifies the two beaches and Torrent de Pareis setting."
+    ],
+    [
+      "https://www.65ymas.com/ocio/al-aire-libre/quiero-ir-monumentos-naturales_11494_102.html",
+      "Complementary inland-gorge photograph visually inspected 24 September 2026; capture date unknown."
+    ],
+    [
+      "https://www.hola.com/viajes/20230711235570/torrent-pareis-mejor-playa-de-europa-2023/",
+      "Complementary aerial mouth photograph published 11 July 2023; used for cliff/beach relationships, not camera pose or current conditions."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public pebble beach at the mouth of Torrent de Pareis near 39.8524,2.8001, eye-level looking inland into the narrow gorge. Approximate point only; no assertion of safe or permitted nighttime access. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Torrent de Pareis, Sa Calobra at night.",
+  "description": "Pale rounded pebble-and-gravel beach foreground; Two sheer orange-grey limestone walls narrowing sharply inland; Sparse scrub clinging to fractured rock with a dark channel floor between cliffs.",
+  "file_16x9": "es-01-032-r1-16x9.png",
+  "file_4x5": "es-01-032-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b42a5685c8ee0ffa20cd229f8c18c4c4b57b4394c62e19c932c5ca171a33ee71"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "218c6236ef930986f96ea4ce0b4eccfa71cc2f5e9bf5e41f5c2f1e4756ee6300"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-032-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3406650,
+      "sha256": "b42a5685c8ee0ffa20cd229f8c18c4c4b57b4394c62e19c932c5ca171a33ee71",
+      "source_file": "032/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Torrent de Pareis, Sa Calobra",
+        "Scenario: 24 September 2026 · 00:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-032-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1486647,
+      "sha256": "218c6236ef930986f96ea4ce0b4eccfa71cc2f5e9bf5e41f5c2f1e4756ee6300",
+      "source_file": "032/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Torrent de Pareis, Sa Calobra",
+        "Scenario: 24 September 2026 · 00:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T22:30:38.894155+00:00",
+    "retrieved_local": "2026-09-24T00:30:38.894155+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.8524&longitude=2.8001&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 39.8125,
+      "longitude": 2.8125,
+      "generationtime_ms": 57.183027267456055,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 0.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T00:30",
+        "interval": 900,
+        "temperature_2m": 24.5,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 0.7
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:38"
+        ],
+        "sunset": [
+          "2026-09-24T19:42"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
+    "requested_coordinates": [
+      39.8524,
+      2.8001
+    ],
+    "model_grid_coordinates": [
+      39.8125,
+      2.8125
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -46.96,
+      "azimuth_deg": 333.72
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:38:00+02:00",
+    "sunset_local": "2026-09-24T19:42:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T00:30:38.894155+02:00, valid 2026-09-24T00:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of Torrent de Pareis at Sa Calobra, Mallorca, at true night. Eye-level viewpoint standing on the public pale pebble beach at the gorge mouth, looking INLAND, not aerial and not toward open sea. Symmetrical but natural canyon composition: two enormous sheer fractured limestone walls rise from left and right edges and narrow sharply toward a dark slot in the center distance; orange-grey stratified rock with sparse low scrub; pale rounded pebbles and mostly dry gravel fill lower foreground with a narrow darker drainage channel, but no invented lagoon, waterfall, flash flood or tide claim. Real rugged Mediterranean gorge, no tropical palms, no buildings, tunnels, roads, railings or lamps. Frame cliff tops with sky margin; central slot and beach remain recognizable in4:5 crop. Scenario24September2026 00:30Europe/Madrid, true Night. Fresh model valid00:30:24.5C,clear0%cloud,no precipitation,wind0.7km/h. Sun elevation-46.96deg below northwestern horizon. Restrained long-exposure ambient interpretation: almost-black sky with no moon, stars, Milky Way or twilight; cliffs barely but clearly legible in cool neutral darkness, no directional spotlight, no orange sunset light. No people, tents, umbrellas, boats, animals, text, logo or watermark. Original scene, not copying a photograph. Lower20% quiet pebbles reserved for later captions.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "ef14156390eb1e2067a9155b61b633f6fe441f6dce0ccb8891fed0cde0b9bfca",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": [
+    {
+      "file": "torrent-inland.jpg",
+      "sha256": "67886509760b4324b0cd23397ed34a9b2b3434e5a0ca3d2a06bef078e3d25c0f"
+    },
+    {
+      "file": "torrent-day.jpg",
+      "sha256": "77167a9215c4fc27496e0d1ecbc44fc6e7b6301ea9258ae406a62c1f3f4c6590"
+    }
+  ]
+}
