@@ -30,8 +30,8 @@
       "Complementary night photograph asset dated June 2021 visually inspected; geometry and illumination precedent only. Fountain omitted because present operation was not verified."
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Public Parc de la Mar waterside promenade near 39.5674,2.6483, eye-level looking north across the reflecting pool toward the cathedral's long south elevation. Coordinates approximate, not surveyed. · AI-generated artistic interpretation",
@@ -230,5 +230,6 @@
       "file": "palma-day.jpg",
       "sha256": "c8e2c7faa20ee1cb57a8255de4d1504eb83e987a01b58381ccf10b5e0228f3df"
     }
-  ]
+  ],
+  "approval_basis": "Gate 1: recognizably La Seu — long Gothic south wall with repeated buttresses and pinnacles, large eastern rose window right, raised city wall, palms, and Parc de la Mar reflecting pool from the documented public promenade viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night illumination noted as precedent-based per the packet's honest limitations disclosure."
 }
