@@ -6,25 +6,39 @@
   "caption": "Casa Batlló, Barcelona",
   "scenario_label": "23 September 2026 · 10:34 Europe/Madrid",
   "composition": "Morning daylight · Façade from Passeig de Gràcia · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Casa Batlló with its complete cross and dragon roof in morning daylight. Unapproved review draft.",
-  "description": "A paired review draft of the mosaic façade and mask balconies, with Casa Amatller to the left. Full-height framing retained in both formats. Lower-window proportions and surrounding street geometry require review.",
+  "alt_text": "AI-generated artistic interpretation of Casa Batlló with its complete cross and dragon roof in morning daylight.",
+  "description": "The mosaic façade and mask balconies face Passeig de Gràcia, with Casa Amatller to the left. Both formats retain the complete roof and cross. Approved by Jason on 23 September 2026.",
   "viewpoint": "Opposite side of Passeig de Gràcia, looking northwest at eye level; exact generated camera correspondence unverified.",
-  "status": "Candidate · architectural geometry requires QC · not approved",
-  "approval_state": "candidate",
+  "status": "Approved · Jason review · Morning daylight",
+  "approval_state": "approved",
   "gates": {
-    "visual": "not passed — lower windows and surrounding geometry require review",
+    "visual": "pass — Jason review",
     "technical": "pass — both PNG dimensions, full height and labels inspected",
     "provenance": "recorded — own-generated image edits; uniqueness unverified",
     "commercial_ip": "no prominent people or legible logos found; third-party clearance unverified",
-    "publication": "pipeline review only; not approved gallery"
+    "publication": "pass — Jason authorization"
   },
   "weather": "Model data from Open-Meteo, retrieved 23 September 2026 10:34:58 Europe/Madrid, valid 10:30 Europe/Madrid — not a verified on-site observation. 23.9°C, clear, cloud 5%. Sunrise 07:39, sunset 19:47.",
-  "limitations": "Candidate only. Façade proportions and adjacent streetscape need QC; not an exact on-site record. Originality and commercial/IP clearance unverified.",
+  "limitations": "Approved following Jason’s review. Earlier internal geometry concerns remain recorded in review history. Originality and third-party commercial/IP clearance remain unverified.",
   "file_16x9": "es-01-003-16x9.png",
   "file_4x5": "es-01-003-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "editions": [],
   "time_of_day": "Morning daylight",
-  "revision_lineage": "Text-only built-in generation followed by own-image street/framing correction and landscape outpainting; no photographic pixels supplied. Both exports cropped from final generated source."
+  "revision_lineage": "Text-only built-in generation followed by own-image street/framing correction and landscape outpainting; no photographic pixels supplied. Both exports cropped from final generated source.",
+  "review_history": [
+    {
+      "previous_status": "Candidate · architectural geometry requires QC · not approved",
+      "previous_gates": {
+        "visual": "not passed — lower windows and surrounding geometry require review",
+        "technical": "pass — both PNG dimensions, full height and labels inspected",
+        "provenance": "recorded — own-generated image edits; uniqueness unverified",
+        "commercial_ip": "no prominent people or legible logos found; third-party clearance unverified",
+        "publication": "pipeline review only; not approved gallery"
+      },
+      "resolution": "Superseded for gallery placement by explicit Jason approval on 23 September 2026; earlier internal concerns retained as history."
+    }
+  ],
+  "approval_basis": "Explicit Jason approval, 23 September 2026: mosaic façade and cross-topped roof accepted in honest morning light. Internal editorial approval, not legal certification."
 }
