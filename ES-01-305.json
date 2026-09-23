@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-305",
+  "country": "Spain",
+  "city": "A Coruña",
+  "region": "Galicia",
+  "caption": "Tower of Hercules, A Coruña",
+  "revision": "r2",
+  "viewpoint": "From the headland park near 43.3859,-8.4064, looking up at the Tower of Hercules. Approximate point only.",
+  "anchors": [
+    "Ancient Roman lighthouse tower in silhouette — beacon only, no floodlighting",
+    "Rotating beacon glowing softly at the top, the lighthouse's own light",
+    "Rugged coastline below with dark sea; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Only the lighthouse's own beacon is depicted as illumination; floodlighting is neither depicted nor claimed. r1 rejected in local self-check (beacon cropped out of frame in the 16:9); regenerated as r2 with the full tower and beacon in frame. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Tower_of_Hercules",
+      "Encyclopedic description of the Tower of Hercules (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Torre_de_H%C3%A9rcules",
+      "Spanish Wikipedia entry for the Tower of Hercules; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Tower of Hercules, beacon glowing, near 43.3859,-8.4064. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Tower of Hercules, A Coruña at night.",
+  "description": "The Tower of Hercules rises from the headland in silhouette, the oldest working lighthouse in the world. Its own rotating beacon glows softly at the top — the only light the scene claims, no floodlighting depicted. Below, the rugged coastline meets the dark sea under a perfectly clear model sky (0% cloud).",
+  "file_16x9": "es-01-305-r2-16x9.png",
+  "file_4x5": "es-01-305-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0dd7d4e905361545a3db04ecb9e99e4b9708787caeef201fcb9110ac9aed6616"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "b366374ab5a18cda41c03078f9c82a954125c9be77bbd6fa280a2219d7852cd5"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-305-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1185091,
+      "sha256": "0dd7d4e905361545a3db04ecb9e99e4b9708787caeef201fcb9110ac9aed6616",
+      "source_file": "media-generation-src-es-01-305-r2-0-630bdb52-582c-4398-9b1a-2a5d3d945942.png",
+      "source_dimensions": [
+        1280,
+        1920
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Tower of Hercules, A Coruña",
+        "Scenario: 24 September 2026 · 01:35 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1280, 1920]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-305-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1047962,
+      "sha256": "b366374ab5a18cda41c03078f9c82a954125c9be77bbd6fa280a2219d7852cd5",
+      "source_file": "media-generation-src-es-01-305-r2-0-630bdb52-582c-4398-9b1a-2a5d3d945942.png",
+      "source_dimensions": [
+        1280,
+        1920
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Tower of Hercules, A Coruña",
+        "Scenario: 24 September 2026 · 01:35 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1280, 1920]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3859&longitude=-8.4064&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r2.txt": "Photorealistic artistic night interpretation of the Tower of Hercules in A Coruna, Galicia: the ancient Roman lighthouse tower in silhouette rising from the rocky headland, the FULL tower visible with generous headroom above it including its rotating beacon glowing softly at the very top, the lighthouse's own light; rugged coastline below with dark sea; clear starry sky; no prominent people, no text, no logos; the whole tower and beacon centered so they survive a center crop to landscape or portrait; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-305-r2-0-630bdb52-582c-4398-9b1a-2a5d3d945942.png",
+      "sha256": "947f4bb2e0b202df212b82de8a9f7a4265e005224390bcdec98b4ecad5d9196f",
+      "dimensions": [
+        1280,
+        1920
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1280, 1920]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
