@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-224",
+  "country": "Spain",
+  "city": "Almonte",
+  "region": "Andalusia",
+  "caption": "El Rocío, Almonte",
+  "revision": "r1",
+  "viewpoint": "the marsh edge of the Doñana wetlands, facing the white sanctuary across the water",
+  "anchors": [
+    "the whitewashed Ermita sanctuary with its twin towers and cross, glowing softly",
+    "the sandy, horse-tracked village street with wooden horse rails in the foreground",
+    "the dark Doñana marsh wetlands and pine-tree horizon fading behind the village"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time lighting of the sanctuary is restrained and interpretive, not verified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Hermitage_of_El_Roc%C3%ADo",
+      "Hermitage of El Rocío — present 1960s white sanctuary, destination of the annual Pentecost Romería"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/El_Roc%C3%ADo",
+      "El Rocío village — sandy unpaved streets, horse rails, marshes of the Doñana edge"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:41 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · white pilgrimage sanctuary over the marsh at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of El Rocío at night.",
+  "description": "From the marsh edge, El Rocío's white sanctuary rises over the still wetlands, its twin towers and cross glowing softly under village streetlamps and moonlight. The sandy street lies quiet in the foreground, its wooden horse rails empty, while the Doñana marsh stretches dark behind the hamlet. On a clear 22°C night, the pilgrimage village that draws a million visitors each Pentecost sleeps under the stars.",
+  "file_16x9": "es-01-224-r1-16x9.png",
+  "file_4x5": "es-01-224-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d0a1df959c1b44fbd06f788de72af8e51e688d473fcbbfdbf56657e406131ab8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "bae6da6f550821ac9c6c386336d26a2c952b043e2183ed388326a1b7b7a0fd89"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-224-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2192181,
+      "sha256": "d0a1df959c1b44fbd06f788de72af8e51e688d473fcbbfdbf56657e406131ab8",
+      "source_file": "media-generation-es-01-224-source-0-d6772359-316a-4d53-9b46-720668cf70fb.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "El Rocío, Almonte",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-224-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1120317,
+      "sha256": "bae6da6f550821ac9c6c386336d26a2c952b043e2183ed388326a1b7b7a0fd89",
+      "source_file": "media-generation-es-01-224-source-0-d6772359-316a-4d53-9b46-720668cf70fb.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "El Rocío, Almonte",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:38:39+02:00",
+    "valid": "2026-09-24T01:41:33+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 21.8,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 4.9
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:38:39+02:00, valid 2026-09-24T01:41:33+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of El Rocío, Almonte, Huelva, Spain, at night. Tourist viewpoint: the marsh edge of the Doñana wetlands, facing the white sanctuary across the water. Frame: the whitewashed Ermita sanctuary with its twin towers and cross, glowing softly, centered; the sandy, horse-tracked village street with wooden horse rails in the foreground; the dark Doñana marsh wetlands and pine-tree horizon fading behind the village. Night light: moonlight and restrained village street lighting on the whitewashed walls, starry clear sky, 22 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-224-source-0-d6772359-316a-4d53-9b46-720668cf70fb.png",
+      "sha256": "29151f95127063c327b44f735deb511a765ff8042fb171ccfc5eac176fa63014",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
