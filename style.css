@@ -6,3 +6,5 @@
 /* Section 15: one landscape master link per card. */
 .master-link{display:block;width:100%;background:var(--panel)}
 .master-link img{display:block;width:100%;height:auto}
+
+.country-switch{display:flex;gap:18px;align-items:center;flex-wrap:wrap;width:min(1320px,92%);margin:0 auto;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px;color:var(--muted)}.country-switch a{text-decoration:none}.country-switch a:hover{color:var(--ink);text-decoration:underline}.country-switch .sep{color:var(--line)}.country-switch [aria-current]{color:var(--ink);font-weight:600}
