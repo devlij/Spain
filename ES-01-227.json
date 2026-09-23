@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-227",
+  "country": "Spain",
+  "city": "Jaén",
+  "region": "Andalusia",
+  "caption": "Jaén Cathedral, Jaén",
+  "revision": "r1",
+  "viewpoint": "the Plaza de Santa María, facing the Renaissance façade",
+  "anchors": [
+    "the monumental Renaissance façade with its twin towers, glowing under night lighting",
+    "the Plaza de Santa María square with its benches in the foreground",
+    "the dark hill of Santa Catalina castle rising behind the city"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night illumination of the façade is supported by visitor reports but no official lighting schedule was verified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Ja%C3%A9n_Cathedral",
+      "Jaén Cathedral — 16th-century Renaissance cathedral, model for cathedrals in Spain and the Americas, UNESCO indicative list"
+    ],
+    [
+      "https://www.getyourguide.com/jaen-l2875/jaen-night-tour-legends-and-mysteries-t525541/",
+      "Jaén night tour — the façade seen from the Plaza de Santa María, an after-dark highlight of the city"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:41 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Renaissance cathedral façade glowing at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Jaén Cathedral at night.",
+  "description": "From the Plaza de Santa María, Jaén Cathedral's vast Renaissance façade fills the frame, its carved stonework glowing under the night lighting that visitors say should not be missed. Twin towers anchor the wide front above the square's benches. On a clear 22°C night, the 16th-century masterpiece — the model for cathedrals across Spain and the Americas — stands in a pool of light with the hill of Santa Catalina dark behind.",
+  "file_16x9": "es-01-227-r1-16x9.png",
+  "file_4x5": "es-01-227-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "62d96dd50f9d617d48bb1a4c3c00c69c7e55ca494e9dac08b2740722827a67e0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "83fb8b954a225a5b5aaa7cef4978514b02cbb7ba696d1d01f82448839fe08056"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-227-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2380728,
+      "sha256": "62d96dd50f9d617d48bb1a4c3c00c69c7e55ca494e9dac08b2740722827a67e0",
+      "source_file": "media-generation-es-01-227-source-0-82497e76-fec7-4d58-a45c-f1c9b50c4e05.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Jaén Cathedral, Jaén",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-227-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1167652,
+      "sha256": "83fb8b954a225a5b5aaa7cef4978514b02cbb7ba696d1d01f82448839fe08056",
+      "source_file": "media-generation-es-01-227-source-0-82497e76-fec7-4d58-a45c-f1c9b50c4e05.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Jaén Cathedral, Jaén",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:38:39+02:00",
+    "valid": "2026-09-24T01:41:33+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 22.0,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 6.5
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:38:39+02:00, valid 2026-09-24T01:41:33+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Jaén Cathedral, Jaén, Spain, at night. Tourist viewpoint: the Plaza de Santa María, facing the Renaissance façade. Frame: the monumental Renaissance façade with its twin towers, glowing under night lighting, centered; the Plaza de Santa María square with its benches in the foreground; the dark hill of Santa Catalina castle rising behind the city. Night light: façade night lighting glowing on the carved Renaissance stonework, warm square lighting, clear moonlit sky, 22 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-227-source-0-82497e76-fec7-4d58-a45c-f1c9b50c4e05.png",
+      "sha256": "107d3d6775a5ee8a4a408a2e54d4f65d1a53bc2c73004f34dba0f0793e61d645",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
