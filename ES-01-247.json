@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-247",
+  "country": "Spain",
+  "city": "Figueres",
+  "region": "Catalonia",
+  "caption": "Dalí Theatre-Museum, Figueres",
+  "revision": "r1",
+  "viewpoint": "Plaça Gala-Salvador Dalí, eye-level, facing the museum tower and dome. Exact camera point approximate.",
+  "anchors": [
+    "Terracotta-red tower crowned with giant eggs rises centered",
+    "Glass geodesic dome crowns the museum roofline",
+    "Monumental ochre walls and sculptures around the base"
+  ],
+  "limitations": "Exact camera point approximate; lighting is street-lamp light only — no claim about the museum's actual night illumination; current conditions unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Dal%C3%AD_Theatre_and_Museum",
+      "Dalí Theatre and Museum (Figueres, former theatre, geodesic dome, eggs)"
+    ],
+    [
+      "https://placestoreset.com/en/dali/",
+      "Dalí Theatre-Museum visitor guide (tower, dome, facade sculptures)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:16 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · The egg-crowned tower and geodesic dome over the lamplit square · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Dalí Theatre-Museum, Figueres at night.",
+  "description": "From the Plaça Gala-Salvador Dalí, the bold terracotta-red tower of the Dalí Theatre-Museum rises centered in the frame, its crown of giant eggs and the glass geodesic dome silhouetted against a deep blue night sky. The ochre museum walls and monumental sculptures around the base pick up warm street lighting, and the empty square holds a still, surreal calm. A mainly clear 18.4°C night.",
+  "file_16x9": "es-01-247-r1-16x9.png",
+  "file_4x5": "es-01-247-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3fe5da2d836abd4e36a761c01c6fd2c68f8cac363bca8db25ed0506067edbb14"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7e9718394789518af1b9da56b7d3747aae89ed84aca217532488f4b96e851fdc"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-247-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2285369,
+      "sha256": "3fe5da2d836abd4e36a761c01c6fd2c68f8cac363bca8db25ed0506067edbb14",
+      "source_file": "source-247.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Dalí Theatre-Museum, Figueres",
+        "Scenario: 24 September 2026 · 01:16 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-247-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1056021,
+      "sha256": "7e9718394789518af1b9da56b7d3747aae89ed84aca217532488f4b96e851fdc",
+      "source_file": "source-247.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Dalí Theatre-Museum, Figueres",
+        "Scenario: 24 September 2026 · 01:16 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.2675&longitude=2.9594&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:15",
+    "temperature_c": 18.4,
+    "weather_code": 1,
+    "weather_word": "mainly clear",
+    "cloud_cover_pct": 42,
+    "is_day": 0,
+    "wind_kmh": 2.7
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Dalí Theatre-Museum in Figueres, Catalonia, at night, viewed from Plaça Gala-Salvador Dalí. The bold terracotta-red tower with its crown of giant eggs and the glass geodesic dome rises centered in the frame; the ochre museum walls and the monumental sculptures around the base are picked out by warm street lighting against a deep blue night sky. Surreal but recognizable landmark, quiet empty square."
+  },
+  "source_files": [
+    {
+      "file": "source-247.png",
+      "sha256": "a7c24c32ac8f11dfe77312ab787f192158bdc2046b88d62f4b83e92b103a2d8b",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
