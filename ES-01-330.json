@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-330",
+  "country": "Spain",
+  "city": "San Ildefonso",
+  "region": "Castile and León",
+  "caption": "Royal Palace, La Granja de San Ildefonso",
+  "revision": "r3",
+  "viewpoint": "Upper gardens, facing the palace facade (approx 40.8989N, 4.0025W)",
+  "anchors": [
+    "Long pale palace facade with central portico, a moonlit silhouette above the gardens",
+    "Dark formal French parterre and fountains lying below the terrace, a few garden lamps glowing",
+    "Sierra de Guadarrama mountains rising dark behind the palace under a cloudy night sky"
+  ],
+  "limitations": "No floodlighting is claimed: the palace is depicted as a moonlit silhouette because night illumination of the facade is not supported by references. Garden layout, fountain placement and lamp positions are interpretive. Camera point in the upper gardens is a conventional tourist position, not map-verified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/royal-palace-granja-san-ildefonso/",
+      "Official Spain tourism: Royal Palace of La Granja de San Ildefonso"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/Royal_Palace_of_La_Granja_de_San_Ildefonso",
+      "Encyclopedia: Philip V palace 1721-24, Versailles-model gardens, 26 sculptural fountains"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:06 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Palace from the upper gardens, moonlit silhouette over the dark parterre · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Royal Palace of La Granja de San Ildefonso at night.",
+  "description": "From the upper gardens the long pale facade of La Granja stands above the formal parterre as a restrained moonlit silhouette, its central portico just catching the night light. Below, the geometric French gardens and the mythological fountains lie dark, with a few garden lamps glowing along the terraces. Behind the palace the Sierra de Guadarrama rises as a dark wall under the cloudy night sky, and the whole scene keeps the quiet of the Bourbon summer retreat after hours.",
+  "file_16x9": "es-01-330-r3-16x9.png",
+  "file_4x5": "es-01-330-r3-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a9fb7a97c142e91c6d39487d90c0552a0c0b83321d158b30dd42502245bd2f66"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "620343da2e3ffa5c37c6bb8680f69282fc10fbd2ec168be540d711e4747e5b45"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-330-r3-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 844515,
+      "sha256": "a9fb7a97c142e91c6d39487d90c0552a0c0b83321d158b30dd42502245bd2f66",
+      "source_file": "media-generation-es-01-330-source-v3-0-92d88a8e-543b-4356-86f7-130cb6a6054b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Royal Palace, La Granja de San Ildefonso",
+        "Scenario: 24 September 2026 · 02:06 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-330-r3-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 603726,
+      "sha256": "620343da2e3ffa5c37c6bb8680f69282fc10fbd2ec168be540d711e4747e5b45",
+      "source_file": "media-generation-es-01-330-source-v3-0-92d88a8e-543b-4356-86f7-130cb6a6054b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Royal Palace, La Granja de San Ildefonso",
+        "Scenario: 24 September 2026 · 02:06 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 87,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 17.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.5
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r3.txt": "Photorealistic long-exposure night photograph of the Royal Palace of La Granja de San Ildefonso, Spain, viewed from the upper gardens. IMPORTANT: the palace facade is completely dark and unlit — a black silhouette edged only by moonlight, no floodlights, no lit windows, no light strips. Only the crescent moon half-hidden behind clouds and a few tiny warm garden lamps in the black parterre below give light. The Sierra de Guadarrama is a black mass behind. Deep night mood, mostly black frame. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-330-source-v3-0-92d88a8e-543b-4356-86f7-130cb6a6054b.png",
+      "sha256": "8250f85c25db49ab164da25dcfbb885f088b456800c5ade710eed4f86ad85f0a",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
