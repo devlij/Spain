@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-315",
+  "country": "Spain",
+  "city": "Cudillero",
+  "region": "Asturias",
+  "caption": "Cudillero, Asturias",
+  "revision": "r1",
+  "viewpoint": "From the harbor near 43.5640,-6.1450, looking up at the village amphitheater. Approximate point only.",
+  "anchors": [
+    "Colorful houses rising in an amphitheater around the small harbor",
+    "Warm lit windows and generic harbor lamps",
+    "Dark sea beyond the harbor mouth; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Window and harbor lamps are generic; no specific fixtures claimed. House colors are an artistic impression. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cudillero",
+      "Encyclopedic description of Cudillero (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Cudillero",
+      "Spanish Wikipedia entry for Cudillero; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:42 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From Cudillero, amphitheater of houses above the harbor near 43.5640,-6.1450. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cudillero, Asturias at night.",
+  "description": "Cudillero's colorful houses rise in an amphitheater around the small harbor, their lit windows and generic harbor lamps glowing against the dark. The sea beyond the harbor mouth is black under a clear model sky (0% cloud). One of Asturias' most picturesque fishing villages, at night.",
+  "file_16x9": "es-01-315-r1-16x9.png",
+  "file_4x5": "es-01-315-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3822f641331cd19d412a9a33f5426099f4e9436b2bf150d1be785c46285f8223"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "465720a2760cc96bcd0bb33e55eca0824a071bb9ea9566db2f9b7df4fe0556b3"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-315-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3347699,
+      "sha256": "3822f641331cd19d412a9a33f5426099f4e9436b2bf150d1be785c46285f8223",
+      "source_file": "media-generation-src-es-01-315-0-a66fd0dc-308a-427a-8936-7e5dceb9fa7b.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cudillero, Asturias",
+        "Scenario: 24 September 2026 · 01:42 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-315-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1509692,
+      "sha256": "465720a2760cc96bcd0bb33e55eca0824a071bb9ea9566db2f9b7df4fe0556b3",
+      "source_file": "media-generation-src-es-01-315-0-a66fd0dc-308a-427a-8936-7e5dceb9fa7b.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cudillero, Asturias",
+        "Scenario: 24 September 2026 · 01:42 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.5640&longitude=-6.1450&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of Cudillero in Asturias: the colorful houses of the village rising in an amphitheater around the small harbor; warm lit windows and ordinary harbor lamps, kept generic; the dark sea beyond the harbor mouth; clear starry sky; no prominent people, no text, no logos; village centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-315-0-a66fd0dc-308a-427a-8936-7e5dceb9fa7b.png",
+      "sha256": "4411afc0a3030de549fd97cfb27641841e47df7e6e9c52c3b5d31916ff7aa49a",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
