@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-285",
+  "country": "Spain",
+  "city": "La Palma",
+  "region": "Canary Islands",
+  "caption": "Roque de los Muchachos, La Palma",
+  "revision": "r1",
+  "viewpoint": "Summit ridge near the Roque de los Muchachos observatory, La Palma, near 28.7546,-15.3818 (~2,426 m), looking across the caldera rim. Approximate point only.",
+  "anchors": [
+    "Dark jagged caldera rim running across the middle distance",
+    "Low rounded observatory dome silhouettes along the summit ridge",
+    "Dense starfield with the Milky Way band overhead; pine-forested slopes falling into blackness below"
+  ],
+  "limitations": "Exact ridge viewpoint unverified; observatory dome arrangement approximate; star positions artistic, not an ephemeris. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Roque_de_los_Muchachos",
+      "Encyclopedic description of the Roque de los Muchachos and its observatory (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Roque_de_los_Muchachos",
+      "Spanish Wikipedia entry for the Roque de los Muchachos, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Summit ridge near the observatory near 28.7546,-15.3818, looking across the caldera rim under the starfield. Approximate point only; no claim of measured luminance or nighttime access. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Roque de los Muchachos, La Palma at night.",
+  "description": "From the summit ridge of the Roque de los Muchachos the jagged rim of the Caldera de Taburiente runs dark across the middle of the frame, with low dome silhouettes of the observatory strung along the crest. Overhead the sky is dense with stars — La Palma is one of the world's great stargazing islands — and the forested slopes drop into blackness below. Clear model skies (9% cloud) support the crisp, long-exposure feel; nothing here is floodlit.",
+  "file_16x9": "es-01-285-r1-16x9.png",
+  "file_4x5": "es-01-285-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "62f738c69de1c8bc1fe05a7e166ce7ae7a91ce2e6bc397beb22e64b0c09e8f7a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "e19c67847e209cd43a0cd12d4a75a92471dca02f2d7be5a2eae1e724742bbf58"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-285-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2464890,
+      "sha256": "62f738c69de1c8bc1fe05a7e166ce7ae7a91ce2e6bc397beb22e64b0c09e8f7a",
+      "source_file": "media-generation-src-es-01-285-0-b757e3bf-bc03-4b02-a552-83a5873abd4b.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roque de los Muchachos, La Palma",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-285-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1253063,
+      "sha256": "e19c67847e209cd43a0cd12d4a75a92471dca02f2d7be5a2eae1e724742bbf58",
+      "source_file": "media-generation-src-es-01-285-0-b757e3bf-bc03-4b02-a552-83a5873abd4b.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roque de los Muchachos, La Palma",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.7546&longitude=-15.3818&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:00+02:00",
+    "timezone": "Europe/Madrid",
+    "valid": "2026-09-24T01:00+02:00 Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:00+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Roque de los Muchachos summit ridge on La Palma, Canary Islands: dark jagged caldera rim silhouettes running across the middle distance, a couple of low rounded observatory dome silhouettes along the ridge; a dense starfield with the Milky Way band overhead; pine-forested slopes falling into blackness below; crisp clear night air; no people, no lights other than faint starlight, no text, no logos; subject centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-285-0-b757e3bf-bc03-4b02-a552-83a5873abd4b.png",
+      "sha256": "c331f186cf84e07180a3adc5d299eba7d0ff07a2742863097ade7f15cd68367a",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
