@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-324",
+  "country": "Spain",
+  "city": "Santander",
+  "region": "Cantabria",
+  "caption": "Cathedral, Santander",
+  "revision": "r1",
+  "viewpoint": "From the square near 43.4630,-3.8060, looking at the Santander Cathedral. Approximate point only.",
+  "anchors": [
+    "Gothic cathedral rising over a quiet square",
+    "Ordinary plaza lamps and moonlight only — no floodlighting claimed",
+    "Lamp-lit cobbles in the foreground; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Illumination is plaza lamps and moonlight only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Santander_Cathedral",
+      "Encyclopedic description of the Santander Cathedral (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Catedral_de_Santander",
+      "Spanish Wikipedia entry for the Santander Cathedral; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Santander Cathedral, Gothic, from the square near 43.4630,-3.8060. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Santander Cathedral at night.",
+  "description": "In Santander the Gothic cathedral rises over a quiet square, lit only by ordinary plaza lamps and moonlight — no floodlighting is claimed or depicted. The lamp-lit cobbles lead up to the cathedral under a perfectly clear model sky (0% cloud).",
+  "file_16x9": "es-01-324-r1-16x9.png",
+  "file_4x5": "es-01-324-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "45103386c4966e94b7717c5b9262c7b34d2eaf937c20cdb69daf49a589273df5"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "607822d1a9f7486fedf7008bc67fb39ca8bb0fe4fd4215bbb9734d1634a02b86"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-324-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2152233,
+      "sha256": "45103386c4966e94b7717c5b9262c7b34d2eaf937c20cdb69daf49a589273df5",
+      "source_file": "media-generation-src-es-01-324-0-cdd49325-2e61-4ef3-bc92-1913f6b22549.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Santander",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-324-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1129200,
+      "sha256": "607822d1a9f7486fedf7008bc67fb39ca8bb0fe4fd4215bbb9734d1634a02b86",
+      "source_file": "media-generation-src-es-01-324-0-cdd49325-2e61-4ef3-bc92-1913f6b22549.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Santander",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.4630&longitude=-3.8060&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:45+02:00",
+    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Santander Cathedral in Cantabria: the Gothic cathedral rising over a quiet square, lit only by ordinary plaza street lamps and moonlight, no floodlighting; lamp-lit cobbles in the foreground; a few lit windows; clear starry sky above; no prominent people, no text, no logos; cathedral centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-324-0-cdd49325-2e61-4ef3-bc92-1913f6b22549.png",
+      "sha256": "31ce53d94ee53b1bec4660943015fb8298b078de2e61cd382840ac2f13e9b96a",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
