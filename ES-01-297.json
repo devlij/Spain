@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-297",
+  "country": "Spain",
+  "city": "Gran Canaria",
+  "region": "Canary Islands",
+  "caption": "Roque Nublo, Gran Canaria",
+  "revision": "r1",
+  "viewpoint": "From the Roque Nublo trail viewpoint near 27.9656,-15.6108, looking at the basalt monolith. Approximate point only.",
+  "anchors": [
+    "Roque Nublo basalt monolith silhouetted against a starry sky",
+    "Volcanic ridge below; 20% model cloud as drifting thin cloud",
+    "Mount Teide's silhouette on Tenerife far across the dark sea on the horizon"
+  ],
+  "limitations": "Teide visibility depends on clarity; depicted on a clear-enough night. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Roque_Nublo",
+      "Encyclopedic description of Roque Nublo (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Roque_Nublo",
+      "Spanish Wikipedia entry for Roque Nublo, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:29 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Roque Nublo monolith, silhouetted against the sky with Teide across the sea near 27.9656,-15.6108. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Roque Nublo, Gran Canaria at night.",
+  "description": "Roque Nublo stands silhouetted against the stars, the great basalt monolith rising from the volcanic ridge below. Thin drifting cloud (20% model cover) softens parts of the sky, and far across the dark sea the silhouette of Mount Teide on Tenerife closes the horizon. A high-plateau night at its starkest — nothing lit but the stars.",
+  "file_16x9": "es-01-297-r1-16x9.png",
+  "file_4x5": "es-01-297-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2720bbc3420c74784470d1ec84275bf5b649990573a811ad4ca72d110cb99b7e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "bff0394bb6dc175c62451322d686a1ba609d172dc8f5c0442e3a892f1e304f55"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-297-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1642831,
+      "sha256": "2720bbc3420c74784470d1ec84275bf5b649990573a811ad4ca72d110cb99b7e",
+      "source_file": "media-generation-src-es-01-297-0-4ac316f2-7eec-4d26-9a05-e0c82cf99e2f.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roque Nublo, Gran Canaria",
+        "Scenario: 24 September 2026 · 01:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-297-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1026736,
+      "sha256": "bff0394bb6dc175c62451322d686a1ba609d172dc8f5c0442e3a892f1e304f55",
+      "source_file": "media-generation-src-es-01-297-0-4ac316f2-7eec-4d26-9a05-e0c82cf99e2f.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roque Nublo, Gran Canaria",
+        "Scenario: 24 September 2026 · 01:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=27.9656&longitude=-15.6108&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:15+02:00",
+    "valid": "2026-09-24T01:15+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15+02:00, valid 2026-09-24T01:15+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic starlit night interpretation of Roque Nublo in Gran Canaria, Canary Islands: the great basalt monolith silhouetted against a starry sky, rising from the volcanic ridge below; the distant silhouette of Mount Teide on Tenerife far across the dark sea on the horizon; scattered thin clouds drifting; cool dark palette; no prominent people, no text, no logos; monolith centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-297-0-4ac316f2-7eec-4d26-9a05-e0c82cf99e2f.png",
+      "sha256": "0f4da804a1bd048907389faa93e625cdc8f188b10cc44562f5449b3e3f80ad72",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
