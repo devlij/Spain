@@ -1,0 +1,224 @@
+{
+  "entry_id": "ES-01-025",
+  "country": "Spain",
+  "city": "Torla-Ordesa",
+  "region": "Aragon",
+  "caption": "Valle de Ordesa, Torla-Ordesa",
+  "revision": "r1",
+  "viewpoint": "Public Pradera de Ordesa trailhead/gravel parking-edge near42.6493,-0.0606, eye-level looking approximately north toward the limestone escarpment. No assertion of nighttime transport or access availability.",
+  "anchors": [
+    "Broad gravel foreground at Pradera",
+    "Mixed forest below the cliff",
+    "Flat-topped horizontally stratified limestone escarpment with stepped right ridge"
+  ],
+  "limitations": "Dark long-exposure artistic interpretation, not a measured scene luminance. Exact cliff proportions, vegetation and crop recognizability need Cosmo review. No claim that Monte Perdido summit is visible. Portrait selects central cliff, not the full lateral valley panorama.",
+  "refs": [
+    [
+      "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/ordesa.html",
+      "Official national park description, retrieved23September2026."
+    ],
+    [
+      "https://www.parquenacionalordesa.com/1-cola-de-caballo/",
+      "Route description identifies Pradera trailhead and valley setting, reviewed23September2026; no claim this is government source."
+    ],
+    [
+      "https://es.wikiloc.com/rutas-senderismo/pradera-de-ordesa-cola-caballo-7521740",
+      "Complementary trailhead photograph visually inspected: broad gravel foreground, trees and blocky cliff. Photo date unknown."
+    ],
+    [
+      "https://cimanorte.com/ravier-al-tozal-del-mallo-en-ordesa/",
+      "Complementary cliff reference found in image search; supports limestone character only, not exact Pradera camera."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public Pradera de Ordesa trailhead/gravel parking-edge near42.6493,-0.0606, eye-level looking approximately north toward the limestone escarpment. No assertion of nighttime transport or access availability. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Valle de Ordesa, Torla-Ordesa at night.",
+  "description": "Broad gravel foreground at Pradera; Mixed forest below the cliff; Flat-topped horizontally stratified limestone escarpment with stepped right ridge.",
+  "file_16x9": "es-01-025-r1-16x9.png",
+  "file_4x5": "es-01-025-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "37db9cfbb3d0d7379b3dce21ebc3443f66cffa447c75ef4916f67f5be6d0b8d9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "8f44e907f11457542154c073d7f1052ccee93085aad128923d3ea508b1900036"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-025-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2234177,
+      "sha256": "37db9cfbb3d0d7379b3dce21ebc3443f66cffa447c75ef4916f67f5be6d0b8d9",
+      "source_file": "025/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Valle de Ordesa, Torla-Ordesa",
+        "Scenario: 23 September 2026 · 23:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. Oviedo r1 retained but rejected for exaggerated facade geometry; r2 is a new text-only corrected source.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-025-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1050361,
+      "sha256": "8f44e907f11457542154c073d7f1052ccee93085aad128923d3ea508b1900036",
+      "source_file": "025/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Valle de Ordesa, Torla-Ordesa",
+        "Scenario: 23 September 2026 · 23:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. Oviedo r1 retained but rejected for exaggerated facade geometry; r2 is a new text-only corrected source.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T21:07:12.237660+00:00",
+    "retrieved_local": "2026-09-23T23:07:12.237660+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.6493&longitude=-0.0606&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 42.65,
+      "longitude": -0.07000065,
+      "generationtime_ms": 6.6443681716918945,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 1336.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T23:00",
+        "interval": 900,
+        "temperature_2m": 16.8,
+        "weather_code": 3,
+        "cloud_cover": 100,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 6.3
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T07:48"
+        ],
+        "sunset": [
+          "2026-09-23T19:56"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
+    "requested_coordinates": [
+      42.6493,
+      -0.0606
+    ],
+    "model_grid_coordinates": [
+      42.65,
+      -0.07000065
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -33.45,
+      "azimuth_deg": 307.7
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T07:48:00+02:00",
+    "sunset_local": "2026-09-23T19:56:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-23T23:07:12.237660+02:00, valid 2026-09-23T23:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Create an ORIGINAL photorealistic artistic interpretation of Valle de Ordesa, Torla-Ordesa, Spain, eye-level camera at public Pradera de Ordesa valley-floor trailhead facing roughly north across the meadow/parking edge at the immense stratified limestone escarpment. Composition: broad gravel access track foreground, scattered deciduous trees and dense dark mixed forest at base of a huge blocky flat-topped pale limestone cliff, layered horizontal strata and stepped rightward ridge, NOT a pointed alpine peak, no visible Monte Perdido summit from this position. Pull back so entire main cliff occupies middle42% image width with surrounding slope and forest at sides, suitable for both wide and portrait crop. Actual scenario23September2026 23:07Europe/Madrid, NIGHT, solar elevation-33.45deg. Open-Meteo valid23:00:16.8C,100% cloud,weathercode3,no precipitation,wind6.3km/h. Depict genuinely deep overcast night: near-black forest/meadow, very faint subdued dark-grey cliff silhouette against slightly lighter charcoal cloud cover. Do not turn night into blue hour or daylight. No moon, stars, twilight horizon glow, snow, fog, floodlights, streetlights or fabricated local lighting. Low-contrast natural long-exposure interpretation may barely reveal cliff strata but keep scene dark and restrained, no vivid greens. Quiet natural landscape, no people/tents/vehicles/logos. Wide16:9 image; generous sky and foreground margins; no text or signature, bottom20% simple dark gravel for later labels. Do not copy any specific reference photograph.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "077e6c09233efc02f57f278232686bf9af937c41f777705e7a389ef9b2584a16",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source1672x941; landscape enlarged to1920x1080; portrait is a central crop enlarged to864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison complete; specific limitations above require reviewer judgment.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification."
+}
