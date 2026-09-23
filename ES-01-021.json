@@ -1,0 +1,341 @@
+{
+  "entry_id": "ES-01-021",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Málaga",
+  "caption": "Alcazaba, Málaga",
+  "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
+  "composition": "NIGHT · Public Calle Alcazabilla / Roman Theatre forecourt near 36.7214,-4.4160, eye level, facing east-northeast up the theatre and wooded slope toward the Alcazaba. Approximate camera, not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Alcazaba, Málaga at night. The Alcazaba rises above Málaga’s Roman Theatre as a long layered band of stone ramparts and square towers at night.",
+  "description": "The Alcazaba rises above Málaga’s Roman Theatre as a long layered band of stone ramparts and square towers at night.",
+  "viewpoint": "Public Calle Alcazabilla / Roman Theatre forecourt near 36.7214,-4.4160, eye level, facing east-northeast up the theatre and wooded slope toward the Alcazaba. Approximate camera, not surveyed.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T22:33:40.885792+02:00, valid 2026-09-23T22:30 Europe/Madrid; not a verified on-site observation. 22.3°C, WMO 0, 5% cloud, 0.0 mm precipitation, 4.3 km/h wind. Sunrise 08:06, sunset 20:13; sun elevation -27.98°, azimuth 293.54° clockwise from north, below horizon. Night; no direct sunlight.",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "approval_basis": "No approval claimed. Independent exact-pair five-gate review pending.",
+  "time_of_day": "Night",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "Fortress wall cadence, towers, theatre details and illumination remain subject to independent review; lighting operation tonight is unverified. Exact-size PNGs are resampled from a 1672×940 built-in generated source; dimensions do not imply native detail. Model weather is not observation. Internal review is not legal certification.",
+  "revision": "r3",
+  "revision_lineage": "Built-in text-only generation r1; two built-in own-source framing edits through r3, retaining the original recorded scenario. Both formats use the same selected source, uniform Lanczos crop/resampling, deterministic gradient and typography; no separate portrait generation. Model version not exposed.",
+  "historical_editions": [
+    {
+      "file": "source-r1.png",
+      "sha256": "fd287cf90f97d8a565f4d7aa069ea2d6e5f9c394dc5a01e74684a7fffae85d09",
+      "bytes": 2378852,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "retained_in_review_archive": true
+    },
+    {
+      "file": "source-r2.png",
+      "sha256": "029433593ed819415e576bb8f65d04d9a0d220f5e8145b388913bd49af2f94f6",
+      "bytes": 2312658,
+      "dimensions": [
+        1672,
+        940
+      ],
+      "selected": false,
+      "retained_in_review_archive": true
+    }
+  ],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6fbe6b0990d11947c515915794c0eddf28621459a5f34c7a006b9eead4845561",
+      "bytes": 2732051,
+      "source_width": 1672,
+      "source_height": 940,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "56be77ec9d9fd95603bb21d44abbc847626dbf81b521703c742070dc1efc20ab",
+      "bytes": 1230520,
+      "source_width": 1672,
+      "source_height": 940,
+      "resampled": true
+    }
+  },
+  "file_16x9": "es-01-021-r3-16x9.png",
+  "file_4x5": "es-01-021-r3-4x5.png",
+  "references": [
+    {
+      "title": "Málaga municipal Alcazaba listing",
+      "url": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=130",
+      "note": "Municipal identity and Calle Alcazabilla 2 access address; current page checked 23 September 2026.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "Málaga municipal archaeological route, point 1",
+      "url": "https://rutasarqueologicas.malaga.eu/punto-n-1/",
+      "note": "Municipal description of Calle Alcazabilla–Plaza de la Aduana and the Albarrana tower.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "European Hispan Roman Theatre view",
+      "url": "https://europeanhispan.com/malaga-roman-theatre/",
+      "note": "Page/image published January 2025; dusk theatre/fortress relationship inspected.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "L'Est Républicain Málaga feature",
+      "url": "https://www.estrepublicain.fr/le-mag/2018/11/17/malaga-la-douce-andalouse",
+      "note": "17 November 2018; complementary twilight panorama of theatre, slope and Alcazaba inspected.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T20:33:40.885792+00:00",
+    "retrieved_local": "2026-09-23T22:33:40.885792+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=36.7214&longitude=-4.416&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 36.75,
+      "longitude": -4.4375,
+      "generationtime_ms": 0.10704994201660156,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 19.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T22:30",
+        "interval": 900,
+        "temperature_2m": 22.3,
+        "weather_code": 0,
+        "cloud_cover": 5,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 4.3
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:06"
+        ],
+        "sunset": [
+          "2026-09-23T20:13"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
+    "requested_coordinates": [
+      36.7214,
+      -4.416
+    ],
+    "model_grid_coordinates": [
+      36.75,
+      -4.4375
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -27.98,
+      "azimuth_deg": 293.54
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:06:00+02:00",
+    "sunset_local": "2026-09-23T20:13:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "gates": {
+    "visual": "Pending independent Cosmo QC; no pass claimed",
+    "technical": "Pending independent Cosmo QC; no pass claimed",
+    "provenance": "Pending independent Cosmo QC; no pass claimed",
+    "commercial_ip": "Pending independent Cosmo QC; no pass claimed",
+    "publication": "Pending independent Cosmo QC; no pass claimed"
+  },
+  "review_packet": {
+    "schema": "Spain candidate asset-only handoff v1",
+    "reviewed_revision": "r3",
+    "exact_pair": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "6fbe6b0990d11947c515915794c0eddf28621459a5f34c7a006b9eead4845561",
+        "bytes": 2732051,
+        "source_width": 1672,
+        "source_height": 940,
+        "resampled": true,
+        "file": "es-01-021-r3-16x9.png"
+      },
+      "4x5": {
+        "width": 864,
+        "height": 1080,
+        "sha256": "56be77ec9d9fd95603bb21d44abbc847626dbf81b521703c742070dc1efc20ab",
+        "bytes": 1230520,
+        "source_width": 1672,
+        "source_height": 940,
+        "resampled": true,
+        "file": "es-01-021-r3-4x5.png"
+      }
+    },
+    "prompts": {
+      "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D’s Vision location master source, wide landscape, later cropped to 16:9 and centered 4:5.\nPrimary request: An original photorealistic artistic interpretation of the Alcazaba of Málaga at 22:33 Europe/Madrid on 23 September 2026, seen from the public Calle Alcazabilla / Roman Theatre forecourt at eye level looking east-northeast. It is Night. Open-Meteo model valid 22:30: clear, 22.3°C, 5% cloud, no precipitation, 4.3 km/h wind; model data, not an on-site observation. Sun below horizon at elevation -27.98°, azimuth 293.54°; no direct sunlight.\nScene/backdrop: The low semicircular Roman Theatre stone seating fills the immediate lower foreground. Beyond, a scrubby Mediterranean slope with palms and scattered dark trees rises to the Alcazaba: a long irregular band of genuine-looking ochre-brown stone and brick defensive walls, compact square towers, battlements and layered ramparts. Subordinate city buildings at far left and right only.\nComposition/framing: Realistic ground-level distant view, not aerial. The principal theatre-to-fortress ensemble occupies no more than the central 42% of the 16:9 canvas, with generous dark sky headroom and plaza/theatre foreground, so a centered portrait crop retains the main towers, ramparts and theatre. Keep the fortress low and elongated along the hill, not a giant fantasy castle.\nLighting/mood: Clear dry Mediterranean night with only a few faint clouds and no stars or moon. Restrained warm architectural grazing light may reveal the principal walls and Roman Theatre, based on historical photos, but tonight’s operating schedule is unverified: keep deep natural shadows and avoid theatrical orange saturation. Dry stone, no rain gloss.\nConstraints: Architecturally plausible Málaga Alcazaba exterior; weather and scene time must remain honest. No readable signs, brands, banners, crowds or identifiable people. No cathedral, no Alhambra, no oversized minarets, no invented palace dome, no fireworks. No text, caption, signature, frame or watermark; labels will be added deterministically later.\n",
+      "prompt-r2.txt": "Edit target: the generated Málaga Alcazaba night source visible above. Change only framing and camera distance.\nZoom the camera OUT significantly while preserving the same ground-level Calle Alcazabilla/Roman Theatre direction and all existing architecture, vegetation, weather, lighting and night scenario. Reduce the entire Alcazaba/theatre ensemble to about 62% of its current displayed size. Fit the complete left-to-right fortress wall and all principal square towers inside the central 45% of a wide 16:9 canvas, horizontally centered, with more dark sky, lateral city context and forecourt around it. Preserve the Roman Theatre semicircle beneath the fortress; its full central seating must remain visible. The result must allow a centered 4:5 crop to retain the complete principal fortress skyline and theatre relationship.\nInvariants: same Málaga site, same buildings and proportions, same clear dry night, same restrained warm lights, no new towers, no people, no moon/stars, no text, no watermark, no border. Photorealistic artistic interpretation.\n",
+      "prompt-r3.txt": "Edit target: the Málaga Alcazaba source-r2 visible above. Framing-only correction.\nZoom out one more precise step: reduce the complete fortress wall and all its principal towers to 78% of their current displayed size, without changing their geometry, materials, lighting or relative positions. Center the entire left-to-right Alcazaba wall inside the middle 42% of the 16:9 canvas (approximately x29% to x71%). Retain the complete Roman Theatre relationship below it. Add plausible lateral Málaga buildings, dark sky and forecourt only as required by the wider field of view.\nInvariants: same clear dry 23 September 2026 22:33 Europe/Madrid night scenario, same eye-level Calle Alcazabilla direction, same architecture and vegetation, no moon/stars, no people, no text, no watermark, no border. Photorealistic artistic interpretation.\n"
+    },
+    "generated_source_records": [
+      {
+        "file": "source-r1.png",
+        "sha256": "fd287cf90f97d8a565f4d7aa069ea2d6e5f9c394dc5a01e74684a7fffae85d09",
+        "bytes": 2378852,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": false,
+        "retained_in_review_archive": true
+      },
+      {
+        "file": "source-r2.png",
+        "sha256": "029433593ed819415e576bb8f65d04d9a0d220f5e8145b388913bd49af2f94f6",
+        "bytes": 2312658,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "selected": false,
+        "retained_in_review_archive": true
+      },
+      {
+        "file": "source-r3.png",
+        "sha256": "96c10ca2b1fa3b785de79260095151b0c688921abf053e77f1f4ac7952808f91",
+        "bytes": 2276063,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "selected": true,
+        "retained_in_review_archive": true
+      }
+    ],
+    "architectural_anchors": [
+      "Roman Theatre's low semicircular stone seating occupies the foreground below the fortress",
+      "Alcazaba rises along the wooded slope as a long irregular band of ochre masonry walls and compact square towers",
+      "City buildings remain subordinate at the lateral edges; no Gibralfaro castle is invented as the main subject"
+    ],
+    "reference_evidence": [
+      {
+        "title": "Málaga municipal Alcazaba listing",
+        "url": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=130",
+        "note": "Municipal identity and Calle Alcazabilla 2 access address; current page checked 23 September 2026.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "Málaga municipal archaeological route, point 1",
+        "url": "https://rutasarqueologicas.malaga.eu/punto-n-1/",
+        "note": "Municipal description of Calle Alcazabilla–Plaza de la Aduana and the Albarrana tower.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "European Hispan Roman Theatre view",
+        "url": "https://europeanhispan.com/malaga-roman-theatre/",
+        "note": "Page/image published January 2025; dusk theatre/fortress relationship inspected.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "L'Est Républicain Málaga feature",
+        "url": "https://www.estrepublicain.fr/le-mag/2018/11/17/malaga-la-douce-andalouse",
+        "note": "17 November 2018; complementary twilight panorama of theatre, slope and Alcazaba inspected.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      }
+    ],
+    "local_technical_checks": [
+      {
+        "file": "021/masters/es-01-021-r3-16x9.png",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "byte_length": 2732051,
+        "sha256": "6fbe6b0990d11947c515915794c0eddf28621459a5f34c7a006b9eead4845561",
+        "source_file": "021/source-r3.png",
+        "source_dimensions": [
+          1672,
+          940
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Alcazaba, Málaga",
+          "Scenario: 23 September 2026 · 22:33 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation; 021 includes two own-source framing edits. Same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      },
+      {
+        "file": "021/masters/es-01-021-r3-4x5.png",
+        "dimensions": [
+          864,
+          1080
+        ],
+        "byte_length": 1230520,
+        "sha256": "56be77ec9d9fd95603bb21d44abbc847626dbf81b521703c742070dc1efc20ab",
+        "source_file": "021/source-r3.png",
+        "source_dimensions": [
+          1672,
+          940
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Alcazaba, Málaga",
+          "Scenario: 23 September 2026 · 22:33 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation; 021 includes two own-source framing edits. Same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      }
+    ],
+    "producer_check": "Both PNGs decoded and verified, exact dimensions and full SHA-256 computed. Contact sheet visually inspected for complete landmark retention and labels. This is not independent QC.",
+    "served_verification": "To be recorded separately after single-file submission; no live claim in this pre-publication packet.",
+    "card_handoff": {
+      "owner": "Independent Cosmo sweep",
+      "pipeline": "Candidate, separate from approved gallery",
+      "thumbnail": "es-01-021-r3-16x9.png",
+      "href": "es-01-021-r3-16x9.png",
+      "target": "_blank",
+      "portrait_retained": "es-01-021-r3-4x5.png",
+      "controls": "One wide thumbnail opening the full-size wide PNG; no extra viewer/download controls",
+      "preserve": "Caption, scenario, composition, status, license/badge, footer, search, navigation and country switcher"
+    },
+    "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
+    "rejection_notes": [],
+    "independent_verdict": null
+  }
+}
