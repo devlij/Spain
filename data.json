@@ -524,18 +524,61 @@
           "resolution": "Cosmo APPROVED 5/5 for ES-01-006 r2, relayed by Jason on 23 September 2026 after review of the exact packet. The review confirms absent finials, retained Giraldillo and localized crown scaffolding with its interpretation disclosed. This is not a Jason review or publishing-agent verdict."
         }
       ]
+    },
+    {
+      "entry_id": "ES-01-007",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Seville",
+      "caption": "Plaza de España, Seville",
+      "scenario_label": "23 September 2026 · 17:42 Europe/Madrid",
+      "composition": "Daylight · Canal and tiled bridge from the southwest plaza side · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Plaza de España in Seville: a tiled bridge over the canal, curved brick-and-stone gallery and tower in clear late-afternoon daylight.",
+      "description": "The navigable canal and ceramic bridge lead toward the curved arcaded building designed for the 1929 Ibero-American Exposition. This view frames one tower and the gallery; the complete semicircle and all four bridges are outside the single-camera field of view.",
+      "viewpoint": "Southwest plaza-side public walkway, near the historical panorama camera report 37.376722, -5.987833, looking roughly east-northeast at eye level. The reported point and heading guide composition, not a surveyed match of generated pixels.",
+      "weather": "Model data from Open-Meteo, retrieved 23 September 2026 17:42:45 Europe/Madrid, valid 17:30 Europe/Madrid — not a verified on-site observation. 36.2°C, WMO 0 clear, cloud 0%, precipitation 0 mm, wind 3.1 km/h. Sunrise 08:12, sunset 20:19. Approximate solar elevation 29.70°, azimuth 244.49°.",
+      "status": "Awaiting Cosmo QC · Daylight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Exact r1 pair submitted for independent Cosmo review.",
+      "time_of_day": "Daylight",
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license",
+      "limitations": "Cosmo QC pending. Geometry of the tiled bridge, tower, bench decorations and solar illumination should be compared independently with references; fine tile inscriptions are invented/unverified. The portrait retains the tower and canal but clips part of the bridge at its right edge. Exact-size exports are upscaled from a 1672×941 generated source; dimensions do not imply native detail. Current conditions are model data rather than an on-site observation; third-party rights and uniqueness are not legally certified.",
+      "revision_lineage": "Built-in image generation from a text-only prompt; one 1672×941 generated source, no photographic input pixels. Same-source crop and uniform Lanczos resampling; deterministic bottom gradient and four mandated text items. No independent portrait generation. Model version not exposed.",
+      "historical_editions": [],
+      "editions": [],
+      "dimensions": {
+        "16x9": {
+          "width": 1920,
+          "height": 1080,
+          "sha256": "a60de91e4a1cea787eb1b94b9b8d10c2fad08433dababcb7ee75b9b171dbe104",
+          "bytes": 3371161,
+          "source_width": 1672,
+          "source_height": 941,
+          "resampled": true
+        },
+        "4x5": {
+          "width": 864,
+          "height": 1080,
+          "sha256": "a2a1f2a5a6a33a42c3039088845b796cd6641856340390c093c9e01564b5f8a9",
+          "bytes": 1446169,
+          "source_width": 1672,
+          "source_height": 941,
+          "resampled": true
+        }
+      },
+      "gates": {
+        "visual": "pending — Cosmo QC; architecture and viewpoint to review",
+        "technical": "Local PNGs fully decoded and opened; dimensions and SHA-256 recorded; same-source crop and overlays checked",
+        "provenance": "Built-in text-only generation and export lineage recorded; uniqueness unverified",
+        "commercial_ip": "Unverified; internal review is not legal certification",
+        "publication": "Candidate pipeline only, separate from approved gallery"
+      },
+      "file_16x9": "es-01-007-r1-16x9.png",
+      "file_4x5": "es-01-007-r1-4x5.png"
     }
   ],
   "starters": [
-    {
-      "entry_id": "ES-01-007",
-      "caption": "Plaza de España, Seville",
-      "city": "Seville",
-      "region": "Andalusia",
-      "composition": "The semicircular building, canal and bridges from an accessible plaza position.",
-      "status": "Queued — not generated",
-      "country": "Spain"
-    },
     {
       "entry_id": "ES-01-008",
       "caption": "Royal Palace, Madrid",
