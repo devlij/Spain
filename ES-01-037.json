@@ -1,0 +1,225 @@
+{
+  "entry_id": "ES-01-037",
+  "country": "Spain",
+  "city": "Sant Josep de sa Talaia",
+  "region": "Balearic Islands",
+  "caption": "Es Vedrà, Ibiza",
+  "revision": "r1",
+  "viewpoint": "Public Cala d'Hort beach shoreline, approximately 38.8915, 1.2235, low eye-level looking southwest over the sea toward Es Vedrà and smaller Es Vedranell. No cliff-edge or restricted cave viewpoint is used.",
+  "anchors": [
+    "Steep asymmetric pyramidal limestone mass of Es Vedrà rising directly from the sea",
+    "Smaller lower Es Vedranell companion islet nearby",
+    "Dark pebbly-sandy Cala d'Hort foreground and calm sea channel"
+  ],
+  "limitations": "Fresh model code 45 indicates fog at the model grid; depicted haze is therefore modest and does not claim an on-site observation. No stars, moon, boats or artificial island lights. Exact visibility and sea state are interpretive and require independent review.",
+  "refs": [
+    [
+      "https://ibiza.travel/en/descargas/ibiza-informaci/",
+      "Official Ibiza tourism material identifying Cala d'Hort as a principal viewpoint over Es Vedrà; retrieved 23 September 2026."
+    ],
+    [
+      "https://en.ibiza.travel/discover/nature/",
+      "Official Ibiza tourism nature overview of Es Vedrà, Es Vedranell and protected islets; retrieved 23 September 2026."
+    ],
+    [
+      "https://en.ibiza.travel/blog/post/ibizas-beaches-coves-crystal-clear-waters-and-unique-landscapes/",
+      "Official Ibiza tourism article dated 2026 describing Cala d'Hort's iconic Es Vedrà view; retrieved 23 September 2026."
+    ],
+    [
+      "https://estaticos-cdn.prensaiberica.es/clip/f3980346-7c11-4d33-86df-475aae5429db_alta-libre-aspect-ratio_default_0.jpg",
+      "Complementary dusk photograph visually inspected for silhouette; stars and unsupported lights explicitly excluded."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public Cala d'Hort beach shoreline, approximately 38.8915, 1.2235, low eye-level looking southwest over the sea toward Es Vedrà and smaller Es Vedranell. No cliff-edge or restricted cave viewpoint is used. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Es Vedrà, Ibiza at night.",
+  "description": "Steep asymmetric pyramidal limestone mass of Es Vedrà rising directly from the sea; Smaller lower Es Vedranell companion islet nearby; Dark pebbly-sandy Cala d'Hort foreground and calm sea channel.",
+  "file_16x9": "es-01-037-r1-16x9.png",
+  "file_4x5": "es-01-037-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5cf848517029d35d3215d7607a008b297e059729b26fa3ec29f231534e22a155"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0696c3c18ba935a5673771254e11114f0a0e9da85b7e26bd4e68dda0c39d4714"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-037-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2189292,
+      "sha256": "5cf848517029d35d3215d7607a008b297e059729b26fa3ec29f231534e22a155",
+      "source_file": "037/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Es Vedrà, Ibiza",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-037-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1002347,
+      "sha256": "0696c3c18ba935a5673771254e11114f0a0e9da85b7e26bd4e68dda0c39d4714",
+      "source_file": "037/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Es Vedrà, Ibiza",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T23:14:55.018814+00:00",
+    "retrieved_local": "2026-09-24T01:14:55.018814+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=38.8915&longitude=1.2235&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 38.9375,
+      "longitude": 1.25,
+      "generationtime_ms": 0.08213520050048828,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 38.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T01:00",
+        "interval": 900,
+        "temperature_2m": 22.2,
+        "weather_code": 45,
+        "cloud_cover": 31,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 3.3
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:44"
+        ],
+        "sunset": [
+          "2026-09-24T19:49"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+    "requested_coordinates": [
+      38.8915,
+      1.2235
+    ],
+    "model_grid_coordinates": [
+      38.9375,
+      1.25
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -50.34,
+      "azimuth_deg": 347.26
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:44:00+02:00",
+    "sunset_local": "2026-09-24T19:49:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:14:55.018814+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Asset: Spain gallery documentary master. Create a wide 16:9 natural low-light photograph of Es Vedrà from the public Cala d'Hort beach shoreline, Ibiza at 01:14 local time on 24 September 2026. Low eye-level looking southwest over a calm dark Mediterranean channel. Show the unmistakable steep asymmetric pyramidal limestone mass of Es Vedrà rising directly from the sea, with lower smaller Es Vedranell nearby; dark pebbly-sandy beach foreground and a little sparse coastal vegetation. Model conditions indicate fog, so add only realistic light marine haze softening the horizon and rock edges while keeping both islets recognizable. Deep dark overcast-to-navy sky. No moon, stars, Milky Way, boats, buildings, visible lamps, island lights, people, cave framing, cliff-edge viewpoint, fantasy glow, text, logos or watermark. Restrained long-exposure realism; center Es Vedrà for a strong 4:5 crop.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "f4fa696adf3a8ee7d288bebeded0c2aaa5b5d7afb54fc05850dc6521a022bfc9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
