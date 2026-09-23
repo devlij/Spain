@@ -19,7 +19,7 @@ document.querySelectorAll('.card').forEach(card=>{
     const fmt=tab.dataset.format;
     tabs.forEach(t=>t.classList.toggle('is-active',t===tab));
     if(!img||!link)return;
-    const next=fmt==='4x5'?img.dataset.src45:img.dataset.src16;
+    const next=fmt==='4x5'?img.getAttribute('data-src-45'):img.getAttribute('data-src-16');
     if(next){img.src=next;link.href=next;}
     link.classList.toggle('tall',fmt==='4x5');
   }));
