@@ -777,9 +777,9 @@
       "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
       "composition": "NIGHT · Public Calle Alcazabilla / Roman Theatre forecourt near 36.7214,-4.4160, eye level, facing east-northeast up the theatre and wooded slope toward the Alcazaba. Approximate camera, not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Alcazaba, Málaga at night. The Alcazaba rises above Málaga’s Roman Theatre as a long layered band of stone ramparts and square towers at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit 2026-09-23: Gate 1 visual/location PASS (Alcazaba fortress walls, towers, palms above Roman Theatre at night; caption/scenario/signature/disclosure correct); Gate 2 technical PASS (1920x1080 + 864x1080 exact, SHA-256 matches packet); Gate 3 provenance PASS (AI-generated, no photographic inputs; r1/r2 rejected editions retained in review archive); Gate 4 commercial/IP documentation-only (public monuments, Spain FoP; chain not certified); Gate 5 publication readiness PASS."
     },
     {
       "entry_id": "ES-01-022",
