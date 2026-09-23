@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-242",
+  "country": "Spain",
+  "city": "Monistrol de Montserrat",
+  "region": "Catalonia",
+  "caption": "Montserrat Abbey, Monistrol de Montserrat",
+  "revision": "r1",
+  "viewpoint": "Plaça de Santa Maria terrace in front of the basilica, eye-level, looking up at the monastery against the peaks. Exact camera point approximate.",
+  "anchors": [
+    "Jagged serrated mountain peaks rise directly behind the monastery complex",
+    "Basilica facade and monastery buildings centered in the mid-frame",
+    "Valley lights glimmer far below in the dark foreground"
+  ],
+  "limitations": "Exact camera point unverified; night illumination is a restrained moonlit interpretation — no floodlighting of the abbey is claimed or depicted; current on-site conditions unverified.",
+  "refs": [
+    [
+      "https://www.barcelona-attractions.com/en/attractions/montserrat-monastery-tickets",
+      "Montserrat Monastery visitor information (abbey, Black Madonna, mountain setting)"
+    ],
+    [
+      "https://curiositysavestravel.com/montserrat-nature-park-and-monastery-day-trip-from-barcelona/",
+      "Montserrat nature park and monastery guide (Benedictine abbey, basilica, mountain)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Moonlit abbey beneath the serrated peaks, viewed from the basilica terrace · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Montserrat Abbey, Monistrol de Montserrat at night.",
+  "description": "From the terrace of the Plaça de Santa Maria, the jagged serrated peaks of Montserrat rise behind the abbey under a clear night sky. The basilica and monastery sit dimly in the mid-frame, outlined in cool moonlight with only a few warm windows glowing, while faint valley lights shimmer far below in the dark. The scene holds the quiet, monumental stillness of the sacred mountain after hours.",
+  "file_16x9": "es-01-242-r1-16x9.png",
+  "file_4x5": "es-01-242-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "16fcb3a4eec6c8b00dba6865aa46987ebb2b80499a57503bd58f455bed23c1ba"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "692454da7a36629d32d514d201ec05e885d9e09d16ebc080fb17ba7c1f9bdce9"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-242-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2872158,
+      "sha256": "16fcb3a4eec6c8b00dba6865aa46987ebb2b80499a57503bd58f455bed23c1ba",
+      "source_file": "source-242.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Montserrat Abbey, Monistrol de Montserrat",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-242-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1263395,
+      "sha256": "692454da7a36629d32d514d201ec05e885d9e09d16ebc080fb17ba7c1f9bdce9",
+      "source_file": "source-242.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Montserrat Abbey, Monistrol de Montserrat",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.5932&longitude=1.8366&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:00",
+    "temperature_c": 15.7,
+    "weather_code": 1,
+    "weather_word": "mainly clear",
+    "cloud_cover_pct": 46,
+    "is_day": 0,
+    "wind_kmh": 5.2
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of Montserrat Abbey in Monistrol de Montserrat, Catalonia, at night, viewed from the Plaça de Santa Maria terrace. The jagged serrated mountain peaks rise dramatically behind the monastery; the basilica facade and monastery buildings sit centered in the mid-frame; faint valley lights glimmer far below in the dark. A moonlit night under clear skies: cool moonlight on the rock pinnacles, the monastery dimly outlined with only a few warm window lights visible — no dramatic floodlighting."
+  },
+  "source_files": [
+    {
+      "file": "source-242.png",
+      "sha256": "10b8b65ca7719288aee7d51121f1d1d419e1d46aa1a929ea5e54a9d13abcb53b",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
