@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-327",
+  "country": "Spain",
+  "city": "León",
+  "region": "Castile and León",
+  "caption": "Cathedral, León",
+  "revision": "r2",
+  "viewpoint": "Cathedral square (Plaza de Regla), facing the west facade (approx 42.5997N, 5.5661W)",
+  "anchors": [
+    "Two tall Gothic towers flanking the west facade with three sculpted portals",
+    "Rose window above the central portal, flying buttresses lining the nave",
+    "Pale stone facade softly lit against the night sky, cathedral square in the foreground"
+  ],
+  "limitations": "Night lighting is supported by published visitor accounts of the cathedral lit at night, but is not verified for this specific hour. Facade ornament, portal sculpture and lamp placement are interpretive. Camera point is a conventional tourist position in the cathedral square, not map-verified.",
+  "refs": [
+    [
+      "https://www.turismocastillayleon.com/en/heritage-culture/cathedral-leon",
+      "Official regional tourism: French Gothic cathedral, stained glass, doors and rose window"
+    ],
+    [
+      "https://www.tripadvisor.co.nz/Attraction_Review-g187492-d244192-Reviews-or30-Catedral_Santa_Maria_De_Leon-Leon_Province_of_Leon_Castile_and_Leon.html",
+      "Visitor reviews: stone beautiful even at night with its lighting"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · West facade from the cathedral square, twin towers and rose window · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of León Cathedral at night.",
+  "description": "From the cathedral square you face the west front of the Pulchra Leonina, its two tall towers standing guard over three sculpted portals and the great rose window. The pale Gothic stone glows softly under the night lighting, the flying buttresses stepping down the nave on either side. Above, the model sky is clear and dark, and the empty square keeps a few warm streetlamps that throw long pools of light on the paving.",
+  "file_16x9": "es-01-327-r2-16x9.png",
+  "file_4x5": "es-01-327-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "418c99c39cfe3019a30921674dc462ffb1b3a3f1a81cd3cf36947d684036dbb0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "2332001f17c0ec23d861709e337ca7e804b31b776238a98d4c5f2e399c89195c"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-327-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2667438,
+      "sha256": "418c99c39cfe3019a30921674dc462ffb1b3a3f1a81cd3cf36947d684036dbb0",
+      "source_file": "media-generation-es-01-327-source-v2-0-2f3b3a14-a9b8-425f-9f43-8cb5ae237ad2.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, León",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-327-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1303415,
+      "sha256": "2332001f17c0ec23d861709e337ca7e804b31b776238a98d4c5f2e399c89195c",
+      "source_file": "media-generation-es-01-327-source-v2-0-2f3b3a14-a9b8-425f-9f43-8cb5ae237ad2.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, León",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 0,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 21.3,
+    "weather_code": 0,
+    "wind_speed_10m": 4.2
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r2.txt": "Photorealistic artistic interpretation of Leon Cathedral (Santa Maria de Regla), Spain, at night, viewed from the cathedral square facing the main west facade. Two tall Gothic towers flank the facade with three sculpted portals and a rose window; flying buttresses line the sides. The pale stone glows softly under night lighting with a few warm streetlamps in the square; clear dark night sky with a few stars. Quiet empty plaza in the foreground, no identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere in the image, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-327-source-v2-0-2f3b3a14-a9b8-425f-9f43-8cb5ae237ad2.png",
+      "sha256": "73c0a87f4c0dae68e2efdc40882351c9dbc58292d073c1c38262cd9e7f646d74",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
