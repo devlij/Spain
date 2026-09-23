@@ -1,0 +1,150 @@
+{
+  "entry_id": "ES-01-222",
+  "country": "Spain",
+  "city": "Murcia",
+  "region": "Murcia",
+  "caption": "Murcia Cathedral, Murcia",
+  "revision": "r1",
+  "viewpoint": "Plaza del Cardenal Belluga at night, facing the baroque façade and the tower",
+  "anchors": [
+    "the ornate baroque façade by Jaime Bort, a sanctuary of statues and sculpture, lit center",
+    "the 93-meter tower rising beside it, Spain's second-tallest cathedral tower",
+    "the Episcopal Palace framing the plaza edge"
+  ],
+  "limitations": "Text-only generation; no photographic input. Open-Meteo model data indicates fog (code 45) at the scenario hour — shown honestly as night haze. Exact façade illumination arrangement unverified. Exact camera position unverified.",
+  "refs": [
+    "https://www.getreadyforadventure.com/murcia-cathedral-de-santa-maria-sightseeing-and-information/",
+    "https://airial.travel/attractions/spain/murcia/murcia-cathedral-f8G49rCl"
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · cathedral façade from the plaza at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Murcia Cathedral at night.",
+  "description": "From the Plaza del Cardenal Belluga, Murcia's baroque cathedral façade glows through the night haze — Jaime Bort's intricate front looking more like a sanctuary of statues than the outside of a church. The 93-meter tower, Spain's second tallest, rises beside it with the Episcopal Palace framing the square. On a foggy 20°C night the lights soften into halos, and the plaza's cafés keep their own quiet glow at the foot of three centuries of stone.",
+  "file_16x9": "es-01-222-r1-16x9.png",
+  "file_4x5": "es-01-222-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e77683c4cb5ff49e8f5efee7e6291e6f36762b08e060c990737f8956b6cdc668"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "560e72c46e45625b57230fc4980b0ddfc830d1f291913fc8efca06e7c240836c"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-222-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2439833,
+      "sha256": "e77683c4cb5ff49e8f5efee7e6291e6f36762b08e060c990737f8956b6cdc668",
+      "source_file": "media-generation-es-01-222-source-0-212b3ca7-d8db-4153-bec5-4a8a2be88501.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Murcia Cathedral, Murcia",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-222-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1154429,
+      "sha256": "560e72c46e45625b57230fc4980b0ddfc830d1f291913fc8efca06e7c240836c",
+      "source_file": "media-generation-es-01-222-source-0-212b3ca7-d8db-4153-bec5-4a8a2be88501.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Murcia Cathedral, Murcia",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:30:46+02:00",
+    "valid": "2026-09-24T01:33:28+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": null,
+    "temperature_2m": 19.9,
+    "weather_code": 45,
+    "cloud_cover": 30,
+    "wind_speed_10m": 1.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:46+02:00, valid 2026-09-24T01:33:28+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Murcia Cathedral, Murcia, Spain, at night. Tourist viewpoint: Plaza del Cardenal Belluga facing the baroque façade and the tower. ANCHORS: the ornate baroque façade by Jaime Bort, a sanctuary of statues and sculpture, lit center; the 93-meter tower rising beside it, Spain's second-tallest cathedral tower; the Episcopal Palace framing the plaza edge. LIGHTING: façade illumination and warm plaza lighting through a foggy night haze, soft halos of light. Photorealistic, night architecture, no people, no watermark."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-222-source-0-212b3ca7-d8db-4153-bec5-4a8a2be88501.png",
+      "sha256": "633c571f12e20ea5fbea000896486ab0c3176c273e4e09780831889d0b18cc0d",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
