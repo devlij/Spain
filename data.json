@@ -920,9 +920,9 @@
       "scenario_label": "24 September 2026 · 00:30 Europe/Madrid",
       "composition": "Night · Public pebble beach at the mouth of Torrent de Pareis near 39.8524,2.8001, eye-level looking inland into the narrow gorge. Approximate point only; no assertion of safe or permitted nighttime access. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Torrent de Pareis, Sa Calobra at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: recognizably Torrent de Pareis at Sa Calobra — the narrow gorge mouth with sheer limestone walls opening onto the public pebble beach, viewed inland from the documented beach viewpoint; restrained night treatment with no invented lights, people, or boats; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: natural landscape — no people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Noted as an artistic long-exposure interpretation per the packet's honest disclosure, not a claim of nighttime access."
     }
   ],
   "starters": [
