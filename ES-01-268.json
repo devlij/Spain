@@ -11,7 +11,7 @@
     "Science Museum's arched spine flanks the scene",
     "Palau de les Arts silhouette on the other side"
   ],
-  "limitations": "Exact camera point approximate; only the site's own architectural lighting depicted — lighting arrangement approximate, not a verified illumination schedule; current conditions unverified.",
+  "limitations": "Exact camera point approximate; only the site's own architectural lighting depicted — lighting arrangement approximate, not a verified illumination schedule; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.4549&longitude=-0.3508&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:27+02:00",
     "valid_local": "2026-09-24T01:15",
     "temperature_c": 22.5,
     "weather_code": 2,
