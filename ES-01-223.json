@@ -1,0 +1,150 @@
+{
+  "entry_id": "ES-01-223",
+  "country": "Spain",
+  "city": "Cartagena",
+  "region": "Murcia",
+  "caption": "Roman Theatre, Cartagena",
+  "revision": "r1",
+  "viewpoint": "Parque de la Cornisa above the theatre at night, looking down at the Roman theatre",
+  "anchors": [
+    "the Roman theatre tiers curving below, moonlit through the haze",
+    "the city lights and harbor beyond",
+    "stone of the ancient cavea glowing softly"
+  ],
+  "limitations": "Text-only generation; no photographic input. Open-Meteo model data indicates fog (code 45) at the scenario hour — shown honestly as night haze. Night-time visibility of the theatre from the park is unverified. Exact camera position unverified.",
+  "refs": [
+    "https://mappingspain.com/what-to-see-in-cartagena-spain-and-some-money-saving-tips/",
+    "https://airial.travel/attractions/spain/cartagena/roman-theatre-museum-cartagena-Chhp54FR"
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · theatre from the upper park at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Roman Theatre at night.",
+  "description": "From the free upper park of the Cornisa, Cartagena's Roman theatre lies below in the haze — the cavea curving where 7,000 spectators once sat, discovered only in 1987 beneath the old cathedral. On a foggy 21°C night the ancient tiers glow softly in moonlight while the harbor's lights shimmer beyond. It's the view locals say beats even the paid visit: two thousand years of stone, free from above.",
+  "file_16x9": "es-01-223-r1-16x9.png",
+  "file_4x5": "es-01-223-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9bf34d896b0a81c802af6b72bf3ce49092da5fee60457aca863d054998979f34"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "2c081485c0ec4f1f4bf74981316ba089c11f7b4ed8df267fb4f320330eac2cb9"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-223-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1852437,
+      "sha256": "9bf34d896b0a81c802af6b72bf3ce49092da5fee60457aca863d054998979f34",
+      "source_file": "media-generation-es-01-223-source-0-f3f14a60-a389-4f44-af4c-45a336d77db5.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roman Theatre, Cartagena",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-223-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 964960,
+      "sha256": "2c081485c0ec4f1f4bf74981316ba089c11f7b4ed8df267fb4f320330eac2cb9",
+      "source_file": "media-generation-es-01-223-source-0-f3f14a60-a389-4f44-af4c-45a336d77db5.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roman Theatre, Cartagena",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:30:46+02:00",
+    "valid": "2026-09-24T01:33:28+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": null,
+    "temperature_2m": 21.4,
+    "weather_code": 45,
+    "cloud_cover": 45,
+    "wind_speed_10m": 3.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:46+02:00, valid 2026-09-24T01:33:28+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Cartagena, Murcia, Spain, at night. Tourist viewpoint: Parque de la Cornisa above the Roman Theatre, looking down at the theatre. ANCHORS: the Roman theatre tiers curving below, moonlit through the haze; the city lights and harbor beyond; stone of the ancient cavea glowing softly. LIGHTING: moonlight on the ancient tiers, scattered city lights, foggy night haze. Photorealistic, night archaeology, no people, no watermark."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-223-source-0-f3f14a60-a389-4f44-af4c-45a336d77db5.png",
+      "sha256": "1e245566ddbe89a25e0f68ebc464f94c845deaa78ed367a70a1181909e072d15",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
