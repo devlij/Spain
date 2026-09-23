@@ -728,6 +728,45 @@
       "status": "Approved · Cosmo QC 5/5 · Dusk",
       "approval_state": "approved",
       "approval_basis": "Five-gate pass: Gate 1 — La Concha bay curve with Santa Clara island center and Monte Igueldo right from the Alderdi Eder promenade, overcast dusk consistent with the 20:31 scenario and 98% model cloud; Gate 2 — both masters at exact dimensions with SHA-256 matching the packet, exact signature/caption/timestamp/disclosure; Gate 3 — packet documents AI generation, light glow disclosed as unverified; Gate 4 — documentation only: public promenade, small unidentifiable figures, no blocking logos, chain not certified; Gate 5 — no open blockers."
+    },
+    {
+      "entry_id": "ES-01-016",
+      "country": "Spain",
+      "region": "Valencian Community",
+      "city": "Valencia",
+      "caption": "City of Arts and Sciences, Valencia",
+      "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+      "composition": "NIGHT · Northeast reflecting-pool promenade facing southwest toward the Hemisfèric; approximate camera near 39.457168,-0.353358, based on the documented Commons viewpoint, not surveyed. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of City of Arts and Sciences, Valencia at night. The Hemisfèric glass shell and central auditorium reflect in the basin beneath a partly cloudy night sky.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-019",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Seville",
+      "caption": "Puerta del León, Seville",
+      "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+      "composition": "NIGHT · Public Plaza del Triunfo outside the Real Alcázar, approximately37.3846,-5.9922, facing southeast toward Puerta del León. Ground-level public exterior; palace interior not shown. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Puerta del León, Seville at night. The red Puerta del León entrance and unequal crenellated stone towers face a quiet plaza at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-020",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Granada",
+      "caption": "Carrera del Darro, Granada",
+      "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+      "composition": "NIGHT · Public Carrera del Darro parapet immediately east of Puente de Cabrera, looking west along the river toward the small stone bridge; Albaicín street on image right. Weather anchor37.1786,-3.5932 approximate; exact camera not surveyed. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Carrera del Darro, Granada at night. A small stone bridge crosses the shallow Darro beside the lamplit Carrera del Darro in the Albaicín.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
     }
   ],
   "starters": [
