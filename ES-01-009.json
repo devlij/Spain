@@ -1,0 +1,167 @@
+{
+  "entry_id": "ES-01-009",
+  "country": "Spain",
+  "region": "Madrid",
+  "city": "Madrid",
+  "caption": "Plaza Mayor, Madrid",
+  "scenario_label": "23 September 2026 · 20:12 Europe/Madrid",
+  "composition": "DUSK twilight · South side of Plaza Mayor looking north toward Casa de la Panadería and the Philip III equestrian statue. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Madrid — Red residential wings, arcades and the twin slate spires frame the central statue at dusk.",
+  "description": "Red residential wings, arcades and the twin slate spires frame the central statue at dusk.",
+  "viewpoint": "Approximate public-square camera 40.4153, -3.7075; looking north. Not a surveyed reconstruction.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T20:12:35.438084+02:00, valid 2026-09-23T20:00 Europe/Madrid — not a verified on-site observation. 31.1°C, WMO 1, 26% cloud, 0.0 mm precipitation, 3.6 km/h wind. Sunrise 08:03, sunset 20:10. Approximate solar elevation -0.95°, azimuth 271.0°.",
+  "status": "Awaiting Cosmo QC · DUSK twilight",
+  "approval_state": "candidate",
+  "approval_basis": "No approval or five-gate pass claimed. Exact exported pair reserved for independent Cosmo review.",
+  "time_of_day": "DUSK twilight",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "Cosmo QC pending. The 2012 Carlos Delgado photograph confirms the horse faces right from this north-façade view; an initial left-facing prompt assumption was incorrect and was not applied as a correction. Lamp glow is an artistic interpretation; the exact 2026 switch-on time is unverified. Fine fresco and statue details require Cosmo review. Exact-size exports are resampled from a 1672×941 generated source; dimensions do not imply native detail. Weather is model data, not an on-site observation. Third-party rights and uniqueness are not legally certified.",
+  "revision_lineage": "Built-in text-only image generation; no photographic input pixels. Original source r1. Same-source crop and uniform Lanczos resampling; deterministic bottom gradient, caption, scenario, disclosure and signature. No independent portrait generation; model version not exposed.",
+  "historical_editions": [],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f915566e6dd108d76b5d1dd0fe9a488b3657dd84e18f103313ffeaffa34b2c85",
+      "bytes": 2688294,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "81f72c06fcd3c67e5697484f343087fe17f5fcaecb6d2e1c51469e5c251dba52",
+      "bytes": 1244711,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    }
+  },
+  "gates": {
+    "visual": "pending — Cosmo QC; architecture and viewpoint to review",
+    "technical": "Six local PNG exports fully decoded; exact dimensions and SHA-256 recorded; contact sheet opened. No served-byte verification yet.",
+    "provenance": "Built-in text-only generation and export lineage recorded; uniqueness unverified",
+    "commercial_ip": "Unverified; internal review is not legal certification",
+    "publication": "Candidate pipeline only, separate from approved gallery"
+  },
+  "file_16x9": "es-01-009-r1-16x9.png",
+  "file_4x5": "es-01-009-r1-4x5.png",
+  "references": [
+    {
+      "title": "Official Madrid tourism",
+      "url": "https://www.esmadrid.com/en/tourist-information/plaza-mayor-Madrid",
+      "note": "Official architectural description",
+      "use": "Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation."
+    },
+    {
+      "title": "Enric, 1 June 2024",
+      "url": "https://commons.wikimedia.org/wiki/File:169_Plaza_Mayor_(Madrid),_banda_nord,_amb_la_Casa_de_la_Panader%C3%ADa.jpg",
+      "note": "CC BY-SA 4.0; north facade oblique",
+      "use": "Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation."
+    },
+    {
+      "title": "Artem Vynohradov, 27 September 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Casa_de_la_Panader%C3%ADa,_Plaza_Mayor,_Madrid,_Spain.jpg",
+      "note": "CC BY-SA 4.0; frontal twilight",
+      "use": "Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation."
+    },
+    {
+      "title": "Carlos Delgado, 26 August 2012",
+      "url": "https://commons.wikimedia.org/wiki/File:Felipe_III_-_Casa_de_la_Panader%C3%ADa_-_Plaza_Mayor_de_Madrid_-_01.jpg",
+      "note": "CC BY-SA 3.0; statue orientation",
+      "use": "Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T18:12:35.438084+00:00",
+    "retrieved_local": "2026-09-23T20:12:35.438084+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.4153&longitude=-3.7075&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 40.4375,
+      "longitude": -3.6875,
+      "generationtime_ms": 0.11849403381347656,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 654.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T20:00",
+        "interval": 900,
+        "temperature_2m": 31.1,
+        "weather_code": 1,
+        "cloud_cover": 26,
+        "is_day": 1,
+        "precipitation": 0.0,
+        "wind_speed_10m": 3.6
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:03"
+        ],
+        "sunset": [
+          "2026-09-23T20:10"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 20:12 Europe/Madrid",
+    "requested_coordinates": [
+      40.4153,
+      -3.7075
+    ],
+    "model_grid_coordinates": [
+      40.4375,
+      -3.6875
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -0.95,
+      "azimuth_deg": 271.0
+    },
+    "lighting_stage": "DUSK twilight",
+    "sunrise_local": "2026-09-23T08:03:00+02:00",
+    "sunset_local": "2026-09-23T20:10:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "review_packet": {
+    "status": "Candidate · Awaiting Cosmo QC",
+    "evidence_files": {
+      "conditions.json": "{\n  \"retrieved_utc\": \"2026-09-23T18:12:35.438084+00:00\",\n  \"retrieved_local\": \"2026-09-23T20:12:35.438084+02:00\",\n  \"provider_url\": \"https://api.open-meteo.com/v1/forecast?latitude=40.4153&longitude=-3.7075&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1\",\n  \"response\": {\n    \"latitude\": 40.4375,\n    \"longitude\": -3.6875,\n    \"generationtime_ms\": 0.11849403381347656,\n    \"utc_offset_seconds\": 7200,\n    \"timezone\": \"Europe/Madrid\",\n    \"timezone_abbreviation\": \"GMT+2\",\n    \"elevation\": 654.0,\n    \"current_units\": {\n      \"time\": \"iso8601\",\n      \"interval\": \"seconds\",\n      \"temperature_2m\": \"°C\",\n      \"weather_code\": \"wmo code\",\n      \"cloud_cover\": \"%\",\n      \"is_day\": \"\",\n      \"precipitation\": \"mm\",\n      \"wind_speed_10m\": \"km/h\"\n    },\n    \"current\": {\n      \"time\": \"2026-09-23T20:00\",\n      \"interval\": 900,\n      \"temperature_2m\": 31.1,\n      \"weather_code\": 1,\n      \"cloud_cover\": 26,\n      \"is_day\": 1,\n      \"precipitation\": 0.0,\n      \"wind_speed_10m\": 3.6\n    },\n    \"daily_units\": {\n      \"time\": \"iso8601\",\n      \"sunrise\": \"iso8601\",\n      \"sunset\": \"iso8601\"\n    },\n    \"daily\": {\n      \"time\": [\n        \"2026-09-23\"\n      ],\n      \"sunrise\": [\n        \"2026-09-23T08:03\"\n      ],\n      \"sunset\": [\n        \"2026-09-23T20:10\"\n      ]\n    }\n  },\n  \"scenario_label\": \"23 September 2026 · 20:12 Europe/Madrid\",\n  \"requested_coordinates\": [\n    40.4153,\n    -3.7075\n  ],\n  \"model_grid_coordinates\": [\n    40.4375,\n    -3.6875\n  ],\n  \"grid_resolution\": \"not provided in response; coordinate offset is not resolution\",\n  \"solar\": {\n    \"method\": \"NOAA fractional-year geometric approximation, not observation\",\n    \"elevation_deg\": -0.95,\n    \"azimuth_deg\": 271.0\n  },\n  \"lighting_stage\": \"DUSK twilight\",\n  \"sunrise_local\": \"2026-09-23T08:03:00+02:00\",\n  \"sunset_local\": \"2026-09-23T20:10:00+02:00\",\n  \"twilight_window_minutes\": 45,\n  \"generation_allowed\": true,\n  \"disclaimer\": \"Model data from Open-Meteo; not a verified on-site observation.\"\n}",
+      "export-checks.json": "[\n  {\n    \"file\": \"/workspace/scratch/c8d6ec68c525/batch-009-011/009/masters/es-01-009-r1-16x9.png\",\n    \"dimensions\": [\n      1920,\n      1080\n    ],\n    \"format\": \"PNG\",\n    \"sha256\": \"f915566e6dd108d76b5d1dd0fe9a488b3657dd84e18f103313ffeaffa34b2c85\",\n    \"source_dimensions\": [\n      1672,\n      941\n    ],\n    \"labels\": [\n      \"Plaza Mayor, Madrid\",\n      \"Scenario: 23 September 2026 · 20:12 Europe/Madrid\",\n      \"AI-generated artistic interpretation · Not a photograph.\"\n    ],\n    \"signature\": \"Jason D’s Vision\",\n    \"font_pixels\": [\n      31,\n      23,\n      19,\n      35\n    ],\n    \"text_boxes\": [\n      [\n        48,\n        947,\n        361,\n        977\n      ],\n      [\n        48,\n        995,\n        656,\n        1017\n      ],\n      [\n        48,\n        1034,\n        572,\n        1052\n      ]\n    ],\n    \"signature_box\": [\n      1593,\n      1025,\n      1872,\n      1059\n    ],\n    \"lineage\": \"uniform Lanczos resampling and crop from one 16:9 built-in source from the built-in generated source; corrections documented in prompts; deterministic gradient/text\",\n    \"visual_inspection\": \"Opened six-export contact sheet; crop, headroom and label placement reviewed; independent Cosmo verdict pending.\"\n  },\n  {\n    \"file\": \"/workspace/scratch/c8d6ec68c525/batch-009-011/009/masters/es-01-009-r1-4x5.png\",\n    \"dimensions\": [\n      864,\n      1080\n    ],\n    \"format\": \"PNG\",\n    \"sha256\": \"81f72c06fcd3c67e5697484f343087fe17f5fcaecb6d2e1c51469e5c251dba52\",\n    \"source_dimensions\": [\n      1672,\n      941\n    ],\n    \"labels\": [\n      \"Plaza Mayor, Madrid\",\n      \"Scenario: 23 September 2026 · 20:12 Europe/Madrid\",\n      \"AI-generated artistic interpretation · Not a photograph.\"\n    ],\n    \"signature\": \"Jason D’s Vision\",\n    \"font_pixels\": [\n      14,\n      10,\n      9,\n      16\n    ],\n    \"text_boxes\": [\n      [\n        22,\n        1003,\n        164,\n        1017\n      ],\n      [\n        22,\n        1025,\n        286,\n        1035\n      ],\n      [\n        22,\n        1042,\n        270,\n        1052\n      ]\n    ],\n    \"signature_box\": [\n      714,\n      1040,\n      842,\n      1055\n    ],\n    \"lineage\": \"uniform Lanczos resampling and crop from one 16:9 built-in source from the built-in generated source; corrections documented in prompts; deterministic gradient/text\",\n    \"visual_inspection\": \"Opened six-export contact sheet; crop, headroom and label placement reviewed; independent Cosmo verdict pending.\"\n  }\n]",
+      "export_pair.py": "\"\"\"Export exact paired ES-01-008 masters without stretching geometry.\"\"\"\nfrom pathlib import Path\nfrom PIL import Image, ImageDraw, ImageFont, ImageOps\nimport argparse, hashlib, json, shutil\n\nap = argparse.ArgumentParser()\nap.add_argument(\"source\", type=Path)\nargs = ap.parse_args()\np = Path(__file__).parent\nrecord = json.loads((p / \"conditions.json\").read_text())\nassert record[\"generation_allowed\"]\nout = p / \"masters\"\nout.mkdir(parents=True, exist_ok=True)\nsrc = Image.open(args.source).convert(\"RGB\")\nshutil.copy2(args.source, p / \"source-final.png\")\nchecks = []\n\nfor fmt, size in [(\"16x9\", (1920, 1080)), (\"4x5\", (864, 1080))]:\n    # ImageOps.fit crops only; it never stretches. The source is a 16:9 outpaint\n    # of the same scene, with the full tower deliberately centered for portrait.\n    frame = ImageOps.fit(src, size, Image.Resampling.LANCZOS, centering=(0.5, 0.5)).convert(\"RGBA\")\n    w, h = size\n    scrim = Image.new(\"RGBA\", size)\n    draw = ImageDraw.Draw(scrim)\n    start = round(h * .80)\n    for y in range(start, h):\n        alpha = round(188 * ((y - start) / (h - start)) ** 1.3)\n        draw.line((0, y, w, y), fill=(0, 0, 0, alpha))\n    frame = Image.alpha_composite(frame, scrim)\n    draw = ImageDraw.Draw(frame)\n    font_path = \"/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf\"\n    labels = [\n        (\"Plaza Mayor, Madrid\", .016),\n        (\"Scenario: \" + record[\"scenario_label\"], .012),\n        (\"AI-generated artistic interpretation · Not a photograph.\", .010),\n    ]\n    fonts = [ImageFont.truetype(font_path, round(w * frac)) for _, frac in labels]\n    heights = [draw.textbbox((0, 0), s, font=f)[3] for (s, _), f in zip(labels, fonts)]\n    pad = round(w * .025)\n    bottom = h - round(h * .026)\n    gap = round(w * .007)\n    y = bottom - sum(heights) - 2 * gap\n    boxes = []\n    for (s, _), f, ht in zip(labels, fonts, heights):\n        box = draw.textbbox((pad, y), s, font=f)\n        boxes.append(box)\n        draw.text((pad, y), s, font=f, fill=\"white\")\n        y += ht + gap\n    sigfont = ImageFont.truetype(font_path, round(w * .018))\n    sigbox = draw.textbbox((w - pad, bottom), \"Jason D’s Vision\", font=sigfont, anchor=\"rs\")\n    draw.text((w - pad, bottom), \"Jason D’s Vision\", font=sigfont, fill=\"white\", anchor=\"rs\")\n    assert all(b[0] >= 0 and b[2] <= w and b[1] >= 0 and b[3] <= h for b in boxes + [sigbox])\n    assert boxes[-1][2] < sigbox[0], \"Disclosure/signature collision\"\n    target = out / f\"es-01-009-r1-{fmt}.png\"\n    assert not target.exists(), \"Preserve any existing master; do not overwrite\"\n    frame.convert(\"RGB\").save(target, format=\"PNG\", compress_level=6)\n    actual = Image.open(target)\n    actual.load()\n    assert actual.size == size and actual.format == \"PNG\"\n    checks.append({\n        \"file\": str(target),\n        \"dimensions\": list(actual.size),\n        \"format\": actual.format,\n        \"sha256\": hashlib.sha256(target.read_bytes()).hexdigest(),\n        \"source_dimensions\": list(src.size),\n        \"labels\": [s for s, _ in labels],\n        \"signature\": \"Jason D’s Vision\",\n        \"font_pixels\": [round(w * f) for _, f in labels] + [round(w * .018)],\n        \"text_boxes\": boxes,\n        \"signature_box\": sigbox,\n        \"lineage\": \"uniform Lanczos resampling and crop from one 16:9 built-in source from the built-in generated source; corrections documented in prompts; deterministic gradient/text\",\n        \"visual_inspection\": \"pending\",\n    })\n\n(p / \"export-checks.json\").write_text(json.dumps(checks, indent=2, ensure_ascii=False))\nprint(json.dumps(checks, indent=2, ensure_ascii=False))\n",
+      "geometry-anchors.json": "[\n  \"North Casa de la Panader\\u00eda has twin slate spires and a central decorated facade.\",\n  \"Red wings with repeated balconies continue around arcaded ground level.\",\n  \"Philip III equestrian statue stands in front, horse facing right in the north-facing reference.\"\n]",
+      "open-meteo-raw-20260923T201235.json": "{\"latitude\":40.4375,\"longitude\":-3.6875,\"generationtime_ms\":0.11849403381347656,\"utc_offset_seconds\":7200,\"timezone\":\"Europe/Madrid\",\"timezone_abbreviation\":\"GMT+2\",\"elevation\":654.0,\"current_units\":{\"time\":\"iso8601\",\"interval\":\"seconds\",\"temperature_2m\":\"°C\",\"weather_code\":\"wmo code\",\"cloud_cover\":\"%\",\"is_day\":\"\",\"precipitation\":\"mm\",\"wind_speed_10m\":\"km/h\"},\"current\":{\"time\":\"2026-09-23T20:00\",\"interval\":900,\"temperature_2m\":31.1,\"weather_code\":1,\"cloud_cover\":26,\"is_day\":1,\"precipitation\":0.00,\"wind_speed_10m\":3.6},\"daily_units\":{\"time\":\"iso8601\",\"sunrise\":\"iso8601\",\"sunset\":\"iso8601\"},\"daily\":{\"time\":[\"2026-09-23\"],\"sunrise\":[\"2026-09-23T08:03\"],\"sunset\":[\"2026-09-23T20:10\"]}}",
+      "preflight-20260923T201235.json": "{\n  \"retrieved_utc\": \"2026-09-23T18:12:35.438084+00:00\",\n  \"retrieved_local\": \"2026-09-23T20:12:35.438084+02:00\",\n  \"provider_url\": \"https://api.open-meteo.com/v1/forecast?latitude=40.4153&longitude=-3.7075&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1\",\n  \"response\": {\n    \"latitude\": 40.4375,\n    \"longitude\": -3.6875,\n    \"generationtime_ms\": 0.11849403381347656,\n    \"utc_offset_seconds\": 7200,\n    \"timezone\": \"Europe/Madrid\",\n    \"timezone_abbreviation\": \"GMT+2\",\n    \"elevation\": 654.0,\n    \"current_units\": {\n      \"time\": \"iso8601\",\n      \"interval\": \"seconds\",\n      \"temperature_2m\": \"°C\",\n      \"weather_code\": \"wmo code\",\n      \"cloud_cover\": \"%\",\n      \"is_day\": \"\",\n      \"precipitation\": \"mm\",\n      \"wind_speed_10m\": \"km/h\"\n    },\n    \"current\": {\n      \"time\": \"2026-09-23T20:00\",\n      \"interval\": 900,\n      \"temperature_2m\": 31.1,\n      \"weather_code\": 1,\n      \"cloud_cover\": 26,\n      \"is_day\": 1,\n      \"precipitation\": 0.0,\n      \"wind_speed_10m\": 3.6\n    },\n    \"daily_units\": {\n      \"time\": \"iso8601\",\n      \"sunrise\": \"iso8601\",\n      \"sunset\": \"iso8601\"\n    },\n    \"daily\": {\n      \"time\": [\n        \"2026-09-23\"\n      ],\n      \"sunrise\": [\n        \"2026-09-23T08:03\"\n      ],\n      \"sunset\": [\n        \"2026-09-23T20:10\"\n      ]\n    }\n  },\n  \"scenario_label\": \"23 September 2026 · 20:12 Europe/Madrid\",\n  \"requested_coordinates\": [\n    40.4153,\n    -3.7075\n  ],\n  \"model_grid_coordinates\": [\n    40.4375,\n    -3.6875\n  ],\n  \"grid_resolution\": \"not provided in response; coordinate offset is not resolution\",\n  \"solar\": {\n    \"method\": \"NOAA fractional-year geometric approximation, not observation\",\n    \"elevation_deg\": -0.95,\n    \"azimuth_deg\": 271.0\n  },\n  \"lighting_stage\": \"DUSK twilight\",\n  \"sunrise_local\": \"2026-09-23T08:03:00+02:00\",\n  \"sunset_local\": \"2026-09-23T20:10:00+02:00\",\n  \"twilight_window_minutes\": 45,\n  \"generation_allowed\": true,\n  \"disclaimer\": \"Model data from Open-Meteo; not a verified on-site observation.\"\n}",
+      "preflight.py": "\"\"\"Archive fresh ES-01-009 scenario evidence and compute the lighting stage.\"\"\"\nfrom pathlib import Path\nfrom datetime import datetime, timezone, timedelta\nfrom zoneinfo import ZoneInfo\nimport json, math, urllib.request\n\np = Path(__file__).parent\nlat_deg, lon_deg = 40.4153, -3.7075\nurl = (\n    \"https://api.open-meteo.com/v1/forecast?latitude=40.4153&longitude=-3.7075\"\n    \"&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m\"\n    \"&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1\"\n)\nraw = urllib.request.urlopen(url, timeout=40).read()\ndata = json.loads(raw)\nt = datetime.now(timezone.utc)\nlocal = t.astimezone(ZoneInfo(\"Europe/Madrid\"))\ng = 2 * math.pi / 365 * (t.timetuple().tm_yday - 1 + (t.hour - 12) / 24)\neq = 229.18 * (\n    .000075 + .001868 * math.cos(g) - .032077 * math.sin(g)\n    - .014615 * math.cos(2 * g) - .040849 * math.sin(2 * g)\n)\ndec = (\n    .006918 - .399912 * math.cos(g) + .070257 * math.sin(g)\n    - .006758 * math.cos(2 * g) + .000907 * math.sin(2 * g)\n    - .002697 * math.cos(3 * g) + .00148 * math.sin(3 * g)\n)\nh = math.radians((t.hour * 60 + t.minute + t.second / 60 + eq + 4 * lon_deg) / 4 - 180)\nlat = math.radians(lat_deg)\nalt = math.degrees(math.asin(math.sin(lat) * math.sin(dec) + math.cos(lat) * math.cos(dec) * math.cos(h)))\naz = (math.degrees(math.atan2(math.sin(h), math.cos(h) * math.sin(lat) - math.tan(dec) * math.cos(lat))) + 180) % 360\nsunrise = datetime.fromisoformat(data[\"daily\"][\"sunrise\"][0]).replace(tzinfo=ZoneInfo(\"Europe/Madrid\"))\nsunset = datetime.fromisoformat(data[\"daily\"][\"sunset\"][0]).replace(tzinfo=ZoneInfo(\"Europe/Madrid\"))\nif sunrise - timedelta(minutes=45) <= local < sunrise:\n    stage = \"DAWN twilight\"\nelif sunrise <= local < sunset:\n    stage = \"Daylight\"\nelif sunset <= local <= sunset + timedelta(minutes=45):\n    stage = \"DUSK twilight\"\nelse:\n    stage = \"Night\"\nrecord = {\n    \"retrieved_utc\": t.isoformat(),\n    \"retrieved_local\": local.isoformat(),\n    \"provider_url\": url,\n    \"response\": data,\n    \"scenario_label\": local.strftime(\"%d %B %Y · %H:%M Europe/Madrid\"),\n    \"requested_coordinates\": [lat_deg, lon_deg],\n    \"model_grid_coordinates\": [data[\"latitude\"], data[\"longitude\"]],\n    \"grid_resolution\": \"not provided in response; coordinate offset is not resolution\",\n    \"solar\": {\n        \"method\": \"NOAA fractional-year geometric approximation, not observation\",\n        \"elevation_deg\": round(alt, 2),\n        \"azimuth_deg\": round(az, 2),\n    },\n    \"lighting_stage\": stage,\n    \"sunrise_local\": sunrise.isoformat(),\n    \"sunset_local\": sunset.isoformat(),\n    \"twilight_window_minutes\": 45,\n    \"generation_allowed\": stage in [\"Daylight\", \"DUSK twilight\", \"DAWN twilight\"],\n    \"disclaimer\": \"Model data from Open-Meteo; not a verified on-site observation.\",\n}\nstamp = local.strftime(\"%Y%m%dT%H%M%S\")\n(p / f\"preflight-{stamp}.json\").write_text(json.dumps(record, indent=2, ensure_ascii=False))\n(p / f\"open-meteo-raw-{stamp}.json\").write_bytes(raw)\n(p / \"conditions.json\").write_text(json.dumps(record, indent=2, ensure_ascii=False))\nprint(json.dumps(record, indent=2, ensure_ascii=False))\nraise SystemExit(0 if record[\"generation_allowed\"] else 2)\n",
+      "prompt-r1.txt": "Use case: photorealistic-natural. Create an original photorealistic artistic interpretation of Plaza Mayor, Madrid, from the public southern part of the square, approximate eye-level camera 40.4153,-3.7075 looking north toward Casa de la Panadería. Landscape 16:9 composition, no text or signature yet (production captions will be added after export). Architecture must match this real location: broad enclosed rectangular granite-paved square surrounded by continuous muted brick-red façades, three regular balcony floors above a ground-floor stone arcade; dark slate roofs. North center is Casa de la Panadería, paler decorative painted façade with two modest square end towers capped by dark slender stepped slate spires and finials, small round clocks at roof level, central royal coat of arms and balcony; twin towers not oversized. Both north-building spires complete with ample sky. Philip III's bronze equestrian statue on a pale stone pedestal sits in the square center in front of the building, side view horse facing viewer-left (west), at realistic scale; complete pedestal. Wide surrounding arcades visible to both sides; no invented cathedral dome or modern tower. Keep the central façade and statue compact enough for a later central 4:5 crop; empty paved forecourt lower quarter, no large foreground people. Date scenario 23 September 2026 20:12 Europe/Madrid, sunset20:10, sun elevation -0.95 azimuth271: very early DUSK twilight, bright subdued blue sky with sparse clouds approximately26%, all direct sunlight already below horizon, warm residual western sky outside frame to left, soft cool architecture shadow. Do not render blazing golden sunlight, stars, moon, glowing façade floodlights, dramatic artificial spotlights, or wet reflective pavement. Open-Meteo model mainly clear31.1C precipitation0 wind3.6km/h guides conditions; not an observation. Neutral documentary realism with fine masonry, natural perspective, no HDR fantasy, no prominent logos, no readable fine fresco text, no large identifiable people. Show frescoes only as distant architectural color/texture, not a focal artwork reproduction. Avoid cropping either spire or pedestal. One single image, not collage.\n",
+      "review.json": "{\n  \"entry_id\": \"ES-01-009\",\n  \"country\": \"Spain\",\n  \"region\": \"Madrid\",\n  \"city\": \"Madrid\",\n  \"caption\": \"Plaza Mayor, Madrid\",\n  \"scenario_label\": \"23 September 2026 · 20:12 Europe/Madrid\",\n  \"composition\": \"DUSK twilight · South side of Plaza Mayor looking north toward Casa de la Panadería and the Philip III equestrian statue. · AI-generated artistic interpretation\",\n  \"alt_text\": \"AI-generated artistic interpretation of Plaza Mayor, Madrid — Red residential wings, arcades and the twin slate spires frame the central statue at dusk.\",\n  \"description\": \"Red residential wings, arcades and the twin slate spires frame the central statue at dusk.\",\n  \"viewpoint\": \"Approximate public-square camera 40.4153, -3.7075; looking north. Not a surveyed reconstruction.\",\n  \"weather\": \"Open-Meteo model data, retrieved 2026-09-23T20:12:35.438084+02:00, valid 2026-09-23T20:00 Europe/Madrid — not a verified on-site observation. 31.1°C, WMO 1, 26% cloud, 0.0 mm precipitation, 3.6 km/h wind. Sunrise 08:03, sunset 20:10. Approximate solar elevation -0.95°, azimuth 271.0°.\",\n  \"status\": \"Awaiting Cosmo QC · DUSK twilight\",\n  \"approval_state\": \"candidate\",\n  \"approval_basis\": \"No approval or five-gate pass claimed. Exact exported pair reserved for independent Cosmo review.\",\n  \"time_of_day\": \"DUSK twilight\",\n  \"license_badge\": \"Free · no credit needed\",\n  \"license_anchor\": \"#license\",\n  \"limitations\": \"Cosmo QC pending. The 2012 Carlos Delgado photograph confirms the horse faces right from this north-façade view; an initial left-facing prompt assumption was incorrect and was not applied as a correction. Lamp glow is an artistic interpretation; the exact 2026 switch-on time is unverified. Fine fresco and statue details require Cosmo review. Exact-size exports are resampled from a 1672×941 generated source; dimensions do not imply native detail. Weather is model data, not an on-site observation. Third-party rights and uniqueness are not legally certified.\",\n  \"revision_lineage\": \"Built-in text-only image generation; no photographic input pixels. Original source r1. Same-source crop and uniform Lanczos resampling; deterministic bottom gradient, caption, scenario, disclosure and signature. No independent portrait generation; model version not exposed.\",\n  \"historical_editions\": [],\n  \"editions\": [],\n  \"dimensions\": {\n    \"16x9\": {\n      \"width\": 1920,\n      \"height\": 1080,\n      \"sha256\": \"f915566e6dd108d76b5d1dd0fe9a488b3657dd84e18f103313ffeaffa34b2c85\",\n      \"bytes\": 2688294,\n      \"source_width\": 1672,\n      \"source_height\": 941,\n      \"resampled\": true\n    },\n    \"4x5\": {\n      \"width\": 864,\n      \"height\": 1080,\n      \"sha256\": \"81f72c06fcd3c67e5697484f343087fe17f5fcaecb6d2e1c51469e5c251dba52\",\n      \"bytes\": 1244711,\n      \"source_width\": 1672,\n      \"source_height\": 941,\n      \"resampled\": true\n    }\n  },\n  \"gates\": {\n    \"visual\": \"pending — Cosmo QC; architecture and viewpoint to review\",\n    \"technical\": \"Six local PNG exports fully decoded; exact dimensions and SHA-256 recorded; contact sheet opened. No served-byte verification yet.\",\n    \"provenance\": \"Built-in text-only generation and export lineage recorded; uniqueness unverified\",\n    \"commercial_ip\": \"Unverified; internal review is not legal certification\",\n    \"publication\": \"Candidate pipeline only, separate from approved gallery\"\n  },\n  \"file_16x9\": \"es-01-009-r1-16x9.png\",\n  \"file_4x5\": \"es-01-009-r1-4x5.png\",\n  \"references\": [\n    {\n      \"title\": \"Official Madrid tourism\",\n      \"url\": \"https://www.esmadrid.com/en/tourist-information/plaza-mayor-Madrid\",\n      \"note\": \"Official architectural description\",\n      \"use\": \"Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation.\"\n    },\n    {\n      \"title\": \"Enric, 1 June 2024\",\n      \"url\": \"https://commons.wikimedia.org/wiki/File:169_Plaza_Mayor_(Madrid),_banda_nord,_amb_la_Casa_de_la_Panader%C3%ADa.jpg\",\n      \"note\": \"CC BY-SA 4.0; north facade oblique\",\n      \"use\": \"Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation.\"\n    },\n    {\n      \"title\": \"Artem Vynohradov, 27 September 2022\",\n      \"url\": \"https://commons.wikimedia.org/wiki/File:Casa_de_la_Panader%C3%ADa,_Plaza_Mayor,_Madrid,_Spain.jpg\",\n      \"note\": \"CC BY-SA 4.0; frontal twilight\",\n      \"use\": \"Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation.\"\n    },\n    {\n      \"title\": \"Carlos Delgado, 26 August 2012\",\n      \"url\": \"https://commons.wikimedia.org/wiki/File:Felipe_III_-_Casa_de_la_Panader%C3%ADa_-_Plaza_Mayor_de_Madrid_-_01.jpg\",\n      \"note\": \"CC BY-SA 3.0; statue orientation\",\n      \"use\": \"Geometry reference only; photograph pixels not used in generation; historically dated, not a same-day observation.\"\n    }\n  ],\n  \"conditions_record\": {\n    \"retrieved_utc\": \"2026-09-23T18:12:35.438084+00:00\",\n    \"retrieved_local\": \"2026-09-23T20:12:35.438084+02:00\",\n    \"provider_url\": \"https://api.open-meteo.com/v1/forecast?latitude=40.4153&longitude=-3.7075&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1\",\n    \"response\": {\n      \"latitude\": 40.4375,\n      \"longitude\": -3.6875,\n      \"generationtime_ms\": 0.11849403381347656,\n      \"utc_offset_seconds\": 7200,\n      \"timezone\": \"Europe/Madrid\",\n      \"timezone_abbreviation\": \"GMT+2\",\n      \"elevation\": 654.0,\n      \"current_units\": {\n        \"time\": \"iso8601\",\n        \"interval\": \"seconds\",\n        \"temperature_2m\": \"°C\",\n        \"weather_code\": \"wmo code\",\n        \"cloud_cover\": \"%\",\n        \"is_day\": \"\",\n        \"precipitation\": \"mm\",\n        \"wind_speed_10m\": \"km/h\"\n      },\n      \"current\": {\n        \"time\": \"2026-09-23T20:00\",\n        \"interval\": 900,\n        \"temperature_2m\": 31.1,\n        \"weather_code\": 1,\n        \"cloud_cover\": 26,\n        \"is_day\": 1,\n        \"precipitation\": 0.0,\n        \"wind_speed_10m\": 3.6\n      },\n      \"daily_units\": {\n        \"time\": \"iso8601\",\n        \"sunrise\": \"iso8601\",\n        \"sunset\": \"iso8601\"\n      },\n      \"daily\": {\n        \"time\": [\n          \"2026-09-23\"\n        ],\n        \"sunrise\": [\n          \"2026-09-23T08:03\"\n        ],\n        \"sunset\": [\n          \"2026-09-23T20:10\"\n        ]\n      }\n    },\n    \"scenario_label\": \"23 September 2026 · 20:12 Europe/Madrid\",\n    \"requested_coordinates\": [\n      40.4153,\n      -3.7075\n    ],\n    \"model_grid_coordinates\": [\n      40.4375,\n      -3.6875\n    ],\n    \"grid_resolution\": \"not provided in response; coordinate offset is not resolution\",\n    \"solar\": {\n      \"method\": \"NOAA fractional-year geometric approximation, not observation\",\n      \"elevation_deg\": -0.95,\n      \"azimuth_deg\": 271.0\n    },\n    \"lighting_stage\": \"DUSK twilight\",\n    \"sunrise_local\": \"2026-09-23T08:03:00+02:00\",\n    \"sunset_local\": \"2026-09-23T20:10:00+02:00\",\n    \"twilight_window_minutes\": 45,\n    \"generation_allowed\": true,\n    \"disclaimer\": \"Model data from Open-Meteo; not a verified on-site observation.\"\n  }\n}\n"
+    },
+    "source_hashes": {
+      "source-r1.png": "a85fd445c6463c7bd4c4510af38cdde1217773b918b1d0b207f2ec5e7de41af8",
+      "source-final.png": "a85fd445c6463c7bd4c4510af38cdde1217773b918b1d0b207f2ec5e7de41af8"
+    }
+  }
+}
