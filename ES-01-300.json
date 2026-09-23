@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-300",
+  "country": "Spain",
+  "city": "Gran Canaria",
+  "region": "Canary Islands",
+  "caption": "Telde, Gran Canaria",
+  "revision": "r1",
+  "viewpoint": "From the Plaza de San Juan near 28.0030,-15.4180, looking at the Basilica of San Juan Bautista. Approximate point only.",
+  "anchors": [
+    "Historic Basilica of San Juan Bautista rising over the plaza",
+    "Façade catching warm light from ordinary plaza street lamps only — no floodlighting claimed",
+    "Quiet old-town street with receding lamps; starry sky above (6% model cloud)"
+  ],
+  "limitations": "Church illumination is ordinary street lighting only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Telde",
+      "Encyclopedic description of Telde and its basilica (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Telde",
+      "Spanish Wikipedia entry for Telde and its basilica, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Basilica of San Juan Bautista, rising over the Plaza de San Juan near 28.0030,-15.4180. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Telde, Gran Canaria at night.",
+  "description": "In Telde the historic Basilica of San Juan Bautista rises over the quiet Plaza de San Juan, its façade catching the warm light of ordinary street lamps — no floodlighting is claimed or depicted. A few lit windows, the lamps receding along the old-town street, and a starry sky above (6% model cloud) make for a restrained Canarian town night.",
+  "file_16x9": "es-01-300-r1-16x9.png",
+  "file_4x5": "es-01-300-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9488e3f6c9782fcb27a06133465a442fb8f9d75af33c90c2966e1b559db97bd2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "ace52f3eb0030cf2400ad7ab329af6a2f56817526e44f81bf0555f85bf954d00"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-300-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2053070,
+      "sha256": "9488e3f6c9782fcb27a06133465a442fb8f9d75af33c90c2966e1b559db97bd2",
+      "source_file": "media-generation-src-es-01-300-0-4f1ed2ea-549c-42be-be64-b93fd87ec066.png",
+      "source_dimensions": [
+        1872,
+        1344
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Telde, Gran Canaria",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1872, 1344]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-300-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1076437,
+      "sha256": "ace52f3eb0030cf2400ad7ab329af6a2f56817526e44f81bf0555f85bf954d00",
+      "source_file": "media-generation-src-es-01-300-0-4f1ed2ea-549c-42be-be64-b93fd87ec066.png",
+      "source_dimensions": [
+        1872,
+        1344
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Telde, Gran Canaria",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1872, 1344]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.0030&longitude=-15.4180&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Plaza de San Juan in Telde, Gran Canaria: the historic Basilica of San Juan Bautista rising over a quiet plaza, its facade catching warm light from ordinary plaza street lamps only, no floodlighting; a few lit windows; warm lamps receding along the quiet old-town street; clear starry sky above the towers; no prominent people, no text, no logos; church centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-300-0-4f1ed2ea-549c-42be-be64-b93fd87ec066.png",
+      "sha256": "23b204300bed0a67685b2b9ad5b7e0caa8614861bb44b97a6dc7538a942e80a3",
+      "dimensions": [
+        1872,
+        1344
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1872, 1344]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
