@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-244",
+  "country": "Spain",
+  "city": "Girona",
+  "region": "Catalonia",
+  "caption": "Onyar River houses, Girona",
+  "revision": "r1",
+  "viewpoint": "Pont de les Peixateries Velles (Eiffel Bridge), eye-level, looking along the river at the colorful facades. Exact camera point approximate.",
+  "anchors": [
+    "Colorful riverside facades (ochre, orange, pale blue, pink) line the dark river",
+    "Red lattice ironwork of the Eiffel Bridge frames the foreground",
+    "Bell tower of Sant Feliu and the cathedral mass rise behind the rooftops"
+  ],
+  "limitations": "Exact camera point approximate; facade lighting is street-lamp light only — no claim about specific building illumination; current conditions unverified.",
+  "refs": [
+    [
+      "https://sworld.co.uk/the-onyar-river-houses-girona-s-colorful-soul",
+      "Onyar River houses (Cases de l'Onyar) — colorful facades, Eiffel Bridge viewpoints"
+    ],
+    [
+      "https://tourismattractions.net/spain/onyar-river-houses-girona",
+      "Onyar River houses guide (Pont de les Peixateries Velles as best viewpoint)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Colorful facades reflected in the dark river from the red iron bridge · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Onyar River houses, Girona at night.",
+  "description": "From the red iron Eiffel Bridge, Girona's Onyar River houses — ochre, orange, pale blue and pink — line the dark water, their facades softly lit by street lamps and doubled in the river's reflection. The red lattice of the bridge frames the foreground while the bell tower of Sant Feliu and the cathedral rise behind the rooftops. A clear, still night keeps the reflections sharp on the water.",
+  "file_16x9": "es-01-244-r1-16x9.png",
+  "file_4x5": "es-01-244-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "15b82ce0b406c8d8d3a9b85bac3da0a8083aafd6e4f6f55e7b4620689781e52b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "ec6d4f255498a4837cf2fb2d0eddaf9501f0dd2b48f7d3e14233bff03b97a8eb"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-244-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2461435,
+      "sha256": "15b82ce0b406c8d8d3a9b85bac3da0a8083aafd6e4f6f55e7b4620689781e52b",
+      "source_file": "source-244.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Onyar River houses, Girona",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-244-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1077469,
+      "sha256": "ec6d4f255498a4837cf2fb2d0eddaf9501f0dd2b48f7d3e14233bff03b97a8eb",
+      "source_file": "source-244.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Onyar River houses, Girona",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.9794&longitude=2.8214&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:00",
+    "temperature_c": 16.9,
+    "weather_code": 0,
+    "weather_word": "clear sky",
+    "cloud_cover_pct": 29,
+    "is_day": 0,
+    "wind_kmh": 1.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Onyar River houses in Girona, Catalonia, at night, viewed from the red iron Eiffel Bridge (Pont de les Peixateries Velles). The colorful riverside facades — ochre, orange, pale blue and pink — line the dark river, softly lit by warm street lamps and reflected in the still water; the red lattice ironwork of the bridge frames the foreground; the bell tower of Sant Feliu and the dark mass of the cathedral rise behind the houses under a clear night sky."
+  },
+  "source_files": [
+    {
+      "file": "source-244.png",
+      "sha256": "41298111973278890ff76d80e96bda6ec13f6f63f2a95f29ffdc7abab1593340",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
