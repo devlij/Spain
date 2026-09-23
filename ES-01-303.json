@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-303",
+  "country": "Spain",
+  "city": "Fuerteventura",
+  "region": "Canary Islands",
+  "caption": "Betancuria, Fuerteventura",
+  "revision": "r1",
+  "viewpoint": "From the hillside above Betancuria near 28.4280,-14.0570, looking over the old capital. Approximate point only.",
+  "anchors": [
+    "Whitewashed houses sleeping under moonlight among dark volcanic hills",
+    "Santa María church tower rising as a dark silhouette in the center",
+    "A few generic warm village lamps; clear starry sky (1% model cloud)"
+  ],
+  "limitations": "Village lamps are generic and minimal; no specific fixtures claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Betancuria",
+      "Encyclopedic description of Betancuria (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Betancuria",
+      "Spanish Wikipedia entry for Betancuria, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From Betancuria old capital, whitewashed houses under moonlight near 28.4280,-14.0570. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Betancuria, Fuerteventura at night.",
+  "description": "Betancuria, Fuerteventura's old capital, sleeps under moonlight — whitewashed houses nestled among dark volcanic hills, the Santa María church tower rising as a dark silhouette at the center. Only a few generic warm village lamps break the dark, and the model sky is essentially clear (1% cloud). A quiet inland night on the island.",
+  "file_16x9": "es-01-303-r1-16x9.png",
+  "file_4x5": "es-01-303-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c404cc967c53e48abb8f6baef516f038efca7c49cde5fd370a93335ceb133a0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "35c78016d9ec41ede13a2a00d56809ba16d389d4f64fbd4268566ad5c1aede16"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-303-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2412175,
+      "sha256": "8c404cc967c53e48abb8f6baef516f038efca7c49cde5fd370a93335ceb133a0",
+      "source_file": "media-generation-src-es-01-303-0-ff1a82cf-8d23-43c5-953d-f993a662c383.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Betancuria, Fuerteventura",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-303-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1276987,
+      "sha256": "35c78016d9ec41ede13a2a00d56809ba16d389d4f64fbd4268566ad5c1aede16",
+      "source_file": "media-generation-src-es-01-303-0-ff1a82cf-8d23-43c5-953d-f993a662c383.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Betancuria, Fuerteventura",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.4280&longitude=-14.0570&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic moonlit night interpretation of Betancuria, the old capital of Fuerteventura: whitewashed houses sleeping under moonlight among dark volcanic hills; the Santa Maria church tower rising as a dark silhouette in the center; a few faint warm village lamps, kept generic and minimal; clear starry sky; no prominent people, no text, no logos; village centered so it survives a center crop; clean uncluttered lower foreground."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-303-0-ff1a82cf-8d23-43c5-953d-f993a662c383.png",
+      "sha256": "709b7c1ca76af99176fa8218be1b9a7c16927b55c9bd03a3750e3f134b3c09cb",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
