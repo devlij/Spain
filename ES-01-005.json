@@ -1,0 +1,56 @@
+{
+  "entry_id": "ES-01-005",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Córdoba",
+  "caption": "Mezquita-Catedral, Córdoba",
+  "scenario_label": "23 September 2026 · 13:35 Europe/Madrid",
+  "composition": "Bell tower and Puerta del Perdón from the Patio de los Naranjos · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Mezquita-Catedral bell tower and Puerta del Perdón from the orange-tree courtyard in clear early-afternoon daylight",
+  "file_16x9": "es-01-005-r3-16x9.png",
+  "file_4x5": "es-01-005-r3-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "status": "Awaiting Cosmo QC · Daylight",
+  "limitations": "Independent Cosmo QC is pending. The earlier production record contains an internal review only; it is not a Cosmo verdict or legal certification. Fine architecture, transient conditions, originality and third-party rights remain subject to review.",
+  "historical_editions": [
+    "Initial 3:2 source before lateral outpaint",
+    "r2 pair before correction of the invented clock-like detail",
+    "first truncated landscape export attempt, rejected as invalid"
+  ],
+  "approval_state": "candidate",
+  "description": "The bell tower and Puerta del Perdón rise at the north edge of the Patio de los Naranjos. The view looks along a courtyard path between orange trees toward the tower and gateway.",
+  "viewpoint": "Central path of the Patio de los Naranjos, approximately 37.87923, -4.77982, looking north at eye level. Exact generated camera correspondence is unverified.",
+  "weather": "Model data from Open-Meteo, retrieved 23 September 2026 13:35:20 Europe/Madrid, valid 13:30 Europe/Madrid — not a verified on-site observation. 31.9°C, clear, cloud 12%. Sunrise 08:07, sunset 20:14.",
+  "approval_basis": "No independent approval claimed. Saved r3 pair placed in candidate pipeline for Cosmo review.",
+  "time_of_day": "Daylight",
+  "editions": [],
+  "gates": {
+    "visual": "pending — Cosmo QC",
+    "technical": "PNG bytes fully decoded; dimensions and SHA-256 recorded",
+    "provenance": "saved generation lineage; uniqueness unverified",
+    "commercial_ip": "unverified; no legal certification",
+    "publication": "candidate pipeline only"
+  },
+  "review_history": [
+    {
+      "date": "2026-09-23",
+      "previous_status": "Approved · internal five-gate editorial review · Daylight",
+      "resolution": "Independent QC is reserved for Cosmo. Earlier internal review is retained as production history, not treated as independent approval. Existing r3 image bytes preserved."
+    }
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d000d63062f8e9d88446e64330a2c8a674f7cd9378ef7d46faa1497a6bdadc4f",
+      "bytes": 3052439
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "20267f13ac16f3746c8085984308fc02ba94d1364611c53afd58a999345d2bf7",
+      "bytes": 1236714
+    }
+  }
+}

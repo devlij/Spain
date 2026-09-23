@@ -2,7 +2,7 @@
 
 https://devlij.github.io/Spain/
 
-6 scenes in the approved gallery, 0 awaiting QC, 12 queued. ES-01-001 Sagrada Família daylight-r4 and ES-01-003 Casa Batlló are approved following Cosmo QC APPROVED 5/5, relayed by Jason on 23 September 2026. The previous false Jason review/approval attribution remains withdrawn. No image bytes changed. Independent QC remains with Cosmo.
+6 scenes in the approved gallery, 1 awaiting Cosmo QC, 11 queued. ES-01-001 Sagrada Família daylight-r4 and ES-01-003 Casa Batlló are approved following Cosmo QC APPROVED 5/5, relayed by Jason on 23 September 2026. The previous false Jason review/approval attribution remains withdrawn. No image bytes changed. Independent QC remains with Cosmo.
 
 ES-01-NNN is the canonical register. IDs 001–016 are reserved for the starter sequence; Córdoba ES-AN-001 maps to ES-01-017 and ES-AN-002 maps to ES-01-018. All current Córdoba download and viewer paths now use es-01-017 / es-01-018. Original editions use the same IDs with an original suffix. Old ES-AN assets remain byte-identical compatibility aliases for historical links, not extra register entries.
 
@@ -13,3 +13,5 @@ Main branch root is the deployed source. Spain-merge-source.zip is a historical 
 Córdoba and Park Güell retain the previously relayed Cosmo QC status. Alhambra r2 retains its recorded internal editorial approval, which is not independent Cosmo QC or legal certification. Its rejected 11:34 edition remains historical. Next queued starter: ES-01-005 Mezquita-Catedral, Córdoba.
 
 Never attribute review to Jason without his explicit review of the exact revision. Reports may claim verification only for checks actually performed on the exact served bytes. Independent QC is performed by Cosmo.
+
+ES-01-005 Mezquita-Catedral r3 is published only in the Cosmo QC pipeline. Existing paired bytes and 13:35 Europe/Madrid scenario retained from the saved production record. Earlier internal review is not a Cosmo approval. Next ungenerated starter: ES-01-006 Seville Cathedral and Giralda.
