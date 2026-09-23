@@ -1,0 +1,256 @@
+{
+  "entry_id": "ES-01-029",
+  "country": "Spain",
+  "city": "Gijón",
+  "region": "Asturias",
+  "caption": "Playa de San Lorenzo, Gijón",
+  "revision": "r3",
+  "viewpoint": "Public El Muro promenade at western San Lorenzo beach near 43.5426,-5.6569, eye-level looking approximately northwest toward San Pedro church, with sea to right. Approximate coordinates, not surveyed camera.",
+  "anchors": [
+    "San Pedro church with one square belfry and pointed tile roof",
+    "Church stands on stone seawall at western beach end, town behind left",
+    "Cantabrian water and shallow breaking surf on right with sandy foreground"
+  ],
+  "limitations": "Current tide was not retrieved; depicted waterline is compositional and not an observed or predicted tide. Historical lighting precedent only, schedule unverified. Church proportions, sea-wall course and waterfront arrangement need Cosmo QC. Portrait retains complete church and near water, not full beach crescent. Local r1 rejected for separate Gothic gable/tower placement. r2 corrected massing but retained Gothic tracery and rubble; built-in edit r3 corrected texture/tracery. Main window still appears slightly pointed and side-aisle treatment differs from reference: Gate 1 must explicitly assess these residual deviations; no visual pass claimed.",
+  "refs": [
+    [
+      "https://www.spain.info/en/beach/san-lorenzo-gijon/",
+      "Official tourism description and complementary daylight photo visually inspected 23 September 2026; capture date unknown."
+    ],
+    [
+      "https://www.spain.info/en/places-of-interest/church-san-pedro-apostol-gijon/",
+      "Official location/history description read 23 September 2026."
+    ],
+    [
+      "https://photos.com/featured/iglesia-de-san-pedro-fernando-trabanco-fotografa.html",
+      "Fernando Trabanco/Getty night photograph inspected 23 September 2026; capture date unknown, supports single-tower geometry and lighting precedent only."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public El Muro promenade at western San Lorenzo beach near 43.5426,-5.6569, eye-level looking approximately northwest toward San Pedro church, with sea to right. Approximate coordinates, not surveyed camera. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Playa de San Lorenzo, Gijón at night.",
+  "description": "San Pedro church with one square belfry and pointed tile roof; Church stands on stone seawall at western beach end, town behind left; Cantabrian water and shallow breaking surf on right with sandy foreground.",
+  "file_16x9": "es-01-029-r3-16x9.png",
+  "file_4x5": "es-01-029-r3-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "db95c57dd89019a4c069fbf6868b5dcbd546213319e770d7f4e8b31956c15be0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "2698724ed16355c3b66020971f5cd13c73e5eb971ad90a91f6581223fc438bff"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-029-r3-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2356286,
+      "sha256": "db95c57dd89019a4c069fbf6868b5dcbd546213319e770d7f4e8b31956c15be0",
+      "source_file": "029/source-r3.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.47,
+        0.5
+      ],
+      "labels": [
+        "Playa de San Lorenzo, Gijón",
+        "Scenario: 23 September 2026 · 23:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Own text-only source r2 edited by built-in image tool to r3, then uniform Lanczos crop/resampling and deterministic scrim/text; no third-party image pixels.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-029-r3-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1181144,
+      "sha256": "2698724ed16355c3b66020971f5cd13c73e5eb971ad90a91f6581223fc438bff",
+      "source_file": "029/source-r3.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.47,
+        0.5
+      ],
+      "labels": [
+        "Playa de San Lorenzo, Gijón",
+        "Scenario: 23 September 2026 · 23:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Own text-only source r2 edited by built-in image tool to r3, then uniform Lanczos crop/resampling and deterministic scrim/text; no third-party image pixels.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T21:29:40.388534+00:00",
+    "retrieved_local": "2026-09-23T23:29:40.388534+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.5426&longitude=-5.6569&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 43.54,
+      "longitude": -5.6600003,
+      "generationtime_ms": 0.611424446105957,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 0.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T23:15",
+        "interval": 900,
+        "temperature_2m": 19.8,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 9.4
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:10"
+        ],
+        "sunset": [
+          "2026-09-23T20:18"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+    "requested_coordinates": [
+      43.5426,
+      -5.6569
+    ],
+    "model_grid_coordinates": [
+      43.54,
+      -5.6600003
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -32.91,
+      "azimuth_deg": 308.18
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:10:00+02:00",
+    "sunset_local": "2026-09-23T20:18:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-23T23:29:40.388534+02:00, valid 2026-09-23T23:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of San Lorenzo waterfront in Gijón, Asturias, Spain from public El Muro promenade at western beach, eye-level looking northwest toward San Pedro church. Church placed centrally, entire church and tower occupy middle38% of wide16:9 frame with generous margins for4:5 central crop. Real landmark: one tall square sandy-stone belfry toward left/front of the church, small open belfry capped by steep pointed reddish tile roof and simple cross; low Romanesque-revival nave extends to right, round-arched side gallery and large tall rounded central window/entry on near face. Church rests on dark masonry seawall at western beach end; historic city facades behind LEFT; open Cantabrian sea and small gently breaking waves RIGHT. Foreground narrow sand/water edge, viewpoint on promenade not drone. True night23September2026 23:29Europe/Madrid. Modelvalid23:15:19.8C,clear0%cloud,no precipitation,wind9.4km/h. Sun below horizon elevation-32.91deg. Almost-black sky no moon, stars, blue-hour glow or clouds. Restrained warm facade lights and promenade lamps supported by historical lighting references, modest amber rippled reflections, no HDR exaggeration. Current tide unverified, avoid broad tidal claims. No crowds, logos, text, watermark, foreground artwork or fantasy spires. Natural materials. Lower20% quiet water/sand reserved for captions. Do not copy a specific photograph.\n",
+    "prompt-r2.txt": "New original photorealistic artistic interpretation of real San Pedro church at San Lorenzo beach Gijón at true night. Correct geometry: a compact low Romanesque-revival church, single square clockless belfry DIRECTLY ABOVE the left/front facade's large ROUND-HEADED tall window; tower has two small vertically spaced paired windows on its plain square shaft and open arches in the small belfry topped by slender pointed tile roof with cross. At tower base, large rounded window and low three-arch rounded open porch; a low compact nave extends RIGHT with short rounded-arch aisle. No separate tall Gothic front gable, no pointed Gothic window, no long six-bay colonnade, no detached Italian campanile. Church is entirely within central38% of wide16:9 frame, smaller in composition with ample top margin above cross. Stone seawall beneath church curves from bottom-left toward center-right tip, old Gijón city behind LEFT, sea RIGHT. Public western El Muro promenade eye-level view approximately northwest, near shoreline waves in foreground. Scenario23September2026 23:29Europe/Madrid, model19.8C,clear0%cloud,no precipitation,wind9.4km/h. Nearly black clear sky no stars,moon,cloud or twilight. Restrained historical-reference-informed warm facade and promenade light, soft gold ripples, not overbright. No exact tidal claim. No people, signs, logos, text or watermark. Bottom20% quiet water for captions, not a copy of any photograph.\n",
+    "prompt-r3.txt": "Edit the generated r2 image only. Preserve the exact scene, viewpoint, night lighting, single tower, seawall, coast, black sky, city backdrop and composition. Correct architectural materials and openings toward real San Pedro Gijón: the large window directly below the tower MUST have a smooth semicircular ROMANESQUE arch, not a Gothic point. Remove all Gothic tracery within it: simple vertical dark glass divisions only. The three low front porch arches are softly semicircular, not pointed. Replace rough random rubble wall texture on church with smooth regular pale sandy limestone ashlar, subtle rectangular joints; do not change the seawall rubble. Keep all other geometry and location intact. No new text, people, logos or watermarks. Wide16:9 output, no crop or camera move.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r2.png",
+      "sha256": "fefbe03cae3f44b07f55f716508e6c50ee846216cbc5a59da5f6a38104832fcc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false
+    },
+    {
+      "file": "source-r3.png",
+      "sha256": "5a0437c528bd7234bea8969e1e77d3122bab711001bd52484bcdbe809a7f9ae1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    },
+    {
+      "file": "source-r1.png",
+      "sha256": "83796c8788ccdb3f296b5577c015739090132d3268efd9b15963fffc4a3895fb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [
+      {
+        "file": "source-r2.png",
+        "sha256": "fefbe03cae3f44b07f55f716508e6c50ee846216cbc5a59da5f6a38104832fcc",
+        "role": "Own generated image edited to r3; no third-party pixels."
+      }
+    ],
+    "source_use": "Original text-only generations r1/r2; selected r3 is built-in image edit of own r2. Third-party photographs only visually inspected for facts, not supplied as input pixels. Reference copies private; no uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": [
+    {
+      "file": "gijon-official.jpg",
+      "sha256": "69616f0c382f39a2493ba4e167137b00274e13193056208c99313b13442829e5"
+    },
+    {
+      "file": "gijon-night.jpg",
+      "sha256": "19c177c6fa5fd590f5f0bc5ea732b7558501a172423f94e5d0a5920463819b94"
+    }
+  ]
+}
