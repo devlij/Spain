@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-335",
+  "country": "Spain",
+  "city": "Consuegra",
+  "region": "Castilla-La Mancha",
+  "caption": "Windmills, Consuegra",
+  "revision": "r1",
+  "viewpoint": "Lower slope of Cerro Calderico, facing the windmill row (approx 39.4636N, 3.6086W)",
+  "anchors": [
+    "Row of whitewashed 16th-century windmills with sails along the ridge of Cerro Calderico",
+    "Ruined medieval castle rising behind the windmills on the hill",
+    "Dark La Mancha plains stretching below the illuminated ridge"
+  ],
+  "limitations": "Night floodlighting of the windmills and castle is supported by travel guides, but is not verified for this specific hour. Sails and castle detail are interpretive. Camera point on the slope is a conventional tourist viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://miraespanha.com/en/consuegra-windmills/",
+      "Guide: at night the windmills and castle are lit up; seeing Cerro Calderico illuminated is worth the stay"
+    ],
+    [
+      "https://anythingbutpaella.com/don-quixotes-windmills/",
+      "Guide: Consuegra's 12 windmills on Cerro Calderico, the Don Quixote connection"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:46 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Windmill ridge from the slope, floodlit against the starry sky · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Consuegra windmills at night.",
+  "description": "At night the windmills of Consuegra stand in a floodlit row along the crest of Cerro Calderico, their whitewashed towers and sails glowing against the starry sky while the ruined castle of La Muela keeps watch behind them. Below, the dark plains of La Mancha stretch to the horizon — the same emptiness Cervantes gave his knight. Seeing the illuminated hill is, as travellers put it, reason enough to stay a little longer.",
+  "file_16x9": "es-01-335-r1-16x9.png",
+  "file_4x5": "es-01-335-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "abd55811035b82d0906b5d33bc8ebcab21d275389b1ec519397546df7a491eb7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "086c008ae49357d7f0799a67be1d93700210d12226cc0fcb55eb7ab05d475dc8"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-335-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2318917,
+      "sha256": "abd55811035b82d0906b5d33bc8ebcab21d275389b1ec519397546df7a491eb7",
+      "source_file": "media-generation-es-01-335-source-0-debcb1fb-4d75-4c81-91b4-17782be3c242.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Windmills, Consuegra",
+        "Scenario: 24 September 2026 · 02:46 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-335-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1253093,
+      "sha256": "086c008ae49357d7f0799a67be1d93700210d12226cc0fcb55eb7ab05d475dc8",
+      "source_file": "media-generation-es-01-335-source-0-debcb1fb-4d75-4c81-91b4-17782be3c242.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Windmills, Consuegra",
+        "Scenario: 24 September 2026 · 02:46 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the windmills of Consuegra, Spain, at night, on Cerro Calderico. A row of whitewashed 16th-century windmills with their sails stands along the ridge, floodlit warm against a dark starry night sky; the ruined medieval castle rises behind them on the hill. The dark La Mancha plains stretch below. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-335-source-0-debcb1fb-4d75-4c81-91b4-17782be3c242.png",
+      "sha256": "c9d10afca7c79400b19c60f98b85230045edf01b398e369c5235e9c1d772a97a",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
