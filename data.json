@@ -660,9 +660,9 @@
       "scenario_label": "23 September 2026 · 20:13 Europe/Madrid",
       "composition": "DUSK twilight · North-bank promenade across the Nervión, looking south-southwest toward the titanium museum and La Salve bridge. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Guggenheim Museum, Bilbao — Curved titanium volumes gather around the central atrium, with the bridge and detached openwork tower to the left.",
-      "status": "Approved · Cosmo QC 5/5 · Dusk",
-      "approval_state": "approved",
-      "approval_basis": "Five-gate pass: Gate 1 — titanium museum massing with La Salve bridge and the corrected tapered-glass Iberdrola tower from the north-bank promenade, dusk light consistent with the 20:13 scenario; Gate 2 — both masters at exact dimensions with SHA-256 matching the packet, exact signature/caption/timestamp/disclosure; Gate 3 — packet documents AI generation, r2 correction history disclosed; Gate 4 — documentation only: public promenade, no blocking people/logos, chain not certified; Gate 5 — no open blockers."
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
     },
     {
       "entry_id": "ES-01-011",
@@ -673,9 +673,9 @@
       "scenario_label": "23 September 2026 · 20:14 Europe/Madrid",
       "composition": "Daylight · West-center Praza do Obradoiro looking east toward the cathedral’s west façade. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cathedral, Santiago de Compostela — Low western sunlight catches the upper granite façade above the split staircase; the foreground square remains in shadow.",
-      "status": "Awaiting Cosmo QC · Daylight",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Daylight",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate pass: Gate 1 — Obradoiro west façade with twin Baroque towers and split staircase from Praza do Obradoiro, warm pre-sunset light consistent with the 20:14 scenario (sunset 20:30); Gate 2 — both masters at exact dimensions with SHA-256 matching the packet, exact signature/caption/timestamp/disclosure; Gate 3 — packet documents AI generation, fine statuary disclosed as generated; Gate 4 — documentation only: public square, small unidentifiable figures, no blocking logos, chain not certified; Gate 5 — no open blockers."
     },
     {
       "entry_id": "ES-01-012",
