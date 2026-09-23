@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-290",
+  "country": "Spain",
+  "city": "Fuerteventura",
+  "region": "Canary Islands",
+  "caption": "Dunas de Corralejo, Fuerteventura",
+  "revision": "r1",
+  "viewpoint": "From within the Corralejo dune field near 28.7400,-13.8670, looking across the pale sand ridges toward the sea. Approximate point only.",
+  "anchors": [
+    "Pale sand ridges in cool moonlight with soft shadowed hollows",
+    "Dark volcanic Montaña Roja cone silhouette on the left",
+    "Isla de Lobos dark island silhouette on the right horizon over the sea"
+  ],
+  "limitations": "Exact dune point unverified (dunes shift); moon position artistic; no claim of nighttime access to the protected dune area. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Corralejo",
+      "Encyclopedic description of Corralejo (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Corralejo",
+      "Spanish Wikipedia entry for Corralejo, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:21 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Corralejo dune field, looking across pale moonlit ridges toward Montaña Roja and Isla de Lobos near 28.7400,-13.8670. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Dunas de Corralejo, Fuerteventura at night.",
+  "description": "Moonlight silvers the pale ridges of the Corralejo dunes, the hollows sinking into soft shadow. To the left the dark cone of Montaña Roja stands against the stars, and to the right the silhouette of Isla de Lobos rests on the horizon over the sea. The model sky is essentially clear (1% cloud), and nothing here is lit but the moon — a quiet coastal desert at night.",
+  "file_16x9": "es-01-290-r1-16x9.png",
+  "file_4x5": "es-01-290-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "805338fc397288091d7a6b382503f956618c863bfbcd394520b9b0d0885b19f8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "1024a7d2c9b1e1799d40b38918b959b83f182024eb8ce7ec578d6b2b4fb74b7d"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-290-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1617629,
+      "sha256": "805338fc397288091d7a6b382503f956618c863bfbcd394520b9b0d0885b19f8",
+      "source_file": "media-generation-src-es-01-290-0-74d026b4-ec8a-42d9-ae8f-66db3487d429.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Dunas de Corralejo, Fuerteventura",
+        "Scenario: 24 September 2026 · 01:21 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-290-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 930553,
+      "sha256": "1024a7d2c9b1e1799d40b38918b959b83f182024eb8ce7ec578d6b2b4fb74b7d",
+      "source_file": "media-generation-src-es-01-290-0-74d026b4-ec8a-42d9-ae8f-66db3487d429.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Dunas de Corralejo, Fuerteventura",
+        "Scenario: 24 September 2026 · 01:21 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.7400&longitude=-13.8670&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:15+02:00",
+    "valid": "2026-09-24T01:15+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15+02:00, valid 2026-09-24T01:15+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic moonlit night interpretation of the Corralejo dune field in Fuerteventura, Canary Islands: pale sand ridges in cool moonlight with soft shadowed hollows; the dark volcanic silhouette of Montana Roja cone on the left; the dark island silhouette of Isla de Lobos on the right horizon over the sea; clear starry sky; no people, no buildings, no artificial lighting, no text, no logos; dunes centered so they survive a center crop; clean uncluttered lower foreground."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-290-0-74d026b4-ec8a-42d9-ae8f-66db3487d429.png",
+      "sha256": "e866bfec41132ed910a6cb5637f6c8e7bb77b152008e80f2dc6701f5ace1e4c8",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
