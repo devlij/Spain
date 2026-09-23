@@ -751,9 +751,9 @@
       "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
       "composition": "NIGHT · Public Plaza del Triunfo outside the Real Alcázar, approximately37.3846,-5.9922, facing southeast toward Puerta del León. Ground-level public exterior; palace interior not shown. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Puerta del León, Seville at night. The red Puerta del León entrance and unequal crenellated stone towers face a quiet plaza at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit PASS: Gate 1 — red Puerta del León wall with lion tile and twin unequal crenellated stone towers from Plaza del Triunfo, recognizably the captioned site at night, clean framing, no artifacts; Gate 2 — both masters at exact 1920×1080/864×1080 with SHAs matching the packet, exact caption 'Puerta del León, Seville', scenario timestamp '23 September 2026 · 21:52 Europe/Madrid', disclosure and 'Jason D's Vision' signature legible on the bottom gradient; Gate 3 — packet documents reference evidence only, no third-party image pixels used as generation inputs; Gate 4 documentation-only — no visible people/logos; public exterior; Gate 5 — publication ready, no open blockers."
     },
     {
       "entry_id": "ES-01-020",
