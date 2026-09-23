@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-322",
+  "country": "Spain",
+  "city": "Suances",
+  "region": "Cantabria",
+  "caption": "Suances, Cantabria",
+  "revision": "r1",
+  "viewpoint": "From the dunes near 43.4280,-4.0400, looking along the beach. Approximate point only.",
+  "anchors": [
+    "Dark beach with moonlit surf breaking softly",
+    "Town's warm lights strung along the coast in the distance",
+    "Dark dunes in the foreground; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Town lamps are generic; no specific fixtures claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Suances",
+      "Encyclopedic description of Suances (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Suances",
+      "Spanish Wikipedia entry for Suances; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From Suances, the moonlit beach and distant town lights near 43.4280,-4.0400. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Suances at night.",
+  "description": "Suances' dark beach lies quiet under moonlight, the surf breaking softly at the water's edge. The town's warm lights are strung along the coast in the distance, and the model sky is perfectly clear (0% cloud). A still night on the Cantabrian coast.",
+  "file_16x9": "es-01-322-r1-16x9.png",
+  "file_4x5": "es-01-322-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "16b5a00e3e4303cd8543b2dc2e91948e7379870aacef2979ec8021821d1397e0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "10975ba60a9f573d38729876e820d05b174861a566856c1c84fd1872f9412d3d"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-322-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1910355,
+      "sha256": "16b5a00e3e4303cd8543b2dc2e91948e7379870aacef2979ec8021821d1397e0",
+      "source_file": "media-generation-src-es-01-322-0-5d1c4f3c-70c9-475a-a5ea-5179bb5ecb8c.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Suances, Cantabria",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-322-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1096484,
+      "sha256": "10975ba60a9f573d38729876e820d05b174861a566856c1c84fd1872f9412d3d",
+      "source_file": "media-generation-src-es-01-322-0-5d1c4f3c-70c9-475a-a5ea-5179bb5ecb8c.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Suances, Cantabria",
+        "Scenario: 24 September 2026 · 01:49 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.4280&longitude=-4.0400&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:45+02:00",
+    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of Suances in Cantabria: the dark beach with moonlit surf breaking softly; the town's warm lights strung along the coast in the distance; dark dunes in the foreground; clear starry sky; no prominent people, no text, no logos; beach and town lights centered so they survive a center crop; clean uncluttered lower foreground."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-322-0-5d1c4f3c-70c9-475a-a5ea-5179bb5ecb8c.png",
+      "sha256": "5176071f0c4aef4e04c1ffeea96c6ac65c095ea6f248430a456f02e09dc2a0c4",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
