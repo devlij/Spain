@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-207",
+  "country": "Spain",
+  "city": "Frigiliana",
+  "region": "Andalusia",
+  "caption": "Frigiliana, Málaga",
+  "revision": "r1",
+  "viewpoint": "El Barribarto, the Moorish quarter — Calle Hernando el Darra",
+  "anchors": [
+    "steep whitewashed alley with blue doors and geometric pebble paving",
+    "flower pots and ceramic mosaics on the white walls",
+    "glimpse of the lit Costa del Sol coast far below"
+  ],
+  "limitations": "Text-only generation; no photographic input. Specific street-lamp placement is artistic interpretation. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.visitanddo.com/en/what-to-see-and-do-in-frigiliana/",
+      "Travel guide — El Barribarto, best-preserved Moorish village in the Axarquía, Hernando el Darra street"
+    ],
+    [
+      "http://www.explorenerja.com/towns/frigiliana.htm",
+      "Local guide — white village on the Sierra Almijara slopes, Mudéjar old town, views over the coast"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:17 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Whitewashed Moorish lanes at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Frigiliana at night.",
+  "description": "Frigiliana's Moorish quarter is a maze of whitewashed alleys made for the night — blue doors and flower pots catching the warm street lamps, the old geometric pebble paving underfoot. From the upper lanes the lights of the Costa del Sol scatter below like fallen stars. A clear, mild evening around 22°C in what many call Andalusia's prettiest village.",
+  "file_16x9": "es-01-207-r1-16x9.png",
+  "file_4x5": "es-01-207-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0475c957fe84609fe6e502e578a531f7f7aa8d29ea872c0ce2cb0b7de78ffe5e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6f49b06c2f058544e45847a04ead36e956f3ed102f90313b1cb1a1c2fe335836"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-207-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2472967,
+      "sha256": "0475c957fe84609fe6e502e578a531f7f7aa8d29ea872c0ce2cb0b7de78ffe5e",
+      "source_file": "media-generation-es-01-207-source-0-8b353748-4be2-472a-8a41-ac5a109452ad.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Frigiliana, Málaga",
+        "Scenario: 24 September 2026 · 01:17 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-207-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1463512,
+      "sha256": "6f49b06c2f058544e45847a04ead36e956f3ed102f90313b1cb1a1c2fe335836",
+      "source_file": "media-generation-es-01-207-source-0-8b353748-4be2-472a-8a41-ac5a109452ad.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Frigiliana, Málaga",
+        "Scenario: 24 September 2026 · 01:17 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:13:14+02:00",
+    "valid": "2026-09-24T01:17:29+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 21.9,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 2.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:13:14+02:00, valid 2026-09-24T01:17:29+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Frigiliana, Malaga, Spain, at night. Tourist viewpoint: El Barribarto, the Moorish quarter, on Calle Hernando el Darra. Frame: a steep whitewashed alley centered, with blue doors, flower pots and ceramic mosaics on the white walls; traditional geometric pebble paving underfoot; a glimpse of the lit Costa del Sol coastline far below at the end of the lane. Night light: warm street lamps washing the whitewashed walls, coast lights twinkling below, clear sky, 22 degrees C, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-207-source-0-8b353748-4be2-472a-8a41-ac5a109452ad.png",
+      "sha256": "efbb91f3d6d7a3163e16763c80730969cfa2d0743463a48469475da12284aab3",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
