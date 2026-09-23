@@ -1,0 +1,300 @@
+{
+  "entry_id": "ES-01-019",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Seville",
+  "caption": "Puerta del León, Seville",
+  "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+  "composition": "NIGHT · Public Plaza del Triunfo outside the Real Alcázar, approximately37.3846,-5.9922, facing southeast toward Puerta del León. Ground-level public exterior; palace interior not shown. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Puerta del León, Seville at night. The red Puerta del León entrance and unequal crenellated stone towers face a quiet plaza at night.",
+  "description": "The red Puerta del León entrance and unequal crenellated stone towers face a quiet plaza at night.",
+  "viewpoint": "Public Plaza del Triunfo outside the Real Alcázar, approximately37.3846,-5.9922, facing southeast toward Puerta del León. Ground-level public exterior; palace interior not shown.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T21:52:42.683990+02:00, valid 2026-09-23T21:45 Europe/Madrid; not a verified on-site observation. 28.6°C, WMO 1, 17% cloud, 0.0 mm precipitation, 10.0 km/h wind. Sunrise 08:12, sunset 20:19; sun elevation -18.86°, azimuth 285.32° clockwise from north, below horizon. Night; no direct sunlight.",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "approval_basis": "No approval claimed. Independent exact-pair five-gate review pending.",
+  "time_of_day": "Night",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "The lion tile design, stone details, relative tower proportions and peripheral planting remain subject to independent review; exterior light operation tonight is unverified. Exact-size PNGs are resampled from a 1672×941 built-in generated source; dimensions do not imply native detail. Model weather is not observation. Internal review is not legal certification.",
+  "revision": "r2",
+  "revision_lineage": "Built-in text-only generation r1; built-in own-source framing edit r2, retaining the original recorded scenario. Both formats use the same selected source, uniform Lanczos crop/resampling, deterministic gradient and typography; no separate portrait generation. Model version not exposed.",
+  "historical_editions": [
+    {
+      "file": "source-r1.png",
+      "sha256": "c7a51828ef2315692651464f7423976c017c87bdc76a414a648140cf1ce6bbd6",
+      "bytes": 2474780,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "retained_in_review_archive": true
+    }
+  ],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d2ce3a81d736910ea80d411e383441e1256b911cbfa74c82c70f805f686c5eab",
+      "bytes": 2757978,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "c94ae29ed6701b547f4712b0612ac4caf52b6298c6b0f7490563b97367421594",
+      "bytes": 1155483,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    }
+  },
+  "file_16x9": "es-01-019-r2-16x9.png",
+  "file_4x5": "es-01-019-r2-4x5.png",
+  "references": [
+    {
+      "url": "https://alcazarsevilla.org/",
+      "note": "Official palace context and entrance identity.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Puerta_del_Leon_murailles_Alcazar_Seville_Spain.jpg",
+      "note": "Jebulon,7August2012,CC0; oblique stonework/battlements reference inspected.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Puerta_del_Le%C3%B3n,_Real_Alc%C3%A1zar_de_Sevilla.jpg",
+      "note": "José Luis Filpo Cabana,May2016,CCBY4.0; frontal complete entrance inspected. Reference-only, no input pixels.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T19:52:42.683990+00:00",
+    "retrieved_local": "2026-09-23T21:52:42.683990+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=37.3846&longitude=-5.9922&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 37.375,
+      "longitude": -6.0,
+      "generationtime_ms": 0.5446672439575195,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 14.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T21:45",
+        "interval": 900,
+        "temperature_2m": 28.6,
+        "weather_code": 1,
+        "cloud_cover": 17,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 10.0
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:12"
+        ],
+        "sunset": [
+          "2026-09-23T20:19"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+    "requested_coordinates": [
+      37.3846,
+      -5.9922
+    ],
+    "model_grid_coordinates": [
+      37.375,
+      -6.0
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -18.86,
+      "azimuth_deg": 285.32
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:12:00+02:00",
+    "sunset_local": "2026-09-23T20:19:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "gates": {
+    "visual": "Pending independent Cosmo QC; no pass claimed",
+    "technical": "Pending independent Cosmo QC; no pass claimed",
+    "provenance": "Pending independent Cosmo QC; no pass claimed",
+    "commercial_ip": "Pending independent Cosmo QC; no pass claimed",
+    "publication": "Pending independent Cosmo QC; no pass claimed"
+  },
+  "review_packet": {
+    "schema": "Spain candidate asset-only handoff v1",
+    "reviewed_revision": "r2",
+    "exact_pair": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d2ce3a81d736910ea80d411e383441e1256b911cbfa74c82c70f805f686c5eab",
+        "bytes": 2757978,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-019-r2-16x9.png"
+      },
+      "4x5": {
+        "width": 864,
+        "height": 1080,
+        "sha256": "c94ae29ed6701b547f4712b0612ac4caf52b6298c6b0f7490563b97367421594",
+        "bytes": 1155483,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-019-r2-4x5.png"
+      }
+    },
+    "prompts": {
+      "prompt-r1.txt": "Use case: photorealistic-natural. Create one original high-detail 16:9 landscape scene, documentary tourist eye-level photographic realism, an AI artistic interpretation of Puerta del León, Seville. Accurate Puerta del León exterior, Real Alcázar Seville: modest RED-OCHRE plastered rectangular wall between two rough sandstone square crenellated towers, left tower broader. ONE modest round-arched CLOSED dark green wooden gate centrally below a small rectangular old lion tile panel. Pyramidal pointed caps on each square crenellation. A tiny projecting stone bracket above the lion panel. No clock, no dome, no minaret, no huge horseshoe gateway, no ornate fantasy palace. Long tan defensive wall recedes along left; a restrained narrow ochre residential facade and potted orange trees at far right. Dark dry stone-paved Plaza del Triunfo foreground. Keep both main towers including all crenellations and whole door centered inside central40% width, with sky headroom and ample plaza foreground; wider surroundings on either side. Eye-level distant frontal slightly oblique view facing southeast. Low warm ambient plaza light across rough masonry, substantial shadow; no theatrical floodlight beams or implausibly daytime-bright stone. Lighting is a modest artistic interpretation, not a claimed tonight observation.\nScenario: 23 September 2026 · 21:52 Europe/Madrid; full NIGHT, sun elevation -18.86 degrees, azimuth 285.32 degrees below horizon; no sunlight, no dusk orange horizon. Fresh Open-Meteo model: 28.6C, cloud cover 17%, precipitation 0mm, wind 10km/h; model data not an on-site observation. Sky near-black with very faint sparse cloud, no moon or visible stars. Artificial lighting modest with realistic shadow falloff; preserve stone/glass detail without fake HDR. No rain, fog, reflections on dry pavement, obvious people, contemporary artwork focal subject, logos, promotional lettering, or fantasy details. Make a coherent real place with straight architectural verticals, plausible spatial scale and non-repeated surface texture. Leave bottom 15% visually quiet for later captions. IMPORTANT: NO TEXT, no signature, no watermark in this source; exact labels will be typeset on the exported masters later. Wide environmental composition with main subject fully in the central portrait-safe crop as described, do not enlarge subject to fill entire landscape width. Photographic tonal range, no cinematic golden hour.",
+      "prompt-r2.txt": "Edit this generated source image only for framing. Zoom the camera OUT substantially while remaining at ground-level Plaza del Triunfo. BOTH towers AND the red entrance wall together must fit inside the central36% of this wide16:9 canvas, centered horizontally as a group. They currently occupy~54%; reduce their displayed size to65% of their current size, with more dark plaza foreground and sky. Preserve all existing gate architecture and relative proportions, unequal towers, stone pointed crenellations, red wall, single darkgreen arched door and small lionpanel. Keep whole tower crenellations and footings away from edges. Preserve night lighting, warm stone, dry paving, same recorded23September2026,21:52Europe/Madrid scenario. Do not add landmarks, people, text, borders, moon or stars. Photorealistic artistic interpretation.\n"
+    },
+    "generated_source_records": [
+      {
+        "file": "source-r1.png",
+        "sha256": "c7a51828ef2315692651464f7423976c017c87bdc76a414a648140cf1ce6bbd6",
+        "bytes": 2474780,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": false,
+        "retained_in_review_archive": true
+      },
+      {
+        "file": "source-r2.png",
+        "sha256": "127a92f29b12c0e67108adce3b3bc4434a4efb8c7a72e5d21bee659c43ff66d6",
+        "bytes": 2268872,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": true,
+        "retained_in_review_archive": true
+      }
+    ],
+    "architectural_anchors": [
+      "Red-ochre rectangular entrance wall with one round-arched dark green wooden door",
+      "Small rectangular historical lion tile panel directly above arch and narrow projecting stone feature higher up",
+      "Two unequal sandstone square towers and pointed pyramidal battlements; palace wall recedes left, ochre residential edge right"
+    ],
+    "reference_evidence": [
+      {
+        "url": "https://alcazarsevilla.org/",
+        "note": "Official palace context and entrance identity.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Puerta_del_Leon_murailles_Alcazar_Seville_Spain.jpg",
+        "note": "Jebulon,7August2012,CC0; oblique stonework/battlements reference inspected.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Puerta_del_Le%C3%B3n,_Real_Alc%C3%A1zar_de_Sevilla.jpg",
+        "note": "José Luis Filpo Cabana,May2016,CCBY4.0; frontal complete entrance inspected. Reference-only, no input pixels.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      }
+    ],
+    "local_technical_checks": [
+      {
+        "file": "019/masters/es-01-019-r2-16x9.png",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "byte_length": 2757978,
+        "sha256": "d2ce3a81d736910ea80d411e383441e1256b911cbfa74c82c70f805f686c5eab",
+        "source_file": "019/source-r2.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Puerta del León, Seville",
+          "Scenario: 23 September 2026 · 21:52 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation, with framing edits for 016 and 019; same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      },
+      {
+        "file": "019/masters/es-01-019-r2-4x5.png",
+        "dimensions": [
+          864,
+          1080
+        ],
+        "byte_length": 1155483,
+        "sha256": "c94ae29ed6701b547f4712b0612ac4caf52b6298c6b0f7490563b97367421594",
+        "source_file": "019/source-r2.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Puerta del León, Seville",
+          "Scenario: 23 September 2026 · 21:52 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation, with framing edits for 016 and 019; same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      }
+    ],
+    "producer_check": "Both PNGs decoded and verified, exact dimensions and full SHA-256 computed. Contact sheet visually inspected for complete landmark retention and labels. This is not independent QC.",
+    "served_verification": "To be recorded separately after single-file submission; no live claim in this pre-publication packet.",
+    "card_handoff": {
+      "owner": "Independent Cosmo sweep",
+      "pipeline": "Candidate, separate from approved gallery",
+      "thumbnail": "es-01-019-r2-16x9.png",
+      "href": "es-01-019-r2-16x9.png",
+      "target": "_blank",
+      "portrait_retained": "es-01-019-r2-4x5.png",
+      "controls": "One wide thumbnail opening the full-size wide PNG; no extra viewer/download controls",
+      "preserve": "Caption, scenario, composition, status, license/badge, footer, search, navigation and country switcher"
+    },
+    "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
+    "rejection_notes": [],
+    "independent_verdict": null
+  }
+}
