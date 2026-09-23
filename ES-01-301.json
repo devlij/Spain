@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-301",
+  "country": "Spain",
+  "city": "Las Palmas de Gran Canaria",
+  "region": "Canary Islands",
+  "caption": "Vegueta, Las Palmas de Gran Canaria",
+  "revision": "r1",
+  "viewpoint": "From the Plaza de Santa Ana near 28.1010,-15.4140, looking at the Las Palmas Cathedral. Approximate point only.",
+  "anchors": [
+    "Las Palmas Cathedral façade catching warm light from ordinary plaza lamps only — no floodlighting claimed",
+    "Bronze Canarian dog statues on the plaza in the foreground",
+    "Historic streets with warm lamps receding; starry sky above (10% model cloud)"
+  ],
+  "limitations": "Cathedral illumination is ordinary plaza lighting only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Vegueta%2C_Las_Palmas",
+      "Encyclopedic description of Vegueta and the Plaza de Santa Ana (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Vegueta",
+      "Spanish Wikipedia entry for Vegueta and the Plaza de Santa Ana, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Plaza de Santa Ana, the cathedral with its bronze dog statues in the foreground near 28.1010,-15.4140. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Vegueta, Las Palmas de Gran Canaria at night.",
+  "description": "On the Plaza de Santa Ana the Las Palmas Cathedral rises over Vegueta, its façade catching the warm light of ordinary plaza lamps — no floodlighting is claimed or depicted. The famous bronze Canarian dogs guard the plaza in the foreground while warm lamps lead into the historic streets. With 10% model cloud the sky above stays starry.",
+  "file_16x9": "es-01-301-r1-16x9.png",
+  "file_4x5": "es-01-301-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9bd90a4da996b8b6568587c8f8cb7b961eb0fe028d9a154f5dba8964a40525d6"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "58f4be90b54445ea94bef9e524ea1746c8f8cd36e9b3871003563c3eb779675f"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-301-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2422446,
+      "sha256": "9bd90a4da996b8b6568587c8f8cb7b961eb0fe028d9a154f5dba8964a40525d6",
+      "source_file": "media-generation-src-es-01-301-0-cc521204-7402-4859-9b66-1bdc4df63d03.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Vegueta, Las Palmas de Gran Canaria",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-301-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1147621,
+      "sha256": "58f4be90b54445ea94bef9e524ea1746c8f8cd36e9b3871003563c3eb779675f",
+      "source_file": "media-generation-src-es-01-301-0-cc521204-7402-4859-9b66-1bdc4df63d03.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Vegueta, Las Palmas de Gran Canaria",
+        "Scenario: 24 September 2026 · 01:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.1010&longitude=-15.4140&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the Plaza de Santa Ana in Vegueta, Las Palmas de Gran Canaria: the Las Palmas Cathedral facade catching warm light from ordinary plaza street lamps only, no floodlighting; the famous bronze dog statues on the plaza in the foreground; warm lamps along the historic streets; clear starry sky above; no prominent people, no text, no logos; cathedral centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-301-0-cc521204-7402-4859-9b66-1bdc4df63d03.png",
+      "sha256": "3ef9e65b0e57612f0b0aaba1eb9757ba7e370306f380748877e31541bacb00c4",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
