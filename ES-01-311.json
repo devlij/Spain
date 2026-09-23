@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-311",
+  "country": "Spain",
+  "city": "Baiona",
+  "region": "Galicia",
+  "caption": "Baiona, Galicia",
+  "revision": "r1",
+  "viewpoint": "From the bay near 42.1180,-8.8500, looking at the old town lights. Approximate point only.",
+  "anchors": [
+    "Old town lights strung along the dark bay",
+    "Warm harbor lamps reflected in the calm moonlit water",
+    "Dark silhouette of the Monte Boi headland; clear starry sky (3% model cloud)"
+  ],
+  "limitations": "Town and harbor lamps are generic; no specific fixtures claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Baiona_(Pontevedra)",
+      "Encyclopedic description of Baiona (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Bayona",
+      "Spanish Wikipedia entry for Baiona; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:40 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Baiona bay, town lights reflected in moonlit water near 42.1180,-8.8500. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Baiona bay at night.",
+  "description": "Baiona's old town lights are strung along the dark bay, their warmth reflected in the calm moonlit water. The Monte Boi headland rises as a dark silhouette behind the town. With only 3% model cloud the sky stays starry over the Atlantic.",
+  "file_16x9": "es-01-311-r1-16x9.png",
+  "file_4x5": "es-01-311-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d51f66e073fd2f55a58a9f24db3e861329899170213ae5c7b92f936febaa51ea"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "160945feca7239a683c1716a89a30b6cd00ce4deb264ddcbda9a7082077ca601"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-311-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1814168,
+      "sha256": "d51f66e073fd2f55a58a9f24db3e861329899170213ae5c7b92f936febaa51ea",
+      "source_file": "media-generation-src-es-01-311-0-bc375cc4-311f-44c1-8865-0f8ea57138bd.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Baiona, Galicia",
+        "Scenario: 24 September 2026 · 01:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-311-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 960475,
+      "sha256": "160945feca7239a683c1716a89a30b6cd00ce4deb264ddcbda9a7082077ca601",
+      "source_file": "media-generation-src-es-01-311-0-bc375cc4-311f-44c1-8865-0f8ea57138bd.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Baiona, Galicia",
+        "Scenario: 24 September 2026 · 01:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.1180&longitude=-8.8500&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of the bay of Baiona in Galicia: the old town's lights strung along the dark bay; warm harbor lamps reflected in the calm moonlit water; the dark silhouette of the Monte Boi headland; clear starry sky; no prominent people, no text, no logos; bay centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-311-0-bc375cc4-311f-44c1-8865-0f8ea57138bd.png",
+      "sha256": "bf262691028e3e4c76f18932ba6a6a804f1c69a7f22e3116c057a450be33ebee",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
