@@ -1,0 +1,230 @@
+{
+  "entry_id": "ES-01-028",
+  "country": "Spain",
+  "city": "Covadonga",
+  "region": "Asturias",
+  "caption": "Lago Enol, Covadonga",
+  "revision": "r1",
+  "viewpoint": "Eye-level rocky public north-shore footpath of Lago Enol, looking south across the lake. Approximate model request 43.2746,-4.9911; not a surveyed exact camera or assertion of nighttime access.",
+  "anchors": [
+    "Low rocky and grassy lake shore in foreground",
+    "Compact lake basin flanked by rounded limestone and grass slopes",
+    "Saddle between lower ridges, without jagged high alpine peaks"
+  ],
+  "limitations": "No nighttime illumination reference exists here: dark long-exposure artistic interpretation uses restrained ambient light, not invented lamps or measured scene luminance. Exact ridge geometry and portrait recognizability require Cosmo review. Portrait selects central basin, not the whole lateral shoreline.",
+  "refs": [
+    [
+      "https://www.turismoasturias.es/en/descubre/naturaleza/otros-espacios/lagos/lago-enol",
+      "Official search extract retrieved 23 September 2026 identifies lake at 1070 m among Mosquital, Enol and Sobornín; direct page timed out."
+    ],
+    [
+      "https://www.komoot.com/pt-pt/guide/174852/percursos-de-caminhada-em-redor-do-lago-enol",
+      "Complementary rocky-shore photograph inspected 23 September 2026; capture date unknown."
+    ],
+    [
+      "https://bttysenderismoconanthercas.blogspot.com/2018/07/lago-enol-vega-de-enol-bosque-palomberu.html",
+      "Complementary lake-side photograph dated 10 July 2018 in filename, visually inspected; page returned 429 but image downloaded successfully. Vegetation/weather not taken as current observations."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Eye-level rocky public north-shore footpath of Lago Enol, looking south across the lake. Approximate model request 43.2746,-4.9911; not a surveyed exact camera or assertion of nighttime access. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Lago Enol, Covadonga at night.",
+  "description": "Low rocky and grassy lake shore in foreground; Compact lake basin flanked by rounded limestone and grass slopes; Saddle between lower ridges, without jagged high alpine peaks.",
+  "file_16x9": "es-01-028-r1-16x9.png",
+  "file_4x5": "es-01-028-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2f1821acfedbf94b0efcf9f9ff02a7d4231674c5fee2d304c0aa0c3d7a18dd3c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "3e623898498a5c3435c78d0355a6000735706803210bbdaf330060325deb2999"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-028-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2533699,
+      "sha256": "2f1821acfedbf94b0efcf9f9ff02a7d4231674c5fee2d304c0aa0c3d7a18dd3c",
+      "source_file": "028/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Lago Enol, Covadonga",
+        "Scenario: 23 September 2026 · 23:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-028-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1001426,
+      "sha256": "3e623898498a5c3435c78d0355a6000735706803210bbdaf330060325deb2999",
+      "source_file": "028/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Lago Enol, Covadonga",
+        "Scenario: 23 September 2026 · 23:29 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T21:29:35.298246+00:00",
+    "retrieved_local": "2026-09-23T23:29:35.298246+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.2746&longitude=-4.9911&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 43.27,
+      "longitude": -4.9900002,
+      "generationtime_ms": 0.9421110153198242,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 1147.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T23:15",
+        "interval": 900,
+        "temperature_2m": 14.5,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 4.5
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:08"
+        ],
+        "sunset": [
+          "2026-09-23T20:15"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+    "requested_coordinates": [
+      43.2746,
+      -4.9911
+    ],
+    "model_grid_coordinates": [
+      43.27,
+      -4.9900002
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -33.45,
+      "azimuth_deg": 308.67
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:08:00+02:00",
+    "sunset_local": "2026-09-23T20:15:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-23T23:29:35.298246+02:00, valid 2026-09-23T23:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of Lago Enol, Covadonga, Asturias, Spain. Real public north-shore path viewpoint at eye level looking south across the compact lake, not aerial. Foreground limestone stones and short grass at shore, dark gently rippling water, modest rounded grass-and-grey-limestone ridges to both sides with a low saddle between them. No towering jagged Alps, no glacier or snow, no cabins, no basilica, no road lighting. Central lake basin and enclosing slopes framed coherently for both wide16:9 and central4:5 crop. True night23September2026 23:29Europe/Madrid. Fresh model valid23:15:14.5C,clear0% cloud,0mm precipitation,wind4.5km/h. Sun elevation-33.45deg below northwestern horizon. Almost-black clear sky; no sunset glow, moon, stars or Milky Way. Restrained long-exposure ambient night interpretation, dark desaturated natural stone and grass barely readable, no invented directional spotlight, no luminous turquoise lake. Water reflects only very dim sky. Original composition, not copying a photograph. No people, animals, text, logo, watermark. Lower20% quiet rocky shore/water reserved for later small captions. Wide16:9 output.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "800ba1dbb56508e38c818041bb4f2956ce66a19dbb00d17201dedc62eb027d2d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": [
+    {
+      "file": "enol-complement.jpg",
+      "sha256": "767c415369010ebc7ea41ae1eb058348b0b0284c7b41059a7198bbcf07f79ded"
+    },
+    {
+      "file": "enol.jpg",
+      "sha256": "39bb770ecbaba3b6a16b9bfbcfc45fe2e211222deb4721b599b755dd0a6faac9"
+    }
+  ]
+}
