@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-256",
+  "country": "Spain",
+  "city": "Queralbs",
+  "region": "Catalonia",
+  "caption": "Vall de Núria, Queralbs",
+  "revision": "r1",
+  "viewpoint": "Sanctuary esplanade, eye-level, facing the sanctuary and lake. Exact camera point approximate.",
+  "anchors": [
+    "Sanctuary of the Virgin of Núria with slender bell tower centered at the valley floor",
+    "Dark mountain slopes rise on both sides",
+    "Calm lake of Núria reflects the night in the foreground"
+  ],
+  "limitations": "Exact camera point approximate; lighting is window and lamp light only — no claim about specific illumination; current conditions unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Vall_de_N%C3%BAria",
+      "Vall de Núria (sanctuary, rack railway, Pyrenean valley)"
+    ],
+    [
+      "https://www.thewanders.eu/vall-de-nuria/",
+      "Vall de Núria visitor guide (sanctuary, lake, mountain setting)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:19 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Mountain sanctuary glowing at the valley floor under stars · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Vall de Núria, Queralbs at night.",
+  "description": "From the sanctuary esplanade, the Sanctuary of the Virgin of Núria sits centered at the valley floor, its warmly lit windows and slender bell tower glowing against the dark. The mountain slopes of the valley rise on both sides under a clear starry sky, and the calm lake of Núria reflects the night in the foreground. A clear 11.8°C high-mountain night, lit only by windows and lamps.",
+  "file_16x9": "es-01-256-r1-16x9.png",
+  "file_4x5": "es-01-256-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1b0dc679b2d19dfb90edbbaa1e20203025ea06c1d04630a6fb0416f0991072e5"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6905e57e966e1b3e7f87187ac2a510ff37b45297dfa22800f19af3eedaf10677"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-256-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2416853,
+      "sha256": "1b0dc679b2d19dfb90edbbaa1e20203025ea06c1d04630a6fb0416f0991072e5",
+      "source_file": "source-256.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Vall de Núria, Queralbs",
+        "Scenario: 24 September 2026 · 01:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-256-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1345647,
+      "sha256": "6905e57e966e1b3e7f87187ac2a510ff37b45297dfa22800f19af3eedaf10677",
+      "source_file": "source-256.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Vall de Núria, Queralbs",
+        "Scenario: 24 September 2026 · 01:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.3981&longitude=2.1536&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:15",
+    "temperature_c": 11.8,
+    "weather_code": 0,
+    "weather_word": "clear sky",
+    "cloud_cover_pct": 7,
+    "is_day": 0,
+    "wind_kmh": 3.5
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Vall de Núria valley in the Catalan Pyrenees at night, viewed from the sanctuary esplanade. The sanctuary of the Virgin of Núria with its slender bell tower sits centered at the valley floor, warmly lit windows glowing; the dark mountain slopes rise on both sides under a clear starry sky; the calm lake of Núria reflects the night in the foreground."
+  },
+  "source_files": [
+    {
+      "file": "source-256.png",
+      "sha256": "4c3ca62c2bf7e4ad5f3f87e79e99e4ae5b491fa1b4b4bd9d530dceff5e840cf3",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
