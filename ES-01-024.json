@@ -1,0 +1,224 @@
+{
+  "entry_id": "ES-01-024",
+  "country": "Spain",
+  "city": "Albarracín",
+  "region": "Aragon",
+  "caption": "Old town, Albarracín",
+  "revision": "r1",
+  "viewpoint": "Public Mirador de la Catedral area, looking northeast across the old town toward the defensive wall ridge. Approximate model request40.4088,-1.4447; exact generated camera correspondence is unverified.",
+  "anchors": [
+    "Irregular ochre/pink houses with clay-tile roofs on rocky peninsula",
+    "Square church belfry below bare fortified ridge",
+    "Guadalaviar ravine and dark vegetation flanking the town"
+  ],
+  "limitations": "Generated belfry proportions, wall course and exact camera correspondence need particular Cosmo scrutiny. Portrait selects central old-town cluster and highest wall towers; it does not contain the full lateral wall circuit.",
+  "refs": [
+    [
+      "https://www.caminodelcid.org/en/places/albarracin-583422",
+      "Official Camino del Cid town description and complementary gallery; revised11August2021; reviewed23September2026."
+    ],
+    [
+      "https://www.turismodearagon.com/ficha/albarracin/",
+      "Official regional tourism search extract; direct fetch502, not used as full-page evidence."
+    ],
+    [
+      "https://www.elespanol.com/sociedad/provincia-espana-pueblos-bonitos-kw/798920416_0.html",
+      "Night photograph visually inspected, asset path2October2023; supports lighting precedent and town/wall arrangement, not current schedule."
+    ],
+    [
+      "https://www.tripadvisor.com/Attraction_Review-g1064323-d15691148-Reviews-Mirador_de_Albarracin-Albarracin_Province_of_Teruel_Aragon.html",
+      "Public lookout corroboration, visitor accountAugust2023; exact camera remains approximate."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public Mirador de la Catedral area, looking northeast across the old town toward the defensive wall ridge. Approximate model request40.4088,-1.4447; exact generated camera correspondence is unverified. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Albarracín at night.",
+  "description": "Irregular ochre/pink houses with clay-tile roofs on rocky peninsula; Square church belfry below bare fortified ridge; Guadalaviar ravine and dark vegetation flanking the town.",
+  "file_16x9": "es-01-024-r1-16x9.png",
+  "file_4x5": "es-01-024-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "634b326fd91309e2caa9a4bd2dedbdc826a3e52beb2ad0ec84ab0d734c3cdd06"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "388f255260cd55c512f514ebc32ebc2bdd6ce5da9726e599c91d4840787e6921"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-024-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2906067,
+      "sha256": "634b326fd91309e2caa9a4bd2dedbdc826a3e52beb2ad0ec84ab0d734c3cdd06",
+      "source_file": "024/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Albarracín",
+        "Scenario: 23 September 2026 · 23:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. Oviedo r1 retained but rejected for exaggerated facade geometry; r2 is a new text-only corrected source.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-024-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1390113,
+      "sha256": "388f255260cd55c512f514ebc32ebc2bdd6ce5da9726e599c91d4840787e6921",
+      "source_file": "024/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Albarracín",
+        "Scenario: 23 September 2026 · 23:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. Oviedo r1 retained but rejected for exaggerated facade geometry; r2 is a new text-only corrected source.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T21:07:07.254739+00:00",
+    "retrieved_local": "2026-09-23T23:07:07.254739+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.4088&longitude=-1.4447&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 40.4375,
+      "longitude": -1.4375,
+      "generationtime_ms": 7.7027082443237305,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 1184.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T23:00",
+        "interval": 900,
+        "temperature_2m": 17.1,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 5.0
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T07:54"
+        ],
+        "sunset": [
+          "2026-09-23T20:01"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 23:07 Europe/Madrid",
+    "requested_coordinates": [
+      40.4088,
+      -1.4447
+    ],
+    "model_grid_coordinates": [
+      40.4375,
+      -1.4375
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -33.93,
+      "azimuth_deg": 305.15
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T07:54:00+02:00",
+    "sunset_local": "2026-09-23T20:01:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-23T23:07:07.254739+02:00, valid 2026-09-23T23:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Original photorealistic artistic interpretation of Old town, Albarracín, Spain, from public Mirador de la Catedral, eye level at the overlook, looking northeast over terracotta roofs toward the hilltop defensive walls. Scenario 23 September 2026 23:07 Europe/Madrid, true late night, no twilight glow. Open-Meteo model valid23:00:17.1C, clear0% cloud,0 precipitation, wind5km/h. Sky almost black, no visible moon or stars, no clouds. Warm street lighting and restrained historical-reference-informed wall lighting, not a claim of tonight's schedule. Composition anchors: dense irregular pink/ochre plaster houses with clay tiled roofs on steep rocky terrain; a small square church belfry amid clustered roofs; crenellated walls with square towers stepping up a bare rugged hill behind, not a continuous fantasy castle. Dark Guadalaviar ravine at right. Camera a little pulled back with main hill, walls and roof cluster held inside central44% of image width for a whole-landmark portrait crop; realistic peripheral rooftops and ravine extending sideways. Wide16:9 single image, natural stone texture, subdued night exposure, no HDR, no romantic fog, no dramatic moonlight. Do not imitate any particular photograph. No text, signature, logos, watermarks, people, festive flags, or invented monuments. Keep upper towers complete with sky margins and bottom20% simple shadowed foreground for later factual labels.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "625f18e023ff7d0605f756abc92b7dd2af272724da19b12db3d8b0508927cbce",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source1672x941; landscape enlarged to1920x1080; portrait is a central crop enlarged to864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison complete; specific limitations above require reviewer judgment.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification."
+}
