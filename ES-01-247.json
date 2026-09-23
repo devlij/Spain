@@ -11,7 +11,7 @@
     "Glass geodesic dome crowns the museum roofline",
     "Monumental ochre walls and sculptures around the base"
   ],
-  "limitations": "Exact camera point approximate; lighting is street-lamp light only — no claim about the museum's actual night illumination; current conditions unverified.",
+  "limitations": "Exact camera point approximate; lighting is street-lamp light only — no claim about the museum's actual night illumination; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Dal%C3%AD_Theatre_and_Museum",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.2675&longitude=2.9594&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:16+02:00",
     "valid_local": "2026-09-24T01:15",
     "temperature_c": 18.4,
     "weather_code": 1,
