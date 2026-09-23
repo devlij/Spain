@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-287",
+  "country": "Spain",
+  "city": "Lanzarote",
+  "region": "Canary Islands",
+  "caption": "Timanfaya, Lanzarote",
+  "revision": "r2",
+  "viewpoint": "Viewpoint area on the Route of the Volcanoes near 29.0085,-13.7274, looking across the malpaís toward the Fire Mountains. Approximate point only.",
+  "anchors": [
+    "Rust-red volcanic cones (Montañas del Fuego) silhouetted against the starry sky",
+    "Black ropey lava (malpaís) fields in the dark foreground",
+    "Clear starry sky; restrained cool moonlight only, no artificial lighting"
+  ],
+  "limitations": "Timanfaya closes at dusk; nighttime public access is restricted, so this is an artistic interpretation, not a claim of access or of conditions at this hour. Exact viewpoint unverified; star positions artistic. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Timanfaya_National_Park",
+      "Encyclopedic description of Timanfaya National Park (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Parque_nacional_de_Timanfaya",
+      "Spanish Wikipedia entry for the Parque nacional de Timanfaya, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Viewpoint area near 29.0085,-13.7274, looking across the malpaís lava field toward the Fire Mountains. Approximate point only; the park closes at dusk — this is an artistic interpretation, not a claim of nighttime access. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Timanfaya, Lanzarote at night.",
+  "description": "The rust-red cones of the Montañas del Fuego stand against a clear starry sky while the black ropey lava fields of the malpaís fill the foreground. Only restrained moonlight shapes the scene — Timanfaya closes at dusk, so no artificial lighting is invented. With 0% model cloud cover the night stays crisp and sharp, a volcanic moonscape rendered as a restrained long-exposure interpretation.",
+  "file_16x9": "es-01-287-r2-16x9.png",
+  "file_4x5": "es-01-287-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0a4d417d955bcdfb3a0c458000e7e409f5d76bd5c3750d7b42b6851cf246a0a9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "f303a550233bfdee239fe6ba7d8c4b4e79d6f5839184be5941e4e68e2799904c"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-287-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2498226,
+      "sha256": "0a4d417d955bcdfb3a0c458000e7e409f5d76bd5c3750d7b42b6851cf246a0a9",
+      "source_file": "media-generation-src-es-01-287b-0-15b4e9c4-968c-4ca9-94da-40054c7a297a.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Timanfaya, Lanzarote",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-287-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1294936,
+      "sha256": "f303a550233bfdee239fe6ba7d8c4b4e79d6f5839184be5941e4e68e2799904c",
+      "source_file": "media-generation-src-es-01-287b-0-15b4e9c4-968c-4ca9-94da-40054c7a297a.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Timanfaya, Lanzarote",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=29.0085&longitude=-13.7274&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:00+02:00",
+    "timezone": "Europe/Madrid",
+    "valid": "2026-09-24T01:00+02:00 Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:00+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r2.txt": "Photorealistic night photograph-style artistic interpretation of Timanfaya's Fire Mountains in Lanzarote, Canary Islands, lit ONLY by cold blue-grey moonlight: rust-red volcanic cones silhouetted under a starry deep-blue night sky; black ropey lava fields in the dark foreground; absolutely no warm orange or golden tones, no sunset glow, no artificial lighting anywhere; cool desaturated blue-grey palette throughout; clear night with scattered stars; no people, no vehicles, no buildings, no text, no logos; cones centered so they survive a center crop; clean uncluttered lower foreground."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-287b-0-15b4e9c4-968c-4ca9-94da-40054c7a297a.png",
+      "sha256": "5ba25b0f591346a9fa0d90970965b35de77e2ea66d8d901b9fc00b29e71d7ff7",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
