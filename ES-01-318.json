@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-318",
+  "country": "Spain",
+  "city": "Comillas",
+  "region": "Cantabria",
+  "caption": "El Capricho, Comillas",
+  "revision": "r1",
+  "viewpoint": "From the garden near 43.3870,-4.2870, looking at El Capricho. Approximate point only.",
+  "anchors": [
+    "El Capricho villa silhouette with its tower — Gaudí's early work",
+    "Ordinary garden lamps and moonlight only — no floodlighting claimed",
+    "Dark garden trees around; clear starry sky (0% model cloud)"
+  ],
+  "limitations": "Building details are an artistic impression; no specific tile or ornament claimed. Illumination is garden lamps and moonlight only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/El_Capricho_(Comillas)",
+      "Encyclopedic description of El Capricho in Comillas (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/El_Capricho_de_Gaud%C3%AD",
+      "Spanish Wikipedia entry for El Capricho in Comillas; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:47 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From El Capricho in Comillas, the Gaudí villa in silhouette near 43.3870,-4.2870. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of El Capricho, Comillas at night.",
+  "description": "Gaudí's early villa El Capricho stands as a dark silhouette in the Comillas garden, its tower outlined against the night. Ordinary garden lamps and moonlight are the only illumination claimed — no floodlighting is depicted. The model sky is perfectly clear (0% cloud).",
+  "file_16x9": "es-01-318-r1-16x9.png",
+  "file_4x5": "es-01-318-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b34d6396383ba9a8770072d50d39e83fb380a4a245402d329fd2542df7ff01ba"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "fae60a0e134a425103e86792c032588e06f301321b27332fd811e856c2d48688"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-318-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2581661,
+      "sha256": "b34d6396383ba9a8770072d50d39e83fb380a4a245402d329fd2542df7ff01ba",
+      "source_file": "media-generation-src-es-01-318-0-a3bb39de-140a-4da6-b0b5-5a9658d8fb0d.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "El Capricho, Comillas",
+        "Scenario: 24 September 2026 · 01:47 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-318-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1264968,
+      "sha256": "fae60a0e134a425103e86792c032588e06f301321b27332fd811e856c2d48688",
+      "source_file": "media-generation-src-es-01-318-0-a3bb39de-140a-4da6-b0b5-5a9658d8fb0d.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "El Capricho, Comillas",
+        "Scenario: 24 September 2026 · 01:47 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3870&longitude=-4.2870&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:45+02:00",
+    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of El Capricho villa in Comillas, Cantabria: the distinctive Gaudi-designed villa silhouette with its tower, lit only by ordinary garden lamps and moonlight, no floodlighting; dark garden trees around; clear starry sky above; no prominent people, no text, no logos; villa centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-318-0-a3bb39de-140a-4da6-b0b5-5a9658d8fb0d.png",
+      "sha256": "d7bdbf5ae88f35a41164386e23ae6f12921ed14feaebde5aa9226edec86f345f",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
