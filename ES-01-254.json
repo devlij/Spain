@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-254",
+  "country": "Spain",
+  "city": "Cadaqués",
+  "region": "Catalonia",
+  "caption": "Cap de Creus Lighthouse, Cadaqués",
+  "revision": "r1",
+  "viewpoint": "Rugged headland near the lighthouse, eye-level, facing the cape and sea. Exact camera point approximate.",
+  "anchors": [
+    "Squat cylindrical lighthouse with dark lantern room centered on the cape",
+    "Dark Mediterranean stretches behind to the horizon",
+    "Jagged schist rock formations frame the foreground"
+  ],
+  "limitations": "Exact camera point approximate; restrained night interpretation — no floodlighting claimed; current conditions unverified.",
+  "refs": [
+    [
+      "https://en.wikivoyage.org/wiki/Cap_de_Creus_Natural_Park",
+      "Cap de Creus Natural Park (easternmost point of the Iberian peninsula, lighthouse)"
+    ],
+    [
+      "https://www.turismoencatalunya.es/en/natural-park-Cap-de-Creus.html",
+      "Cap de Creus Natural Park (rocky cape, lighthouse, protected landscape)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:19 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Lighthouse on the wind-scoured cape under a starry sky · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cap de Creus Lighthouse, Cadaqués at night.",
+  "description": "From the rugged headland, the Cap de Creus Lighthouse stands centered on the wind-scoured cape, its beacon glowing softly under a clear starry sky. The dark Mediterranean stretches behind to the horizon, and jagged schist rocks frame the foreground in the quiet solitude of the easternmost point of the Iberian peninsula. A clear 19.7°C night; no floodlighting of the cape is claimed — only the beacon and moonlight.",
+  "file_16x9": "es-01-254-r1-16x9.png",
+  "file_4x5": "es-01-254-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6d027bd7daca83d140444c2cdc93f30693cf69faec0e6c43e00c31c38fcccd74"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0dc65607cd26da5610738bf11784f4a3e45e71302cf9570948f12515b8dd32c4"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-254-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1680145,
+      "sha256": "6d027bd7daca83d140444c2cdc93f30693cf69faec0e6c43e00c31c38fcccd74",
+      "source_file": "source-254.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cap de Creus Lighthouse, Cadaqués",
+        "Scenario: 24 September 2026 · 01:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-254-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1148660,
+      "sha256": "0dc65607cd26da5610738bf11784f4a3e45e71302cf9570948f12515b8dd32c4",
+      "source_file": "source-254.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cap de Creus Lighthouse, Cadaqués",
+        "Scenario: 24 September 2026 · 01:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.3236&longitude=3.3228&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:15",
+    "temperature_c": 19.7,
+    "weather_code": 0,
+    "weather_word": "clear sky",
+    "cloud_cover_pct": 19,
+    "is_day": 0,
+    "wind_kmh": 2.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Cap de Creus Lighthouse in Catalonia at night, viewed from the rugged headland. The squat cylindrical white lighthouse with its dark lantern room stands centered on the wind-scoured rocky cape; the dark Mediterranean stretches behind to the horizon under a clear starry sky; jagged schist rock formations frame the foreground. No floodlighting on the cape — restrained night interpretation with the lighthouse beacon glowing softly."
+  },
+  "source_files": [
+    {
+      "file": "source-254.png",
+      "sha256": "acf0aba27e7585309c947e8d7365d0b69a597247f161444e4e9510ce1b791426",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
