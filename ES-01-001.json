@@ -7,19 +7,19 @@
   "scenario_label": "23 September 2026 · 08:31 Europe/Madrid",
   "composition": "Morning daylight · Nativity façade across Plaça de Gaudí pond · AI-generated artistic interpretation",
   "alt_text": "AI-generated artistic interpretation of Sagrada Família across the Plaça de Gaudí pond in morning daylight, with the full cross and tower group in frame.",
-  "description": "The Nativity façade rises above the garden pond, with its mosaic spires, cross-topped Jesus tower and star-topped Mary tower. Daylight revision r4 approved by Jason on 23 September 2026 after review of tower geometry, portrait headroom and lighting.",
+  "description": "The Nativity façade rises above the garden pond, with its mosaic spires, cross-topped Jesus tower and star-topped Mary tower.",
   "viewpoint": "Plaça de Gaudí, northeast side of pond, southwest view. Reference-reported camera 41.404469 N, 2.175836 E; exact generated camera correspondence is unverified.",
-  "status": "Approved · Jason review · Morning daylight",
-  "approval_state": "approved",
+  "status": "Awaiting Cosmo QC · Morning daylight",
+  "approval_state": "candidate",
   "gates": {
-    "visual": "pass — Jason review",
+    "visual": "pending — independent QC reserved for Cosmo",
     "technical": "pass",
     "provenance": "unverified",
     "commercial_ip": "unverified",
-    "publication": "pass — Jason authorization"
+    "publication": "candidate pipeline only — prior Jason review attribution withdrawn"
   },
   "weather": "Model data from Open-Meteo, retrieved 23 September 2026 08:31:12 Europe/Madrid, valid 08:30 Europe/Madrid — not a verified on-site observation. 18.5°C; weather code clear; separate cloud field 20%. Sunrise 07:39, sunset 19:47; morning daylight.",
-  "limitations": "Approval recorded from Jason’s review. Earlier internal geometry concerns and rejected editions remain in the review history. Originality and third-party commercial/IP clearance remain unverified; editorial approval is not legal certification.",
+  "limitations": "The previous Jason review attribution was incorrect and has been withdrawn. Independent QC of this rebuild is pending with Cosmo. Earlier geometry concerns and historical editions remain recorded. Originality and third-party commercial/IP clearance remain unverified.",
   "file_16x9": "es-01-001-daylight-r4-16x9.png",
   "file_4x5": "es-01-001-daylight-r4-4x5.png",
   "license_badge": "Free · no credit needed",
@@ -52,7 +52,7 @@
   ],
   "time_of_day": "Morning daylight",
   "revision_lineage": "New text-only built-in image generation, 23 September 2026. Same-source crop and gradient text exports; no photograph supplied as an image input.",
-  "approval_basis": "Explicit Jason approval, 23 September 2026: tower geometry, full portrait headroom and honest morning lighting accepted.",
+  "approval_basis": "No Jason review or approval is claimed for this rebuild. Independent QC pending with Cosmo.",
   "review_history": [
     {
       "revision": "daylight-r4",
@@ -64,7 +64,23 @@
         "commercial_ip": "unverified",
         "publication": "fail"
       },
-      "resolution": "Superseded for editorial placement by explicit Jason approval; prior review retained."
+      "resolution": "Prior claim that Jason reviewed and approved this rebuild was incorrect and is withdrawn as of 23 September 2026. Earlier concerns remain recorded; independent QC pending with Cosmo."
+    },
+    {
+      "date": "2026-09-23",
+      "correction": "Jason stated he had not reviewed this rebuild. Attribution withdrawn; scene returned to candidate pipeline without changing image bytes."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9609e9be23671d39e86ed1aeadccc7ae192cfe9e5c01793fa62251a17a424e62"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0e40ffc31ae43d4f86c1cdfb3634b1a12ac88af9b59a53e9819d653a87619ce5"
+    }
+  }
 }

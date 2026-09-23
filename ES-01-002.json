@@ -40,5 +40,17 @@
       "resolution": "Superseded for editorial gallery placement by Cosmo QC APPROVED 5/5, relayed and authorized by Jason on 2026-09-23. Historical internal concerns retained."
     }
   ],
-  "approval_basis": "Cosmo QC APPROVED 5/5, 2026-09-23, relayed by Jason: honest 09:33 morning daylight; both pavilions and cross-topped tower fully framed in both formats; text and signature clean. Internal QC, not legal certification."
+  "approval_basis": "Cosmo QC APPROVED 5/5, 2026-09-23, relayed by Jason: honest 09:33 morning daylight; both pavilions and cross-topped tower fully framed in both formats; text and signature clean. Internal QC, not legal certification.",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6006aff5b757eabaae71ebc38d008904b63ccaaedafc387d45b401fdd89c4ec7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "f59f7fe649e9a86ce649bea338ebea43044f15346100b1953b7cbd5d4cf99604"
+    }
+  }
 }

@@ -7,19 +7,19 @@
   "scenario_label": "23 September 2026 · 10:34 Europe/Madrid",
   "composition": "Morning daylight · Façade from Passeig de Gràcia · AI-generated artistic interpretation",
   "alt_text": "AI-generated artistic interpretation of Casa Batlló with its complete cross and dragon roof in morning daylight.",
-  "description": "The mosaic façade and mask balconies face Passeig de Gràcia, with Casa Amatller to the left. Both formats retain the complete roof and cross. Approved by Jason on 23 September 2026.",
+  "description": "The mosaic façade and mask balconies face Passeig de Gràcia, with Casa Amatller to the left. Both formats retain the complete roof and cross.",
   "viewpoint": "Opposite side of Passeig de Gràcia, looking northwest at eye level; exact generated camera correspondence unverified.",
-  "status": "Approved · Jason review · Morning daylight",
-  "approval_state": "approved",
+  "status": "Awaiting Cosmo QC · Morning daylight",
+  "approval_state": "candidate",
   "gates": {
-    "visual": "pass — Jason review",
+    "visual": "pending — independent QC reserved for Cosmo",
     "technical": "pass — both PNG dimensions, full height and labels inspected",
     "provenance": "recorded — own-generated image edits; uniqueness unverified",
     "commercial_ip": "no prominent people or legible logos found; third-party clearance unverified",
-    "publication": "pass — Jason authorization"
+    "publication": "candidate pipeline only — prior Jason review attribution withdrawn"
   },
   "weather": "Model data from Open-Meteo, retrieved 23 September 2026 10:34:58 Europe/Madrid, valid 10:30 Europe/Madrid — not a verified on-site observation. 23.9°C, clear, cloud 5%. Sunrise 07:39, sunset 19:47.",
-  "limitations": "Approved following Jason’s review. Earlier internal geometry concerns remain recorded in review history. Originality and third-party commercial/IP clearance remain unverified.",
+  "limitations": "The previous Jason review attribution was incorrect and has been withdrawn. Independent QC of this rebuild is pending with Cosmo. Earlier geometry concerns and historical editions remain recorded. Originality and third-party commercial/IP clearance remain unverified.",
   "file_16x9": "es-01-003-16x9.png",
   "file_4x5": "es-01-003-4x5.png",
   "license_badge": "Free · no credit needed",
@@ -37,8 +37,24 @@
         "commercial_ip": "no prominent people or legible logos found; third-party clearance unverified",
         "publication": "pipeline review only; not approved gallery"
       },
-      "resolution": "Superseded for gallery placement by explicit Jason approval on 23 September 2026; earlier internal concerns retained as history."
+      "resolution": "Prior claim that Jason reviewed and approved this rebuild was incorrect and is withdrawn as of 23 September 2026. Earlier concerns remain recorded; independent QC pending with Cosmo."
+    },
+    {
+      "date": "2026-09-23",
+      "correction": "Jason stated he had not reviewed this rebuild. Attribution withdrawn; scene returned to candidate pipeline without changing image bytes."
     }
   ],
-  "approval_basis": "Explicit Jason approval, 23 September 2026: mosaic façade and cross-topped roof accepted in honest morning light. Internal editorial approval, not legal certification."
+  "approval_basis": "No Jason review or approval is claimed for this rebuild. Independent QC pending with Cosmo.",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8f383ccc7b0af082f249cfadb8c7fe49fd811209ef484f515afda3021417d98f"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "41e80243416f74914346925d607adc851faccea65f53726fa7139f0ef3e4ecf4"
+    }
+  }
 }

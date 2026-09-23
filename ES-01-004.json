@@ -56,5 +56,17 @@
       },
       "resolution": "Superseded by a fresh 12:33 text-only revision correcting the Palace of Charles V prominence, permanent bell-tower skyline and paired framing. Earlier bytes remain preserved."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0bcf51eb79096aeb0aeb796345d4343458a71f20dc608799adbe7b0cd9d12771"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "82abb21c92340d79498ac51807bd9b4acf3b93b18c4f903fc6e1d920bf09f31a"
+    }
+  }
 }

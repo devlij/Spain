@@ -12,18 +12,18 @@
   "status": "Approved · Cosmo QC 5/5 · Night",
   "limitations": "Cosmo approval relayed by Jason; no new independent audit claimed. Historical provenance and weather limitations retained. Internal approval does not certify third-party rights.",
   "weather": "Historical provider report: mostly clear, about 20°C. Not a verified on-site observation. Retrieval/valid-time detail does not meet the new Open-Meteo requirement.",
-  "file_16x9": "es-an-001-16x9.png",
-  "file_4x5": "es-an-001-4x5.png",
+  "file_16x9": "es-01-017-16x9.png",
+  "file_4x5": "es-01-017-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "editions": [
     {
       "label": "Original 16:9 · 1536×864",
-      "file": "ES-AN-001-landscape.png"
+      "file": "es-01-017-original-16x9.png"
     },
     {
       "label": "Original 4:5 · 800×1000",
-      "file": "ES-AN-001-portrait.png"
+      "file": "es-01-017-original-4x5.png"
     }
   ],
   "time_of_day": "Night",
@@ -38,5 +38,18 @@
     "commercial_ip": "pass",
     "publication": "pass"
   },
-  "approval_basis": "Cosmo QC: 5/5 approved, relayed and authorized by Jason on 23 September 2026. Internal review, not legal certification."
+  "approval_basis": "Cosmo QC: 5/5 approved, relayed and authorized by Jason on 23 September 2026. Internal review, not legal certification.",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b3645b915fa7124ef122196ebcf7fae62aa272da799dc3f419a68d0a2c77ba97"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "f527f8f248cae5df5ac8895091a005461e87c4d2230131a1fb23ea17a97dab2f"
+    }
+  },
+  "file_naming_note": "Canonical ES-01 filenames are byte-identical copies. ES-AN filenames are retained only as compatibility aliases for historical links."
 }
