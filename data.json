@@ -647,9 +647,9 @@
       "scenario_label": "23 September 2026 · 20:12 Europe/Madrid",
       "composition": "DUSK twilight · South side of Plaza Mayor looking north toward Casa de la Panadería and the Philip III equestrian statue. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Madrid — Red residential wings, arcades and the twin slate spires frame the central statue at dusk.",
-      "status": "Awaiting Cosmo QC · DUSK twilight",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Dusk",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate pass: Gate 1 — Casa de la Panadería twin spires and Philip III equestrian statue (horse facing right, matching the documented 2012 reference correction) from the south side of Plaza Mayor, dusk sky consistent with the 20:12 scenario; Gate 2 — both masters at exact dimensions with SHA-256 matching the packet, exact signature/caption/timestamp/disclosure; Gate 3 — packet documents AI generation with no photographic inputs, lamp glow disclosed as interpretation; Gate 4 — documentation only: public square, no blocking people/logos, chain not certified; Gate 5 — no open blockers."
     },
     {
       "entry_id": "ES-01-010",
@@ -686,9 +686,9 @@
       "scenario_label": "23 September 2026 · 20:31 Europe/Madrid",
       "composition": "DUSK twilight · Plaza del Azoguejo eye-level view looking west–northwest through the two-tier Roman arcade. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Roman Aqueduct, Segovia — its double granite arcade crosses Plaza del Azoguejo at dusk.",
-      "status": "Approved · Cosmo QC 5/5 · Dusk",
-      "approval_state": "approved",
-      "approval_basis": "Five-gate pass: Gate 1 — two-tier Roman arcade from Plaza del Azoguejo with sunset glow through the arches, consistent with the 20:31 dusk scenario; Gate 2 — both masters at exact dimensions with SHA-256 matching the packet, exact signature/caption/timestamp/disclosure; Gate 3 — packet documents AI generation, arch cadence and lamp glow disclosed as interpretation; Gate 4 — documentation only: public plaza, small unidentifiable figures, no blocking logos, chain not certified; Gate 5 — no open blockers."
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
     },
     {
       "entry_id": "ES-01-013",
@@ -699,9 +699,9 @@
       "scenario_label": "23 September 2026 · 20:31 Europe/Madrid",
       "composition": "DUSK twilight · Mirador del Valle eye-level panorama looking northwest across the Tagus toward Toledo’s hilltop skyline. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Toledo from Mirador del Valle — Cathedral tower and Alcázar rise above the old town and Tagus at dusk.",
-      "status": "Awaiting Cosmo QC · DUSK twilight",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Dusk",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate pass: Gate 1 — Mirador del Valle panorama with the Alcázar on the hilltop right, cathedral spire center, and the Tagus below, dusk cloud consistent with the 20:31 scenario; Gate 2 — both masters at exact dimensions with SHA-256 matching the packet, exact signature/caption/timestamp/disclosure; Gate 3 — packet documents AI generation, approximate viewpoint disclosed; Gate 4 — documentation only: public viewpoint, no blocking people/logos, chain not certified; Gate 5 — no open blockers."
     },
     {
       "entry_id": "ES-01-014",
