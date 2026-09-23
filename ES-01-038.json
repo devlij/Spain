@@ -1,0 +1,241 @@
+{
+  "entry_id": "ES-01-038",
+  "country": "Spain",
+  "city": "Formentera",
+  "region": "Balearic Islands",
+  "caption": "Ses Illetes, Formentera",
+  "revision": "r2",
+  "viewpoint": "Public boardwalk-to-beach approach on the western side of Punta des Trucadors, approximately 38.7590, 1.4300, low eye-level looking north along Ses Illetes shoreline. Nighttime access conditions are not asserted.",
+  "anchors": [
+    "Long narrow pale-sand strand with calm shallow turquoise-to-navy water",
+    "Low dunes with sparse grasses and a simple protected-access rope/boardwalk edge",
+    "Small offshore islets aligned near the northern horizon"
+  ],
+  "limitations": "Clear model conditions do not establish visible stars or moon, so neither is depicted. The image makes no claim about tide, nighttime access, water colour under natural darkness or current beach furniture. Shoreline/islet arrangement needs independent review.",
+  "refs": [
+    [
+      "https://www.formentera.es/en/beaches/ses-illetes",
+      "Official Formentera tourism Ses Illetes description; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.formentera.es/en/explore/beaches/llevant/",
+      "Official neighbouring Llevant beach description and Punta des Trucadors context; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.formentera.es/wp-content/uploads/2024/09/BEACH-GUIDE_ENG.pdf",
+      "Official beach guide describing the peninsula's Llevant, Ses Illetes and Es Cavall d'en Borràs sides; reviewed 23 September 2026."
+    ],
+    [
+      "https://www.formentera.es/wp-content/uploads/2022/11/FORMENTERA-GREEN-ROUTES.pdf",
+      "Official green-routes guide noting Ses Illetes and the small islets close to shore; reviewed 23 September 2026."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public boardwalk-to-beach approach on the western side of Punta des Trucadors, approximately 38.7590, 1.4300, low eye-level looking north along Ses Illetes shoreline. Nighttime access conditions are not asserted. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Ses Illetes, Formentera at night.",
+  "description": "Long narrow pale-sand strand with calm shallow turquoise-to-navy water; Low dunes with sparse grasses and a simple protected-access rope/boardwalk edge; Small offshore islets aligned near the northern horizon.",
+  "file_16x9": "es-01-038-r2-16x9.png",
+  "file_4x5": "es-01-038-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e21426fcdcfd2424812158b07f657ba55557e422fad8629941a6542f193c814f"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0696ce8ba5e1cf4fdad33c1b6a29f2b23ffcf88323b050e9de3af8bf392fc1f3"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-038-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2098317,
+      "sha256": "e21426fcdcfd2424812158b07f657ba55557e422fad8629941a6542f193c814f",
+      "source_file": "038/source-r2.png",
+      "source_dimensions": [
+        1586,
+        992
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Ses Illetes, Formentera",
+        "Scenario: 24 September 2026 · 01:15 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Own text-only source r1 edited by the built-in image tool to r2, then uniformly Lanczos-cropped/resampled with deterministic scrim/text. No third-party image pixels.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-038-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 974401,
+      "sha256": "0696ce8ba5e1cf4fdad33c1b6a29f2b23ffcf88323b050e9de3af8bf392fc1f3",
+      "source_file": "038/source-r2.png",
+      "source_dimensions": [
+        1586,
+        992
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Ses Illetes, Formentera",
+        "Scenario: 24 September 2026 · 01:15 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Own text-only source r1 edited by the built-in image tool to r2, then uniformly Lanczos-cropped/resampled with deterministic scrim/text. No third-party image pixels.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T23:15:00.235240+00:00",
+    "retrieved_local": "2026-09-24T01:15:00.235240+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=38.759&longitude=1.43&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 38.6875,
+      "longitude": 1.4375,
+      "generationtime_ms": 0.3886222839355469,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 0.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T01:15",
+        "interval": 900,
+        "temperature_2m": 24.6,
+        "weather_code": 0,
+        "cloud_cover": 0,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 3.2
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:43"
+        ],
+        "sunset": [
+          "2026-09-24T19:48"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
+    "requested_coordinates": [
+      38.759,
+      1.43
+    ],
+    "model_grid_coordinates": [
+      38.6875,
+      1.4375
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -50.5,
+      "azimuth_deg": 347.57
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:43:00+02:00",
+    "sunset_local": "2026-09-24T19:48:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15:00.235240+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Asset: Spain gallery documentary master. Create a wide 16:9 natural night photograph of Ses Illetes, Formentera at 01:15 local time on 24 September 2026. Public protected-access approach on the western side of Punta des Trucadors, low eye-level looking north along the narrow pale-sand shoreline. Key anchors: a long slender strand with calm shallow water on the west; low dunes and sparse grasses with a simple rope-and-post access edge entering from foreground; a few small dark offshore islets near the northern horizon. Clear dry night rendered with deep navy-black sky and faint natural ambient blue light, no artificial beach illumination. No moon, visible stars, Milky Way, boats, beach clubs, umbrellas, loungers, people, buildings, boardwalk fantasy, glowing water, wet sand claim, text, logos or watermark. Honest subdued low-light photography. Keep shoreline and islets centered for a coherent 4:5 crop.\n",
+    "prompt-r2.txt": "Edit only the sky and natural ambient lighting of source-r1. Preserve the exact Ses Illetes beach, shoreline, water, dunes, rope fence, offshore islets, viewpoint, camera framing and all geometry unchanged. Remove every visible star and the Milky Way completely. Replace the sky with a clean featureless deep navy-black clear night sky with a subtle natural horizon gradient and no moon. Reduce implied celestial illumination so water and sand remain readable only as a restrained long-exposure ambient-night interpretation. Add no objects, people, boats, buildings, text, logos or watermark.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r2.png",
+      "sha256": "4c3f666330578e53883a5e0228c61b9c59eb2f95b202c43f5c55b59cc3313f51",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "selected": true
+    },
+    {
+      "file": "source-r1.png",
+      "sha256": "e8c2f12f5531b715018af7505cf06b0bd052a4fcb63a964a9f689ecff0e90138",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "selected": false
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [
+      {
+        "file": "source-r1.png",
+        "sha256": "e8c2f12f5531b715018af7505cf06b0bd052a4fcb63a964a9f689ecff0e90138",
+        "role": "Own generated image edited to r2 to remove unsupported stars and Milky Way; no third-party pixels."
+      }
+    ],
+    "source_use": "Original r1 was text-only generation; selected r2 is a built-in edit of our own r1 removing unsupported celestial content. Third-party photographs were inspected only for facts and were not supplied as inputs. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1586, 992]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
