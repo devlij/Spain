@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-333",
+  "country": "Spain",
+  "city": "Ponferrada",
+  "region": "Castile and León",
+  "caption": "Las Médulas",
+  "revision": "r2",
+  "viewpoint": "Mirador de Orellán, facing the mine peaks (approx 42.4619N, 6.7711W)",
+  "anchors": [
+    "Jagged reddish-orange peaks of the old Roman gold mines rising as dark silhouettes",
+    "Starry night sky over the Mirador de Orellán",
+    "Dark chestnut trees and valley below, crests catching faint moonlight"
+  ],
+  "limitations": "No artificial lighting is depicted: Las Médulas is a naturally dark landscape and the interpretation keeps it dark. Peak shapes and moonlight placement are interpretive. Camera point is the well-known Mirador de Orellán, a conventional tourist position, not map-verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Las_Medulas",
+      "Encyclopedia: largest Roman open-pit gold mine, ruina montium, UNESCO site"
+    ],
+    [
+      "https://www.lonelyplanet.com/points-of-interest/las-medulas-gold-mines/1528752",
+      "Guide: the gold mines of El Bierzo, best views from the Mirador de Orellán"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:30 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Roman mine landscape from the Mirador de Orellán, dark silhouettes under stars · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Las Médulas at night.",
+  "description": "From the Mirador de Orellán the ruined peaks of Las Médulas rise as dark silhouettes under the starry night, their reddish crests catching faint moonlight. Two thousand years after the Romans wrecked these mountains with hydraulic mining — ruina montium, the largest open-pit gold mine of the empire — the chestnut woods and ravines lie in complete darkness below. It is a naturally dark subject: no lighting is invented, and the UNESCO-listed landscape reads as a quiet black relief against the night sky.",
+  "file_16x9": "es-01-333-r2-16x9.png",
+  "file_4x5": "es-01-333-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f9bc77d0aec857a60e86718757188eb628d7841ee3aa104e34144ab25151c5cb"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "8f80709283bbba6dcc857c349764abcc2fff5711bb5f44c42b085b7f1858397e"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-333-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2177442,
+      "sha256": "f9bc77d0aec857a60e86718757188eb628d7841ee3aa104e34144ab25151c5cb",
+      "source_file": "media-generation-es-01-333-source-v2-0-8dff6c0f-49ee-443c-8552-357f38b02b54.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Las Médulas",
+        "Scenario: 24 September 2026 · 02:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-333-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1383350,
+      "sha256": "8f80709283bbba6dcc857c349764abcc2fff5711bb5f44c42b085b7f1858397e",
+      "source_file": "media-generation-es-01-333-source-v2-0-8dff6c0f-49ee-443c-8552-357f38b02b54.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Las Médulas",
+        "Scenario: 24 September 2026 · 02:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r2.txt": "Photorealistic long-exposure NIGHT photograph of Las Médulas, Spain — the ancient Roman gold mines — from the Mirador de Orellán. VERY DARK scene: the jagged reddish peaks are dark silhouettes, the sky is a dense STARRY night sky with the Milky Way, the landscape is mostly black. Only faint moonlight edges on the highest crests. True night, deep blacks. No artificial lighting, no people, no dawn glow. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-333-source-v2-0-8dff6c0f-49ee-443c-8552-357f38b02b54.png",
+      "sha256": "136d5ba6a279f67d261b8699dd5b62b252f766219049e3ad562cc01685b1fa99",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
