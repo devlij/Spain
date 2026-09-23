@@ -1,0 +1,225 @@
+{
+  "entry_id": "ES-01-034",
+  "country": "Spain",
+  "city": "Ciutadella",
+  "region": "Balearic Islands",
+  "caption": "Old town, Ciutadella",
+  "revision": "r1",
+  "viewpoint": "Public Plaça des Born near the central obelisk, approximately 40.0011, 3.8380, eye-level looking east-northeast toward the former fortress town hall, stately façades and the old-town approach.",
+  "anchors": [
+    "Long paved Plaça des Born with its slender nineteenth-century obelisk",
+    "Sandstone town hall/former royal fortress closing the western square edge",
+    "Warm ochre stately façades and narrow old-town streets beyond"
+  ],
+  "limitations": "Exact temporary street furniture and lighting schedule are not asserted. The cathedral is not forced into a geometrically implausible sightline. Obelisk, town-hall façade and surrounding palace proportions need independent location review.",
+  "refs": [
+    [
+      "https://www.illesbalears.travel/en/menorca/what-to-see-in-ciutadella-de-menorca",
+      "Official Balearic tourism overview of the protected historic centre, Plaça des Born, cathedral and port; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.illesbalears.travel/en/menorca/ciutadella-in-the-footsteps-of-the-walled-city",
+      "Official walking-route description of Plaça des Born, obelisk, town hall and stately homes; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.illesbalears.travel/en/menorca/municipalities/ciutadella-de-menorca",
+      "Official municipality description linking the former walled city, Plaça des Born and port; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.gettyimages.com/photos/ciutadella-menorca-night",
+      "Complementary Ciutadella night photographs visually inspected for sandstone and lighting precedent; no pixels supplied to generation."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public Plaça des Born near the central obelisk, approximately 40.0011, 3.8380, eye-level looking east-northeast toward the former fortress town hall, stately façades and the old-town approach. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Ciutadella at night.",
+  "description": "Long paved Plaça des Born with its slender nineteenth-century obelisk; Sandstone town hall/former royal fortress closing the western square edge; Warm ochre stately façades and narrow old-town streets beyond.",
+  "file_16x9": "es-01-034-r1-16x9.png",
+  "file_4x5": "es-01-034-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "dac9fcb0fb55697c461a4dd2d9801613c1d94e7556d69a07a7bbe7eb2a5961b2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "df5f567ecc51cded0dbe9109d217621119d1d6367f39bd5b3a453e4ddbcd5756"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-034-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2729550,
+      "sha256": "dac9fcb0fb55697c461a4dd2d9801613c1d94e7556d69a07a7bbe7eb2a5961b2",
+      "source_file": "034/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Ciutadella",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-034-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1136267,
+      "sha256": "df5f567ecc51cded0dbe9109d217621119d1d6367f39bd5b3a453e4ddbcd5756",
+      "source_file": "034/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Ciutadella",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T23:14:40.537722+00:00",
+    "retrieved_local": "2026-09-24T01:14:40.537722+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.0011&longitude=3.838&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 40.0,
+      "longitude": 3.875,
+      "generationtime_ms": 0.8723735809326172,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 27.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T01:00",
+        "interval": 900,
+        "temperature_2m": 20.0,
+        "weather_code": 1,
+        "cloud_cover": 9,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 2.6
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:33"
+        ],
+        "sunset": [
+          "2026-09-24T19:38"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+    "requested_coordinates": [
+      40.0011,
+      3.838
+    ],
+    "model_grid_coordinates": [
+      40.0,
+      3.875
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -49.61,
+      "azimuth_deg": 351.43
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:33:00+02:00",
+    "sunset_local": "2026-09-24T19:38:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:14:40.537722+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Asset: Spain gallery documentary master. Create a wide 16:9 night photograph of Plaça des Born and Ciutadella old town, Menorca at 01:14 local time on 24 September 2026. Public eye-level viewpoint within the long paved plaza near the central memorial, looking toward the historic sandstone town hall/former royal fortress and old-town approach. Key anchors: a slender nineteenth-century obelisk rising from the broad open square; warm ochre town hall and stately palace façades; narrow pedestrian streets and restrained Mediterranean street lamps. The cathedral must not be inserted into an impossible sightline. Mostly clear deep navy-black sky, calm empty plaza, dry paving, honest restrained lighting. No people, cars, market stalls, flags, modern towers, duplicated monuments, wet reflections, moon, stars, text, logos or watermark. Preserve the obelisk, town hall and plaza axis in a centered composition usable as 4:5.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "b31edfc3cb714f9bfc6958bc18b407c2d2425fa9c59a6846c45c2f44795d3bc9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1672, 941]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
