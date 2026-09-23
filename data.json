@@ -121,17 +121,17 @@
       "alt_text": "AI-generated artistic interpretation of Sagrada Família across the Plaça de Gaudí pond in morning daylight, with the full cross and tower group in frame.",
       "description": "The Nativity façade rises above the garden pond, with its mosaic spires, cross-topped Jesus tower and star-topped Mary tower.",
       "viewpoint": "Plaça de Gaudí, northeast side of pond, southwest view. Reference-reported camera 41.404469 N, 2.175836 E; exact generated camera correspondence is unverified.",
-      "status": "Awaiting Cosmo QC · Morning daylight",
-      "approval_state": "candidate",
+      "status": "Approved · Cosmo QC 5/5 · Morning daylight",
+      "approval_state": "approved",
       "gates": {
-        "visual": "pending — independent QC reserved for Cosmo",
-        "technical": "pass",
-        "provenance": "unverified",
-        "commercial_ip": "unverified",
-        "publication": "candidate pipeline only — prior Jason review attribution withdrawn"
+        "visual": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "technical": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "provenance": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "commercial_ip": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "publication": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026"
       },
       "weather": "Model data from Open-Meteo, retrieved 23 September 2026 08:31:12 Europe/Madrid, valid 08:30 Europe/Madrid — not a verified on-site observation. 18.5°C; weather code clear; separate cloud field 20%. Sunrise 07:39, sunset 19:47; morning daylight.",
-      "limitations": "The previous Jason review attribution was incorrect and has been withdrawn. Independent QC of this rebuild is pending with Cosmo. Earlier geometry concerns and historical editions remain recorded. Originality and third-party commercial/IP clearance remain unverified.",
+      "limitations": "Cosmo QC 5/5 approval relayed by Jason on 23 September 2026. The earlier Jason review attribution was incorrect and remains withdrawn. Originality and third-party commercial/IP clearance are not legally certified.",
       "file_16x9": "es-01-001-daylight-r4-16x9.png",
       "file_4x5": "es-01-001-daylight-r4-4x5.png",
       "license_badge": "Free · no credit needed",
@@ -164,7 +164,7 @@
       ],
       "time_of_day": "Morning daylight",
       "revision_lineage": "New text-only built-in image generation, 23 September 2026. Same-source crop and gradient text exports; no photograph supplied as an image input.",
-      "approval_basis": "No Jason review or approval is claimed for this rebuild. Independent QC pending with Cosmo.",
+      "approval_basis": "Cosmo QC APPROVED 5/5, relayed by Jason on 23 September 2026 for this exact rebuild. This is the supplied independent QC verdict, not a new review by the publishing agent or a Jason review. Internal QC is not legal certification.",
       "review_history": [
         {
           "revision": "daylight-r4",
@@ -181,6 +181,15 @@
         {
           "date": "2026-09-23",
           "correction": "Jason stated he had not reviewed this rebuild. Attribution withdrawn; scene returned to candidate pipeline without changing image bytes."
+        },
+        {
+          "date": "2026-09-23",
+          "reviewer": "Cosmo",
+          "verdict": "APPROVED 5/5",
+          "relayed_by": "Jason",
+          "revision": "daylight-r4",
+          "resolution": "Supplied Cosmo approval permits return to the approved gallery. Earlier false Jason review attribution remains withdrawn. No image bytes changed.",
+          "review_note": "Sagrada Família daylight rebuild approved."
         }
       ],
       "dimensions": {
@@ -263,17 +272,17 @@
       "alt_text": "AI-generated artistic interpretation of Casa Batlló with its complete cross and dragon roof in morning daylight.",
       "description": "The mosaic façade and mask balconies face Passeig de Gràcia, with Casa Amatller to the left. Both formats retain the complete roof and cross.",
       "viewpoint": "Opposite side of Passeig de Gràcia, looking northwest at eye level; exact generated camera correspondence unverified.",
-      "status": "Awaiting Cosmo QC · Morning daylight",
-      "approval_state": "candidate",
+      "status": "Approved · Cosmo QC 5/5 · Morning daylight",
+      "approval_state": "approved",
       "gates": {
-        "visual": "pending — independent QC reserved for Cosmo",
-        "technical": "pass — both PNG dimensions, full height and labels inspected",
-        "provenance": "recorded — own-generated image edits; uniqueness unverified",
-        "commercial_ip": "no prominent people or legible logos found; third-party clearance unverified",
-        "publication": "candidate pipeline only — prior Jason review attribution withdrawn"
+        "visual": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "technical": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "provenance": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "commercial_ip": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026",
+        "publication": "pass — Cosmo QC 5/5 relayed by Jason, 23 September 2026"
       },
       "weather": "Model data from Open-Meteo, retrieved 23 September 2026 10:34:58 Europe/Madrid, valid 10:30 Europe/Madrid — not a verified on-site observation. 23.9°C, clear, cloud 5%. Sunrise 07:39, sunset 19:47.",
-      "limitations": "The previous Jason review attribution was incorrect and has been withdrawn. Independent QC of this rebuild is pending with Cosmo. Earlier geometry concerns and historical editions remain recorded. Originality and third-party commercial/IP clearance remain unverified.",
+      "limitations": "Cosmo QC 5/5 approval relayed by Jason on 23 September 2026. The earlier Jason review attribution was incorrect and remains withdrawn. Originality and third-party commercial/IP clearance are not legally certified.",
       "file_16x9": "es-01-003-16x9.png",
       "file_4x5": "es-01-003-4x5.png",
       "license_badge": "Free · no credit needed",
@@ -296,9 +305,18 @@
         {
           "date": "2026-09-23",
           "correction": "Jason stated he had not reviewed this rebuild. Attribution withdrawn; scene returned to candidate pipeline without changing image bytes."
+        },
+        {
+          "date": "2026-09-23",
+          "reviewer": "Cosmo",
+          "verdict": "APPROVED 5/5",
+          "relayed_by": "Jason",
+          "revision": "current Casa Batlló rebuild",
+          "resolution": "Supplied Cosmo approval permits return to the approved gallery. Earlier false Jason review attribution remains withdrawn. No image bytes changed.",
+          "review_note": "Casa Amatller correctly placed beside Casa Batlló."
         }
       ],
-      "approval_basis": "No Jason review or approval is claimed for this rebuild. Independent QC pending with Cosmo.",
+      "approval_basis": "Cosmo QC APPROVED 5/5, relayed by Jason on 23 September 2026 for this exact rebuild. This is the supplied independent QC verdict, not a new review by the publishing agent or a Jason review. Internal QC is not legal certification.",
       "dimensions": {
         "16x9": {
           "width": 1920,
