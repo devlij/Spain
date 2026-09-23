@@ -1,0 +1,150 @@
+{
+  "entry_id": "ES-01-211",
+  "country": "Spain",
+  "city": "Jerez de la Frontera",
+  "region": "Andalusia",
+  "caption": "Alcázar de Jerez, Jerez de la Frontera",
+  "revision": "r1",
+  "viewpoint": "inside the walled complex, looking across the Patio de Armas toward the Almohad towers and the octagonal tower",
+  "anchors": [
+    "massive Almohad stone walls and the octagonal tower rising center-right",
+    "the palm-lined Patio de Armas courtyard stretching in the foreground",
+    "the Baroque Villavicencio palace façade to the left, dark arches of the old mosque nearby"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time illumination of the complex is unverified; courtyard lighting is artistic interpretation. Exact camera position unverified.",
+  "refs": [
+    "https://www.jerez.es/webs-municipales/conjunto-monumental-del-alcazar",
+    "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Jerez_de_la_Frontera"
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:22 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Alcázar courtyard and Almohad towers at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Alcázar de Jerez at night.",
+  "description": "Inside the walls of the Alcázar of Jerez, the palm-lined Patio de Armas stretches toward massive Almohad towers, the octagonal tower rising dark against the night sky. The 12th-century fortress-palace — one of the finest surviving examples of Almohad architecture in Spain — is softened by warm courtyard lamps, with the Baroque palace and the old mosque's arches shadowed nearby. On a clear 22°C night the quiet courtyard feels like the heart of old Jerez, nine centuries deep.",
+  "file_16x9": "es-01-211-r1-16x9.png",
+  "file_4x5": "es-01-211-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b88291b8c40065bf7d1b8cc3ec86247b94671257cfdc294ac8af8fdd141d63e3"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0b5b026bca96c7eb3598b83d63661e60ac92fb1949b964c30c85164d64d7a19b"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-211-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2621202,
+      "sha256": "b88291b8c40065bf7d1b8cc3ec86247b94671257cfdc294ac8af8fdd141d63e3",
+      "source_file": "media-generation-es-01-211-source-0-5183946e-9135-4715-abcd-25c62f7e52bd.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Alcázar de Jerez, Jerez de la Frontera",
+        "Scenario: 24 September 2026 · 01:22 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-211-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1177624,
+      "sha256": "0b5b026bca96c7eb3598b83d63661e60ac92fb1949b964c30c85164d64d7a19b",
+      "source_file": "media-generation-es-01-211-source-0-5183946e-9135-4715-abcd-25c62f7e52bd.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Alcázar de Jerez, Jerez de la Frontera",
+        "Scenario: 24 September 2026 · 01:22 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:20:58+02:00",
+    "valid": "2026-09-24T01:22:26+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": null,
+    "temperature_2m": 22.4,
+    "weather_code": 0,
+    "cloud_cover": 1,
+    "wind_speed_10m": 2.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:20:58+02:00, valid 2026-09-24T01:22:26+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Alcázar of Jerez de la Frontera, Spain, at night. Tourist viewpoint: inside the walled complex, looking across the palm-lined Patio de Armas toward the Almohad towers. ANCHORS: massive Almohad stone walls and the octagonal tower rising center-right; the palm-lined courtyard stretching in the foreground; the Baroque Villavicencio palace façade to the left and dark arches of the old mosque nearby. LIGHTING: soft warm light from courtyard lamps washing the stone, dark blue clear sky, the complex otherwise dim. Photorealistic, night historic site, no people, no watermark."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-211-source-0-5183946e-9135-4715-abcd-25c62f7e52bd.png",
+      "sha256": "5315f2983315690cb908feb6067ebfb951f97577cdb5c82054e75db076eb7bb4",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
