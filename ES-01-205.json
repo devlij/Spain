@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-205",
+  "country": "Spain",
+  "city": "Antequera",
+  "region": "Andalusia",
+  "caption": "El Torcal, Antequera",
+  "revision": "r1",
+  "viewpoint": "the Green Route (Ruta Verde) among the karst sculptures, Torcal Alto",
+  "anchors": [
+    "towering limestone karst sculptures — stacked, mushroom-like rock towers",
+    "El Tornillo (the Screw), the park's emblematic screw-shaped pinnacle",
+    "moonlit plateau with the lights of the Antequera plain far below"
+  ],
+  "limitations": "Text-only generation; no photographic input. The park is not open at night; this is a restrained moonlit interpretation claiming no measured luminance and no floodlighting. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.juntadeandalucia.es/medioambiente/portal/en/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/torcal-de-antequera",
+      "Andalusian government — El Torcal natural area, Green/Yellow routes, El Tornillo emblem"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/El_Torcal_de_Antequera",
+      "Encyclopedia — karst nature reserve in the Sierra del Torcal, one of Europe's most impressive karst landscapes"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:17 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Moonlit karst sculptures on the plateau · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of El Torcal at night.",
+  "description": "By moonlight, El Torcal looks like another planet — the great limestone sculptures stacked like stone pancakes along the Green Route, with El Tornillo's famous screw profile rising above the trail. No artificial light reaches up here; the pale rock drinks the moonlight while the plain of Antequera glitters far below. Clear and mild at about 24°C, with a light night breeze moving through the stone city.",
+  "file_16x9": "es-01-205-r1-16x9.png",
+  "file_4x5": "es-01-205-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8439b555fe0fc71582975e1c0e69213589632bf76ed4a0a547c37f904a75953d"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "70d531a8a8aecc0d8e52cd185f4ed790d2d9f5e3545dba807312a2a51f9c2928"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-205-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3058672,
+      "sha256": "8439b555fe0fc71582975e1c0e69213589632bf76ed4a0a547c37f904a75953d",
+      "source_file": "media-generation-es-01-205-source-0-e02b5b81-3962-47ad-91f5-76b8b22542f8.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "El Torcal, Antequera",
+        "Scenario: 24 September 2026 · 01:17 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-205-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1544942,
+      "sha256": "70d531a8a8aecc0d8e52cd185f4ed790d2d9f5e3545dba807312a2a51f9c2928",
+      "source_file": "media-generation-es-01-205-source-0-e02b5b81-3962-47ad-91f5-76b8b22542f8.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "El Torcal, Antequera",
+        "Scenario: 24 September 2026 · 01:17 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:13:14+02:00",
+    "valid": "2026-09-24T01:17:29+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 24.1,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 13.2
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:13:14+02:00, valid 2026-09-24T01:17:29+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of El Torcal de Antequera, Spain, at night. Tourist viewpoint: the Green Route trail among the karst sculptures in Torcal Alto. Frame: towering Jurassic limestone karst sculptures centered — stacked, mushroom-like rock towers; the emblematic El Tornillo (the Screw) pinnacle rising above the trail; the moonlit plateau falling away with the scattered lights of the Antequera plain far below. Night light: pure moonlight on pale limestone, no artificial light, restrained long-exposure feel, stars overhead, clear sky, 24 degrees C, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-205-source-0-e02b5b81-3962-47ad-91f5-76b8b22542f8.png",
+      "sha256": "2aca93c6f9ea587a87c92df0d01e7231d414a22df47c79c02cb6c27f2b3130c2",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
