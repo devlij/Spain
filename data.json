@@ -790,9 +790,9 @@
       "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
       "composition": "NIGHT · Public Campo del Sur promenade near 36.5282,-6.2996, eye level on the seawall, looking east-northeast along the Atlantic-facing curve toward Cádiz Cathedral. Approximate camera, not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Campo del Sur, Cádiz at night. Campo del Sur’s seawall curves past Cádiz’s historic waterfront toward the cathedral above wind-roughened Atlantic water.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit 2026-09-23: Gate 1 visual/location PASS (Campo del Sur seawall promenade with lamps, Cádiz Cathedral twin towers + golden dome, night; rough sea consistent with modeled wind disclosed; caption/scenario/signature/disclosure correct); Gate 2 technical PASS (1920x1080 + 864x1080 exact, SHA-256 matches packet); Gate 3 provenance PASS (AI-generated, no photographic inputs; r1 selected); Gate 4 commercial/IP documentation-only (public monument, Spain FoP; chain not certified); Gate 5 publication readiness PASS."
     },
     {
       "entry_id": "ES-01-023",
