@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-292",
+  "country": "Spain",
+  "city": "El Hierro",
+  "region": "Canary Islands",
+  "caption": "Mirador de la Peña, El Hierro",
+  "revision": "r1",
+  "viewpoint": "From the Mirador de la Peña terrace near 27.8104,-17.9122, looking out over the El Golfo valley toward the Atlantic. Approximate point only.",
+  "anchors": [
+    "Dark sweep of the El Golfo valley falling away below into the night",
+    "Thick overcast sky, no stars — consistent with 97% model cloud cover",
+    "Volcanic-stone terrace wall silhouettes framing the sides of the view"
+  ],
+  "limitations": "Illumination claims kept minimal: valley lights are generic and approximate, not specific settlements. Interior lighting of the mirador restaurant not depicted and unverified. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/El_Hierro",
+      "Encyclopedic description of El Hierro and the Mirador de la Peña (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/El_Hierro",
+      "Spanish Wikipedia entry for El Hierro and the Mirador de la Peña, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Mirador de la Peña terrace, looking over the El Golfo valley toward the Atlantic near 27.8104,-17.9122. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Mirador de la Peña, El Hierro at night.",
+  "description": "From the Mirador de la Peña the great amphitheatre of the El Golfo valley drops away into darkness, the Atlantic a barely-there line beyond the cliff edge. Tonight the model sky is overcast (97% cloud), so no stars show — only faint diffuse light behind the cloud and a few minimal, generic distant lights low in the valley. The mirador's volcanic-stone walls frame the sides, César Manrique's terrace reduced to silhouette.",
+  "file_16x9": "es-01-292-r1-16x9.png",
+  "file_4x5": "es-01-292-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4233eef10068f055efdca11967ebc1e2af6ac22de66143edc2164c0ac2092260"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0f34e9dbfe3555daf64e76f47a206dce06672d851dade4157541c869898df758"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-292-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1582977,
+      "sha256": "4233eef10068f055efdca11967ebc1e2af6ac22de66143edc2164c0ac2092260",
+      "source_file": "media-generation-src-es-01-292-0-2874247d-90e4-4858-aec4-5c59cb096d9c.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Mirador de la Peña, El Hierro",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-292-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 704174,
+      "sha256": "0f34e9dbfe3555daf64e76f47a206dce06672d851dade4157541c869898df758",
+      "source_file": "media-generation-src-es-01-292-0-2874247d-90e4-4858-aec4-5c59cb096d9c.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Mirador de la Peña, El Hierro",
+        "Scenario: 24 September 2026 · 01:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=27.8104&longitude=-17.9122&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:15+02:00",
+    "valid": "2026-09-24T01:15+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15+02:00, valid 2026-09-24T01:15+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation from the Mirador de la Pena terrace on El Hierro, Canary Islands: an overcast moonless night with thick cloud overhead, no stars visible; the great dark amphitheatre of the El Golfo valley falling away below into darkness; the Atlantic barely visible beyond the cliff edge; silhouettes of the mirador's volcanic-stone terrace walls framing the left and right foreground; a few faint distant warm lights low in the valley, kept minimal and generic; cool dark palette; no prominent people, no text, no logos; viewpoint centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-292-0-2874247d-90e4-4858-aec4-5c59cb096d9c.png",
+      "sha256": "684d231322dbf55f9539c53aa7cf8304509d79de8bf7e6639741877c601d59f6",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
