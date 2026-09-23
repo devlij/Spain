@@ -14,7 +14,7 @@
 .fmt-tabs{position:absolute;top:10px;left:10px;display:flex;gap:6px;z-index:2}
 .fmt-tab{background:rgba(11,14,12,.82);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:12px;cursor:pointer;line-height:1.2}
 .fmt-tab.is-active{background:var(--accent);border-color:var(--accent);color:#0b0e0c;font-weight:700}
-.view-affordance{position:absolute;right:10px;bottom:10px;padding:5px 10px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(11,14,12,.72);color:var(--ink);font-size:11px}
+.view-affordance{position:absolute;right:10px;top:10px;padding:5px 10px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(11,14,12,.72);color:var(--ink);font-size:11px}
 .master-link.tall img{max-height:70vh;width:auto;margin:0 auto}
 .downloads{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 4px}
 a.download{display:inline-block;text-decoration:none;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-size:13px}
