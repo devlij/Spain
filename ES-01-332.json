@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-332",
+  "country": "Spain",
+  "city": "Cuéllar",
+  "region": "Castile and León",
+  "caption": "Castle, Cuéllar",
+  "revision": "r1",
+  "viewpoint": "Below the town walls, facing the castle on the hilltop (approx 41.4000N, 4.3167W)",
+  "anchors": [
+    "The castle of the Dukes of Alburquerque crowning the hilltop, a moonlit silhouette with crenellated towers",
+    "Warm town lights glowing at the base and below in Cuéllar",
+    "Cloudy dark night sky with stars above the town"
+  ],
+  "limitations": "No floodlighting is claimed: the castle is depicted as a moonlit silhouette because night illumination is not supported by references. Wall and tower detail are interpretive. Camera point below the walls is a conventional tourist viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cu%C3%A9llar_Castle",
+      "Encyclopedia: Gothic-Renaissance castle of the Dukes of Alburquerque, National Monument 1931"
+    ],
+    [
+      "https://www.spain.info/en/places-of-interest/duques-alburquerque-castle/",
+      "Official Spain tourism: Castle of the Dukes of Albuquerque, Cuéllar"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:22 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Castle from below the town walls, moonlit silhouette over the lit town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cuéllar Castle at night.",
+  "description": "From below the town walls the castle of the Dukes of Alburquerque crowns the Cuéllar hilltop as a dark moonlit silhouette, its crenellated towers catching the night light above the town. Warm lights glow at its base and spread down through the old town, while the cloudy night sky keeps the scene quiet and still. The fortress — Gothic and Renaissance over a medieval core, a National Monument since 1931 — presides over the village much as it has for centuries.",
+  "file_16x9": "es-01-332-r1-16x9.png",
+  "file_4x5": "es-01-332-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "20ba95c8074db0e183c6e2ef5cc5193691a6a97807cff166cbc5facead2696d8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "728780afe094fda7589cbb49fdbf09276495cbafdca94c32f2f448828cae7452"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-332-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2117149,
+      "sha256": "20ba95c8074db0e183c6e2ef5cc5193691a6a97807cff166cbc5facead2696d8",
+      "source_file": "media-generation-es-01-332-source-0-69bffcb2-1aac-4e4c-83ab-38fef4021cde.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Castle, Cuéllar",
+        "Scenario: 24 September 2026 · 02:22 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-332-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1134739,
+      "sha256": "728780afe094fda7589cbb49fdbf09276495cbafdca94c32f2f448828cae7452",
+      "source_file": "media-generation-es-01-332-source-0-69bffcb2-1aac-4e4c-83ab-38fef4021cde.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Castle, Cuéllar",
+        "Scenario: 24 September 2026 · 02:22 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic long-exposure night photograph of Cuéllar Castle (Castle of the Dukes of Alburquerque), Spain, viewed from below the town walls. IMPORTANT: the castle is completely dark and unlit — a moonlit silhouette with crenellated walls and towers, the Mudéjar brickwork catching faint moonlight. Warm town lights glow at the base and below in the town of Cuéllar. Cloudy dark night sky with stars. Deep night mood. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-332-source-0-69bffcb2-1aac-4e4c-83ab-38fef4021cde.png",
+      "sha256": "d900ede085e2b4745749969bfeb9eb7f6e7dfb89f207ed35cdbb240ab31d0975",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
