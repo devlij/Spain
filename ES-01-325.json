@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-325",
+  "country": "Spain",
+  "city": "Salamanca",
+  "region": "Castile and León",
+  "caption": "Plaza Mayor, Salamanca",
+  "revision": "r1",
+  "viewpoint": "Centre of the square, facing the Ayuntamiento pavilion on the east side (approx 40.9652N, 5.6641W)",
+  "anchors": [
+    "Ayuntamiento (City Hall) pavilion with clock tower and two small flanking towers on the east side of the square",
+    "Continuous three-storey arcaded Baroque facades in golden sandstone wrapping the square, medallions on the spandrels above the arches",
+    "Wide paved square with cafe terraces along the arcades, lit by warm lanterns"
+  ],
+  "limitations": "Night illumination is supported by repeated published reports of the square lit after sunset, but is not verified for this specific hour. Exact lantern count, terrace arrangement and crowd level are interpretive. Camera point is a conventional tourist position in the square centre, not map-verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Plaza_Mayor,_Salamanca",
+      "Encyclopedia: history, Churriguera design, construction 1729-1755, 88 arcades"
+    ],
+    [
+      "https://www.ad-hoc-news.de/unterhaltung/reisen/plaza-mayor-salamanca-spain-s-golden-square-after-dark/69637333",
+      "Travel feature: facades illuminated after sunset, night strolls"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:16 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Centre-square view toward the Ayuntamiento pavilion under lantern light · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Salamanca at night.",
+  "description": "Stand in the middle of the square facing the Ayuntamiento pavilion, its clock tower flanked by two small towers on the east side. The honey-coloured Baroque facades close around you on all four sides, a continuous three-storey arcade carrying balconies and carved medallions. Under the overcast night sky the sandstone takes on its famous golden glow from the warm lanterns, and the paved square lies quiet with a few shuttered cafe terraces tucked under the arches.",
+  "file_16x9": "es-01-325-r1-16x9.png",
+  "file_4x5": "es-01-325-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "725fb4f63178c12e815dc193d131e486e41742ecce863bcb86a7f290f88cfc3f"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "d5639102a782807902a455e81c72499a4fe8b0c4fa77bd88cdce9ea084b14ebb"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-325-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3162629,
+      "sha256": "725fb4f63178c12e815dc193d131e486e41742ecce863bcb86a7f290f88cfc3f",
+      "source_file": "media-generation-es-01-325-source-0-222e97a7-a814-4577-b3da-323192788986.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Mayor, Salamanca",
+        "Scenario: 24 September 2026 · 01:16 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-325-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1366550,
+      "sha256": "d5639102a782807902a455e81c72499a4fe8b0c4fa77bd88cdce9ea084b14ebb",
+      "source_file": "media-generation-es-01-325-source-0-222e97a7-a814-4577-b3da-323192788986.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Mayor, Salamanca",
+        "Scenario: 24 September 2026 · 01:16 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 100,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 17.9,
+    "weather_code": 3,
+    "wind_speed_10m": 3.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Plaza Mayor in Salamanca, Spain, at night. View from the middle of the square facing the Ayuntamiento pavilion with its two small towers on the east side. Continuous three-storey arcaded Baroque facades in honey-coloured sandstone wrap the square on all four sides, with medallion balconies above the arcade level. Warm amber lantern lighting glows on the stone; the paved square is quiet with a few shuttered cafe terraces under the arcades. Deep blue-black night sky with thin cloud cover. Subject centred so it survives a 4:5 centre crop. No identifiable people prominent, no text or brand logos anywhere in the image. No on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-325-source-0-222e97a7-a814-4577-b3da-323192788986.png",
+      "sha256": "e437da481085fc25c5c90a9cf7bd5c30ca4ad206aa6e557a10df7fc7ee7ca49a",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
