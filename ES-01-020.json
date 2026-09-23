@@ -1,0 +1,286 @@
+{
+  "entry_id": "ES-01-020",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Granada",
+  "caption": "Carrera del Darro, Granada",
+  "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+  "composition": "NIGHT · Public Carrera del Darro parapet immediately east of Puente de Cabrera, looking west along the river toward the small stone bridge; Albaicín street on image right. Weather anchor37.1786,-3.5932 approximate; exact camera not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Carrera del Darro, Granada at night. A small stone bridge crosses the shallow Darro beside the lamplit Carrera del Darro in the Albaicín.",
+  "description": "A small stone bridge crosses the shallow Darro beside the lamplit Carrera del Darro in the Albaicín.",
+  "viewpoint": "Public Carrera del Darro parapet immediately east of Puente de Cabrera, looking west along the river toward the small stone bridge; Albaicín street on image right. Weather anchor37.1786,-3.5932 approximate; exact camera not surveyed.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T21:52:44.601909+02:00, valid 2026-09-23T21:45 Europe/Madrid; not a verified on-site observation. 21.4°C, WMO 0, 1% cloud, 0.0 mm precipitation, 5.8 km/h wind. Sunrise 08:02, sunset 20:09; sun elevation -20.76°, azimuth 286.9° clockwise from north, below horizon. Night; no direct sunlight.",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "approval_basis": "No approval claimed. Independent exact-pair five-gate review pending.",
+  "time_of_day": "Night",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "The exact bridge/parapet proportions and incidental facades remain subject to independent review. Lighting and vegetation are artistic interpretations; the reference photo is not contemporaneous. Exact-size PNGs are resampled from a 1672×941 built-in generated source; dimensions do not imply native detail. Model weather is not observation. Internal review is not legal certification.",
+  "revision": "r1",
+  "revision_lineage": "Built-in text-only generation r1. Both formats use the same selected source, uniform Lanczos crop/resampling, deterministic gradient and typography; no separate portrait generation. Model version not exposed.",
+  "historical_editions": [],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "33a40acc84048fa54396223ceb709ec0ccde92d9492d434f7b542d5528f1ab3e",
+      "bytes": 3519959,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "a7ac7c1d1a37ed974caa093f5787e8a591be16f6cc79f86c4917afa77166603f",
+      "bytes": 1625297,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    }
+  },
+  "file_16x9": "es-01-020-r1-16x9.png",
+  "file_4x5": "es-01-020-r1-4x5.png",
+  "references": [
+    {
+      "url": "https://turismo.granada.org/es/monumento/calle-emblematica/carrera-del-darro",
+      "note": "Municipal description: historic riverside street below Alhambra.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Carrera_del_Darro_-_Granada-lighter.jpg",
+      "note": "José Luiz / Stegop,2February2013,CCBYSA3.0; complementary opposite-direction daytime bridge/river geometry inspected.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://www.civitatis.com/es/granada/tour-misterios-leyendas-granada/",
+      "note": "Undated historic night photograph inspected: parapet right, river and stone bridge left; not contemporaneous.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "url": "https://www.abc.es/espana/andalucia/granada/dar-luz-rincones-bellos-granada-arte-20240324070419-nts.html",
+      "note": "24March2024 reporting of lighting project; no same-night schedule established.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T19:52:44.601909+00:00",
+    "retrieved_local": "2026-09-23T21:52:44.601909+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=37.1786&longitude=-3.5932&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 37.1875,
+      "longitude": -3.5625,
+      "generationtime_ms": 0.7529258728027344,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 716.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T21:45",
+        "interval": 900,
+        "temperature_2m": 21.4,
+        "weather_code": 0,
+        "cloud_cover": 1,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 5.8
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:02"
+        ],
+        "sunset": [
+          "2026-09-23T20:09"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
+    "requested_coordinates": [
+      37.1786,
+      -3.5932
+    ],
+    "model_grid_coordinates": [
+      37.1875,
+      -3.5625
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -20.76,
+      "azimuth_deg": 286.9
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:02:00+02:00",
+    "sunset_local": "2026-09-23T20:09:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "gates": {
+    "visual": "Pending independent Cosmo QC; no pass claimed",
+    "technical": "Pending independent Cosmo QC; no pass claimed",
+    "provenance": "Pending independent Cosmo QC; no pass claimed",
+    "commercial_ip": "Pending independent Cosmo QC; no pass claimed",
+    "publication": "Pending independent Cosmo QC; no pass claimed"
+  },
+  "review_packet": {
+    "schema": "Spain candidate asset-only handoff v1",
+    "reviewed_revision": "r1",
+    "exact_pair": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "33a40acc84048fa54396223ceb709ec0ccde92d9492d434f7b542d5528f1ab3e",
+        "bytes": 3519959,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-020-r1-16x9.png"
+      },
+      "4x5": {
+        "width": 864,
+        "height": 1080,
+        "sha256": "a7ac7c1d1a37ed974caa093f5787e8a591be16f6cc79f86c4917afa77166603f",
+        "bytes": 1625297,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-020-r1-4x5.png"
+      }
+    },
+    "prompts": {
+      "prompt-r1.txt": "Use case: photorealistic-natural. Create one original high-detail 16:9 landscape scene, documentary tourist eye-level photographic realism, an AI artistic interpretation of Carrera del Darro, Granada. Real Carrera del Darro at Puente de Cabrera in Granada's Albaicín. Public eye-level camera just east of the bridge looking west: narrow shallow river channel below camera, low water with exposed irregular stony edges and green banks; one small single-span rough-stone bridge crosses midground diagonally from left bank to street on right, low solid stone parapet, one rounded arch. Raised cobbled narrow street on RIGHT separated from river by knee-high continuous rough stone parapet, receding pale ochre and cream 3–4storey old facades with small wrought-iron balconies on right; leafy shadowed opposite bank left. Small traditional wall lanterns produce restrained warm pools of light and subtle water reflections; distant facades in shadow. Not a broad canal, no gondolas, no wide grand bridge, no Ronda gorge, no invented cathedral or Alhambra skyline in this west-facing crop. Main bridge and channel centrally composed inside central45%width; preserve bridge span and arch in portraitcrop while some outer street edges may crop. Dry uneven paving, not glossy rain-soaked. Trees have late-September foliage, exact arrangement interpretative.\nScenario: 23 September 2026 · 21:52 Europe/Madrid; full NIGHT, sun elevation -20.76 degrees, azimuth 286.9 degrees below horizon; no sunlight, no dusk orange horizon. Fresh Open-Meteo model: 21.4C, cloud cover 1%, precipitation 0mm, wind 5.8km/h; model data not an on-site observation. Sky near-black with very faint sparse cloud, no moon or visible stars. Artificial lighting modest with realistic shadow falloff; preserve stone/glass detail without fake HDR. No rain, fog, reflections on dry pavement, obvious people, contemporary artwork focal subject, logos, promotional lettering, or fantasy details. Make a coherent real place with straight architectural verticals, plausible spatial scale and non-repeated surface texture. Leave bottom 15% visually quiet for later captions. IMPORTANT: NO TEXT, no signature, no watermark in this source; exact labels will be typeset on the exported masters later. Wide environmental composition with main subject fully in the central portrait-safe crop as described, do not enlarge subject to fill entire landscape width. Photographic tonal range, no cinematic golden hour."
+    },
+    "generated_source_records": [
+      {
+        "file": "source-r1.png",
+        "sha256": "c638e8937f7e3bdc353cda34874157fd86e5672b50b6f2cd8e3064d0e36629c3",
+        "bytes": 2895507,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": true,
+        "retained_in_review_archive": true
+      }
+    ],
+    "architectural_anchors": [
+      "Narrow shallow Darro channel below street level, with irregular stone banks and subdued vegetation",
+      "One small low single-span masonry bridge across midground, with solid parapet and rounded arch",
+      "Carrera del Darro cobbled street and old pale facades with iron balconies on right; wooded opposite bank left"
+    ],
+    "reference_evidence": [
+      {
+        "url": "https://turismo.granada.org/es/monumento/calle-emblematica/carrera-del-darro",
+        "note": "Municipal description: historic riverside street below Alhambra.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Carrera_del_Darro_-_Granada-lighter.jpg",
+        "note": "José Luiz / Stegop,2February2013,CCBYSA3.0; complementary opposite-direction daytime bridge/river geometry inspected.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://www.civitatis.com/es/granada/tour-misterios-leyendas-granada/",
+        "note": "Undated historic night photograph inspected: parapet right, river and stone bridge left; not contemporaneous.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "url": "https://www.abc.es/espana/andalucia/granada/dar-luz-rincones-bellos-granada-arte-20240324070419-nts.html",
+        "note": "24March2024 reporting of lighting project; no same-night schedule established.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      }
+    ],
+    "local_technical_checks": [
+      {
+        "file": "020/masters/es-01-020-r1-16x9.png",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "byte_length": 3519959,
+        "sha256": "33a40acc84048fa54396223ceb709ec0ccde92d9492d434f7b542d5528f1ab3e",
+        "source_file": "020/source-r1.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Carrera del Darro, Granada",
+          "Scenario: 23 September 2026 · 21:52 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation, with framing edits for 016 and 019; same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      },
+      {
+        "file": "020/masters/es-01-020-r1-4x5.png",
+        "dimensions": [
+          864,
+          1080
+        ],
+        "byte_length": 1625297,
+        "sha256": "a7ac7c1d1a37ed974caa093f5787e8a591be16f6cc79f86c4917afa77166603f",
+        "source_file": "020/source-r1.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Carrera del Darro, Granada",
+          "Scenario: 23 September 2026 · 21:52 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation, with framing edits for 016 and 019; same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      }
+    ],
+    "producer_check": "Both PNGs decoded and verified, exact dimensions and full SHA-256 computed. Contact sheet visually inspected for complete landmark retention and labels. This is not independent QC.",
+    "served_verification": "To be recorded separately after single-file submission; no live claim in this pre-publication packet.",
+    "card_handoff": {
+      "owner": "Independent Cosmo sweep",
+      "pipeline": "Candidate, separate from approved gallery",
+      "thumbnail": "es-01-020-r1-16x9.png",
+      "href": "es-01-020-r1-16x9.png",
+      "target": "_blank",
+      "portrait_retained": "es-01-020-r1-4x5.png",
+      "controls": "One wide thumbnail opening the full-size wide PNG; no extra viewer/download controls",
+      "preserve": "Caption, scenario, composition, status, license/badge, footer, search, navigation and country switcher"
+    },
+    "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
+    "rejection_notes": [],
+    "independent_verdict": null
+  }
+}
