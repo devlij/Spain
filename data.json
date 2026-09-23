@@ -637,6 +637,97 @@
           "resolution": "Cosmo APPROVED 5/5 for ES-01-008 r2, relayed by Jason on 23 September 2026 after review of the exact packet. The review confirms the restrained central clock, facade proportions, right-side arcade and late-afternoon light direction. This is not a Jason review or publishing-agent verdict."
         }
       ]
+    },
+    {
+      "entry_id": "ES-01-009",
+      "country": "Spain",
+      "region": "Madrid",
+      "city": "Madrid",
+      "caption": "Plaza Mayor, Madrid",
+      "scenario_label": "23 September 2026 · 20:12 Europe/Madrid",
+      "composition": "DUSK twilight · South side of Plaza Mayor looking north toward Casa de la Panadería and the Philip III equestrian statue. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Madrid — Red residential wings, arcades and the twin slate spires frame the central statue at dusk.",
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-010",
+      "country": "Spain",
+      "region": "Basque Country",
+      "city": "Bilbao",
+      "caption": "Guggenheim Museum, Bilbao",
+      "scenario_label": "23 September 2026 · 20:13 Europe/Madrid",
+      "composition": "DUSK twilight · North-bank promenade across the Nervión, looking south-southwest toward the titanium museum and La Salve bridge. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Guggenheim Museum, Bilbao — Curved titanium volumes gather around the central atrium, with the bridge and detached openwork tower to the left.",
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-011",
+      "country": "Spain",
+      "region": "Galicia",
+      "city": "Santiago de Compostela",
+      "caption": "Cathedral, Santiago de Compostela",
+      "scenario_label": "23 September 2026 · 20:14 Europe/Madrid",
+      "composition": "Daylight · West-center Praza do Obradoiro looking east toward the cathedral’s west façade. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Cathedral, Santiago de Compostela — Low western sunlight catches the upper granite façade above the split staircase; the foreground square remains in shadow.",
+      "status": "Awaiting Cosmo QC · Daylight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-012",
+      "country": "Spain",
+      "region": "Castile and León",
+      "city": "Segovia",
+      "caption": "Roman Aqueduct, Segovia",
+      "scenario_label": "23 September 2026 · 20:31 Europe/Madrid",
+      "composition": "DUSK twilight · Plaza del Azoguejo eye-level view looking west–northwest through the two-tier Roman arcade. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Roman Aqueduct, Segovia — its double granite arcade crosses Plaza del Azoguejo at dusk.",
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-013",
+      "country": "Spain",
+      "region": "Castilla-La Mancha",
+      "city": "Toledo",
+      "caption": "Old Town and Alcázar, Toledo",
+      "scenario_label": "23 September 2026 · 20:31 Europe/Madrid",
+      "composition": "DUSK twilight · Mirador del Valle eye-level panorama looking northwest across the Tagus toward Toledo’s hilltop skyline. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Toledo from Mirador del Valle — Cathedral tower and Alcázar rise above the old town and Tagus at dusk.",
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-014",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Ronda",
+      "caption": "Puente Nuevo, Ronda",
+      "scenario_label": "23 September 2026 · 20:31 Europe/Madrid",
+      "composition": "DUSK twilight · Lower Mirador del Puente Nuevo path, eye level, looking up the El Tajo gorge to the bridge. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Puente Nuevo, Ronda — the monumental stone bridge spans the El Tajo gorge at early dusk.",
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-015",
+      "country": "Spain",
+      "region": "Basque Country",
+      "city": "San Sebastián",
+      "caption": "La Concha Bay, San Sebastián",
+      "scenario_label": "23 September 2026 · 20:31 Europe/Madrid",
+      "composition": "DUSK twilight · Alderdi Eder end of Paseo de La Concha, eye level, looking west–southwest across the bay. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of La Concha Bay, San Sebastián — white promenade railing frames Santa Clara Island and the crescent beach at overcast dusk.",
+      "status": "Awaiting Cosmo QC · DUSK twilight",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
     }
   ],
   "starters": [
