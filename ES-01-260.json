@@ -11,7 +11,7 @@
     "Dark reflecting pools of the Parc de la Mar in the foreground",
     "Old town and Almudaina palace flank the scene"
   ],
-  "limitations": "Exact camera point approximate; lamp light only — no claim about the cathedral's actual night illumination; current conditions unverified.",
+  "limitations": "Exact camera point approximate; lamp light only — no claim about the cathedral's actual night illumination; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Catedral-Bas%C3%ADlica_de_Santa_Maria_de_Mallorca",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.5694&longitude=2.648&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:22+02:00",
     "valid_local": "2026-09-24T01:15",
     "temperature_c": 21.5,
     "weather_code": 0,
