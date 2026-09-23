@@ -1,0 +1,294 @@
+{
+  "entry_id": "ES-01-022",
+  "country": "Spain",
+  "region": "Andalusia",
+  "city": "Cádiz",
+  "caption": "Campo del Sur, Cádiz",
+  "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
+  "composition": "NIGHT · Public Campo del Sur promenade near 36.5282,-6.2996, eye level on the seawall, looking east-northeast along the Atlantic-facing curve toward Cádiz Cathedral. Approximate camera, not surveyed. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Campo del Sur, Cádiz at night. Campo del Sur’s seawall curves past Cádiz’s historic waterfront toward the cathedral above wind-roughened Atlantic water.",
+  "description": "Campo del Sur’s seawall curves past Cádiz’s historic waterfront toward the cathedral above wind-roughened Atlantic water.",
+  "viewpoint": "Public Campo del Sur promenade near 36.5282,-6.2996, eye level on the seawall, looking east-northeast along the Atlantic-facing curve toward Cádiz Cathedral. Approximate camera, not surveyed.",
+  "weather": "Open-Meteo model data, retrieved 2026-09-23T22:33:46.104021+02:00, valid 2026-09-23T22:30 Europe/Madrid; not a verified on-site observation. 25.2°C, WMO 1, 8% cloud, 0.0 mm precipitation, 27.6 km/h wind. Sunrise 08:13, sunset 20:20; sun elevation -26.68°, azimuth 292.04° clockwise from north, below horizon. Night; no direct sunlight.",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "approval_basis": "No approval claimed. Independent exact-pair five-gate review pending.",
+  "time_of_day": "Night",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "limitations": "Cathedral fine geometry, waterfront façades and lamp operation remain subject to independent review. Strong modeled wind is represented by roughened water, not an on-site observation. Exact-size PNGs are resampled from a 1672×941 built-in generated source; dimensions do not imply native detail. Model weather is not observation. Internal review is not legal certification.",
+  "revision": "r1",
+  "revision_lineage": "Built-in text-only generation r1. Both formats use the same selected source, uniform Lanczos crop/resampling, deterministic gradient and typography; no separate portrait generation. Model version not exposed.",
+  "historical_editions": [],
+  "editions": [],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7050061c977ca749241d1f8b024f0f18ddd07a32fe75cd17c89a808cdd4ff9fd",
+      "bytes": 2912574,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "8168c8890cb3fde197312ec91379470e016fa89ebf0acc562741de68760bfe52",
+      "bytes": 1396534,
+      "source_width": 1672,
+      "source_height": 941,
+      "resampled": true
+    }
+  },
+  "file_16x9": "es-01-022-r1-16x9.png",
+  "file_4x5": "es-01-022-r1-4x5.png",
+  "references": [
+    {
+      "title": "Cádiz municipal tourism — Paseo Campo del Sur",
+      "url": "https://turismo.cadiz.es/es/node/30873",
+      "note": "Official viewpoint description: Atlantic against the walls and golden cathedral silhouette; checked 23 September 2026.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "Cádiz municipal walking map",
+      "url": "https://turismo.cadiz.es/system/files_force/documentos/4%20Walks%20through%20Cadiz%20_%204%20Paseos%20por%20C%C3%A1diz%20ESP_ING.pdf?download=1",
+      "note": "2017 bilingual route map supporting Campo del Sur and old-town/cathedral context.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "España Fascinante Campo del Sur",
+      "url": "https://www.espanafascinante.com/articulo/lugares/paseos-maritimos-bonitos-espana/20240415134909273544.html",
+      "note": "15 April 2024; daylight seawall, waterfront row and cathedral geometry inspected.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    },
+    {
+      "title": "Mauritius Images Cádiz waterfront preview",
+      "url": "https://www.mauritius-images.com/en/asset/ME-PI-2750759_mauritius_images_image_number_06839020_spain-andalusia-cadiz-cathedral-de-cadiz-and-waterfront-buildings-at-night",
+      "note": "Undated night stock preview inspected only for lighting/shoreline precedent; not tonight's state and not used as input pixels.",
+      "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+    }
+  ],
+  "conditions_record": {
+    "retrieved_utc": "2026-09-23T20:33:46.104021+00:00",
+    "retrieved_local": "2026-09-23T22:33:46.104021+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=36.5282&longitude=-6.2996&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 36.5,
+      "longitude": -6.3125,
+      "generationtime_ms": 0.087738037109375,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 5.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-23T22:30",
+        "interval": 900,
+        "temperature_2m": 25.2,
+        "weather_code": 1,
+        "cloud_cover": 8,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 27.6
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-23"
+        ],
+        "sunrise": [
+          "2026-09-23T08:13"
+        ],
+        "sunset": [
+          "2026-09-23T20:20"
+        ]
+      }
+    },
+    "scenario_label": "23 September 2026 · 22:33 Europe/Madrid",
+    "requested_coordinates": [
+      36.5282,
+      -6.2996
+    ],
+    "model_grid_coordinates": [
+      36.5,
+      -6.3125
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -26.68,
+      "azimuth_deg": 292.04
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-23T08:13:00+02:00",
+    "sunset_local": "2026-09-23T20:20:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "gates": {
+    "visual": "Pending independent Cosmo QC; no pass claimed",
+    "technical": "Pending independent Cosmo QC; no pass claimed",
+    "provenance": "Pending independent Cosmo QC; no pass claimed",
+    "commercial_ip": "Pending independent Cosmo QC; no pass claimed",
+    "publication": "Pending independent Cosmo QC; no pass claimed"
+  },
+  "review_packet": {
+    "schema": "Spain candidate asset-only handoff v1",
+    "reviewed_revision": "r1",
+    "exact_pair": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7050061c977ca749241d1f8b024f0f18ddd07a32fe75cd17c89a808cdd4ff9fd",
+        "bytes": 2912574,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-022-r1-16x9.png"
+      },
+      "4x5": {
+        "width": 864,
+        "height": 1080,
+        "sha256": "8168c8890cb3fde197312ec91379470e016fa89ebf0acc562741de68760bfe52",
+        "bytes": 1396534,
+        "source_width": 1672,
+        "source_height": 941,
+        "resampled": true,
+        "file": "es-01-022-r1-4x5.png"
+      }
+    },
+    "prompts": {
+      "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D’s Vision location master source, wide landscape, later cropped to 16:9 and centered 4:5.\nPrimary request: An original photorealistic artistic interpretation of Campo del Sur and Cádiz old town at 22:33 Europe/Madrid on 23 September 2026, from the public seawall promenade near 36.5282,-6.2996, eye level looking east-northeast toward Cádiz Cathedral. It is Night. Open-Meteo model valid 22:30: mainly clear, 25.2°C, 8% cloud, no precipitation, strong 27.6 km/h wind; model data, not an on-site observation. Sun below horizon at elevation -26.68°, azimuth 292.04°; no direct sunlight.\nScene/backdrop: Dark Atlantic water with wind-driven surface texture and small irregular whitecaps occupies the lower/right foreground. A rough stone breakwater and Campo del Sur seawall curve strongly from lower left toward the old-town waterfront. A continuous low row of pale, ochre and muted pastel historic façades follows the curve. Cádiz Cathedral rises clearly above them with ONE large pale-gold tiled central dome and TWO comparable bell towers; the dome is broad but not gigantic.\nComposition/framing: Public ground-level promenade view, not drone and not from the water. Keep the cathedral group, main waterfront row and decisive seawall curve inside the central 43% of a wide 16:9 frame so a centered portrait crop retains them. Ample sea foreground and near-black sky. The viewpoint should read as the iconic Campo del Sur approach, with real coastal scale.\nLighting/mood: Mostly clear dark night, no moon or stars. Restrained warm lamps along the seawall and façades, cathedral softly lit as supported by historical night photos; illumination tonight is not verified, so avoid spectacular floodlighting. Wind roughens the water; promenade and buildings stay dry because precipitation is zero.\nConstraints: Cádiz, not Havana or another generic waterfront. No tropical skyline, no marina boats, no sandy beach, no giant waves over the wall, no rain, no wet paving, no crowds or identifiable people, no logos or readable signs. No text, caption, signature, border or watermark.\n"
+    },
+    "generated_source_records": [
+      {
+        "file": "source-r1.png",
+        "sha256": "ee95e715ee1a310ecea1b98842e28b6ef03aa2f621d91ede7bc051bb3abda12f",
+        "bytes": 2406719,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "selected": true,
+        "retained_in_review_archive": true
+      }
+    ],
+    "architectural_anchors": [
+      "Rough Atlantic water and dark stone breakwater/seawall curve from foreground toward the old-town waterfront",
+      "Cádiz Cathedral has one large pale-gold tiled dome and two similar bell towers above the waterfront roofs",
+      "A continuous low row of pale and ochre historic façades lines Campo del Sur between cathedral and seawall"
+    ],
+    "reference_evidence": [
+      {
+        "title": "Cádiz municipal tourism — Paseo Campo del Sur",
+        "url": "https://turismo.cadiz.es/es/node/30873",
+        "note": "Official viewpoint description: Atlantic against the walls and golden cathedral silhouette; checked 23 September 2026.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "Cádiz municipal walking map",
+        "url": "https://turismo.cadiz.es/system/files_force/documentos/4%20Walks%20through%20Cadiz%20_%204%20Paseos%20por%20C%C3%A1diz%20ESP_ING.pdf?download=1",
+        "note": "2017 bilingual route map supporting Campo del Sur and old-town/cathedral context.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "España Fascinante Campo del Sur",
+        "url": "https://www.espanafascinante.com/articulo/lugares/paseos-maritimos-bonitos-espana/20240415134909273544.html",
+        "note": "15 April 2024; daylight seawall, waterfront row and cathedral geometry inspected.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      },
+      {
+        "title": "Mauritius Images Cádiz waterfront preview",
+        "url": "https://www.mauritius-images.com/en/asset/ME-PI-2750759_mauritius_images_image_number_06839020_spain-andalusia-cadiz-cathedral-de-cadiz-and-waterfront-buildings-at-night",
+        "note": "Undated night stock preview inspected only for lighting/shoreline precedent; not tonight's state and not used as input pixels.",
+        "use": "Reference evidence only; third-party image pixels were not used as generation inputs. Historical imagery, not a same-day observation."
+      }
+    ],
+    "local_technical_checks": [
+      {
+        "file": "022/masters/es-01-022-r1-16x9.png",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "byte_length": 2912574,
+        "sha256": "7050061c977ca749241d1f8b024f0f18ddd07a32fe75cd17c89a808cdd4ff9fd",
+        "source_file": "022/source-r1.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Campo del Sur, Cádiz",
+          "Scenario: 23 September 2026 · 22:33 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation; 021 includes two own-source framing edits. Same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      },
+      {
+        "file": "022/masters/es-01-022-r1-4x5.png",
+        "dimensions": [
+          864,
+          1080
+        ],
+        "byte_length": 1396534,
+        "sha256": "8168c8890cb3fde197312ec91379470e016fa89ebf0acc562741de68760bfe52",
+        "source_file": "022/source-r1.png",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "crop_center": [
+          0.5,
+          0.5
+        ],
+        "labels": [
+          "Campo del Sur, Cádiz",
+          "Scenario: 23 September 2026 · 22:33 Europe/Madrid",
+          "AI-generated artistic interpretation · Not a photograph."
+        ],
+        "signature": "Jason D’s Vision",
+        "format": "PNG",
+        "lineage": "Built-in generation; 021 includes two own-source framing edits. Same final 1672×941 source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay.",
+        "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      }
+    ],
+    "producer_check": "Both PNGs decoded and verified, exact dimensions and full SHA-256 computed. Contact sheet visually inspected for complete landmark retention and labels. This is not independent QC.",
+    "served_verification": "To be recorded separately after single-file submission; no live claim in this pre-publication packet.",
+    "card_handoff": {
+      "owner": "Independent Cosmo sweep",
+      "pipeline": "Candidate, separate from approved gallery",
+      "thumbnail": "es-01-022-r1-16x9.png",
+      "href": "es-01-022-r1-16x9.png",
+      "target": "_blank",
+      "portrait_retained": "es-01-022-r1-4x5.png",
+      "controls": "One wide thumbnail opening the full-size wide PNG; no extra viewer/download controls",
+      "preserve": "Caption, scenario, composition, status, license/badge, footer, search, navigation and country switcher"
+    },
+    "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
+    "rejection_notes": [],
+    "independent_verdict": null
+  }
+}
