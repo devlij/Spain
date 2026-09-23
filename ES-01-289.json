@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-289",
+  "country": "Spain",
+  "city": "Tenerife",
+  "region": "Canary Islands",
+  "caption": "San Cristóbal de La Laguna, Tenerife",
+  "revision": "r1",
+  "viewpoint": "From a colonial street in the historic center near 28.4876,-16.3139, eye-level looking along the cobbled street toward the cathedral tower. Approximate point only.",
+  "anchors": [
+    "Pastel colonial facades with dark wooden balconies lining both sides of the cobbled street",
+    "Warm street lamps receding into the distance",
+    "Cathedral tower silhouette at the far end; cobblestones reflecting lamplight"
+  ],
+  "limitations": "Exact street segment unverified; no floodlighting claimed — only ordinary street lamps. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
+      "Encyclopedic description of San Cristóbal de La Laguna (English Wikipedia), verified 24 September 2026; used for setting and geometry facts, not camera pose or current conditions."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
+      "Spanish Wikipedia entry for San Cristóbal de La Laguna, verified 24 September 2026; complementary encyclopedic reference."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:21 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From a colonial street in La Laguna's historic center, looking along the cobbled street toward the cathedral tower near 28.4876,-16.3139. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of San Cristóbal de La Laguna, Tenerife at night.",
+  "description": "A cobbled street in La Laguna's UNESCO historic center glows under warm street lamps, with pastel colonial façades and dark wooden balconies lining both sides. The cathedral tower stands silhouetted at the end of the street, and the cobblestones shine with reflected lamplight. With 18% model cloud and clear night air, it is a quiet old-town night — lit only by ordinary street lighting, nothing floodlit.",
+  "file_16x9": "es-01-289-r1-16x9.png",
+  "file_4x5": "es-01-289-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "797e2b686dd36266827b97a5d17cdb3735182b0206c14ab0ac6f3d5a595c568e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "2e4b4c562b8734d5f5e87122fefce74293e1cfed151464155a950ca6d7c6775d"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-289-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2420976,
+      "sha256": "797e2b686dd36266827b97a5d17cdb3735182b0206c14ab0ac6f3d5a595c568e",
+      "source_file": "media-generation-src-es-01-289-0-001d9d4b-d1f3-475d-9277-118bb40cbe90.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "San Cristóbal de La Laguna, Tenerife",
+        "Scenario: 24 September 2026 · 01:21 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-289-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1118472,
+      "sha256": "2e4b4c562b8734d5f5e87122fefce74293e1cfed151464155a950ca6d7c6775d",
+      "source_file": "media-generation-src-es-01-289-0-001d9d4b-d1f3-475d-9277-118bb40cbe90.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "San Cristóbal de La Laguna, Tenerife",
+        "Scenario: 24 September 2026 · 01:21 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.4876&longitude=-16.3139&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:15+02:00",
+    "valid": "2026-09-24T01:15+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:15+02:00, valid 2026-09-24T01:15+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic night interpretation of a colonial street in San Cristobal de La Laguna, Tenerife: pastel colonial facades with dark wooden balconies lining both sides of a cobbled street; warm street lamps receding into the distance; the silhouette of the cathedral tower at the far end of the street; wet-look cobblestones reflecting the lamplight; clear night sky above the rooftops; no prominent people, no cars, no text, no logos; street centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-289-0-001d9d4b-d1f3-475d-9277-118bb40cbe90.png",
+      "sha256": "14f39a0ea5d93ca677dfac9ccf980cc25d166e90024afea7dfbfec042db6eee0",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
