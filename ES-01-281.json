@@ -11,7 +11,7 @@
     "Great church with fortified facade and cloister ranges",
     "Dark Prades mountains rise behind"
   ],
-  "limitations": "Exact camera point approximate; window and lamp light only — no claim about specific illumination; current conditions unverified.",
+  "limitations": "Exact camera point approximate; window and lamp light only — no claim about specific illumination; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Poblet_Monastery",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.3803&longitude=1.0839&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:35+02:00",
     "valid_local": "2026-09-24T01:30",
     "temperature_c": 16.5,
     "weather_code": 0,
