@@ -241,18 +241,39 @@
         }
       ],
       "approval_basis": "Explicit Jason approval, 23 September 2026: mosaic façade and cross-topped roof accepted in honest morning light. Internal editorial approval, not legal certification."
+    },
+    {
+      "entry_id": "ES-01-004",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Granada",
+      "caption": "Alhambra, Granada",
+      "scenario_label": "23 September 2026 · 11:34 Europe/Madrid",
+      "composition": "Morning daylight · Ensemble from Mirador de San Nicolás · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Alhambra across its wooded ridge in morning daylight. Candidate review draft.",
+      "description": "The palace-and-fortress ensemble spans the wooded ridge above the Darro valley. Both formats retain the main landmark span. The central palace mass and tower proportions need correction before approval.",
+      "viewpoint": "Mirador de San Nicolás, looking south-southeast at approximate eye level. Named viewpoint is map-supported; exact generated camera correspondence is unverified.",
+      "status": "Candidate · palace and tower proportions require correction · not approved",
+      "approval_state": "candidate",
+      "gates": {
+        "visual": "not passed — central palace mass and tower proportions differ from reference; façade illumination also requires review",
+        "technical": "pass — inspected both exact PNG exports, full main landmark span and all four labels",
+        "provenance": "recorded — text-only generation followed by own-image framing edit; originality not independently established",
+        "commercial_ip": "no prominent identifiable people or legible logos seen; third-party clearance unverified; internal review only",
+        "publication": "pipeline review only — not approved gallery"
+      },
+      "weather": "Model data from Open-Meteo, retrieved 23 September 2026 11:34:40 Europe/Madrid, valid 11:30 Europe/Madrid — not a verified on-site observation. 25.6°C, mainly clear, cloud 29%. Sunrise 08:02, sunset 20:09; outside twilight window.",
+      "limitations": "Not approved. Central palace mass, tower proportions and directional façade lighting need review. Generated vegetation and fine architectural details are not on-site observations. Originality and commercial/IP clearance remain unverified.",
+      "file_16x9": "es-01-004-16x9.png",
+      "file_4x5": "es-01-004-4x5.png",
+      "license_badge": "Free · no credit needed",
+      "license_anchor": "#license",
+      "editions": [],
+      "time_of_day": "Morning daylight",
+      "revision_lineage": "Built-in image_gen.imagegen text-only generation followed by one own-image framing edit. No external photographic pixels supplied. Both masters exported from the same edited source with uniform resampling, center crop and deterministic gradient text."
     }
   ],
   "starters": [
-    {
-      "entry_id": "ES-01-004",
-      "caption": "Alhambra, Granada",
-      "city": "Granada",
-      "region": "Andalusia",
-      "composition": "The palace and fortress ensemble across the valley; verify the selected public overlook.",
-      "status": "Queued — not generated",
-      "country": "Spain"
-    },
     {
       "entry_id": "ES-01-005",
       "caption": "Mezquita-Catedral, Córdoba",
