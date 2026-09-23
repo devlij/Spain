@@ -845,6 +845,45 @@
       "status": "Approved · Cosmo QC 5/5 · Night",
       "approval_state": "approved",
       "approval_basis": "Cosmo five-gate audit 2026-09-23: visual/location inspected; SHA-256 + exact 1920x1080/864x1080 verified; provenance documented; Gate 4 documentation-only; publication readiness passed."
+    },
+    {
+      "entry_id": "ES-01-027",
+      "country": "Spain",
+      "region": "Asturias",
+      "city": "Covadonga",
+      "caption": "Basílica, Covadonga",
+      "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+      "composition": "Night · Public basilica esplanade, eye-level frontal view toward the twin-tower facade. Model coordinates 43.3083,-5.0550 approximate the sanctuary, not a surveyed camera. Exact heading and camera correspondence unverified. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Basílica, Covadonga at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-028",
+      "country": "Spain",
+      "region": "Asturias",
+      "city": "Covadonga",
+      "caption": "Lago Enol, Covadonga",
+      "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+      "composition": "Night · Eye-level rocky public north-shore footpath of Lago Enol, looking south across the lake. Approximate model request 43.2746,-4.9911; not a surveyed exact camera or assertion of nighttime access. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Lago Enol, Covadonga at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-029",
+      "country": "Spain",
+      "region": "Asturias",
+      "city": "Gijón",
+      "caption": "Playa de San Lorenzo, Gijón",
+      "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
+      "composition": "Night · Public El Muro promenade at western San Lorenzo beach near 43.5426,-5.6569, eye-level looking approximately northwest toward San Pedro church, with sea to right. Approximate coordinates, not surveyed camera. · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Playa de San Lorenzo, Gijón at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
     }
   ],
   "starters": [
