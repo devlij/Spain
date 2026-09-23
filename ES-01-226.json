@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-226",
+  "country": "Spain",
+  "city": "Aracena",
+  "region": "Andalusia",
+  "caption": "Aracena, Huelva",
+  "revision": "r1",
+  "viewpoint": "the rampart path of the 13th-century castle ruins, looking down over the town",
+  "anchors": [
+    "the 13th-century castle wall remnants and the Prior Church's Mudéjar tower nearby",
+    "the whitewashed village spilling down the hillside, streetlamps tracing the lanes",
+    "the dark hillside below holding the Gruta de las Maravillas cave"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time lighting is restrained and interpretive, not verified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.biospheresustainable.com/en/blog/23/enjoying-nature-in-sierra-de-aracena",
+      "Sierra de Aracena guide — Gruta de las Maravillas (first Spanish cave opened to visitors, 1914), castle ruins with panoramic town views"
+    ],
+    [
+      "https://www.tripadvisor.in/Attraction_Review-g616234-d11669915-Reviews-or10-Gruta_de_las_Maravillas-Aracena_Sierra_de_Aracena_and_Picos_de_Aroche_Natur.html",
+      "Tripadvisor — Gruta de las Maravillas visitor reviews, 4.5/5, located in the town center under the castle hill"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:41 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · hilltop castle ruins overlooking the white village at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Aracena at night.",
+  "description": "From the rampart path of Aracena's 13th-century castle, the white village spills down the hillside, its streetlamps tracing the lanes among whitewashed houses. The Prior Church's Mudéjar tower rises near the castle, modeled on Seville's Giralda, while below lies the hill holding the Gruta de las Maravillas — Spain's first cave opened to visitors, in 1914. On a clear 21°C night in the Sierra de Aracena, the town sits quiet above its famous underworld.",
+  "file_16x9": "es-01-226-r1-16x9.png",
+  "file_4x5": "es-01-226-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "40db00f51ffe63b4b15015b754e5dde47af5469753c3e195d5f6ff9c2d3483ad"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "e9bd59e166ecf0c753a761af7c5af0e2178043ac6c701161b79fdadc964541df"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-226-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3372415,
+      "sha256": "40db00f51ffe63b4b15015b754e5dde47af5469753c3e195d5f6ff9c2d3483ad",
+      "source_file": "media-generation-es-01-226-source-0-f962c1e6-9f2f-43da-9324-4952f47a71b9.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Aracena, Huelva",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-226-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1445493,
+      "sha256": "e9bd59e166ecf0c753a761af7c5af0e2178043ac6c701161b79fdadc964541df",
+      "source_file": "media-generation-es-01-226-source-0-f962c1e6-9f2f-43da-9324-4952f47a71b9.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Aracena, Huelva",
+        "Scenario: 24 September 2026 · 01:41 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:38:39+02:00",
+    "valid": "2026-09-24T01:41:33+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 20.7,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 7.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:38:39+02:00, valid 2026-09-24T01:41:33+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Aracena, Huelva, Spain, at night. Tourist viewpoint: the rampart path of the 13th-century castle ruins, looking down over the town. Frame: the 13th-century castle wall remnants and the Prior Church's Mudéjar tower nearby; the whitewashed village spilling down the hillside, streetlamps tracing the lanes; the dark hillside below holding the Gruta de las Maravillas cave. Night light: moonlight on the castle ruins and village roofs, warm village streetlamps tracing the lanes, starry clear sky, 21 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-226-source-0-f962c1e6-9f2f-43da-9324-4952f47a71b9.png",
+      "sha256": "fb5d238ae1424e832ef11de75d800e8667af0c6e40227f0eda3d6ce650f90a4c",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
