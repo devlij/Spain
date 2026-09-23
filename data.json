@@ -738,9 +738,9 @@
       "scenario_label": "23 September 2026 · 21:52 Europe/Madrid",
       "composition": "NIGHT · Northeast reflecting-pool promenade facing southwest toward the Hemisfèric; approximate camera near 39.457168,-0.353358, based on the documented Commons viewpoint, not surveyed. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of City of Arts and Sciences, Valencia at night. The Hemisfèric glass shell and central auditorium reflect in the basin beneath a partly cloudy night sky.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit PASS: Gate 1 — Hemisfèric's glass eye-shell with central dome over reflecting pools from the northeast promenade, recognizably the captioned site at night, clean framing, no artifacts; Gate 2 — both masters at exact 1920×1080/864×1080 with SHAs matching the packet, exact caption 'City of Arts and Sciences, Valencia', scenario timestamp '23 September 2026 · 21:52 Europe/Madrid', 'AI-generated artistic interpretation' disclosure, and 'Jason D's Vision' signature legible on the bottom gradient; Gate 3 — packet documents reference evidence only, no third-party image pixels used as generation inputs; Gate 4 documentation-only — no visible people/logos; public exterior; Gate 5 — publication ready, no open blockers."
     },
     {
       "entry_id": "ES-01-019",
