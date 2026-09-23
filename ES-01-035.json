@@ -1,0 +1,225 @@
+{
+  "entry_id": "ES-01-035",
+  "country": "Spain",
+  "city": "Ciutadella",
+  "region": "Balearic Islands",
+  "caption": "Naveta des Tudons, Ciutadella",
+  "revision": "r1",
+  "viewpoint": "Public visitor path immediately southeast of Naveta des Tudons, approximately 40.0037, 3.8915, low eye-level looking northwest at the entrance end and boat-shaped mass. Nighttime visitor access is not asserted.",
+  "anchors": [
+    "Single compact inverted-boat funerary monument of massive dry-laid limestone blocks",
+    "Small low rectangular entrance in the flat end wall",
+    "Open dry Menorcan field with low scrub and a simple visitor path"
+  ],
+  "limitations": "This is a dark ambient long-exposure interpretation with no invented floodlights; it does not claim nighttime access. Individual block placement, entrance proportions and vegetation require independent review.",
+  "refs": [
+    [
+      "https://www.menorcatalayotica.info/contingut.aspx?idioma=3&idpub=10664",
+      "Menorca Talayótica monument description and imagery; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.illesbalears.travel/en/menorca/the-archaeology-of-menorca-a-unesco-world-heritage-site",
+      "Official Balearic tourism archaeology overview identifying Naveta des Tudons near Ciutadella; retrieved 23 September 2026."
+    ],
+    [
+      "https://www.descobreixmenorca.com/en/megalithic-menorca/naveta-des-tudons/",
+      "Complementary monument description of massive mortarless walls and two chambers; retrieved 23 September 2026."
+    ],
+    [
+      "https://aws-tiqets-cdn.imgix.net/images/content/b9d1709fb90b401e82b5416817d8544f.jpeg",
+      "Complementary daylight photograph visually inspected for block texture and entrance geometry; not supplied to generation."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public visitor path immediately southeast of Naveta des Tudons, approximately 40.0037, 3.8915, low eye-level looking northwest at the entrance end and boat-shaped mass. Nighttime visitor access is not asserted. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Naveta des Tudons, Ciutadella at night.",
+  "description": "Single compact inverted-boat funerary monument of massive dry-laid limestone blocks; Small low rectangular entrance in the flat end wall; Open dry Menorcan field with low scrub and a simple visitor path.",
+  "file_16x9": "es-01-035-r1-16x9.png",
+  "file_4x5": "es-01-035-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2e44e1a41760352c72e4164177ad884072ab3e292ba5f5cd93aa2eeceeb7a03a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6cc2de3c7692baaa068fa45b25c7f4ca7aff2e12b7ae1ecefa2e997d868766ad"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-035-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2880815,
+      "sha256": "2e44e1a41760352c72e4164177ad884072ab3e292ba5f5cd93aa2eeceeb7a03a",
+      "source_file": "035/source-r1.png",
+      "source_dimensions": [
+        1586,
+        992
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Naveta des Tudons, Ciutadella",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-035-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1491947,
+      "sha256": "6cc2de3c7692baaa068fa45b25c7f4ca7aff2e12b7ae1ecefa2e997d868766ad",
+      "source_file": "035/source-r1.png",
+      "source_dimensions": [
+        1586,
+        992
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Naveta des Tudons, Ciutadella",
+        "Scenario: 24 September 2026 · 01:14 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-23T23:14:45.271356+00:00",
+    "retrieved_local": "2026-09-24T01:14:45.271356+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.0037&longitude=3.8915&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 40.0,
+      "longitude": 3.875,
+      "generationtime_ms": 0.09691715240478516,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 44.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T01:00",
+        "interval": 900,
+        "temperature_2m": 19.9,
+        "weather_code": 1,
+        "cloud_cover": 9,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 2.6
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:33"
+        ],
+        "sunset": [
+          "2026-09-24T19:38"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
+    "requested_coordinates": [
+      40.0037,
+      3.8915
+    ],
+    "model_grid_coordinates": [
+      40.0,
+      3.875
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -49.62,
+      "azimuth_deg": 351.54
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:33:00+02:00",
+    "sunset_local": "2026-09-24T19:38:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:14:45.271356+02:00, valid 2026-09-24T01:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural. Asset: Spain gallery documentary master. Create a wide 16:9 low-light documentary photograph of Naveta des Tudons near Ciutadella, Menorca at 01:14 local time on 24 September 2026. Camera from the public visitor path southeast of the monument, low eye-level looking directly toward its flat entrance end and long rounded inverted-boat mass. Show one compact prehistoric funerary structure built from massive irregular dry-laid pale limestone blocks, with a very small low rectangular doorway in the end wall; open dry Menorcan field, sparse low scrub and simple earth path around it. Mostly clear moonless-looking deep navy-black sky, faint natural ambient blue light only, enough to read the form without artificial floodlighting. No visible lamps, glowing doorway, people, fences dominating, second monument, castle crenellations, giant doorway, moon, stars, Milky Way, text, logos or watermark. Honest long-exposure interpretation. Center monument for a complete 4:5 crop.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "5debcb8862a07676b081ec5d048ccd9016f0d812d1f28effb4d18427978c9862",
+      "dimensions": [
+        1586,
+        992
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. Reference copies stay in private review archive, not website. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1586, 992]; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verify, dimensions exact; label boxes in frame and nonoverlapping. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict. Review residual differences explicitly.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline",
+    "section15": "One wide thumbnail opening full-size landscape PNG in new tab; retain portrait file; no extra controls.",
+    "preserve": "caption, scenario, composition, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
