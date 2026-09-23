@@ -11,7 +11,7 @@
     "Limestone gallery with stalactites catching the cave's warm lighting",
     "Water mirrors the glowing formations"
   ],
-  "limitations": "Exact camera point approximate; cave's own installed lighting depicted; tour access at 01:35 unverified; current conditions unverified.",
+  "limitations": "Exact camera point approximate; cave's own installed lighting depicted; tour access at 01:35 unverified; current conditions unverified. Weather retrieval recorded to minute precision from local build evidence.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Coves_de_Sant_Josep",
@@ -102,7 +102,7 @@
   "conditions": {
     "provider": "Open-Meteo",
     "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=39.817&longitude=-0.2495&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "retrieved_local": "2026-09-24T01:36+02:00",
     "valid_local": "2026-09-24T01:30",
     "temperature_c": 19.9,
     "weather_code": 0,
