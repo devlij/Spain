@@ -34,8 +34,8 @@
       "Complementary daytime photograph, asset path December 2021, visually inspected 23 September 2026; verifies facade, forecourt and hills."
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "23 September 2026 · 23:29 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Public basilica esplanade, eye-level frontal view toward the twin-tower facade. Model coordinates 43.3083,-5.0550 approximate the sanctuary, not a surveyed camera. Exact heading and camera correspondence unverified. · AI-generated artistic interpretation",
@@ -234,5 +234,6 @@
       "file": "covadonga-seasonal-lighting.jpg",
       "sha256": "2d4de88a4958944905d5deda922145d84667623622ee2cd111ebb998b1f6c41a"
     }
-  ]
+  ],
+  "approval_basis": "Five-gate audit passed. Gate 1: twin-tower neo-Romanesque façade with pyramid spires, clock faces, pink limestone, and mountain backdrop recognizably depict the Basílica de Santa María la Real de Covadonga from the public esplanade; clean framing, no misconfiguration or artifacts. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents built-in text-only generation lineage with no photographic inputs; night lighting disclosed as historical precedent only, not tonight's schedule. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready."
 }
