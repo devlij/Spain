@@ -1,0 +1,153 @@
+{
+  "entry_id": "ES-01-313",
+  "country": "Spain",
+  "city": "Gijón",
+  "region": "Asturias",
+  "caption": "Gijón, Asturias",
+  "revision": "r2",
+  "viewpoint": "From the bay near 43.5450,-5.6610, looking at the old town lights. Approximate point only.",
+  "anchors": [
+    "Old town lights strung along the dark bay",
+    "Warm harbor lamps reflected in the calm moonlit water",
+    "Low dark silhouette of the Santa Catalina headland, no lighthouse depicted",
+    "Clear starry sky (0% model cloud)"
+  ],
+  "limitations": "r1 rejected in local self-check: a lighthouse-like tower was depicted on the Santa Catalina headland, which the headland does not carry; regenerated as r2 with the headland kept low and dark. Town and harbor lamps are generic; no specific fixtures claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Gij%C3%B3n",
+      "Encyclopedic description of Gijón (English Wikipedia), 24 September 2026; reference article link — direct page fetch was unavailable in this build turn, so the page text was not re-verified; URL follows the same verified en/es Wikipedia pattern used for all prior scenes."
+    ],
+    [
+      "https://es.wikipedia.org/wiki/Gij%C3%B3n",
+      "Spanish Wikipedia entry for Gijón; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:42 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · From the Gijón bay, old town lights reflected in moonlit water near 43.5450,-5.6610. Approximate point only. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Gijón bay at night.",
+  "description": "Gijón's old town lights are strung along the dark bay, their warmth reflected in the calm moonlit water. The low dark silhouette of the Santa Catalina headland closes the bay at its edge. With 0% model cloud the sky stays clear and starry over the Cantabrian Sea.",
+  "file_16x9": "es-01-313-r2-16x9.png",
+  "file_4x5": "es-01-313-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "52dfe1b41db0e1d4c24b9d873bd927be77bd2d9611bf67c44cc4c3220b3a2b91"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "dac049cef1863079b5be6b495c37654aa6a106a45067a99b2ff30a836ea87182"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-313-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2005632,
+      "sha256": "52dfe1b41db0e1d4c24b9d873bd927be77bd2d9611bf67c44cc4c3220b3a2b91",
+      "source_file": "media-generation-src-es-01-313-r2-0-75a686e7-ab01-4ab6-82e8-009f5da757f2.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Gijón, Asturias",
+        "Scenario: 24 September 2026 · 01:42 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-313-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 943521,
+      "sha256": "dac049cef1863079b5be6b495c37654aa6a106a45067a99b2ff30a836ea87182",
+      "source_file": "media-generation-src-es-01-313-r2-0-75a686e7-ab01-4ab6-82e8-009f5da757f2.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Gijón, Asturias",
+        "Scenario: 24 September 2026 · 01:42 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.5450&longitude=-5.6610&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved": "2026-09-24T01:30+02:00",
+    "valid": "2026-09-24T01:30+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid"
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30+02:00, valid 2026-09-24T01:30+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r2.txt": "Photorealistic artistic night interpretation of the bay of Gijon in Asturias: the old town lights strung along the dark bay; warm harbor lamps reflected in the calm moonlit water; the low dark silhouette of the Santa Catalina headland at the bay's edge, kept low and rocky with NO lighthouse or tower on it; clear starry sky; no prominent people, no text, no logos; bay centered so it survives a center crop; clean uncluttered lower area."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-src-es-01-313-r2-0-75a686e7-ab01-4ab6-82e8-009f5da757f2.png",
+      "sha256": "a5b4d8fad04f5404dfa46be24e348745f0aa436f7a5fb08a2f87cef966b7e28f",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
