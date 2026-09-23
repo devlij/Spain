@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-246",
+  "country": "Spain",
+  "city": "Tarragona",
+  "region": "Catalonia",
+  "caption": "Tarragona Cathedral, Tarragona",
+  "revision": "r1",
+  "viewpoint": "Pla de la Seu at the top of the cathedral steps, eye-level, facing the facade. Exact camera point approximate.",
+  "anchors": [
+    "Rose window centered on the Gothic-Romanesque facade",
+    "Balustraded stone staircase descends toward the viewer",
+    "Bell tower and cloister walls flank the portal"
+  ],
+  "limitations": "Exact camera point approximate; facade lighting is street-lamp light only — no claim about the cathedral's actual night illumination; current conditions unverified.",
+  "refs": [
+    [
+      "https://velvetescape.com/things-to-see-in-tarragona/",
+      "Tarragona sights (cathedral of Santa Tecla, Pla de la Seu, Roman quarter)"
+    ],
+    [
+      "https://thehappyjetlagger.com/en/things-to-do-in-tarragona/",
+      "Tarragona old town (cathedral staircase, medieval quarter)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:16 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Rose-window facade above the grand staircase, lamplit at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Tarragona Cathedral, Tarragona at night.",
+  "description": "From the Pla de la Seu, Tarragona Cathedral's Gothic-Romanesque facade rises above its grand balustraded staircase, the rose window centered over the carved portal and washed in warm street-lamp light. The bell tower and cloister walls flank the front, while old town rooftops fall away to the lower right. A mainly clear night at 20.5°C keeps the stones softly glowing against the dark.",
+  "file_16x9": "es-01-246-r1-16x9.png",
+  "file_4x5": "es-01-246-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "35d89fba7a38b7049bd66491519b178d0f33d8f39a41d675696fe2adb9dce59b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "b738701c834e4595900851905d95cfcd1d39e8106f5ec483e566a90dbf8d0347"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-246-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2589842,
+      "sha256": "35d89fba7a38b7049bd66491519b178d0f33d8f39a41d675696fe2adb9dce59b",
+      "source_file": "source-246.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Tarragona Cathedral, Tarragona",
+        "Scenario: 24 September 2026 · 01:16 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-246-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1261064,
+      "sha256": "b738701c834e4595900851905d95cfcd1d39e8106f5ec483e566a90dbf8d0347",
+      "source_file": "source-246.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Tarragona Cathedral, Tarragona",
+        "Scenario: 24 September 2026 · 01:16 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=41.1189&longitude=1.2445&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "retrieved_local": "2026-09-24T01:12:51+02:00",
+    "valid_local": "2026-09-24T01:15",
+    "temperature_c": 20.5,
+    "weather_code": 1,
+    "weather_word": "mainly clear",
+    "cloud_cover_pct": 50,
+    "is_day": 0,
+    "wind_kmh": 6.6
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:12:51+02:00, valid 2026-09-24T01:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of Tarragona Cathedral in Catalonia at night, viewed from Pla de la Seu at the top of the cathedral steps. The rose window glows in the center of the Gothic-Romanesque facade flanked by the bell tower and cloister walls, with the balustraded stone staircase descending toward the viewer; old town rooftops fall away to the lower right. Warm street-lamp light washes the carved stone portal; quiet night atmosphere."
+  },
+  "source_files": [
+    {
+      "file": "source-246.png",
+      "sha256": "e7d3ca3aff37711b5673e61a27a5a0050921277097418363d2a643444fdb4846",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
