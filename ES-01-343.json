@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-343",
+  "country": "Spain",
+  "city": "San Millán de la Cogolla",
+  "region": "La Rioja",
+  "caption": "Yuso Monastery, San Millán",
+  "revision": "r1",
+  "viewpoint": "Valley approach to the monastery (approx 42.3258N, 2.8650W)",
+  "anchors": [
+    "Long Baroque-Renaissance façade of the Yuso monastery",
+    "Church towers and cloister arcades",
+    "Dark valley of San Millán de la Cogolla around the monastery"
+  ],
+  "limitations": "No night floodlighting is claimed — none is documented for this site, so the scene shows only moonlight and scattered lit windows; unverified for this specific hour. Façade and tower detail are interpretive. Camera point in the valley is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Monasteries_of_San_Mill%C3%A1n_de_la_Cogolla",
+      "Encyclopedia: Yuso and Suso monasteries, UNESCO World Heritage 1997, birthplace of the written Spanish language"
+    ],
+    [
+      "https://hosteriasanmillan.com/en/monasteries-san-millan-cogolla/yuso-monastery/",
+      "Hostería San Millán: Yuso monastery detail — Baroque and Renaissance styles, Augustinian community"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 03:50 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Monastery from the valley, moonlit façade under a starry sky · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Monastery of San Millán de Yuso at night.",
+  "description": "At night the Monastery of San Millán de Yuso lies dark in its valley under the stars — the long Baroque-Renaissance façade and church towers catching only cool moonlight, a few warm windows glowing where the Augustinian monks keep their hours. On the hill above stands old Suso, where the Glosas Emilianenses made this the cradle of the Spanish language. No floodlights: the monastery rests in its honest dark.",
+  "file_16x9": "es-01-343-r1-16x9.png",
+  "file_4x5": "es-01-343-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6b42ff04b606368716537c8f80a05d5d00f83ff50cd04a19bc9359fc1e03c688"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7b1f30352feb4fc596c0dd7db78779fa5aa821002faaab79111b5b6e5f732b9a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-343-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1920127,
+      "sha256": "6b42ff04b606368716537c8f80a05d5d00f83ff50cd04a19bc9359fc1e03c688",
+      "source_file": "media-generation-es-01-343-source-0-3fd9fdb6-9836-4d16-b4ec-b89224c46f5c.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Yuso Monastery, San Millán",
+        "Scenario: 24 September 2026 · 03:50 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-343-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1081501,
+      "sha256": "7b1f30352feb4fc596c0dd7db78779fa5aa821002faaab79111b5b6e5f732b9a",
+      "source_file": "media-generation-es-01-343-source-0-3fd9fdb6-9836-4d16-b4ec-b89224c46f5c.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Yuso Monastery, San Millán",
+        "Scenario: 24 September 2026 · 03:50 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Monastery of San Millán de Yuso, La Rioja, Spain, at night. IMPORTANT: no floodlighting — the monastery lies mostly dark under moonlight and a starry sky. Its long Baroque-Renaissance façade, church towers and cloister arcades catch faint cool moonlight; a few warm windows glow softly. The dark valley of San Millán de la Cogolla sleeps around it. Quiet, honest night mood. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-343-source-0-3fd9fdb6-9836-4d16-b4ec-b89224c46f5c.png",
+      "sha256": "ea8316c4281405e56e3be403f7e262e2394d9cb7fedc32db304676884c1d5ea5",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
