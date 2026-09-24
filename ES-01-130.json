@@ -1,0 +1,148 @@
+{
+  "entry_id": "ES-01-130",
+  "country": "Spain",
+  "city": "Alquézar",
+  "region": "Aragon",
+  "caption": "Alquézar, Alquézar",
+  "revision": "r1",
+  "viewpoint": "the canyon viewpoint across the Vero, looking at the crag",
+  "anchors": [
+    "Alquézar's collegiate church on its crag over the Vero canyon",
+    "the village's stone lanes below the collegiate",
+    "the Sierra de Guara gorges beyond"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Alqu%C3%A9zar",
+      "Wikipedia — Alquézar, village in the Sierra de Guara"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the crag village over the canyon · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Alquézar at night.",
+  "description": "Alquézar perches on its crag over the Vero canyon — a collegiate church, stone lanes, and the gorges of the Sierra de Guara beyond. A overcast night, light air over the Sierra de Guara. It is the gateway to one of Europe's great canyoning regions.",
+  "file_16x9": "es-01-130-r1-16x9.png",
+  "file_4x5": "es-01-130-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e7b484538858aff5e00ffda8233071f7214a3fb2044e7ed702239781a59e02c0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "bde8d40698cb402320548028b40ee1565509cb8025c0896cb2ab6813c7fa7936"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-130-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2232955,
+      "sha256": "e7b484538858aff5e00ffda8233071f7214a3fb2044e7ed702239781a59e02c0",
+      "source_file": "media-generation-es-01-130-source-r2-0-98787709-2996-47a9-ae91-74a7e6dd5a5a.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Alquézar, Alquézar",
+        "Scenario: 24 September 2026 · 04:06 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-130-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1134504,
+      "sha256": "bde8d40698cb402320548028b40ee1565509cb8025c0896cb2ab6813c7fa7936",
+      "source_file": "media-generation-es-01-130-source-r2-0-98787709-2996-47a9-ae91-74a7e6dd5a5a.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Alquézar, Alquézar",
+        "Scenario: 24 September 2026 · 04:06 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:09:49+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "phrase": "overcast night, light air",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:49+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Alquézar, Aragon, Spain. Tourist viewpoint: the canyon viewpoint across the Vero, looking at the crag. Frame: Alquézar's collegiate church on its crag over the Vero canyon; the village's stone lanes below the collegiate; the Sierra de Guara gorges beyond. Light and weather: overcast night, light air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-130-source-r2-0-98787709-2996-47a9-ae91-74a7e6dd5a5a.png",
+      "sha256": "7773b1415522ed31d9a17e2e621be49b54462ceb52a1bb1034c9d8da6ee0061f",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

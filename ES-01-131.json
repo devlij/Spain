@@ -1,0 +1,148 @@
+{
+  "entry_id": "ES-01-131",
+  "country": "Spain",
+  "city": "Nuévalos",
+  "region": "Aragon",
+  "caption": "Monasterio de Piedra, Nuévalos",
+  "revision": "r1",
+  "viewpoint": "the park path before the great cascade, looking into the grotto",
+  "anchors": [
+    "the waterfalls of the Monasterio de Piedra park",
+    "the great Cola de Caballo cascade in its grotto",
+    "the Cistercian monastery buildings among the gardens"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Monasterio_de_Piedra",
+      "Wikipedia — the Monasterio de Piedra and its water park"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the waterfalls in the park · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Monasterio de Piedra at night.",
+  "description": "The Monasterio de Piedra hides a water garden in the Aragonese steppe — waterfalls, grottos, and the great Cola de Caballo cascade around a Cistercian monastery. A clear night, light breeze over the Aragonese steppe. The monks diverted the Piedra river into a romantic park.",
+  "file_16x9": "es-01-131-r1-16x9.png",
+  "file_4x5": "es-01-131-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bb25f710c261df2e412d1bba04a0587af8f52b9fbbc958b8bd3d92099d6ecc84"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "4e354130ddd553627dfc8e453e9f9bfcd802046178d6741fe96d1caf96d464df"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-131-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3186620,
+      "sha256": "bb25f710c261df2e412d1bba04a0587af8f52b9fbbc958b8bd3d92099d6ecc84",
+      "source_file": "media-generation-es-01-131-source-0-e73d2907-157f-4f21-aad6-c7e8b40b9d62.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Monasterio de Piedra, Nuévalos",
+        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-131-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1725284,
+      "sha256": "4e354130ddd553627dfc8e453e9f9bfcd802046178d6741fe96d1caf96d464df",
+      "source_file": "media-generation-es-01-131-source-0-e73d2907-157f-4f21-aad6-c7e8b40b9d62.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Monasterio de Piedra, Nuévalos",
+        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:09:51+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "phrase": "clear night, light breeze",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:51+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Monasterio de Piedra park in Nuévalos, Aragon, Spain. Tourist viewpoint: the park path before the great cascade, looking into the grotto. Frame: the waterfalls of the Monasterio de Piedra park; the great Cola de Caballo cascade in its grotto; the Cistercian monastery buildings among the gardens. Light and weather: clear night, gentle breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-131-source-0-e73d2907-157f-4f21-aad6-c7e8b40b9d62.png",
+      "sha256": "d7354773cbae36e04d8f569a987da86826ef633dad301baeec31d6a9936eefa3",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

@@ -1,0 +1,148 @@
+{
+  "entry_id": "ES-01-125",
+  "country": "Spain",
+  "city": "Teruel",
+  "region": "Aragon",
+  "caption": "Mudejar Towers, Teruel",
+  "revision": "r1",
+  "viewpoint": "the Plaza del Torico, looking up at the towers",
+  "anchors": [
+    "the Mudejar towers of Teruel in glazed brick and tile",
+    "the cathedral tower and San Martín tower over the old town",
+    "the Los Arcos aqueduct at the town's edge"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Mud%C3%A9jar_Architecture_of_Aragon",
+      "Wikipedia — the Mudejar Architecture of Aragon, UNESCO World Heritage"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the Mudejar towers over the old town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Mudejar Towers at night.",
+  "description": "Teruel's Mudejar towers — San Martín, El Salvador, the cathedral — rise in glazed brick and ceramic over the old town, a UNESCO-listed fusion of Islamic and Christian art. A clear night, calm air over Teruel. The lovers of Teruel rest in their mausoleum below.",
+  "file_16x9": "es-01-125-r1-16x9.png",
+  "file_4x5": "es-01-125-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "33ecf63545c1bb47a374d9bf42505d7ce1883ff37dc2d3bf65e70ea43150aa6c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "b1b21754b3c8cb222a6ef0837b0d285ad186eae7222e4c7aea00557e68e0150d"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-125-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2818210,
+      "sha256": "33ecf63545c1bb47a374d9bf42505d7ce1883ff37dc2d3bf65e70ea43150aa6c",
+      "source_file": "media-generation-es-01-125-source-0-e10b8cae-0609-45ef-bda6-f281d072413c.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Mudejar Towers, Teruel",
+        "Scenario: 24 September 2026 · 04:00 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-125-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1512012,
+      "sha256": "b1b21754b3c8cb222a6ef0837b0d285ad186eae7222e4c7aea00557e68e0150d",
+      "source_file": "media-generation-es-01-125-source-0-e10b8cae-0609-45ef-bda6-f281d072413c.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Mudejar Towers, Teruel",
+        "Scenario: 24 September 2026 · 04:00 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:09:38+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "phrase": "clear night, calm air",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:38+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Mudejar towers of Teruel, Aragon, Spain. Tourist viewpoint: the Plaza del Torico, looking up at the towers. Frame: the Mudejar towers of Teruel in glazed brick and tile; the cathedral tower and San Martín tower over the old town; the old town rooftops below. Light and weather: clear night, calm air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-125-source-0-e10b8cae-0609-45ef-bda6-f281d072413c.png",
+      "sha256": "3a69eee5bf846b8eefa36cf681e0c347771add10980a89234df256d41bdf34b8",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

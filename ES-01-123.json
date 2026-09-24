@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-123",
+  "country": "Spain",
+  "city": "Molina de Aragón",
+  "region": "Castilla-La Mancha",
+  "caption": "Molina de Aragón, Molina de Aragón",
+  "revision": "r1",
+  "viewpoint": "the valley approach, looking up at the fortress",
+  "anchors": [
+    "the great castle of Molina de Aragón on its hill",
+    "the medieval walls running down to the town",
+    "the Gallo valley and the Molina highlands"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Molina_de_Arag%C3%B3n",
+      "Wikipedia — Molina de Aragón"
+    ],
+    [
+      "https://www.turismocastillalamancha.es",
+      "Official Castilla-La Mancha tourism portal — verify the Molina listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the hilltop fortress · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Molina de Aragón at night.",
+  "description": "Molina de Aragón keeps its great castle — the alcázar of the Lara — with medieval walls running down to the town. A clear night, light breeze over the Molina highlands. The Gallo valley and the high Molina country spread around.",
+  "file_16x9": "es-01-123-r1-16x9.png",
+  "file_4x5": "es-01-123-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "36cea4bef2a9572f4b7dffe7fc03d895cba0841d12431fd0f5c8b4f41a9875c8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "78f316f3d9f42287e655ce4f3c963438464d01e7c4d610a517f2c3fbd67af88d"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-123-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2805803,
+      "sha256": "36cea4bef2a9572f4b7dffe7fc03d895cba0841d12431fd0f5c8b4f41a9875c8",
+      "source_file": "media-generation-es-01-123-source-0-3648723f-6ce1-41b0-a87d-40d60e58fc4e.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Molina de Aragón, Molina de Aragón",
+        "Scenario: 24 September 2026 · 03:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-123-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1488724,
+      "sha256": "78f316f3d9f42287e655ce4f3c963438464d01e7c4d610a517f2c3fbd67af88d",
+      "source_file": "media-generation-es-01-123-source-0-3648723f-6ce1-41b0-a87d-40d60e58fc4e.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Molina de Aragón, Molina de Aragón",
+        "Scenario: 24 September 2026 · 03:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:09:33+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "phrase": "clear night, light breeze",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:33+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Molina de Aragón, Castilla-La Mancha, Spain. Tourist viewpoint: the valley approach, looking up at the fortress. Frame: the great castle of Molina de Aragón on its hill; the medieval walls running down to the town; the Gallo valley around. Light and weather: clear night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-123-source-0-3648723f-6ce1-41b0-a87d-40d60e58fc4e.png",
+      "sha256": "ce58e5cb9238e1a5b979dc0df282bdc0a49a2b7ba65ef459afb8bbee95f688e3",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
