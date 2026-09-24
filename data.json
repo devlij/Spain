@@ -1284,9 +1284,9 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · white hilltop village from the castle viewpoint at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Mojácar at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night view of Mojácar, Almería from the Mirador del Castillo: the stone church of Santa María at left on the hilltop, the whitewashed village cascading down the slope with warm lit streets, moonlit sea and coastal lights stretching right, Sierra Cabrera silhouette beyond. Gate 1 (visual/location): recognizable hilltop village-and-church arrangement from a plausible mirador viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Mojácar, Almería', scenario '24 September 2026 · 01:33 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:30:46+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; night lighting unverified per packet limitations but consistent with a lived-in village."
     },
     {
       "entry_id": "ES-01-222",
