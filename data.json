@@ -2376,9 +2376,9 @@
       "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
       "composition": "Night · From the Tower of Hercules, beacon glowing, near 43.3859,-8.4064. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Tower of Hercules, A Coruña at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte (API-verified), provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
     },
     {
       "entry_id": "ES-01-306",
@@ -2701,6 +2701,58 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · Walled hilltop town from the Paseo del Collado, moonlit walls under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the walled town of Laguardia at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-228",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Baños de la Encina",
+      "caption": "Burgalimar Castle, Baños de la Encina",
+      "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+      "composition": "Night · 10th-century Caliphate castle crowning its hill at night · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Burgalimar Castle at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-229",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Cazorla",
+      "caption": "Plaza Santa María, Cazorla",
+      "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+      "composition": "Night · ruined old church and Moorish tower over the town's oldest square at night · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Plaza Santa María at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-230",
+      "country": "Spain",
+      "region": "Andalusia",
+      "city": "Niebla",
+      "caption": "Walls of Niebla, Niebla",
+      "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+      "composition": "Night · medieval walled town ramparts and gate at night · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of Walls of Niebla at night.",
+      "status": "Awaiting Cosmo QC · Night",
+      "approval_state": "candidate",
+      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+    },
+    {
+      "entry_id": "ES-01-345",
+      "country": "Spain",
+      "region": "Navarre",
+      "city": "Pamplona",
+      "caption": "Plaza del Castillo, Pamplona",
+      "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
+      "composition": "Night · Square from its centre, arcaded façades and lamps under a starry sky · AI-generated artistic interpretation",
+      "alt_text": "AI-generated artistic interpretation of the Plaza del Castillo, Pamplona, at night.",
       "status": "Awaiting Cosmo QC · Night",
       "approval_state": "candidate",
       "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
