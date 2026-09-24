@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-235",
+  "country": "Spain",
+  "city": "Cádiz",
+  "region": "Andalusia",
+  "caption": "Cádiz Cathedral, Cádiz",
+  "revision": "r1",
+  "viewpoint": "the square before the cathedral, facing its twin towers and golden dome",
+  "anchors": [
+    "the baroque-neoclassical cathedral with its two towers and golden tiled dome",
+    "the Torre del Reloj facing the Plaza de la Catedral",
+    "the Atlantic night at the edge of the old island city"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time lighting of the cathedral is restrained and interpretive, not verified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/cadiz-cathedral/",
+      "Spain.info — Cádiz Cathedral, baroque-neoclassical, golden tiled dome"
+    ],
+    [
+      "https://www.tripadvisor.com/Attraction_Review-g187430-d248939-Reviews-Catedral_de_Cadiz-Cadiz_Costa_de_la_Luz_Andalucia.html",
+      "Tripadvisor — Cádiz Cathedral, the New Cathedral of the old island city"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:19 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · golden-domed cathedral and square at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cádiz Cathedral at night.",
+  "description": "From the square, the Catedral de Santa Cruz rises against the night — baroque and neoclassical stone capped by the golden tiled dome, its twin towers guarding the old island city. The Torre del Reloj faces the plaza across the square. On a clear 24°C night with a sea breeze, the New Cathedral keeps its watch at the edge of the Atlantic.",
+  "file_16x9": "es-01-235-r1-16x9.png",
+  "file_4x5": "es-01-235-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6d9693ad4e1b04f3c526ba227ef5ab902af8506181907b3ee1f2731e2cd43510"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "54082d7901208aa33f3fc6ff035ae0f7788b932a1eeeda6175060f3d6f837928"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-235-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2632049,
+      "sha256": "6d9693ad4e1b04f3c526ba227ef5ab902af8506181907b3ee1f2731e2cd43510",
+      "source_file": "media-generation-es-01-235-source-0-fa7e2980-82ed-4b6c-9601-74cf2170889f.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cádiz Cathedral, Cádiz",
+        "Scenario: 24 September 2026 · 02:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-235-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1329514,
+      "sha256": "54082d7901208aa33f3fc6ff035ae0f7788b932a1eeeda6175060f3d6f837928",
+      "source_file": "media-generation-es-01-235-source-0-fa7e2980-82ed-4b6c-9601-74cf2170889f.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cádiz Cathedral, Cádiz",
+        "Scenario: 24 September 2026 · 02:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T02:17:08+02:00",
+    "valid": "2026-09-24T02:19:34+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 24.0,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 15.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:17:08+02:00, valid 2026-09-24T02:19:34+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Cádiz Cathedral, Cádiz, Spain, at night. Tourist viewpoint: the square before the cathedral, facing its twin towers and golden dome. Frame: the baroque-neoclassical cathedral with its golden tiled dome centered; the twin towers and the Torre del Reloj flanking the view; the square stretching before. Night light: restrained square lighting and moonlight on the stone and golden dome, starry sky, 24 degrees C, sea breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-235-source-0-fa7e2980-82ed-4b6c-9601-74cf2170889f.png",
+      "sha256": "4628cb347901c0722464d4402aa4cd201a7af91ce9d438fed2d9b5d8491f01c4",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
