@@ -1271,9 +1271,9 @@
       "scenario_label": "24 September 2026 · 01:36 Europe/Madrid",
       "composition": "Night · lighthouse beam over the Sirens Reef and starry sky at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cabo de Gata lighthouse at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night view of Cabo de Gata, Almería from the Mirador de las Sirenas: the lighthouse with its sweeping beam on the headland at right, the jagged volcanic sea stacks in the dark sea, crescent moon and the Milky Way over drifting clouds, the stone parapet of the mirador in the left foreground. Gate 1 (visual/location): recognizable Cabo de Gata lighthouse and sea-stack coastline from a plausible mirador viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Cabo de Gata, Almería', scenario '24 September 2026 · 01:36 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:30:46+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; lighthouse beam treatment unverified in packet limitations but plausible for an operating lighthouse."
     },
     {
       "entry_id": "ES-01-221",
