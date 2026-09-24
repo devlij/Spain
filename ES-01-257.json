@@ -22,8 +22,8 @@
       "Ebro Delta natural park guide (lagoons, birdwatching, beaches)"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:19 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Still lagoons and reedbeds under a starry sky · AI-generated artistic interpretation",
@@ -154,6 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — viewed from the wooden rails of a birdwatching hide, moonlit shallow lagoons and reedbeds stretch out with dark silhouettes of waterbirds resting on the mirror-like surface, distant rice paddies beyond; naturally dark, no artificial lighting, no scenario anomalies. Gate 2 PASS — both masters byte-verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact ('Ebro Delta, Deltebre', 'Scenario: 24 September 2026 · 01:19 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.') and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 6 min before scenario, fresh. Gate 3 PASS — text-only generation, no photographic inputs reported. Gate 4 — no people, logos, or private property visible; not legally certified. Gate 5 — no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
