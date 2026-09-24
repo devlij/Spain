@@ -1648,9 +1648,9 @@
       "scenario_label": "24 September 2026 · 01:27 Europe/Madrid",
       "composition": "Night · Bronze-age naveta silhouette under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Naveta des Tudons, Ciutadella de Menorca at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 PASS: night view of the boat-shaped Bronze Age naveta — coursed megalithic masonry, small square upper window and dark entrance doorway — under a starry sky with a crescent moon, stone boundary wall in the foreground; recognizably Naveta des Tudons from a plausible tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption reads 'Naveta des Tudons, Ciutadella de Menorca' — correctly spelled, which supersedes the 09:30 EDT qc note (that note was mistaken: the baked text does contain the n in Tudons, matching Wikipedia 'Naveta des Tudons'); scenario '24 September 2026 · 01:27 Europe/Madrid' matches packet; weather retrieved 01:12:51+02:00 valid 01:15 covers the scenario hour — fresh, not the reused 01:11 block; signature 'Jason D's Vision' with curly apostrophe bottom-right and 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left, both legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible — open prehistoric monument. Gate 5: no open blockers. Modelled night scenario, not a verified capture."
     },
     {
       "entry_id": "ES-01-268",
