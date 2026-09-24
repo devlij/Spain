@@ -22,8 +22,8 @@
       "Guide: the gold mines of El Bierzo, best views from the Mirador de Orellán"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 02:30 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Roman mine landscape from the Mirador de Orellán, dark silhouettes under stars · AI-generated artistic interpretation",
@@ -150,5 +150,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte, provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
 }
