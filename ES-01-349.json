@@ -22,8 +22,8 @@
       "Evendo guide: 1887 iron-and-glass palace in Retiro, built for the Philippines Exhibition, now Reina Sofía art space"
     ]
   ],
-  "status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_state": "approved",
+  "status": "Awaiting Cosmo QC · Night",
+  "approval_state": "candidate",
   "scenario_label": "24 September 2026 · 04:40 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Palace from the lake, glowing glass dome reflected in the water · AI-generated artistic interpretation",
@@ -151,5 +151,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Five-gate Cosmo audit completed on byte-verified masters. Gate 1 (visual/location): the captioned site is recognizably depicted from a plausible tourist viewpoint with clean framing and no artifacts; night scenario is interpretive as the review packet documents. Gate 2 (technical): both PNGs at exact dimensions with SHA-256 matching the review packet; exact ‘Jason D’s Vision’ signature bottom-right, and exact caption, scenario timestamp and AI disclosure bottom-left on the scrim, all legible. Gate 3 (originality/provenance): review packet documents text-only generation with no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or recognizable private property noted; nothing certified clean — final commercial-use call remains Jason’s. Gate 5: all gates pass with no open blockers."
+  "approval_basis": "",
+  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted).\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block. Stays unapproved until the scenario/weather metadata mismatch is resolved."
 }
