@@ -959,9 +959,9 @@
       "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
       "composition": "Night · Public visitor path immediately southeast of Naveta des Tudons, approximately 40.0037, 3.8915, low eye-level looking northwest at the entrance end and boat-shaped mass. Nighttime visitor access is not asserted. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Naveta des Tudons, Ciutadella at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: recognizably the Naveta des Tudons — correct overturned-boat form, cyclopean dry-stone coursing, small dark doorway on the front face, scrubby Menorcan plain with dry-stone walls behind; boat silhouette and masonry are the definitive anchors. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
     },
     {
       "entry_id": "ES-01-036",
