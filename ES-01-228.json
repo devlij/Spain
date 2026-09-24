@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-228",
+  "country": "Spain",
+  "city": "Baños de la Encina",
+  "region": "Andalusia",
+  "caption": "Burgalimar Castle, Baños de la Encina",
+  "revision": "r1",
+  "viewpoint": "the hill slope below the castle at night, facing the walled enclosure",
+  "anchors": [
+    "the 10th-century Caliphate fortress of Burgalimar (Bury al-Hamma), built 968, with its fourteen towers",
+    "the crenellated walls and keep silhouetted against the Sierra Morena sky",
+    "olive groves and green countryside rolling away below the hill"
+  ],
+  "limitations": "Text-only generation; no photographic input. LED illumination works on the castle are documented but no current lighting schedule was verified, so night lighting is restrained and interpretive. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.fotw.info/Flags/es-j-ban.html",
+      "Burgalimar fortress — built by Caliph Al-Hakam II, inaugurated 968; one of Europe's best-preserved Muslim fortresses"
+    ],
+    [
+      "https://www.fascinatingspain.com/articulo/what-to-see-in-andalusia/castle-de-la-encina-weekend-getaway/20210222103412067026.html",
+      "Fascinating Spain — the oldest standing castle in Spain, nearly intact silhouette in Sierra Morena"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · 10th-century Caliphate castle crowning its hill at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Burgalimar Castle at night.",
+  "description": "From the slope below, the fortress of Burgalimar crowns its hill — one of Europe's best-preserved Muslim castles, raised by Caliph Al-Hakam II in 968, its fourteen towers circling the dark enclosure. The crenellated walls stand quiet above the olive groves of Sierra Morena. On a clear 20°C night under a star-filled sky, the thousand-year-old silhouette of the castle of the baths keeps its watch.",
+  "file_16x9": "es-01-228-r1-16x9.png",
+  "file_4x5": "es-01-228-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ed9e49de9dfcf7d6f0b045d91680692cd4a30e4fa4907ae2af4388697db52614"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "533c6069c3131a46900e34f2ce441a79107591236b321016ee6a603711924af6"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-228-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2554548,
+      "sha256": "ed9e49de9dfcf7d6f0b045d91680692cd4a30e4fa4907ae2af4388697db52614",
+      "source_file": "media-generation-es-01-228-source-0-0b30dcca-e504-4e74-bb97-6365199b4b3f.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Burgalimar Castle, Baños de la Encina",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-228-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1312241,
+      "sha256": "533c6069c3131a46900e34f2ce441a79107591236b321016ee6a603711924af6",
+      "source_file": "media-generation-es-01-228-source-0-0b30dcca-e504-4e74-bb97-6365199b4b3f.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Burgalimar Castle, Baños de la Encina",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:55:25+02:00",
+    "valid": "2026-09-24T01:57:50+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 20.4,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 5.4
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:55:25+02:00, valid 2026-09-24T01:57:50+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Burgalimar castle (Bury al-Hamma), Baños de la Encina, Jaén, Spain, at night. Tourist viewpoint: the hill slope below the castle, facing the walled enclosure. Frame: the 10th-century Caliphate fortress with its fourteen towers centered on the hilltop; the crenellated walls and keep silhouetted against the night sky; olive groves and dark countryside rolling away below the hill. Night light: restrained moonlight and starlight on the crenellated walls, faint village lights below, no floodlighting, clear starry sky, 20 degrees C, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-228-source-0-0b30dcca-e504-4e74-bb97-6365199b4b3f.png",
+      "sha256": "b100304f602e850ebee1d04af6b987906141ff0318cf18aa01a1fedaa72ccb58",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
