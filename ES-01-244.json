@@ -22,7 +22,7 @@
       "Onyar River houses guide (Pont de les Peixateries Velles as best viewpoint)"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
+  "status": "Awaiting Cosmo QC · Night",
   "approval_state": "candidate",
   "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
   "time_of_day": "Night",
@@ -153,5 +153,7 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "",
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
 }
