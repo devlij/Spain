@@ -1713,9 +1713,9 @@
       "scenario_label": "24 September 2026 · 01:30 Europe/Madrid",
       "composition": "Night · Still lagoon and jetty under a partly cloudy sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Albufera de Valencia, Catarroja at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gates: (1) The still Albufera lagoon at night from the Embarcadero de Catarroja jetty — wooden jetty posts and a traditional albuferenc boat silhouette in the foreground, moonlight silvering the glassy water, reed beds flanking the channel and the far shore's faint lights on the horizon; honest moonlit treatment, no invented floodlighting, plausible tourist viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match; on-image caption 'Albufera de Valencia, Catarroja', scenario '24 September 2026 · 01:30 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather retrieval 2026-09-24T01:12:51+02:00 for the 01:30 scenario — same night, consistent batch retrieval. (3) Packet documents text-only generation, image_inputs: [], third-party photos inspected for facts only. (4) IP: no people, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready."
     },
     {
       "entry_id": "ES-01-273",
