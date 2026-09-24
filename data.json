@@ -1089,9 +1089,9 @@
       "scenario_label": "24 September 2026 · 01:17 Europe/Madrid",
       "composition": "Night · Fairytale Columbus monument by night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Colomares Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Colomares Castle recognizably depicted — the eclectic Columbus-tribute monument's brick-and-stone towers, ornate pinnacles, carved prow of a ship on the façade, warm floodlighting against the night, cypress trees framing and Benalmádena town lights on the coast behind; plausible tourist viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Colomares Castle, Benalmádena', scenario '24 September 2026 · 01:17 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:13:14 valid 01:17:29 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; night floodlighting disclosed as artistic interpretation, unverified at the scenario hour. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-207",
