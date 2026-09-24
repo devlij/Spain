@@ -2389,9 +2389,9 @@
       "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
       "composition": "Night · From the Playa de las Catedrales, moonlit arches through drifting cloud near 43.7884,-7.1596. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Playa de las Catedrales, Ribadeo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Playa de las Catedrales at low tide — towering stratified slate arches spanning the beach like cathedral naves, sea visible through the arch openings, wet reflective sand in the foreground; plausibly recognizable as the Ribadeo landmark, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); on-image caption 'Playa de las Catedrales, Ribadeo', scenario '24 September 2026 · 01:35 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 5 minutes before scenario, fresh; thick drifting cloud with pale moonlight matches 72% model cloud. G3: provenance image_inputs=[] — text-only original generation, no photographic inputs. G4: no people, logos, or private property; public natural beach; IP documented only. G5: all gates pass."
     },
     {
       "entry_id": "ES-01-307",
