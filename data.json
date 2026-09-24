@@ -2350,9 +2350,9 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · From Betancuria old capital, whitewashed houses under moonlight near 28.4280,-14.0570. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Betancuria, Fuerteventura at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Betancuria sleeps recognizably under moonlight — whitewashed houses scattered among dark volcanic hills, the Santa Maria church bell tower with its distinctive brick-quoined facade rising at the center, a few lit windows, near-full moon and stars in an essentially clear sky (1% model cloud consistent); quiet inland night, clean framing. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Betancuria, Fuerteventura', scenario '24 September 2026 · 01:33 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:30, valid 01:30 — fresh. G3: text-only generation, image_inputs empty. G4: no visible people or logos; ordinary village houses noted, documented only. G5: no open blockers."
     },
     {
       "entry_id": "ES-01-304",
