@@ -1843,9 +1843,9 @@
       "scenario_label": "24 September 2026 · 01:36 Europe/Madrid",
       "composition": "Night · Boat on the underground river inside the lit cave · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Coves de Sant Josep, la Vall d'Uixó at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 PASS: underground cave chamber with dense stalactites and warm-lit stalagmites reflected in the still underground river, wooden tour boat centered mid-frame; recognizably Coves de Sant Josep (underground river boat tour) from a plausible boat-level viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'Coves de Sant Josep, la Vall d'Uixó' exact; scenario '24 September 2026 · 01:36 Europe/Madrid' matches packet; weather retrieved 01:12:51+02:00 valid 01:30 covers the scenario hour — fresh; signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible — lit show-cave interior. Gate 5: no open blockers. Modelled scenario; cave's installed lighting depicted, tour access at 01:36 unverified (documented limitation)."
     },
     {
       "entry_id": "ES-01-283",
