@@ -22,8 +22,8 @@
       "Viewpoint guide — free mirador on the castle path, panoramic view of Málaga and the coast"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Moorish ramparts above the lit city and bay · AI-generated artistic interpretation",
@@ -152,5 +152,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte, provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
 }
