@@ -1128,9 +1128,9 @@
       "scenario_label": "24 September 2026 · 01:22 Europe/Madrid",
       "composition": "Night · beach, old bathhouse and Santa Catalina castle at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of La Caleta at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: La Caleta recognizably depicted — the Santa Catalina castle bastion at left, the white bathhouse pavilion glowing on its pilings mid-water, the curving lamplit promenade and sand of La Caleta beach, San Sebastián castle on its headland in the distance under a moonlit sea; plausible elevated tourist viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'La Caleta, Cádiz', scenario '24 September 2026 · 01:22 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:20:58 valid 01:22:26 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; bathhouse and castle lighting disclosed as artistic interpretation, unverified. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-210",
