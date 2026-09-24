@@ -1154,9 +1154,9 @@
       "scenario_label": "24 September 2026 · 01:22 Europe/Madrid",
       "composition": "Night · Alcázar courtyard and Almohad towers at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Alcázar de Jerez at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Alcázar de Jerez recognizably depicted — the floodlit octagonal Torre del Homenaje, crenellated Moorish walls and arched courtyard arcade, rows of palms and street lamps in the square before it at night; plausible tourist viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Alcázar de Jerez, Jerez de la Frontera', scenario '24 September 2026 · 01:22 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image in both formats (4:5 visually checked), legible; Open-Meteo retrieved 01:20:58 valid 01:22:26 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; night illumination disclosed as artistic interpretation, unverified. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-212",
