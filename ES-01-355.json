@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-355",
+  "country": "Spain",
+  "city": "Getaria",
+  "region": "Basque Country",
+  "caption": "Port, Getaria",
+  "revision": "r1",
+  "viewpoint": "Harbor looking up at the town and the Ratón (approx 43.3050N, 2.2014W)",
+  "anchors": [
+    "Mount San Antón lighthouse throwing its beam over the bay",
+    "Dark town on the rocky cape with scattered warm windows",
+    "Softly glowing fishing port with dock lamps"
+  ],
+  "limitations": "No night floodlighting is claimed — none is documented for this site, so the scene shows only the lighthouse beam, harbor lamps, scattered windows and moonlight; unverified for this specific hour. Hill and harbor detail are interpretive. Camera point at the harbor is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://medium.com/@Life_Addicteds/strolling-through-the-mouse-of-getaria-its-lighthouse-and-the-stone-sentry-boxes-getaria-468e706749cb",
+      "Medium guide: the Mount San Antón lighthouse, one of the prettiest on the Basque coast; 'On full-moon nights the lighthouse and sentry boxes create an almost mystical scene'"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/Getaria,_Spain",
+      "Encyclopedia: Getaria, Urola coast, Gipuzkoa — hometown of Juan Sebastián Elcano, famous for grilled fish and txakoli"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 05:28 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Town from the harbor, lighthouse beam and moonlit bay · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Getaria, Basque Country, at night.",
+  "description": "At night Getaria keeps the fisherman's hours — the old town dark on its rocky cape with scattered warm windows, the Mount San Antón lighthouse throwing its beam across the Bay of Biscay, the active port glowing softly with dock lamps. Birthplace of Elcano and Balenciaga, the village of grilled fish and txakoli sleeps between the Mouse and the sea.",
+  "file_16x9": "es-01-355-r1-16x9.png",
+  "file_4x5": "es-01-355-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "217f4d3508da4359d0feaa19364ddb897ac92898568dc221279a1268b56085df"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6617f63a52880c9711e6f2a7ec4bf175cb33bf68d7227ed13b9a447db78901da"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-355-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1830950,
+      "sha256": "217f4d3508da4359d0feaa19364ddb897ac92898568dc221279a1268b56085df",
+      "source_file": "media-generation-es-01-355-source-0-a24fd006-48eb-4263-b7c2-71c3cf211ded.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Port, Getaria",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-355-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 943063,
+      "sha256": "6617f63a52880c9711e6f2a7ec4bf175cb33bf68d7227ed13b9a447db78901da",
+      "source_file": "media-generation-es-01-355-source-0-a24fd006-48eb-4263-b7c2-71c3cf211ded.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Port, Getaria",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the fishing town of Getaria, Basque Country, Spain, at night. IMPORTANT: no invented floodlighting — an honest night treatment. The town lies mostly dark on the rocky cape, with scattered warm windows and harbor streetlights; the Mount San Antón (El Ratón) lighthouse throws its beam across the water; the fishing port glows softly with dock lamps; moonlight on the Bay of Biscay. San Salvador church silhouette. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-355-source-0-a24fd006-48eb-4263-b7c2-71c3cf211ded.png",
+      "sha256": "23e7167e169a6e0f0fb702122cd237e0a69d46ce76fd469fde7cce4f416d1a72",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
