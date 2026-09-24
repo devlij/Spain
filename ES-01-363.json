@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-363",
+  "country": "Spain",
+  "city": "Albarracín",
+  "region": "Aragon",
+  "caption": "Old Town, Albarracín",
+  "revision": "r1",
+  "viewpoint": "Valley viewpoint before the old town (approx 40.4078N, 1.4442W)",
+  "anchors": [
+    "Pink-walled rodeno houses dark under moonlight",
+    "Medieval walls snaking up the hillside",
+    "A few scattered street lamps in the narrow alleys"
+  ],
+  "limitations": "No night illumination of the old town is documented, so the scene uses an honest mostly dark treatment — no floodlighting is claimed. Town and wall detail are interpretive. Camera point from the valley is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://medium.com/@mryabinin/albarrac%C3%ADn-a-place-where-you-can-escape-the-hustle-and-bustle-of-modern-life-and-step-back-into-bca4caf3e98d",
+      "Medium: Albarracín — Moorish-founded 8th century, red rodeno façades, walls from 965, National Monument 1961"
+    ],
+    [
+      "https://rutica41.com/what-to-do-in-albarracin/",
+      "Rutica 41: Albarracín's medieval walls — begun around 965, expanded 13th–14th centuries"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 06:32 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Old town from the valley viewpoint, moonlit walls and dark alleys · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Albarracín at night.",
+  "description": "At night Albarracín keeps its medieval silence — the pink rodeno walls dark under moonlight and stars, a few scattered street lamps catching fragments of the narrow labyrinth, the medieval walls snaking up the hillside, the Guadalaviar valley below. The National Monument sleeps on its rocky ridge.",
+  "file_16x9": "es-01-363-r1-16x9.png",
+  "file_4x5": "es-01-363-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f0a7aa4999918ef1a25c20eb6c2152e384c706c5d87390cf86a3f99ed97f9fac"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "9571e0fc2a869ee6be73a6788ee36c57338ef09972b8beecf46bab844ef3e605"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-363-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3351699,
+      "sha256": "f0a7aa4999918ef1a25c20eb6c2152e384c706c5d87390cf86a3f99ed97f9fac",
+      "source_file": "media-generation-es-01-363-source-0-95f5ae73-9c3e-4fcb-b593-e2dbf56d7cb5.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old Town, Albarracín",
+        "Scenario: 24 September 2026 · 06:32 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-363-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1504590,
+      "sha256": "9571e0fc2a869ee6be73a6788ee36c57338ef09972b8beecf46bab844ef3e605",
+      "source_file": "media-generation-es-01-363-source-0-95f5ae73-9c3e-4fcb-b593-e2dbf56d7cb5.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old Town, Albarracín",
+        "Scenario: 24 September 2026 · 06:32 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the medieval town of Albarracín, Aragon, Spain, at night. Honest mostly dark treatment — no invented floodlighting. The pink-walled town with its reddish rodeno houses and medieval walls lying dark under moonlight and a starry sky, a few scattered street lamps catching fragments of the narrow alleys, the walls snaking up the hillside faintly lit by moon, the Guadalaviar river valley dark below. No identifiable people. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-363-source-0-95f5ae73-9c3e-4fcb-b593-e2dbf56d7cb5.png",
+      "sha256": "4ef767846b15b375f8b7297b21ea4e71e751eb9db6268b2b5b6f3800c281ce67",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
