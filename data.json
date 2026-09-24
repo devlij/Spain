@@ -2727,9 +2727,9 @@
       "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
       "composition": "Night · ruined old church and Moorish tower over the town's oldest square at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza Santa María at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 visual/location pass: recognizable Plaza Santa Maria church ruins with Cazorla castle on the hill above, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents text-only generation, no photographic inputs. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers."
     },
     {
       "entry_id": "ES-01-230",
