@@ -22,8 +22,8 @@
       "Naveta des Tudons guide (prehistoric site, Ciutadella)"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:27 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Bronze-age naveta silhouette under a starry sky · AI-generated artistic interpretation",
@@ -154,6 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Gate 1 PASS: night view of the boat-shaped Bronze Age naveta — coursed megalithic masonry, small square upper window and dark entrance doorway — under a starry sky with a crescent moon, stone boundary wall in the foreground; recognizably Naveta des Tudons from a plausible tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption reads 'Naveta des Tudons, Ciutadella de Menorca' — correctly spelled, which supersedes the 09:30 EDT qc note (that note was mistaken: the baked text does contain the n in Tudons, matching Wikipedia 'Naveta des Tudons'); scenario '24 September 2026 · 01:27 Europe/Madrid' matches packet; weather retrieved 01:12:51+02:00 valid 01:15 covers the scenario hour — fresh, not the reused 01:11 block; signature 'Jason D's Vision' with curly apostrophe bottom-right and 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left, both legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible — open prehistoric monument. Gate 5: no open blockers. Modelled night scenario, not a verified capture.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nCosmo QC rejection (2026-09-24 ~09:30 EDT): Gate 2/5 OPEN — the caption baked into both masters and the packet reads 'Naveta des Tudons, Ciutadella de Menorca'; the monument's correct name is Naveta des Tudons (missing n in 'Tudons'). Gates 1/3/4 pass (recognizable boat-shaped megalith, text-only generation, no people/logos). Rebuild with corrected caption 'Naveta des Tudons, Ciutadella de Menorca' and resubmit. Stays candidate."
 }
