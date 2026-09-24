@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for the Roque de los Muchachos, verified 24 September 2026; complementary encyclopedic reference."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Summit ridge near the observatory near 28.7546,-15.3818, looking across the caldera rim under the starfield. Approximate point only; no claim of measured luminance or nighttime access. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Night Roque de los Muchachos: jagged basalt pinnacles along the ridge with two white observatory domes silhouetted beneath a vivid Milky Way, dark Canarian pine forest in the foreground; on-image text verified: caption 'Roque de los Muchachos, La Palma', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:00+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; dome arrangement approximate and stars artistic per packet limitations (documented only).",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
