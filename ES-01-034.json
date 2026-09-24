@@ -30,8 +30,8 @@
       "Complementary Ciutadella night photographs visually inspected for sandstone and lighting precedent; no pixels supplied to generation."
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Public Plaça des Born near the central obelisk, approximately 40.0011, 3.8380, eye-level looking east-northeast toward the former fortress town hall, stately façades and the old-town approach. · AI-generated artistic interpretation",
@@ -221,5 +221,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Gate 1: recognizably Ciutadella's Plaça d'es Born at night — obelisk monument centered before the crenellated town-hall façade with clock, flanking palms, arcaded palaces left/right, wet reflective paving; obelisk is the documented anchor of this square. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork as focal subjects — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
 }
