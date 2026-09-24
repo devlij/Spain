@@ -22,8 +22,8 @@
       "Riotinto travel report — Corta Atalaya 1,200 m long, 350 m deep, once the largest open-pit mine in the world; red acidic Rio Tinto waters"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:41 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · giant terraced mining pit under moonlight · AI-generated artistic interpretation",
@@ -152,5 +152,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte (API-verified), provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
 }
