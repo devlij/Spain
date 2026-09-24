@@ -4,14 +4,14 @@
   "city": "San Cristóbal de La Laguna",
   "region": "Canary Islands",
   "caption": "Old town, San Cristóbal de La Laguna",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the historic center, looking along its great-house streets",
   "anchors": [
     "La Laguna's historic center with its great houses",
     "the cathedral of Nuestra Señora de los Remedios",
     "the UNESCO-listed grid of the old colonial city"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. This spec replaces the retired agent's ES-01-041 package — do not reuse its packet.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. This spec replaces the retired agent's ES-01-041 package — do not reuse its packet. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
@@ -22,40 +22,40 @@
       "Official Canary Islands tourism portal — verify the La Laguna listing before use"
     ]
   ],
-  "status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_state": "approved",
-  "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 05:20 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the colonial old town · AI-generated artistic interpretation",
   "alt_text": "AI-generated artistic interpretation of Old town, San Cristóbal de La Laguna at night.",
-  "description": "San Cristóbal de La Laguna — the first unfortified colonial city, model for the Americas — keeps its grid of great houses and churches, a UNESCO World Heritage. A partly cloudy night over the town. The cathedral of Los Remedios anchors the old town.",
-  "file_16x9": "es-01-041-r1-16x9.png",
-  "file_4x5": "es-01-041-r1-4x5.png",
+  "description": "San Cristóbal de La Laguna — the first unfortified colonial city, model for the Americas — keeps its grid of great houses and churches, a UNESCO World Heritage. A partly cloudy night over the town, warm and nearly calm air. The cathedral of Los Remedios anchors the old town.",
+  "file_16x9": "es-01-041-r2-16x9.png",
+  "file_4x5": "es-01-041-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "fda8b8ff7f5636a420ef37c2cf9dfb7d9d01a49ce30bc5da05f55b22d58886e7"
+      "sha256": "f59d9d963fc4524539ddc805c13a474e1a9bae815bb7c651adc4a954c016e10d"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "1e30d7fb2bdeb38516d774fdd5d475b3c70a30e4ff681a550a4ce68943a65911"
+      "sha256": "fc83d391eb485baa262d41ca462411227a6814850416985b2897e68f41a84501"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-041-r1-16x9.png",
+      "file": "es-01-041-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2346119,
-      "sha256": "fda8b8ff7f5636a420ef37c2cf9dfb7d9d01a49ce30bc5da05f55b22d58886e7",
-      "source_file": "es-01-041-r1.png",
+      "byte_length": 2726503,
+      "sha256": "f59d9d963fc4524539ddc805c13a474e1a9bae815bb7c651adc4a954c016e10d",
+      "source_file": "media-generation-es-01-041-r2-source-0-230ea7f7-341d-4c08-aee2-93040b62e5c6.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Old town, San Cristóbal de La Laguna",
-        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-041-r1-4x5.png",
+      "file": "es-01-041-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1274724,
-      "sha256": "1e30d7fb2bdeb38516d774fdd5d475b3c70a30e4ff681a550a4ce68943a65911",
-      "source_file": "es-01-041-r1.png",
+      "byte_length": 1356221,
+      "sha256": "fc83d391eb485baa262d41ca462411227a6814850416985b2897e68f41a84501",
+      "source_file": "media-generation-es-01-041-r2-source-0-230ea7f7-341d-4c08-aee2-93040b62e5c6.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,32 +90,37 @@
       ],
       "labels": [
         "Old town, San Cristóbal de La Laguna",
-        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T03:58:51.774762+02:00",
-    "valid": "2026-09-24T03:45 Europe/Madrid",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:20:58+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A partly cloudy night over the town, warm and nearly calm air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "25.8",
+    "weather_code": "2",
+    "cloud_cover": "50",
+    "wind_speed_10m": "1.3"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T03:58:51.774762+02:00, valid 2026-09-24T03:45 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:20:58+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of San Cristóbal de La Laguna, Tenerife, Canary Islands, Spain. Tourist viewpoint: the historic center, looking along its great-house streets. Frame: La Laguna's historic center with its great houses; the cathedral of Nuestra Señora de los Remedios; the colonial grid of the old city. Light and weather: partly cloudy night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of San Cristóbal de La Laguna, Tenerife, Canary Islands, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:20 in the morning). Tourist viewpoint: the historic center, looking along a cobbled great-house street toward the cathedral of Nuestra Señora de los Remedios with its twin clock towers and rose window, UNESCO-listed colonial grid. Deep night: pitch-dark star-filled sky, moonlit rooftops, faint warm street lamps and lit windows only. NO daylight, NO sunrise glow, NO blue-hour brightness. Main subject centered. No identifiable people. CRITICAL: absolutely no legible text, lettering, numbers, house-number plaques, signs, menu boards, or doorway plaques anywhere in the image — facades and plaques must be blank."
   },
   "source_files": [
     {
-      "file": "es-01-041-r1.png",
-      "sha256": "5275d2b5a7784424a54992837b92194413a42be93d3f9dc96560e61effa150e7",
+      "file": "media-generation-es-01-041-r2-source-0-230ea7f7-341d-4c08-aee2-93040b62e5c6.png",
+      "sha256": "05f92c583c54c7cd0982c56a622f1bae05999bf4968bfd7d56750be7857155e5",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -125,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
@@ -147,6 +152,5 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": [],
-  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the La Laguna cathedral twin-towered facade at the end of a lit colonial street with Canarian balconies is recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
+  "reference_evidence": []
 }

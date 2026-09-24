@@ -4,54 +4,58 @@
   "city": "Jaca",
   "region": "Aragon",
   "caption": "Citadel, Jaca",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the glacis before the fortress, looking at its walls",
   "anchors": [
     "Jaca's pentagonal citadel with its moat",
     "the Romanesque cathedral of San Pedro",
     "the Pyrenean peaks rising behind the town"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
-      "https://en.wikipedia.org/wiki/Jaca",
-      "Wikipedia — Jaca (covers the pentagonal citadel)"
+      "https://en.wikipedia.org/wiki/Citadel_of_Jaca",
+      "Wikipedia — the Citadel of Jaca"
+    ],
+    [
+      "https://www.turismodearagon.com",
+      "Official Aragon tourism portal — verify the Jaca listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:22 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the fortress with the Pyrenees behind · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Citadel at night.",
-  "description": "Jaca — the first capital of Aragon — keeps its remarkable pentagonal citadel, a 16th-century fortress with a moat once patrolled by deer. A clear night, light air over Jaca. The Romanesque cathedral and the Pyrenees complete the view.",
-  "file_16x9": "es-01-128-r1-16x9.png",
-  "file_4x5": "es-01-128-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Citadel, Jaca at night.",
+  "description": "Jaca — the first capital of Aragon — keeps its remarkable pentagonal citadel, a 16th-century fortress with a moat once patrolled by deer. A clear night over Jaca, light breeze. The Romanesque cathedral and the Pyrenees complete the view.",
+  "file_16x9": "es-01-128-r2-16x9.png",
+  "file_4x5": "es-01-128-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "c8b2b75f97c7607d5fddae307af91e87efb1e9c1822ede01e4cea76b952b7302"
+      "sha256": "3c0a86f0c0ab70c4df6e4300a9e891a50b1abba97ccbb3e3bcfd9cb23aed7cf9"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "9a4ce8e45ab1c9c299a6cd9717d02078c7e381c931bf963d16caab0d3cfbc7a9"
+      "sha256": "9c2ce47fd162e966818bd77cbf641bdcffc5f4b86fa20475743705132c6f09f0"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-128-r1-16x9.png",
+      "file": "es-01-128-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 3213277,
-      "sha256": "c8b2b75f97c7607d5fddae307af91e87efb1e9c1822ede01e4cea76b952b7302",
-      "source_file": "media-generation-es-01-128-source-0-59139485-4b8e-4f9b-8d8b-118db01124f0.png",
+      "byte_length": 2935237,
+      "sha256": "3c0a86f0c0ab70c4df6e4300a9e891a50b1abba97ccbb3e3bcfd9cb23aed7cf9",
+      "source_file": "media-generation-es-01-128-r2-source-0-50e4772a-0261-4c62-a356-ee364d511ac3.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -59,26 +63,26 @@
       ],
       "labels": [
         "Citadel, Jaca",
-        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-128-r1-4x5.png",
+      "file": "es-01-128-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1461278,
-      "sha256": "9a4ce8e45ab1c9c299a6cd9717d02078c7e381c931bf963d16caab0d3cfbc7a9",
-      "source_file": "media-generation-es-01-128-source-0-59139485-4b8e-4f9b-8d8b-118db01124f0.png",
+      "byte_length": 1434256,
+      "sha256": "9c2ce47fd162e966818bd77cbf641bdcffc5f4b86fa20475743705132c6f09f0",
+      "source_file": "media-generation-es-01-128-r2-source-0-50e4772a-0261-4c62-a356-ee364d511ac3.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -86,33 +90,37 @@
       ],
       "labels": [
         "Citadel, Jaca",
-        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:09:44+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "clear night, light air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:22:48+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over Jaca, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "16.2",
+    "weather_code": "0",
+    "cloud_cover": "1",
+    "wind_speed_10m": "5.5"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:44+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:22:48+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Citadel of Jaca, Aragon, Spain. Tourist viewpoint: the glacis before the fortress, looking at its walls. Frame: Jaca's pentagonal citadel with its moat; the Romanesque cathedral of San Pedro nearby; the Pyrenean peaks rising behind the town. Light and weather: mostly clear night, light air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the Citadel of Jaca, Aragon, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:25 in the morning). Tourist viewpoint: the glacis before the fortress, looking at its walls — Jaca's pentagonal citadel with its moat, the Romanesque cathedral of San Pedro nearby, the Pyrenean peaks dark behind the town. Deep night: pitch-dark star-filled sky, moonlight on the fortress walls, restrained lighting, mountains dark. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-128-source-0-59139485-4b8e-4f9b-8d8b-118db01124f0.png",
-      "sha256": "f2566c43a50ffdf84b6a716df0fe82841139dceb4482f569c7c81fd941d61c61",
+      "file": "media-generation-es-01-128-r2-source-0-50e4772a-0261-4c62-a356-ee364d511ac3.png",
+      "sha256": "4b87062a178bbee5630a1b2ae7ccc330da332459ba6d42c4ffb0c8633ce533d5",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -122,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

@@ -4,14 +4,14 @@
   "city": "Molina de Aragón",
   "region": "Castilla-La Mancha",
   "caption": "Molina de Aragón, Molina de Aragón",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the valley approach, looking up at the fortress",
   "anchors": [
     "the great castle of Molina de Aragón on its hill",
     "the medieval walls running down to the town",
     "the Gallo valley and the Molina highlands"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Molina_de_Arag%C3%B3n",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:20 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the hilltop fortress · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Molina de Aragón at night.",
-  "description": "Molina de Aragón keeps its great castle — the alcázar of the Lara — with medieval walls running down to the town. A clear night, light breeze over the Molina highlands. The Gallo valley and the high Molina country spread around.",
-  "file_16x9": "es-01-123-r1-16x9.png",
-  "file_4x5": "es-01-123-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Molina de Aragón, Molina de Aragón at night.",
+  "description": "Molina de Aragón keeps its great castle — the alcázar of the Lara — with medieval walls running down to the town. A clear, cool night, light breeze over the Molina highlands. The Gallo valley and the high Molina country spread around.",
+  "file_16x9": "es-01-123-r2-16x9.png",
+  "file_4x5": "es-01-123-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "36cea4bef2a9572f4b7dffe7fc03d895cba0841d12431fd0f5c8b4f41a9875c8"
+      "sha256": "41e1ecaef51fb4c6c92861473520b55235ab5567990b45a3f77492507d8338c0"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "78f316f3d9f42287e655ce4f3c963438464d01e7c4d610a517f2c3fbd67af88d"
+      "sha256": "2ddcfc2f24fb8fd89b3322dd2f7dca58f73e7d8033f88ff3049e2e96e34c6c09"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-123-r1-16x9.png",
+      "file": "es-01-123-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2805803,
-      "sha256": "36cea4bef2a9572f4b7dffe7fc03d895cba0841d12431fd0f5c8b4f41a9875c8",
-      "source_file": "media-generation-es-01-123-source-0-3648723f-6ce1-41b0-a87d-40d60e58fc4e.png",
+      "byte_length": 2086349,
+      "sha256": "41e1ecaef51fb4c6c92861473520b55235ab5567990b45a3f77492507d8338c0",
+      "source_file": "media-generation-es-01-123-r2-source-0-fa7cb823-21b0-49fb-b517-208828a72acd.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Molina de Aragón, Molina de Aragón",
-        "Scenario: 24 September 2026 · 03:57 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-123-r1-4x5.png",
+      "file": "es-01-123-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1488724,
-      "sha256": "78f316f3d9f42287e655ce4f3c963438464d01e7c4d610a517f2c3fbd67af88d",
-      "source_file": "media-generation-es-01-123-source-0-3648723f-6ce1-41b0-a87d-40d60e58fc4e.png",
+      "byte_length": 1238367,
+      "sha256": "2ddcfc2f24fb8fd89b3322dd2f7dca58f73e7d8033f88ff3049e2e96e34c6c09",
+      "source_file": "media-generation-es-01-123-r2-source-0-fa7cb823-21b0-49fb-b517-208828a72acd.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Molina de Aragón, Molina de Aragón",
-        "Scenario: 24 September 2026 · 03:57 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:09:33+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "clear night, light breeze",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:20:58+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear, cool night, light breeze over the Molina highlands.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "9.3",
+    "weather_code": "0",
+    "cloud_cover": "9",
+    "wind_speed_10m": "5.1"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:33+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:20:58+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Molina de Aragón, Castilla-La Mancha, Spain. Tourist viewpoint: the valley approach, looking up at the fortress. Frame: the great castle of Molina de Aragón on its hill; the medieval walls running down to the town; the Gallo valley around. Light and weather: clear night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the great castle of Molina de Aragón, Castilla-La Mancha, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:20 in the morning). Tourist viewpoint: the valley approach, looking up at the fortress — the hilltop alcázar castle, medieval walls running down to the town, the Gallo valley and dark highlands. Deep night: pitch-dark star-filled sky, moonlit stone walls, faint lights of the town below, mountains dark. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-123-source-0-3648723f-6ce1-41b0-a87d-40d60e58fc4e.png",
-      "sha256": "ce58e5cb9238e1a5b979dc0df282bdc0a49a2b7ba65ef459afb8bbee95f688e3",
+      "file": "media-generation-es-01-123-r2-source-0-fa7cb823-21b0-49fb-b517-208828a72acd.png",
+      "sha256": "42ab4cf3a7e5f4333d1dd9b94bdb5c264a4780e764246aef2fc166258b003975",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

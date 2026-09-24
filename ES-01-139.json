@@ -4,14 +4,14 @@
   "city": "Cardona",
   "region": "Catalonia",
   "caption": "Cardona Castle, Cardona",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the valley approach, looking up at the castle hill",
   "anchors": [
     "the castle of Cardona on its hill over the town",
     "the great collegiate church of Sant Vicenç",
     "the salt mountain valley below the fortress"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Cardona,_Spain",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:17 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:25 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the castle hill · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Cardona Castle at night.",
-  "description": "Cardona's castle — never taken by force — crowns its hill over the town and the famous salt mountain valley. A partly cloudy night, light breeze over Cardona. The collegiate church of Sant Vicenç stands within the walls, a jewel of Catalan Romanesque.",
-  "file_16x9": "es-01-139-r1-16x9.png",
-  "file_4x5": "es-01-139-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Cardona Castle, Cardona at night.",
+  "description": "Cardona's castle — never taken by force — crowns its hill over the town and the famous salt mountain valley. A clear night over the castle hill, light breeze. The collegiate church of Sant Vicenç stands within the walls, a jewel of Catalan Romanesque.",
+  "file_16x9": "es-01-139-r2-16x9.png",
+  "file_4x5": "es-01-139-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "667ddd169c9d5d8ce5c8a1a1e0d4d430f020eefe5d13acfe7d68cb9679eff546"
+      "sha256": "b73551472284b072f440db615adec2f39cb6012535f0816bc9cc92612b22d9cb"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "4c0e5fb55ffcdc7f9744c0a6f28ede91338fecd775f12cc356c86fbeb21a5206"
+      "sha256": "22e80ae0a148e2402f44300d8e0a651ded80f6791bd74decfba116c824f9a1b8"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-139-r1-16x9.png",
+      "file": "es-01-139-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2595095,
-      "sha256": "667ddd169c9d5d8ce5c8a1a1e0d4d430f020eefe5d13acfe7d68cb9679eff546",
-      "source_file": "media-generation-es-01-139-source-0-9b27a594-72e0-4b76-9912-798ff3c960a3.png",
+      "byte_length": 2325748,
+      "sha256": "b73551472284b072f440db615adec2f39cb6012535f0816bc9cc92612b22d9cb",
+      "source_file": "media-generation-es-01-139-r2-source-0-c607508a-2004-4969-b421-bfef684bedf9.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Cardona Castle, Cardona",
-        "Scenario: 24 September 2026 · 04:17 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:25 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-139-r1-4x5.png",
+      "file": "es-01-139-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1284793,
-      "sha256": "4c0e5fb55ffcdc7f9744c0a6f28ede91338fecd775f12cc356c86fbeb21a5206",
-      "source_file": "media-generation-es-01-139-source-0-9b27a594-72e0-4b76-9912-798ff3c960a3.png",
+      "byte_length": 1300163,
+      "sha256": "22e80ae0a148e2402f44300d8e0a651ded80f6791bd74decfba116c824f9a1b8",
+      "source_file": "media-generation-es-01-139-r2-source-0-c607508a-2004-4969-b421-bfef684bedf9.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Cardona Castle, Cardona",
-        "Scenario: 24 September 2026 · 04:17 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:25 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:16:41+02:00",
-    "valid": "2026-09-24T04:15 Europe/Madrid",
-    "phrase": "partly cloudy night, light breeze",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:25:14+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the castle hill, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "12.2",
+    "weather_code": "0",
+    "cloud_cover": "0",
+    "wind_speed_10m": "5.5"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:16:41+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:25:14+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Cardona Castle, Catalonia, Spain. Tourist viewpoint: the valley approach, looking up at the castle hill. Frame: the castle of Cardona on its hill over the town; the great collegiate church of Sant Vicenç; the valley below the fortress. Light and weather: partly cloudy night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the Castle of Cardona, Catalonia, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the salt-mountain viewpoint, looking at the castle — the hilltop castle of Cardona, the collegiate church of Sant Vicenc with its Lombard bell tower, the salt valley dark below. Deep night: pitch-dark star-filled sky, moonlight on the castle walls, mountains dark, restrained lights only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-139-source-0-9b27a594-72e0-4b76-9912-798ff3c960a3.png",
-      "sha256": "e4deea1d1941787529549df21d6e1e2072b82528cc5a5b2a1363da328193c89d",
+      "file": "media-generation-es-01-139-r2-source-0-c607508a-2004-4969-b421-bfef684bedf9.png",
+      "sha256": "a36f88137a77faa64674b405c27f5fe8ba4bb6e29728a41f505bc3862994eb4a",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

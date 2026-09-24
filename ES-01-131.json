@@ -4,54 +4,58 @@
   "city": "Nuévalos",
   "region": "Aragon",
   "caption": "Monasterio de Piedra, Nuévalos",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the park path before the great cascade, looking into the grotto",
   "anchors": [
     "the waterfalls of the Monasterio de Piedra park",
     "the great Cola de Caballo cascade in its grotto",
     "the Cistercian monastery buildings among the gardens"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Monasterio_de_Piedra",
       "Wikipedia — the Monasterio de Piedra and its water park"
+    ],
+    [
+      "https://www.turismodearagon.com",
+      "Official Aragon tourism portal — verify the Piedra listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:22 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the waterfalls in the park · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Monasterio de Piedra at night.",
-  "description": "The Monasterio de Piedra hides a water garden in the Aragonese steppe — waterfalls, grottos, and the great Cola de Caballo cascade around a Cistercian monastery. A clear night, light breeze over the Aragonese steppe. The monks diverted the Piedra river into a romantic park.",
-  "file_16x9": "es-01-131-r1-16x9.png",
-  "file_4x5": "es-01-131-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Monasterio de Piedra, Nuévalos at night.",
+  "description": "The Monasterio de Piedra hides a water garden in the Aragonese steppe — waterfalls, grottos, and the great Cola de Caballo cascade around a Cistercian monastery. A clear night over the park, light breeze. The monks diverted the Piedra river into a romantic park.",
+  "file_16x9": "es-01-131-r2-16x9.png",
+  "file_4x5": "es-01-131-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "bb25f710c261df2e412d1bba04a0587af8f52b9fbbc958b8bd3d92099d6ecc84"
+      "sha256": "bf51b33e332e59e9287595e19e54ad36401c5b7d8b548d2b8c7ed42ee4e65b54"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "4e354130ddd553627dfc8e453e9f9bfcd802046178d6741fe96d1caf96d464df"
+      "sha256": "fe2b47c692cc8830ef31d493ca1cd7cfaf2a6733f83e97ef63de647b8931eccc"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-131-r1-16x9.png",
+      "file": "es-01-131-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 3186620,
-      "sha256": "bb25f710c261df2e412d1bba04a0587af8f52b9fbbc958b8bd3d92099d6ecc84",
-      "source_file": "media-generation-es-01-131-source-0-e73d2907-157f-4f21-aad6-c7e8b40b9d62.png",
+      "byte_length": 3369447,
+      "sha256": "bf51b33e332e59e9287595e19e54ad36401c5b7d8b548d2b8c7ed42ee4e65b54",
+      "source_file": "media-generation-es-01-131-r2-source-0-22432b10-0dc7-4e16-90f1-c2b8545b1375.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -59,26 +63,26 @@
       ],
       "labels": [
         "Monasterio de Piedra, Nuévalos",
-        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-131-r1-4x5.png",
+      "file": "es-01-131-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1725284,
-      "sha256": "4e354130ddd553627dfc8e453e9f9bfcd802046178d6741fe96d1caf96d464df",
-      "source_file": "media-generation-es-01-131-source-0-e73d2907-157f-4f21-aad6-c7e8b40b9d62.png",
+      "byte_length": 1601875,
+      "sha256": "fe2b47c692cc8830ef31d493ca1cd7cfaf2a6733f83e97ef63de647b8931eccc",
+      "source_file": "media-generation-es-01-131-r2-source-0-22432b10-0dc7-4e16-90f1-c2b8545b1375.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -86,33 +90,37 @@
       ],
       "labels": [
         "Monasterio de Piedra, Nuévalos",
-        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:09:51+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "clear night, light breeze",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:22:48+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the park, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "14.6",
+    "weather_code": "0",
+    "cloud_cover": "0",
+    "wind_speed_10m": "6.5"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:51+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:22:48+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Monasterio de Piedra park in Nuévalos, Aragon, Spain. Tourist viewpoint: the park path before the great cascade, looking into the grotto. Frame: the waterfalls of the Monasterio de Piedra park; the great Cola de Caballo cascade in its grotto; the Cistercian monastery buildings among the gardens. Light and weather: clear night, gentle breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the Monasterio de Piedra park in Nuévalos, Aragon, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:25 in the morning). Tourist viewpoint: the park path before the great cascade, looking into the grotto — the waterfalls of the Monasterio de Piedra park, the great Cola de Caballo cascade falling into its moonlit grotto, the Cistercian monastery buildings dark among the gardens. Deep night: pitch-dark star-filled sky, moonlight silvering the falling water, no artificial floodlighting, grotto in moonlit shadow. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-131-source-0-e73d2907-157f-4f21-aad6-c7e8b40b9d62.png",
-      "sha256": "d7354773cbae36e04d8f569a987da86826ef633dad301baeec31d6a9936eefa3",
+      "file": "media-generation-es-01-131-r2-source-0-22432b10-0dc7-4e16-90f1-c2b8545b1375.png",
+      "sha256": "b9d51be3e342468dd7063c92c7ef55a405e5927954670006e1ea87b16623bc45",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -122,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

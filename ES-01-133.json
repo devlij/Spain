@@ -4,14 +4,14 @@
   "city": "Girona",
   "region": "Catalonia",
   "caption": "Old town, Girona",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the Onyar riverbank, looking at the colorful houses and cathedral",
   "anchors": [
     "Girona's old town with the cathedral's great Gothic nave",
     "the colorful houses of the Onyar riverfront",
     "the Eiffel bridge over the river"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Girona",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:25 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the Onyar riverfront and cathedral · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Old town at night.",
-  "description": "Girona's old town rises from the Onyar — colorful riverfront houses, the Eiffel bridge, and the cathedral with the widest Gothic nave in the world. A cloudy night, calm air over Girona. The Jewish quarter is among the best-preserved in Europe.",
-  "file_16x9": "es-01-133-r1-16x9.png",
-  "file_4x5": "es-01-133-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Old town, Girona at night.",
+  "description": "Girona's old town rises from the Onyar — colorful riverfront houses, the Eiffel bridge, and the cathedral with the widest Gothic nave in the world. A partly cloudy night over Girona, light air. The Jewish quarter is among the best-preserved in Europe.",
+  "file_16x9": "es-01-133-r2-16x9.png",
+  "file_4x5": "es-01-133-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "f3b7b978d73683ef3091ddb1e288f751e219d1ba3fefd075a652847b72ae9d15"
+      "sha256": "7492c264c55883c14aada55791ddf599cd3647cb9dc4d02fc5296f4e836a2b82"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "fd44099ebd1f4f15aa1a598addbef9d961bab7b0e117b3e558364b9ea72f65b1"
+      "sha256": "604672a96428e9645caf30efd8549207968d32a26951c56cb2543cb3b8995a9d"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-133-r1-16x9.png",
+      "file": "es-01-133-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2757764,
-      "sha256": "f3b7b978d73683ef3091ddb1e288f751e219d1ba3fefd075a652847b72ae9d15",
-      "source_file": "media-generation-es-01-133-source-0-1214e4db-bb3d-4b73-b6a8-137ee87f7005.png",
+      "byte_length": 2316474,
+      "sha256": "7492c264c55883c14aada55791ddf599cd3647cb9dc4d02fc5296f4e836a2b82",
+      "source_file": "media-generation-es-01-133-r2-source-0-0bee396b-97d6-4928-bc79-946d66d203b6.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Old town, Girona",
-        "Scenario: 24 September 2026 · 04:15 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:25 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-133-r1-4x5.png",
+      "file": "es-01-133-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1209064,
-      "sha256": "fd44099ebd1f4f15aa1a598addbef9d961bab7b0e117b3e558364b9ea72f65b1",
-      "source_file": "media-generation-es-01-133-source-0-1214e4db-bb3d-4b73-b6a8-137ee87f7005.png",
+      "byte_length": 1217658,
+      "sha256": "604672a96428e9645caf30efd8549207968d32a26951c56cb2543cb3b8995a9d",
+      "source_file": "media-generation-es-01-133-r2-source-0-0bee396b-97d6-4928-bc79-946d66d203b6.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Old town, Girona",
-        "Scenario: 24 September 2026 · 04:15 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:25 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:12:32+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "cloudy night, calm air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:25:14+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A partly cloudy night over Girona, light air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "14.6",
+    "weather_code": "2",
+    "cloud_cover": "15",
+    "wind_speed_10m": "2.5"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:12:32+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:25:14+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Girona, Catalonia, Spain. Tourist viewpoint: the Onyar riverbank, looking at the colorful houses and cathedral. Frame: Girona's old town with the cathedral's great Gothic nave; the colorful houses of the Onyar riverfront; the iron bridge over the river. Light and weather: cloudy night, calm air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the Cathedral of Santa Maria of Girona, Catalonia, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the river bank opposite, looking across at the cathedral — the great broad UNSPIRED Baroque facade of Girona's cathedral, its SINGLE bell tower with cupola, and the sweeping baroque staircase below; the old town's colourful river houses. CRITICAL ARCHITECTURE RULE: the cathedral must have NO spires, NO tall Gothic pinnacles, NO rose-window tower anywhere — a wide flat-facade church with one cupola-topped tower only. Deep night: pitch-dark star-filled sky, moonlight, faint warm window light. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-133-source-0-1214e4db-bb3d-4b73-b6a8-137ee87f7005.png",
-      "sha256": "bf3f2d5a7bd1a2c421dfcb0fec2488994536e3024a43a20007bc7e7f7477622b",
+      "file": "media-generation-es-01-133-r2-source-0-0bee396b-97d6-4928-bc79-946d66d203b6.png",
+      "sha256": "6436ecf3f6f18973f5f99fb9ff48c89d7f6100165ba0fc5524e09bc72dc71a82",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

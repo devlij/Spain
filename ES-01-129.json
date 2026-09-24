@@ -4,54 +4,58 @@
   "city": "Tarazona",
   "region": "Aragon",
   "caption": "Old town, Tarazona",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the river approach, looking up at the old town",
   "anchors": [
     "Tarazona's cathedral with its Mudejar cloister tower",
     "the old town's hanging houses and Jewish quarter",
     "the Moncayo massif on the horizon"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Tarazona",
       "Wikipedia — Tarazona, historic city in Aragon"
+    ],
+    [
+      "https://www.turismodearagon.com",
+      "Official Aragon tourism portal — verify the Tarazona listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:22 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the old town beneath the Moncayo · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Old town at night.",
-  "description": "Tarazona keeps a cathedral with a Mudejar cloister, hanging houses, and one of Spain's oldest bullrings — all beneath the Moncayo massif. A clear night, light breeze over Tarazona. Its old town layers Christian, Jewish, and Mudéjar history.",
-  "file_16x9": "es-01-129-r1-16x9.png",
-  "file_4x5": "es-01-129-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Old town, Tarazona at night.",
+  "description": "Tarazona keeps a cathedral with a Mudejar cloister, hanging houses, and one of Spain's oldest bullrings — all beneath the Moncayo massif. A clear night over the old town, light breeze. Its old town layers Christian, Jewish, and Mudéjar history.",
+  "file_16x9": "es-01-129-r2-16x9.png",
+  "file_4x5": "es-01-129-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "91fa1c0f78a85eab63dce9b16f7f872fac6de909f4309138eb087cfee75f15cf"
+      "sha256": "c7a8bd9d98e309f62efba0492bc4fb9af67c949cfa826171bd875a49becdfafb"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "dfaee11aa48b7496090ee5c45085db18e78e3695706a4a4bf90532b7c8f4f9b2"
+      "sha256": "50d18eb2e3347437b860ba9f982d0926cdb66e557fd53795ec30f925613a6af9"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-129-r1-16x9.png",
+      "file": "es-01-129-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 3340020,
-      "sha256": "91fa1c0f78a85eab63dce9b16f7f872fac6de909f4309138eb087cfee75f15cf",
-      "source_file": "media-generation-es-01-129-source-0-b44ae7f1-c2cc-44c8-8c2a-63c274e8d548.png",
+      "byte_length": 2951025,
+      "sha256": "c7a8bd9d98e309f62efba0492bc4fb9af67c949cfa826171bd875a49becdfafb",
+      "source_file": "media-generation-es-01-129-r2-source-0-57009bbd-976a-4a58-966a-25bc869a5a54.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -59,26 +63,26 @@
       ],
       "labels": [
         "Old town, Tarazona",
-        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-129-r1-4x5.png",
+      "file": "es-01-129-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1521412,
-      "sha256": "dfaee11aa48b7496090ee5c45085db18e78e3695706a4a4bf90532b7c8f4f9b2",
-      "source_file": "media-generation-es-01-129-source-0-b44ae7f1-c2cc-44c8-8c2a-63c274e8d548.png",
+      "byte_length": 1455806,
+      "sha256": "50d18eb2e3347437b860ba9f982d0926cdb66e557fd53795ec30f925613a6af9",
+      "source_file": "media-generation-es-01-129-r2-source-0-57009bbd-976a-4a58-966a-25bc869a5a54.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -86,33 +90,37 @@
       ],
       "labels": [
         "Old town, Tarazona",
-        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:09:46+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "clear night, light breeze",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:22:48+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the old town, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "17.2",
+    "weather_code": "0",
+    "cloud_cover": "0",
+    "wind_speed_10m": "6.6"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:46+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:22:48+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Tarazona, Aragon, Spain. Tourist viewpoint: the river approach, looking up at the old town. Frame: Tarazona's cathedral with its tower; the old town's hanging houses and historic quarter; the Moncayo massif on the horizon. Light and weather: clear night, gentle breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Tarazona, Aragon, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:25 in the morning). Tourist viewpoint: the river approach, looking up at the old town — Tarazona's cathedral with its Mudejar cloister tower, the old town's hanging houses and historic quarter, the Moncayo massif dark on the horizon. Deep night: pitch-dark star-filled sky, moonlight, warm old-town lighting only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-129-source-0-b44ae7f1-c2cc-44c8-8c2a-63c274e8d548.png",
-      "sha256": "393aa09fbec291e7258fe591e149cef0d1227632c24fd8729ecee4cca453e4cf",
+      "file": "media-generation-es-01-129-r2-source-0-57009bbd-976a-4a58-966a-25bc869a5a54.png",
+      "sha256": "90d347ededce96ea501c2c5743e58b7114f90a194471f6860e49a7954be257cd",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -122,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

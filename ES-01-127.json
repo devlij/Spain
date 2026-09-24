@@ -4,54 +4,58 @@
   "city": "Aínsa-Sobrarbe",
   "region": "Aragon",
   "caption": "Aínsa, Aínsa-Sobrarbe",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the Plaza Mayor, looking toward the castle",
   "anchors": [
     "Aínsa's arcaded Plaza Mayor in the Pyrenean foothills",
     "the castle and collegiate church above the square",
     "the Peña Montañesa massif behind the town"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/A%C3%ADnsa",
       "Wikipedia — Aínsa, medieval town in the Aragonese Pyrenees"
+    ],
+    [
+      "https://www.turismodearagon.com",
+      "Official Aragon tourism portal — verify the Aínsa listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:22 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the plaza beneath the castle · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Aínsa at night.",
-  "description": "Aínsa keeps one of the Pyrenees' finest plazas — a great arcaded square beneath its castle, with the Peña Montañesa massif behind. A clear night, light air over the Pyrenean foothills. It was the first capital of the kingdom of Aragon.",
-  "file_16x9": "es-01-127-r1-16x9.png",
-  "file_4x5": "es-01-127-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Aínsa, Aínsa-Sobrarbe at night.",
+  "description": "Aínsa keeps one of the Pyrenees' finest plazas — a great arcaded square beneath its castle, with the Peña Montañesa massif behind. A clear night over the Pyrenean foothills, calm air. It was the first capital of the kingdom of Aragon.",
+  "file_16x9": "es-01-127-r2-16x9.png",
+  "file_4x5": "es-01-127-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "7d36724a1ecc3fe08343abeef087b83f6f0785da80bd12fdd508532fc8e4e9a4"
+      "sha256": "59d95dd74428521b5ecffc8d73482144ca8d833f3646291dfaa7329ffcefc9b1"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "6ebd3a80ea9fc8829cf503cea7022930c31b3c6640bc465f1a88760f8b2c9480"
+      "sha256": "fbc5e0ed91fb3ee910b15bb7fe2e2663d2de3e6d2f719c4c3d2b55cb3c28d14f"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-127-r1-16x9.png",
+      "file": "es-01-127-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 3003769,
-      "sha256": "7d36724a1ecc3fe08343abeef087b83f6f0785da80bd12fdd508532fc8e4e9a4",
-      "source_file": "media-generation-es-01-127-source-r2-0-0e328845-e7d8-4af0-833b-216149f81b86.png",
+      "byte_length": 3271462,
+      "sha256": "59d95dd74428521b5ecffc8d73482144ca8d833f3646291dfaa7329ffcefc9b1",
+      "source_file": "media-generation-es-01-127-r2-source-0-e518ca1c-5d31-414b-a402-c34a3e22f416.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -59,26 +63,26 @@
       ],
       "labels": [
         "Aínsa, Aínsa-Sobrarbe",
-        "Scenario: 24 September 2026 · 04:00 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-127-r1-4x5.png",
+      "file": "es-01-127-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1425978,
-      "sha256": "6ebd3a80ea9fc8829cf503cea7022930c31b3c6640bc465f1a88760f8b2c9480",
-      "source_file": "media-generation-es-01-127-source-r2-0-0e328845-e7d8-4af0-833b-216149f81b86.png",
+      "byte_length": 1554095,
+      "sha256": "fbc5e0ed91fb3ee910b15bb7fe2e2663d2de3e6d2f719c4c3d2b55cb3c28d14f",
+      "source_file": "media-generation-es-01-127-r2-source-0-e518ca1c-5d31-414b-a402-c34a3e22f416.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -86,33 +90,37 @@
       ],
       "labels": [
         "Aínsa, Aínsa-Sobrarbe",
-        "Scenario: 24 September 2026 · 04:00 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:22 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:09:42+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "clear night, light air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:22:48+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the Pyrenean foothills, calm air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "14.6",
+    "weather_code": "0",
+    "cloud_cover": "0",
+    "wind_speed_10m": "2.3"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:42+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:22:48+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Aínsa, Aragon, Spain. Tourist viewpoint: the Plaza Mayor, looking toward the castle. Frame: Aínsa's arcaded Plaza Mayor in the Pyrenean foothills; the castle and collegiate church above the square; the Peña Montañesa massif behind the town. Light and weather: mostly clear night, calm air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of Aínsa, Aragon, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:25 in the morning). Tourist viewpoint: the Plaza Mayor, looking toward the castle — Aínsa's arcaded Plaza Mayor in the Pyrenean foothills, the castle and collegiate church above the square, the Peña Montañesa massif dark behind the town. Deep night: pitch-dark star-filled sky, moonlight, warm plaza lighting with the castle dark above. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-127-source-r2-0-0e328845-e7d8-4af0-833b-216149f81b86.png",
-      "sha256": "6e9d36f5bf4f74ccbd1a8a45d83032b8853cd935535d35a1e00503c9ca63b86e",
+      "file": "media-generation-es-01-127-r2-source-0-e518ca1c-5d31-414b-a402-c34a3e22f416.png",
+      "sha256": "7cfcaf6382ffb0d28ce670ce81fcf53548676246096494cf9e02b78901c10f01",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -122,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

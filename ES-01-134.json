@@ -4,14 +4,14 @@
   "city": "Tortosa",
   "region": "Catalonia",
   "caption": "Old town, Tortosa",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the Ebro riverbank, looking up at the old town",
   "anchors": [
     "Tortosa's old town with the cathedral of Santa María",
     "the Suda castle on its hill",
     "the Ebro river below the town"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Tortosa",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:25 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the old town and Ebro · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Old town at night.",
-  "description": "Tortosa keeps its old town on the Ebro — the Gothic cathedral, the Suda castle on its hill, the river below. A foggy night, calm air over the Ebro. The last navigable city of the Ebro, with the delta beyond.",
-  "file_16x9": "es-01-134-r1-16x9.png",
-  "file_4x5": "es-01-134-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Old town, Tortosa at night.",
+  "description": "Tortosa keeps its old town on the Ebro — the Gothic cathedral, the Suda castle on its hill, the river below. A cloudy night over Tortosa, nearly calm air. The last navigable city of the Ebro, with the delta beyond.",
+  "file_16x9": "es-01-134-r2-16x9.png",
+  "file_4x5": "es-01-134-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "f0a90c121800548e2537f49256466a213874cdba6b6f220e067c0b3b425f2011"
+      "sha256": "cd052f9e12d73070e2312ad59e320ca91f1375263706034009531da437e3dbdb"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "2771709f635bfabe0ab8f9554405d2db800f915cee3b77777f1932bac34ed38b"
+      "sha256": "608a5fdb5188193a4c549a2cbfb74a012ec6721f739e085f325b5cc9a0bf1679"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-134-r1-16x9.png",
+      "file": "es-01-134-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2573899,
-      "sha256": "f0a90c121800548e2537f49256466a213874cdba6b6f220e067c0b3b425f2011",
-      "source_file": "media-generation-es-01-134-source-0-f4bc8f1d-872f-4f4c-bd02-d689cb53a682.png",
+      "byte_length": 2140555,
+      "sha256": "cd052f9e12d73070e2312ad59e320ca91f1375263706034009531da437e3dbdb",
+      "source_file": "media-generation-es-01-134-r2-source-0-6856fc7e-ae58-4a8f-bb05-97aa91e7071f.png",
       "source_dimensions": [
-        1408,
-        1760
+        1280,
+        1920
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Old town, Tortosa",
-        "Scenario: 24 September 2026 · 04:15 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:25 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1280, 1920]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-134-r1-4x5.png",
+      "file": "es-01-134-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1165851,
-      "sha256": "2771709f635bfabe0ab8f9554405d2db800f915cee3b77777f1932bac34ed38b",
-      "source_file": "media-generation-es-01-134-source-0-f4bc8f1d-872f-4f4c-bd02-d689cb53a682.png",
+      "byte_length": 1173999,
+      "sha256": "608a5fdb5188193a4c549a2cbfb74a012ec6721f739e085f325b5cc9a0bf1679",
+      "source_file": "media-generation-es-01-134-r2-source-0-6856fc7e-ae58-4a8f-bb05-97aa91e7071f.png",
       "source_dimensions": [
-        1408,
-        1760
+        1280,
+        1920
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Old town, Tortosa",
-        "Scenario: 24 September 2026 · 04:15 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:25 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1280, 1920]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:12:35+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "foggy night, calm air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:25:14+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A cloudy night over Tortosa, nearly calm air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "18.9",
+    "weather_code": "2",
+    "cloud_cover": "65",
+    "wind_speed_10m": "1.5"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:12:35+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:25:14+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Tortosa, Catalonia, Spain. Tourist viewpoint: the Ebro riverbank, looking up at the old town. Frame: Tortosa's old town with the cathedral of Santa María; the Suda castle on its hill; the Ebro river below the town. Light and weather: foggy night, calm air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the Cathedral of Santa Maria of Tortosa, Catalonia, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the Placa de la Cinta, looking up at the cathedral — the FLAT Baroque facade of Tortosa's cathedral, a broad unspired front with restrained Baroque ornament. CRITICAL ARCHITECTURE RULE: the facade must have NO spires, NO rose window, NO Gothic tower — a flat Baroque front only. Deep night: pitch-dark star-filled sky, moonlight, faint warm window light. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-134-source-0-f4bc8f1d-872f-4f4c-bd02-d689cb53a682.png",
-      "sha256": "e21dc4ba73f0db9073cf191baa7b0a987c457df8e5fbb3aaff44c823e8455515",
+      "file": "media-generation-es-01-134-r2-source-0-6856fc7e-ae58-4a8f-bb05-97aa91e7071f.png",
+      "sha256": "d1e5ef363a7ed71e6210a137c87a32c09852db698dfeb9809c43454dd98e0067",
       "dimensions": [
-        1408,
-        1760
+        1280,
+        1920
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1280, 1920]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

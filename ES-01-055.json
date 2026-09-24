@@ -4,14 +4,14 @@
   "city": "Logroño",
   "region": "La Rioja",
   "caption": "Calle Laurel, Logroño",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the pedestrian street itself, looking along its tavern-lined length",
   "anchors": [
     "the lively Calle Laurel with its tavern-lined pedestrian street",
     "Logroño's old-town stone façades and the church of San Bartolomé",
     "the Ebro riverfront with the Stone Bridge nearby"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Crowd levels are illustrative — no identifiable people depicted.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Crowd levels are illustrative — no identifiable people depicted. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Logro%C3%B1o",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:20 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the tavern street in the old town · AI-generated artistic interpretation",
   "alt_text": "AI-generated artistic interpretation of Calle Laurel, Logroño at night.",
-  "description": "Calle Laurel is Logroño's famous tavern street, a pedestrian lane of stone façades where the city's old town comes to eat and drink. A clear night over the town. The church of San Bartolomé stands close by, and the Ebro flows just beyond.",
-  "file_16x9": "es-01-055-r1-16x9.png",
-  "file_4x5": "es-01-055-r1-4x5.png",
+  "description": "Calle Laurel is Logroño's famous tavern street, a pedestrian lane of stone façades where the city's old town comes to eat and drink. A clear night over the old town, light air. The church of San Bartolomé stands close by, and the Ebro flows just beyond.",
+  "file_16x9": "es-01-055-r2-16x9.png",
+  "file_4x5": "es-01-055-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "f2e44141012a910d05df57332ce15fd6b94a6b8b8b7f021c78391a2629e5f51b"
+      "sha256": "0c109fcc2e076139c0ca4081b342a76167f959a6231137bc3edf375bc171f44e"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "c19735208c813450f8e368f9e6b7b89385778c7a2f348f1a2b2d746feb74e57f"
+      "sha256": "a8199f6f589ed14c488c75cf8bfd54e3d0d53e9c0fe2635c48ce3fcdb839c9ae"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-055-r1-16x9.png",
+      "file": "es-01-055-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2618105,
-      "sha256": "f2e44141012a910d05df57332ce15fd6b94a6b8b8b7f021c78391a2629e5f51b",
-      "source_file": "es-01-055-r1.png",
+      "byte_length": 2456839,
+      "sha256": "0c109fcc2e076139c0ca4081b342a76167f959a6231137bc3edf375bc171f44e",
+      "source_file": "media-generation-es-01-055-r2-source-0-83177819-f00c-47ed-90db-310d0cd8b3c3.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Calle Laurel, Logroño",
-        "Scenario: 24 September 2026 · 04:07 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-055-r1-4x5.png",
+      "file": "es-01-055-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1392181,
-      "sha256": "c19735208c813450f8e368f9e6b7b89385778c7a2f348f1a2b2d746feb74e57f",
-      "source_file": "es-01-055-r1.png",
+      "byte_length": 1207586,
+      "sha256": "a8199f6f589ed14c488c75cf8bfd54e3d0d53e9c0fe2635c48ce3fcdb839c9ae",
+      "source_file": "media-generation-es-01-055-r2-source-0-83177819-f00c-47ed-90db-310d0cd8b3c3.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,32 +90,37 @@
       ],
       "labels": [
         "Calle Laurel, Logroño",
-        "Scenario: 24 September 2026 · 04:07 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:07:36.682413+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:20:58+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the old town, light air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "16.8",
+    "weather_code": "0",
+    "cloud_cover": "0",
+    "wind_speed_10m": "5.1"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:07:36.682413+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:20:58+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Calle Laurel in Logroño, La Rioja, Spain. Tourist viewpoint: the pedestrian street itself, looking along its tavern-lined length. Frame: the lively Calle Laurel with its tavern-lined pedestrian street; Logroño's old-town stone façades and the church of San Bartolomé; the Ebro riverfront with the Stone Bridge nearby. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of Calle Laurel in Logroño, La Rioja, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:20 in the morning). Tourist viewpoint: the pedestrian street itself, looking along its tavern-lined length — stone facades, open tavern doorways with warm interiors, the sculpted portal and bell tower of the church of San Bartolomé closing the lane. Deep night: pitch-dark star-filled sky, moonlight, warm tavern light spilling from doorways only. NO daylight, NO blue-hour brightness. Main subject centered. No identifiable people. CRITICAL: absolutely no legible text, lettering, signs, signboards, menu boards, or door plaques anywhere in the image — every sign surface must be blank."
   },
   "source_files": [
     {
-      "file": "es-01-055-r1.png",
-      "sha256": "52a85cdc7fbc4ff9132df9fcc57a0347e358608873096aa64ac5e9b31521564c",
+      "file": "media-generation-es-01-055-r2-source-0-83177819-f00c-47ed-90db-310d0cd8b3c3.png",
+      "sha256": "4b61cf4e75739ecec4dc7132a753e47b19196e318a71b2f7998ade22c2b402a4",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -125,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
