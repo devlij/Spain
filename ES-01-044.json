@@ -1,54 +1,46 @@
 {
   "entry_id": "ES-01-044",
   "country": "Spain",
-  "city": "Tinajo",
+  "city": "Yaiza",
   "region": "Canary Islands",
-  "caption": "Timanfaya National Park, Lanzarote",
+  "caption": "El Golfo, Yaiza",
   "revision": "r1",
-  "viewpoint": "Official Montañas del Fuego visitor route near Islote de Hilario, approximately 29.0025, -13.7530, elevated eye-level looking across red-black crater cones and lava fields. Nighttime visitor access is explicitly not asserted.",
+  "viewpoint": "the crater viewpoint, looking down at the lagoon",
   "anchors": [
-    "Overlapping rust-red and charcoal volcanic cones",
-    "Rope-like black lava fields across the foreground",
-    "Narrow official Route of the Volcanoes road curving through the protected landscape"
+    "the green lagoon of El Golfo in its volcanic crater",
+    "the black beach and the crater walls",
+    "the Atlantic breaking beyond the crater"
   ],
-  "limitations": "The interior is regulated and the scenario does not imply legal nighttime access. No people, buses, geothermal demonstration, flames, stars or moon. Exact crater sequence and route curve require independent review.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
   "refs": [
     [
-      "https://cactlanzarote.com/en/visit/montanas-del-fuego",
-      "Official CACT description of Montañas del Fuego, craters, lava flows and Islote de Hilario; retrieved 24 September 2026."
+      "https://es.wikipedia.org/wiki/Charco_de_los_Clicos",
+      "Spanish Wikipedia — the Charco de los Clicos, El Golfo"
     ],
     [
-      "https://ventaonline.cactlanzarote.com/en/tickets/montanas-del-fuego-timanfaya-ticket",
-      "Official ticket description of the regulated Route of the Volcanoes and visitor access; retrieved 24 September 2026."
-    ],
-    [
-      "https://www.spain.info/en/nature/timanfaya-national-park/",
-      "Official Spain tourism description of Timanfaya's volcanic landscape; retrieved 24 September 2026."
-    ],
-    [
-      "https://www.hellocanaryislands.com/nature-spaces/lanzarote/timanfaya-national-park/",
-      "Official Canary Islands tourism volcanic-landscape overview; retrieved 24 September 2026."
+      "https://www.hellocanaryislands.com",
+      "Official Canary Islands tourism portal — verify the Yaiza listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
+  "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
   "time_of_day": "Night",
-  "composition": "Night · Official Montañas del Fuego visitor route near Islote de Hilario, approximately 29.0025, -13.7530, elevated eye-level looking across red-black crater cones and lava fields. Nighttime visitor access is explicitly not asserted. · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Timanfaya National Park, Lanzarote at night.",
-  "description": "Overlapping rust-red and charcoal volcanic cones; Rope-like black lava fields across the foreground; Narrow official Route of the Volcanoes road curving through the protected landscape.",
+  "composition": "Night · the crater lagoon · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of El Golfo, Yaiza at night.",
+  "description": "El Golfo hides its green lagoon in a volcanic crater by the sea — the Charco de los Clicos, green against the black beach. A clear night over the town. The crater walls open to the Atlantic.",
   "file_16x9": "es-01-044-r1-16x9.png",
   "file_4x5": "es-01-044-r1-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "335a625dca13e4145d92f10e3d9c8fe8ce45bbba41dba76345158786c3fc7eee"
+      "sha256": "9ef1a21a81e7a890256e943cbc540ed677bf1da692a8824416a5665f68fd46c2"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "62c9aa23ec829a3aab3c849fd1ba8aa5c54f1e7a151f29648a4fbf78f339c577"
+      "sha256": "084e963d03c31d00a085f20b5719a057fca5930f042c9bd53a5a9625f2795251"
     }
   },
   "masters": {
@@ -58,26 +50,26 @@
         1920,
         1080
       ],
-      "byte_length": 3139994,
-      "sha256": "335a625dca13e4145d92f10e3d9c8fe8ce45bbba41dba76345158786c3fc7eee",
-      "source_file": "044/source-r1.png",
+      "byte_length": 2479986,
+      "sha256": "9ef1a21a81e7a890256e943cbc540ed677bf1da692a8824416a5665f68fd46c2",
+      "source_file": "es-01-044-r1.png",
       "source_dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "crop_center": [
         0.5,
         0.5
       ],
       "labels": [
-        "Timanfaya National Park, Lanzarote",
-        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "El Golfo, Yaiza",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
-      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
       "file": "es-01-044-r1-4x5.png",
@@ -85,110 +77,45 @@
         864,
         1080
       ],
-      "byte_length": 1433532,
-      "sha256": "62c9aa23ec829a3aab3c849fd1ba8aa5c54f1e7a151f29648a4fbf78f339c577",
-      "source_file": "044/source-r1.png",
+      "byte_length": 1412377,
+      "sha256": "084e963d03c31d00a085f20b5719a057fca5930f042c9bd53a5a9625f2795251",
+      "source_file": "es-01-044-r1.png",
       "source_dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "crop_center": [
         0.5,
         0.5
       ],
       "labels": [
-        "Timanfaya National Park, Lanzarote",
-        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "El Golfo, Yaiza",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
-      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
-    "retrieved_utc": "2026-09-24T00:30:59.489803+00:00",
-    "retrieved_local": "2026-09-24T01:30:59.489803+01:00",
-    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=29.0025&longitude=-13.753&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Atlantic%2FCanary&forecast_days=1",
-    "response": {
-      "latitude": 28.998241,
-      "longitude": -13.727081,
-      "generationtime_ms": 24.911999702453613,
-      "utc_offset_seconds": 3600,
-      "timezone": "Atlantic/Canary",
-      "timezone_abbreviation": "GMT+1",
-      "elevation": 344.0,
-      "current_units": {
-        "time": "iso8601",
-        "interval": "seconds",
-        "temperature_2m": "°C",
-        "weather_code": "wmo code",
-        "cloud_cover": "%",
-        "is_day": "",
-        "precipitation": "mm",
-        "wind_speed_10m": "km/h"
-      },
-      "current": {
-        "time": "2026-09-24T01:30",
-        "interval": 900,
-        "temperature_2m": 24.8,
-        "weather_code": 0,
-        "cloud_cover": 1,
-        "is_day": 0,
-        "precipitation": 0.0,
-        "wind_speed_10m": 12.6
-      },
-      "daily_units": {
-        "time": "iso8601",
-        "sunrise": "iso8601",
-        "sunset": "iso8601"
-      },
-      "daily": {
-        "time": [
-          "2026-09-24"
-        ],
-        "sunrise": [
-          "2026-09-24T07:44"
-        ],
-        "sunset": [
-          "2026-09-24T19:49"
-        ]
-      }
-    },
-    "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
-    "requested_coordinates": [
-      29.0025,
-      -13.753
-    ],
-    "model_grid_coordinates": [
-      28.998241,
-      -13.727081
-    ],
-    "grid_resolution": "not provided in response; coordinate offset is not resolution",
-    "solar": {
-      "method": "NOAA fractional-year geometric approximation, not observation",
-      "elevation_deg": -60.69,
-      "azimuth_deg": 351.7
-    },
-    "lighting_stage": "Night",
-    "sunrise_local": "2026-09-24T07:44:00+01:00",
-    "sunset_local": "2026-09-24T19:49:00+01:00",
-    "twilight_window_minutes": 45,
-    "generation_allowed": true,
-    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:01:28.302762+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:59.489803+01:00, valid 2026-09-24T01:30 Atlantic/Canary — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:01:28.302762+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D's Vision Spain location master source, wide landscape\nPrimary request: Create an original photorealistic artistic interpretation of Timanfaya National Park, Lanzarote, at 24 September 2026 01:30 Atlantic/Canary.\nScene/backdrop: elevated viewpoint on the official Montañas del Fuego visitor route near Islote de Hilario, looking across the protected volcanic interior.\nSubject and geometry: overlapping rust-red and charcoal crater cones, rope-like black lava fields in foreground, narrow official Route of the Volcanoes road curving through the landscape. Entirely geological terrain, sparse to no vegetation.\nStyle/medium: highly realistic contemporary landscape photography aesthetic, restrained documentary naturalism, believable volcanic textures and scale.\nComposition/framing: wide 16:9-friendly source with layered cones and road, generous margins, central crater group suitable for portrait crop.\nLighting/mood: deep clear night, 24.8°C, 1% cloud, dry, moderate wind. Subtle natural nocturnal ambient light, enough long-exposure detail to read landforms without artificial drama.\nConstraints: no people, buses, cars, buildings, restaurant, geothermal demonstration, geysers, flames, smoke, glowing lava, moon, visible stars, Milky Way, text, caption, signature, watermark, or border. Do not imply legal nighttime access.\n"
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of El Golfo near Yaiza, Lanzarote, Canary Islands, Spain. Tourist viewpoint: the crater viewpoint, looking down at the lagoon. Frame: the green lagoon of El Golfo in its volcanic crater; the black beach and the crater walls; the Atlantic beyond the crater. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
   },
   "source_files": [
     {
-      "file": "source-r1.png",
-      "sha256": "86c378f15d0ac4c7de673a046a8917038021a54c29028d342997b39ecc6cd543",
+      "file": "es-01-044-r1.png",
+      "sha256": "32def8d06c6cf8da288f7103d62db13805ba2ea0b2bb9dfb02520c5bda43acae",
       "dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "selected": true
     }
@@ -196,16 +123,16 @@
   "provenance": {
     "tool": "Built-in image generation; specific model version not exposed",
     "image_inputs": [],
-    "source_use": "Text-only original generation. Third-party photographs were inspected for facts only and were not supplied as input pixels. No uniqueness guarantee.",
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Selected source 1672×941; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. This does not create native target-resolution detail."
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
-    "technical": "Both PNGs fully decode and pass verification, dimensions exact; label boxes remain in-frame and nonoverlapping. These production checks are not independent Cosmo QC.",
-    "visual": "Production comparison completed; the packet limitations remain for independent reviewer judgment.",
-    "originality": "Own generated pixels; uniqueness is not independently established.",
-    "commercial_ip": "No prominent identifiable people, logos, or focal copyrighted artwork detected; third-party clearance is not legally certified.",
-    "publication": "Candidate asset handoff only. No approval inferred."
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
   },
   "independent_qc": {
     "reviewer": "Cosmo",
@@ -214,10 +141,11 @@
   },
   "card_handoff": {
     "owner": "Cosmo",
-    "placement": "distinct Candidate pipeline"
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
   },
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "packet_created_utc": "2026-09-24T00:39:52.038159+00:00"
+  "reference_evidence": []
 }

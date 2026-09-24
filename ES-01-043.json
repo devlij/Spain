@@ -1,50 +1,46 @@
 {
   "entry_id": "ES-01-043",
   "country": "Spain",
-  "city": "Las Palmas de Gran Canaria",
+  "city": "Teror",
   "region": "Canary Islands",
-  "caption": "Vegueta, Las Palmas",
+  "caption": "Teror, Teror",
   "revision": "r1",
-  "viewpoint": "Southern half of public Plaza de Santa Ana, approximately 28.1004, -15.4152, eye-level looking north at the cathedral's west façade and twin towers. Exact point is approximate.",
+  "viewpoint": "the historic center, looking toward the basilica",
   "anchors": [
-    "Broad symmetrical cathedral façade with two square towers",
-    "Long stone-paved Plaza de Santa Ana foreground",
-    "Historic civic façades enclosing the square"
+    "Teror's old town with the basilica of Nuestra Señora del Pino",
+    "the Canarian balconies of the historic center",
+    "the pine forests around the town"
   ],
-  "limitations": "The bronze dog sculptures are not used as focal subjects. No current floodlighting schedule, temporary events, or pavement wetness is asserted. Cathedral and square proportions require independent review.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
   "refs": [
     [
-      "https://www.hellocanaryislands.com/places-full-of-charm/gran-canaria/vegueta-old-town/",
-      "Official Canary Islands tourism description of Vegueta, Santa Ana Cathedral and surrounding historic buildings; retrieved 24 September 2026."
+      "https://en.wikipedia.org/wiki/Teror",
+      "Wikipedia — Teror, Gran Canaria"
     ],
     [
-      "https://www.spain.info/en/destination/las-palmas-gran-canaria/",
-      "Official Spain tourism city overview; retrieved 24 September 2026."
-    ],
-    [
-      "https://www.grancanaria.com/turismo/en/culture/",
-      "Official Gran Canaria tourism culture context; retrieved 24 September 2026."
+      "https://www.hellocanaryislands.com",
+      "Official Canary Islands tourism portal — verify the Teror listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
+  "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
   "time_of_day": "Night",
-  "composition": "Night · Southern half of public Plaza de Santa Ana, approximately 28.1004, -15.4152, eye-level looking north at the cathedral's west façade and twin towers. Exact point is approximate. · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Vegueta, Las Palmas at night.",
-  "description": "Broad symmetrical cathedral façade with two square towers; Long stone-paved Plaza de Santa Ana foreground; Historic civic façades enclosing the square.",
+  "composition": "Night · the basilica town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Teror, Teror at night.",
+  "description": "Teror keeps its old town around the basilica of the Virgen del Pino — Gran Canaria's patron — with famous Canarian balconies. A mostly clear night over the town. The Sunday market fills the historic center.",
   "file_16x9": "es-01-043-r1-16x9.png",
   "file_4x5": "es-01-043-r1-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "238684707497f2d7f765f38b83ce654db3d2ef3debcebe816d615cbbd2b5c670"
+      "sha256": "46665557a77d23c14977e081baa7fe564b4bafaac57b36eba6a1f4affd1db9db"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "c24582e0968e35b38d74fe8dc4c6d993a07087b969689c78d2d346ae5f2dc085"
+      "sha256": "5d598f7a86a8f88dc2310cb8b45ca322eb1d2a5d1289f2048beb7d04416582c9"
     }
   },
   "masters": {
@@ -54,26 +50,26 @@
         1920,
         1080
       ],
-      "byte_length": 2866839,
-      "sha256": "238684707497f2d7f765f38b83ce654db3d2ef3debcebe816d615cbbd2b5c670",
-      "source_file": "043/source-r1.png",
+      "byte_length": 2596717,
+      "sha256": "46665557a77d23c14977e081baa7fe564b4bafaac57b36eba6a1f4affd1db9db",
+      "source_file": "es-01-043-r1.png",
       "source_dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "crop_center": [
         0.5,
         0.5
       ],
       "labels": [
-        "Vegueta, Las Palmas",
-        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "Teror, Teror",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
-      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
       "file": "es-01-043-r1-4x5.png",
@@ -81,110 +77,45 @@
         864,
         1080
       ],
-      "byte_length": 1278041,
-      "sha256": "c24582e0968e35b38d74fe8dc4c6d993a07087b969689c78d2d346ae5f2dc085",
-      "source_file": "043/source-r1.png",
+      "byte_length": 1299502,
+      "sha256": "5d598f7a86a8f88dc2310cb8b45ca322eb1d2a5d1289f2048beb7d04416582c9",
+      "source_file": "es-01-043-r1.png",
       "source_dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "crop_center": [
         0.5,
         0.5
       ],
       "labels": [
-        "Vegueta, Las Palmas",
-        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "Teror, Teror",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
-      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
-    "retrieved_utc": "2026-09-24T00:30:54.416586+00:00",
-    "retrieved_local": "2026-09-24T01:30:54.416586+01:00",
-    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.1004&longitude=-15.4152&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Atlantic%2FCanary&forecast_days=1",
-    "response": {
-      "latitude": 28.084358,
-      "longitude": -15.457642,
-      "generationtime_ms": 91.7588472366333,
-      "utc_offset_seconds": 3600,
-      "timezone": "Atlantic/Canary",
-      "timezone_abbreviation": "GMT+1",
-      "elevation": 18.0,
-      "current_units": {
-        "time": "iso8601",
-        "interval": "seconds",
-        "temperature_2m": "°C",
-        "weather_code": "wmo code",
-        "cloud_cover": "%",
-        "is_day": "",
-        "precipitation": "mm",
-        "wind_speed_10m": "km/h"
-      },
-      "current": {
-        "time": "2026-09-24T01:30",
-        "interval": 900,
-        "temperature_2m": 27.4,
-        "weather_code": 0,
-        "cloud_cover": 19,
-        "is_day": 0,
-        "precipitation": 0.0,
-        "wind_speed_10m": 4.2
-      },
-      "daily_units": {
-        "time": "iso8601",
-        "sunrise": "iso8601",
-        "sunset": "iso8601"
-      },
-      "daily": {
-        "time": [
-          "2026-09-24"
-        ],
-        "sunrise": [
-          "2026-09-24T07:51"
-        ],
-        "sunset": [
-          "2026-09-24T19:56"
-        ]
-      }
-    },
-    "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
-    "requested_coordinates": [
-      28.1004,
-      -15.4152
-    ],
-    "model_grid_coordinates": [
-      28.084358,
-      -15.457642
-    ],
-    "grid_resolution": "not provided in response; coordinate offset is not resolution",
-    "solar": {
-      "method": "NOAA fractional-year geometric approximation, not observation",
-      "elevation_deg": -61.31,
-      "azimuth_deg": 347.99
-    },
-    "lighting_stage": "Night",
-    "sunrise_local": "2026-09-24T07:51:00+01:00",
-    "sunset_local": "2026-09-24T19:56:00+01:00",
-    "twilight_window_minutes": 45,
-    "generation_allowed": true,
-    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:01:26.088179+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:54.416586+01:00, valid 2026-09-24T01:30 Atlantic/Canary — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:01:26.088179+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D's Vision Spain location master source, wide landscape\nPrimary request: Create an original photorealistic artistic interpretation of Vegueta old town in Las Palmas de Gran Canaria at 24 September 2026 01:30 Atlantic/Canary.\nScene/backdrop: southern half of public Plaza de Santa Ana, eye-level looking north across the square at the cathedral's west façade.\nSubject and geometry: broad symmetrical pale-stone Santa Ana Cathedral façade with two square towers and central neoclassical bays, long stone-paved plaza, historic civic façades enclosing the sides. Keep tower proportions restrained and realistic.\nStyle/medium: highly realistic contemporary architectural travel photography aesthetic, documentary naturalism, fine but believable stone texture.\nComposition/framing: wide 16:9-friendly source, complete twin towers and plaza, generous top and side margins, cathedral centered for portrait crop.\nLighting/mood: deep night, 27.4°C, mainly clear with 19% cloud, dry and light wind. Restrained warm plaza lamps and subtle façade illumination precedent, dark blue-black sky.\nConstraints: no people, vehicles, event installations, prominent sculptures or bronze dogs, logos, readable signs, flags, moon, stars, wet paving, rain, text overlay, signature, watermark, or border. No extra towers or domes.\n"
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Teror, Gran Canaria, Canary Islands, Spain. Tourist viewpoint: the historic center, looking toward the basilica. Frame: Teror's old town with the basilica of Nuestra Señora del Pino; the Canarian balconies of the historic center; the pine forests around the town. Light and weather: mostly clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
   },
   "source_files": [
     {
-      "file": "source-r1.png",
-      "sha256": "30917047f7dcabe7e5e6da532c4037f99e767d4b8ebc34cff1b94cba41c9c175",
+      "file": "es-01-043-r1.png",
+      "sha256": "985a609dbe0c61f6cdfd3426feceda8381584fbbbc7e896bedf72d485c83633f",
       "dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "selected": true
     }
@@ -192,16 +123,16 @@
   "provenance": {
     "tool": "Built-in image generation; specific model version not exposed",
     "image_inputs": [],
-    "source_use": "Text-only original generation. Third-party photographs were inspected for facts only and were not supplied as input pixels. No uniqueness guarantee.",
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Selected source 1672×941; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. This does not create native target-resolution detail."
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
-    "technical": "Both PNGs fully decode and pass verification, dimensions exact; label boxes remain in-frame and nonoverlapping. These production checks are not independent Cosmo QC.",
-    "visual": "Production comparison completed; the packet limitations remain for independent reviewer judgment.",
-    "originality": "Own generated pixels; uniqueness is not independently established.",
-    "commercial_ip": "No prominent identifiable people, logos, or focal copyrighted artwork detected; third-party clearance is not legally certified.",
-    "publication": "Candidate asset handoff only. No approval inferred."
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
   },
   "independent_qc": {
     "reviewer": "Cosmo",
@@ -210,10 +141,11 @@
   },
   "card_handoff": {
     "owner": "Cosmo",
-    "placement": "distinct Candidate pipeline"
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
   },
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "packet_created_utc": "2026-09-24T00:39:52.029220+00:00"
+  "reference_evidence": []
 }

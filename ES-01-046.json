@@ -1,58 +1,58 @@
 {
-  "entry_id": "ES-01-040",
+  "entry_id": "ES-01-046",
   "country": "Spain",
-  "city": "Garachico",
-  "region": "Canary Islands",
-  "caption": "Old town, Garachico",
+  "city": "Santillana del Mar",
+  "region": "Cantabria",
+  "caption": "Old town, Santillana del Mar",
   "revision": "r1",
-  "viewpoint": "the seafront, looking at the old town",
+  "viewpoint": "a cobbled lane in the historic centre, looking toward the Collegiate Church of Santa Juliana",
   "anchors": [
-    "Garachico's old town with the Roque de Garachico",
-    "the Castillo de San Miguel over the sea",
-    "the natural lava pools along the coast"
+    "cobbled lanes of honey-colored stone houses with wooden balconies",
+    "the Collegiate Church of Santa Juliana rising above the rooftops",
+    "the quiet plaza with the town's medieval silhouette intact"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Balcony and façade details are representative of the town's architecture, not measured from a specific building.",
   "refs": [
     [
-      "https://en.wikipedia.org/wiki/Garachico",
-      "Wikipedia — Garachico, Tenerife"
+      "https://en.wikipedia.org/wiki/Santillana_del_Mar",
+      "Wikipedia — Santillana del Mar, historic town in Cantabria"
     ],
     [
-      "https://www.hellocanaryislands.com",
-      "Official Canary Islands tourism portal — verify the Garachico listing before use"
+      "https://turismodecantabria.com",
+      "Official Cantabria tourism portal — verify the Santillana del Mar listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
   "time_of_day": "Night",
-  "composition": "Night · the old port town · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Old town, Garachico at night.",
-  "description": "Garachico — the old port buried by the 1706 eruption — keeps its old town, the San Miguel castle, and the lava pools of El Caletón. A partly cloudy night over the town. The Roque de Garachico stands offshore.",
-  "file_16x9": "es-01-040-r1-16x9.png",
-  "file_4x5": "es-01-040-r1-4x5.png",
+  "composition": "Night · medieval lanes beneath the collegiate church · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Santillana del Mar at night.",
+  "description": "In the lanes of Santillana del Mar, honey-colored stone houses with wooden balconies line the cobbled street, the Collegiate Church of Santa Juliana rising above the rooftops. An overcast night over the town. The town keeps its medieval silhouette whole, and the plaza feels untouched by haste.",
+  "file_16x9": "es-01-046-r1-16x9.png",
+  "file_4x5": "es-01-046-r1-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "2f437cf8fdd1f5ff1abc84e49e2b4e847f420e19d693f469396f659743154a0f"
+      "sha256": "06c8affa9bb849d39dd5f4a14695a124d15daf1dd50dc3a081cf302cec60c3b2"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "1991977c8c09f45a626a6d28133cc922d27ca3f3ad6af6ea52a70bf7f5363c00"
+      "sha256": "75c19d824c06d61ef829312d75257c57e9ed82fd2f85a52d84fe08b2a1981ed3"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-040-r1-16x9.png",
+      "file": "es-01-046-r1-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2119181,
-      "sha256": "2f437cf8fdd1f5ff1abc84e49e2b4e847f420e19d693f469396f659743154a0f",
-      "source_file": "es-01-040-r1.png",
+      "byte_length": 2716310,
+      "sha256": "06c8affa9bb849d39dd5f4a14695a124d15daf1dd50dc3a081cf302cec60c3b2",
+      "source_file": "es-01-046-r1.png",
       "source_dimensions": [
         1408,
         1760
@@ -62,8 +62,8 @@
         0.5
       ],
       "labels": [
-        "Old town, Garachico",
-        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "Old town, Santillana del Mar",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
@@ -72,14 +72,14 @@
       "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-040-r1-4x5.png",
+      "file": "es-01-046-r1-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1181176,
-      "sha256": "1991977c8c09f45a626a6d28133cc922d27ca3f3ad6af6ea52a70bf7f5363c00",
-      "source_file": "es-01-040-r1.png",
+      "byte_length": 1424915,
+      "sha256": "75c19d824c06d61ef829312d75257c57e9ed82fd2f85a52d84fe08b2a1981ed3",
+      "source_file": "es-01-046-r1.png",
       "source_dimensions": [
         1408,
         1760
@@ -89,8 +89,8 @@
         0.5
       ],
       "labels": [
-        "Old town, Garachico",
-        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "Old town, Santillana del Mar",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
@@ -101,18 +101,18 @@
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T03:58:50.859376+02:00",
-    "valid": "2026-09-24T03:45 Europe/Madrid",
+    "retrieved": "2026-09-24T04:01:30.525135+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
     "note": "Model data — not a verified on-site observation."
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T03:58:50.859376+02:00, valid 2026-09-24T03:45 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:01:30.525135+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Garachico, Tenerife, Canary Islands, Spain. Tourist viewpoint: the seafront, looking at the old town. Frame: Garachico's old town with the Roque de Garachico offshore; the Castillo de San Miguel over the sea; the old port town. Light and weather: partly cloudy night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Santillana del Mar, Cantabria, Spain. Tourist viewpoint: a cobbled lane in the historic centre, looking toward the Collegiate Church of Santa Juliana. Frame: cobbled lanes of honey-colored stone houses with wooden balconies; the Collegiate Church of Santa Juliana rising above the rooftops; the quiet plaza with the town's medieval silhouette intact. Light and weather: overcast night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
   },
   "source_files": [
     {
-      "file": "es-01-040-r1.png",
-      "sha256": "df6a02f92caca0dd9ce070f2f5b5072faa9765562f4693f984d84352875988d0",
+      "file": "es-01-046-r1.png",
+      "sha256": "e7befde1166544ac5a481be2f93bf55b4c7bf762c6e0747bba29c6b085a65dc0",
       "dimensions": [
         1408,
         1760

@@ -1,50 +1,46 @@
 {
   "entry_id": "ES-01-042",
   "country": "Spain",
-  "city": "Maspalomas",
+  "city": "San Bartolomé de Tirajana",
   "region": "Canary Islands",
-  "caption": "Maspalomas Dunes, Gran Canaria",
+  "caption": "Maspalomas Dunes, San Bartolomé de Tirajana",
   "revision": "r1",
-  "viewpoint": "Public walkway on the western edge of Charca de Maspalomas, approximately 27.7408, -15.5964, low eye-level looking east-southeast across the lagoon toward the dunes, with Faro de Maspalomas retained at the right edge. Exact point is approximate.",
+  "viewpoint": "the dune field edge, looking across the ridges to the sea",
   "anchors": [
-    "Dark brackish lagoon bordered by reeds and low tamarisks",
-    "Long pale dune ridges beyond the lagoon",
-    "Slender stone Maspalomas lighthouse near the coast at frame right"
+    "the great golden dunes of Maspalomas",
+    "the dune ridges running to the sea",
+    "the old lighthouse at the dune field's edge"
   ],
-  "limitations": "No birds, people, moon, stars, lighthouse beam schedule, tide, or exact water level are asserted. Nighttime access and exact dune profiles require independent review.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. This spec replaces the retired agent's ES-01-042 package — do not reuse its packet.",
   "refs": [
     [
-      "https://www.hellocanaryislands.com/nature-spaces/gran-canaria/maspalomas-dunes-nature-reserve/",
-      "Official Canary Islands tourism description of the western lagoon walkway, dunes and nearby lighthouse; retrieved 24 September 2026."
+      "https://en.wikipedia.org/wiki/Maspalomas_Dunes",
+      "Wikipedia — the Maspalomas Dunes natural reserve"
     ],
     [
-      "https://www.grancanaria.com/turismo/en/10-reasons-to-return-to-gran-canaria/dunes-by-the-lighthouse/",
-      "Official Gran Canaria tourism context linking dunes and lighthouse; retrieved 24 September 2026."
-    ],
-    [
-      "https://centroetnograficodelfarodemaspalomas.org/en/maspalomas-lighthouse/",
-      "Lighthouse interpretation centre description of the lighthouse above dunes, pond and oasis; retrieved 24 September 2026."
+      "https://www.hellocanaryislands.com",
+      "Official Canary Islands tourism portal — verify the Maspalomas listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
+  "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
   "time_of_day": "Night",
-  "composition": "Night · Public walkway on the western edge of Charca de Maspalomas, approximately 27.7408, -15.5964, low eye-level looking east-southeast across the lagoon toward the dunes, with Faro de Maspalomas retained at the right edge. Exact point is approximate. · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Maspalomas Dunes, Gran Canaria at night.",
-  "description": "Dark brackish lagoon bordered by reeds and low tamarisks; Long pale dune ridges beyond the lagoon; Slender stone Maspalomas lighthouse near the coast at frame right.",
+  "composition": "Night · the dune field and lighthouse · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Maspalomas Dunes, San Bartolomé de Tirajana at night.",
+  "description": "The Maspalomas dunes spread their golden ridges to the sea — a desert by the Atlantic, protected as a natural reserve. A clear night over the town. The old lighthouse stands at the dune field's edge.",
   "file_16x9": "es-01-042-r1-16x9.png",
   "file_4x5": "es-01-042-r1-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "1e3cfbee029d29cfd51bff32feff8a8a7e5f8601d0c52e657efae65c1637a122"
+      "sha256": "912da5dc027e39d8c55d52e5c43fb32da2a984a508bbee2be241bf848619e642"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "9787cef725ac2084f8f890f4d77525aaa9864495fc11bba5792acefbc7ec91d7"
+      "sha256": "25ccbee99cb85734acbdbcf646e362b6ecdce0b7111544e350e534ea8fdd8f60"
     }
   },
   "masters": {
@@ -54,26 +50,26 @@
         1920,
         1080
       ],
-      "byte_length": 2386031,
-      "sha256": "1e3cfbee029d29cfd51bff32feff8a8a7e5f8601d0c52e657efae65c1637a122",
-      "source_file": "042/source-r1.png",
+      "byte_length": 1461204,
+      "sha256": "912da5dc027e39d8c55d52e5c43fb32da2a984a508bbee2be241bf848619e642",
+      "source_file": "es-01-042-r1.png",
       "source_dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "crop_center": [
-        0.54,
+        0.5,
         0.5
       ],
       "labels": [
-        "Maspalomas Dunes, Gran Canaria",
-        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "Maspalomas Dunes, San Bartolomé de Tirajana",
+        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
-      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
       "file": "es-01-042-r1-4x5.png",
@@ -81,110 +77,45 @@
         864,
         1080
       ],
-      "byte_length": 1024975,
-      "sha256": "9787cef725ac2084f8f890f4d77525aaa9864495fc11bba5792acefbc7ec91d7",
-      "source_file": "042/source-r1.png",
+      "byte_length": 936076,
+      "sha256": "25ccbee99cb85734acbdbcf646e362b6ecdce0b7111544e350e534ea8fdd8f60",
+      "source_file": "es-01-042-r1.png",
       "source_dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "crop_center": [
-        0.54,
+        0.5,
         0.5
       ],
       "labels": [
-        "Maspalomas Dunes, Gran Canaria",
-        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "Maspalomas Dunes, San Bartolomé de Tirajana",
+        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
-      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
-    "retrieved_utc": "2026-09-24T00:30:40.253429+00:00",
-    "retrieved_local": "2026-09-24T01:30:40.253429+01:00",
-    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=27.7408&longitude=-15.5964&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Atlantic%2FCanary&forecast_days=1",
-    "response": {
-      "latitude": 27.803162,
-      "longitude": -15.590576,
-      "generationtime_ms": 125.23066997528076,
-      "utc_offset_seconds": 3600,
-      "timezone": "Atlantic/Canary",
-      "timezone_abbreviation": "GMT+1",
-      "elevation": 5.0,
-      "current_units": {
-        "time": "iso8601",
-        "interval": "seconds",
-        "temperature_2m": "°C",
-        "weather_code": "wmo code",
-        "cloud_cover": "%",
-        "is_day": "",
-        "precipitation": "mm",
-        "wind_speed_10m": "km/h"
-      },
-      "current": {
-        "time": "2026-09-24T01:30",
-        "interval": 900,
-        "temperature_2m": 31.5,
-        "weather_code": 0,
-        "cloud_cover": 8,
-        "is_day": 0,
-        "precipitation": 0.0,
-        "wind_speed_10m": 2.3
-      },
-      "daily_units": {
-        "time": "iso8601",
-        "sunrise": "iso8601",
-        "sunset": "iso8601"
-      },
-      "daily": {
-        "time": [
-          "2026-09-24"
-        ],
-        "sunrise": [
-          "2026-09-24T07:51"
-        ],
-        "sunset": [
-          "2026-09-24T19:56"
-        ]
-      }
-    },
-    "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
-    "requested_coordinates": [
-      27.7408,
-      -15.5964
-    ],
-    "model_grid_coordinates": [
-      27.803162,
-      -15.590576
-    ],
-    "grid_resolution": "not provided in response; coordinate offset is not resolution",
-    "solar": {
-      "method": "NOAA fractional-year geometric approximation, not observation",
-      "elevation_deg": -61.62,
-      "azimuth_deg": 347.35
-    },
-    "lighting_stage": "Night",
-    "sunrise_local": "2026-09-24T07:51:00+01:00",
-    "sunset_local": "2026-09-24T19:56:00+01:00",
-    "twilight_window_minutes": 45,
-    "generation_allowed": true,
-    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T03:58:52.886753+02:00",
+    "valid": "2026-09-24T03:45 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:40.253429+01:00, valid 2026-09-24T01:30 Atlantic/Canary — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T03:58:52.886753+02:00, valid 2026-09-24T03:45 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D's Vision Spain location master source, wide landscape\nPrimary request: Create an original photorealistic artistic interpretation of Maspalomas Dunes, Gran Canaria, at 24 September 2026 01:30 Atlantic/Canary.\nScene/backdrop: public walkway on the western edge of Charca de Maspalomas, low eye-level looking east-southeast across the lagoon toward the dunes, with Faro de Maspalomas retained near the right edge.\nSubject and geometry: dark brackish lagoon with sparse reeds and tamarisks, layered pale dune ridges beyond, Atlantic horizon, slender historic stone lighthouse at frame right. Preserve real separation between lagoon, dunes, beach and lighthouse.\nStyle/medium: highly realistic contemporary landscape photography aesthetic, restrained documentary naturalism.\nComposition/framing: wide 16:9-friendly source with expansive lagoon and dunes; main dune ridges centered for portrait crop while lighthouse remains in landscape.\nLighting/mood: deep clear night, 31.5°C model grid, 8% cloud, dry and calm. Dim natural nocturnal ambience with restrained distant coastal glow only.\nConstraints: no people, birds, boats, hotels dominating the skyline, moon, visible stars, Milky Way, lighthouse beam, wet walkway, rain, text, caption, signature, watermark, or border. Do not claim exact tide or water level.\n"
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Maspalomas Dunes, Gran Canaria, Canary Islands, Spain. Tourist viewpoint: the dune field edge, looking across the ridges to the sea. Frame: the great golden dunes of Maspalomas; the dune ridges running to the sea; the old lighthouse at the dune field's edge. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
   },
   "source_files": [
     {
-      "file": "source-r1.png",
-      "sha256": "574843182f04302f5f82661d9d946d8db68ddae1c61969c6f9ed298f4a55d908",
+      "file": "es-01-042-r1.png",
+      "sha256": "0d35ce4e8c9c7812e9c54888ffab9af5c0e31342a0f9e9ca22eb17eaca2d7530",
       "dimensions": [
-        1672,
-        941
+        1408,
+        1760
       ],
       "selected": true
     }
@@ -192,16 +123,16 @@
   "provenance": {
     "tool": "Built-in image generation; specific model version not exposed",
     "image_inputs": [],
-    "source_use": "Text-only original generation. Third-party photographs were inspected for facts only and were not supplied as input pixels. No uniqueness guarantee.",
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Selected source 1672×941; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. This does not create native target-resolution detail."
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
-    "technical": "Both PNGs fully decode and pass verification, dimensions exact; label boxes remain in-frame and nonoverlapping. These production checks are not independent Cosmo QC.",
-    "visual": "Production comparison completed; the packet limitations remain for independent reviewer judgment.",
-    "originality": "Own generated pixels; uniqueness is not independently established.",
-    "commercial_ip": "No prominent identifiable people, logos, or focal copyrighted artwork detected; third-party clearance is not legally certified.",
-    "publication": "Candidate asset handoff only. No approval inferred."
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
   },
   "independent_qc": {
     "reviewer": "Cosmo",
@@ -210,10 +141,11 @@
   },
   "card_handoff": {
     "owner": "Cosmo",
-    "placement": "distinct Candidate pipeline"
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
   },
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "packet_created_utc": "2026-09-24T00:39:52.021673+00:00"
+  "reference_evidence": []
 }
