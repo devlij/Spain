@@ -1,0 +1,235 @@
+{
+  "entry_id": "ES-01-039",
+  "country": "Spain",
+  "city": "Hondarribia",
+  "region": "Basque Country",
+  "caption": "Old town, Hondarribia",
+  "revision": "r2",
+  "viewpoint": "Public lower approach immediately southeast of Puerta de Santa María, approximately 43.3629, -1.7917, eye-level looking northwest through the principal old-town gate toward Kale Nagusia. Exact point is approximate.",
+  "anchors": [
+    "Simple stone arch beneath Hondarribia's carved coat of arms",
+    "Heavy ochre defensive wall and compact Santa María turret",
+    "Rising cobbled Kale Nagusia with narrow historic façades beyond"
+  ],
+  "limitations": "No current gate-lighting schedule or temporary street furniture is asserted. Coat-of-arms detail, turret proportions, and exact camera correspondence require independent review.",
+  "refs": [
+    [
+      "https://hondarribiaturismo.com/en/the-old-quartier/",
+      "Official Hondarribia tourism description of Santa María Gate, coat of arms, turret, Calle Mayor and Plaza de Armas; retrieved 24 September 2026."
+    ],
+    [
+      "https://www.bidasoaturismo.com/en/",
+      "Official Hondarribia-Irun tourism contact and historic-centre context; retrieved 24 September 2026."
+    ],
+    [
+      "https://www.barcelo.com/guia-turismo/en/spain/san-sebastian/things-to-do/hondarribia/",
+      "Complementary old-quarter description of the walled town, Puerta de Santa María, Calle Mayor and Plaza de Armas; retrieved 24 September 2026."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:30 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Public lower approach immediately southeast of Puerta de Santa María, approximately 43.3629, -1.7917, eye-level looking northwest through the principal old-town gate toward Kale Nagusia. Exact point is approximate. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Hondarribia at night.",
+  "description": "Simple stone arch beneath Hondarribia's carved coat of arms; Heavy ochre defensive wall and compact Santa María turret; Rising cobbled Kale Nagusia with narrow historic façades beyond.",
+  "file_16x9": "es-01-039-r2-16x9.png",
+  "file_4x5": "es-01-039-r2-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f2abcf592f436a34cff32165966a444c59166f59beaad54c810e82932a1e5eea"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7399369acac3d72222dcd3d6d4e636f5754e5d4bc8ba817976fb994e2c4f6b9f"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-039-r2-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3365282,
+      "sha256": "f2abcf592f436a34cff32165966a444c59166f59beaad54c810e82932a1e5eea",
+      "source_file": "039/source-r2.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.58,
+        0.5
+      ],
+      "labels": [
+        "Old town, Hondarribia",
+        "Scenario: 24 September 2026 · 02:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-039-r2-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1514615,
+      "sha256": "7399369acac3d72222dcd3d6d4e636f5754e5d4bc8ba817976fb994e2c4f6b9f",
+      "source_file": "039/source-r2.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.58,
+        0.5
+      ],
+      "labels": [
+        "Old town, Hondarribia",
+        "Scenario: 24 September 2026 · 02:30 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-24T00:30:19.800705+00:00",
+    "retrieved_local": "2026-09-24T02:30:19.800705+02:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3629&longitude=-1.7917&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Europe%2FMadrid&forecast_days=1",
+    "response": {
+      "latitude": 43.36,
+      "longitude": -1.79,
+      "generationtime_ms": 121.96290493011475,
+      "utc_offset_seconds": 7200,
+      "timezone": "Europe/Madrid",
+      "timezone_abbreviation": "GMT+2",
+      "elevation": 32.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T02:30",
+        "interval": 900,
+        "temperature_2m": 17.7,
+        "weather_code": 0,
+        "cloud_cover": 3,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 4.1
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:56"
+        ],
+        "sunset": [
+          "2026-09-24T20:01"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 02:30 Europe/Madrid",
+    "requested_coordinates": [
+      43.3629,
+      -1.7917
+    ],
+    "model_grid_coordinates": [
+      43.36,
+      -1.79
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -46.03,
+      "azimuth_deg": 11.19
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:56:00+02:00",
+    "sunset_local": "2026-09-24T20:01:00+02:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:30:19.800705+02:00, valid 2026-09-24T02:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D's Vision Spain location master source, wide landscape\nPrimary request: Create an original photorealistic artistic interpretation of Puerta de Santa María and the old town of Hondarribia, Spain, at 24 September 2026 02:30 Europe/Madrid.\nScene/backdrop: Public lower approach immediately southeast of the gate, eye-level looking northwest through the principal old-town entrance toward rising Kale Nagusia.\nSubject and geometry: simple pale-ochre stone arch under the carved Hondarribia city coat of arms, thick defensive wall, compact Santa María turret to the left, cobbled uphill street and narrow historic Basque façades beyond. The gate is the unmistakable focal landmark, with realistic scale and permanent surroundings.\nStyle/medium: highly realistic contemporary travel photography aesthetic, restrained documentary naturalism, believable masonry and street texture, no fantasy.\nComposition/framing: wide 16:9-friendly source with generous sky and side margins, complete gate and wall visible, central subject also suitable for a portrait crop.\nLighting/mood: deep night under model-clear conditions, 17.7°C, 3% cloud, dry, light wind. Subtle warm existing street-level ambient light only; dark blue-black sky. Do not assert or dramatize any illumination schedule.\nConstraints: no visible people, cars, event decorations, flags, logos, readable signs, moon, stars, wet pavement, rain, text, caption, signature, watermark, or border. No invented towers or church skyline behind the gate.\n",
+    "prompt-r2.txt": "Use case: precise-object-edit\nAsset type: corrected Jason D's Vision Spain location master source\nPrimary request: Correct only the architecture of Puerta de Santa María, Hondarribia, to the documented surviving form.\nRequired correction: remove the entire invented grand triangular pediment, classical pilasters, finials, and monumental triumphal-gate ornament. Replace them with the real restrained surviving gate: one simple broad segmental voussoired stone arch cut directly through the rough defensive wall, with the carved 1694 Hondarribia city coat of arms mounted immediately above the arch on the wall. Keep the compact round Santa María turret to the left, but make it a plain 16th-century defensive cubo rather than an ornate watchtower.\nPreserve exactly: the wide framing, empty cobbled approach, uphill old-town street visible through the arch, surrounding rough masonry walls, deep clear night, realistic warm street-level ambient light, and all other scene content.\nConstraints: no people, cars, flags, signs, moon, stars, wet pavement, text, caption, signature, watermark, or border. Do not add any new towers, chapel façade, pediment, or decorative gateway structure.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "92b9fe83aff487d7d7efd4cf9f38a0063a68c34ebad73a6850fa6d5fa99b5fe6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false
+    },
+    {
+      "file": "source-r2.png",
+      "sha256": "1fcfc2140db7054eeed2927f17da1c803cc45150727cf0da651f45e5ac2693b8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [
+      {
+        "file": "source-r1.png",
+        "sha256": "92b9fe83aff487d7d7efd4cf9f38a0063a68c34ebad73a6850fa6d5fa99b5fe6",
+        "role": "Own generated r1 edited to r2 to remove invented monumental pediment and restore the documented simple gate form. No third-party pixels."
+      }
+    ],
+    "source_use": "r1 was text-only generation; selected r2 is a built-in edit of our own r1. Third-party references were used only for facts, not supplied as pixels.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Selected source 1672×941; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. This does not create native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verification, dimensions exact; label boxes remain in-frame and nonoverlapping. These production checks are not independent Cosmo QC.",
+    "visual": "Production comparison completed; the packet limitations remain for independent reviewer judgment.",
+    "originality": "Own generated pixels; uniqueness is not independently established.",
+    "commercial_ip": "No prominent identifiable people, logos, or focal copyrighted artwork detected; third-party clearance is not legally certified.",
+    "publication": "Candidate asset handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "packet_created_utc": "2026-09-24T00:39:51.992278+00:00"
+}
