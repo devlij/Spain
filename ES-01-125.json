@@ -18,8 +18,8 @@
       "Wikipedia — the Mudejar Architecture of Aragon, UNESCO World Heritage"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the Mudejar towers over the old town · AI-generated artistic interpretation",
@@ -144,5 +144,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-125.md. weather correction disclosed in packet (archive-verified)."
 }

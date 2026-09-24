@@ -3197,7 +3197,7 @@
       "alt_text": "AI-generated artistic interpretation of Old town, San Cristóbal de La Laguna at night.",
       "status": "Approved · Cosmo QC 5/5 · Night",
       "approval_state": "approved",
-      "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the La Laguna cathedral twin-towered facade at the end of a lit colonial street with Canarian balconies is recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-041.md. r2 rebuild (legible-text defect fixed)."
     },
     {
       "entry_id": "ES-01-042",
@@ -3247,9 +3247,9 @@
       "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
       "composition": "Night · the church and harbor · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Castro Urdiales at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-045.md. r1."
     },
     {
       "entry_id": "ES-01-046",
@@ -3260,9 +3260,9 @@
       "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
       "composition": "Night · medieval lanes beneath the collegiate church · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Santillana del Mar at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-046.md. r1."
     },
     {
       "entry_id": "ES-01-047",
@@ -3273,9 +3273,9 @@
       "scenario_label": "24 September 2026 · 04:04 Europe/Madrid",
       "composition": "Night · the museum building against the cave hill · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Altamira Museum, Santillana del Mar at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-047.md. r1."
     },
     {
       "entry_id": "ES-01-048",
@@ -3286,9 +3286,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the cove between cliffs from the clifftop path · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Langre Beach, Ribamontán al Mar at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-048.md. r1."
     },
     {
       "entry_id": "ES-01-049",
@@ -3299,9 +3299,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the Gothic church above the fishing harbor · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Harbor, Castro Urdiales at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-049.md. r1."
     },
     {
       "entry_id": "ES-01-050",
@@ -3312,9 +3312,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the illuminated cavern along the visitor walkway · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of El Soplao Cave, Rionansa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-050.md. r1."
     },
     {
       "entry_id": "ES-01-051",
@@ -3325,9 +3325,9 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · the valley town and peaks · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Potes, Potes at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-051.md. r1."
     },
     {
       "entry_id": "ES-01-052",
@@ -3338,9 +3338,9 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · the historic village street in its valley · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Bárcena Mayor, Los Tojos at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-052.md. r1."
     },
     {
       "entry_id": "ES-01-053",
@@ -3351,9 +3351,9 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · the estuary with the old town above · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Oyambre Estuary, San Vicente de la Barquera at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-053.md. r1."
     },
     {
       "entry_id": "ES-01-054",
@@ -3364,9 +3364,9 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · the bridge town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Liérganes, Liérganes at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-054.md. r1."
     },
     {
       "entry_id": "ES-01-084",
@@ -3377,9 +3377,9 @@
       "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
       "composition": "Night · the walled port town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Llanes at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-084.md. r1."
     },
     {
       "entry_id": "ES-01-085",
@@ -3390,9 +3390,9 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · the estuary old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Viveiro at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-085.md. description corrected (Rapa das Bestas de Candaoso, Viveiro-verified)."
     },
     {
       "entry_id": "ES-01-086",
@@ -3403,9 +3403,9 @@
       "scenario_label": "24 September 2026 · 03:59 Europe/Madrid",
       "composition": "Night · Rodas beach between the islands · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cíes Islands, Vigo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-086.md. r1."
     },
     {
       "entry_id": "ES-01-087",
@@ -3416,9 +3416,9 @@
       "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
       "composition": "Night · the cathedral town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Mondoñedo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-087.md. r1."
     },
     {
       "entry_id": "ES-01-088",
@@ -3429,9 +3429,9 @@
       "scenario_label": "24 September 2026 · 04:02 Europe/Madrid",
       "composition": "Night · the old town over the Miño · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Ourense at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-088.md. r1."
     },
     {
       "entry_id": "ES-01-089",
@@ -3442,9 +3442,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the stone arches at low tide · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cathedrals Beach, Ribadeo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-089.md. r1."
     },
     {
       "entry_id": "ES-01-090",
@@ -3455,9 +3455,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the granite old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Pontevedra at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-090.md. r1."
     },
     {
       "entry_id": "ES-01-091",
@@ -3468,9 +3468,9 @@
       "scenario_label": "24 September 2026 · 04:04 Europe/Madrid",
       "composition": "Night · the estuary port town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Muros at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-091.md. r1."
     },
     {
       "entry_id": "ES-01-092",
@@ -3481,9 +3481,9 @@
       "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
       "composition": "Night · the canyon from the viewpoint · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Sil Canyon, Ribeira Sacra at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-092.md. r1."
     },
     {
       "entry_id": "ES-01-093",
@@ -3494,9 +3494,9 @@
       "scenario_label": "24 September 2026 · 04:08 Europe/Madrid",
       "composition": "Night · the Gothic old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Betanzos at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-093.md. r1."
     },
     {
       "entry_id": "ES-01-123",
@@ -3507,9 +3507,9 @@
       "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
       "composition": "Night · the hilltop fortress · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Molina de Aragón at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-123.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-124",
@@ -3520,9 +3520,9 @@
       "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
       "composition": "Night · the castle in the river loop · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Alarcón at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-124.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-125",
@@ -3533,9 +3533,9 @@
       "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
       "composition": "Night · the Mudejar towers over the old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Mudejar Towers at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-125.md. weather correction disclosed in packet (archive-verified)."
     },
     {
       "entry_id": "ES-01-126",
@@ -3546,9 +3546,9 @@
       "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
       "composition": "Night · the walled birthplace town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Sos del Rey Católico at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-126.md. r3 rebuild (weather record proven wrong; fresh regeneration)."
     },
     {
       "entry_id": "ES-01-127",
@@ -3559,9 +3559,9 @@
       "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
       "composition": "Night · the plaza beneath the castle · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Aínsa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-127.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-128",
@@ -3572,9 +3572,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the fortress with the Pyrenees behind · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Citadel at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-128.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-129",
@@ -3585,9 +3585,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the old town beneath the Moncayo · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-129.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-130",
@@ -3598,9 +3598,9 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · the crag village over the canyon · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Alquézar at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-130.md. r3 rebuild (weather record proven wrong; fresh regeneration)."
     },
     {
       "entry_id": "ES-01-131",
@@ -3611,9 +3611,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the waterfalls in the park · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Monasterio de Piedra at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-131.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-132",
@@ -3624,9 +3624,9 @@
       "scenario_label": "24 September 2026 · 04:09 Europe/Madrid",
       "composition": "Night · the Mudejar town beneath its castles · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-132.md. weather correction disclosed in packet (archive-verified)."
     },
     {
       "entry_id": "ES-01-161",
@@ -3637,9 +3637,9 @@
       "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
       "composition": "Night · the harbor from the far shore · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Mahón Harbour at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-161.md. r1."
     },
     {
       "entry_id": "ES-01-162",
@@ -3650,9 +3650,9 @@
       "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
       "composition": "Night · the terraced coast · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Banyalbufar at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-162.md. r1."
     },
     {
       "entry_id": "ES-01-163",
@@ -3663,9 +3663,9 @@
       "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
       "composition": "Night · the walled town and bay · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-163.md. r1."
     },
     {
       "entry_id": "ES-01-164",
@@ -3676,9 +3676,9 @@
       "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
       "composition": "Night · the balcony-lined street · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-164.md. r1."
     },
     {
       "entry_id": "ES-01-165",
@@ -3689,9 +3689,9 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · the first capital · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-165.md. r1."
     },
     {
       "entry_id": "ES-01-166",
@@ -3702,9 +3702,9 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · the historic port town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-166.md. r1."
     },
     {
       "entry_id": "ES-01-167",
@@ -3715,9 +3715,9 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · the dune field and sea · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Corralejo Dunes at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-167.md. r1."
     },
     {
       "entry_id": "ES-01-168",
@@ -3728,9 +3728,9 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · the historic center with the Teide · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-168.md. r1."
     },
     {
       "entry_id": "ES-01-169",
@@ -3741,9 +3741,9 @@
       "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
       "composition": "Night · the forest ridges and cliffs · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Anaga at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-169.md. r1."
     },
     {
       "entry_id": "ES-01-170",
@@ -3754,9 +3754,9 @@
       "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
       "composition": "Night · the cave quarter facing the Alhambra · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Sacromonte at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-170.md. r1."
     },
     {
       "entry_id": "ES-01-055",
@@ -3767,9 +3767,9 @@
       "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
       "composition": "Night · the tavern street in the old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Calle Laurel, Logroño at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-055.md. r2 rebuild (legible-text defect fixed)."
     },
     {
       "entry_id": "ES-01-056",
@@ -3780,9 +3780,9 @@
       "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
       "composition": "Night · the crag castle · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Clavijo Castle, Clavijo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-056.md. r1."
     },
     {
       "entry_id": "ES-01-057",
@@ -3793,9 +3793,9 @@
       "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
       "composition": "Night · the old quarter above the vineyards · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Haro at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-057.md. r1."
     },
     {
       "entry_id": "ES-01-058",
@@ -3806,9 +3806,9 @@
       "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
       "composition": "Night · the cathedral over the old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Santo Domingo de la Calzada, Santo Domingo de la Calzada at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-058.md. r1."
     },
     {
       "entry_id": "ES-01-059",
@@ -3819,9 +3819,9 @@
       "scenario_label": "24 September 2026 · 04:09 Europe/Madrid",
       "composition": "Night · the hilltop village over the Ebro valley · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Briones, Briones at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-059.md. r1."
     },
     {
       "entry_id": "ES-01-060",
@@ -3832,9 +3832,9 @@
       "scenario_label": "24 September 2026 · 04:09 Europe/Madrid",
       "composition": "Night · the arcaded main street toward the church · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Ezcaray at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-060.md. r1."
     },
     {
       "entry_id": "ES-01-061",
@@ -3845,9 +3845,9 @@
       "scenario_label": "24 September 2026 · 04:09 Europe/Madrid",
       "composition": "Night · the abbey in its valley · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Monastery of Cañas, Cañas at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-061.md. r1."
     },
     {
       "entry_id": "ES-01-062",
@@ -3858,9 +3858,9 @@
       "scenario_label": "24 September 2026 · 04:09 Europe/Madrid",
       "composition": "Night · vine rows over the hills · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Vineyards, Rioja Alta at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-062.md. r1."
     },
     {
       "entry_id": "ES-01-063",
@@ -3871,9 +3871,9 @@
       "scenario_label": "24 September 2026 · 04:10 Europe/Madrid",
       "composition": "Night · the pilgrim bridge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Puente la Reina, Puente la Reina at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-063.md. r1."
     },
     {
       "entry_id": "ES-01-064",
@@ -3884,9 +3884,9 @@
       "scenario_label": "24 September 2026 · 04:10 Europe/Madrid",
       "composition": "Night · the fortress walls and glacis · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Citadel, Pamplona at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-064.md. r1."
     },
     {
       "entry_id": "ES-01-065",
@@ -3897,9 +3897,9 @@
       "scenario_label": "24 September 2026 · 04:10 Europe/Madrid",
       "composition": "Night · the fortress-palace · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Javier Castle, Javier at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-065.md. r1."
     },
     {
       "entry_id": "ES-01-066",
@@ -3910,9 +3910,9 @@
       "scenario_label": "24 September 2026 · 04:10 Europe/Madrid",
       "composition": "Night · the valley village · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Ochagavía, Ochagavía at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-066.md. r1."
     },
     {
       "entry_id": "ES-01-067",
@@ -3923,9 +3923,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the gorge walls · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Foz de Lumbier, Lumbier at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-067.md. r1."
     },
     {
       "entry_id": "ES-01-068",
@@ -3936,9 +3936,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the sanctuary-village over the plains · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Ujué, Ujué at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-068.md. r1."
     },
     {
       "entry_id": "ES-01-069",
@@ -3949,9 +3949,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the old town above the Ega · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Estella at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-069.md. r1."
     },
     {
       "entry_id": "ES-01-070",
@@ -3962,9 +3962,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the walled town over the vineyards · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Viana at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-070.md. r1."
     },
     {
       "entry_id": "ES-01-071",
@@ -3975,9 +3975,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the beech forest from a track · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Irati Forest, Ochagavía at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-071.md. r1."
     },
     {
       "entry_id": "ES-01-072",
@@ -3988,9 +3988,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the cave mouth from the meadow · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Caves, Zugarramurdi at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-072.md. r1."
     },
     {
       "entry_id": "ES-01-073",
@@ -4001,9 +4001,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the harbor and basilica · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Lekeitio at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-073.md. r1."
     },
     {
       "entry_id": "ES-01-074",
@@ -4014,9 +4014,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the flysch strata from the beach · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Itzurun Cliffs, Zumaia at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-074.md. r1."
     },
     {
       "entry_id": "ES-01-075",
@@ -4027,9 +4027,9 @@
       "scenario_label": "24 September 2026 · 04:16 Europe/Madrid",
       "composition": "Night · the beach and old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Zarautz, Zarautz at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-075.md. r1."
     },
     {
       "entry_id": "ES-01-076",
@@ -4040,9 +4040,9 @@
       "scenario_label": "24 September 2026 · 04:16 Europe/Madrid",
       "composition": "Night · the old town hill from the plaza · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Vitoria-Gasteiz at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-076.md. r1."
     },
     {
       "entry_id": "ES-01-077",
@@ -4053,9 +4053,9 @@
       "scenario_label": "24 September 2026 · 04:16 Europe/Madrid",
       "composition": "Night · the walled town and vineyards · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Labastida, Labastida at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-077.md. r1."
     },
     {
       "entry_id": "ES-01-078",
@@ -4066,9 +4066,9 @@
       "scenario_label": "24 September 2026 · 04:16 Europe/Madrid",
       "composition": "Night · the estuary and port · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Mundaka, Mundaka at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-078.md. r1."
     },
     {
       "entry_id": "ES-01-079",
@@ -4079,9 +4079,9 @@
       "scenario_label": "24 September 2026 · 04:19 Europe/Madrid",
       "composition": "Night · the harbor town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Luarca, Luarca at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-079.md. r1."
     },
     {
       "entry_id": "ES-01-080",
@@ -4092,9 +4092,9 @@
       "scenario_label": "24 September 2026 · 04:19 Europe/Madrid",
       "composition": "Night · the hillside town over its port · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Lastres, Colunga at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-080.md. r1."
     },
     {
       "entry_id": "ES-01-081",
@@ -4105,9 +4105,9 @@
       "scenario_label": "24 September 2026 · 04:19 Europe/Madrid",
       "composition": "Night · the harbor village in its cove · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Tazones, Villaviciosa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-081.md. r1."
     },
     {
       "entry_id": "ES-01-082",
@@ -4118,9 +4118,9 @@
       "scenario_label": "24 September 2026 · 04:19 Europe/Madrid",
       "composition": "Night · the braña pastures under the peaks · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Somiedo, Somiedo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-082.md. r1."
     },
     {
       "entry_id": "ES-01-083",
@@ -4131,9 +4131,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the bridge over the Sella · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Roman Bridge, Cangas de Onís at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-083.md. r1."
     },
     {
       "entry_id": "ES-01-094",
@@ -4144,9 +4144,9 @@
       "scenario_label": "24 September 2026 · 04:10 Europe/Madrid",
       "composition": "Night · the Roman lighthouse and the sea · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Tower of Hercules, A Coruña at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-094.md. r1."
     },
     {
       "entry_id": "ES-01-095",
@@ -4157,9 +4157,9 @@
       "scenario_label": "24 September 2026 · 04:11 Europe/Madrid",
       "composition": "Night · the Obradoiro facade · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cathedral, Santiago de Compostela at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-095.md. r1."
     },
     {
       "entry_id": "ES-01-096",
@@ -4170,9 +4170,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the old wine town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Ribadavia at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-096.md. r1."
     },
     {
       "entry_id": "ES-01-097",
@@ -4183,9 +4183,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the tower at the water's edge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Historic center, Cambados at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-097.md. r1."
     },
     {
       "entry_id": "ES-01-098",
@@ -4196,9 +4196,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the hórreos by the estuary · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Combarro, Poio at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-098.md. r1."
     },
     {
       "entry_id": "ES-01-099",
@@ -4209,9 +4209,9 @@
       "scenario_label": "24 September 2026 · 04:14 Europe/Madrid",
       "composition": "Night · the lighthouse on the cape · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cape Fisterra, Costa da Morte at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-099.md. r1."
     },
     {
       "entry_id": "ES-01-100",
@@ -4222,9 +4222,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the red-earth mine from the lookout · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Las Médulas, Ponferrada at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-100.md. r1."
     },
     {
       "entry_id": "ES-01-101",
@@ -4235,9 +4235,9 @@
       "scenario_label": "24 September 2026 · 04:16 Europe/Madrid",
       "composition": "Night · the stone village and the Mozarabic church · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Peñalba de Santiago, Montes Aquilanos at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-101.md. r1."
     },
     {
       "entry_id": "ES-01-102",
@@ -4248,9 +4248,9 @@
       "scenario_label": "24 September 2026 · 04:17 Europe/Madrid",
       "composition": "Night · the cathedral and the Episcopal Palace · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Astorga at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-102.md. r1."
     },
     {
       "entry_id": "ES-01-103",
@@ -4261,9 +4261,9 @@
       "scenario_label": "24 September 2026 · 04:18 Europe/Madrid",
       "composition": "Night · the cathedral's two towers · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Gothic cathedral, León at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-103.md. r1."
     },
     {
       "entry_id": "ES-01-104",
@@ -4274,9 +4274,9 @@
       "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
       "composition": "Night · the cathedral's twin spires · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cathedral, Burgos at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-104.md. r1."
     },
     {
       "entry_id": "ES-01-105",
@@ -4287,9 +4287,9 @@
       "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
       "composition": "Night · the baroque arcades · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Salamanca at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-105.md. r1."
     },
     {
       "entry_id": "ES-01-106",
@@ -4300,9 +4300,9 @@
       "scenario_label": "24 September 2026 · 04:25 Europe/Madrid",
       "composition": "Night · the cathedral's scaled dome · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cathedral, Zamora at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-106.md. r1."
     },
     {
       "entry_id": "ES-01-107",
@@ -4313,9 +4313,9 @@
       "scenario_label": "24 September 2026 · 04:26 Europe/Madrid",
       "composition": "Night · the Mendoza fortress · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of New Castle, Manzanares el Real at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-107.md. r1."
     },
     {
       "entry_id": "ES-01-108",
@@ -4326,9 +4326,9 @@
       "scenario_label": "24 September 2026 · 04:26 Europe/Madrid",
       "composition": "Night · the basilica dome and twin towers · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Monastery, San Lorenzo de El Escorial at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-108.md. r1."
     },
     {
       "entry_id": "ES-01-109",
@@ -4339,9 +4339,9 @@
       "scenario_label": "24 September 2026 · 04:27 Europe/Madrid",
       "composition": "Night · the medieval walls in the river loop · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Walled town, Buitrago del Lozoya at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-109.md. r1."
     },
     {
       "entry_id": "ES-01-110",
@@ -4352,9 +4352,9 @@
       "scenario_label": "24 September 2026 · 04:28 Europe/Madrid",
       "composition": "Night · the granite arches · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Roman aqueduct, Segovia at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-110.md. r1."
     },
     {
       "entry_id": "ES-01-111",
@@ -4365,9 +4365,9 @@
       "scenario_label": "24 September 2026 · 04:31 Europe/Madrid",
       "composition": "Night · the valley monastery · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of El Paular Monastery, Rascafría at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-111.md. r1."
     },
     {
       "entry_id": "ES-01-112",
@@ -4378,9 +4378,9 @@
       "scenario_label": "24 September 2026 · 04:32 Europe/Madrid",
       "composition": "Night · the walls in their river loop · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Walled town, Buitrago del Lozoya at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-112.md. r1."
     },
     {
       "entry_id": "ES-01-113",
@@ -4391,9 +4391,9 @@
       "scenario_label": "24 September 2026 · 04:33 Europe/Madrid",
       "composition": "Night · the cathedral and palace · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Almudena Cathedral, Madrid at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-113.md. r1."
     },
     {
       "entry_id": "ES-01-114",
@@ -4404,9 +4404,9 @@
       "scenario_label": "24 September 2026 · 04:34 Europe/Madrid",
       "composition": "Night · the garden square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza de Oriente, Madrid at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-114.md. r1."
     },
     {
       "entry_id": "ES-01-115",
@@ -4417,9 +4417,9 @@
       "scenario_label": "24 September 2026 · 04:35 Europe/Madrid",
       "composition": "Night · the Golden Age square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Villanueva de los Infantes, Villanueva de los Infantes at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-115.md. r1."
     },
     {
       "entry_id": "ES-01-116",
@@ -4430,9 +4430,9 @@
       "scenario_label": "24 September 2026 · 04:36 Europe/Madrid",
       "composition": "Night · the ducal old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Pastrana at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-116.md. r1."
     },
     {
       "entry_id": "ES-01-117",
@@ -4443,9 +4443,9 @@
       "scenario_label": "24 September 2026 · 04:37 Europe/Madrid",
       "composition": "Night · the arcaded plaza · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Almagro at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-117.md. r1."
     },
     {
       "entry_id": "ES-01-118",
@@ -4456,9 +4456,9 @@
       "scenario_label": "24 September 2026 · 04:38 Europe/Madrid",
       "composition": "Night · the castle over the plain · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Belmonte Castle, Belmonte at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-118.md. r1."
     },
     {
       "entry_id": "ES-01-119",
@@ -4469,9 +4469,9 @@
       "scenario_label": "24 September 2026 · 04:40 Europe/Madrid",
       "composition": "Night · the lagoon chain · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Lagunas de Ruidera, Ruidera at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-119.md. r1."
     },
     {
       "entry_id": "ES-01-120",
@@ -4482,9 +4482,9 @@
       "scenario_label": "24 September 2026 · 04:41 Europe/Madrid",
       "composition": "Night · the wetland lagoons · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Tablas de Daimiel, Daimiel at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-120.md. r1."
     },
     {
       "entry_id": "ES-01-121",
@@ -4495,9 +4495,9 @@
       "scenario_label": "24 September 2026 · 04:42 Europe/Madrid",
       "composition": "Night · the hilltop castle · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Chinchilla de Montearagón, Chinchilla de Montearagón at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-121.md. r1."
     },
     {
       "entry_id": "ES-01-122",
@@ -4508,9 +4508,9 @@
       "scenario_label": "24 September 2026 · 04:43 Europe/Madrid",
       "composition": "Night · the rock castle · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Atienza, Atienza at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-122.md. r1."
     },
     {
       "entry_id": "ES-01-133",
@@ -4521,9 +4521,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the Onyar riverfront and cathedral · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-133.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-134",
@@ -4534,9 +4534,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the old town and Ebro · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-134.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-135",
@@ -4547,9 +4547,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the basalt cliff village · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Castellfollit de la Roca at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-135.md. r3 rebuild (weather record proven wrong; fresh regeneration)."
     },
     {
       "entry_id": "ES-01-136",
@@ -4560,9 +4560,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the castle hill and coves · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-136.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-137",
@@ -4573,9 +4573,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the volcanic village · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Santa Pau at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-137.md. r1."
     },
     {
       "entry_id": "ES-01-138",
@@ -4586,9 +4586,9 @@
       "scenario_label": "24 September 2026 · 04:16 Europe/Madrid",
       "composition": "Night · the arcaded main square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-138.md. r1."
     },
     {
       "entry_id": "ES-01-139",
@@ -4599,9 +4599,9 @@
       "scenario_label": "24 September 2026 · 04:17 Europe/Madrid",
       "composition": "Night · the castle hill · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cardona Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-139.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-140",
@@ -4612,9 +4612,9 @@
       "scenario_label": "24 September 2026 · 04:17 Europe/Madrid",
       "composition": "Night · the cliff village · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Siurana at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-140.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-141",
@@ -4625,9 +4625,9 @@
       "scenario_label": "24 September 2026 · 04:18 Europe/Madrid",
       "composition": "Night · the church over the waterfront · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-141.md. r1."
     },
     {
       "entry_id": "ES-01-142",
@@ -4638,9 +4638,9 @@
       "scenario_label": "24 September 2026 · 04:19 Europe/Madrid",
       "composition": "Night · the walled island · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Tabarca at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-142.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-143",
@@ -4651,9 +4651,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the Moorish quarter · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-143.md. r1."
     },
     {
       "entry_id": "ES-01-144",
@@ -4664,9 +4664,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the white town under its blue dome · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-144.md. r1."
     },
     {
       "entry_id": "ES-01-145",
@@ -4677,9 +4677,9 @@
       "scenario_label": "24 September 2026 · 04:21 Europe/Madrid",
       "composition": "Night · the hilltop village · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Vilafamés at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-145.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-146",
@@ -4690,9 +4690,9 @@
       "scenario_label": "24 September 2026 · 04:22 Europe/Madrid",
       "composition": "Night · the Maestrazgo old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-146.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-147",
@@ -4703,9 +4703,9 @@
       "scenario_label": "24 September 2026 · 04:22 Europe/Madrid",
       "composition": "Night · the castle over the port · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Dénia Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-147.md. r1."
     },
     {
       "entry_id": "ES-01-148",
@@ -4716,9 +4716,9 @@
       "scenario_label": "24 September 2026 · 04:23 Europe/Madrid",
       "composition": "Night · the castle over the bay · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cullera Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-148.md. r1."
     },
     {
       "entry_id": "ES-01-149",
@@ -4729,9 +4729,9 @@
       "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
       "composition": "Night · the hilltop fortress · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Sagunto Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-149.md. r1."
     },
     {
       "entry_id": "ES-01-150",
@@ -4742,9 +4742,9 @@
       "scenario_label": "24 September 2026 · 04:25 Europe/Madrid",
       "composition": "Night · the waterfront façades · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Colored Houses at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-150.md. r1."
     },
     {
       "entry_id": "ES-01-151",
@@ -4755,9 +4755,9 @@
       "scenario_label": "24 September 2026 · 04:25 Europe/Madrid",
       "composition": "Night · the headland castle · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Águilas Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-151.md. r1."
     },
     {
       "entry_id": "ES-01-152",
@@ -4768,9 +4768,9 @@
       "scenario_label": "24 September 2026 · 04:26 Europe/Madrid",
       "composition": "Night · the hilltop old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-152.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-153",
@@ -4781,9 +4781,9 @@
       "scenario_label": "24 September 2026 · 04:27 Europe/Madrid",
       "composition": "Night · the lighthouse point · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cabo de Palos at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-153.md. r1."
     },
     {
       "entry_id": "ES-01-154",
@@ -4794,9 +4794,9 @@
       "scenario_label": "24 September 2026 · 04:28 Europe/Madrid",
       "composition": "Night · the cove beaches · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Calblanque at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-154.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-155",
@@ -4807,9 +4807,9 @@
       "scenario_label": "24 September 2026 · 04:32 Europe/Madrid",
       "composition": "Night · the fortress over the valley · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Lorca Castle at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-155.md. r1."
     },
     {
       "entry_id": "ES-01-156",
@@ -4820,9 +4820,9 @@
       "scenario_label": "24 September 2026 · 04:33 Europe/Madrid",
       "composition": "Night · the sanctuary hill · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Caravaca de la Cruz at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-156.md. r1."
     },
     {
       "entry_id": "ES-01-157",
@@ -4833,9 +4833,9 @@
       "scenario_label": "24 September 2026 · 04:34 Europe/Madrid",
       "composition": "Night · the strip between two seas · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of La Manga at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-157.md. r1."
     },
     {
       "entry_id": "ES-01-158",
@@ -4846,9 +4846,9 @@
       "scenario_label": "24 September 2026 · 04:35 Europe/Madrid",
       "composition": "Night · the castle hill over wine country · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Jumilla at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-158.md. r1."
     },
     {
       "entry_id": "ES-01-159",
@@ -4859,9 +4859,9 @@
       "scenario_label": "24 September 2026 · 04:35 Europe/Madrid",
       "composition": "Night · the cape lighthouse · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Formentor at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-159.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-160",
@@ -4872,9 +4872,9 @@
       "scenario_label": "24 September 2026 · 04:36 Europe/Madrid",
       "composition": "Night · the old town beneath the Tramuntana · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Sóller at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-160.md. r2 rebuild (night/architecture defects fixed)."
     },
     {
       "entry_id": "ES-01-171",
@@ -4885,9 +4885,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the mosque-cathedral and bridge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Mezquita at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-171.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-172",
@@ -4898,9 +4898,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the river tower · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Torre del Oro at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-172.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-173",
@@ -4911,9 +4911,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the white village and sierra · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Grazalema at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-173.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-174",
@@ -4924,9 +4924,9 @@
       "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
       "composition": "Night · the old quarter facing the Alhambra · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Albaicín at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-174.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-175",
@@ -4937,9 +4937,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the peninsula city · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-175.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-176",
@@ -4950,9 +4950,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the gorge walkway · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Caminito del Rey at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-176.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-177",
@@ -4963,9 +4963,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the Renaissance square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-177.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-178",
@@ -4976,9 +4976,9 @@
       "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
       "composition": "Night · the Renaissance old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-178.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-179",
@@ -4989,9 +4989,9 @@
       "scenario_label": "24 September 2026 · 04:08 Europe/Madrid",
       "composition": "Night · the megalithic valley · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Dolmens at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-179.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-180",
@@ -5002,9 +5002,9 @@
       "scenario_label": "24 September 2026 · 04:08 Europe/Madrid",
       "composition": "Night · the white hill town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cómpeta at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-180.md. r2 rebuild (lost batch recovered)."
     },
     {
       "entry_id": "ES-01-181",
@@ -5015,9 +5015,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the castle over the sea · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-181.md. r1."
     },
     {
       "entry_id": "ES-01-182",
@@ -5028,9 +5028,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the sierra fortress village · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Segura de la Sierra at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-182.md. r1."
     },
     {
       "entry_id": "ES-01-183",
@@ -5041,9 +5041,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the white hill town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-183.md. r1."
     },
     {
       "entry_id": "ES-01-184",
@@ -5054,9 +5054,9 @@
       "scenario_label": "24 September 2026 · 04:12 Europe/Madrid",
       "composition": "Night · the cliff town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Arcos de la Frontera at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-184.md. r1."
     },
     {
       "entry_id": "ES-01-185",
@@ -5067,9 +5067,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the twin rocks · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Olvera at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-185.md. r1."
     },
     {
       "entry_id": "ES-01-186",
@@ -5080,9 +5080,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the fishing port · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Garrucha at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-186.md. r1."
     },
     {
       "entry_id": "ES-01-187",
@@ -5093,9 +5093,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the orange-tree square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-187.md. r1."
     },
     {
       "entry_id": "ES-01-188",
@@ -5106,9 +5106,9 @@
       "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
       "composition": "Night · the troglodyte hills · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cave Quarter at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-188.md. r1."
     },
     {
       "entry_id": "ES-01-189",
@@ -5119,9 +5119,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the castle hill and river · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Medellín at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-189.md. r1."
     },
     {
       "entry_id": "ES-01-190",
@@ -5132,9 +5132,9 @@
       "scenario_label": "24 September 2026 · 04:15 Europe/Madrid",
       "composition": "Night · the walled old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-190.md. r1."
     },
     {
       "entry_id": "ES-01-191",
@@ -5145,9 +5145,9 @@
       "scenario_label": "24 September 2026 · 04:17 Europe/Madrid",
       "composition": "Night · the Roman bridge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Alcántara Bridge at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-191.md. r1."
     },
     {
       "entry_id": "ES-01-192",
@@ -5158,9 +5158,9 @@
       "scenario_label": "24 September 2026 · 04:18 Europe/Madrid",
       "composition": "Night · the valley monastery · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Yuste Monastery at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-192.md. r1."
     },
     {
       "entry_id": "ES-01-193",
@@ -5171,9 +5171,9 @@
       "scenario_label": "24 September 2026 · 04:18 Europe/Madrid",
       "composition": "Night · the old town and aqueduct · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-193.md. r1."
     },
     {
       "entry_id": "ES-01-194",
@@ -5184,9 +5184,9 @@
       "scenario_label": "24 September 2026 · 04:18 Europe/Madrid",
       "composition": "Night · the arcaded main square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Zafra at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-194.md. r1."
     },
     {
       "entry_id": "ES-01-195",
@@ -5197,9 +5197,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the border old town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Olivenza at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-195.md. r1."
     },
     {
       "entry_id": "ES-01-196",
@@ -5210,9 +5210,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the Baroque towers and castle · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Jerez de los Caballeros at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-196.md. r1."
     },
     {
       "entry_id": "ES-01-197",
@@ -5223,9 +5223,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the old judería lanes · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Jewish Quarter at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-197.md. r1."
     },
     {
       "entry_id": "ES-01-198",
@@ -5236,9 +5236,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the strait fortress · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Monte Hacho at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-198.md. r1."
     },
     {
       "entry_id": "ES-01-199",
@@ -5249,9 +5249,9 @@
       "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
       "composition": "Night · the modernist avenues · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Ensanche Modernista at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-199.md. r1."
     }
   ],
   "starters": [

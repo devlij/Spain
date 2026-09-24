@@ -14,16 +14,16 @@
   "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
-      "https://en.wikipedia.org/wiki/Citadel_of_Jaca",
-      "Wikipedia — the Citadel of Jaca"
+      "https://www.spain.info/en/places-of-interest/castle-san-pedro-ciudadela-jaca/",
+      "spain.info — San Pedro Castle / Citadel of Jaca (official tourism)"
     ],
     [
       "https://www.turismodearagon.com",
       "Official Aragon tourism portal — verify the Jaca listing before use"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 05:22 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the fortress with the Pyrenees behind · AI-generated artistic interpretation",
@@ -152,5 +152,9 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "ref_changes": [
+    "2026-09-24: dead https://en.wikipedia.org/wiki/Citadel_of_Jaca (404) replaced with official spain.info listing."
+  ],
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-128.md. r2 rebuild (night/architecture defects fixed)."
 }
