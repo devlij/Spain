@@ -2337,9 +2337,9 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · From the Arrecife harbor, the Castillo de San Gabriel and the Puente de las Bolas near 28.9550,-13.5480. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Arrecife, Lanzarote at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Arrecife waterfront reads clearly — Castillo de San Gabriel on its islet in near-silhouette, the stone Puente de las Bolas causeway with its rounded ball-topped piers in the foreground, warm harbor lamps trembling on the water, crescent moon under a clear starry sky (0% model cloud consistent); no floodlighting claimed, clean framing. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Arrecife, Lanzarote', scenario '24 September 2026 · 01:33 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:30, valid 01:30 — fresh. G3: text-only generation, image_inputs empty. G4: no people, no logos; historic castle in public harbor. G5: no open blockers."
     },
     {
       "entry_id": "ES-01-303",
