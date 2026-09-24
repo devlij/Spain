@@ -2103,9 +2103,9 @@
       "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
       "composition": "Night · Roques de García viewpoint area near 28.2546,-16.6690, looking toward the summit cone across the dark caldera floor. Approximate point only; no claim of nighttime access or measured luminance. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Mount Teide, Tenerife at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night Mount Teide: the great volcanic cone under a Milky Way star field, flanked by a Roques-de-García-type basalt pillar left and spire rocks right, clouds wisping at the summit; on-image text verified: caption 'Mount Teide, Tenerife', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:00+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; star positions explicitly artistic, moon phase not claimed per packet (documented only)."
     },
     {
       "entry_id": "ES-01-285",
