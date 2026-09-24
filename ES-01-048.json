@@ -1,0 +1,151 @@
+{
+  "entry_id": "ES-01-048",
+  "country": "Spain",
+  "city": "Ribamontán al Mar",
+  "region": "Cantabria",
+  "caption": "Langre Beach, Ribamontán al Mar",
+  "revision": "r1",
+  "viewpoint": "the clifftop coastal path above the beach, looking down along the cove",
+  "anchors": [
+    "the narrow sandy cove curving between green headlands",
+    "dramatic cliffs framing both ends of the beach",
+    "Cantabrian surf rolling onto the sand"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Surf conditions are illustrative of the Cantabrian coast, not a record of the day.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Ribamont%C3%A1n_al_Mar",
+      "Wikipedia — Ribamontán al Mar municipality, home to Playa de Langre"
+    ],
+    [
+      "https://turismodecantabria.com",
+      "Official Cantabria tourism portal — verify the Langre beach listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:05 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the cove between cliffs from the clifftop path · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Langre Beach, Ribamontán al Mar at night.",
+  "description": "From the clifftop path, Playa de Langre curves below between green headlands, its sand split by a rocky outcrop into two coves. An overcast night over the town. Cantabrian surf rolls in steadily, and the cliffs frame the beach like a natural amphitheatre.",
+  "file_16x9": "es-01-048-r1-16x9.png",
+  "file_4x5": "es-01-048-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "304dc96b1754c1b193c11255dca52a3766249adfb870895f0a8903acf361e9c5"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "11bb97c25bea382900deeebfecb1c933cad7347fd40ddc3b20ba478ef535c5b4"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-048-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2626329,
+      "sha256": "304dc96b1754c1b193c11255dca52a3766249adfb870895f0a8903acf361e9c5",
+      "source_file": "es-01-048-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Langre Beach, Ribamontán al Mar",
+        "Scenario: 24 September 2026 · 04:05 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-048-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1300677,
+      "sha256": "11bb97c25bea382900deeebfecb1c933cad7347fd40ddc3b20ba478ef535c5b4",
+      "source_file": "es-01-048-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Langre Beach, Ribamontán al Mar",
+        "Scenario: 24 September 2026 · 04:05 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:05:00.263707+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:05:00.263707+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Langre Beach in Ribamontán al Mar, Cantabria, Spain. Tourist viewpoint: the clifftop coastal path above the beach, looking down along the cove. Frame: the narrow sandy cove curving between green headlands; dramatic cliffs framing both ends of the beach; Cantabrian surf rolling onto the sand. Light and weather: overcast night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "es-01-048-r1.png",
+      "sha256": "9d4b37b1696ad7936b152ac0fab8a89934f328f20ab8fd59750522f5c647b440",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

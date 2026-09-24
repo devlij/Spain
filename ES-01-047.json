@@ -1,0 +1,151 @@
+{
+  "entry_id": "ES-01-047",
+  "country": "Spain",
+  "city": "Santillana del Mar",
+  "region": "Cantabria",
+  "caption": "Altamira Museum, Santillana del Mar",
+  "revision": "r1",
+  "viewpoint": "the museum grounds, looking at the building with the original cave hill behind",
+  "anchors": [
+    "the modern museum building set low against the green Cantabrian hillside",
+    "the replica-cave entrance wing with its stone-and-glass frontage",
+    "manicured grounds and the original cave hill rising behind"
+  ],
+  "limitations": "Text-only generation; no photographic input. Depicts the museum exterior and grounds only — the original cave interior is not depicted and is closed to the public. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cave_of_Altamira",
+      "Wikipedia — the Cave of Altamira and its museum, UNESCO World Heritage"
+    ],
+    [
+      "https://turismodecantabria.com",
+      "Official Cantabria tourism portal — verify the Altamira listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:04 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the museum building against the cave hill · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Altamira Museum, Santillana del Mar at night.",
+  "description": "The Museo de Altamira sits low against the green hillside near Santillana del Mar, its stone-and-glass frontage marking the entrance to the celebrated replica cave. An overcast night over the town. Behind it rises the hill that holds the original Paleolithic cave, closed to protect its paintings.",
+  "file_16x9": "es-01-047-r1-16x9.png",
+  "file_4x5": "es-01-047-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a34354ed9ed0315108364c722034638d17735998feab047937bc05b9a724f104"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "263c83c5aaa035b3f61f57b1fbfc15094c0f7ee83068fc87878cb6857ea866c6"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-047-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2055654,
+      "sha256": "a34354ed9ed0315108364c722034638d17735998feab047937bc05b9a724f104",
+      "source_file": "es-01-047-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Altamira Museum, Santillana del Mar",
+        "Scenario: 24 September 2026 · 04:04 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-047-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1072115,
+      "sha256": "263c83c5aaa035b3f61f57b1fbfc15094c0f7ee83068fc87878cb6857ea866c6",
+      "source_file": "es-01-047-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Altamira Museum, Santillana del Mar",
+        "Scenario: 24 September 2026 · 04:04 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:04:59.203241+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:04:59.203241+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Altamira Museum near Santillana del Mar, Cantabria, Spain. Tourist viewpoint: the museum grounds, looking at the building with the cave hill behind. Frame: the modern museum building set low against the green Cantabrian hillside; the replica-cave entrance wing with its stone-and-glass frontage; manicured grounds and the original cave hill rising behind. Light and weather: overcast night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "es-01-047-r1.png",
+      "sha256": "4c8eb519f006b784f77bd1ae65a20aed8a4812797306038c4ba8a6374936290d",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
