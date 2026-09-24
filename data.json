@@ -1882,9 +1882,9 @@
       "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
       "composition": "Night · West front from Plaza de Santa Maria, twin spires and floodlit limestone · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Burgos Cathedral at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders Burgos Cathedral's west front at night — the twin openwork spires flanking the ornate Gothic facade, rose window centered above the sculpted Santa Maria portal, pinnacle rows and statuary niches along the gallery level, pale limestone warm under floodlighting against an overcast night sky; clean symmetrical framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Cathedral, Burgos', scenario '24 September 2026 · 01:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh against the 01:24 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; floodlighting honestly framed as photographed-but-unverified-for-the-hour."
     },
     {
       "entry_id": "ES-01-327",
