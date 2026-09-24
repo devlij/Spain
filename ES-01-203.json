@@ -22,8 +22,8 @@
       "Reference — Casco Antiguo de Marbella, Moorish castle, narrow lanes, Alameda park"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Orange Square under lantern light · AI-generated artistic interpretation",
@@ -153,6 +153,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Marbella old town recognizably depicted — whitewashed façades with wrought-iron balconies, terracotta geranium pots, street lanterns, orange trees lining a plaza, a white church tower with open bell arches and a stone clock-fronted building behind; plausible Plaza de los Naranjos viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Old Town, Marbella', scenario '24 September 2026 · 01:15 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image and legible; Open-Meteo retrieved 01:13:14 valid 01:15:17 — fresh, no stale weather. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; lantern/terrace lighting disclosed as artistic interpretation. Gate 5: no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
