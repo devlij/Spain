@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-230",
+  "country": "Spain",
+  "city": "Niebla",
+  "region": "Andalusia",
+  "caption": "Walls of Niebla, Niebla",
+  "revision": "r1",
+  "viewpoint": "outside the walls near the Puerta del Socorro, looking along the ramparts",
+  "anchors": [
+    "the 2 km of Caliphate-era walls with rectangular stone-reinforced towers",
+    "the Puerta del Socorro with its horseshoe arch and impost",
+    "the walled town of white houses nestled inside the ramparts"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time lighting of the walls is restrained and interpretive, not verified. Exact camera position unverified.",
+  "refs": [
+    [
+      "http://qr.turismohuelva.org/ficheros/elementos/111.pdf",
+      "Huelva tourism — 16 hectares enclosed in 2 km of Caliphate-age walls; gates Buey, Socorro, Agua, Embarcadero, Sevilla; 1262 first military use of gunpowder in the West"
+    ],
+    [
+      "https://www.spain.info/en/places-of-interest/gates-wall-socorro-agua-sevilla-buey/",
+      "Spain.info — Puerta del Socorro with horseshoe arch and impost, Niebla's wall gates"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · medieval walled town ramparts and gate at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Walls of Niebla at night.",
+  "description": "From the path outside the walls, Niebla's ramparts run into the night — over two kilometres of Caliphate-era masonry with rectangular stone-reinforced towers, the same walls that in 1262 saw gunpowder used for military purposes for the first time in the West. The Puerta del Socorro's horseshoe arch marks the gate, while white houses glow faintly inside the walls. On a clear 22°C night, the old Muslim stronghold stands silent above the Huelva countryside.",
+  "file_16x9": "es-01-230-r1-16x9.png",
+  "file_4x5": "es-01-230-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5dab3e62ac694248546691366f5a9f9b63d65e7c8fb6b0d74754a3bb86b784b7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "09d927940e91fa28b459fb2010c420fb3158a82605e48c6de832fb9c3ce563d3"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-230-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2506397,
+      "sha256": "5dab3e62ac694248546691366f5a9f9b63d65e7c8fb6b0d74754a3bb86b784b7",
+      "source_file": "media-generation-es-01-230-source-0-5f3dda5e-135c-4011-baf9-8b53fcc4ba36.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Walls of Niebla, Niebla",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-230-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1350040,
+      "sha256": "09d927940e91fa28b459fb2010c420fb3158a82605e48c6de832fb9c3ce563d3",
+      "source_file": "media-generation-es-01-230-source-0-5f3dda5e-135c-4011-baf9-8b53fcc4ba36.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Walls of Niebla, Niebla",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:55:25+02:00",
+    "valid": "2026-09-24T01:57:51+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 22.3,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 1.6
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:55:25+02:00, valid 2026-09-24T01:57:51+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the medieval walls of Niebla, Huelva, Spain, at night. Tourist viewpoint: outside the walls near the Puerta del Socorro, looking along the ramparts. Frame: the long Caliphate-era walls with rectangular stone-reinforced towers running through the frame; the Puerta del Socorro with its horseshoe arch centered; the walled town of white houses nestled inside the ramparts. Night light: moonlight and starlight on the walls and towers, faint town lights within, no floodlighting, clear starry sky, 22 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-230-source-0-5f3dda5e-135c-4011-baf9-8b53fcc4ba36.png",
+      "sha256": "117d641a49f3ef58599d04698cd00e57c9b1917c83486b76de8aa34971ec8590",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
