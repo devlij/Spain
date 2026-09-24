@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-233",
+  "country": "Spain",
+  "city": "Nerja",
+  "region": "Andalusia",
+  "caption": "Balcón de Europa, Nerja",
+  "revision": "r1",
+  "viewpoint": "the Balcón de Europa promenade, facing the sea and the marble balustrade",
+  "anchors": [
+    "the marble balustrade and bronze statue of Alfonso XII on the old Moorish fort site",
+    "the crescent beaches of Calahonda and Burriana curving away below",
+    "the Mediterranean stretching to the moonlit horizon"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night lighting is restrained and interpretive. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/balcon-europa/",
+      "Spain.info — Balcón de Europa, Nerja: cliff-top viewpoint on the old Moorish fort, named by Alfonso XII"
+    ],
+    [
+      "https://www.tripadvisor.com/Attraction_Review-g187449-d248922-Reviews-Balcon_de_Europa-Nerja_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+      "Tripadvisor — Nerja's Balcón de Europa and its bronze statue of Alfonso XII"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:19 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · clifftop promenade balcony over coves and sea at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Balcón de Europa at night.",
+  "description": "From the Balcón de Europa, the marble balustrade traces the cliff edge where the Moorish fort once stood — named by Alfonso XII, whose bronze statue keeps the lookout. Below, the coves of Calahonda and Burriana curve along the shore, and the Mediterranean stretches to a moonlit horizon. On a clear 23°C night with the sea breathing gently, the balcony of Europe lives up to its name.",
+  "file_16x9": "es-01-233-r1-16x9.png",
+  "file_4x5": "es-01-233-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9d2d3e0e4f2404280697c948be2ca9f33bcd4792dc6e4146b61ce150511a3013"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "3f696ee5cb59812187e489c59d4717c36d03168659de6b64f31bd697620d1201"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-233-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1922836,
+      "sha256": "9d2d3e0e4f2404280697c948be2ca9f33bcd4792dc6e4146b61ce150511a3013",
+      "source_file": "media-generation-es-01-233-source-0-48c511cd-198f-4b4c-8745-3f3b3b0863aa.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Balcón de Europa, Nerja",
+        "Scenario: 24 September 2026 · 02:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-233-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 982765,
+      "sha256": "3f696ee5cb59812187e489c59d4717c36d03168659de6b64f31bd697620d1201",
+      "source_file": "media-generation-es-01-233-source-0-48c511cd-198f-4b4c-8745-3f3b3b0863aa.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Balcón de Europa, Nerja",
+        "Scenario: 24 September 2026 · 02:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T02:17:08+02:00",
+    "valid": "2026-09-24T02:19:34+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 23.4,
+    "weather_code": 1,
+    "cloud_cover": 5,
+    "wind_speed_10m": 1.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:17:08+02:00, valid 2026-09-24T02:19:34+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Balcón de Europa, Nerja, Málaga, Spain, at night. Tourist viewpoint: the promenade, facing the sea and the marble balustrade. Frame: the marble balustrade with the bronze figure of Alfonso XII on the cliff edge; the crescent beaches of Calahonda and Burriana curving away below; the Mediterranean stretching to the moonlit horizon. Night light: restrained promenade lighting and moonlight, sea reflections, starry sky, 23 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-233-source-0-48c511cd-198f-4b4c-8745-3f3b3b0863aa.png",
+      "sha256": "c685b6d4c741cb504cc8f0edbe36b4ff933171ac02f24835cd0205584868b82a",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
