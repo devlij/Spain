@@ -1999,9 +1999,9 @@
       "scenario_label": "24 September 2026 · 02:46 Europe/Madrid",
       "composition": "Night · Windmill ridge from the slope, floodlit against the starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Consuegra windmills at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Consuegra's windmill row is iconic — six whitewashed mills with dark conical caps and lattice sails, warmly lit along Cerro Calderico under a starry sky, with the castle ruins silhouetted on the hill behind; plausible lower-slope viewpoint; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Windmills, Consuegra', scenario '24 September 2026 · 02:46 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — rural heritage site at night. G5: no blockers."
     },
     {
       "entry_id": "ES-01-336",
