@@ -22,8 +22,8 @@
       "Vall de Núria visitor guide (sanctuary, lake, mountain setting)"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:19 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Mountain sanctuary glowing at the valley floor under stars · AI-generated artistic interpretation",
@@ -154,6 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — mountain sanctuary with its slender bell tower sits centered at the valley floor, warmly lit windows glowing, dark Pyrenean slopes rising on both sides, the lake of Núria reflecting the lamps in the foreground under a starry sky; clean framing, no artifacts. Gate 2 PASS — both masters byte-verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact ('Vall de Núria, Queralbs', 'Scenario: 24 September 2026 · 01:19 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.') and 'Jason D\\u2019s Vision' signature bottom-right on an unobtrusive scrim; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 6 min before the 01:19 scenario hour, fresh, no stale reuse. Gate 3 PASS — packet documents text-only generation with zero photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; not legally certified. Gate 5 — no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
