@@ -2766,9 +2766,9 @@
       "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
       "composition": "Night · colossal cubist Columbus monument at the river confluence at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Monumento a Colón at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Monumento a Colón recognizably depicted from a plausible tourist viewpoint at Punta del Sebo, estuary marshland and port lights behind, clean framing, no artifacts. Gate 2: both masters 1920x1080/864x1080 with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation with image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; noted as documented, not certified. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-232",
