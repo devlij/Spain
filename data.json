@@ -1076,9 +1076,9 @@
       "scenario_label": "24 September 2026 · 01:17 Europe/Madrid",
       "composition": "Night · Moonlit karst sculptures on the plateau · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of El Torcal at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: El Torcal recognizably depicted — the site's signature twisted karst pillars including the screw-shaped 'Tornillo' stack centered against a night sky, moonlit layered limestone towers, city lights of the Antequera plain spread below; plausible hillside viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'El Torcal, Antequera', scenario '24 September 2026 · 01:17 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible on scrim; Open-Meteo retrieved 01:13:14 valid 01:17:29 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no people, logos or private property visible. Packet is unusually honest: the park is closed at night, so the scene is a restrained moonlit interpretation claiming no measured luminance and no floodlighting — scenario honesty preserved. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-206",
