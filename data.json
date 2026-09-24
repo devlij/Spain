@@ -1050,9 +1050,9 @@
       "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
       "composition": "Night · Orange Square under lantern light · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old Town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Marbella old town recognizably depicted — whitewashed façades with wrought-iron balconies, terracotta geranium pots, street lanterns, orange trees lining a plaza, a white church tower with open bell arches and a stone clock-fronted building behind; plausible Plaza de los Naranjos viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Old Town, Marbella', scenario '24 September 2026 · 01:15 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image and legible; Open-Meteo retrieved 01:13:14 valid 01:15:17 — fresh, no stale weather. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; lantern/terrace lighting disclosed as artistic interpretation. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-204",
