@@ -985,9 +985,9 @@
       "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
       "composition": "Night · Public Cala d'Hort beach shoreline, approximately 38.8915, 1.2235, low eye-level looking southwest over the sea toward Es Vedrà and smaller Es Vedranell. No cliff-edge or restricted cave viewpoint is used. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Es Vedrà, Ibiza at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: recognizably Es Vedrà at night — limestone sea-stack with Es Vedranell to its left, viewed from Ibiza's west coast across calm dark water, rocky foreshore; stack-and-satellite composition matches the iconic viewpoint. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
     },
     {
       "entry_id": "ES-01-038",
