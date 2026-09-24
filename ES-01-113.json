@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-113",
+  "country": "Spain",
+  "city": "Madrid",
+  "region": "Madrid",
+  "caption": "Almudena Cathedral, Madrid",
+  "revision": "r1",
+  "viewpoint": "the Plaza de la Armería, looking at the cathedral",
+  "anchors": [
+    "the Almudena Cathedral with its neoclassical front",
+    "the cathedral facing the Royal Palace",
+    "the Plaza de la Armería between them"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Floodlighting is interpretive.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Almudena_Cathedral",
+      "Wikipedia — the Almudena Cathedral, Madrid"
+    ],
+    [
+      "https://www.esmadrid.com",
+      "Official Madrid tourism portal — verify the Almudena listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the cathedral and palace · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Almudena Cathedral, Madrid at night.",
+  "description": "The Almudena — Madrid's cathedral, a century in the building — faces the Royal Palace across the Plaza de la Armería. A clear night with a light breeze over the cathedral and palace. Its crypt keeps the city's oldest Virgin.",
+  "file_16x9": "es-01-113-r1-16x9.png",
+  "file_4x5": "es-01-113-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f6668885fd54408cb636b6be4d5a054fabe13b8dff3e3ec1a115d6d6406593a6"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7e456dad37e9dfc9ab337ed56ffa3540deb0289d42f951e1ecc0e7be13d20464"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-113-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2103121,
+      "sha256": "f6668885fd54408cb636b6be4d5a054fabe13b8dff3e3ec1a115d6d6406593a6",
+      "source_file": "media-generation-es-01-113-source-0-005aa7a8-27f8-4e6a-ad61-cfcaab1389f8.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Almudena Cathedral, Madrid",
+        "Scenario: 24 September 2026 · 04:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-113-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1082036,
+      "sha256": "7e456dad37e9dfc9ab337ed56ffa3540deb0289d42f951e1ecc0e7be13d20464",
+      "source_file": "media-generation-es-01-113-source-0-005aa7a8-27f8-4e6a-ad61-cfcaab1389f8.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Almudena Cathedral, Madrid",
+        "Scenario: 24 September 2026 · 04:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:33:27+02:00",
+    "valid": "2026-09-24T04:30+02:00",
+    "temperature_2m_c": 19.3,
+    "weather_code": 0,
+    "cloud_cover_pct": 23,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 5.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:33+02:00, valid 2026-09-24T04:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Almudena Cathedral in Madrid, Spain AT NIGHT. Tourist viewpoint: the Plaza de la Armería, looking at the cathedral. Frame: the Almudena Cathedral with its neoclassical front; the cathedral facing the Royal Palace; the plaza between them. Light and weather: clear night, light breeze; the cathedral floodlit as artistic interpretation, the palace warmly lit, a few clouds in the night sky. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-113-source-0-005aa7a8-27f8-4e6a-ad61-cfcaab1389f8.png",
+      "sha256": "722e42e44d06c89666b7b6d7f702429e3476a9c029492dc3790265c151f12659",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

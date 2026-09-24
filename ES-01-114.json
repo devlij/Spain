@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-114",
+  "country": "Spain",
+  "city": "Madrid",
+  "region": "Madrid",
+  "caption": "Plaza de Oriente, Madrid",
+  "revision": "r1",
+  "viewpoint": "the garden square, looking toward the palace",
+  "anchors": [
+    "the Plaza de Oriente with its gardens and statues",
+    "the Royal Theatre and the palace's east front",
+    "the equestrian statue of Philip IV"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Floodlighting is interpretive.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Plaza_de_Oriente",
+      "Wikipedia — the Plaza de Oriente, Madrid"
+    ],
+    [
+      "https://www.esmadrid.com",
+      "Official Madrid tourism portal — verify the Oriente listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:34 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the garden square · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Plaza de Oriente, Madrid at night.",
+  "description": "The Plaza de Oriente spreads its gardens before the Royal Palace's east front — the Royal Theatre, the statues of the Gothic kings, Philip IV on horseback. A clear night with a light breeze over the garden square. Madrid's most ceremonial square.",
+  "file_16x9": "es-01-114-r1-16x9.png",
+  "file_4x5": "es-01-114-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "23e18d48e51d1abcd381052327f8cd28f7f67ed873c5d05f0a5023bb301aaecf"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "74e244b980144253e834d229c9f4ce41bd758750149345945b9d3cb06d990c1a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-114-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2552194,
+      "sha256": "23e18d48e51d1abcd381052327f8cd28f7f67ed873c5d05f0a5023bb301aaecf",
+      "source_file": "media-generation-es-01-114-source-0-29900448-80c2-4ee1-8bf5-88e407778fab.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza de Oriente, Madrid",
+        "Scenario: 24 September 2026 · 04:34 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-114-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1191448,
+      "sha256": "74e244b980144253e834d229c9f4ce41bd758750149345945b9d3cb06d990c1a",
+      "source_file": "media-generation-es-01-114-source-0-29900448-80c2-4ee1-8bf5-88e407778fab.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza de Oriente, Madrid",
+        "Scenario: 24 September 2026 · 04:34 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:34:29+02:00",
+    "valid": "2026-09-24T04:30+02:00",
+    "temperature_2m_c": 19.3,
+    "weather_code": 0,
+    "cloud_cover_pct": 23,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 5.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:34+02:00, valid 2026-09-24T04:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Plaza de Oriente in Madrid, Spain AT NIGHT. Tourist viewpoint: the garden square, looking toward the palace. Frame: the Plaza de Oriente with its gardens and statues; the Royal Theatre and the palace's east front; the square's formal gardens. Light and weather: clear night, light breeze; the plaza floodlit as artistic interpretation, gardens and statues softly lit, the palace east front glowing. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-114-source-0-29900448-80c2-4ee1-8bf5-88e407778fab.png",
+      "sha256": "9b5304da9ce9fc5fcf43e8e511522704ea6397f4afde0e45bd31cf00ceaf9d0d",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
