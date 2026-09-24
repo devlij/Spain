@@ -2558,9 +2558,9 @@
       "scenario_label": "24 September 2026 · 01:47 Europe/Madrid",
       "composition": "Night · From Laredo, the curving beach under moonlight near 43.4090,-3.4150. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Laredo, Cantabria at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Laredo's long beach curving away into the dark, moonlight tracing the water's edge, town lights strung along the promenade behind under a starry sky — recognizable beach-from-above viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Laredo, Cantabria', 'Scenario: 24 September 2026 · 01:47 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 2 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
     },
     {
       "entry_id": "ES-01-320",
