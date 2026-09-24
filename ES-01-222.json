@@ -16,8 +16,8 @@
     "https://www.getreadyforadventure.com/murcia-cathedral-de-santa-maria-sightseeing-and-information/",
     "https://airial.travel/attractions/spain/murcia/murcia-cathedral-f8G49rCl"
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · cathedral façade from the plaza at night · AI-generated artistic interpretation",
@@ -147,6 +147,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Gate 1: baroque Murcia Cathedral facade with its tall clock bell tower rising left, Plaza de las Flores setting, ground-level night haze consistent with the Open-Meteo fog (code 45) weather model; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Murcia Cathedral, Murcia', scenario '24 September 2026 · 01:33 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:30:46 valid 01:33:28 — fresh, matching the scenario hour, not stale. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
