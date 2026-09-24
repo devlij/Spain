@@ -2168,9 +2168,9 @@
       "scenario_label": "24 September 2026 · 01:21 Europe/Madrid",
       "composition": "Night · From a colonial street in La Laguna's historic center, looking along the cobbled street toward the cathedral tower near 28.4876,-16.3139. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of San Cristóbal de La Laguna, Tenerife at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders a La Laguna old-town street — cobbled roadway under warm street lamps, pastel colonial facades with dark wooden balconies lining both sides, the cathedral's twin towers silhouetted at the street's vanishing point; clean one-point perspective, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'San Cristóbal de La Laguna, Tenerife', scenario '24 September 2026 · 01:21 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:21 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos; no floodlighting claimed, only ordinary street lamps. G5: no open blockers."
     },
     {
       "entry_id": "ES-01-290",
