@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-185",
+  "country": "Spain",
+  "city": "Olvera",
+  "region": "Andalusia",
+  "caption": "Olvera, Olvera",
+  "revision": "r1",
+  "viewpoint": "the Vía Verde approach, looking up at the twin rocks",
+  "anchors": [
+    "Olvera's castle and church on their twin rocks",
+    "the white town below the fortress-church",
+    "the Vía Verde and the sierra around"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Olvera",
+      "Wikipedia — Olvera, white village"
+    ],
+    [
+      "https://www.andalucia.org",
+      "Official Andalusia tourism portal — verify the Olvera listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:13 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the twin rocks · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Olvera at night.",
+  "description": "Olvera keeps its castle and the church of the Encarnación on twin rocks over the white town — the Vía Verde below, the sierra around. A clear night with light winds. The Arab fortress guards the white village route.",
+  "file_16x9": "es-01-185-r1-16x9.png",
+  "file_4x5": "es-01-185-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3fe9a1567be84fb0da04d6439e4b5d8550fc43abf52af8cffb685066ccc25b9b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "577d298a8f34f6450e66210fadcd5919ec6cb0b78fc436e20ac882ebb831f013"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-185-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2613867,
+      "sha256": "3fe9a1567be84fb0da04d6439e4b5d8550fc43abf52af8cffb685066ccc25b9b",
+      "source_file": "media-generation-media-generation-es-01-185-sou-0-85ff7379-f52e-44d1-92e6-19e48221fc24.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Olvera, Olvera",
+        "Scenario: 24 September 2026 · 04:13 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-185-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1513084,
+      "sha256": "577d298a8f34f6450e66210fadcd5919ec6cb0b78fc436e20ac882ebb831f013",
+      "source_file": "media-generation-media-generation-es-01-185-sou-0-85ff7379-f52e-44d1-92e6-19e48221fc24.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Olvera, Olvera",
+        "Scenario: 24 September 2026 · 04:13 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T04:13:52+02:00",
+    "valid": "2026-09-24T04:13:52+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 20.3,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "precipitation": 0.0,
+    "wind_speed_10m": 7.9
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:13:52+02:00, valid 2026-09-24T04:13:52+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Olvera, Andalusia, Spain. Tourist viewpoint: the Vía Verde approach, looking up at the twin rocks. Frame: Olvera's castle and church on their twin rocks; the white town below the fortress-church; the sierra around. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-media-generation-es-01-185-sou-0-85ff7379-f52e-44d1-92e6-19e48221fc24.png",
+      "sha256": "942f53b9d083d43b46938572c2c4342151645c396c46f5b04aa59ac7e0e608e2",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
