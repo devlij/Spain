@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-237",
+  "country": "Spain",
+  "city": "Baeza",
+  "region": "Andalusia",
+  "caption": "Paseo de Antonio Machado, Baeza",
+  "revision": "r1",
+  "viewpoint": "the old wall promenade at night, facing the twin-towered cathedral over the olive sea",
+  "anchors": [
+    "the Renaissance cathedral with its two towers over the old walls",
+    "the endless sea of olive trees rolling toward the Sierra Mágina",
+    "the lamplit walk where Machado once strolled"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night lighting is restrained and interpretive. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/baeza-cathedral/",
+      "Spain.info — Baeza cathedral, Renaissance twin-towered"
+    ],
+    [
+      "https://www.tripadvisor.com/Attraction_Review-g1028713-d245764-Reviews-Paseo_de_Antonio_Machado-Baeza_Province_of_Jaen_Andalucia.html",
+      "Tripadvisor — Paseo de Antonio Machado, Baeza's old wall promenade"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Renaissance cathedral over olive groves at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Paseo de Antonio Machado at night.",
+  "description": "From the old wall promenade, Baeza's Renaissance cathedral holds its twin towers against the night, above the endless sea of olive trees that rolls toward the Sierra Mágina. This is the walk where Antonio Machado strolled when he taught here. On a clear 22°C night, the provincial jewel of Jaén glows softly under moon and lamps.",
+  "file_16x9": "es-01-237-r1-16x9.png",
+  "file_4x5": "es-01-237-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "04ed68a3db003f5770f344c4f245422e887f98618513d05e54c9becb89f50d3a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "df7361ea329f14141e56be9275d80e9a889558abe9a6fc02f630a429fd950669"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-237-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2582418,
+      "sha256": "04ed68a3db003f5770f344c4f245422e887f98618513d05e54c9becb89f50d3a",
+      "source_file": "media-generation-es-01-237-source-0-707596dc-6a32-4d59-8bc1-c2e818012243.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Paseo de Antonio Machado, Baeza",
+        "Scenario: 24 September 2026 · 02:31 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-237-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1257488,
+      "sha256": "df7361ea329f14141e56be9275d80e9a889558abe9a6fc02f630a429fd950669",
+      "source_file": "media-generation-es-01-237-source-0-707596dc-6a32-4d59-8bc1-c2e818012243.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Paseo de Antonio Machado, Baeza",
+        "Scenario: 24 September 2026 · 02:31 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T02:29:06+02:00",
+    "valid": "2026-09-24T02:31:18+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 21.9,
+    "weather_code": 0,
+    "cloud_cover": 2,
+    "wind_speed_10m": 5.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:29:06+02:00, valid 2026-09-24T02:31:18+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Paseo de Antonio Machado, Baeza, Jaén, Spain, at night. Tourist viewpoint: the old wall promenade, facing the twin-towered cathedral over the olive sea. Frame: the Renaissance cathedral with its two towers centered over the old walls; the endless sea of olive trees rolling toward the Sierra Mágina; the lamplit walk in the foreground. Night light: restrained promenade lighting and moonlight on the cathedral towers, starry sky, 22 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-237-source-0-707596dc-6a32-4d59-8bc1-c2e818012243.png",
+      "sha256": "40762c32b44181ade8031c7b9e9aa69d5e9bfb6300cbf2f7a22999357d9f2261",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
