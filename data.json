@@ -2454,9 +2454,9 @@
       "scenario_label": "24 September 2026 · 01:40 Europe/Madrid",
       "composition": "Night · From the Baiona bay, town lights reflected in moonlit water near 42.1180,-8.8500. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Baiona bay at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte (API-verified), provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
     },
     {
       "entry_id": "ES-01-312",
