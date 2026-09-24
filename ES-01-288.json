@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for the Jameos del Agua, verified 24 September 2026; complementary encyclopedic reference."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:21 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From the subterranean lake inside the Jameos del Agua lava tube, looking across the still turquoise water toward the collapsed roof opening near 29.1578,-13.4312. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1 visual: the 16:9 master recognizably renders Jameos del Agua's subterranean lake chamber — a perfectly still turquoise lake centered under the collapsed roof opening showing a starry night sky, hanging green vegetation and agave along the white lava-rock walls, Manrique's art-nature space; clean framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Jameos del Agua, Lanzarote', scenario '24 September 2026 · 01:21 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:21 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no private property focal subject. G5: no open blockers; interior lighting disclosed as approximate and night access disclosed as assumed from the known night program, not verified.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
