@@ -16,8 +16,8 @@
     "https://www.travelresearchonline.com/blog/index.php/2026/03/cadiz-spains-ancient-atlantic-gateway/",
     "https://www.thespanisheye.com/2025/10/23/the-10-best-things-to-do-in-cadiz-according-to-travel-experts/"
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:22 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · cathedral façade and golden dome from the plaza · AI-generated artistic interpretation",
@@ -147,6 +147,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Cádiz Cathedral recognizably depicted from its plaza — the golden dome glowing between the two ornate baroque towers, floodlit stone façade, street lamps and palm-frond silhouettes framing a wet reflective plaza; plausible tourist viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Cádiz Cathedral, Cádiz', scenario '24 September 2026 · 01:22 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:20:58 valid 01:22:26 — fresh, within 2 minutes of scenario. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; packet is transparent that evening illumination is documented only by a walking tour, exact state at 01:17 unverified — disclosed, not claimed. Gate 5: no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
