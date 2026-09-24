@@ -4,54 +4,58 @@
   "city": "Sos del Rey Católico",
   "region": "Aragon",
   "caption": "Sos del Rey Católico, Sos del Rey Católico",
-  "revision": "r1",
+  "revision": "r3",
   "viewpoint": "the valley approach, looking up at the walled town",
   "anchors": [
     "Sos del Rey Católico's walled old town",
     "the birthplace palace of Ferdinand the Catholic",
     "the castle remains over the stone lanes"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. turismodearagon.com reference dropped: unreachable at build time.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Revision r3: r1/r2 weather records were proven wrong against the Open-Meteo archive (wind/sky contradictions); fully fresh regeneration with weather fetched at generation time. No prior pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Sos_del_Rey_Cat%C3%B3lico",
       "Wikipedia — Sos del Rey Católico"
+    ],
+    [
+      "https://www.turismodearagon.com",
+      "Official Aragon tourism portal — verify the Sos listing before use"
     ]
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:00 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:35 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the walled birthplace town · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Sos del Rey Católico at night.",
-  "description": "Sos del Rey Católico — birthplace of Ferdinand the Catholic — keeps its walled old town complete, stone lanes beneath the castle remains. A clear night, calm air over Sos del Rey Católico. One of the Cinco Villas, perfectly preserved.",
-  "file_16x9": "es-01-126-r1-16x9.png",
-  "file_4x5": "es-01-126-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Sos del Rey Católico, Sos del Rey Católico at night.",
+  "description": "Sos del Rey Católico — birthplace of Ferdinand the Catholic — keeps its walled old town complete, stone lanes beneath the castle remains. A mainly clear night, light air over the Cinco Villas. One of the Cinco Villas, perfectly preserved.",
+  "file_16x9": "es-01-126-r3-16x9.png",
+  "file_4x5": "es-01-126-r3-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "51a03b7981a3cf59186c885d2797418e6134ae1ad9bfb26cac61902de97cc87f"
+      "sha256": "6c57aa4801f91933fa66cfb8d7cc41651dee761d8cd09e9aa4dff38bffb615b4"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "93c36590f8fe60d919900b831378d9c6b9a3431ff360172484a0a147e4bd39d3"
+      "sha256": "b972e77b047b0061c4db9613a589f777325c1ad2da7a69c8539430d372cb9bd9"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-126-r1-16x9.png",
+      "file": "es-01-126-r3-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2765771,
-      "sha256": "51a03b7981a3cf59186c885d2797418e6134ae1ad9bfb26cac61902de97cc87f",
-      "source_file": "media-generation-es-01-126-source-0-9fe363ee-7748-4617-abee-80c85771e4f3.png",
+      "byte_length": 2384343,
+      "sha256": "6c57aa4801f91933fa66cfb8d7cc41651dee761d8cd09e9aa4dff38bffb615b4",
+      "source_file": "media-generation-es-01-126-r3-source-0-fe06fb7d-8b2b-4fa3-8139-b0b04c45e851.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -59,26 +63,26 @@
       ],
       "labels": [
         "Sos del Rey Católico, Sos del Rey Católico",
-        "Scenario: 24 September 2026 · 04:00 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:35 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-126-r1-4x5.png",
+      "file": "es-01-126-r3-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1400669,
-      "sha256": "93c36590f8fe60d919900b831378d9c6b9a3431ff360172484a0a147e4bd39d3",
-      "source_file": "media-generation-es-01-126-source-0-9fe363ee-7748-4617-abee-80c85771e4f3.png",
+      "byte_length": 1264314,
+      "sha256": "b972e77b047b0061c4db9613a589f777325c1ad2da7a69c8539430d372cb9bd9",
+      "source_file": "media-generation-es-01-126-r3-source-0-fe06fb7d-8b2b-4fa3-8139-b0b04c45e851.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -86,33 +90,37 @@
       ],
       "labels": [
         "Sos del Rey Católico, Sos del Rey Católico",
-        "Scenario: 24 September 2026 · 04:00 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:35 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:09:40+02:00",
-    "valid": "2026-09-24T04:00 Europe/Madrid",
-    "phrase": "clear night, calm air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:35:22+02:00",
+    "valid": "2026-09-24T05:00 Europe/Madrid",
+    "phrase": "A mainly clear night, light air over the Cinco Villas.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": 17.3,
+    "weather_code": 1,
+    "cloud_cover": 23,
+    "wind_speed_10m": 5.8
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:40+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:35:22+02:00, valid 2026-09-24T05:00 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Sos del Rey Católico, Aragon, Spain. Tourist viewpoint: the valley approach, looking up at the walled town. Frame: Sos del Rey Católico's walled old town; the stone lanes beneath the castle remains; the Cinco Villas country around. Light and weather: mostly clear night, calm air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r3.txt": "Photorealistic original artistic interpretation (not a photograph) of Sos del Rey Católico, Aragon, Spain. Tourist viewpoint: the valley approach, looking up at the walled town. Frame: Sos del Rey Católico's walled old town; the stone lanes beneath the castle remains; the Cinco Villas country around. Light and weather: deep astronomical night, moonlit walled hilltop town, warm glowing windows within the walls, mainly clear dark sky with a few clouds (cloud 23%), light air (wind ~6 km/h). Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-126-source-0-9fe363ee-7748-4617-abee-80c85771e4f3.png",
-      "sha256": "eaaab027c4013e1c316d55b3dbddacd5c44a7db483fa5a290088b1efd8a7f80b",
+      "file": "media-generation-es-01-126-r3-source-0-fe06fb7d-8b2b-4fa3-8139-b0b04c45e851.png",
+      "sha256": "b972d838e0e8f17ba6d748a1aa43e2e84c70d58ca83a574a53db57e47e53ea4a",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -122,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
