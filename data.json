@@ -2454,9 +2454,9 @@
       "scenario_label": "24 September 2026 · 01:40 Europe/Madrid",
       "composition": "Night · From the Baiona bay, town lights reflected in moonlit water near 42.1180,-8.8500. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Baiona bay at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Baiona bay at night — old town lights strung along the dark waterfront, dense string lights tracing the promenade, warm harbor lamps reflected in calm water with boats at anchor, the dark pine-crowned silhouette of the Monte Boi headland at right, crescent moon and starry sky; plausibly the Baiona waterfront, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Baiona, Galicia', scenario '24 September 2026 · 01:40 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on scrim; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 10 minutes before scenario, fresh; clear starry sky matches 0% model cloud. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no prominent people, logos, or private property; public bay and town; IP documented only. G5: all gates pass."
     },
     {
       "entry_id": "ES-01-312",
