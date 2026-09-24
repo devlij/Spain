@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-353",
+  "country": "Spain",
+  "city": "Madrid",
+  "region": "Madrid",
+  "caption": "Temple of Debod, Madrid",
+  "revision": "r1",
+  "viewpoint": "Pond before the temple, facing the pylons (approx 40.4242N, 3.7178W)",
+  "anchors": [
+    "Illuminated ancient Egyptian temple after sundown",
+    "Warm light on stone pylons",
+    "Glow reflected in the adjacent pond"
+  ],
+  "limitations": "Night illumination of the temple is documented, but is not verified for this specific hour. Stone and reflection detail are interpretive. Camera point at the pond is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://ca.hotels.com/go/spain/temple-of-debod-madrid",
+      "Go Guides: 'the temple is illuminated after sundown to add a majestic and alluring atmosphere to the entire area'"
+    ],
+    [
+      "https://www.locationscout.net/spain/28645-templo-de-debod-madrid",
+      "LocationScout photo spot: 'In the evening, the Monuments and the park are illuminated.'"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 05:12 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Temple from the pond, lit stones reflected in the water · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Temple of Debod, Madrid, at night.",
+  "description": "At night the Temple of Debod glows in Parque del Oeste — the 2nd-century-BCE Egyptian temple illuminated after sundown, warm light on its pylons reflected in the pond before it. Gifted by Egypt in 1968 and rebuilt stone by stone, the oldest building in Madrid keeps its magic in the dark.",
+  "file_16x9": "es-01-353-r1-16x9.png",
+  "file_4x5": "es-01-353-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cdb14550e943bb965a6fd193a17094a2f8e4d789fb9ce23a68f033feb882fc80"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "52fb10b3842dd4db2d0ec9369e74b2cb652a8e05aa7058b2bb6553d32a1c3a13"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-353-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1922562,
+      "sha256": "cdb14550e943bb965a6fd193a17094a2f8e4d789fb9ce23a68f033feb882fc80",
+      "source_file": "media-generation-es-01-353-source-0-cbbd93ce-9fbe-49f5-a0c8-6043d368f41e.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Temple of Debod, Madrid",
+        "Scenario: 24 September 2026 · 05:12 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-353-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1000528,
+      "sha256": "52fb10b3842dd4db2d0ec9369e74b2cb652a8e05aa7058b2bb6553d32a1c3a13",
+      "source_file": "media-generation-es-01-353-source-0-cbbd93ce-9fbe-49f5-a0c8-6043d368f41e.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Temple of Debod, Madrid",
+        "Scenario: 24 September 2026 · 05:12 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Temple of Debod in Madrid, Spain, at night. The ancient Egyptian temple illuminated after sundown, warm light on the stone pylons, majestic glow reflected in the adjacent pond, landscaped park gardens dark around, night sky. Magical and alluring atmosphere. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-353-source-0-cbbd93ce-9fbe-49f5-a0c8-6043d368f41e.png",
+      "sha256": "1bf5b08bf4aaedc5f2340529e8b5c70a33e97b24fcc04c79d1707db47a32f52e",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
