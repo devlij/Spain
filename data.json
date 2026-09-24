@@ -1011,9 +1011,9 @@
       "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
       "composition": "Night · Roman theatre ruins below the Alcazaba walls · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Roman Theatre at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night Roman Theatre, Málaga: the crescent of floodlit cavea steps at the foot of the Alcazaba's ramparts, warm lampposts flanking the forecourt and the glass visitor pavilion to the right; on-image text verified: caption 'Roman Theatre, Málaga', scenario '24 September 2026 · 01:15 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:13:14+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; packet discloses the theatre is closed at night and the floodlit illumination is artistic interpretation, unverified (documented only — carried as packet limitation, not presented as verified state)."
     },
     {
       "entry_id": "ES-01-201",
