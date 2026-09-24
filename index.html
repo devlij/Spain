@@ -433,5 +433,59 @@
   });
 })();
 </script>
+<script>
+(function(){
+  var overlay=null, imgEl=null, capEl=null, countEl=null, items=[], idx=0;
+  function visibleCards(){
+    return Array.prototype.filter.call(document.querySelectorAll('article.card'), function(a){
+      return !a.hidden && a.style.display !== 'none' && a.offsetParent !== null;
+    });
+  }
+  function cardOf(anchor){ var a=anchor; while(a && a.tagName!=='ARTICLE') a=a.parentNode; return a; }
+  function caption(card){ var h=card && card.querySelector('h3'); return h ? h.textContent.trim() : ''; }
+  function srcOf(card){ var a=card && card.querySelector('a.master-link.thumb'); return a ? a.getAttribute('href') : ''; }
+  function build(){
+    overlay=document.createElement('div');
+    overlay.className='lb'; overlay.setAttribute('role','dialog'); overlay.setAttribute('aria-modal','true');
+    overlay.innerHTML='<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
+      +'<button type="button" class="lb-close" aria-label="Close">&times;</button>'
+      +'<button type="button" class="lb-prev" aria-label="Previous image">&lsaquo;</button>'
+      +'<button type="button" class="lb-next" aria-label="Next image">&rsaquo;</button>';
+    document.body.appendChild(overlay);
+    imgEl=overlay.querySelector('img'); capEl=overlay.querySelector('.lb-cap'); countEl=overlay.querySelector('.lb-count');
+    overlay.querySelector('.lb-close').addEventListener('click', close);
+    overlay.querySelector('.lb-prev').addEventListener('click', function(e){ e.stopPropagation(); step(-1); });
+    overlay.querySelector('.lb-next').addEventListener('click', function(e){ e.stopPropagation(); step(1); });
+    overlay.addEventListener('click', function(e){ if(e.target===overlay) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!overlay || overlay.style.display==='none') return;
+      if(e.key==='Escape') close();
+      else if(e.key==='ArrowLeft') step(-1);
+      else if(e.key==='ArrowRight') step(1);
+    });
+    overlay.style.display='none';
+  }
+  function show(i){
+    idx=(i+items.length)%items.length;
+    var card=items[idx];
+    imgEl.src=srcOf(card); imgEl.alt=caption(card);
+    capEl.textContent=caption(card);
+    countEl.textContent=(idx+1)+' / '+items.length;
+    overlay.style.display='flex';
+    document.body.style.overflow='hidden';
+  }
+  function step(d){ show(idx+d); }
+  function close(){ if(overlay){ overlay.style.display='none'; document.body.style.overflow=''; } }
+  build();
+  document.addEventListener('click', function(e){
+    var a=e.target.closest ? e.target.closest('a.master-link.thumb') : null;
+    if(!a) return;
+    e.preventDefault();
+    items=visibleCards();
+    var card=cardOf(a);
+    show(Math.max(0, items.indexOf(card)));
+  });
+})();
+</script>
 </body></html>
 
