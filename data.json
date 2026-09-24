@@ -1102,9 +1102,9 @@
       "scenario_label": "24 September 2026 · 01:17 Europe/Madrid",
       "composition": "Night · Whitewashed Moorish lanes at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Frigiliana at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Frigiliana recognizably depicted — narrow whitewashed Moorish-quarter alley with blue doors, decorative azulejo plaques, terracotta pots of geraniums and bougainvillea, lit wall lanterns, and the coastline's lights glittering through the gap between the buildings; plausible viewpoint within the old town; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Frigiliana, Málaga', scenario '24 September 2026 · 01:17 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:13:14 valid 01:17:29 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; specific street-lamp placement disclosed as artistic interpretation. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-208",
