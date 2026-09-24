@@ -1336,9 +1336,9 @@
       "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
       "composition": "Night · Lamplit medieval stairway climbing toward the cathedral silhouette · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Girona at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night Girona old town: the broad stone cathedral staircase rises between shuttered stone houses to the baroque west façade with its rose window, glowing vintage street lamps flanking the steps; on-image text verified: caption 'Old town, Girona', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; lamp-lit street detail interpretive per packet limitations (documented only)."
     },
     {
       "entry_id": "ES-01-244",
