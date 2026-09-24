@@ -2753,9 +2753,9 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · Square from its centre, arcaded façades and lamps under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Plaza del Castillo, Pamplona, at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 visual/location pass: recognizable Plaza del Castillo with central kiosk bandstand and modernist corner building, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents generation inputs, no photographic inputs reported. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers."
     },
     {
       "entry_id": "ES-01-231",
