@@ -1869,9 +1869,9 @@
       "scenario_label": "24 September 2026 · 01:16 Europe/Madrid",
       "composition": "Night · Centre-square view toward the Ayuntamiento pavilion under lantern light · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Salamanca at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders Plaza Mayor, Salamanca at night — the honey-toned Churrigueresque Ayuntamiento pavilion with its clock tower and flanking twin towers centered, Baroque arcaded facades wrapping the square on all four sides under warm floodlighting; clean symmetrical framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Plaza Mayor, Salamanca', scenario '24 September 2026 · 01:16 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh against the 01:16 scenario, no reuse. G3 originality: packet documents built-in text-only generation with zero photographic inputs and Lanczos resampling lineage. G4 IP: no prominent identifiable people, no logos, no artwork focal subject. G5: no open blockers; illumination honestly framed as reported-but-unverified for the hour."
     },
     {
       "entry_id": "ES-01-326",
