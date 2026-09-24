@@ -2831,9 +2831,9 @@
       "scenario_label": "24 September 2026 · 04:14 Europe/Madrid",
       "composition": "Night · Palace from the town, dark silhouette under moonlight and stars · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Royal Palace of Olite at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Royal Palace, Olite recognizably depicted — stone castle-like palace with towers, Gothic gallery and a few lit windows against night hills, plausible tourist viewpoint, clean framing, no artifacts; honestly shows the palace unlit per packet limitation. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-347",
