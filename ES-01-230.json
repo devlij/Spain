@@ -22,8 +22,8 @@
       "Spain.info — Puerta del Socorro with horseshoe arch and impost, Niebla's wall gates"
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · medieval walled town ramparts and gate at night · AI-generated artistic interpretation",
@@ -152,5 +152,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Gate 1 visual/location pass: recognizable crenellated Walls of Niebla with gate towers and whitewashed town behind, plausible viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents text-only generation, no photographic inputs. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers."
 }
