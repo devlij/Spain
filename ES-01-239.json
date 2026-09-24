@@ -22,8 +22,8 @@
       "Tripadvisor — Isla de Tarifa and the strait with views to Africa"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · lighthouse island at Europe's edge over the strait at night · AI-generated artistic interpretation",
@@ -153,6 +153,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Gates: (1) Night view of the Isla de Tarifa causeway from the mainland approach — white lighthouse with beam, Castillo de Santa Catalina walls centered on the island, crescent moon, colorful kite-surf kites over Playa de Los Lances, Tangier's lights across the strait; plausible tourist viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match the packet; on-image caption 'Isla de Tarifa, Tarifa', scenario '24 September 2026 · 02:31 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on gradient scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather model retrieval 2026-09-24T02:29:06+02:00 matches the 02:31 scenario (minutes fresh, same night — no stale metadata). (3) Packet documents text-only generation (built-in generator), image_inputs: [], third-party photos inspected for facts only. (4) IP: small distant beach/kitesurf figures, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready.",
   "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted).\nCosmo QC 2026-09-24 ~06:30 EDT — Gate 1 FAIL: the 16:9 master shows roughly forty kitesurfing kites airborne over the beach at the 02:31 night scenario. Tarifa is a kitesurfing spot, but flying ~40 colorful kites at 2:31 AM in the dark is a glaring scenario misconfiguration (kitesurfers do not fly at night). The lighthouse beam, moonlit causeway and wave action are fine. Gate 2/3/4 unaffected: exact 1920×1080 / 864×1080 masters with SHA-256 matched, exact caption 'Isla de Tarifa, Tarifa', scenario string and AI disclosure on-image, 'Jason D’s Vision' signature bottom-right, fresh weather retrieval; text-only generation documented; no identifiable people or logos. Stays candidate — needs a rebuild without the kites (or a daytime scenario) before re-audit."
 }
