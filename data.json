@@ -1804,9 +1804,9 @@
       "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
       "composition": "Night · Sandstone cliffs above the dark valley · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Tavertet cliffs, Tavertet at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: the 16:9 master shows the Tavertet cliffs (Cingles de Tavertet) as a massive moonlit sandstone escarpment, the tiny white Sant Pere chapel glowing on the ridge, mist and moon-glow over the reservoir below — the classic Tavertet cliff-edge night view. Gate 2: masters 1920×1080/864×1080 with SHA-256 matching the packet; on-image caption 'Tavertet cliffs, Tavertet', scenario '24 September 2026 · 01:35 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left; 'Jason D's Vision' with curly apostrophe bottom-right; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00, valid 01:30, consistent with the 01:35 scenario. Gate 3: provenance documents text-only original generation, image_inputs empty, no photographic inputs. Gate 4: no visible people, logos, or recognizable private property. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-280",
