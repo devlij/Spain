@@ -22,8 +22,8 @@
       "Tripadvisor — Paseo de Antonio Machado, Baeza's old wall promenade"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Renaissance cathedral over olive groves at night · AI-generated artistic interpretation",
@@ -153,6 +153,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Gate 1: Baeza's lamp-lit wall walkway (Paseo de Antonio Machado) leading toward the twin-tower Renaissance church above the walls, olive groves rolling to the moonlit mountains beyond, crescent moon upper right — recognizably Baeza's wall-side night scene with the Machado promenade character; church tower count is interpretive per packet disclosure; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Paseo de Antonio Machado, Baeza', scenario '24 September 2026 · 02:31 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 02:29:06 valid 02:31:18 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted)."
 }
