@@ -1,0 +1,151 @@
+{
+  "entry_id": "ES-01-083",
+  "country": "Spain",
+  "city": "Cangas de Onís",
+  "region": "Asturias",
+  "caption": "Roman Bridge, Cangas de Onís",
+  "revision": "r1",
+  "viewpoint": "the Sella riverbank, looking at the bridge with the Picos behind",
+  "anchors": [
+    "the medieval Roman bridge with its great central arch over the Sella",
+    "the traditional Victory Cross hanging from the bridge's great arch",
+    "the Picos de Europa rising behind the river valley"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. The bridge is medieval despite its name; the hanging cross is the traditional replica. CORRECTION 2026-09-24: spec previously mentioned an invented \"chapel of Santa Cruz on the bridge's hump\" — removed; anchor revised to the hanging Victory Cross per current-state honesty.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cangas_de_On%C3%ADs",
+      "Wikipedia — Cangas de Onís and its bridge"
+    ],
+    [
+      "https://www.turismoasturias.es",
+      "Official Asturias tourism portal — verify the Cangas de Onís listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:20 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the bridge over the Sella · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Roman Bridge, Cangas de Onís at night.",
+  "description": "The 'Roman' bridge of Cangas de Onís — medieval, with the Victory Cross hanging from its great arch — spans the Sella with the Picos behind. A clear night over the town. It is the emblem of Asturias, first capital of the Christian kingdom.",
+  "file_16x9": "es-01-083-r1-16x9.png",
+  "file_4x5": "es-01-083-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4f65e55b8d4b1d954d0c7912308d8ad6a7925733392c73e25a26aaf03e9851dd"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "1c22fe62d1f9e71c3cbb479cf6763bfc8f68fe2fa83cbe64af79c150190b92af"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-083-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2817906,
+      "sha256": "4f65e55b8d4b1d954d0c7912308d8ad6a7925733392c73e25a26aaf03e9851dd",
+      "source_file": "es-01-083-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roman Bridge, Cangas de Onís",
+        "Scenario: 24 September 2026 · 04:20 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-083-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1324979,
+      "sha256": "1c22fe62d1f9e71c3cbb479cf6763bfc8f68fe2fa83cbe64af79c150190b92af",
+      "source_file": "es-01-083-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Roman Bridge, Cangas de Onís",
+        "Scenario: 24 September 2026 · 04:20 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:20:31.851783+02:00",
+    "valid": "2026-09-24T04:15 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:20:31.851783+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Roman Bridge of Cangas de Onís, Asturias, Spain. Tourist viewpoint: the Sella riverbank, looking at the bridge with the Picos behind. Frame: the medieval bridge with its great central arch over the Sella; the traditional Victory Cross hanging from the bridge's great arch; the Picos de Europa rising behind the river valley. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "es-01-083-r1.png",
+      "sha256": "5b7bcc3e1eca49d6c006dd9a41c4ec7302495537b3cf2a6025b56738e6e1ec79",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
