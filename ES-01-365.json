@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-365",
+  "country": "Spain",
+  "city": "Teruel",
+  "region": "Aragon",
+  "caption": "San Martín Tower, Teruel",
+  "revision": "r1",
+  "viewpoint": "Cobbled street before the Torre de San Martín (approx 40.3418N, 1.1072W)",
+  "anchors": [
+    "Mudejar brick tower well lit at night",
+    "White and green ceramic tile patterns",
+    "Vaulted doorway at the tower's base"
+  ],
+  "limitations": "The tower's night lighting is documented in a visitor review, but is not verified for this specific hour. Tower and street detail are interpretive. Camera point before the tower is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Mud%C3%A9jar_architecture_of_Aragon",
+      "Wikipedia: Mudéjar architecture of Aragon — UNESCO World Heritage 1986, extended 2001; four Mudejar towers in Teruel"
+    ],
+    [
+      "https://www.tripadvisor.co.nz/ShowUserReviews-g580279-d2334354-r861624014-Torre_de_San_Martin-Teruel_Province_of_Teruel_Aragon.html",
+      "Tripadvisor: Torre de San Martín review — 'Safe and well lit to walk around a photograph at night'"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 06:48 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Torre de San Martín from the cobbled street, lit tower and dark old town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Torre de San Martín, Teruel, at night.",
+  "description": "At night the Torre de San Martín glows — Teruel's Mudejar brick tower lit up, its white and green ceramic patterns shining, the vaulted doorway at its base opening onto the cobbled street. One of the UNESCO-listed Mudejar towers of Aragon, the smallest provincial capital keeps its medieval brickwork bright after dark.",
+  "file_16x9": "es-01-365-r1-16x9.png",
+  "file_4x5": "es-01-365-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bec26d45180545800e95438d07cbdc9cc43e3d80b318c4c499b139026e2795cc"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "4189d095b3e790ddc4a2471827e6a65a3a5f422db5c661d47bea5e49d81a0c61"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-365-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2694052,
+      "sha256": "bec26d45180545800e95438d07cbdc9cc43e3d80b318c4c499b139026e2795cc",
+      "source_file": "media-generation-es-01-365-source-0-a9b42a36-ed32-4370-8166-2a127ec1cdd9.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "San Martín Tower, Teruel",
+        "Scenario: 24 September 2026 · 06:48 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-365-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1473654,
+      "sha256": "4189d095b3e790ddc4a2471827e6a65a3a5f422db5c661d47bea5e49d81a0c61",
+      "source_file": "media-generation-es-01-365-source-0-a9b42a36-ed32-4370-8166-2a127ec1cdd9.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "San Martín Tower, Teruel",
+        "Scenario: 24 September 2026 · 06:48 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Torre de San Martín in Teruel, Aragon, Spain, at night. The Mudejar brick tower well lit at night, its white and green ceramic tile patterns glowing, the vaulted doorway at its base, the UNESCO-listed Mudejar towers of Teruel, warm streetlamps on the cobbled street, the old town of Teruel quiet around. No identifiable people. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-365-source-0-a9b42a36-ed32-4370-8166-2a127ec1cdd9.png",
+      "sha256": "535df9a0f2995dcbfa4a7789dc3db55e61f6e978eb904edbce0b8f1425110a92",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
