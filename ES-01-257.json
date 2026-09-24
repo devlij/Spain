@@ -22,8 +22,8 @@
       "Ebro Delta natural park guide (lagoons, birdwatching, beaches)"
     ]
   ],
-  "status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_state": "approved",
+  "status": "Awaiting Cosmo QC · Night",
+  "approval_state": "candidate",
   "scenario_label": "24 September 2026 · 01:19 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Still lagoons and reedbeds under a starry sky · AI-generated artistic interpretation",
@@ -154,5 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte, provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
+  "approval_basis": "",
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
 }
