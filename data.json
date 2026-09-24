@@ -2935,9 +2935,9 @@
       "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
       "composition": "Night · lighthouse island at Europe's edge over the strait at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Isla de Tarifa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gates: (1) Night view of the Isla de Tarifa causeway from the mainland approach — white lighthouse with beam, Castillo de Santa Catalina walls centered on the island, crescent moon, colorful kite-surf kites over Playa de Los Lances, Tangier's lights across the strait; plausible tourist viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match the packet; on-image caption 'Isla de Tarifa, Tarifa', scenario '24 September 2026 · 02:31 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on gradient scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather model retrieval 2026-09-24T02:29:06+02:00 matches the 02:31 scenario (minutes fresh, same night — no stale metadata). (3) Packet documents text-only generation (built-in generator), image_inputs: [], third-party photos inspected for facts only. (4) IP: small distant beach/kitesurf figures, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready."
     },
     {
       "entry_id": "ES-01-240",
