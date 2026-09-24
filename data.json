@@ -2207,9 +2207,9 @@
       "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
       "composition": "Night · From the Mirador de la Peña terrace, looking over the El Golfo valley toward the Atlantic near 27.8104,-17.9122. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Mirador de la Peña, El Hierro at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders the view from the Mirador de la Peña — the mirador's dark volcanic-stone side walls and crenellated terrace framing the great amphitheatre of the El Golfo valley dropping away under heavy overcast cloud at night, a faint scatter of valley lights below and the Atlantic a barely-there line beyond the cliff edge; clean framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Mirador de la Peña, El Hierro', scenario '24 September 2026 · 01:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:24 scenario, no reuse; overcast model sky matches the packet's 97% cloud. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; illumination claims honestly kept minimal."
     },
     {
       "entry_id": "ES-01-293",
