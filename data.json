@@ -1973,9 +1973,9 @@
       "scenario_label": "24 September 2026 · 02:30 Europe/Madrid",
       "composition": "Night · Roman mine landscape from the Mirador de Orellán, dark silhouettes under stars · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Las Médulas at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Las Médulas' signature red eroded mine pinnacles and gullies rise from dark chestnut woods under a starry night sky — the Roman gold-mine landforms are distinctive and honest (no floodlighting claimed); viewpoint from Mirador de Orellán plausible; clean framing, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Las Médulas', scenario '24 September 2026 · 02:30 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: pure natural landscape, nothing to document. G5: no blockers."
     },
     {
       "entry_id": "ES-01-334",
