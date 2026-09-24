@@ -2896,9 +2896,9 @@
       "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
       "composition": "Night · Renaissance plaza and plateresque chapel at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza Vázquez de Molina at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Sacra Capilla del Salvador in Úbeda's Plaza Vázquez de Molina with its ornate Plateresque carved facade, corner towers and domed bell tower, flanked by the Palacio de las Cadenas and palace facades, crescent moon and stars — recognizably Úbeda's signature plaza at night; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Plaza Vázquez de Molina, Úbeda', scenario '24 September 2026 · 02:31 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 02:29:06 valid 02:31:18 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-237",
