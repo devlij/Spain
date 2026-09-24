@@ -1856,9 +1856,9 @@
       "scenario_label": "24 September 2026 · 01:36 Europe/Madrid",
       "composition": "Night · Pink lagoon veiled in night mist · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Laguna Salada de Torrevieja, Torrevieja at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 PASS: pink salt lagoon at night under mist — salt-harvester conveyor silhouettes mid-frame, town lights glowing through fog on the horizon, white salt crusts in the foreground shallows; recognizably Laguna Salada de Torrevieja from a plausible shoreline viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'Laguna Salada de Torrevieja, Torrevieja' exact; scenario '24 September 2026 · 01:36 Europe/Madrid' matches packet; weather retrieved 01:12:51+02:00 valid 01:30 covers the scenario hour — fresh, and the packet's fog (weather_code 45) is honestly depicted as night mist; signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people or logos visible; industrial salt works in the distance. Gate 5: no open blockers. Modelled night scenario, not a verified capture."
     },
     {
       "entry_id": "ES-01-325",
