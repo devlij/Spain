@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-231",
+  "country": "Spain",
+  "city": "Huelva",
+  "region": "Andalusia",
+  "caption": "Monumento a Colón, Huelva",
+  "revision": "r1",
+  "viewpoint": "the riverside path at Punta del Sebo, facing the 37 m statue at the Tinto-Odiel confluence",
+  "anchors": [
+    "the 37 m cubist Monumento a Colón by Gertrudis Vanderbilt Whitney, 1929, a gift from the people of the United States",
+    "the meeting of the Tinto and Odiel rivers before the sea",
+    "the dark marshlands and distant port lights across the estuary"
+  ],
+  "limitations": "Text-only generation; no photographic input. The monument's night-time lighting is restrained and interpretive, not verified against a current schedule. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.tripadvisor.in/Attraction_Review-g187442-d5111712-Reviews-Monumento_a_Colon-Huelva_Province_of_Huelva_Andalucia.html",
+      "Tripadvisor — 37 m statue at Punta del Sebo since 1929, gift from the United States, cubist design by Gertrude Vanderbilt Whitney, where the Tinto and Odiel meet the sea"
+    ],
+    [
+      "https://www.wildtrips.net/visit/Huelva-Spain-top-10-attractions-to-visit.htm",
+      "WildTrips — Huelva top attractions, Monumento a Colón among the city's landmarks"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · colossal cubist Columbus monument at the river confluence at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Monumento a Colón at night.",
+  "description": "From the riverside path at Punta del Sebo, the colossal 37 m Monumento a Colón rises where the Tinto and Odiel rivers meet the sea — Gertrudis Vanderbilt Whitney's cubist figure resting on the cross, a 1929 gift from the people of the United States. The estuary stretches dark to either side, with port lights across the water. On a clear 22°C night, Huelva's symbol of the faith that led Columbus west stands at the edge of two rivers.",
+  "file_16x9": "es-01-231-r1-16x9.png",
+  "file_4x5": "es-01-231-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "35fecde01518437654e980f84b63c57f3200f0d715b18901d7b084bff7700673"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7869338f553855c3f2078bdb686fd0a0c94aee73da58447fa81cd0497b56f54a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-231-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1981179,
+      "sha256": "35fecde01518437654e980f84b63c57f3200f0d715b18901d7b084bff7700673",
+      "source_file": "media-generation-es-01-231-source-0-8bab3e49-7bcf-4427-8f25-8b8692e8d428.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Monumento a Colón, Huelva",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-231-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1054111,
+      "sha256": "7869338f553855c3f2078bdb686fd0a0c94aee73da58447fa81cd0497b56f54a",
+      "source_file": "media-generation-es-01-231-source-0-8bab3e49-7bcf-4427-8f25-8b8692e8d428.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Monumento a Colón, Huelva",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:55:25+02:00",
+    "valid": "2026-09-24T01:57:51+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 22.3,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 1.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:55:25+02:00, valid 2026-09-24T01:57:51+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Monumento a Colón, Huelva, Spain, at night. Tourist viewpoint: the riverside path at Punta del Sebo, facing the 37 m statue at the Tinto-Odiel confluence. Frame: the tall cubist figure of the monument with cloak and cross centered; the dark meeting of the Tinto and Odiel rivers stretching to either side; dark marshlands and distant port lights across the estuary. Night light: restrained moonlight and the monument's own site lighting, starry clear sky, river reflections, 22 degrees C, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-231-source-0-8bab3e49-7bcf-4427-8f25-8b8692e8d428.png",
+      "sha256": "bf7f4204678f160a67bb4b0aee511ccf8e9502860ea422982a25023312692632",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
