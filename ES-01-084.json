@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-084",
+  "country": "Spain",
+  "city": "Llanes",
+  "region": "Asturias",
+  "caption": "Old town, Llanes",
+  "revision": "r1",
+  "viewpoint": "the port waterfront, looking up at the walled town",
+  "anchors": [
+    "Llanes's old town with its medieval walls",
+    "the port and the Paseo de San Pedro",
+    "the Cubos de la Memoria on the breakwater"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Llanes",
+      "Wikipedia — Llanes, Asturias"
+    ],
+    [
+      "https://www.turismoasturias.es",
+      "Official Asturias tourism portal — verify the Llanes listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 03:57 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the walled port town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Llanes at night.",
+  "description": "Llanes keeps its walled old town over the port — medieval towers, the Paseo de San Pedro on the cliff, the painted Cubos de la Memoria. A partly cloudy night with light winds over the port. The Picos de Europa rise behind the town.",
+  "file_16x9": "es-01-084-r1-16x9.png",
+  "file_4x5": "es-01-084-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fc1e4dc96cf349c5eeabcf4cbabd766750c48245d08f1656e26dedafd4c4a35e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "173f10fcd1e7d808bb21a19611ce902714a6feccfaa24a97d12d81605207da02"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-084-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2802038,
+      "sha256": "fc1e4dc96cf349c5eeabcf4cbabd766750c48245d08f1656e26dedafd4c4a35e",
+      "source_file": "media-generation-es-01-084-source-0-3bc75887-f661-4068-bbb7-f3139a1cc504.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Llanes",
+        "Scenario: 24 September 2026 · 03:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-084-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1376058,
+      "sha256": "173f10fcd1e7d808bb21a19611ce902714a6feccfaa24a97d12d81605207da02",
+      "source_file": "media-generation-es-01-084-source-0-3bc75887-f661-4068-bbb7-f3139a1cc504.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Llanes",
+        "Scenario: 24 September 2026 · 03:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T03:57:37+02:00",
+    "valid": "2026-09-24T03:45+02:00",
+    "temperature_2m_c": 15.9,
+    "weather_code": 2,
+    "cloud_cover_pct": 71,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 1.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T03:57+02:00, valid 2026-09-24T03:45 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Llanes, Asturias, Spain. Tourist viewpoint: the port waterfront, looking up at the walled town. Frame: Llanes's old town with its medieval walls; the port and the cliff promenade; the old town over the harbor. Light and weather: partly cloudy night, light winds; at night, the port glowing with the cliffs dark. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-084-source-0-3bc75887-f661-4068-bbb7-f3139a1cc504.png",
+      "sha256": "a7a465d24de5849d63e110e7223c084c84c2b705b50c3f9b4b0236c840d07438",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

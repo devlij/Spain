@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-090",
+  "country": "Spain",
+  "city": "Pontevedra",
+  "region": "Galicia",
+  "caption": "Old town, Pontevedra",
+  "revision": "r1",
+  "viewpoint": "a plaza in the old town, looking toward the church of La Peregrina",
+  "anchors": [
+    "Pontevedra's car-free old town of granite houses and arcades",
+    "the church of La Peregrina with its scallop-shell plan",
+    "the Plaza de la Leña with its stone cross"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Pontevedra",
+      "Wikipedia — Pontevedra, historic city in Galicia"
+    ],
+    [
+      "https://www.turismo.gal",
+      "Official Galicia tourism portal — verify the Pontevedra listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:03 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the granite old town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Pontevedra at night.",
+  "description": "Pontevedra's old town is one of Galicia's best-preserved — a car-free maze of granite houses, arcades, and plazas around the scallop-shaped church of La Peregrina. A clear night with light air over the granite lanes. The Camino Portugués passes through its streets.",
+  "file_16x9": "es-01-090-r1-16x9.png",
+  "file_4x5": "es-01-090-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b4d1af102f222cbc3f5376403edb06d270ed62403981c1176be94d5590f723ef"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "685c1e4a4cb66501e4b1d7267807f4ba3c2a99e137a26e5951283e64f65bb532"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-090-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2210607,
+      "sha256": "b4d1af102f222cbc3f5376403edb06d270ed62403981c1176be94d5590f723ef",
+      "source_file": "media-generation-es-01-090-source-0-6c1f14bf-8cbf-44b6-a4b6-010609c4b9ca.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Pontevedra",
+        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-090-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1206584,
+      "sha256": "685c1e4a4cb66501e4b1d7267807f4ba3c2a99e137a26e5951283e64f65bb532",
+      "source_file": "media-generation-es-01-090-source-0-6c1f14bf-8cbf-44b6-a4b6-010609c4b9ca.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Pontevedra",
+        "Scenario: 24 September 2026 · 04:03 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:03:57+02:00",
+    "valid": "2026-09-24T04:00+02:00",
+    "temperature_2m_c": 15.9,
+    "weather_code": 0,
+    "cloud_cover_pct": 0,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 3.9
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:03+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Pontevedra, Galicia, Spain AT NIGHT. Tourist viewpoint: a plaza in the old town, looking toward the church of La Peregrina. Frame: Pontevedra's car-free old town of granite houses and arcades; the church of La Peregrina with its scallop-shell plan; a stone plaza with its cruceiro cross. Light and weather: clear night, light air; warm street lighting in the car-free lanes, the church softly lit. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-090-source-0-6c1f14bf-8cbf-44b6-a4b6-010609c4b9ca.png",
+      "sha256": "61e5f2d2f326294cec5faccd3c1d8b073d724a42f725d5342b943779cdbfb8a8",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

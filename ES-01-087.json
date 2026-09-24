@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-087",
+  "country": "Spain",
+  "city": "Mondoñedo",
+  "region": "Galicia",
+  "caption": "Old town, Mondoñedo",
+  "revision": "r1",
+  "viewpoint": "the old town square, looking at the cathedral",
+  "anchors": [
+    "Mondoñedo's cathedral in its old town",
+    "the historic center of the ancient kingdom",
+    "the Galician hills around the town"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Mondo%C3%B1edo",
+      "Wikipedia — Mondoñedo, historic Galician city"
+    ],
+    [
+      "https://www.turismo.gal",
+      "Official Galicia tourism portal — verify the Mondoñedo listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the cathedral town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town, Mondoñedo at night.",
+  "description": "Mondoñedo keeps its cathedral and the old town of the ancient Galician kingdom — stone lanes, the episcopal palace, the hills around. A clear night with light winds over the hills. Álvaro Cunqueiro's town keeps its literary air.",
+  "file_16x9": "es-01-087-r1-16x9.png",
+  "file_4x5": "es-01-087-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6e38131d2e88f96eb1cafcd789a3350f31186f96a4383dbe66c3ec91e4d10741"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "3ca194183e6ca3b6b301d89081b5a9f52887f7e5b841291513d88b79bedbd946"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-087-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2495944,
+      "sha256": "6e38131d2e88f96eb1cafcd789a3350f31186f96a4383dbe66c3ec91e4d10741",
+      "source_file": "media-generation-es-01-087-source-0-0a147bce-d638-4872-8283-0d60ad4a2dae.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Mondoñedo",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-087-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1182235,
+      "sha256": "3ca194183e6ca3b6b301d89081b5a9f52887f7e5b841291513d88b79bedbd946",
+      "source_file": "media-generation-es-01-087-source-0-0a147bce-d638-4872-8283-0d60ad4a2dae.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, Mondoñedo",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:01:08+02:00",
+    "valid": "2026-09-24T04:00+02:00",
+    "temperature_2m_c": 15.4,
+    "weather_code": 0,
+    "cloud_cover_pct": 4,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 7.4
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:01+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Mondoñedo, Galicia, Spain AT NIGHT. Tourist viewpoint: the old town square, looking at the cathedral. Frame: Mondoñedo's cathedral in its old town; the historic center of the ancient kingdom; the Galician hills around the town. Light and weather: clear night, light winds; the cathedral softly lit in warm street lighting with the old town glowing, hills dark. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-087-source-0-0a147bce-d638-4872-8283-0d60ad4a2dae.png",
+      "sha256": "70a169ef346078f6a6e24d76780c73198aaf4b76ce6133973619a4bb423aef85",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
