@@ -1687,9 +1687,9 @@
       "scenario_label": "24 September 2026 · 01:30 Europe/Madrid",
       "composition": "Night · Castle fortress on the headland above the dark sea · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Peníscola Castle, Peníscola at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gates: (1) Peníscola's Templar castle-fortress rising centered on the rocky headland, lamp-lit stone walls and tower against a starry sky, the old town climbing the slope below, town lights reflected in the Mediterranean foreground; recognizable Papa Luna fortress, plausible beach viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match; on-image caption 'Peníscola Castle, Peníscola', scenario '24 September 2026 · 01:30 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather retrieval 2026-09-24T01:12:51+02:00 for the 01:30 scenario — same night, consistent batch retrieval. (3) Packet documents text-only generation, image_inputs: [], third-party photos inspected for facts only. (4) IP: no people, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready."
     },
     {
       "entry_id": "ES-01-271",
