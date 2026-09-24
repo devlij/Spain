@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-229",
+  "country": "Spain",
+  "city": "Cazorla",
+  "region": "Andalusia",
+  "caption": "Plaza Santa María, Cazorla",
+  "revision": "r1",
+  "viewpoint": "the Plaza Santa María at night, facing the ruined church and La Yedra tower above",
+  "anchors": [
+    "the ruins of the old Santa María church, now an open-air venue",
+    "the austere reconstructed Moorish tower of La Yedra rising above the square",
+    "the Cerezuelo river vaults beneath the square, hinted by the old stonework"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night-time lighting of the ruins is restrained and interpretive, not verified. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Cazorla,_Andalusia",
+      "Cazorla — Plaza Santa María, oldest square; ruined old cathedral; La Yedra tower above; 836 m on the Sierra slope"
+    ],
+    [
+      "https://www.airial.travel/attractions/spain/cazorla/yedra-castle-cazorla-40_klffV",
+      "La Yedra castle — free attraction, praised panoramic views over Cazorla and the countryside"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:57 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · ruined old church and Moorish tower over the town's oldest square at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Plaza Santa María at night.",
+  "description": "From the oldest square in Cazorla, the ruins of the old Santa María church rise before the visitor — unfinished, flood-damaged and burnt by French troops, now an open-air venue under the stars. Above the square, the austere Moorish tower of La Yedra keeps its watch at 836 m on the Sierra slope. On a clear 18°C mountain night, the stone of the old town glows faintly under moonlight and the village lamps.",
+  "file_16x9": "es-01-229-r1-16x9.png",
+  "file_4x5": "es-01-229-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1af3078ac4f44f2847008e779494f2cc4622420f45c58d3c018c7bc80076e83c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "3639ea5ee2c4d82a1ad3385a3b2a47dd65ea01314ae84b06eed442281cb3b0cb"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-229-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2879417,
+      "sha256": "1af3078ac4f44f2847008e779494f2cc4622420f45c58d3c018c7bc80076e83c",
+      "source_file": "media-generation-es-01-229-source-0-aaa516e7-da82-4af9-9824-732d308ce831.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Santa María, Cazorla",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-229-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1381114,
+      "sha256": "3639ea5ee2c4d82a1ad3385a3b2a47dd65ea01314ae84b06eed442281cb3b0cb",
+      "source_file": "media-generation-es-01-229-source-0-aaa516e7-da82-4af9-9824-732d308ce831.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Santa María, Cazorla",
+        "Scenario: 24 September 2026 · 01:57 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T01:55:25+02:00",
+    "valid": "2026-09-24T01:57:51+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 17.5,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:55:25+02:00, valid 2026-09-24T01:57:51+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Plaza Santa María, Cazorla, Jaén, Spain, at night. Tourist viewpoint: the old square, facing the ruined church with La Yedra tower above. Frame: the ruins of the old Santa María church with its open arches centered; the austere reconstructed Moorish tower of La Yedra rising above and behind the square; old stone houses of the historic quarter framing the view. Night light: moonlight and restrained square lighting on the ruined church stone, tower a dark silhouette, starry clear sky, 18 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-229-source-0-aaa516e7-da82-4af9-9824-732d308ce831.png",
+      "sha256": "ebf71074d20b565c11ebab749216a183d2cd1b327d799ed09e082af6d3d0e1fa",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
