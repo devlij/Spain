@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-345",
+  "country": "Spain",
+  "city": "Pamplona",
+  "region": "Navarre",
+  "caption": "Plaza del Castillo, Pamplona",
+  "revision": "r1",
+  "viewpoint": "Plaza del Castillo, facing Café Iruña (approx 42.8181N, 1.6447W)",
+  "anchors": [
+    "Arcaded buildings around the Plaza del Castillo",
+    "Café Iruña's belle époque façade",
+    "Trees and street lamps of the square"
+  ],
+  "limitations": "Night lighting of the square is supported by traveller reports, but is not verified for this specific hour. Building and café detail are interpretive. Camera point is a conventional plaza viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://airial.travel/attractions/spain/castillo-caleta-de-fuste/plaza-del-castillo-pamplona-TNDAEg9y",
+      "Airial travel guide: Plaza del Castillo — evenings atmospheric with lights"
+    ],
+    [
+      "https://www.tripadvisor.co.nz/Attraction_Review-g187520-d2701458-Reviews-Ayuntamiento_de_Pamplona-Pamplona_Navarra.html",
+      "Tripadvisor review: Pamplona city hall 'very well lit, beautiful both day and night' (old-town illumination)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Square from its centre, arcaded façades and lamps under a starry sky · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Plaza del Castillo, Pamplona, at night.",
+  "description": "At night the Plaza del Castillo glows warm at the heart of Pamplona's old town — the arcaded buildings around the square lit, the belle époque façade of Café Iruña where Hemingway lingered, the plane trees and street lamps casting pools of light across the stones. Travellers note the square's evening light as one of its charms. Beyond it, the old city of Navarrería keeps its medieval quarters, and the citadel walls stand dark.",
+  "file_16x9": "es-01-345-r1-16x9.png",
+  "file_4x5": "es-01-345-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "60950d70f47d5028a4dd73b2ca92b74ca5f75c5519e21c091055adedcc578989"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "da3496c743dd700f2e45b6fb472961c98b3fa3b81f179d1bab393508cc30029a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-345-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2831593,
+      "sha256": "60950d70f47d5028a4dd73b2ca92b74ca5f75c5519e21c091055adedcc578989",
+      "source_file": "media-generation-es-01-345-source-0-508f7a0d-70fd-433a-8392-6ec354e3d7cb.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza del Castillo, Pamplona",
+        "Scenario: 24 September 2026 · 04:06 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-345-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1426687,
+      "sha256": "da3496c743dd700f2e45b6fb472961c98b3fa3b81f179d1bab393508cc30029a",
+      "source_file": "media-generation-es-01-345-source-0-508f7a0d-70fd-433a-8392-6ec354e3d7cb.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza del Castillo, Pamplona",
+        "Scenario: 24 September 2026 · 04:06 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Plaza del Castillo in Pamplona, Spain, at night. The old town's main square warmly lit at night: elegant arcaded buildings around the square glow, Café Iruña's belle époque façade, trees in the square, street lamps casting warm pools of light. Dark starry sky above the roofs. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-345-source-0-508f7a0d-70fd-433a-8392-6ec354e3d7cb.png",
+      "sha256": "122b5e6d4cb778e29ffc2cd4a700f3f832771a89688dbe62cf122490058c1516",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
