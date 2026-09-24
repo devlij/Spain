@@ -4,14 +4,14 @@
   "city": "Cartagena",
   "region": "Murcia",
   "caption": "Calblanque, Cartagena",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the headland path, looking down at the coves",
   "anchors": [
     "the wild beaches of Calblanque in their protected park",
     "golden sand coves between dark headlands",
     "the crystalline water and dunes behind the beach"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Calblanque_Regional_Park",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:28 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:28 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the cove beaches · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Calblanque at night.",
-  "description": "Calblanque keeps some of the Mediterranean's last wild beaches — golden coves between dark headlands in a protected park near Cartagena. A partly cloudy night, light breeze over Calblanque. No buildings, no promenades — just sand, rock, and crystalline water.",
-  "file_16x9": "es-01-154-r1-16x9.png",
-  "file_4x5": "es-01-154-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Calblanque, Cartagena at night.",
+  "description": "Calblanque keeps some of the Mediterranean's last wild beaches — golden coves between dark headlands in a protected park near Cartagena. A partly cloudy night over the shore, light breeze. No buildings, no promenades — just sand, rock, and crystalline water.",
+  "file_16x9": "es-01-154-r2-16x9.png",
+  "file_4x5": "es-01-154-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "fe377d5b8c9bcaf7a1f408b0c866dfa2c4f889499462cf94455432f4704ed505"
+      "sha256": "1addf2ba0cda1b2ae7b96df75d38838299ab28bdbabd6ae9b63f24b3bd20681a"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "b8d8a944f0415abf2734cd23d05dbae20ef756743da0284ebaf9c05e8b50b6e2"
+      "sha256": "f55e90004c0d119366947013b4d9757e4f3c80d8d3e546b6154ffea59f07ae14"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-154-r1-16x9.png",
+      "file": "es-01-154-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 3043362,
-      "sha256": "fe377d5b8c9bcaf7a1f408b0c866dfa2c4f889499462cf94455432f4704ed505",
-      "source_file": "media-generation-es-01-154-source-0-89243542-12c8-4eea-bcc4-a5be93c3c4d7.png",
+      "byte_length": 3153355,
+      "sha256": "1addf2ba0cda1b2ae7b96df75d38838299ab28bdbabd6ae9b63f24b3bd20681a",
+      "source_file": "media-generation-es-01-154-r2-source-0-ae1bef1d-d4f2-4dab-b842-d3a81ef4aefd.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Calblanque, Cartagena",
-        "Scenario: 24 September 2026 · 04:28 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-154-r1-4x5.png",
+      "file": "es-01-154-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1610946,
-      "sha256": "b8d8a944f0415abf2734cd23d05dbae20ef756743da0284ebaf9c05e8b50b6e2",
-      "source_file": "media-generation-es-01-154-source-0-89243542-12c8-4eea-bcc4-a5be93c3c4d7.png",
+      "byte_length": 1585538,
+      "sha256": "f55e90004c0d119366947013b4d9757e4f3c80d8d3e546b6154ffea59f07ae14",
+      "source_file": "media-generation-es-01-154-r2-source-0-ae1bef1d-d4f2-4dab-b842-d3a81ef4aefd.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Calblanque, Cartagena",
-        "Scenario: 24 September 2026 · 04:28 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:27:21+02:00",
-    "valid": "2026-09-24T04:15 Europe/Madrid",
-    "phrase": "partly cloudy night, light breeze",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:28:46+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A partly cloudy night over the shore, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "22.3",
+    "weather_code": "2",
+    "cloud_cover": "60",
+    "wind_speed_10m": "6.7"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:27:21+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:28:46+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Calblanque beach near Cartagena, Murcia, Spain. Tourist viewpoint: the headland path, looking down at the coves. Frame: the wild beaches of Calblanque in their protected park; golden sand coves between dark headlands; the crystalline water and dunes behind the beach. Light and weather: partly cloudy night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the Calblanque natural park shore, Cartagena, Region of Murcia, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the Playa Larga strand, looking along the shore — a moonlit natural shore of sand and dunes, the Mediterranean dark under a star-filled sky. CRITICAL LIGHTING RULE: moonlight ONLY — NO invented lighting, NO lamps, NO glowing objects, NO buildings or lit elements of any kind. Deep night: pitch-dark star-filled sky, moonlight silvering the surf and dunes. NO daylight, NO dawn glow, NO blue-hour brightness. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-154-source-0-89243542-12c8-4eea-bcc4-a5be93c3c4d7.png",
-      "sha256": "cda51a09d2953f13b048671807c4b7b938f36236c0faa3eab86843b407f7a764",
+      "file": "media-generation-es-01-154-r2-source-0-ae1bef1d-d4f2-4dab-b842-d3a81ef4aefd.png",
+      "sha256": "25bcbd2fb027a85e63c029f25973b604a6d2f1a5d54a4f650d96074bd7de404e",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

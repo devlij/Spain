@@ -4,14 +4,14 @@
   "city": "Sant Mateu",
   "region": "Valencian Community",
   "caption": "Old town, Sant Mateu",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the old town square, looking at the church",
   "anchors": [
     "Sant Mateu's old town with its Gothic archpriestal church",
     "the historic capital of the Maestrazgo",
     "the olive and almond country around"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Sant_Mateu",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:22 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:26 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the Maestrazgo old town · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Old town at night.",
-  "description": "Sant Mateu — historic capital of the Maestrazgo — keeps its Gothic archpriestal church and old town among olives and almonds. A mostly clear night, light air over the Maestrazgo. The wool merchants built its palaces.",
-  "file_16x9": "es-01-146-r1-16x9.png",
-  "file_4x5": "es-01-146-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Old town, Sant Mateu at night.",
+  "description": "Sant Mateu — historic capital of the Maestrazgo — keeps its Gothic archpriestal church and old town among olives and almonds. A mostly clear night over the olive country, light breeze. The wool merchants built its palaces.",
+  "file_16x9": "es-01-146-r2-16x9.png",
+  "file_4x5": "es-01-146-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "fbf38b50fa7e312a8861c0f2c1ff3039a5026e99df24804d8e4df39cea9f52d1"
+      "sha256": "8437d44decd8105c1ba13c2928b83828f8fb10e1f95ec58bf785a4a77864975b"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "94259f2703e1e339fffcd6c6a95a55476de038f8bb86b5b0c69ea31e2d2f3e97"
+      "sha256": "b6306fbf2e7e16dc55c8dad92cdd17f4e4ea11aaa82c7c2031c3468e9e98fc62"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-146-r1-16x9.png",
+      "file": "es-01-146-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2452106,
-      "sha256": "fbf38b50fa7e312a8861c0f2c1ff3039a5026e99df24804d8e4df39cea9f52d1",
-      "source_file": "media-generation-es-01-146-source-0-d23fe970-59a8-4c55-9a81-43b4a3eee55a.png",
+      "byte_length": 2293991,
+      "sha256": "8437d44decd8105c1ba13c2928b83828f8fb10e1f95ec58bf785a4a77864975b",
+      "source_file": "media-generation-es-01-146-r2-source-0-b629d070-d14d-4fc0-b158-c80ac3f7f942.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Old town, Sant Mateu",
-        "Scenario: 24 September 2026 · 04:22 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:26 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-146-r1-4x5.png",
+      "file": "es-01-146-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1306828,
-      "sha256": "94259f2703e1e339fffcd6c6a95a55476de038f8bb86b5b0c69ea31e2d2f3e97",
-      "source_file": "media-generation-es-01-146-source-0-d23fe970-59a8-4c55-9a81-43b4a3eee55a.png",
+      "byte_length": 1293330,
+      "sha256": "b6306fbf2e7e16dc55c8dad92cdd17f4e4ea11aaa82c7c2031c3468e9e98fc62",
+      "source_file": "media-generation-es-01-146-r2-source-0-b629d070-d14d-4fc0-b158-c80ac3f7f942.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Old town, Sant Mateu",
-        "Scenario: 24 September 2026 · 04:22 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:26 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:21:26+02:00",
-    "valid": "2026-09-24T04:15 Europe/Madrid",
-    "phrase": "mostly clear night, light air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:26:47+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A mostly clear night over the olive country, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "15.1",
+    "weather_code": "1",
+    "cloud_cover": "33",
+    "wind_speed_10m": "4.9"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:21:26+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:26:47+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Sant Mateu, Valencian Community, Spain. Tourist viewpoint: the old town square, looking at the church. Frame: Sant Mateu's old town with its Gothic archpriestal church; the historic center of the Maestrazgo capital; the olive and almond country around. Light and weather: mostly clear night, light air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of Sant Mateu, Valencian Community, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the town approach, looking toward the old town — Sant Mateu's arciprestal church and medieval streets, the old Maestrat capital's stone houses, the surrounding olive country dark at night. Deep night: pitch-dark star-filled sky, moonlight, faint warm town lights only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-146-source-0-d23fe970-59a8-4c55-9a81-43b4a3eee55a.png",
-      "sha256": "bf925442e3f481abc504c3f35cb3ee40a21254b5f8744d20b14c06f179fcda15",
+      "file": "media-generation-es-01-146-r2-source-0-b629d070-d14d-4fc0-b158-c80ac3f7f942.png",
+      "sha256": "70a6716a8dd61fac450180e29b0b2e8a00d9509c859ac558b5103b338fee7343",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

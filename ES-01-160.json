@@ -4,14 +4,14 @@
   "city": "Sóller",
   "region": "Balearic Islands",
   "caption": "Sóller, Sóller",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the town square, looking toward the church and mountains",
   "anchors": [
     "Sóller's old town with the church of Sant Bartomeu",
     "the vintage tram running through the town",
     "the Serra de Tramuntana rising behind"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/S%C3%B3ller",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:36 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:28 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the old town beneath the Tramuntana · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Sóller at night.",
-  "description": "Sóller keeps its old town beneath the Serra de Tramuntana — the church of Sant Bartomeu, modernist bank façades, and the vintage tram to the port. A mostly clear night, light air over the Tramuntana valley. Orange groves fill the valley around the town.",
-  "file_16x9": "es-01-160-r1-16x9.png",
-  "file_4x5": "es-01-160-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Sóller, Sóller at night.",
+  "description": "Sóller keeps its old town beneath the Serra de Tramuntana — the church of Sant Bartomeu, modernist bank façades, and the vintage tram to the port. A clear night over the valley, light air. Orange groves fill the valley around the town.",
+  "file_16x9": "es-01-160-r2-16x9.png",
+  "file_4x5": "es-01-160-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "e126ff0acf679bcb57f95f074856cd346e84f549799b7b9f7867bf48c139c083"
+      "sha256": "5a80fa5c16917af6ba9fed6d7d3290ff5bc2964f25280f5c951ad085095b888e"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "d3ef2829f5653c6e3670dedb8325b9dcd38194f968d6f44e7673bf2e75e138d1"
+      "sha256": "bb149983b5043b82aaafcb0b63ad53e6c1e6e53ddc8159180e3241d171f77e3f"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-160-r1-16x9.png",
+      "file": "es-01-160-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2670134,
-      "sha256": "e126ff0acf679bcb57f95f074856cd346e84f549799b7b9f7867bf48c139c083",
-      "source_file": "media-generation-es-01-160-source-0-af2f9d7e-aba7-4b42-a8f5-823672398684.png",
+      "byte_length": 2608834,
+      "sha256": "5a80fa5c16917af6ba9fed6d7d3290ff5bc2964f25280f5c951ad085095b888e",
+      "source_file": "media-generation-es-01-160-r2-source-0-3d0bf3a1-c31d-4acf-b48d-d44a00f185cc.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Sóller, Sóller",
-        "Scenario: 24 September 2026 · 04:36 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-160-r1-4x5.png",
+      "file": "es-01-160-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1257950,
-      "sha256": "d3ef2829f5653c6e3670dedb8325b9dcd38194f968d6f44e7673bf2e75e138d1",
-      "source_file": "media-generation-es-01-160-source-0-af2f9d7e-aba7-4b42-a8f5-823672398684.png",
+      "byte_length": 1330564,
+      "sha256": "bb149983b5043b82aaafcb0b63ad53e6c1e6e53ddc8159180e3241d171f77e3f",
+      "source_file": "media-generation-es-01-160-r2-source-0-3d0bf3a1-c31d-4acf-b48d-d44a00f185cc.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Sóller, Sóller",
-        "Scenario: 24 September 2026 · 04:36 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:35:56+02:00",
-    "valid": "2026-09-24T04:30 Europe/Madrid",
-    "phrase": "mostly clear night, light air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:28:46+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the valley, light air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "21.0",
+    "weather_code": "0",
+    "cloud_cover": "23",
+    "wind_speed_10m": "3.3"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:35:56+02:00, valid 2026-09-24T04:30 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:28:46+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Sóller, Mallorca, Balearic Islands, Spain. Tourist viewpoint: the town square, looking toward the church and mountains. Frame: Sóller's old town with the church of Sant Bartomeu; the vintage tram running through the town; the Serra de Tramuntana rising behind. Light and weather: mostly clear night, light air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the town of Sóller, Mallorca, Balearic Islands, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the old-town overlook, looking at the church and valley — Sóller's rose-windowed church of Sant Bartomeu and the orange groves of the valley, the Puig Major massif dark behind. Deep night: pitch-dark star-filled sky, moonlight, faint warm town lights only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-160-source-0-af2f9d7e-aba7-4b42-a8f5-823672398684.png",
-      "sha256": "f3fde18e13541db9b22aadc1ef1dff3cd0417dcb3bd0fec4b13876702af758a2",
+      "file": "media-generation-es-01-160-r2-source-0-3d0bf3a1-c31d-4acf-b48d-d44a00f185cc.png",
+      "sha256": "968e1ed60e174ad405c9bf1ed5d2bb4cc4f6caf2469eb8eff088ba59f80408c2",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

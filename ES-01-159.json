@@ -4,14 +4,14 @@
   "city": "Pollença",
   "region": "Balearic Islands",
   "caption": "Formentor, Pollença",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the Es Colomer viewpoint, looking toward the lighthouse",
   "anchors": [
     "the lighthouse at the tip of Cap de Formentor",
     "the sheer cliffs falling to the Mediterranean",
     "the winding road along the cape's spine"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Cap_de_Formentor",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:35 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:28 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the cape lighthouse · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Formentor at night.",
-  "description": "Cap de Formentor is Mallorca's wild end — sheer cliffs, a winding cape road, and the lighthouse at the very tip. A clear night, light air over Mallorca's north cape. The viewpoint at Es Colomer looks back along the cliffs to the sea.",
-  "file_16x9": "es-01-159-r1-16x9.png",
-  "file_4x5": "es-01-159-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Formentor, Pollença at night.",
+  "description": "Cap de Formentor is Mallorca's wild end — sheer cliffs, a winding cape road, and the lighthouse at the very tip. A clear night over the cape, light air. The viewpoint at Es Colomer looks back along the cliffs to the sea.",
+  "file_16x9": "es-01-159-r2-16x9.png",
+  "file_4x5": "es-01-159-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "5c492d143ff386f3b052584944024669367c89624d98dab0a629bddf8d71ae31"
+      "sha256": "ffbc463c92009769a41aba475845bcfeb9dc0b7e722202b1b2e6484145648eb9"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "f370a7b2eda490fb0f6d67332041a3510b05c379e213abf1fc8d4581f8158c10"
+      "sha256": "746e16360ee6be8b9dc42177f907c9dc1c300a9dedb95b6790c541281567fdcf"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-159-r1-16x9.png",
+      "file": "es-01-159-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2712220,
-      "sha256": "5c492d143ff386f3b052584944024669367c89624d98dab0a629bddf8d71ae31",
-      "source_file": "media-generation-es-01-159-source-0-199db9f3-611f-42f1-a93e-2321146e79c2.png",
+      "byte_length": 2573586,
+      "sha256": "ffbc463c92009769a41aba475845bcfeb9dc0b7e722202b1b2e6484145648eb9",
+      "source_file": "media-generation-es-01-159-r2-source-0-e2535a9b-80ae-4ce2-9133-563840d98a5b.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Formentor, Pollença",
-        "Scenario: 24 September 2026 · 04:35 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-159-r1-4x5.png",
+      "file": "es-01-159-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1343872,
-      "sha256": "f370a7b2eda490fb0f6d67332041a3510b05c379e213abf1fc8d4581f8158c10",
-      "source_file": "media-generation-es-01-159-source-0-199db9f3-611f-42f1-a93e-2321146e79c2.png",
+      "byte_length": 1447200,
+      "sha256": "746e16360ee6be8b9dc42177f907c9dc1c300a9dedb95b6790c541281567fdcf",
+      "source_file": "media-generation-es-01-159-r2-source-0-e2535a9b-80ae-4ce2-9133-563840d98a5b.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Formentor, Pollença",
-        "Scenario: 24 September 2026 · 04:35 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:35:14+02:00",
-    "valid": "2026-09-24T04:30 Europe/Madrid",
-    "phrase": "clear night, light air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:28:46+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A clear night over the cape, light air.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "23.2",
+    "weather_code": "0",
+    "cloud_cover": "4",
+    "wind_speed_10m": "3.3"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:35:14+02:00, valid 2026-09-24T04:30 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:28:46+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Cap de Formentor in Pollença, Mallorca, Balearic Islands, Spain. Tourist viewpoint: the Es Colomer viewpoint, looking toward the lighthouse. Frame: the lighthouse at the tip of Cap de Formentor; the sheer cliffs falling to the Mediterranean; the cape's spine running to the horizon. Light and weather: clear night, light air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of Cap de Formentor, Mallorca, Balearic Islands, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the cape road viewpoint, looking at the lighthouse — the Formentor lighthouse on its rocky headland, the Tramuntana sea dark below. Photorealistic sea: natural dark water, NO painterly or stylized rendering of waves. Deep night: pitch-dark star-filled sky, moonlight on the water, the lighthouse beam only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-159-source-0-199db9f3-611f-42f1-a93e-2321146e79c2.png",
-      "sha256": "02b0666f516abed5ca28e3348741913e65d7102d5f83890cc577cc1594a22094",
+      "file": "media-generation-es-01-159-r2-source-0-e2535a9b-80ae-4ce2-9133-563840d98a5b.png",
+      "sha256": "655013a9c644eff5f49282c63c0710a68ec940edf73731d9ee73b9878a6f4bdc",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

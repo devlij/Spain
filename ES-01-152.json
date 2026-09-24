@@ -4,14 +4,14 @@
   "city": "Cehegín",
   "region": "Murcia",
   "caption": "Old town, Cehegín",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the valley approach, looking up at the hilltop town",
   "anchors": [
     "Cehegín's old town with the church of Santa María Magdalena",
     "the historic center on its hill",
     "the Argos river valley below"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Ceheg%C3%ADn",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:26 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:28 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the hilltop old town · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Old town at night.",
-  "description": "Cehegín keeps its old town on the hill — the church of Santa María Magdalena, Baroque palaces, the Argos valley below. A clear night, light breeze over Cehegín. The marble quarries made the town's fortune.",
-  "file_16x9": "es-01-152-r1-16x9.png",
-  "file_4x5": "es-01-152-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Old town, Cehegín at night.",
+  "description": "Cehegín keeps its old town on the hill — the church of Santa María Magdalena, Baroque palaces, the Argos valley below. A mostly clear night over the old town, light breeze. The marble quarries made the town's fortune.",
+  "file_16x9": "es-01-152-r2-16x9.png",
+  "file_4x5": "es-01-152-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "ca99f16a8dc08a72c53d2a8f1ea189998b0e9d51d96f788d904cb99a8718153d"
+      "sha256": "65037dace5a77c7dbc5e8ed2c3bf6b2af13eb181eaebf0e48e26d8f808ad4e63"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "11e9647f51913ab81a9d8816b7866fa8350fc874e11321e0b66cb9faa2ad5a10"
+      "sha256": "56754e2d12c2e0b4df98198d538896d056d15d39c8121a04f266a54fcf89e2fc"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-152-r1-16x9.png",
+      "file": "es-01-152-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2949501,
-      "sha256": "ca99f16a8dc08a72c53d2a8f1ea189998b0e9d51d96f788d904cb99a8718153d",
-      "source_file": "media-generation-es-01-152-source-0-504c1f52-67cb-46d2-9463-5e92308caa59.png",
+      "byte_length": 2419145,
+      "sha256": "65037dace5a77c7dbc5e8ed2c3bf6b2af13eb181eaebf0e48e26d8f808ad4e63",
+      "source_file": "media-generation-es-01-152-r2-source-0-46a127d6-0edc-4a01-ae0f-bf8cf9c8da7c.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Old town, Cehegín",
-        "Scenario: 24 September 2026 · 04:26 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-152-r1-4x5.png",
+      "file": "es-01-152-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1398311,
-      "sha256": "11e9647f51913ab81a9d8816b7866fa8350fc874e11321e0b66cb9faa2ad5a10",
-      "source_file": "media-generation-es-01-152-source-0-504c1f52-67cb-46d2-9463-5e92308caa59.png",
+      "byte_length": 1356712,
+      "sha256": "56754e2d12c2e0b4df98198d538896d056d15d39c8121a04f266a54fcf89e2fc",
+      "source_file": "media-generation-es-01-152-r2-source-0-46a127d6-0edc-4a01-ae0f-bf8cf9c8da7c.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Old town, Cehegín",
-        "Scenario: 24 September 2026 · 04:26 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:28 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:25:55+02:00",
-    "valid": "2026-09-24T04:15 Europe/Madrid",
-    "phrase": "clear night, light breeze",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:28:46+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A mostly clear night over the old town, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "15.2",
+    "weather_code": "1",
+    "cloud_cover": "13",
+    "wind_speed_10m": "6.4"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:25:55+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:28:46+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Cehegín, Murcia, Spain. Tourist viewpoint: the valley approach, looking up at the hilltop town. Frame: Cehegín's old town with the church of Santa María Magdalena; the historic center on its hill; the Argos river valley below. Light and weather: clear night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of Cehegín, Region of Murcia, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the hilltop viewpoint, looking across the old town — Cehegín's hilltop old quarter with the church of Santa María Magdalena, the surrounding hills dark at night. Deep night: pitch-dark star-filled sky, moonlight, faint warm town lights only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-152-source-0-504c1f52-67cb-46d2-9463-5e92308caa59.png",
-      "sha256": "88f7da6ed79c93b70a175ee17c47cde7f7080a547d838520d9a1dc04661a37c2",
+      "file": "media-generation-es-01-152-r2-source-0-46a127d6-0edc-4a01-ae0f-bf8cf9c8da7c.png",
+      "sha256": "d43e3dcef41f605c69c67634c5524d30efd50c703a92851caae1a36c7fa1314b",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",

@@ -4,14 +4,14 @@
   "city": "Cornudella de Montsant",
   "region": "Catalonia",
   "caption": "Siurana, Cornudella de Montsant",
-  "revision": "r1",
+  "revision": "r2",
   "viewpoint": "the cliff viewpoint, looking at the village and reservoir",
   "anchors": [
     "Siurana's village on its cliff over the reservoir",
     "the last Moorish stronghold of Catalonia",
     "the Prades mountains and the turquoise water below"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Revision r2: regenerated with a fresh source image after r1 audit FAIL; no r1 pixels reused.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Siurana",
@@ -24,38 +24,38 @@
   ],
   "status": "Candidate · Awaiting Cosmo QC",
   "approval_state": "candidate",
-  "scenario_label": "24 September 2026 · 04:17 Europe/Madrid",
+  "scenario_label": "24 September 2026 · 05:26 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · the cliff village · AI-generated artistic interpretation",
-  "alt_text": "AI-generated artistic interpretation of Siurana at night.",
-  "description": "Siurana — the last Moorish stronghold in Catalonia — perches on its cliff over the turquoise reservoir, the Prades mountains around. A clear night, light air over Siurana. Climbers come for the limestone; everyone comes for the view.",
-  "file_16x9": "es-01-140-r1-16x9.png",
-  "file_4x5": "es-01-140-r1-4x5.png",
+  "alt_text": "AI-generated artistic interpretation of Siurana, Cornudella de Montsant at night.",
+  "description": "Siurana — the last Moorish stronghold in Catalonia — perches on its cliff over the turquoise reservoir, the Prades mountains around. A mostly clear night over the gorge, light breeze. Climbers come for the limestone; everyone comes for the view.",
+  "file_16x9": "es-01-140-r2-16x9.png",
+  "file_4x5": "es-01-140-r2-4x5.png",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1080,
-      "sha256": "b9aac246195cea58fd78f22112a125860f3ebc605cf2f8eefa7ff4209b8f721a"
+      "sha256": "74b6751a93ab4a8b36685526133e711da261f808198b73c21b29a51423137af3"
     },
     "4x5": {
       "width": 864,
       "height": 1080,
-      "sha256": "029ea15d9cfa8d1c86f2c3bbd660ff46a8fc65f5e2c7274f249d6621f1589541"
+      "sha256": "13f7e344e31d9a429e520d30c78886753cdcd6eaed00b62e208b774ea0baf5ac"
     }
   },
   "masters": {
     "16x9": {
-      "file": "es-01-140-r1-16x9.png",
+      "file": "es-01-140-r2-16x9.png",
       "dimensions": [
         1920,
         1080
       ],
-      "byte_length": 2156100,
-      "sha256": "b9aac246195cea58fd78f22112a125860f3ebc605cf2f8eefa7ff4209b8f721a",
-      "source_file": "media-generation-es-01-140-source-0-01c7aa14-c238-4be6-a93c-1782994f5eb8.png",
+      "byte_length": 2051769,
+      "sha256": "74b6751a93ab4a8b36685526133e711da261f808198b73c21b29a51423137af3",
+      "source_file": "media-generation-es-01-140-r2-source-0-3c9c47d4-7cbf-4498-b7d1-fde2339d3907.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -63,26 +63,26 @@
       ],
       "labels": [
         "Siurana, Cornudella de Montsant",
-        "Scenario: 24 September 2026 · 04:17 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:26 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
     },
     "4x5": {
-      "file": "es-01-140-r1-4x5.png",
+      "file": "es-01-140-r2-4x5.png",
       "dimensions": [
         864,
         1080
       ],
-      "byte_length": 1173089,
-      "sha256": "029ea15d9cfa8d1c86f2c3bbd660ff46a8fc65f5e2c7274f249d6621f1589541",
-      "source_file": "media-generation-es-01-140-source-0-01c7aa14-c238-4be6-a93c-1782994f5eb8.png",
+      "byte_length": 1110428,
+      "sha256": "13f7e344e31d9a429e520d30c78886753cdcd6eaed00b62e208b774ea0baf5ac",
+      "source_file": "media-generation-es-01-140-r2-source-0-3c9c47d4-7cbf-4498-b7d1-fde2339d3907.png",
       "source_dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "crop_center": [
         0.5,
@@ -90,33 +90,37 @@
       ],
       "labels": [
         "Siurana, Cornudella de Montsant",
-        "Scenario: 24 September 2026 · 04:17 Europe/Madrid",
+        "Scenario: 24 September 2026 · 05:26 Europe/Madrid",
         "AI-generated artistic interpretation · Not a photograph."
       ],
       "signature": "Jason D’s Vision",
       "format": "PNG",
       "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
-      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
     }
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "retrieved": "2026-09-24T04:17:26+02:00",
-    "valid": "2026-09-24T04:15 Europe/Madrid",
-    "phrase": "clear night, light air",
-    "note": "Model data — not a verified on-site observation."
+    "retrieved": "2026-09-24T05:26:47+02:00",
+    "valid": "2026-09-24T05:15 Europe/Madrid",
+    "phrase": "A mostly clear night over the gorge, light breeze.",
+    "note": "Model data — not a verified on-site observation.",
+    "temperature_2m": "16.9",
+    "weather_code": "1",
+    "cloud_cover": "15",
+    "wind_speed_10m": "3.1"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:17:26+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T05:26:47+02:00, valid 2026-09-24T05:15 Europe/Madrid — not a verified on-site observation.",
   "prompts": {
-    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Siurana, Catalonia, Spain. Tourist viewpoint: the cliff viewpoint, looking at the village and reservoir. Frame: Siurana's village on its cliff over the reservoir; the Prades mountains around; the turquoise water below. Light and weather: clear night, light air. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+    "prompt-r2.txt": "Photorealistic original artistic interpretation (not a photograph) of Siurana, Catalonia, Spain, at DEEP ASTRONOMICAL NIGHT (around 5:30 in the morning). Tourist viewpoint: the castle ledge, looking across the gorge — Siurana's Romanesque church and castle remnants on the cliff edge, the Siurana gorge falling away below, the Montsant range dark behind. Deep night: pitch-dark star-filled sky, moonlight, faint warm village lights only. NO daylight, NO dawn glow, NO blue-hour brightness. Main subject centered. No identifiable people. Absolutely no legible text, lettering, numbers, signs or plaques anywhere in the image."
   },
   "source_files": [
     {
-      "file": "media-generation-es-01-140-source-0-01c7aa14-c238-4be6-a93c-1782994f5eb8.png",
-      "sha256": "ed80bf1fab505a219499c769c8e3900e1ef9548e4c858130bd4667c82685a13e",
+      "file": "media-generation-es-01-140-r2-source-0-3c9c47d4-7cbf-4498-b7d1-fde2339d3907.png",
+      "sha256": "5e5a23db0ffd4a9a26cfeeb5722d0058060638f95ac6e6cbb43778c0d077b8b4",
       "dimensions": [
-        1408,
-        1760
+        1920,
+        1280
       ],
       "selected": true
     }
@@ -126,7 +130,7 @@
     "image_inputs": [],
     "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
     "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
-    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
   },
   "production_checks": {
     "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
