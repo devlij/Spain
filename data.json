@@ -1440,9 +1440,9 @@
       "scenario_label": "24 September 2026 · 01:18 Europe/Madrid",
       "composition": "Night · Baroque twin towers over the Baluard, seen from the beach · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Sant Bartomeu i Santa Tecla, Sitges at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Sant Bartomeu i Santa Tecla recognizable — seaside church silhouette with clock tower, open bell tower, oculus window and whitewashed fortress-like walls, promenade lamps glowing along the water; plausible tourist viewpoint from the passeig; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080 and SHA-256 match; on-image caption, Scenario 24 September 2026 01:18 Europe/Madrid, AI disclosure bottom-left on gradient scrim, exact Jason Ds Vision signature (curly apostrophe) bottom-right; weather retrieved 01:12:51 valid 01:15 — fresh. Gate 3: packet documents image_inputs empty, text-only original generation, third-party photographs inspected for facts only. Gate 4: no people, logos, or recognizable private property visible — documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-252",
