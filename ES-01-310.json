@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for Pontevedra and the Praza da Leña; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:40 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From the Praza da Leña in Pontevedra, stone cross and lamps near 42.4310,-8.6440. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Praza da Leña in Pontevedra at night — historic stone houses with green shutters, balconies and arched porticoes, the tall stone cruceiro centered on a stepped plinth, warm wall lamps, starry sky; the cruceiro-plus-porticoed-square composition matches the plaza's documented character, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Pontevedra, Galicia', scenario '24 September 2026 · 01:40 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 10 minutes before scenario, fresh; clear sky matches 0% model cloud. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no people, logos, or private property; the cruceiro is a public monument; IP documented only. G5: all gates pass.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
