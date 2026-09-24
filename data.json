@@ -2155,9 +2155,9 @@
       "scenario_label": "24 September 2026 · 01:21 Europe/Madrid",
       "composition": "Night · From the subterranean lake inside the Jameos del Agua lava tube, looking across the still turquoise water toward the collapsed roof opening near 29.1578,-13.4312. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Jameos del Agua, Lanzarote at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders Jameos del Agua's subterranean lake chamber — a perfectly still turquoise lake centered under the collapsed roof opening showing a starry night sky, hanging green vegetation and agave along the white lava-rock walls, Manrique's art-nature space; clean framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Jameos del Agua, Lanzarote', scenario '24 September 2026 · 01:21 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:21 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no private property focal subject. G5: no open blockers; interior lighting disclosed as approximate and night access disclosed as assumed from the known night program, not verified."
     },
     {
       "entry_id": "ES-01-289",
