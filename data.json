@@ -2805,9 +2805,9 @@
       "scenario_label": "24 September 2026 · 02:19 Europe/Madrid",
       "composition": "Night · whitewashed Morisco old town climbing a hillside at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old Town at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Old Town, Frigiliana recognizably depicted — whitewashed Moorish street with blue shutters and flowerpots rising toward the hilltop village, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — generic old-town streetscape; documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-235",
