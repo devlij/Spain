@@ -2909,9 +2909,9 @@
       "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
       "composition": "Night · Renaissance cathedral over olive groves at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Paseo de Antonio Machado at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Baeza's lamp-lit wall walkway (Paseo de Antonio Machado) leading toward the twin-tower Renaissance church above the walls, olive groves rolling to the moonlit mountains beyond, crescent moon upper right — recognizably Baeza's wall-side night scene with the Machado promenade character; church tower count is interpretive per packet disclosure; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Paseo de Antonio Machado, Baeza', scenario '24 September 2026 · 02:31 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 02:29:06 valid 02:31:18 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-238",
