@@ -22,8 +22,8 @@
       "Lake Banyoles guide (lake shore, fishing huts, town)"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:23 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Still lake and fishing huts under a starry sky · AI-generated artistic interpretation",
@@ -154,6 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — from the western shore, traditional stilt pesquera huts line the water's edge bottom-left, the glassy lake mirrors a starry sky with a thin moonlight path on the water, tree-lined far shore and faint Banyoles town lights behind; calm, clean, no artifacts. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Lake Banyoles, Banyoles', 'Scenario: 24 September 2026 · 01:23 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 8 min before the 01:23 scenario, fresh. Gate 3 PASS — text-only generation, zero photo inputs. Gate 4 — no people, logos, or private property; not legally certified. Gate 5 — no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
