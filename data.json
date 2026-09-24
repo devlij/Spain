@@ -1349,9 +1349,9 @@
       "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
       "composition": "Night · Colorful facades reflected in the dark river from the red iron bridge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Onyar River houses, Girona at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night Onyar riverfront: the red iron truss of the Pont de les Peixateries frames the bank of ochre, rose and terracotta houses with lit windows reflected in the still river, Girona Cathedral floodlit on the hill behind; on-image text verified: caption 'Onyar River houses, Girona', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; façade lighting is street-lamp only, no specific illumination claim per packet (documented only)."
     },
     {
       "entry_id": "ES-01-245",
