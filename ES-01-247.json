@@ -22,8 +22,8 @@
       "Dalí Theatre-Museum visitor guide (tower, dome, facade sculptures)"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:16 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · The egg-crowned tower and geodesic dome over the lamplit square · AI-generated artistic interpretation",
@@ -154,6 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Gate 1: unmistakable Dalí Theatre-Museum — central red bread-roll-dotted tower, giant eggs along the parapet, golden rooftop figures, glowing geodesic dome against deep blue night sky, lit facade windows; plausible tourist viewpoint from Plaça Gala i Salvador Dalí; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080 and SHA-256 match; on-image caption Dali Theatre-Museum Figueres, Scenario 24 September 2026 01:16 Europe/Madrid, AI disclosure bottom-left on gradient scrim, exact Jason Ds Vision signature (curly apostrophe) bottom-right; weather retrieved 01:12:51 valid 01:15 — fresh. Gate 3: packet documents image_inputs empty, text-only original generation, third-party photographs inspected for facts only. Gate 4: two dark foreground sculptures (not people), no logos — documented only, no chain certified. Gate 5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
