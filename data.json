@@ -1908,9 +1908,9 @@
       "scenario_label": "24 September 2026 · 01:50 Europe/Madrid",
       "composition": "Night · Walls from the Cuatro Postes viewpoint, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the walls of Ávila at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 PASS: floodlit medieval city walls with round crenellated towers and the arched gate, old town and cathedral tower rising behind, viewed from the valley side; recognizably Ávila's walls from the Cuatro Postes viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'City walls, Ávila' exact; scenario '24 September 2026 · 01:50 Europe/Madrid' matches packet; weather retrieved 2026-09-24T01:11+02:00 valid 01:00 covers the scenario hour (39-min gap — fresh, not the stale reused block); signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers; wall floodlighting widely documented (documented limitation: not verified for this hour). Modelled night scenario, not a verified capture."
     },
     {
       "entry_id": "ES-01-329",
