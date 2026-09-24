@@ -2233,9 +2233,9 @@
       "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
       "composition": "Night · From Las Teresitas beach, looking along the moonlit shore toward the Anaga mountains near 28.5083,-16.1867. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Las Teresitas, Tenerife at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders Las Teresitas at night — the golden-sand beach curving under moonlight with a bright moonlit path on the calm Atlantic beyond the offshore breakwater, rows of palm trees along the back of the beach, the dark mass of the Anaga mountains rising behind, generic village lights on the slope; clean composition, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Las Teresitas, Tenerife', scenario '24 September 2026 · 01:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:24 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; village lights honestly generic, no specific fixtures claimed."
     },
     {
       "entry_id": "ES-01-295",
