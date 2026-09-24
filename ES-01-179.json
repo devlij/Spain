@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-179",
+  "country": "Spain",
+  "city": "Antequera",
+  "region": "Andalusia",
+  "caption": "Dolmens, Antequera",
+  "revision": "r1",
+  "viewpoint": "the valley approach, looking at the dolmen mounds",
+  "anchors": [
+    "the great dolmens of Antequera in their green valley",
+    "the Menga dolmen's massive capstones",
+    "the Peña de los Enamorados on the horizon"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Dolmen interiors are not depicted — exterior views only.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Antequera_Dolmens_Site",
+      "Wikipedia — the Antequera Dolmens Site, UNESCO World Heritage"
+    ],
+    [
+      "https://www.andalucia.org",
+      "Official Andalusia tourism portal — verify the Antequera listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:08 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the megalithic valley · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Dolmens at night.",
+  "description": "Antequera's dolmens — Menga, Viera, El Romeral — are among Europe's greatest megalithic monuments, aligned on the Peña de los Enamorados. A clear night with moderate winds. The El Torcal limestone labyrinth rises nearby.",
+  "file_16x9": "es-01-179-r1-16x9.png",
+  "file_4x5": "es-01-179-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a4d59081a2059d35ab83d160e0fd75bedcb1591521944f636a5c02acdb6de32b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "16521e238bf47ea64a450a25d670276cd63ef0471635b571ae3e488e202404b3"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-179-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3119417,
+      "sha256": "a4d59081a2059d35ab83d160e0fd75bedcb1591521944f636a5c02acdb6de32b",
+      "source_file": "media-generation-media-generation-es-01-179-sou-0-2b6d9f58-d6f0-4250-820f-e8305d58ff46.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Dolmens, Antequera",
+        "Scenario: 24 September 2026 · 04:08 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-179-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1639580,
+      "sha256": "16521e238bf47ea64a450a25d670276cd63ef0471635b571ae3e488e202404b3",
+      "source_file": "media-generation-media-generation-es-01-179-sou-0-2b6d9f58-d6f0-4250-820f-e8305d58ff46.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Dolmens, Antequera",
+        "Scenario: 24 September 2026 · 04:08 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T04:08:18+02:00",
+    "valid": "2026-09-24T04:08:18+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 22.6,
+    "weather_code": 0,
+    "cloud_cover": 6,
+    "precipitation": 0.0,
+    "wind_speed_10m": 10.8
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:08:18+02:00, valid 2026-09-24T04:08:18+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Dolmens of Antequera, Andalusia, Spain. Tourist viewpoint: the valley approach, looking at the dolmen mounds. Frame: the great dolmens of Antequera in their green valley; the megalithic mounds with the Peña de los Enamorados on the horizon; the valley around the monuments. Light and weather: clear night, moderate winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-media-generation-es-01-179-sou-0-2b6d9f58-d6f0-4250-820f-e8305d58ff46.png",
+      "sha256": "e1a72891e0f3eec4926ff9fb73d9335cad6c0db8e702521cb27dfed8a4b3ae76",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
