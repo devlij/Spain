@@ -1947,9 +1947,9 @@
       "scenario_label": "24 September 2026 · 02:14 Europe/Madrid",
       "composition": "Night · Castle from the park across the Sil river, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Templar Castle of Ponferrada at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Ponferrada's Templar castle reads clearly — double circuit of crenellated walls with round towers floodlit warm gold on the hill, park and Sil riverbank trees in the foreground from the across-river viewpoint; plausible, clean framing, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Templar Castle, Ponferrada', scenario '24 September 2026 · 02:14 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — floodlit public castle. G5: no blockers."
     },
     {
       "entry_id": "ES-01-332",
