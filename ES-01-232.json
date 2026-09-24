@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-232",
+  "country": "Spain",
+  "city": "Ronda",
+  "region": "Andalusia",
+  "caption": "Puente Nuevo, Ronda",
+  "revision": "r1",
+  "viewpoint": "the gorge overlook at night, facing the bridge across El Tajo",
+  "anchors": [
+    "the 98 m Puente Nuevo spanning El Tajo gorge, finished in 1793",
+    "the Guadalevín river glinting a hundred metres below",
+    "the white town glowing on both rims of the gorge"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night lighting is restrained and interpretive. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/puente-nuevo/",
+      "Spain.info — Puente Nuevo, Ronda: 98 m bridge over El Tajo gorge, completed 1793"
+    ],
+    [
+      "https://www.tripadvisor.co.uk/Attraction_Review-g187444-d248932-Reviews-Puente_Nuevo-Ronda_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+      "Tripadvisor — Ronda's Puente Nuevo, 98 m above the Guadalevín river"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:19 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · iconic gorge bridge with river far below at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Puente Nuevo at night.",
+  "description": "From the gorge overlook, the Puente Nuevo arcs through the darkness — the 98 m bridge that has spanned El Tajo since 1793, joining Ronda's old and new towns. The Guadalevín river glints far below between the cliff walls. On a clear 19°C night, the new bridge carries its town lights across one of Andalusia's most dramatic sights.",
+  "file_16x9": "es-01-232-r1-16x9.png",
+  "file_4x5": "es-01-232-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c272ff37f916472149a714f7cb443594783ac5b5a2119d2143f5801148dd8468"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "b4e616a33a984b078c403b1a7def38ce3d0adb02b4e8ca85779bc2c3f204f2ea"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-232-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3032845,
+      "sha256": "c272ff37f916472149a714f7cb443594783ac5b5a2119d2143f5801148dd8468",
+      "source_file": "media-generation-es-01-232-source-0-29f236a6-5bac-44b6-939a-ceab647bbcb5.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Puente Nuevo, Ronda",
+        "Scenario: 24 September 2026 · 02:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-232-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1348416,
+      "sha256": "b4e616a33a984b078c403b1a7def38ce3d0adb02b4e8ca85779bc2c3f204f2ea",
+      "source_file": "media-generation-es-01-232-source-0-29f236a6-5bac-44b6-939a-ceab647bbcb5.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Puente Nuevo, Ronda",
+        "Scenario: 24 September 2026 · 02:19 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T02:17:08+02:00",
+    "valid": "2026-09-24T02:19:34+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 19.3,
+    "weather_code": 0,
+    "cloud_cover": 2,
+    "wind_speed_10m": 9.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:17:08+02:00, valid 2026-09-24T02:19:34+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Puente Nuevo, Ronda, Málaga, Spain, at night. Tourist viewpoint: the gorge overlook, facing the bridge across El Tajo. Frame: the tall 98 m stone bridge centered, arcing across the deep gorge; the Guadalevín river glinting far below; the white town glowing on both rims of the gorge. Night light: restrained street lighting on the bridge and town, moonlight, starry clear sky, 19 degrees C, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-232-source-0-29f236a6-5bac-44b6-939a-ceab647bbcb5.png",
+      "sha256": "9cac8a91d98c11d180ae8e29b90df962c837827a8e970369ace47c0d0b0d7543",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
