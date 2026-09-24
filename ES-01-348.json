@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-348",
+  "country": "Spain",
+  "city": "Roncesvalles",
+  "region": "Navarre",
+  "caption": "Collegiate Church, Roncesvalles",
+  "revision": "r1",
+  "viewpoint": "Pilgrim approach from the pass road (approx 43.0096N, 1.3179W)",
+  "anchors": [
+    "Gothic spire and silhouette of the Collegiate Church of Santa María",
+    "Pilgrim hospice and houses with a few warm windows",
+    "Pyrenean beech forest around the village"
+  ],
+  "limitations": "No night floodlighting is claimed — none is documented for this site, so the scene shows only moonlight and scattered lit windows; unverified for this specific hour. Church and forest detail are interpretive. Camera point on the pilgrim approach is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Roncesvalles",
+      "Encyclopedia: Roncesvalles, Pyrenees, Collegiate Church of Santa María — first resting place for pilgrims on the Camino Francés"
+    ],
+    [
+      "https://en.unav.edu/web/catedra-patrimonio/activities/cycles-and-conferences/2021/musica-y-vida-cotidiana",
+      "University of Navarra: the bell rung 'by weight' after nightfall around the collegiate church, evoking the unlit night surroundings"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:32 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Church from the pilgrim approach, dark silhouette under moonlight and stars · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Collegiate Church of Roncesvalles at night.",
+  "description": "At night Roncesvalles keeps the pilgrims' silence — the Gothic Collegiate Church of Santa María standing dark among the beech forests of the Pyrenees, its spire catching only moonlight, a few warm windows glowing in the hospice where the first walkers of the Camino Francés rest. No lights flood the stones; the village of twenty inhabitants sleeps at nine hundred metres, the bell having tolled after nightfall.",
+  "file_16x9": "es-01-348-r1-16x9.png",
+  "file_4x5": "es-01-348-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "eb1b5586bd456ec98ef3b42c974445036f5c1212cd6bab5a6d0b475d07293fe3"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "f9403d4bf4b123e83ba36152f435c04d7d365de0dfbf6573d54ad9ad2fb82b55"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-348-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2710527,
+      "sha256": "eb1b5586bd456ec98ef3b42c974445036f5c1212cd6bab5a6d0b475d07293fe3",
+      "source_file": "media-generation-es-01-348-source-0-693d59bb-4290-4778-bcbc-750285bce736.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Collegiate Church, Roncesvalles",
+        "Scenario: 24 September 2026 · 04:32 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-348-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1291022,
+      "sha256": "f9403d4bf4b123e83ba36152f435c04d7d365de0dfbf6573d54ad9ad2fb82b55",
+      "source_file": "media-generation-es-01-348-source-0-693d59bb-4290-4778-bcbc-750285bce736.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Collegiate Church, Roncesvalles",
+        "Scenario: 24 September 2026 · 04:32 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Collegiate Church of Santa María de Roncesvalles, Navarre, Spain, at night. IMPORTANT: no floodlighting — the Gothic collegiate church lies dark under moonlight and a starry sky among the Pyrenean beech forest. Its spire and stone silhouette catch faint cool moonlight; a few warm windows glow in the pilgrim hospice and nearby houses. Quiet, honest night mood. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-348-source-0-693d59bb-4290-4778-bcbc-750285bce736.png",
+      "sha256": "3c40d6b83559d209647c709cedc1519c31a6504d25fe6bf016bae1fbdb515c57",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
