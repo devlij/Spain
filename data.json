@@ -2571,9 +2571,9 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From San Vicente de la Barquera, old town on the hill above the estuary near 43.3840,-4.3980. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of San Vicente de la Barquera at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: San Vicente de la Barquera's old town on the hill with the church silhouette rising above, warm harbor lamps reflected in the calm moonlit estuary, a small boat in the foreground and a full moon in a starry sky — recognizable estuary viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'San Vicente de la Barquera, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
     },
     {
       "entry_id": "ES-01-321",
