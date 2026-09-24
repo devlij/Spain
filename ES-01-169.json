@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-169",
+  "country": "Spain",
+  "city": "Santa Cruz de Tenerife",
+  "region": "Canary Islands",
+  "caption": "Anaga, Santa Cruz de Tenerife",
+  "revision": "r1",
+  "viewpoint": "the ridge viewpoint, looking along the ravines to the sea",
+  "anchors": [
+    "the laurel forest ridges of the Anaga Rural Park",
+    "deep green ravines falling to the sea",
+    "the Atlantic breaking on the Anaga cliffs"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Anaga",
+      "Wikipedia — the Anaga massif and rural park"
+    ],
+    [
+      "https://www.hellocanaryislands.com",
+      "Official Canary Islands tourism portal — verify the Tenerife listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:01 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the forest ridges and cliffs · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Anaga at night.",
+  "description": "Anaga — Tenerife's ancient northeast — keeps laurel forest ridges falling in deep ravines to Atlantic cliffs, a biosphere reserve of villages and mist. A clear night with light winds. Some of the oldest rocks in the Canaries form these green walls.",
+  "file_16x9": "es-01-169-r1-16x9.png",
+  "file_4x5": "es-01-169-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "532fa545e9e3f9e5b64cc6d6a38d9752a8ab3bbc0965b24592e76010fbe1a9a2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "35535079803b1583f848afb5b21b5e918ed02b928ace7f1ce39af37bc70525da"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-169-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2825720,
+      "sha256": "532fa545e9e3f9e5b64cc6d6a38d9752a8ab3bbc0965b24592e76010fbe1a9a2",
+      "source_file": "media-generation-media-generation-es-01-169-sou-0-05fd8dba-a8f9-4044-8e69-41591ce0cc2f.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Anaga, Santa Cruz de Tenerife",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-169-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1600922,
+      "sha256": "35535079803b1583f848afb5b21b5e918ed02b928ace7f1ce39af37bc70525da",
+      "source_file": "media-generation-media-generation-es-01-169-sou-0-05fd8dba-a8f9-4044-8e69-41591ce0cc2f.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Anaga, Santa Cruz de Tenerife",
+        "Scenario: 24 September 2026 · 04:01 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T04:01:05+02:00",
+    "valid": "2026-09-24T04:01:05+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 20.3,
+    "weather_code": 1,
+    "cloud_cover": 35,
+    "precipitation": 0.0,
+    "wind_speed_10m": 2.4
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:01:05+02:00, valid 2026-09-24T04:01:05+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Anaga Rural Park near Santa Cruz de Tenerife, Canary Islands, Spain. Tourist viewpoint: the ridge viewpoint, looking along the ravines to the sea. Frame: the laurel forest ridges of the Anaga Rural Park; deep green ravines falling to the sea; the Atlantic breaking on the Anaga cliffs. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-media-generation-es-01-169-sou-0-05fd8dba-a8f9-4044-8e69-41591ce0cc2f.png",
+      "sha256": "d3a120917c28524de5213d7ca2cdf77a061c1dae6fdb8fa9e2a00d856f816da9",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

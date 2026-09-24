@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-166",
+  "country": "Spain",
+  "city": "San Sebastián de La Gomera",
+  "region": "Canary Islands",
+  "caption": "Old town, San Sebastián de La Gomera",
+  "revision": "r1",
+  "viewpoint": "the harbor waterfront, looking up at the old town",
+  "anchors": [
+    "San Sebastián de La Gomera's old town with the Torre del Conde",
+    "the port where Columbus last sailed",
+    "the island's capital over the harbor"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n_de_La_Gomera",
+      "Wikipedia — San Sebastián de La Gomera"
+    ],
+    [
+      "https://www.hellocanaryislands.com",
+      "Official Canary Islands tourism portal — verify the La Gomera listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the historic port town · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Old town at night.",
+  "description": "San Sebastián de La Gomera — where Columbus provisioned his last Atlantic crossing — keeps its old town and the Torre del Conde over the harbor. A clear night with light winds. The island's capital faces the sea road west.",
+  "file_16x9": "es-01-166-r1-16x9.png",
+  "file_4x5": "es-01-166-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "42615bc6bf06b1b1ad11b1027ec706c34df4ccac70ce9478902e8d4955d03cc2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "cae9fbc14c4601be8bd98d165f275839c294ffe0b244bcbde026b597c26e24bd"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-166-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3050606,
+      "sha256": "42615bc6bf06b1b1ad11b1027ec706c34df4ccac70ce9478902e8d4955d03cc2",
+      "source_file": "media-generation-media-generation-es-01-166-sou-0-7549fb66-75a5-4b5f-80a4-84e7c64c8aab.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, San Sebastián de La Gomera",
+        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-166-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1375641,
+      "sha256": "cae9fbc14c4601be8bd98d165f275839c294ffe0b244bcbde026b597c26e24bd",
+      "source_file": "media-generation-media-generation-es-01-166-sou-0-7549fb66-75a5-4b5f-80a4-84e7c64c8aab.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old town, San Sebastián de La Gomera",
+        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T03:58:56+02:00",
+    "valid": "2026-09-24T03:58:56+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 30.5,
+    "weather_code": 1,
+    "cloud_cover": 30,
+    "precipitation": 0.0,
+    "wind_speed_10m": 6.1
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T03:58:56+02:00, valid 2026-09-24T03:58:56+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the old town of San Sebastián de La Gomera, Canary Islands, Spain. Tourist viewpoint: the harbor waterfront, looking up at the old town. Frame: San Sebastián de La Gomera's old town with the Torre del Conde; the historic port town over the harbor; the island rising behind. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-media-generation-es-01-166-sou-0-7549fb66-75a5-4b5f-80a4-84e7c64c8aab.png",
+      "sha256": "85a418caeb7ff78e50fcc7d6a0db0bb94a3cc0e95ee7b993b71809b015828408",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

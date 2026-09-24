@@ -1,0 +1,157 @@
+{
+  "entry_id": "ES-01-167",
+  "country": "Spain",
+  "city": "La Oliva",
+  "region": "Canary Islands",
+  "caption": "Corralejo Dunes, La Oliva",
+  "revision": "r1",
+  "viewpoint": "the dune field edge, looking across the ridges to the sea",
+  "anchors": [
+    "the great dunes of Corralejo in their natural park",
+    "white sand ridges running to the sea",
+    "the islet of Lobos on the horizon"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Corralejo",
+      "Wikipedia — Corralejo and its dune natural park"
+    ],
+    [
+      "https://www.hellocanaryislands.com",
+      "Official Canary Islands tourism portal — verify the Fuerteventura listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the dune field and sea · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Corralejo Dunes at night.",
+  "description": "The Corralejo dunes spread their white sand ridges to the sea in Fuerteventura's great natural park — the largest dune field in the Canaries. A clear night with moderate winds. The islet of Lobos floats on the horizon.",
+  "file_16x9": "es-01-167-r1-16x9.png",
+  "file_4x5": "es-01-167-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "edfef8ee9315e1500704cfdc84aa98e7249da5c5ac413c0cf322142cc795479a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "8f4ae3d66c71ba41c5fe4bcc7a303d6cc6a2d11c31df943b8ff2490c231702cd"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-167-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1900681,
+      "sha256": "edfef8ee9315e1500704cfdc84aa98e7249da5c5ac413c0cf322142cc795479a",
+      "source_file": "media-generation-media-generation-es-01-167-sou-0-4749c50e-b31f-412b-889f-3d4bfe74b9d4.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Corralejo Dunes, La Oliva",
+        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-167-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1080686,
+      "sha256": "8f4ae3d66c71ba41c5fe4bcc7a303d6cc6a2d11c31df943b8ff2490c231702cd",
+      "source_file": "media-generation-media-generation-es-01-167-sou-0-4749c50e-b31f-412b-889f-3d4bfe74b9d4.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Corralejo Dunes, La Oliva",
+        "Scenario: 24 September 2026 · 03:58 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T03:58:57+02:00",
+    "valid": "2026-09-24T03:58:57+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 24.1,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "precipitation": 0.0,
+    "wind_speed_10m": 16.6
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T03:58:57+02:00, valid 2026-09-24T03:58:57+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Corralejo Dunes in La Oliva, Fuerteventura, Canary Islands, Spain. Tourist viewpoint: the dune field edge, looking across the ridges to the sea. Frame: the great dunes of Corralejo in their natural park; white sand ridges running to the sea; the islet of Lobos on the horizon. Light and weather: clear night, moderate winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-media-generation-es-01-167-sou-0-4749c50e-b31f-412b-889f-3d4bfe74b9d4.png",
+      "sha256": "6ecff5a37e8231ab02bddef6a0a38432682dbccccc0be1b2bd9706904e17bacf",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
