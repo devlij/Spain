@@ -22,8 +22,8 @@
       "Dalt Vila official guide (walls, cathedral, old town)"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:26 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Fortified old town glowing above the dark harbor · AI-generated artistic interpretation",
@@ -154,6 +154,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — from the marina across the harbor, Dalt Vila rises on the hill with the Renaissance walls and bastions warmly lit at left, cathedral bell tower crowning the silhouette, whitewashed houses glowing with lamp light, sailboat masts and moored boats in the dark harbor foreground, starry sky; lamp light only, no wall floodlighting claimed. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Dalt Vila, Eivissa', 'Scenario: 24 September 2026 · 01:26 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 11 min before scenario, fresh. Gate 3 PASS — text-only generation, no photo inputs. Gate 4 — no people, logos, or recognizable private property visible; not legally certified. Gate 5 — no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
