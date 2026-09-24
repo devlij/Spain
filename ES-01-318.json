@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for El Capricho in Comillas; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:47 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From El Capricho in Comillas, the Gaudí villa in silhouette near 43.3870,-4.2870. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Gaudí's El Capricho rendered as a dark villa silhouette in the Comillas garden, its signature tile-clad tower with red-green ceramic checkerwork and arched colonnade visible against a moonlit starry sky — recognizable, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'El Capricho, Comillas', 'Scenario: 24 September 2026 · 01:47 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 2 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; distinctive private building rendered as honest generic night treatment — commercial clearance documented only, final call is Jason's. G5: all gates closed.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
