@@ -22,8 +22,8 @@
       "Encyclopedia — Renaissance cathedral built 1528–1782, 84 m north tower, unfinished south tower"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · 'La Manquita' tower over the old town · AI-generated artistic interpretation",
@@ -153,6 +153,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Málaga Cathedral's Renaissance west façade recognizably depicted from Plaza del Obispo — carved relief panels, arched portals, tall floodlit north tower ('La Manquita') rising right of center, old-town rooftops flanking; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet dd27569d/ffc5cb06; caption 'Málaga Cathedral, Málaga', scenario '24 September 2026 · 01:15 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' and 'Jason D's Vision' (curly apostrophe) verified on-image, legible on scrim; Open-Meteo retrieved 01:13:14 valid 01:15:17 — 2 minutes before scenario, no stale/reused weather. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; night floodlighting disclosed as artistic interpretation in packet. Gate 5: no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
