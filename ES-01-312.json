@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for the Oviedo Cathedral; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:42 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From the Oviedo Cathedral, Gothic tower, from the square near 43.3600,-5.8450. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Oviedo Cathedral at night — tall ornate Gothic tower with intricate spirework and pinnacles, rose window and arched portals, lamp-lit stone plaza buildings flanking it, crescent moon and dense starry sky; the tower's distinctive silhouette and facade detail read as Oviedo's cathedral, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Cathedral, Oviedo', scenario '24 September 2026 · 01:42 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on scrim; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 12 minutes before scenario, fresh; clear starry sky matches 0% model cloud; illumination is plaza lamps and moonlight only, as documented. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no prominent people, logos, or private property; public cathedral; IP documented only. G5: all gates pass.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
