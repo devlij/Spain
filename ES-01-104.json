@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-104",
+  "country": "Spain",
+  "city": "Burgos",
+  "region": "Castilla y León",
+  "caption": "Cathedral, Burgos",
+  "revision": "r1",
+  "viewpoint": "the Plaza de Santa María, looking at the west front",
+  "anchors": [
+    "Burgos cathedral with its twin openwork spires and the west front",
+    "the old town around the cathedral",
+    "the Arlanzón river below the city"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Floodlighting is interpretive.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Burgos_Cathedral",
+      "Wikipedia — Burgos Cathedral, the French Gothic cathedral"
+    ],
+    [
+      "https://www.turismocastillayleon.com",
+      "Official Castilla y León tourism portal — verify the Burgos listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the cathedral's twin spires · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cathedral, Burgos at night.",
+  "description": "Burgos cathedral keeps its twin openwork spires over the old town — the great French Gothic cathedral on the Camino. A clear night with a light breeze over the Gothic cathedral. The tomb of El Cid has lain here since the Middle Ages.",
+  "file_16x9": "es-01-104-r1-16x9.png",
+  "file_4x5": "es-01-104-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1008a941f5e6bcb9a8d12724cd56ba1d724e6f12c0cca1f94d4af88c777356b2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "ab59c56b286e4acc5553c9fe661c49edbfb0badc5b9de941e9d53dd56c7bb393"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-104-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2585907,
+      "sha256": "1008a941f5e6bcb9a8d12724cd56ba1d724e6f12c0cca1f94d4af88c777356b2",
+      "source_file": "media-generation-es-01-104-source-0-3c0a11e0-e423-446c-ae05-8129f7322966.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Burgos",
+        "Scenario: 24 September 2026 · 04:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-104-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1262147,
+      "sha256": "ab59c56b286e4acc5553c9fe661c49edbfb0badc5b9de941e9d53dd56c7bb393",
+      "source_file": "media-generation-es-01-104-source-0-3c0a11e0-e423-446c-ae05-8129f7322966.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cathedral, Burgos",
+        "Scenario: 24 September 2026 · 04:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:24:01+02:00",
+    "valid": "2026-09-24T04:15+02:00",
+    "temperature_2m_c": 16.1,
+    "weather_code": 0,
+    "cloud_cover_pct": 0,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 6.6
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:24+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Burgos cathedral, Spain AT NIGHT. Tourist viewpoint: the Plaza de Santa María, looking at the west front. Frame: Burgos cathedral with its twin openwork spires and the west front; the old town around the cathedral; the Arlanzón river below the city. Light and weather: clear night, light breeze; the cathedral softly floodlit, the old town warmly lit, the river dark beyond the town. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-104-source-0-3c0a11e0-e423-446c-ae05-8129f7322966.png",
+      "sha256": "d570e603e18c70b17d62b1040a4a36608f11df0f55aa517bfffa3484ce1eec52",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

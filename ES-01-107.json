@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-107",
+  "country": "Spain",
+  "city": "Manzanares el Real",
+  "region": "Madrid",
+  "caption": "New Castle, Manzanares el Real",
+  "revision": "r1",
+  "viewpoint": "the esplanade before the castle, looking at the keep",
+  "anchors": [
+    "the New Castle of Manzanares el Real, the Mendoza fortress",
+    "the castle's towers and the gallery of the main front",
+    "the Sierra de Guadarrama dark around the castle"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Floodlighting is interpretive.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/New_Castle_of_Manzanares_el_Real",
+      "Wikipedia — the New Castle of Manzanares el Real"
+    ],
+    [
+      "https://www.esmadrid.com",
+      "Official Madrid tourism portal — verify the Manzanares el Real listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:26 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the Mendoza fortress · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of New Castle, Manzanares el Real at night.",
+  "description": "The New Castle of Manzanares el Real keeps the Mendoza fortress — one of the finest castles of Castile, rising against the Sierra de Guadarrama. A partly cloudy night with calm air over the Mendoza castle. The Mendoza family held this frontier for centuries.",
+  "file_16x9": "es-01-107-r1-16x9.png",
+  "file_4x5": "es-01-107-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8f03f8ac42953b094953b82ae32597e6c6e50645d5be0602e236c8b183df6f88"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "e0f0822475c8830c126e39306e46a7e2aae0da89e8ee0e209fee9e7f2c2c54e5"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-107-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2203439,
+      "sha256": "8f03f8ac42953b094953b82ae32597e6c6e50645d5be0602e236c8b183df6f88",
+      "source_file": "media-generation-es-01-107-source-0-e49f44ba-d579-4cfa-90bb-72c83fc53022.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "New Castle, Manzanares el Real",
+        "Scenario: 24 September 2026 · 04:26 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-107-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1155707,
+      "sha256": "e0f0822475c8830c126e39306e46a7e2aae0da89e8ee0e209fee9e7f2c2c54e5",
+      "source_file": "media-generation-es-01-107-source-0-e49f44ba-d579-4cfa-90bb-72c83fc53022.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "New Castle, Manzanares el Real",
+        "Scenario: 24 September 2026 · 04:26 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:26:20+02:00",
+    "valid": "2026-09-24T04:15+02:00",
+    "temperature_2m_c": 21.0,
+    "weather_code": 2,
+    "cloud_cover_pct": 43,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 2.2
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:26+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the New Castle of Manzanares el Real, Madrid, Spain AT NIGHT. Tourist viewpoint: the esplanade before the castle, looking at the keep. Frame: the New Castle of Manzanares el Real, the Mendoza fortress; the castle's towers and the gallery of the main front; the Sierra de Guadarrama dark around the castle. Light and weather: partly cloudy night, calm air; the castle softly lit, a few clouds in the night sky, the sierra dark beyond. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-107-source-0-e49f44ba-d579-4cfa-90bb-72c83fc53022.png",
+      "sha256": "0cc45d164919e3cab515014824b8daed5a4175391741c464fc16011582e42b94",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

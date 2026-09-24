@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-108",
+  "country": "Spain",
+  "city": "San Lorenzo de El Escorial",
+  "region": "Madrid",
+  "caption": "Monastery, San Lorenzo de El Escorial",
+  "revision": "r1",
+  "viewpoint": "the Lonja, looking at the monastery's main front",
+  "anchors": [
+    "the great Herrerian monastery of El Escorial with its basilica dome and twin towers",
+    "the palace-monastery's sober granite fronts",
+    "the Sierra de Guadarrama dark around the monastery"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Floodlighting is interpretive.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/El_Escorial",
+      "Wikipedia — El Escorial, the royal monastery and palace"
+    ],
+    [
+      "https://www.patrimonionacional.es",
+      "Patrimonio Nacional — the official custodian of the Royal Sites, including El Escorial"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:26 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the basilica dome and twin towers · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Monastery, San Lorenzo de El Escorial at night.",
+  "description": "El Escorial keeps Philip II's great Herrerian monastery — the basilica dome and twin towers over the sober granite palace. An overcast night with light air over the Herrerian monastery. The Spanish kings have been buried in its crypt for four centuries.",
+  "file_16x9": "es-01-108-r1-16x9.png",
+  "file_4x5": "es-01-108-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "906786252fc1874b80ef89efc1ea8601c0308d3508f3212f0435b1c0ed01430c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "f59f19d0d2676299ce7d021f0f33a8f957caf0c235439f69ba44b80136526976"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-108-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 1957906,
+      "sha256": "906786252fc1874b80ef89efc1ea8601c0308d3508f3212f0435b1c0ed01430c",
+      "source_file": "media-generation-es-01-108-source-0-d1a14e4f-f062-4fb4-9d53-9751c7ffcf81.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Monastery, San Lorenzo de El Escorial",
+        "Scenario: 24 September 2026 · 04:26 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-108-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 942224,
+      "sha256": "f59f19d0d2676299ce7d021f0f33a8f957caf0c235439f69ba44b80136526976",
+      "source_file": "media-generation-es-01-108-source-0-d1a14e4f-f062-4fb4-9d53-9751c7ffcf81.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Monastery, San Lorenzo de El Escorial",
+        "Scenario: 24 September 2026 · 04:26 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:26:59+02:00",
+    "valid": "2026-09-24T04:15+02:00",
+    "temperature_2m_c": 20.9,
+    "weather_code": 3,
+    "cloud_cover_pct": 44,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 2.9
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:26+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Royal Monastery of San Lorenzo de El Escorial, Madrid, Spain AT NIGHT. Tourist viewpoint: the Lonja, looking at the monastery's main front. Frame: the great Herrerian monastery of El Escorial with its basilica dome and twin towers; the palace-monastery's sober granite fronts; the Sierra de Guadarrama dark around the monastery. Light and weather: overcast night, light air; the monastery softly lit, clouds in the night sky, the sierra dark beyond. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-108-source-0-d1a14e4f-f062-4fb4-9d53-9751c7ffcf81.png",
+      "sha256": "14c77a05ec81f6f3db404d32597fbcb1bfc74493f24a07f8fb618570123fe83a",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

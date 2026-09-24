@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-105",
+  "country": "Spain",
+  "city": "Salamanca",
+  "region": "Castilla y León",
+  "caption": "Plaza Mayor, Salamanca",
+  "revision": "r1",
+  "viewpoint": "a corner of the plaza, looking across the arcades",
+  "anchors": [
+    "Salamanca's Plaza Mayor with its arcaded galleries and baroque pavilions",
+    "the sandstone facades glowing in warm light",
+    "the city hall among the arcades"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Plaza_Mayor,_Salamanca",
+      "Wikipedia — Plaza Mayor, Salamanca"
+    ],
+    [
+      "https://www.turismocastillayleon.com",
+      "Official Castilla y León tourism portal — verify the Salamanca listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the baroque arcades · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Salamanca at night.",
+  "description": "The Plaza Mayor keeps the golden heart of Salamanca — its baroque arcades in the warm Villamayor sandstone. A mostly clear night with light air over the sandstone plaza. Students have gathered under these arcades for three centuries.",
+  "file_16x9": "es-01-105-r1-16x9.png",
+  "file_4x5": "es-01-105-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "77014c7044e71d53b81677f0b1c9e4a099546ca9c82925e1752a88a54da110ca"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "2879fe252fad453550fc5fac6a2960219856c9f8e027465173645399a4d37178"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-105-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2658265,
+      "sha256": "77014c7044e71d53b81677f0b1c9e4a099546ca9c82925e1752a88a54da110ca",
+      "source_file": "media-generation-es-01-105-source-0-1bc10dea-958b-4575-87af-a1160dad41a1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Mayor, Salamanca",
+        "Scenario: 24 September 2026 · 04:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-105-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1310666,
+      "sha256": "2879fe252fad453550fc5fac6a2960219856c9f8e027465173645399a4d37178",
+      "source_file": "media-generation-es-01-105-source-0-1bc10dea-958b-4575-87af-a1160dad41a1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Plaza Mayor, Salamanca",
+        "Scenario: 24 September 2026 · 04:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:24:44+02:00",
+    "valid": "2026-09-24T04:15+02:00",
+    "temperature_2m_c": 12.2,
+    "weather_code": 1,
+    "cloud_cover_pct": 15,
+    "is_day": 0,
+    "precipitation_mm": 0.0,
+    "wind_speed_10m_kmh": 4.4
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:24+02:00, valid 2026-09-24T04:15 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Salamanca's Plaza Mayor, Spain AT NIGHT. Tourist viewpoint: a corner of the plaza, looking across the arcades. Frame: Salamanca's Plaza Mayor with its arcaded galleries and baroque pavilions; the sandstone facades glowing in warm light; the city hall among the arcades. Light and weather: mostly clear night, light air; the plaza warmly lit, sandstone glowing, a few clouds in the night sky. Absolutely no daylight anywhere. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-105-source-0-1bc10dea-958b-4575-87af-a1160dad41a1.png",
+      "sha256": "bbcc05892aa41bd68137f5379f594513950eeee1a411a8431654183e21b8212f",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
