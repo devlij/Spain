@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for Cabo Fisterra; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From the Cabo Fisterra lighthouse, beacon glowing, above the Atlantic near 42.8830,-9.2720. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Cabo Fisterra from an elevated viewpoint — lighthouse complex with glowing beacon on the cliff edge, adjacent keepers' houses, winding approach path, dark cliffs falling to moonlit sea on the left, starry sky; recognizably the Fisterra headland, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Cabo Fisterra, Galicia', scenario '24 September 2026 · 01:35 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' all legible bottom-left on scrim; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 5 minutes before scenario, fresh. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no prominent people or logos; lighthouse and outbuildings are public maritime infrastructure; IP documented only. G5: all gates pass.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
