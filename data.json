@@ -1921,9 +1921,9 @@
       "scenario_label": "24 September 2026 · 02:00 Europe/Madrid",
       "composition": "Night · Castle from the Pradera de San Marcos, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Alcázar of Segovia at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Alcázar's ship-prow castle on the rocky crag between the Eresma and Clamores rivers is unmistakable — pointed slate spires, crenellated walls and keep all floodlit warm against dark woods; plausible night view from Mirador de la Pradera de San Marcos; clean framing, no artifacts. G2: 16:9 (1920×1080) and 4:5 (864×1080) SHA-256 both verified against packet; on-image caption 'Alcázar, Segovia', scenario '24 September 2026 · 02:00 Europe/Madrid' and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on gradient scrim, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh, no staleness. G3: packet documents text-only original generation, image_inputs empty. G4: no visible people, logos or private property — public monument at night. G5: no blockers."
     },
     {
       "entry_id": "ES-01-330",
