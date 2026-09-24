@@ -30,8 +30,8 @@
       "Official green-routes guide noting Ses Illetes and the small islets close to shore; reviewed 23 September 2026."
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:15 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Public boardwalk-to-beach approach on the western side of Punta des Trucadors, approximately 38.7590, 1.4300, low eye-level looking north along Ses Illetes shoreline. Nighttime access conditions are not asserted. · AI-generated artistic interpretation",
@@ -237,5 +237,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Gate 1: recognizably Ses Illetes, Formentera — white-sand spit curving into turquoise shallows, dune grass and rope fence, low islets on the horizon toward the Ses Illetes–Espalmador strait. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. r2 revision removed inaccurate stars — verified: night sky is clean. Night illumination is an artistic long-exposure interpretation per packet disclosure."
 }
