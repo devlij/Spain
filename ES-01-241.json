@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-241",
+  "country": "Spain",
+  "city": "Setenil de las Bodegas",
+  "region": "Andalusia",
+  "caption": "Cuevas de la Sombra, Setenil de las Bodegas",
+  "revision": "r1",
+  "viewpoint": "the Calle Cuevas de la Sombra at night, facing the rock overhang",
+  "anchors": [
+    "the massive rock overhang sheltering the cave houses",
+    "the whitewashed dwellings tucked beneath the cliff",
+    "the river and bridge lights of the canyon town"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night lighting is restrained and interpretive. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/setenil-bodegas/",
+      "Spain.info — Setenil de las Bodegas, cave houses under the rock overhang"
+    ],
+    [
+      "https://www.tripadvisor.com/Attraction_Review-g1224754-d245770-Reviews-Cuevas_de_la_Sombra-Setenil_de_las_Bodegas_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+      "Tripadvisor — Cuevas de la Sombra, Setenil's rock-overhang street"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:43 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · cave-house street under massive rock overhang at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Cuevas de la Sombra at night.",
+  "description": "From the Calle Cuevas de la Sombra, the great rock arches over the street — Setenil's cave houses tucked beneath a massive overhang of stone, the town literally living under the cliff. The river and bridge lights glint along the canyon. On a clear 22°C night, the village under the rock keeps its eight-century-old shelter.",
+  "file_16x9": "es-01-241-r1-16x9.png",
+  "file_4x5": "es-01-241-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "29fb0f020904f943c06d82e18d7cea217a58b24fe43ca9a7f3a64c7c16605f76"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "0226aedaecd9fabd48ce537cef395fcca7365cf6027f92b1d106cd06226df25a"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-241-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3213524,
+      "sha256": "29fb0f020904f943c06d82e18d7cea217a58b24fe43ca9a7f3a64c7c16605f76",
+      "source_file": "media-generation-es-01-241-source-0-b94f9f75-34c0-4397-b27d-10568c3acbe6.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cuevas de la Sombra, Setenil de las Bodegas",
+        "Scenario: 24 September 2026 · 02:43 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-241-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1567515,
+      "sha256": "0226aedaecd9fabd48ce537cef395fcca7365cf6027f92b1d106cd06226df25a",
+      "source_file": "media-generation-es-01-241-source-0-b94f9f75-34c0-4397-b27d-10568c3acbe6.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Cuevas de la Sombra, Setenil de las Bodegas",
+        "Scenario: 24 September 2026 · 02:43 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T02:42:10+02:00",
+    "valid": "2026-09-24T02:43:29+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 21.8,
+    "weather_code": 0,
+    "cloud_cover": 2,
+    "wind_speed_10m": 9.2
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:42:10+02:00, valid 2026-09-24T02:43:29+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Cuevas de la Sombra, Setenil de las Bodegas, Cádiz, Spain, at night. Tourist viewpoint: the street, facing the rock overhang. Frame: the massive rock overhang sheltering the cave houses, centered; the whitewashed dwellings tucked beneath the cliff; the river and bridge lights of the canyon town. Night light: restrained street lighting and moonlight under the overhang, starry sky, 22 degrees C. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-241-source-0-b94f9f75-34c0-4397-b27d-10568c3acbe6.png",
+      "sha256": "adf6732b922b432511a96b4ce2788946ab61b59f21c618c886cb6ac683b31b49",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
