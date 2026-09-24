@@ -1141,9 +1141,9 @@
       "scenario_label": "24 September 2026 · 01:22 Europe/Madrid",
       "composition": "Night · Cádiz rooftops and watchtowers from the Tavira terrace at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Torre Tavira at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Torre Tavira recognizably depicted — the view from the camera-obscura tower's rooftop terrace over the iron railing across Cádiz's white old-town rooftops, church towers rising between them, the golden-domed cathedral floodlit in the distance and the bay's lights beyond; plausible terrace viewpoint matching the scene brief; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Torre Tavira, Cádiz', scenario '24 September 2026 · 01:22 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:20:58 valid 01:22:26 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted. Packet is honest that the tower is closed at the scenario hour, so this is an imagined night view — disclosed, not presented as possible in reality. Gate 5: no blockers."
     },
     {
       "entry_id": "ES-01-211",
