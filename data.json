@@ -1219,9 +1219,9 @@
       "scenario_label": "24 September 2026 · 01:28 Europe/Madrid",
       "composition": "Night · cathedral front from the plaza at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Baeza Cathedral at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night view of Baeza Cathedral, Jaén from Plaza de Santa María: the Renaissance façade with its carved Plateresque portal, the Santa María fountain with twisted columns and coat of arms in the foreground, lit bell tower at right, cypresses and warm streetlamps framing the plaza. Gate 1 (visual/location): recognizable cathedral front and fountain from a plausible plaza viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Baeza Cathedral, Jaén', scenario '24 September 2026 · 01:28 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:27:03+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; exact illumination arrangement unverified per packet limitations."
     },
     {
       "entry_id": "ES-01-217",
