@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-354",
+  "country": "Spain",
+  "city": "Hondarribia",
+  "region": "Basque Country",
+  "caption": "Old Town, Hondarribia",
+  "revision": "r1",
+  "viewpoint": "Old town near the Santa María gate (approx 43.3671N, 1.7939W)",
+  "anchors": [
+    "Illuminated medieval Castle of Carlos V",
+    "Cobbled Plaza de Armas and old town walls",
+    "Gothic church silhouette and dark Bidasoa estuary"
+  ],
+  "limitations": "Night illumination of the Castle of Carlos V is supported by photographic records, but is not verified for this specific hour. Castle and wall detail are interpretive. Camera point in the old town is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://www.gettyimages.no/photos/hondarribia-spain",
+      "Getty Images record: 'Hondarribia, illuminated medieval castle of Carlos V at dusk'"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/Hondarribia",
+      "Encyclopedia: Hondarribia, Basque walled town on the Bidasoa estuary, ancient old quarter with walls and a castle"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 05:20 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Walled old town from the plaza, glowing castle above the walls · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the walled old town of Hondarribia at night.",
+  "description": "At night the walled old town of Hondarribia glows softly — the medieval Castle of Carlos V illuminated above the cobbled Plaza de Armas, the old town walls and Gothic church silhouetted, the Bidasoa estuary dark beyond with France a boat ride away. Gipuzkoa's best-preserved walled town keeps its festive Basque charm after dark.",
+  "file_16x9": "es-01-354-r1-16x9.png",
+  "file_4x5": "es-01-354-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9fb3bfaacb55ebb04bacb74675e2b9ba142034dd913b281a59a2361c2961fe5c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "45506b8806f6c791d9ed5452b24a7a755441e4d5ac6f8c4c5373f2974ddbcb03"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-354-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 3059371,
+      "sha256": "9fb3bfaacb55ebb04bacb74675e2b9ba142034dd913b281a59a2361c2961fe5c",
+      "source_file": "media-generation-es-01-354-source-0-95a8831a-0de2-4966-84f6-a76442a91931.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old Town, Hondarribia",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-354-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1454261,
+      "sha256": "45506b8806f6c791d9ed5452b24a7a755441e4d5ac6f8c4c5373f2974ddbcb03",
+      "source_file": "media-generation-es-01-354-source-0-95a8831a-0de2-4966-84f6-a76442a91931.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Old Town, Hondarribia",
+        "Scenario: 24 September 2026 · 05:20 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the walled old town of Hondarribia, Basque Country, Spain, at night. The medieval Castle of Carlos V illuminated at night, glowing warm stone above the cobbled Plaza de Armas, the old town walls and Gothic church silhouette, fishing boats and the Bidasoa estuary dark beyond. Basque fishing town, historic charm. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-354-source-0-95a8831a-0de2-4966-84f6-a76442a91931.png",
+      "sha256": "f875573b5c379f9b42b9a5f12bbb0c9441fc18aef33f7372535a9a70e6de6bdc",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
