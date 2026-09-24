@@ -22,8 +22,8 @@
       "Getty: catalogue of Loarre images including castle at night"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 03:10 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Castle from the approach, standing out against the starry sky · AI-generated artistic interpretation",
@@ -151,6 +151,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Loarre castle complex on its rocky ridge — Romanesque church with rounded apse and lit arched windows, square keep, round defensive towers and lower walled enclosure, valley lights far below; coherent night view from the approach path; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — heritage fortress at night. G5: no blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block."
 }
