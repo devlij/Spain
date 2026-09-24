@@ -2545,9 +2545,9 @@
       "scenario_label": "24 September 2026 · 01:47 Europe/Madrid",
       "composition": "Night · From El Capricho in Comillas, the Gaudí villa in silhouette near 43.3870,-4.2870. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of El Capricho, Comillas at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Gaudí's El Capricho rendered as a dark villa silhouette in the Comillas garden, its signature tile-clad tower with red-green ceramic checkerwork and arched colonnade visible against a moonlit starry sky — recognizable, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'El Capricho, Comillas', 'Scenario: 24 September 2026 · 01:47 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 2 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; distinctive private building rendered as honest generic night treatment — commercial clearance documented only, final call is Jason's. G5: all gates closed."
     },
     {
       "entry_id": "ES-01-319",
