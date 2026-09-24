@@ -2129,9 +2129,9 @@
       "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
       "composition": "Night · From within the dune field near 27.7407,-15.5860, looking inland across rippled crests toward the palm oasis and the sea. Approximate point only; moon position artistic; no claim of nighttime access. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Dunas de Maspalomas, Gran Canaria at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Night Dunas de Maspalomas: wind-rippled crescent dunes in the foreground, a palm oasis silhouette left, the sea catching a crescent-moon path on the horizon right under a star field; on-image text verified: caption 'Dunas de Maspalomas, Gran Canaria', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:00+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; moon position and phase artistic per packet limitations (documented only)."
     },
     {
       "entry_id": "ES-01-287",
