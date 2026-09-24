@@ -1531,9 +1531,9 @@
       "scenario_label": "24 September 2026 · 01:23 Europe/Madrid",
       "composition": "Night · Still lake and fishing huts under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Lake Banyoles, Banyoles at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — from the western shore, traditional stilt pesquera huts line the water's edge bottom-left, the glassy lake mirrors a starry sky with a thin moonlight path on the water, tree-lined far shore and faint Banyoles town lights behind; calm, clean, no artifacts. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Lake Banyoles, Banyoles', 'Scenario: 24 September 2026 · 01:23 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 8 min before the 01:23 scenario, fresh. Gate 3 PASS — text-only generation, zero photo inputs. Gate 4 — no people, logos, or private property; not legally certified. Gate 5 — no blockers."
     },
     {
       "entry_id": "ES-01-259",
