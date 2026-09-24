@@ -3182,9 +3182,9 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · the old port town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Old town, Garachico at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the San Miguel castle on the Garachico shoreline, the old-town bell tower, and the lit historic street with the offshore rock islet are recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
     },
     {
       "entry_id": "ES-01-041",
