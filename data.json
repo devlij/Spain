@@ -1583,9 +1583,9 @@
       "scenario_label": "24 September 2026 · 01:26 Europe/Madrid",
       "composition": "Night · Stone village glowing under the Tramuntana at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Valldemossa, Valldemossa at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — honey-colored stone houses with green shutters and terracotta roofs cluster below the viewpoint, warm windows glowing, the bell tower of the Carthusian monastery rising above the rooftops, dark Tramuntana silhouette behind under a starry sky; plausible mirador viewpoint, clean framing. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Valldemossa, Valldemossa', 'Scenario: 24 September 2026 · 01:26 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 11 min before scenario, fresh; window/lamp light only, no floodlighting claimed. Gate 3 PASS — text-only generation, no photo inputs. Gate 4 — no people, logos, or recognizable private property visible; not legally certified. Gate 5 — no blockers."
     },
     {
       "entry_id": "ES-01-263",
