@@ -2038,9 +2038,9 @@
       "scenario_label": "24 September 2026 · 03:10 Europe/Madrid",
       "composition": "Night · Castle from the approach, standing out against the starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Castle of Loarre at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1: Loarre castle complex on its rocky ridge — Romanesque church with rounded apse and lit arched windows, square keep, round defensive towers and lower walled enclosure, valley lights far below; coherent night view from the approach path; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — heritage fortress at night. G5: no blockers."
     },
     {
       "entry_id": "ES-01-224",
