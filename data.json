@@ -2051,9 +2051,9 @@
       "scenario_label": "24 September 2026 · 01:41 Europe/Madrid",
       "composition": "Night · white pilgrimage sanctuary over the marsh at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of El Rocío at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: whitewashed Ermita del Rocío sanctuary with twin bell towers, wings of low village houses, marsh water and reeds in the foreground, stone-pine treeline behind, full moon and stars — recognizably El Rocío village from the marsh side, plausible night viewpoint; no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'El Rocío, Almonte', scenario '24 September 2026 · 01:41 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:38:39 valid 01:41:33 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-225",
