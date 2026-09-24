@@ -1752,9 +1752,9 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · Lit high-rise cluster behind the dark beach · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Benidorm skyline, Benidorm at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: the 16:9 master shows Benidorm's illuminated high-rise skyline — twin towers, curved residential slabs and the lit promenade — stretching along the moonlit beach with column reflections in the water and the dark silhouette of Benidorm Island offshore, a recognizable night view from the southern headland. Gate 2: masters 1920×1080/864×1080 with SHA-256 matching the packet; on-image caption 'Benidorm skyline, Benidorm', scenario '24 September 2026 · 01:33 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left; 'Jason D's Vision' with curly apostrophe bottom-right; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00, valid 01:30, consistent with the 01:33 scenario. Gate 3: provenance documents text-only original generation, image_inputs empty, no photographic inputs. Gate 4: no visible people or logos; city lightscape only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-276",
