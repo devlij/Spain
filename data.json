@@ -1310,9 +1310,9 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · theatre from the upper park at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Roman Theatre at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Roman Theatre of Cartagena with its semicircular stone cavea tiers rising right, cypress trunks framing the left edge, Cartagena harbor and city lights behind, moon through cloud; recognizably the theatre from a plausible overlook viewpoint; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Roman Theatre, Cartagena', scenario '24 September 2026 · 01:33 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:30:46 valid 01:33:28 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-242",
