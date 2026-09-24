@@ -16,8 +16,8 @@
     "https://tomaandcoe.com/blog/renaissance-splendour-in-jaen-ubeda-and-baeza/",
     "https://mappingspain.com/why-you-have-to-visit-ubeda-and-baeza/"
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:28 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · cathedral front from the plaza at night · AI-generated artistic interpretation",
@@ -147,6 +147,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Night view of Baeza Cathedral, Jaén from Plaza de Santa María: the Renaissance façade with its carved Plateresque portal, the Santa María fountain with twisted columns and coat of arms in the foreground, lit bell tower at right, cypresses and warm streetlamps framing the plaza. Gate 1 (visual/location): recognizable cathedral front and fountain from a plausible plaza viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Baeza Cathedral, Jaén', scenario '24 September 2026 · 01:28 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:27:03+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; exact illumination arrangement unverified per packet limitations.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
