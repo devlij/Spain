@@ -2779,9 +2779,9 @@
       "scenario_label": "24 September 2026 · 02:19 Europe/Madrid",
       "composition": "Night · iconic gorge bridge with river far below at night · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Puente Nuevo at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: Puente Nuevo, Ronda recognizably depicted spanning the El Tajo gorge with whitewashed town both sides, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public landmark only; documented only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-233",
