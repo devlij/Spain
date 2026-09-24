@@ -2246,9 +2246,9 @@
       "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
       "composition": "Night · From the Puerto de la Cruz waterfront, promenade lamps and town lights above the dark sea near 28.4167,-16.5480. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Puerto de la Cruz, Tenerife at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "G1 visual: the 16:9 master recognizably renders the Puerto de la Cruz waterfront at night — the stone promenade curving along the shore with lit lamps leading the eye, rows of buildings whose warm lights climb the dark hillside above, the moonlit sea carrying a trembling moonlight path; clean waterfront composition, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Puerto de la Cruz, Tenerife', scenario '24 September 2026 · 01:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:24 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; lighting honestly generic town/street lighting with no floodlighting claimed."
     },
     {
       "entry_id": "ES-01-296",
