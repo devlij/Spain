@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-362",
+  "country": "Spain",
+  "city": "Alcalá de Henares",
+  "region": "Community of Madrid",
+  "caption": "University, Alcalá de Henares",
+  "revision": "r1",
+  "viewpoint": "Plaza before the university façade (approx 40.4827N, 3.3635W)",
+  "anchors": [
+    "Plateresque façade warmly illuminated at night",
+    "Renaissance courtyard arcades lit softly",
+    "Quiet old university city under a deep blue sky"
+  ],
+  "limitations": "The university façade's night illumination is not documented for this specific hour, so the scene uses a warm lit treatment without claiming a specific lighting scheme. Detail is interpretive. Camera point before the façade is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://medium.com/@planetofhotels/in-search-of-don-quixote-day-trip-to-cervantes-hometown-from-madrid-07cf4e208cde",
+      "Planet of Hotels: University of Alcalá — Plateresque façade and the hall where the Cervantes Prize is awarded"
+    ],
+    [
+      "https://en.wikipedia.org/wiki/Alcal%C3%A1_de_Henares",
+      "Wikipedia: Alcalá de Henares — UNESCO World Heritage, birthplace of Cervantes, university founded 1499"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 06:24 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · University façade from the plaza, illuminated front and cloister · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the University of Alcalá at night.",
+  "description": "At night the University of Alcalá glows — its Plateresque façade warmly lit, the Renaissance courtyard arcades soft with lantern light, the UNESCO-listed old university city quiet under a deep blue sky. Founded in 1499, Spain's first planned university city keeps its scholarly calm after dark.",
+  "file_16x9": "es-01-362-r1-16x9.png",
+  "file_4x5": "es-01-362-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "86b116c8a248187ac76fe7ff08492d14299248bdb06d64ebbb08dc8bf23754fa"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6b73f49aa501b468e6777acd6d8a078a8e2bf1e49544a16e72724a4bdfcf75b2"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-362-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2721544,
+      "sha256": "86b116c8a248187ac76fe7ff08492d14299248bdb06d64ebbb08dc8bf23754fa",
+      "source_file": "media-generation-es-01-362-source-0-23f387d3-e315-4bba-8206-6f1982673bdb.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "University, Alcalá de Henares",
+        "Scenario: 24 September 2026 · 06:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-362-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1349474,
+      "sha256": "6b73f49aa501b468e6777acd6d8a078a8e2bf1e49544a16e72724a4bdfcf75b2",
+      "source_file": "media-generation-es-01-362-source-0-23f387d3-e315-4bba-8206-6f1982673bdb.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "University, Alcalá de Henares",
+        "Scenario: 24 September 2026 · 06:24 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the University of Alcalá in Alcalá de Henares, Spain, at night. The historic university's Plateresque façade warmly illuminated at night, the Renaissance courtyard arcades lit softly, lanterns along the cloister, the old university city quiet under a deep blue sky. No identifiable people. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-362-source-0-23f387d3-e315-4bba-8206-6f1982673bdb.png",
+      "sha256": "b61466dcc0e4eed8086304e9aaa2dd0da5db94411b72f49b96ed025c1b8249a4",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
