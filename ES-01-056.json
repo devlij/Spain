@@ -1,0 +1,151 @@
+{
+  "entry_id": "ES-01-056",
+  "country": "Spain",
+  "city": "Clavijo",
+  "region": "La Rioja",
+  "caption": "Clavijo Castle, Clavijo",
+  "revision": "r1",
+  "viewpoint": "the valley approach, looking up at the crag",
+  "anchors": [
+    "the castle of Clavijo on its crag over the Rioja",
+    "the legendary battlefield of the Reconquista",
+    "the Ebro valley spreading below"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Replacement for a duplicate site — independently written. Legendary history stated as tradition.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Clavijo",
+      "Wikipedia — Clavijo, La Rioja"
+    ],
+    [
+      "https://www.spain.info/en/region/la-rioja/",
+      "spain.info — official Spain tourism, La Rioja region page (official lariojaturismo.com unreachable from builder network)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:07 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the crag castle · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Clavijo Castle, Clavijo at night.",
+  "description": "Clavijo's castle crowns its crag over the Rioja — the legendary field of the battle where Santiago became Spain's patron. A clear night over the town. The Ebro valley spreads below the walls.",
+  "file_16x9": "es-01-056-r1-16x9.png",
+  "file_4x5": "es-01-056-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f7b6b221b1845579f0c24b71f38c511dcebcdcf5100d4a808f057d19a79aba45"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "13634e5ad4cd3d88a7b9107f3fe66de610c20407f8c5df99c7ad867bb185529f"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-056-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2309330,
+      "sha256": "f7b6b221b1845579f0c24b71f38c511dcebcdcf5100d4a808f057d19a79aba45",
+      "source_file": "es-01-056-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Clavijo Castle, Clavijo",
+        "Scenario: 24 September 2026 · 04:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-056-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1253782,
+      "sha256": "13634e5ad4cd3d88a7b9107f3fe66de610c20407f8c5df99c7ad867bb185529f",
+      "source_file": "es-01-056-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Clavijo Castle, Clavijo",
+        "Scenario: 24 September 2026 · 04:07 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:07:37.808827+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:07:37.808827+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Clavijo Castle, La Rioja, Spain. Tourist viewpoint: the valley approach, looking up at the crag. Frame: the castle of Clavijo on its crag over the Rioja; the fortress walls; the Ebro valley spreading below. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "es-01-056-r1.png",
+      "sha256": "1b83b71f6faa105ee5ecdfdddd56f1d246f07e7d3beb2f9dd9154167117a7227",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

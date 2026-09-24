@@ -1,0 +1,151 @@
+{
+  "entry_id": "ES-01-059",
+  "country": "Spain",
+  "city": "Briones",
+  "region": "La Rioja",
+  "caption": "Briones, Briones",
+  "revision": "r1",
+  "viewpoint": "the valley approach below the village, looking up at the hilltop",
+  "anchors": [
+    "the hilltop village of Briones with its stone houses",
+    "the church of Nuestra Señora de la Asunción above the rooftops",
+    "the Ebro valley and vineyards spreading below"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Briones,_La_Rioja",
+      "Wikipedia — Briones, hilltop village in La Rioja"
+    ],
+    [
+      "https://www.spain.info/en/region/la-rioja/",
+      "spain.info — official Spain tourism, La Rioja region page (official lariojaturismo.com unreachable from builder network)"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:09 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the hilltop village over the Ebro valley · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Briones, Briones at night.",
+  "description": "Briones crowns its hill above the Ebro, a compact village of stone houses gathered around the church of Nuestra Señora de la Asunción. A clear night over the town. Below, the river valley spreads out in vineyards — classic Rioja Alta country.",
+  "file_16x9": "es-01-059-r1-16x9.png",
+  "file_4x5": "es-01-059-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "43d855dde9cf0db9d81dae9693832d0435a62dfe161a59ee22c4ecfe168706bf"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "a4a4a080670630f10d2c4fefa62e560d30462b15527847a5baf779fe5b9f5f9f"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-059-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2460079,
+      "sha256": "43d855dde9cf0db9d81dae9693832d0435a62dfe161a59ee22c4ecfe168706bf",
+      "source_file": "es-01-059-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Briones, Briones",
+        "Scenario: 24 September 2026 · 04:09 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-059-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1234762,
+      "sha256": "a4a4a080670630f10d2c4fefa62e560d30462b15527847a5baf779fe5b9f5f9f",
+      "source_file": "es-01-059-r1.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Briones, Briones",
+        "Scenario: 24 September 2026 · 04:09 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:09:20.649051+02:00",
+    "valid": "2026-09-24T04:00 Europe/Madrid",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:09:20.649051+02:00, valid 2026-09-24T04:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Briones, La Rioja, Spain. Tourist viewpoint: the valley approach below the village, looking up at the hilltop. Frame: the hilltop village of Briones with its stone houses; the church of Nuestra Señora de la Asunción above the rooftops; the Ebro valley and vineyards spreading below. Light and weather: clear night, light winds. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "es-01-059-r1.png",
+      "sha256": "8926c402fa4a2545c7755df9a3c8fa2acf1cd828409777bb7262e698959c9ff6",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
