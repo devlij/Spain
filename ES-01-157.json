@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-157",
+  "country": "Spain",
+  "city": "Cartagena",
+  "region": "Murcia",
+  "caption": "La Manga, Cartagena",
+  "revision": "r1",
+  "viewpoint": "the beach at the strip's midpoint, looking along its length",
+  "anchors": [
+    "the long strip of La Manga between Mar Menor and Mediterranean",
+    "the calm lagoon water on one side",
+    "the open sea beaches on the other"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/La_Manga",
+      "Wikipedia — La Manga del Mar Menor"
+    ],
+    [
+      "https://www.turismoregiondemurcia.es",
+      "Official Murcia tourism portal — verify the La Manga listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:34 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the strip between two seas · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of La Manga at night.",
+  "description": "La Manga is a 22-kilometer strip between two seas — the calm Mar Menor lagoon on one side, the open Mediterranean on the other. A partly cloudy night, light breeze over the Mar Menor. From above, the thin line of land between the waters is unmistakable.",
+  "file_16x9": "es-01-157-r1-16x9.png",
+  "file_4x5": "es-01-157-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1636246b18ab6c5e4544840279ed080437d382d183055fd5a0a8d15a17979a13"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "9043f3f44b603e4de4c954fe48ef5de3da2eddc8323f49924eab882a5fb8100b"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-157-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2067405,
+      "sha256": "1636246b18ab6c5e4544840279ed080437d382d183055fd5a0a8d15a17979a13",
+      "source_file": "media-generation-es-01-157-source-0-bd1636b7-faaa-48c1-816f-b1dc8293e77f.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "La Manga, Cartagena",
+        "Scenario: 24 September 2026 · 04:34 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-157-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1269680,
+      "sha256": "9043f3f44b603e4de4c954fe48ef5de3da2eddc8323f49924eab882a5fb8100b",
+      "source_file": "media-generation-es-01-157-source-0-bd1636b7-faaa-48c1-816f-b1dc8293e77f.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "La Manga, Cartagena",
+        "Scenario: 24 September 2026 · 04:34 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:33:22+02:00",
+    "valid": "2026-09-24T04:30 Europe/Madrid",
+    "phrase": "partly cloudy night, light breeze",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:33:22+02:00, valid 2026-09-24T04:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of La Manga del Mar Menor near Cartagena, Murcia, Spain. Tourist viewpoint: the beach at the strip's midpoint, looking along its length. Frame: the long strip of La Manga between Mar Menor and Mediterranean; the calm lagoon water on one side; the open sea beaches on the other. Light and weather: partly cloudy night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-157-source-0-bd1636b7-faaa-48c1-816f-b1dc8293e77f.png",
+      "sha256": "563b8805f3abb1aa5a66f52406fdf7047bd7d4b0fbd19f3795751b2298fcb954",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}

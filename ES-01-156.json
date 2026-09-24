@@ -1,0 +1,152 @@
+{
+  "entry_id": "ES-01-156",
+  "country": "Spain",
+  "city": "Caravaca de la Cruz",
+  "region": "Murcia",
+  "caption": "Caravaca de la Cruz, Caravaca de la Cruz",
+  "revision": "r1",
+  "viewpoint": "the old town approach, looking up at the sanctuary hill",
+  "anchors": [
+    "Caravaca's basilica-sanctuary on its hilltop",
+    "the old town below the sanctuary",
+    "the pilgrimage cross of Caravaca's tradition"
+  ],
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. Religious tradition stated as such, not depicted fact.",
+  "refs": [
+    [
+      "https://en.wikipedia.org/wiki/Caravaca_de_la_Cruz",
+      "Wikipedia — Caravaca de la Cruz, Holy City"
+    ],
+    [
+      "https://www.turismoregiondemurcia.es",
+      "Official Murcia tourism portal — verify the Caravaca listing before use"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:33 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · the sanctuary hill · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Caravaca de la Cruz at night.",
+  "description": "Caravaca de la Cruz — one of five Holy Cities of Catholicism — keeps its basilica-sanctuary on the hilltop over the old town. A clear night, light breeze over Caravaca. Pilgrims have climbed to its Vera Cruz for centuries.",
+  "file_16x9": "es-01-156-r1-16x9.png",
+  "file_4x5": "es-01-156-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "da970f2a689f4f7cf907b54d2183b035919c69abf6de75ce2867ea79a91b37a1"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "b5440258e450aa8d2635d0526cf47078c4498799032bd2c208d00fb47a286464"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-156-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2567373,
+      "sha256": "da970f2a689f4f7cf907b54d2183b035919c69abf6de75ce2867ea79a91b37a1",
+      "source_file": "media-generation-es-01-156-source-0-69766ebf-8855-4236-87b2-da53c70e5e4b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Caravaca de la Cruz, Caravaca de la Cruz",
+        "Scenario: 24 September 2026 · 04:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-156-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1249063,
+      "sha256": "b5440258e450aa8d2635d0526cf47078c4498799032bd2c208d00fb47a286464",
+      "source_file": "media-generation-es-01-156-source-0-69766ebf-8855-4236-87b2-da53c70e5e4b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Caravaca de la Cruz, Caravaca de la Cruz",
+        "Scenario: 24 September 2026 · 04:33 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "provider": "Open-Meteo",
+    "retrieved": "2026-09-24T04:32:31+02:00",
+    "valid": "2026-09-24T04:30 Europe/Madrid",
+    "phrase": "clear night, light breeze",
+    "note": "Model data — not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T04:32:31+02:00, valid 2026-09-24T04:30 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of Caravaca de la Cruz, Murcia, Spain. Tourist viewpoint: the old town approach, looking up at the sanctuary hill. Frame: Caravaca's basilica-sanctuary on its hilltop; the old town below the sanctuary; the pilgrim route climbing the hill. Light and weather: clear night, light breeze. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-156-source-0-69766ebf-8855-4236-87b2-da53c70e5e4b.png",
+      "sha256": "f37b656c5004c8101f6e632a576802a429971cde1ed8b54ea8aa5d49939f6f59",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
