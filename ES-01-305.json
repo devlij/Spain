@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for the Tower of Hercules; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:35 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From the Tower of Hercules, beacon glowing, near 43.3859,-8.4064. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Night view of the Tower of Hercules from the headland park — full rectangular Roman-era tower centered in frame with its rotating beacon glowing at the top, circular walled base at bottom, dark sea and rocky headland on both sides; clean framing, no cropping issue, no artifacts. G2: sweep MECHANICAL PASS (1920x1080 and 864x1080, SHA-256 match); on-image caption 'Tower of Hercules, A Coruña', scenario '24 September 2026 · 01:35 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on gradient scrim; 'Jason D's Vision' signature bottom-right with curly apostrophe; Open-Meteo weather retrieved 2026-09-24T01:30+02:00, 5 minutes before the scenario hour — fresh, not stale; clear starry sky matches 0% model cloud. G3: packet provenance image_inputs=[] — text-only original generation, no photographic inputs reported. G4: no prominent people, logos, or private property — public lighthouse monument; IP documented only. G5: all gates pass.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
