@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for Telde and its basilica, verified 24 September 2026; complementary encyclopedic reference."
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From the Basilica of San Juan Bautista, rising over the Plaza de San Juan near 28.0030,-15.4180. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "G1: Telde's Basilica of San Juan Bautista reads recognizably — whitewashed facade with twin clock bell towers, lit windows and wooden portal, warm plaza lamps and a receding old-town street at right, starry sky above; the twin-tower facade arrangement is interpretive per the packet's limitations, framing is clean. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Telde, Gran Canaria', scenario '24 September 2026 · 01:33 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:30, valid 01:30 — fresh, not reused. G3: text-only generation, image_inputs empty. G4: no visible people, no logos; public plaza church. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
