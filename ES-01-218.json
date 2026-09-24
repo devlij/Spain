@@ -16,8 +16,8 @@
     "https://veganderlust.com/things-to-do-in-almeria-spain/",
     "https://www.tripadvisor.ca/AttractionProductReview-g187429-d20186327-Alcazaba_of_Almeria-Almeria_Province_of_Almeria_Andalucia.html"
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:28 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · fortress from the city at night · AI-generated artistic interpretation",
@@ -147,6 +147,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Cosmo QC five-gate audit PASS: (1) visual/location — captioned site recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts; (2) technical — 1920x1080/864x1080 masters, SHA-256 matches, exact 'Jason D\\u2019s Vision' signature bottom-right and caption + scenario timestamp + 'AI-generated artistic interpretation' disclosure bottom-left on gradient scrim; (3) originality — packet reports text-only generation, no photographic inputs; (4) IP — visible people/logos/private property documented only, none notable; (5) publication-ready, no open blockers. Scenario is a modelled scenario, not a verified capture.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
 }
