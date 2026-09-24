@@ -1,0 +1,156 @@
+{
+  "entry_id": "ES-01-239",
+  "country": "Spain",
+  "city": "Tarifa",
+  "region": "Andalusia",
+  "caption": "Isla de Tarifa, Tarifa",
+  "revision": "r1",
+  "viewpoint": "the causeway at night, facing the lighthouse and castle across the strait",
+  "anchors": [
+    "the lighthouse and the walls of the Castillo de Santa Catalina on the island",
+    "the Strait of Gibraltar with Tangier's lights on the far shore",
+    "the kite-swept beaches of Los Lances curving away"
+  ],
+  "limitations": "Text-only generation; no photographic input. Night lighting is restrained and interpretive. Exact camera position unverified.",
+  "refs": [
+    [
+      "https://www.spain.info/en/places-of-interest/isla-de-tarifa/",
+      "Spain.info — Isla de Tarifa, southernmost point of continental Europe, lighthouse and Santa Catalina castle"
+    ],
+    [
+      "https://www.tripadvisor.com/Attraction_Review-g187441-d245767-Reviews-Isla_de_Tarifa-Tarifa_Costa_de_la_Luz_Andalucia.html",
+      "Tripadvisor — Isla de Tarifa and the strait with views to Africa"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 02:31 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · lighthouse island at Europe's edge over the strait at night · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Isla de Tarifa at night.",
+  "description": "From the causeway, the Isla de Tarifa stands at the southern edge of Europe — the lighthouse and the walls of Santa Catalina's castle against the night, the Strait of Gibraltar breathing between two continents. Across the water, Tangier's lights glimmer on the African shore. On a clear 24°C night with the levante wind, the wind capital keeps its double watch.",
+  "file_16x9": "es-01-239-r1-16x9.png",
+  "file_4x5": "es-01-239-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e17d55272195b2f6b8890e5bfff60e82fada2cf073feb36d5ff8171fd2d6ef25"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "6b133943ea69fb9bfcf37b97ff6574e2c960845588e871d6df7f79f34b802397"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-239-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2059417,
+      "sha256": "e17d55272195b2f6b8890e5bfff60e82fada2cf073feb36d5ff8171fd2d6ef25",
+      "source_file": "media-generation-es-01-239-source-0-64fb6091-322b-49f1-af6c-c6fe6132d391.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Isla de Tarifa, Tarifa",
+        "Scenario: 24 September 2026 · 02:31 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-239-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1096029,
+      "sha256": "6b133943ea69fb9bfcf37b97ff6574e2c960845588e871d6df7f79f34b802397",
+      "source_file": "media-generation-es-01-239-source-0-64fb6091-322b-49f1-af6c-c6fe6132d391.png",
+      "source_dimensions": [
+        1920,
+        1280
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Isla de Tarifa, Tarifa",
+        "Scenario: 24 September 2026 · 02:31 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1920, 1280]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "retrieved": "2026-09-24T02:29:06+02:00",
+    "valid": "2026-09-24T02:31:18+02:00",
+    "provider": "Open-Meteo",
+    "api": "https://api.open-meteo.com/v1/forecast",
+    "is_day": 0,
+    "temperature_2m": 23.5,
+    "weather_code": 0,
+    "cloud_cover": 0,
+    "wind_speed_10m": 24.3
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T02:29:06+02:00, valid 2026-09-24T02:31:18+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic original artistic interpretation (not a photograph) of the Isla de Tarifa, Tarifa, Cádiz, Spain, at night. Tourist viewpoint: the causeway, facing the lighthouse and castle across the strait. Frame: the lighthouse and the walls of the Castillo de Santa Catalina on the island, centered; the Strait of Gibraltar with Tangier's lights on the far shore; the kite-swept beaches of Los Lances curving away. Night light: restrained lighthouse beam and moonlight, sea reflections, Tangier's lights across the strait, starry sky, 24 degrees C, wind. Main subject centered to survive a 4:5 center crop. No identifiable people, no legible logos, no text, lettering or signs anywhere in the image. Keep the lower third clean and uncluttered."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-239-source-0-64fb6091-322b-49f1-af6c-c6fe6132d391.png",
+      "sha256": "a6b1023d90ceb1a22b107a8336c358f10464123f544650d076794a1140476bc3",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1920, 1280]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
