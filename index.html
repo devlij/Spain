@@ -424,9 +424,8 @@
   var overlay=document.createElement('div');
   overlay.className='lb';overlay.setAttribute('aria-hidden','true');
   overlay.innerHTML='<button class="lb-close" aria-label="Close">&times;</button>'
-    +'<button class="lb-prev" aria-label="Previous image">&#8592;</button>'
-    +'<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
-    +'<button class="lb-next" aria-label="Next image">&#8594;</button>';
+    +'<figure><div class="lb-navrow"><button class="lb-prev" aria-label="Previous image">&#8592;</button><span class="lb-count"></span><button class="lb-next" aria-label="Next image">&#8594;</button></div>'
+    +'<img alt=""><figcaption><span class="lb-cap"></span></figcaption></figure>';
   document.body.appendChild(overlay);
   var img=overlay.querySelector('img'),cap=overlay.querySelector('.lb-cap'),count=overlay.querySelector('.lb-count');
   var items=[],idx=0;
@@ -473,11 +472,11 @@
   function build(){
     overlay=document.createElement('div');
     overlay.className='lb'; overlay.setAttribute('role','dialog'); overlay.setAttribute('aria-modal','true');
-    overlay.innerHTML='<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
-      +'<button type="button" class="lb-close" aria-label="Close">&times;</button>'
-      +'<button type="button" class="lb-prev" aria-label="Previous image">&lsaquo;</button>'
-      +'<button type="button" class="lb-next" aria-label="Next image">&rsaquo;</button>'
-      +'<button type="button" class="lb-play" aria-label="Play slideshow">▶</button>';
+    overlay.innerHTML='<figure><div class="lb-navrow"><button type="button" class="lb-prev" aria-label="Previous image">&lsaquo;</button><span class="lb-count"></span><button type="button" class="lb-next" aria-label="Next image">&rsaquo;</button></div>'
+      +'<img alt="">'
+      +'<div class="lb-playrow"><button type="button" class="lb-play" aria-label="Play slideshow">▶</button></div>'
+      +'<figcaption><span class="lb-cap"></span></figcaption></figure>'
+      +'<button type="button" class="lb-close" aria-label="Close">&times;</button>';
     document.body.appendChild(overlay);
     imgEl=overlay.querySelector('img'); capEl=overlay.querySelector('.lb-cap'); countEl=overlay.querySelector('.lb-count');
     overlay.querySelector('.lb-close').addEventListener('click', close);
