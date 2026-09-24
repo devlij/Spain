@@ -30,8 +30,8 @@
       "UNESCO Serra de Tramuntana cultural landscape description; retrieved 23 September 2026."
     ]
   ],
-  "status": "Candidate · Awaiting Cosmo QC",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 01:14 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Public roadside overlook on the Ma-10 southeast of Deià, approximately 39.7458, 2.6505, looking northwest across the terraced hillside village toward Sant Joan Baptista church and the Tramuntana slope. Exact generated camera correspondence is approximate. · AI-generated artistic interpretation",
@@ -221,5 +221,6 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "reference_evidence": []
+  "reference_evidence": [],
+  "approval_basis": "Gate 1: recognizably Deià at night — ochre limestone houses stepping up terraced hillside, Sant Joan Baptista church and bell tower crowning the settlement, Serra de Tramuntana rock enclosing it, matching the documented Ma-10 overlook composition. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching review packet; exact caption/scenario/AI-disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork as focal subjects — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
 }
