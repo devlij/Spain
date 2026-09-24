@@ -3078,9 +3078,9 @@
       "scenario_label": "24 September 2026 · 06:00 Europe/Madrid",
       "composition": "Night · Fortress from the port side, illuminated bastions and lighthouse beam · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Melilla la Vieja fortress at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Five-gate Cosmo audit completed on byte-verified masters. Gate 1 (visual/location): the captioned site is recognizably depicted from a plausible tourist viewpoint with clean framing and no artifacts; night scenario is interpretive as the review packet documents. Gate 2 (technical): both PNGs at exact dimensions with SHA-256 matching the review packet; exact ‘Jason D’s Vision’ signature bottom-right, and exact caption, scenario timestamp and AI disclosure bottom-left on the scrim, all legible. Gate 3 (originality/provenance): review packet documents text-only generation with no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or recognizable private property noted; nothing certified clean — final commercial-use call remains Jason’s. Gate 5: all gates pass with no open blockers."
     },
     {
       "entry_id": "ES-01-360",
