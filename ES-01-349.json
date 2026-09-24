@@ -1,0 +1,154 @@
+{
+  "entry_id": "ES-01-349",
+  "country": "Spain",
+  "city": "Madrid",
+  "region": "Madrid",
+  "caption": "Crystal Palace, Retiro",
+  "revision": "r1",
+  "viewpoint": "Small lake before the palace, facing the dome (approx 40.4135N, 3.6821W)",
+  "anchors": [
+    "Glass-and-iron Palacio de Cristal glowing at night",
+    "Small lake reflecting the palace",
+    "Dark park trees around the palace"
+  ],
+  "limitations": "Night illumination of the palace is supported by photographic records, but is not verified for this specific hour. Glass and reflection detail are interpretive. Camera point at the lake is a conventional viewpoint, not map-verified.",
+  "refs": [
+    [
+      "https://www.alamy.com/night-view-of-crystal-palace-or-palacio-de-cristal-in-retiro-park-in-madrid-spain-image331516623.html",
+      "Alamy stock record: 'Night view of Crystal Palace or Palacio de cristal in Retiro Park in Madrid, Spain'"
+    ],
+    [
+      "https://evendo.com/locations/spain/castile-la-mancha/landmark/palacio-de-cristal",
+      "Evendo guide: 1887 iron-and-glass palace in Retiro, built for the Philippines Exhibition, now Reina Sofía art space"
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 04:40 Europe/Madrid",
+  "time_of_day": "Night",
+  "composition": "Night · Palace from the lake, glowing glass dome reflected in the water · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of the Crystal Palace in El Retiro Park, Madrid, at night.",
+  "description": "At night the Palacio de Cristal glows softly in El Retiro Park — light shining through its 1887 iron-and-glass walls, the dome reflected in the small lake before it, the dark park trees keeping a respectful distance. Built for the Philippines Exhibition and now a Reina Sofía art space, the palace keeps its diamond-like sparkle after dark.",
+  "file_16x9": "es-01-349-r1-16x9.png",
+  "file_4x5": "es-01-349-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "47f46ef09ffc750f1edc8c50a2742f68d1cd79087f25414e88a1dee9d469edb4"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "c7c3c53b5038d1d618bebf2ae21a610604323436da61723100c05304993ddf8c"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-349-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2970888,
+      "sha256": "47f46ef09ffc750f1edc8c50a2742f68d1cd79087f25414e88a1dee9d469edb4",
+      "source_file": "media-generation-es-01-349-source-0-9b421f54-1564-49be-bd94-589cfee6468b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Crystal Palace, Retiro",
+        "Scenario: 24 September 2026 · 04:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 1920x1080. Not native target-resolution detail."
+    },
+    "4x5": {
+      "file": "es-01-349-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1251352,
+      "sha256": "c7c3c53b5038d1d618bebf2ae21a610604323436da61723100c05304993ddf8c",
+      "source_file": "media-generation-es-01-349-source-0-9b421f54-1564-49be-bd94-589cfee6468b.png",
+      "source_dimensions": [
+        1408,
+        1760
+      ],
+      "crop_center": [
+        0.5,
+        0.5
+      ],
+      "labels": [
+        "Crystal Palace, Retiro",
+        "Scenario: 24 September 2026 · 04:40 Europe/Madrid",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in text-only generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Source [1408, 1760]; uniform Lanczos crop/resample to exact 864x1080. Not native target-resolution detail."
+    }
+  },
+  "conditions": {
+    "cloud_cover": 80,
+    "is_day": 0,
+    "precipitation": 0.0,
+    "provider": "https://api.open-meteo.com/v1/forecast",
+    "temperature_2m": 18.3,
+    "weather_code": 3,
+    "wind_speed_10m": 8.0
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Photorealistic artistic interpretation of the Palacio de Cristal (Crystal Palace) in El Retiro Park, Madrid, at night. The glass-and-iron palace glows softly at night, light shining through its glass walls and dome, reflections shimmering in the small lake in front, dark park trees around. Night view of the glass palace under a dark sky. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
+  },
+  "source_files": [
+    {
+      "file": "media-generation-es-01-349-source-0-9b421f54-1564-49be-bd94-589cfee6468b.png",
+      "sha256": "f79c55e0edfac9cad1de35a40e0cc9ed2281e7943582cb3145cd519e8ed48de4",
+      "dimensions": [
+        1408,
+        1760
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs inspected for facts, not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Source [1408, 1760]; uniform Lanczos enlargement/crop to exact 1920x1080 and 864x1080. Not native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode, dimensions exact; label boxes in frame. Technical checks are not independent Cosmo QC.",
+    "visual": "Production comparison and limitations documented; not an independent gate verdict.",
+    "originality": "Own generated pixels; uniqueness not established.",
+    "commercial_ip": "No prominent people/logos or artwork focal subject; third-party clearance not legally certified.",
+    "publication": "Candidate handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "Candidate pipeline, two-format card (16:9/4:5 tabs, both downloads)",
+    "preserve": "caption, scenario, composition, description, status, disclosure, license, search/navigation and country switcher"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "reference_evidence": []
+}
