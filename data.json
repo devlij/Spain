@@ -1700,9 +1700,9 @@
       "scenario_label": "24 September 2026 · 01:30 Europe/Madrid",
       "composition": "Night · Walled hilltop town glowing under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Morella old town, Morella at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gates: (1) The walled old town of Morella climbing its hill to the floodlit castle ruins at the summit, warm lamps tracing the ramparts and glowing stone houses under a clear starry sky, dark Maestrazgo slopes falling away on both sides; recognizable hilltop form, plausible approach-road viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match; on-image caption 'Morella old town, Morella', scenario '24 September 2026 · 01:30 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather retrieval 2026-09-24T01:12:51+02:00 for the 01:30 scenario — same night, consistent batch retrieval. (3) Packet documents text-only generation, image_inputs: [], third-party photos inspected for facts only. (4) IP: no people, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready."
     },
     {
       "entry_id": "ES-01-272",
