@@ -11,7 +11,7 @@
     "the castle ruins on the hills above the town",
     "the Jalón valley vineyards around the town"
   ],
-  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time.",
+  "limitations": "Text-only generation; no photographic input. Exact camera position unverified. turismodearagon.com reference dropped: unreachable at build time. Weather correction 2026-09-24: original retrieval (04:09) postdated generation; recorded values verified against the Open-Meteo archive for the scenario hour and confirmed accurate. Model data, not an on-site observation.",
   "refs": [
     [
       "https://en.wikipedia.org/wiki/Calatayud",
