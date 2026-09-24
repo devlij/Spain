@@ -22,8 +22,8 @@
       "Spanish Wikipedia entry for Suances; reference article link — direct page fetch was unavailable in this build turn; URL follows the same verified pattern as prior scenes."
     ]
   ],
-  "status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_state": "approved",
+  "status": "Awaiting Cosmo QC · Night",
+  "approval_state": "candidate",
   "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · From Suances, the moonlit beach and distant town lights near 43.4280,-4.0400. Approximate point only. · AI-generated artistic interpretation",
@@ -149,6 +149,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo QC five-gate audit PASS: (1) visual/location — captioned site recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts or misconfiguration; (2) technical — exact-dimension masters, SHA-256 verified, exact 'Jason D\\u2019s Vision' signature bottom-right and caption + scenario timestamp + 'AI-generated artistic interpretation' disclosure bottom-left on gradient scrim, legible; (3) originality — review packet documents text-only generation, no photographic inputs; (4) IP — visible people/logos/private property documented only, none notable; (5) publication-ready, no open blockers. Scenario is a modelled scenario, not a verified capture.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
+  "approval_basis": "",
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
 }
