@@ -1,0 +1,219 @@
+{
+  "entry_id": "ES-01-040",
+  "country": "Spain",
+  "city": "Tenerife",
+  "region": "Canary Islands",
+  "caption": "Teide National Park, Tenerife",
+  "revision": "r1",
+  "viewpoint": "La Ruleta public viewpoint beside the Roques de García trail, approximately 28.2231, -16.6304, eye-level looking northeast across Roque Cinchado toward Mount Teide. Nighttime access conditions are not asserted.",
+  "anchors": [
+    "Narrow top-heavy Roque Cinchado formation in the foreground",
+    "Jagged Roques de García chain crossing the volcanic plain",
+    "Broad symmetrical Mount Teide cone rising behind"
+  ],
+  "limitations": "A dark long-exposure interpretation, not measured scene luminance or a claim of nighttime access. No unsupported Milky Way, moon, snow, people, or observatory structures. Rock shapes and peak alignment require independent review.",
+  "refs": [
+    [
+      "https://www.tenerifeon.es/en/routes/hiking/sa-pnt-03-sendero-accesible-roques-de-garcia",
+      "Official island trail description: La Ruleta viewpoint, Roque Cinchado, Roques de García and Teide; retrieved 24 September 2026."
+    ],
+    [
+      "https://www.webtenerife.co.uk/what-to-do/nature/hiking/trails/roques-garcia/",
+      "Official Tenerife tourism description of the 3.5 km Roques de García route and volcanic landscape; retrieved 24 September 2026."
+    ],
+    [
+      "https://www.volcanoteide.com/en/national_park",
+      "Complementary Teide National Park overview and Roque Cinchado reference; retrieved 24 September 2026."
+    ]
+  ],
+  "status": "Candidate · Awaiting Cosmo QC",
+  "approval_state": "candidate",
+  "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
+  "time_of_day": "Night",
+  "composition": "Night · La Ruleta public viewpoint beside the Roques de García trail, approximately 28.2231, -16.6304, eye-level looking northeast across Roque Cinchado toward Mount Teide. Nighttime access conditions are not asserted. · AI-generated artistic interpretation",
+  "alt_text": "AI-generated artistic interpretation of Teide National Park, Tenerife at night.",
+  "description": "Narrow top-heavy Roque Cinchado formation in the foreground; Jagged Roques de García chain crossing the volcanic plain; Broad symmetrical Mount Teide cone rising behind.",
+  "file_16x9": "es-01-040-r1-16x9.png",
+  "file_4x5": "es-01-040-r1-4x5.png",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1080,
+      "sha256": "88c55a77f939a18d9c6ae4e5a734870c85796bec075a7a7907600ac9fe4ac162"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1080,
+      "sha256": "7ab833d12baac74d6d2e2ff2c471dbef7a2afeb41a21bc49235c5abc13b197a3"
+    }
+  },
+  "masters": {
+    "16x9": {
+      "file": "es-01-040-r1-16x9.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "byte_length": 2888053,
+      "sha256": "88c55a77f939a18d9c6ae4e5a734870c85796bec075a7a7907600ac9fe4ac162",
+      "source_file": "040/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.46,
+        0.5
+      ],
+      "labels": [
+        "Teide National Park, Tenerife",
+        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    },
+    "4x5": {
+      "file": "es-01-040-r1-4x5.png",
+      "dimensions": [
+        864,
+        1080
+      ],
+      "byte_length": 1294858,
+      "sha256": "7ab833d12baac74d6d2e2ff2c471dbef7a2afeb41a21bc49235c5abc13b197a3",
+      "source_file": "040/source-r1.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "crop_center": [
+        0.46,
+        0.5
+      ],
+      "labels": [
+        "Teide National Park, Tenerife",
+        "Scenario: 24 September 2026 · 01:30 Atlantic/Canary",
+        "AI-generated artistic interpretation · Not a photograph."
+      ],
+      "signature": "Jason D’s Vision",
+      "format": "PNG",
+      "lineage": "Built-in generation. Same selected source for both formats; ImageOps.fit crop and uniform Lanczos resampling; deterministic gradient and text overlay. No stretching.",
+      "resampling_disclosure": "Required masters exceed the built-in 1672×941 source in at least one dimension; Lanczos resampling does not create native detail."
+    }
+  },
+  "conditions": {
+    "retrieved_utc": "2026-09-24T00:30:24.606345+00:00",
+    "retrieved_local": "2026-09-24T01:30:24.606345+01:00",
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=28.2231&longitude=-16.6304&current=temperature_2m%2Cweather_code%2Ccloud_cover%2Cis_day%2Cprecipitation%2Cwind_speed_10m&daily=sunrise%2Csunset&timezone=Atlantic%2FCanary&forecast_days=1",
+    "response": {
+      "latitude": 28.224955,
+      "longitude": -16.61383,
+      "generationtime_ms": 155.37619590759277,
+      "utc_offset_seconds": 3600,
+      "timezone": "Atlantic/Canary",
+      "timezone_abbreviation": "GMT+1",
+      "elevation": 2138.0,
+      "current_units": {
+        "time": "iso8601",
+        "interval": "seconds",
+        "temperature_2m": "°C",
+        "weather_code": "wmo code",
+        "cloud_cover": "%",
+        "is_day": "",
+        "precipitation": "mm",
+        "wind_speed_10m": "km/h"
+      },
+      "current": {
+        "time": "2026-09-24T01:30",
+        "interval": 900,
+        "temperature_2m": 17.2,
+        "weather_code": 2,
+        "cloud_cover": 64,
+        "is_day": 0,
+        "precipitation": 0.0,
+        "wind_speed_10m": 2.6
+      },
+      "daily_units": {
+        "time": "iso8601",
+        "sunrise": "iso8601",
+        "sunset": "iso8601"
+      },
+      "daily": {
+        "time": [
+          "2026-09-24"
+        ],
+        "sunrise": [
+          "2026-09-24T07:55"
+        ],
+        "sunset": [
+          "2026-09-24T20:00"
+        ]
+      }
+    },
+    "scenario_label": "24 September 2026 · 01:30 Atlantic/Canary",
+    "requested_coordinates": [
+      28.2231,
+      -16.6304
+    ],
+    "model_grid_coordinates": [
+      28.224955,
+      -16.61383
+    ],
+    "grid_resolution": "not provided in response; coordinate offset is not resolution",
+    "solar": {
+      "method": "NOAA fractional-year geometric approximation, not observation",
+      "elevation_deg": -60.92,
+      "azimuth_deg": 345.32
+    },
+    "lighting_stage": "Night",
+    "sunrise_local": "2026-09-24T07:55:00+01:00",
+    "sunset_local": "2026-09-24T20:00:00+01:00",
+    "twilight_window_minutes": 45,
+    "generation_allowed": true,
+    "disclaimer": "Model data from Open-Meteo; not a verified on-site observation."
+  },
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:30:24.606345+01:00, valid 2026-09-24T01:30 Atlantic/Canary — not a verified on-site observation.",
+  "prompts": {
+    "prompt-r1.txt": "Use case: photorealistic-natural\nAsset type: Jason D's Vision Spain location master source, wide landscape\nPrimary request: Create an original photorealistic artistic interpretation of Teide National Park, Tenerife, at 24 September 2026 01:30 Atlantic/Canary.\nScene/backdrop: La Ruleta public viewpoint beside the Roques de García trail, eye-level looking northeast across Roque Cinchado toward Mount Teide.\nSubject and geometry: the iconic narrow top-heavy Roque Cinchado in foreground, jagged Roques de García chain crossing the volcanic plain, broad symmetrical Teide cone behind. Realistic volcanic scale and alignment.\nStyle/medium: highly realistic contemporary landscape photography aesthetic, restrained documentary naturalism, believable basalt and pumice textures.\nComposition/framing: wide 16:9-friendly source with generous margins, complete Teide summit and foreground rock, central arrangement suitable for portrait crop.\nLighting/mood: deep night, 17.2°C, partly cloudy 64%, dry and calm. Subtle diffuse nocturnal ambient light through broken cloud; no dramatic glow.\nConstraints: no people, vehicles, buildings, cable car, observatories, snow, moon, visible stars, Milky Way, artificial lights, text, caption, signature, watermark, or border. Do not imply nighttime visitor access.\n"
+  },
+  "source_files": [
+    {
+      "file": "source-r1.png",
+      "sha256": "db61b4f10df5ed6629c9294a925efba5b8df0eac1c4a988b576b85c239f049df",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true
+    }
+  ],
+  "provenance": {
+    "tool": "Built-in image generation; specific model version not exposed",
+    "image_inputs": [],
+    "source_use": "Text-only original generation. Third-party photographs were inspected for facts only and were not supplied as input pixels. No uniqueness guarantee.",
+    "lineage": "Same selected source cropped and uniformly Lanczos-resampled to two exact PNGs; factual text and upward-fading scrim added deterministically. No stretching.",
+    "resampling": "Selected source 1672×941; uniform Lanczos enlargement/crop to exact 1920×1080 and 864×1080. This does not create native target-resolution detail."
+  },
+  "production_checks": {
+    "technical": "Both PNGs fully decode and pass verification, dimensions exact; label boxes remain in-frame and nonoverlapping. These production checks are not independent Cosmo QC.",
+    "visual": "Production comparison completed; the packet limitations remain for independent reviewer judgment.",
+    "originality": "Own generated pixels; uniqueness is not independently established.",
+    "commercial_ip": "No prominent identifiable people, logos, or focal copyrighted artwork detected; third-party clearance is not legally certified.",
+    "publication": "Candidate asset handoff only. No approval inferred."
+  },
+  "independent_qc": {
+    "reviewer": "Cosmo",
+    "verdict": "Awaiting review",
+    "exact_pair_required": true
+  },
+  "card_handoff": {
+    "owner": "Cosmo",
+    "placement": "distinct Candidate pipeline"
+  },
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
+  "packet_created_utc": "2026-09-24T00:39:52.004499+00:00"
+}
