@@ -2324,9 +2324,9 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · From the Plaza de Santa Ana, the cathedral with its bronze dog statues in the foreground near 28.1010,-15.4140. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Vegueta, Las Palmas de Gran Canaria at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": "No approval or five-gate pass claimed. Submitted for independent Cosmo review."
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Cosmo five-gate QC 5/5 pass: visual/location, technical exact-byte (API-verified), provenance, commercial/IP notes-only, publication readiness. AI-generated artistic interpretation; no legal certification."
     },
     {
       "entry_id": "ES-01-302",
