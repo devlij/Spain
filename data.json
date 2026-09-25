@@ -1869,9 +1869,11 @@
       "scenario_label": "24 September 2026 · 01:16 Europe/Madrid",
       "composition": "Night · Centre-square view toward the Ayuntamiento pavilion under lantern light · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Plaza Mayor, Salamanca at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1 visual: the 16:9 master recognizably renders Plaza Mayor, Salamanca at night — the honey-toned Churrigueresque Ayuntamiento pavilion with its clock tower and flanking twin towers centered, Baroque arcaded facades wrapping the square on all four sides under warm floodlighting; clean symmetrical framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Plaza Mayor, Salamanca', scenario '24 September 2026 · 01:16 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh against the 01:16 scenario, no reuse. G3 originality: packet documents built-in text-only generation with zero photographic inputs and Lanczos resampling lineage. G4 IP: no prominent identifiable people, no logos, no artwork focal subject. G5: no open blockers; illumination honestly framed as reported-but-unverified for the hour."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1 visual: the 16:9 master recognizably renders Plaza Mayor, Salamanca at night — the honey-toned Churrigueresque Ayuntamiento pavilion with its clock tower and flanking twin towers centered, Baroque arcaded facades wrapping the square on all four sides under warm floodlighting; clean symmetrical framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Plaza Mayor, Salamanca', scenario '24 September 2026 · 01:16 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh against the 01:16 scenario, no reuse. G3 originality: packet documents built-in text-only generation with zero photographic inputs and Lanczos resampling lineage. G4 IP: no prominent identifiable people, no logos, no artwork focal subject. G5: no open blockers; illumination honestly framed as reported-but-unverified for the hour.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-326",
@@ -1882,9 +1884,11 @@
       "scenario_label": "24 September 2026 · 01:24 Europe/Madrid",
       "composition": "Night · West front from Plaza de Santa Maria, twin spires and floodlit limestone · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Burgos Cathedral at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1 visual: the 16:9 master recognizably renders Burgos Cathedral's west front at night — the twin openwork spires flanking the ornate Gothic facade, rose window centered above the sculpted Santa Maria portal, pinnacle rows and statuary niches along the gallery level, pale limestone warm under floodlighting against an overcast night sky; clean symmetrical framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Cathedral, Burgos', scenario '24 September 2026 · 01:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh against the 01:24 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; floodlighting honestly framed as photographed-but-unverified-for-the-hour."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1 visual: the 16:9 master recognizably renders Burgos Cathedral's west front at night — the twin openwork spires flanking the ornate Gothic facade, rose window centered above the sculpted Santa Maria portal, pinnacle rows and statuary niches along the gallery level, pale limestone warm under floodlighting against an overcast night sky; clean symmetrical framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Cathedral, Burgos', scenario '24 September 2026 · 01:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh against the 01:24 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; floodlighting honestly framed as photographed-but-unverified-for-the-hour.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-327",
@@ -1895,9 +1899,11 @@
       "scenario_label": "24 September 2026 · 01:33 Europe/Madrid",
       "composition": "Night · West facade from the cathedral square, twin towers and rose window · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of León Cathedral at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1 PASS: floodlit west front of León Cathedral at night — twin towers, the great rose window glowing, pointed-arch portals and flying buttresses; recognizably León Cathedral from the conventional cathedral-square viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'Cathedral, León' exact; scenario '24 September 2026 · 01:33 Europe/Madrid' matches packet; weather retrieved 2026-09-24T01:11+02:00 valid 01:00 covers the scenario hour (22-min gap — fresh, not the stale reused block); signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers; night floodlighting supported by published visitor accounts (documented limitation: not verified for this specific hour). Modelled night scenario, not a verified capture."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1 PASS: floodlit west front of León Cathedral at night — twin towers, the great rose window glowing, pointed-arch portals and flying buttresses; recognizably León Cathedral from the conventional cathedral-square viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'Cathedral, León' exact; scenario '24 September 2026 · 01:33 Europe/Madrid' matches packet; weather retrieved 2026-09-24T01:11+02:00 valid 01:00 covers the scenario hour (22-min gap — fresh, not the stale reused block); signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers; night floodlighting supported by published visitor accounts (documented limitation: not verified for this specific hour). Modelled night scenario, not a verified capture.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-328",
@@ -1908,9 +1914,11 @@
       "scenario_label": "24 September 2026 · 01:50 Europe/Madrid",
       "composition": "Night · Walls from the Cuatro Postes viewpoint, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the walls of Ávila at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1 PASS: floodlit medieval city walls with round crenellated towers and the arched gate, old town and cathedral tower rising behind, viewed from the valley side; recognizably Ávila's walls from the Cuatro Postes viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'City walls, Ávila' exact; scenario '24 September 2026 · 01:50 Europe/Madrid' matches packet; weather retrieved 2026-09-24T01:11+02:00 valid 01:00 covers the scenario hour (39-min gap — fresh, not the stale reused block); signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers; wall floodlighting widely documented (documented limitation: not verified for this hour). Modelled night scenario, not a verified capture."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1 PASS: floodlit medieval city walls with round crenellated towers and the arched gate, old town and cathedral tower rising behind, viewed from the valley side; recognizably Ávila's walls from the Cuatro Postes viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption 'City walls, Ávila' exact; scenario '24 September 2026 · 01:50 Europe/Madrid' matches packet; weather retrieved 2026-09-24T01:11+02:00 valid 01:00 covers the scenario hour (39-min gap — fresh, not the stale reused block); signature 'Jason D's Vision' with curly apostrophe bottom-right, AI disclosure bottom-left, legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers; wall floodlighting widely documented (documented limitation: not verified for this hour). Modelled night scenario, not a verified capture.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-329",
@@ -1921,9 +1929,11 @@
       "scenario_label": "24 September 2026 · 02:00 Europe/Madrid",
       "composition": "Night · Castle from the Pradera de San Marcos, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Alcázar of Segovia at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Alcázar's ship-prow castle on the rocky crag between the Eresma and Clamores rivers is unmistakable — pointed slate spires, crenellated walls and keep all floodlit warm against dark woods; plausible night view from Mirador de la Pradera de San Marcos; clean framing, no artifacts. G2: 16:9 (1920×1080) and 4:5 (864×1080) SHA-256 both verified against packet; on-image caption 'Alcázar, Segovia', scenario '24 September 2026 · 02:00 Europe/Madrid' and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on gradient scrim, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh, no staleness. G3: packet documents text-only original generation, image_inputs empty. G4: no visible people, logos or private property — public monument at night. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Alcázar's ship-prow castle on the rocky crag between the Eresma and Clamores rivers is unmistakable — pointed slate spires, crenellated walls and keep all floodlit warm against dark woods; plausible night view from Mirador de la Pradera de San Marcos; clean framing, no artifacts. G2: 16:9 (1920×1080) and 4:5 (864×1080) SHA-256 both verified against packet; on-image caption 'Alcázar, Segovia', scenario '24 September 2026 · 02:00 Europe/Madrid' and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on gradient scrim, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh, no staleness. G3: packet documents text-only original generation, image_inputs empty. G4: no visible people, logos or private property — public monument at night. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-330",
@@ -1934,9 +1944,11 @@
       "scenario_label": "24 September 2026 · 02:06 Europe/Madrid",
       "composition": "Night · Palace from the upper gardens, moonlit silhouette over the dark parterre · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Royal Palace of La Granja de San Ildefonso at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Very dark but honest night frame of La Granja's long baroque façade — tall window rows, pilasters, roof balustrade with statues and urns, central dome and flanking spires read clearly as silhouette from the upper-gardens viewpoint; no invented floodlighting, no misconfiguration. G2: both masters 1920×1080 / 864×1080 SHA-256 verified; caption 'Royal Palace, La Granja de San Ildefonso', scenario '24 September 2026 · 02:06 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: packet documents text-only generation, image_inputs empty. G4: scene too dark for any identifiable people or logos — nothing to flag. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Very dark but honest night frame of La Granja's long baroque façade — tall window rows, pilasters, roof balustrade with statues and urns, central dome and flanking spires read clearly as silhouette from the upper-gardens viewpoint; no invented floodlighting, no misconfiguration. G2: both masters 1920×1080 / 864×1080 SHA-256 verified; caption 'Royal Palace, La Granja de San Ildefonso', scenario '24 September 2026 · 02:06 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: packet documents text-only generation, image_inputs empty. G4: scene too dark for any identifiable people or logos — nothing to flag. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-331",
@@ -1947,9 +1959,11 @@
       "scenario_label": "24 September 2026 · 02:14 Europe/Madrid",
       "composition": "Night · Castle from the park across the Sil river, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Templar Castle of Ponferrada at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Ponferrada's Templar castle reads clearly — double circuit of crenellated walls with round towers floodlit warm gold on the hill, park and Sil riverbank trees in the foreground from the across-river viewpoint; plausible, clean framing, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Templar Castle, Ponferrada', scenario '24 September 2026 · 02:14 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — floodlit public castle. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Ponferrada's Templar castle reads clearly — double circuit of crenellated walls with round towers floodlit warm gold on the hill, park and Sil riverbank trees in the foreground from the across-river viewpoint; plausible, clean framing, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Templar Castle, Ponferrada', scenario '24 September 2026 · 02:14 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — floodlit public castle. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-332",
@@ -1960,9 +1974,11 @@
       "scenario_label": "24 September 2026 · 02:22 Europe/Madrid",
       "composition": "Night · Castle from below the town walls, moonlit silhouette over the lit town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Cuéllar Castle at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Cuéllar castle-palace unmistakable — massive stone complex with round towers, machicolations and arcaded gallery wings viewed moonlit from below the walls, lit town rooftops of Cuéllar spread below; coherent with the hilltop viewpoint, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Cuéllar', scenario '24 September 2026 · 02:22 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: generic lit rooftops below, no identifiable people, logos or private property. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Cuéllar castle-palace unmistakable — massive stone complex with round towers, machicolations and arcaded gallery wings viewed moonlit from below the walls, lit town rooftops of Cuéllar spread below; coherent with the hilltop viewpoint, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Cuéllar', scenario '24 September 2026 · 02:22 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: generic lit rooftops below, no identifiable people, logos or private property. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-333",
@@ -1973,9 +1989,11 @@
       "scenario_label": "24 September 2026 · 02:30 Europe/Madrid",
       "composition": "Night · Roman mine landscape from the Mirador de Orellán, dark silhouettes under stars · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Las Médulas at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Las Médulas' signature red eroded mine pinnacles and gullies rise from dark chestnut woods under a starry night sky — the Roman gold-mine landforms are distinctive and honest (no floodlighting claimed); viewpoint from Mirador de Orellán plausible; clean framing, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Las Médulas', scenario '24 September 2026 · 02:30 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: pure natural landscape, nothing to document. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Las Médulas' signature red eroded mine pinnacles and gullies rise from dark chestnut woods under a starry night sky — the Roman gold-mine landforms are distinctive and honest (no floodlighting claimed); viewpoint from Mirador de Orellán plausible; clean framing, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Las Médulas', scenario '24 September 2026 · 02:30 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: pure natural landscape, nothing to document. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-334",
@@ -1986,9 +2004,11 @@
       "scenario_label": "24 September 2026 · 02:38 Europe/Madrid",
       "composition": "Night · Hanging houses from the Puente de San Pablo, windows glowing over the gorge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Hanging Houses of Cuenca at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Cuenca's Casas Colgadas read clearly — stone cliffside houses with lit wooden galleries/balconies overhanging the Huécar gorge, the San Pablo bridge railing entering lower-right from the documented bridge viewpoint; dark river water below; coherent, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Hanging Houses, Cuenca', scenario '24 September 2026 · 02:38 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: lit interior windows only, no identifiable people, logos or private property detail. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Cuenca's Casas Colgadas read clearly — stone cliffside houses with lit wooden galleries/balconies overhanging the Huécar gorge, the San Pablo bridge railing entering lower-right from the documented bridge viewpoint; dark river water below; coherent, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Hanging Houses, Cuenca', scenario '24 September 2026 · 02:38 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: lit interior windows only, no identifiable people, logos or private property detail. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-335",
@@ -1999,9 +2019,11 @@
       "scenario_label": "24 September 2026 · 02:46 Europe/Madrid",
       "composition": "Night · Windmill ridge from the slope, floodlit against the starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Consuegra windmills at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Consuegra's windmill row is iconic — six whitewashed mills with dark conical caps and lattice sails, warmly lit along Cerro Calderico under a starry sky, with the castle ruins silhouetted on the hill behind; plausible lower-slope viewpoint; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Windmills, Consuegra', scenario '24 September 2026 · 02:46 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — rural heritage site at night. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Consuegra's windmill row is iconic — six whitewashed mills with dark conical caps and lattice sails, warmly lit along Cerro Calderico under a starry sky, with the castle ruins silhouetted on the hill behind; plausible lower-slope viewpoint; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Windmills, Consuegra', scenario '24 September 2026 · 02:46 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — rural heritage site at night. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-336",
@@ -2012,9 +2034,11 @@
       "scenario_label": "24 September 2026 · 02:54 Europe/Madrid",
       "composition": "Night · Plaza from gallery level, terrace light spilling onto the dark square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Plaza Mayor of Almagro at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Almagro's Plaza Mayor with its signature two-tiered green-painted wooden balconies on Tuscan columns flanking both sides, converging on the stone Town Hall with its clock tower and bell-cote at the end; café tables with lamps under the arcades; night framing clean, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Plaza Mayor, Almagro', scenario '24 September 2026 · 02:54 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: empty café tables under arcades, no visible people or logos. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Almagro's Plaza Mayor with its signature two-tiered green-painted wooden balconies on Tuscan columns flanking both sides, converging on the stone Town Hall with its clock tower and bell-cote at the end; café tables with lamps under the arcades; night framing clean, no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Plaza Mayor, Almagro', scenario '24 September 2026 · 02:54 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: empty café tables under arcades, no visible people or logos. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-337",
@@ -2025,9 +2049,11 @@
       "scenario_label": "24 September 2026 · 03:02 Europe/Madrid",
       "composition": "Night · Castle from below, floodlit on its hill above the dark town · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Castle of Sigüenza at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Sigüenza castle-parador on its hilltop reads clearly — extensive floodlit crenellated walls with square towers rising above dark treetops under a starry sky, lit windows in the keep; view from below the hill coherent; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Sigüenza', scenario '24 September 2026 · 03:02 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — floodlit public fortress. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Sigüenza castle-parador on its hilltop reads clearly — extensive floodlit crenellated walls with square towers rising above dark treetops under a starry sky, lit windows in the keep; view from below the hill coherent; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Sigüenza', scenario '24 September 2026 · 03:02 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — floodlit public fortress. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-338",
@@ -2038,9 +2064,11 @@
       "scenario_label": "24 September 2026 · 03:10 Europe/Madrid",
       "composition": "Night · Castle from the approach, standing out against the starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Castle of Loarre at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Loarre castle complex on its rocky ridge — Romanesque church with rounded apse and lit arched windows, square keep, round defensive towers and lower walled enclosure, valley lights far below; coherent night view from the approach path; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — heritage fortress at night. G5: no blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Loarre castle complex on its rocky ridge — Romanesque church with rounded apse and lit arched windows, square keep, round defensive towers and lower walled enclosure, valley lights far below; coherent night view from the approach path; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — heritage fortress at night. G5: no blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-224",
@@ -2571,9 +2599,11 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From San Vicente de la Barquera, old town on the hill above the estuary near 43.3840,-4.3980. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of San Vicente de la Barquera at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: San Vicente de la Barquera's old town on the hill with the church silhouette rising above, warm harbor lamps reflected in the calm moonlit estuary, a small boat in the foreground and a full moon in a starry sky — recognizable estuary viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'San Vicente de la Barquera, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: San Vicente de la Barquera's old town on the hill with the church silhouette rising above, warm harbor lamps reflected in the calm moonlit estuary, a small boat in the foreground and a full moon in a starry sky — recognizable estuary viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'San Vicente de la Barquera, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-321",
@@ -2584,9 +2614,11 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From Castro Urdiales, the Santa María church and medieval bridge near 43.3820,-3.2140. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Castro Urdiales at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: The Gothic church of Santa María crowning the rock in Castro Urdiales, its spire and tracery windows against a starry sky, with the lit medieval stone bridge arching over dark harbor water and lamp reflections — recognizable church-and-bridge viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Castro Urdiales, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: The Gothic church of Santa María crowning the rock in Castro Urdiales, its spire and tracery windows against a starry sky, with the lit medieval stone bridge arching over dark harbor water and lamp reflections — recognizable church-and-bridge viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Castro Urdiales, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-322",
@@ -2597,9 +2629,11 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From Suances, the moonlit beach and distant town lights near 43.4280,-4.0400. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Suances at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Suances' moonlit beach with surf breaking at the water's edge, the town's warm lights strung along the distant coast between dark headlands, full moon and dune grass in the foreground — recognizable beach viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Suances, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Suances' moonlit beach with surf breaking at the water's edge, the town's warm lights strung along the distant coast between dark headlands, full moon and dune grass in the foreground — recognizable beach viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Suances, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-323",
@@ -2610,9 +2644,11 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From Fuente Dé, the cable car station under the Picos wall near 43.1450,-4.8140. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Fuente Dé, Cantabria at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Fuente Dé's lit cable-car station in the dark valley with a gondola hanging on its lines, the massive moonlit rock wall of the Picos de Europa rising behind under a crescent-moon starry sky — recognizable station viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Fuente Dé, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Fuente Dé's lit cable-car station in the dark valley with a gondola hanging on its lines, the massive moonlit rock wall of the Picos de Europa rising behind under a crescent-moon starry sky — recognizable station viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Fuente Dé, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-324",
@@ -2623,9 +2659,11 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From the Santander Cathedral, Gothic, from the square near 43.4630,-3.8060. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Santander Cathedral at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "G1: Santander Cathedral's stone mass with its bell tower and clock, warm-lit windows and arches over the quiet square, plaza lamps glowing and a crescent moon in a starry sky — recognizable cathedral viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Cathedral, Santander', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "G1: Santander Cathedral's stone mass with its bell tower and clock, warm-lit windows and arches over the quiet square, plaza lamps glowing and a crescent moon in a starry sky — recognizable cathedral viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Cathedral, Santander', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-339",
@@ -2636,9 +2674,11 @@
       "scenario_label": "24 September 2026 · 03:18 Europe/Madrid",
       "composition": "Night · Theatre from the cavea, column backdrop floodlit against the sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Roman Theatre of Mérida at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the two-tier marble scaenae frons glows floodlit above the semicircular cavea and orchestra, seen from the upper cavea — a plausible tourist viewpoint matching the anchored sightlines. Gate 2: on-image strings read exactly 'Roman Theatre, Mérida', 'Scenario: 24 September 2026 · 03:18 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080 with SHA matching the packet; weather provenance retrieved 2026-09-24T01:11, valid 01:00 — same night, within ~2h of scenario, honestly labeled model data, not reused across dates. Gate 3: packet records built-in text-only generation with Lanczos resampling; no photographic inputs reported. Gate 4: empty night theatre, no visible people, no logos; packet documents lighting state as unverified — noted, commercial call is Jason's. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the two-tier marble scaenae frons glows floodlit above the semicircular cavea and orchestra, seen from the upper cavea — a plausible tourist viewpoint matching the anchored sightlines. Gate 2: on-image strings read exactly 'Roman Theatre, Mérida', 'Scenario: 24 September 2026 · 03:18 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080 with SHA matching the packet; weather provenance retrieved 2026-09-24T01:11, valid 01:00 — same night, within ~2h of scenario, honestly labeled model data, not reused across dates. Gate 3: packet records built-in text-only generation with Lanczos resampling; no photographic inputs reported. Gate 4: empty night theatre, no visible people, no logos; packet documents lighting state as unverified — noted, commercial call is Jason's. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-340",
@@ -2649,9 +2689,11 @@
       "scenario_label": "24 September 2026 · 03:26 Europe/Madrid",
       "composition": "Night · Plaza de San Jorge, illuminated church above the old stone square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the old town of Cáceres at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the whitewashed twin-towered Iglesia de San Francisco Javier dominates the frame, stone portico and lit windows glowing under a starry sky — a plausible close night viewpoint on the old-town church. Gate 2: on-image strings read exactly 'Old Town, Cáceres', 'Scenario: 24 September 2026 · 03:26 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~2.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos, no private-property identifiers; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the whitewashed twin-towered Iglesia de San Francisco Javier dominates the frame, stone portico and lit windows glowing under a starry sky — a plausible close night viewpoint on the old-town church. Gate 2: on-image strings read exactly 'Old Town, Cáceres', 'Scenario: 24 September 2026 · 03:26 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~2.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos, no private-property identifiers; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-341",
@@ -2662,9 +2704,11 @@
       "scenario_label": "24 September 2026 · 03:34 Europe/Madrid",
       "composition": "Night · Plaza from the arcades, Pizarro statue centred, illuminated palaces · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Plaza Mayor of Trujillo at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the armored equestrian statue of Pizarro on its pedestal centers the floodlit arcaded Plaza Mayor, with the bell tower of San Martín rising at right and glowing upper windows — the plaza's signature night view, plausible tourist viewpoint. Gate 2: on-image strings read exactly 'Plaza Mayor, Trujillo', 'Scenario: 24 September 2026 · 03:34 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~2.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the armored equestrian statue of Pizarro on its pedestal centers the floodlit arcaded Plaza Mayor, with the bell tower of San Martín rising at right and glowing upper windows — the plaza's signature night view, plausible tourist viewpoint. Gate 2: on-image strings read exactly 'Plaza Mayor, Trujillo', 'Scenario: 24 September 2026 · 03:34 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~2.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-342",
@@ -2675,9 +2719,11 @@
       "scenario_label": "24 September 2026 · 03:42 Europe/Madrid",
       "composition": "Night · Monastery from the town, moonlit façade under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Royal Monastery of Guadalupe at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the fortress-like twin towers frame the Gothic façade with its carved tracery panels, pointed arches and rose window; warmly lit windows and drifting valley mist match the packet's honest night treatment — a plausible tourist viewpoint on the monastery. Gate 2: on-image strings read exactly 'Monastery, Guadalupe', 'Scenario: 24 September 2026 · 03:42 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the fortress-like twin towers frame the Gothic façade with its carved tracery panels, pointed arches and rose window; warmly lit windows and drifting valley mist match the packet's honest night treatment — a plausible tourist viewpoint on the monastery. Gate 2: on-image strings read exactly 'Monastery, Guadalupe', 'Scenario: 24 September 2026 · 03:42 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-343",
@@ -2688,9 +2734,11 @@
       "scenario_label": "24 September 2026 · 03:50 Europe/Madrid",
       "composition": "Night · Monastery from the valley, moonlit façade under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Monastery of San Millán de Yuso at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the baroque bell tower and long cloistered stone façade with rows of lit windows sit against misty Sierra ridgelines; the carved church portal at right matches the packet's anchored baroque details — plausible elevated tourist viewpoint. Gate 2: on-image strings read exactly 'Yuso Monastery, San Millán', 'Scenario: 24 September 2026 · 03:50 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the baroque bell tower and long cloistered stone façade with rows of lit windows sit against misty Sierra ridgelines; the carved church portal at right matches the packet's anchored baroque details — plausible elevated tourist viewpoint. Gate 2: on-image strings read exactly 'Yuso Monastery, San Millán', 'Scenario: 24 September 2026 · 03:50 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-344",
@@ -2701,9 +2749,11 @@
       "scenario_label": "24 September 2026 · 03:58 Europe/Madrid",
       "composition": "Night · Walled hilltop town from the Paseo del Collado, moonlit walls under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the walled town of Laguardia at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the crenellated hilltop walls curl around the old town with the church tower rising above lit windows, the Sierra de Cantabria silhouette behind — the packet's anchored walls-and-range composition, plausible valley viewpoint. Gate 2: on-image strings read exactly 'Old Town, Laguardia', 'Scenario: 24 September 2026 · 03:58 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the crenellated hilltop walls curl around the old town with the church tower rising above lit windows, the Sierra de Cantabria silhouette behind — the packet's anchored walls-and-range composition, plausible valley viewpoint. Gate 2: on-image strings read exactly 'Old Town, Laguardia', 'Scenario: 24 September 2026 · 03:58 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-228",
@@ -2753,9 +2803,11 @@
       "scenario_label": "24 September 2026 · 04:06 Europe/Madrid",
       "composition": "Night · Square from its centre, arcaded façades and lamps under a starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Plaza del Castillo, Pamplona, at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1 visual/location pass: recognizable Plaza del Castillo with central kiosk bandstand and modernist corner building, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents generation inputs, no photographic inputs reported. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1 visual/location pass: recognizable Plaza del Castillo with central kiosk bandstand and modernist corner building, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents generation inputs, no photographic inputs reported. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-231",
@@ -2831,9 +2883,11 @@
       "scenario_label": "24 September 2026 · 04:14 Europe/Madrid",
       "composition": "Night · Palace from the town, dark silhouette under moonlight and stars · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Royal Palace of Olite at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: Royal Palace, Olite recognizably depicted — stone castle-like palace with towers, Gothic gallery and a few lit windows against night hills, plausible tourist viewpoint, clean framing, no artifacts; honestly shows the palace unlit per packet limitation. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; documented only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: Royal Palace, Olite recognizably depicted — stone castle-like palace with towers, Gothic gallery and a few lit windows against night hills, plausible tourist viewpoint, clean framing, no artifacts; honestly shows the palace unlit per packet limitation. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; documented only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-347",
@@ -2844,9 +2898,11 @@
       "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
       "composition": "Night · Desert from the Castildetierra viewpoint, rock chimney under a starry Milky Way · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Bardenas Reales desert at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the Castildetierra clay monolith rises from eroded badlands under a vivid Milky Way — the Bardenas Reales signature view, dark moonlit treatment with no claimed floodlighting per the packet's honesty rule. Gate 2: on-image strings read exactly 'Bardenas Reales', 'Scenario: 24 September 2026 · 04:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no people, no structures, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the Castildetierra clay monolith rises from eroded badlands under a vivid Milky Way — the Bardenas Reales signature view, dark moonlit treatment with no claimed floodlighting per the packet's honesty rule. Gate 2: on-image strings read exactly 'Bardenas Reales', 'Scenario: 24 September 2026 · 04:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no people, no structures, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-348",
@@ -2857,9 +2913,11 @@
       "scenario_label": "24 September 2026 · 04:32 Europe/Madrid",
       "composition": "Night · Church from the pilgrim approach, dark silhouette under moonlight and stars · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Collegiate Church of Roncesvalles at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the stone Collegiate Church with its large rose window and cloister, flanked by the shuttered pilgrims' hostel with warm lit windows, sits against misty Pyrenean forest — the packet's anchored rose-window/hostel composition, plausible plaza viewpoint. Gate 2: on-image strings read exactly 'Collegiate Church, Roncesvalles', 'Scenario: 24 September 2026 · 04:32 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the stone Collegiate Church with its large rose window and cloister, flanked by the shuttered pilgrims' hostel with warm lit windows, sits against misty Pyrenean forest — the packet's anchored rose-window/hostel composition, plausible plaza viewpoint. Gate 2: on-image strings read exactly 'Collegiate Church, Roncesvalles', 'Scenario: 24 September 2026 · 04:32 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-349",
@@ -2870,9 +2928,11 @@
       "scenario_label": "24 September 2026 · 04:40 Europe/Madrid",
       "composition": "Night · Palace from the lake, glowing glass dome reflected in the water · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Crystal Palace in El Retiro Park, Madrid, at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the iron-and-glass Crystal Palace glows gold across its pond reflection, barrel vaults and dome framed by dark park trees — the Retiro signature night view, plausible pondside viewpoint. Gate 2: on-image strings read exactly 'Crystal Palace, Retiro', 'Scenario: 24 September 2026 · 04:40 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the iron-and-glass Crystal Palace glows gold across its pond reflection, barrel vaults and dome framed by dark park trees — the Retiro signature night view, plausible pondside viewpoint. Gate 2: on-image strings read exactly 'Crystal Palace, Retiro', 'Scenario: 24 September 2026 · 04:40 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-350",
@@ -2883,9 +2943,11 @@
       "scenario_label": "24 September 2026 · 04:48 Europe/Madrid",
       "composition": "Night · Monastery from the gardens, illuminated façade under a black sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Monastery of El Escorial at night.",
-      "status": "Approved · Cosmo QC 5/5 · Night",
-      "approval_state": "approved",
-      "approval_basis": "Gate 1: the basilica's floodlit dome and twin towers rise over the dark granite courtyard with its grid of lit windows, the wooded Abantos slopes behind — unmistakably El Escorial from a plausible elevated night viewpoint. Gate 2: on-image strings read exactly 'Monastery, El Escorial', 'Scenario: 24 September 2026 · 04:48 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: one tiny unidentifiable figure near the portal, no logos, no private-property identifiers; noted only. Gate 5: no open blockers."
+      "status": "Awaiting Cosmo QC",
+      "approval_state": "candidate",
+      "reverted_approval_basis": "Gate 1: the basilica's floodlit dome and twin towers rise over the dark granite courtyard with its grid of lit windows, the wooded Abantos slopes behind — unmistakably El Escorial from a plausible elevated night viewpoint. Gate 2: on-image strings read exactly 'Monastery, El Escorial', 'Scenario: 24 September 2026 · 04:48 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: one tiny unidentifiable figure near the portal, no logos, no private-property identifiers; noted only. Gate 5: no open blockers.",
+      "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
     },
     {
       "entry_id": "ES-01-236",
