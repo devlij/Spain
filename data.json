@@ -2844,9 +2844,9 @@
       "scenario_label": "24 September 2026 · 04:24 Europe/Madrid",
       "composition": "Night · Desert from the Castildetierra viewpoint, rock chimney under a starry Milky Way · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Bardenas Reales desert at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: the Castildetierra clay monolith rises from eroded badlands under a vivid Milky Way — the Bardenas Reales signature view, dark moonlit treatment with no claimed floodlighting per the packet's honesty rule. Gate 2: on-image strings read exactly 'Bardenas Reales', 'Scenario: 24 September 2026 · 04:24 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~3.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no people, no structures, no logos; noted only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-348",
