@@ -22,8 +22,8 @@
       "Turespaña parador document: Royal Palace of Olite, 13th–14th century palace of the Kings of Navarre, French Gothic with Mudéjar traces"
     ]
   ],
-  "status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_state": "approved",
+  "status": "Awaiting Cosmo QC",
+  "approval_state": "candidate",
   "scenario_label": "24 September 2026 · 04:14 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Palace from the town, dark silhouette under moonlight and stars · AI-generated artistic interpretation",
@@ -151,6 +151,7 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1: Royal Palace, Olite recognizably depicted — stone castle-like palace with towers, Gothic gallery and a few lit windows against night hills, plausible tourist viewpoint, clean framing, no artifacts; honestly shows the palace unlit per packet limitation. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block.\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+  "reverted_approval_basis": "Gate 1: Royal Palace, Olite recognizably depicted — stone castle-like palace with towers, Gothic gallery and a few lit windows against night hills, plausible tourist viewpoint, clean framing, no artifacts; honestly shows the palace unlit per packet limitation. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; documented only. Gate 5: no open blockers.",
+  "reverted_at": "2026-09-25T18:29:23.122003+00:00"
 }
