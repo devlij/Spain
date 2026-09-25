@@ -296,5 +296,46 @@
     "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
     "rejection_notes": [],
     "independent_verdict": null
+  },
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-016-r2-16x9.png",
+        "sha256": "9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f"
+      },
+      "4x5": {
+        "path": "es-01-016-r2-4x5.png",
+        "sha256": "36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-016-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d4ae9e9515084cdefae827c32d6108dcd260d0ed1cfc9fde306fa84e227dd5be"
+      },
+      "4x5": {
+        "path": "es-01-016-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "91667d17552fec75f5839584390980eb80d28f614a0ce1f8b4d015c8890f1db9"
+      }
+    },
+    "on_image_text": [
+      "City of Arts and Sciences, Valencia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
   }
 }

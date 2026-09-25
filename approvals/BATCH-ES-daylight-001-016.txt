@@ -1,0 +1,204 @@
+BATCH ES-01-001–ES-01-016 daylight variants
+Repo: devlij/jason-ds-vision-spain-preview
+Base tip before this batch: 4784f98e1274cafa569656df28ef0b02cc752f1c
+Directive: 2026-09-25 Jason daylight-variants workstream, Spain batch 1.
+Scope: night Candidate/approved scenes in ES-01-001–016 that have night masters.
+Germany excluded. Weather fields not edited. Night masters not regenerated.
+
+Path layout: Spain keeps masters at the repository root beside the scene JSON, not under library/world/<Country>/<City>/. Daylight masters use that same layout:
+  es-01-016-daylight-16x9.png (1920×1080)
+  es-01-016-daylight-4x5.png (864×1080)
+
+Gallery: Spain cards switch 16:9 / 4:5 only. No night/day control already expects *-daylight-* paths. Gallery wiring deferred. Assets, manifest daylight_variant block, and this note are landed.
+
+Built: 1 scene × 2 masters = 2 variant masters (ES-01-016).
+Skipped: 15 scenes. Reasons below.
+Night masters byte-unchanged: YES. Pre-work SHA-256 equals post-work SHA-256 for every existing ES-01-001–016 PNG, including the ES-01-016 night masters used as lineage.
+
+On-image text (ES-01-016 variants only):
+  caption: City of Arts and Sciences, Valencia
+  line: ☀ Daylight variant · derived from the night interpretation
+  disclosure: AI-generated artistic interpretation
+  signature: Jason D’s Vision (U+2019 apostrophe)
+  No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks on both variant masters (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt). Country = Spain. Metadata only; night IDAT untouched.
+
+========================================================================
+ES-01-001
+SKIP — daylight-only already. Approved master is morning daylight (es-01-001-daylight-r4-16x9.png / es-01-001-daylight-r4-4x5.png). Night r2 editions exist but are labeled not approved and are not the scene master, so no daylight variant was derived from them. Those night files were not rewritten.
+time_of_day: Morning daylight
+approval_state: approved
+caption: Sagrada Família, Barcelona
+Unapproved night editions (not used as variant source); pre/post hashes:
+  es-01-001-night-r2-16x9.png
+    pre  SHA-256: 64590fbb37236a6084efff2033fa34b7109fe73d1a77e4fc25f967d8ff1dce6d
+    post SHA-256: 64590fbb37236a6084efff2033fa34b7109fe73d1a77e4fc25f967d8ff1dce6d
+    unchanged: True
+  es-01-001-night-r2-4x5.png
+    pre  SHA-256: c7d1e4d5546fd702b206a866e8b9b26c34626dc5fef7e8375eb007360ca34b9b
+    post SHA-256: c7d1e4d5546fd702b206a866e8b9b26c34626dc5fef7e8375eb007360ca34b9b
+    unchanged: True
+night master for a variant: none
+========================================================================
+ES-01-002
+SKIP — daylight-only already. time_of_day Morning daylight. No night master.
+time_of_day: Morning daylight
+approval_state: approved
+caption: Park Güell, Barcelona
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-003
+SKIP — daylight-only already. time_of_day Morning daylight. No night master.
+time_of_day: Morning daylight
+approval_state: approved
+caption: Casa Batlló, Barcelona
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-004
+SKIP — daylight-only already. time_of_day Midday daylight. No night master.
+time_of_day: Midday daylight
+approval_state: approved
+caption: Alhambra, Granada
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-005
+SKIP — daylight-only already. time_of_day Daylight. No night master.
+time_of_day: Daylight
+approval_state: approved
+caption: Mezquita-Catedral, Córdoba
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-006
+SKIP — daylight-only already. time_of_day Daylight. No night master.
+time_of_day: Daylight
+approval_state: approved
+caption: Seville Cathedral and Giralda, Seville
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-007
+SKIP — daylight-only already. time_of_day Daylight. No night master.
+time_of_day: Daylight
+approval_state: approved
+caption: Plaza de España, Seville
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-008
+SKIP — daylight-only already. time_of_day Daylight. No night master.
+time_of_day: Daylight
+approval_state: approved
+caption: Royal Palace, Madrid
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-009
+SKIP — lacks a night master. Approved master is DUSK twilight, not Night.
+time_of_day: DUSK twilight
+approval_state: approved
+caption: Plaza Mayor, Madrid
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-010
+SKIP — lacks a night master. Approved master is DUSK twilight, not Night.
+time_of_day: DUSK twilight
+approval_state: approved
+caption: Guggenheim Museum, Bilbao
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-011
+SKIP — daylight-only already. time_of_day Daylight. No night master.
+time_of_day: Daylight
+approval_state: approved
+caption: Cathedral, Santiago de Compostela
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-012
+SKIP — lacks a night master. Approved master is DUSK twilight, not Night.
+time_of_day: DUSK twilight
+approval_state: approved
+caption: Roman Aqueduct, Segovia
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-013
+SKIP — lacks a night master. Approved master is DUSK twilight, not Night.
+time_of_day: DUSK twilight
+approval_state: approved
+caption: Old Town and Alcázar, Toledo
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-014
+SKIP — lacks a night master. Approved master is DUSK twilight, not Night.
+time_of_day: DUSK twilight
+approval_state: approved
+caption: Puente Nuevo, Ronda
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-015
+SKIP — lacks a night master. Approved master is DUSK twilight, not Night.
+time_of_day: DUSK twilight
+approval_state: approved
+caption: La Concha Bay, San Sebastián
+night master: none
+night pre SHA-256: n/a
+night post SHA-256: n/a
+variant paths: none
+========================================================================
+ES-01-016
+BUILT — Approved night. Daylight re-interpretation of the same northeast reflecting-pool viewpoint toward the Hemisfèric.
+time_of_day: Night
+approval_state: approved
+caption: City of Arts and Sciences, Valencia
+night 16x9 pre  SHA-256: 9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f
+night 16x9 post SHA-256: 9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f
+night 16x9 unchanged: True
+night 4x5 pre  SHA-256: 36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2
+night 4x5 post SHA-256: 36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2
+night 4x5 unchanged: True
+variant 16x9 path: es-01-016-daylight-16x9.png
+variant 16x9 SHA-256: d4ae9e9515084cdefae827c32d6108dcd260d0ed1cfc9fde306fa84e227dd5be
+variant 4x5 path: es-01-016-daylight-4x5.png
+variant 4x5 SHA-256: 91667d17552fec75f5839584390980eb80d28f614a0ce1f8b4d015c8890f1db9
+
+NIGHT-UNCHANGED CONFIRMATION
+Every PNG that existed for ES-01-001–016 before this batch still has the same SHA-256.
+ES-01-016 source night masters specifically:
+  es-01-016-r2-16x9.png 9c58193640b259dfc87ee95f65d3b648a1bd5ebb565400907fc7e78854686f8f identical
+  es-01-016-r2-4x5.png 36c38cca81d2155812e8bc4c1d8605e00d899ab3ea12013e7fbca3a8956de9a2 identical
+No night hash drifted. Batch not aborted.
