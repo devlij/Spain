@@ -459,7 +459,7 @@
 </script>
 <script>
 (function(){
-  var overlay=null, imgEl=null, capEl=null, countEl=null, playEl=null, items=[], idx=0, playing=false, timer=null;
+  var overlay=null, imgEl=null, capEl=null, countEl=null, playEl=null, items=[], idx=0, playing=false, timer=null, lbFormat='16x9'; /* lightbox-session format: seeded from the opening card's active tab; persists across prev/next + slideshow, never reset to 16:9 */
   var SLIDE_MS=6000; /* slideshow advance interval */
   function visibleCards(){
     return Array.prototype.filter.call(document.querySelectorAll('article.card'), function(a){
@@ -468,7 +468,7 @@
   }
   function cardOf(anchor){ var a=anchor; while(a && a.tagName!=='ARTICLE') a=a.parentNode; return a; }
   function caption(card){ var h=card && card.querySelector('h3'); return h ? h.textContent.trim() : ''; }
-  function srcOf(card){ var a=card && card.querySelector('a.master-link.thumb'); return a ? a.getAttribute('href') : ''; }
+  function srcOf(card){ var a=card && card.querySelector('a.master-link.thumb'); if(!a) return ''; var im=a.querySelector('img'); if(lbFormat==='4x5'&&im){ var s45=im.getAttribute('data-src-45'); if(s45) return s45; } if(im){ var s16=im.getAttribute('data-src-16'); if(s16) return s16; } return a.getAttribute('href'); }
   function build(){
     overlay=document.createElement('div');
     overlay.className='lb'; overlay.setAttribute('role','dialog'); overlay.setAttribute('aria-modal','true');
@@ -527,6 +527,8 @@
     e.preventDefault();
     items=visibleCards();
     var card=cardOf(a);
+    var tab=card && card.querySelector('.fmt-tab.is-active');
+    lbFormat=(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';
     setPlaying(false);
     show(Math.max(0, items.indexOf(card)));
   });
