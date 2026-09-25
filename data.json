@@ -2649,9 +2649,9 @@
       "scenario_label": "24 September 2026 · 03:26 Europe/Madrid",
       "composition": "Night · Plaza de San Jorge, illuminated church above the old stone square · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the old town of Cáceres at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: the whitewashed twin-towered Iglesia de San Francisco Javier dominates the frame, stone portico and lit windows glowing under a starry sky — a plausible close night viewpoint on the old-town church. Gate 2: on-image strings read exactly 'Old Town, Cáceres', 'Scenario: 24 September 2026 · 03:26 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080, SHA matching packet; weather retrieved 2026-09-24T01:11 valid 01:00 — same night, within ~2.5h of scenario, labeled model data, not reused across dates. Gate 3: built-in text-only generation; no photographic inputs reported. Gate 4: no visible people, no logos, no private-property identifiers; noted only. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-341",
