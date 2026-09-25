@@ -100,15 +100,23 @@
     }
   },
   "conditions": {
-    "cloud_cover": 80,
+    "cloud_cover": 0,
     "is_day": 0,
     "precipitation": 0.0,
-    "provider": "https://api.open-meteo.com/v1/forecast",
-    "temperature_2m": 18.3,
-    "weather_code": 3,
-    "wind_speed_10m": 8.0
+    "provider": "Open-Meteo",
+    "temperature_2m": 16.7,
+    "weather_code": 0,
+    "wind_speed_10m": 0.8,
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.8181&longitude=-1.6447&hourly=temperature_2m,weather_code,cloud_cover,precipitation,wind_speed_10m,is_day&daily=sunrise,sunset&timezone=Europe%2FMadrid&past_days=3&forecast_days=1",
+    "retrieved": "2026-09-26T01:43:18+02:00",
+    "valid": "2026-09-24T04:00+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid",
+    "model_valid_hour": "2026-09-24T04:00+02:00",
+    "scenario_minute": "04:06",
+    "sunrise": "07:55",
+    "sunset": "20:00"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-26T01:43:18+02:00, valid 2026-09-24T04:00+02:00 Europe/Madrid — not a verified on-site observation. 16.7°C, weather code 0 (clear), cloud 0%, precipitation 0 mm, wind 0.8 km/h. Sunrise 07:55, sunset 20:00. Scenario minute 04:06 falls inside the 04:00 model-valid hour.",
   "prompts": {
     "prompt-r1.txt": "Photorealistic artistic interpretation of the Plaza del Castillo in Pamplona, Spain, at night. The old town's main square warmly lit at night: elegant arcaded buildings around the square glow, Café Iruña's belle époque façade, trees in the square, street lamps casting warm pools of light. Dark starry sky above the roofs. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
   },
@@ -153,5 +161,5 @@
   "reference_evidence": [],
   "reverted_approval_basis": "Gate 1 visual/location pass: recognizable Plaza del Castillo with central kiosk bandstand and modernist corner building, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents generation inputs, no photographic inputs reported. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers.",
   "reverted_at": "2026-09-25T18:29:23.122003+00:00",
-  "qc_notes": "[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits."
+  "qc_notes": "[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.\n[2026-09-26T01:43:18+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:43:18+02:00 Europe/Madrid. Model-valid hour 2026-09-24T04:00+02:00 contains scenario minute 04:06 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated."
 }

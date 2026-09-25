@@ -9,7 +9,7 @@
   "anchors": [
     "Gothic church of Santa María and medieval bridge silhouettes",
     "Ordinary harbor lamps and moonlight only — no floodlighting claimed",
-    "Warm harbor lamps reflected in the calm moonlit water; clear starry sky (0% model cloud)"
+    "Warm harbor lamps reflected in the calm moonlit water; model cloud 39% (mainly clear) for the 01:00 hour"
   ],
   "limitations": "Illumination is harbor lamps and moonlight only; floodlighting is neither depicted nor claimed. Exact viewpoint unverified. Current on-site conditions not verified.",
   "refs": [
@@ -28,7 +28,7 @@
   "time_of_day": "Night",
   "composition": "Night · From Castro Urdiales, the Santa María church and medieval bridge near 43.3820,-3.2140. Approximate point only. · AI-generated artistic interpretation",
   "alt_text": "AI-generated artistic interpretation of Castro Urdiales at night.",
-  "description": "In Castro Urdiales the Gothic church of Santa María and the medieval bridge stand as silhouettes against the night, lit only by ordinary harbor lamps and moonlight — no floodlighting is claimed or depicted. Their warmth is reflected in the calm moonlit water under a clear model sky (0% cloud).",
+  "description": "In Castro Urdiales the Gothic church of Santa María and the medieval bridge stand as silhouettes against the night, lit only by ordinary harbor lamps and moonlight — no floodlighting is claimed or depicted. Their warmth is reflected in the calm moonlit water. Model cloud for the 01:00 hour is 39% (mainly clear).",
   "file_16x9": "es-01-321-r1-16x9.png",
   "file_4x5": "es-01-321-r1-4x5.png",
   "dimensions": {
@@ -101,12 +101,22 @@
   },
   "conditions": {
     "provider": "Open-Meteo",
-    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3820&longitude=-3.2140&current=temperature_2m,weather_code,cloud_cover,is_day,precipitation,wind_speed_10m&daily=sunrise,sunset&timezone=Europe%2FMadrid&forecast_days=1",
-    "retrieved": "2026-09-24T01:45+02:00",
-    "valid": "2026-09-24T01:45+02:00 Europe/Madrid",
-    "timezone": "Europe/Madrid"
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=43.3820&longitude=-3.2140&hourly=temperature_2m,weather_code,cloud_cover,precipitation,wind_speed_10m,is_day&daily=sunrise,sunset&timezone=Europe%2FMadrid&past_days=3&forecast_days=1",
+    "retrieved": "2026-09-26T01:42:54+02:00",
+    "valid": "2026-09-24T01:00+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid",
+    "model_valid_hour": "2026-09-24T01:00+02:00",
+    "scenario_minute": "01:49",
+    "temperature_2m": 17.2,
+    "weather_code": 1,
+    "cloud_cover": 39,
+    "precipitation": 0.0,
+    "wind_speed_10m": 3.9,
+    "is_day": 0,
+    "sunrise": "08:02",
+    "sunset": "20:06"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-26T01:42:54+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation. 17.2°C, weather code 1 (mainly clear), cloud 39%, precipitation 0 mm, wind 3.9 km/h. Sunrise 08:02, sunset 20:06. Scenario minute 01:49 falls inside the 01:00 model-valid hour.",
   "prompts": {
     "prompt-r1.txt": "Photorealistic artistic night interpretation of Castro Urdiales in Cantabria: the Gothic church of Santa Maria and the medieval bridge silhouettes against the night, lit only by ordinary harbor lamps and moonlight, no floodlighting; warm harbor lamps reflected in the calm moonlit water; clear starry sky; no prominent people, no text, no logos; church and bridge centered so they survive a center crop; clean uncluttered lower area."
   },
@@ -149,7 +159,7 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.\n[2026-09-25T23:19:57.347422+00:00 — Cosmo QC] Gate 2 FAIL 2026-09-25 (Cosmo QC, five-gate audit): the review packet records weather 'Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00' — a retrieval timestamp identical to the second with ES-01-320/322/323/324 (the same 01:45 batch that triggered the 2026-09-25 shared-retrieval revert). Under the standing weather law one Open-Meteo retrieval per scene is required; identical-to-the-second retrieval timestamps across scenes = shared/batch retrieval = Gate 2 fail, even if per-location values differ. The builder has not reworked this scene since the revert. Gates 1 and 3-5 not completed this run; approval is blocked until the packet is re-landed with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp, scenario hour inside its model-valid hour).",
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.\n[2026-09-25T23:19:57.347422+00:00 — Cosmo QC] Gate 2 FAIL 2026-09-25 (Cosmo QC, five-gate audit): the review packet records weather 'Model data from Open-Meteo, retrieved 2026-09-24T01:45+02:00, valid 2026-09-24T01:45+02:00' — a retrieval timestamp identical to the second with ES-01-320/322/323/324 (the same 01:45 batch that triggered the 2026-09-25 shared-retrieval revert). Under the standing weather law one Open-Meteo retrieval per scene is required; identical-to-the-second retrieval timestamps across scenes = shared/batch retrieval = Gate 2 fail, even if per-location values differ. The builder has not reworked this scene since the revert. Gates 1 and 3-5 not completed this run; approval is blocked until the packet is re-landed with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp, scenario hour inside its model-valid hour).\n[2026-09-26T01:42:54+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:42:54+02:00 Europe/Madrid. Model-valid hour 2026-09-24T01:00+02:00 contains scenario minute 01:49 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated.",
   "reverted_approval_basis": "G1: The Gothic church of Santa María crowning the rock in Castro Urdiales, its spire and tracery windows against a starry sky, with the lit medieval stone bridge arching over dark harbor water and lamp reflections — recognizable church-and-bridge viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Castro Urdiales, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
   "reverted_at": "2026-09-25T18:29:23.122003+00:00"
 }

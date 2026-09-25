@@ -100,15 +100,23 @@
     }
   },
   "conditions": {
-    "cloud_cover": 80,
+    "cloud_cover": 0,
     "is_day": 0,
     "precipitation": 0.0,
-    "provider": "https://api.open-meteo.com/v1/forecast",
-    "temperature_2m": 18.3,
-    "weather_code": 3,
-    "wind_speed_10m": 8.0
+    "provider": "Open-Meteo",
+    "temperature_2m": 12.3,
+    "weather_code": 0,
+    "wind_speed_10m": 6.6,
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.4078&longitude=-1.4442&hourly=temperature_2m,weather_code,cloud_cover,precipitation,wind_speed_10m,is_day&daily=sunrise,sunset&timezone=Europe%2FMadrid&past_days=3&forecast_days=1",
+    "retrieved": "2026-09-26T01:43:36+02:00",
+    "valid": "2026-09-24T06:00+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid",
+    "model_valid_hour": "2026-09-24T06:00+02:00",
+    "scenario_minute": "06:32",
+    "sunrise": "07:55",
+    "sunset": "19:59"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-26T01:43:36+02:00, valid 2026-09-24T06:00+02:00 Europe/Madrid — not a verified on-site observation. 12.3°C, weather code 0 (clear), cloud 0%, precipitation 0 mm, wind 6.6 km/h. Sunrise 07:55, sunset 19:59. Scenario minute 06:32 falls inside the 06:00 model-valid hour.",
   "prompts": {
     "prompt-r1.txt": "Photorealistic artistic interpretation of the medieval town of Albarracín, Aragon, Spain, at night. Honest mostly dark treatment — no invented floodlighting. The pink-walled town with its reddish rodeno houses and medieval walls lying dark under moonlight and a starry sky, a few scattered street lamps catching fragments of the narrow alleys, the walls snaking up the hillside faintly lit by moon, the Guadalaviar river valley dark below. No identifiable people. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
   },
@@ -152,5 +160,5 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "",
-  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted).\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block. Stays unapproved until the scenario/weather metadata mismatch is resolved.\n\nCosmo QC 2026-09-24 ~03:20 EDT — NOT APPROVED. Gate 2 FAIL: scenario label '24 September 2026 · 06:32 Europe/Madrid' vs weather metadata retrieved 2026-09-24T01:11+02:00 (03:11 Europe/Madrid), valid 2026-09-24T01:00+02:00 — and the same conditions block (cloud 80, 18.3°C, weather code 3) is byte-identical across ES-01-360–365. This is the builder's self-disclosed reused-weather block; standing rule: stale/reused weather metadata FAILS Gate 2 (the ES-01-334–365 lesson). Gate 1 (review): pink rodeno-walled houses cascading down the hillside, crenellated medieval walls snaking up the ridge (top-right), a spired church tower at left, a few warm scattered street lamps, the valley dark below — recognizably Albarracín, honest mostly-dark treatment, no invented floodlighting. On-image: 'Old Town, Albarracín', scenario '24 September 2026 · 06:32 Europe/Madrid', disclosure and 'Jason D’s Vision' signature present and legible. Gate 3: image_inputs empty, text-only. Gate 4 (documented only): no prominent identifiable people or logos. Blocked on Gate 2 weather freshness only; left as candidate."
+  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted).\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block. Stays unapproved until the scenario/weather metadata mismatch is resolved.\n\nCosmo QC 2026-09-24 ~03:20 EDT — NOT APPROVED. Gate 2 FAIL: scenario label '24 September 2026 · 06:32 Europe/Madrid' vs weather metadata retrieved 2026-09-24T01:11+02:00 (03:11 Europe/Madrid), valid 2026-09-24T01:00+02:00 — and the same conditions block (cloud 80, 18.3°C, weather code 3) is byte-identical across ES-01-360–365. This is the builder's self-disclosed reused-weather block; standing rule: stale/reused weather metadata FAILS Gate 2 (the ES-01-334–365 lesson). Gate 1 (review): pink rodeno-walled houses cascading down the hillside, crenellated medieval walls snaking up the ridge (top-right), a spired church tower at left, a few warm scattered street lamps, the valley dark below — recognizably Albarracín, honest mostly-dark treatment, no invented floodlighting. On-image: 'Old Town, Albarracín', scenario '24 September 2026 · 06:32 Europe/Madrid', disclosure and 'Jason D’s Vision' signature present and legible. Gate 3: image_inputs empty, text-only. Gate 4 (documented only): no prominent identifiable people or logos. Blocked on Gate 2 weather freshness only; left as candidate.\n[2026-09-26T01:43:36+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:43:36+02:00 Europe/Madrid. Model-valid hour 2026-09-24T06:00+02:00 contains scenario minute 06:32 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated."
 }

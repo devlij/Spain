@@ -100,15 +100,23 @@
     }
   },
   "conditions": {
-    "cloud_cover": 80,
+    "cloud_cover": 0,
     "is_day": 0,
     "precipitation": 0.0,
-    "provider": "https://api.open-meteo.com/v1/forecast",
-    "temperature_2m": 18.3,
-    "weather_code": 3,
-    "wind_speed_10m": 8.0
+    "provider": "Open-Meteo",
+    "temperature_2m": 17.5,
+    "weather_code": 0,
+    "wind_speed_10m": 5.4,
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=42.3156&longitude=-0.6242&hourly=temperature_2m,weather_code,cloud_cover,precipitation,wind_speed_10m,is_day&daily=sunrise,sunset&timezone=Europe%2FMadrid&past_days=3&forecast_days=1",
+    "retrieved": "2026-09-26T01:43:11+02:00",
+    "valid": "2026-09-24T03:00+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid",
+    "model_valid_hour": "2026-09-24T03:00+02:00",
+    "scenario_minute": "03:10",
+    "sunrise": "07:51",
+    "sunset": "19:56"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-26T01:43:11+02:00, valid 2026-09-24T03:00+02:00 Europe/Madrid — not a verified on-site observation. 17.5°C, weather code 0 (clear), cloud 0%, precipitation 0 mm, wind 5.4 km/h. Sunrise 07:51, sunset 19:56. Scenario minute 03:10 falls inside the 03:00 model-valid hour.",
   "prompts": {
     "prompt-r1.txt": "Photorealistic artistic interpretation of the Castle of Loarre, Spain, at night. The great Romanesque castle spreads over its rocky ridge, its 11th-century walls, towers and the church of San Pedro with its dome standing out against a dark starry sky; a few warm lights glow from some windows. Dark hills and countryside below. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
   },
@@ -151,7 +159,7 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block.\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nBuilder self-disclosed 2026-09-24: weather metadata retrieved 01:11 UTC was reused across scenario labels 01:32-06:48; the fresh-time/fresh-weather requirement was not met for this block.\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.\n[2026-09-26T01:43:11+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:43:11+02:00 Europe/Madrid. Model-valid hour 2026-09-24T03:00+02:00 contains scenario minute 03:10 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated.",
   "reverted_approval_basis": "G1: Loarre castle complex on its rocky ridge — Romanesque church with rounded apse and lit arched windows, square keep, round defensive towers and lower walled enclosure, valley lights far below; coherent night view from the approach path; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — heritage fortress at night. G5: no blockers.",
   "reverted_at": "2026-09-25T18:29:23.122003+00:00"
 }

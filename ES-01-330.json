@@ -100,15 +100,23 @@
     }
   },
   "conditions": {
-    "cloud_cover": 87,
+    "cloud_cover": 69,
     "is_day": 0,
     "precipitation": 0.0,
-    "provider": "https://api.open-meteo.com/v1/forecast",
-    "temperature_2m": 17.3,
-    "weather_code": 3,
-    "wind_speed_10m": 8.5
+    "provider": "Open-Meteo",
+    "temperature_2m": 17.6,
+    "weather_code": 2,
+    "wind_speed_10m": 8.1,
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.8989&longitude=-4.0025&hourly=temperature_2m,weather_code,cloud_cover,precipitation,wind_speed_10m,is_day&daily=sunrise,sunset&timezone=Europe%2FMadrid&past_days=3&forecast_days=1",
+    "retrieved": "2026-09-26T01:43:03+02:00",
+    "valid": "2026-09-24T02:00+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid",
+    "model_valid_hour": "2026-09-24T02:00+02:00",
+    "scenario_minute": "02:06",
+    "sunrise": "08:05",
+    "sunset": "20:10"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-26T01:43:03+02:00, valid 2026-09-24T02:00+02:00 Europe/Madrid — not a verified on-site observation. 17.6°C, weather code 2 (partly cloudy), cloud 69%, precipitation 0 mm, wind 8.1 km/h. Sunrise 08:05, sunset 20:10. Scenario minute 02:06 falls inside the 02:00 model-valid hour.",
   "prompts": {
     "prompt-r3.txt": "Photorealistic long-exposure night photograph of the Royal Palace of La Granja de San Ildefonso, Spain, viewed from the upper gardens. IMPORTANT: the palace facade is completely dark and unlit — a black silhouette edged only by moonlight, no floodlights, no lit windows, no light strips. Only the crescent moon half-hidden behind clouds and a few tiny warm garden lamps in the black parterre below give light. The Sierra de Guadarrama is a black mass behind. Deep night mood, mostly black frame. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
   },
@@ -151,7 +159,7 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nCosmo QC rejection (2026-09-24 ~13:20 EDT): Gate 2 OPEN — stale/reused weather metadata. Scenario label is 24 September 2026 · 02:06 Europe/Madrid, but the packet's weather was retrieved 2026-09-24T01:11+02:00 valid 2026-09-24T01:00+02:00 — the valid hour does not cover the scenario hour, and this is the same single 01:11 retrieval the builder disclosed as reused across scenario labels 01:32–06:48 (the ES-01-334–365 lesson). Gates 1/3/4 pass (moonlit silhouette of the Royal Palace facade with its domed lantern and roof spires; r3 rebuild still carried the stale weather metadata; text-only generation documented; no people/logos). Rebuild with weather retrieved at build time and resubmit. Stays candidate.\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nCosmo QC rejection (2026-09-24 ~13:20 EDT): Gate 2 OPEN — stale/reused weather metadata. Scenario label is 24 September 2026 · 02:06 Europe/Madrid, but the packet's weather was retrieved 2026-09-24T01:11+02:00 valid 2026-09-24T01:00+02:00 — the valid hour does not cover the scenario hour, and this is the same single 01:11 retrieval the builder disclosed as reused across scenario labels 01:32–06:48 (the ES-01-334–365 lesson). Gates 1/3/4 pass (moonlit silhouette of the Royal Palace facade with its domed lantern and roof spires; r3 rebuild still carried the stale weather metadata; text-only generation documented; no people/logos). Rebuild with weather retrieved at build time and resubmit. Stays candidate.\n[2026-09-25T18:29:23.122003+00:00 — Cosmo QC] Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.\n[2026-09-26T01:43:03+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:43:03+02:00 Europe/Madrid. Model-valid hour 2026-09-24T02:00+02:00 contains scenario minute 02:06 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated.",
   "reverted_approval_basis": "G1: Very dark but honest night frame of La Granja's long baroque façade — tall window rows, pilasters, roof balustrade with statues and urns, central dome and flanking spires read clearly as silhouette from the upper-gardens viewpoint; no invented floodlighting, no misconfiguration. G2: both masters 1920×1080 / 864×1080 SHA-256 verified; caption 'Royal Palace, La Granja de San Ildefonso', scenario '24 September 2026 · 02:06 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: packet documents text-only generation, image_inputs empty. G4: scene too dark for any identifiable people or logos — nothing to flag. G5: no blockers.",
   "reverted_at": "2026-09-25T18:29:23.122003+00:00"
 }

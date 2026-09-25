@@ -100,15 +100,23 @@
     }
   },
   "conditions": {
-    "cloud_cover": 80,
+    "cloud_cover": 1,
     "is_day": 0,
     "precipitation": 0.0,
-    "provider": "https://api.open-meteo.com/v1/forecast",
-    "temperature_2m": 18.3,
-    "weather_code": 3,
-    "wind_speed_10m": 8.0
+    "provider": "Open-Meteo",
+    "temperature_2m": 19.7,
+    "weather_code": 1,
+    "wind_speed_10m": 4.4,
+    "provider_url": "https://api.open-meteo.com/v1/forecast?latitude=40.4242&longitude=-3.7178&hourly=temperature_2m,weather_code,cloud_cover,precipitation,wind_speed_10m,is_day&daily=sunrise,sunset&timezone=Europe%2FMadrid&past_days=3&forecast_days=1",
+    "retrieved": "2026-09-26T01:43:26+02:00",
+    "valid": "2026-09-24T05:00+02:00 Europe/Madrid",
+    "timezone": "Europe/Madrid",
+    "model_valid_hour": "2026-09-24T05:00+02:00",
+    "scenario_minute": "05:12",
+    "sunrise": "08:04",
+    "sunset": "20:08"
   },
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-24T01:11+02:00, valid 2026-09-24T01:00+02:00 Europe/Madrid — not a verified on-site observation.",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-26T01:43:26+02:00, valid 2026-09-24T05:00+02:00 Europe/Madrid — not a verified on-site observation. 19.7°C, weather code 1 (mainly clear), cloud 1%, precipitation 0 mm, wind 4.4 km/h. Sunrise 08:04, sunset 20:08. Scenario minute 05:12 falls inside the 05:00 model-valid hour.",
   "prompts": {
     "prompt-r1.txt": "Photorealistic artistic interpretation of the Temple of Debod in Madrid, Spain, at night. The ancient Egyptian temple illuminated after sundown, warm light on the stone pylons, majestic glow reflected in the adjacent pond, landscaped park gardens dark around, night sky. Magical and alluring atmosphere. No identifiable people prominent. Subject centred so it survives a 4:5 centre crop. No text or brand logos anywhere, no on-image text at all."
   },
@@ -152,5 +160,5 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "",
-  "qc_notes": "Gate 2 FAILED (Cosmo QC 2026-09-25): weather metadata reused across ES-01-351..360 and stale vs scenario. Conditions blocks are byte-identical (temp 18.3°C, cloud 80, wind 8.0, is_day 0) for geographically dispersed sites (Madrid ×3, Hondarribia, Getaria, Gaztelugatxe, Vitoria, Ceuta, Melilla, Logroño) — one Open-Meteo fetch reused for all 10. Retrieved 2026-09-24T01:11+02:00 (valid 01:00), scenario timestamps 04:56–06:08 Europe/Madrid — 4–5h stale. ES-01-334–365 lesson applies: refresh weather per scene near its scenario time and re-land."
+  "qc_notes": "Gate 2 FAILED (Cosmo QC 2026-09-25): weather metadata reused across ES-01-351..360 and stale vs scenario. Conditions blocks are byte-identical (temp 18.3°C, cloud 80, wind 8.0, is_day 0) for geographically dispersed sites (Madrid ×3, Hondarribia, Getaria, Gaztelugatxe, Vitoria, Ceuta, Melilla, Logroño) — one Open-Meteo fetch reused for all 10. Retrieved 2026-09-24T01:11+02:00 (valid 01:00), scenario timestamps 04:56–06:08 Europe/Madrid — 4–5h stale. ES-01-334–365 lesson applies: refresh weather per scene near its scenario time and re-land.\n[2026-09-26T01:43:26+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:43:26+02:00 Europe/Madrid. Model-valid hour 2026-09-24T05:00+02:00 contains scenario minute 05:12 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated."
 }

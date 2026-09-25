@@ -1,0 +1,58 @@
+BATCH ES-01-320–ES-01-365 weather rework
+Repo: devlij/jason-ds-vision-spain-preview
+Directive: 2026-09-25 Jason — one fresh Open-Meteo HTTP retrieval per scene.
+Provider: Open-Meteo forecast API (https://api.open-meteo.com/v1/forecast). Model data only.
+Timezone: Europe/Madrid (CEST, UTC+02:00). No Canary scenes in this range.
+Ceuta and Melilla keep the on-image Europe/Madrid label; Africa/Ceuta is the same UTC offset.
+Rule: retrieval timestamp unique to the second repo-wide; scenario minute inside that scene's model-valid hour.
+Images: not regenerated. On-image caption, scenario timestamp, disclosure, and signature unchanged.
+approval_state: Candidate (not marked Approved).
+Count: 46
+
+entry_id	scenario_label	retrieval_timestamp	model_valid_hour	timezone	lat	lon	temp_c	weather_code	weather_label	cloud_pct	precip_mm	wind_kmh	is_day	sunrise	sunset
+ES-01-320	24 September 2026 · 01:49 Europe/Madrid	2026-09-26T01:42:53+02:00	2026-09-24T01:00+02:00	Europe/Madrid	43.3840	-4.3980	14.2	1	mainly clear	24	0	1.1	0	08:06	20:11
+ES-01-321	24 September 2026 · 01:49 Europe/Madrid	2026-09-26T01:42:54+02:00	2026-09-24T01:00+02:00	Europe/Madrid	43.3820	-3.2140	17.2	1	mainly clear	39	0	3.9	0	08:02	20:06
+ES-01-322	24 September 2026 · 01:49 Europe/Madrid	2026-09-26T01:42:55+02:00	2026-09-24T01:00+02:00	Europe/Madrid	43.4280	-4.0400	15.9	3	overcast	87	0	7.6	0	08:05	20:10
+ES-01-323	24 September 2026 · 01:49 Europe/Madrid	2026-09-26T01:42:56+02:00	2026-09-24T01:00+02:00	Europe/Madrid	43.1450	-4.8140	17.1	0	clear	0	0	2.6	0	08:08	20:13
+ES-01-324	24 September 2026 · 01:49 Europe/Madrid	2026-09-26T01:42:57+02:00	2026-09-24T01:00+02:00	Europe/Madrid	43.4630	-3.8060	18.7	3	overcast	92	0	5.4	0	08:04	20:09
+ES-01-325	24 September 2026 · 01:16 Europe/Madrid	2026-09-26T01:42:58+02:00	2026-09-24T01:00+02:00	Europe/Madrid	40.9652	-5.6641	18	3	overcast	83	0	3.1	0	08:12	20:16
+ES-01-326	24 September 2026 · 01:24 Europe/Madrid	2026-09-26T01:42:59+02:00	2026-09-24T01:00+02:00	Europe/Madrid	42.3407	-3.7004	18.1	3	overcast	100	0	8.7	0	08:04	20:08
+ES-01-327	24 September 2026 · 01:33 Europe/Madrid	2026-09-26T01:43:00+02:00	2026-09-24T01:00+02:00	Europe/Madrid	42.5997	-5.5661	22	0	clear	0	0	5.4	0	08:11	20:16
+ES-01-328	24 September 2026 · 01:50 Europe/Madrid	2026-09-26T01:43:01+02:00	2026-09-24T01:00+02:00	Europe/Madrid	40.6547	-4.6967	17.7	2	partly cloudy	64	0	5.1	0	08:08	20:12
+ES-01-329	24 September 2026 · 02:00 Europe/Madrid	2026-09-26T01:43:02+02:00	2026-09-24T02:00+02:00	Europe/Madrid	40.9525	-4.1325	18.1	2	partly cloudy	69	0	8.4	0	08:05	20:10
+ES-01-330	24 September 2026 · 02:06 Europe/Madrid	2026-09-26T01:43:03+02:00	2026-09-24T02:00+02:00	Europe/Madrid	40.8989	-4.0025	17.6	2	partly cloudy	69	0	8.1	0	08:05	20:10
+ES-01-331	24 September 2026 · 02:14 Europe/Madrid	2026-09-26T01:43:04+02:00	2026-09-24T02:00+02:00	Europe/Madrid	42.5447	-6.5880	15.3	0	clear	0	0	7.1	0	08:15	20:20
+ES-01-332	24 September 2026 · 02:22 Europe/Madrid	2026-09-26T01:43:05+02:00	2026-09-24T02:00+02:00	Europe/Madrid	41.4000	-4.3167	15.3	3	overcast	74	0	5.1	0	08:06	20:11
+ES-01-333	24 September 2026 · 02:30 Europe/Madrid	2026-09-26T01:43:06+02:00	2026-09-24T02:00+02:00	Europe/Madrid	42.4619	-6.7711	18.5	0	clear	0	0	6.4	0	08:16	20:21
+ES-01-334	24 September 2026 · 02:38 Europe/Madrid	2026-09-26T01:43:07+02:00	2026-09-24T02:00+02:00	Europe/Madrid	40.0767	-2.1303	17.5	1	mainly clear	9	0	7.5	0	07:57	20:02
+ES-01-335	24 September 2026 · 02:46 Europe/Madrid	2026-09-26T01:43:08+02:00	2026-09-24T02:00+02:00	Europe/Madrid	39.4636	-3.6086	20.4	0	clear	0	0	6.3	0	08:03	20:08
+ES-01-336	24 September 2026 · 02:54 Europe/Madrid	2026-09-26T01:43:09+02:00	2026-09-24T02:00+02:00	Europe/Madrid	38.8889	-3.7142	21.2	0	clear	0	0	5.2	0	08:04	20:08
+ES-01-337	24 September 2026 · 03:02 Europe/Madrid	2026-09-26T01:43:10+02:00	2026-09-24T03:00+02:00	Europe/Madrid	41.0667	-2.6417	14.7	1	mainly clear	27	0	5.8	0	07:59	20:04
+ES-01-338	24 September 2026 · 03:10 Europe/Madrid	2026-09-26T01:43:11+02:00	2026-09-24T03:00+02:00	Europe/Madrid	42.3156	-0.6242	17.5	0	clear	0	0	5.4	0	07:51	19:56
+ES-01-339	24 September 2026 · 03:18 Europe/Madrid	2026-09-26T01:43:12+02:00	2026-09-24T03:00+02:00	Europe/Madrid	38.9142	-6.3381	22.7	0	clear	2	0	2.2	0	08:14	20:19
+ES-01-340	24 September 2026 · 03:26 Europe/Madrid	2026-09-26T01:43:13+02:00	2026-09-24T03:00+02:00	Europe/Madrid	39.4736	-6.3703	24.6	0	clear	1	0	3	0	08:14	20:19
+ES-01-341	24 September 2026 · 03:34 Europe/Madrid	2026-09-26T01:43:14+02:00	2026-09-24T03:00+02:00	Europe/Madrid	39.4589	-5.8783	21.4	0	clear	3	0	5.8	0	08:12	20:17
+ES-01-342	24 September 2026 · 03:42 Europe/Madrid	2026-09-26T01:43:15+02:00	2026-09-24T03:00+02:00	Europe/Madrid	39.4544	-5.3267	21.6	1	mainly clear	6	0	8.9	0	08:10	20:15
+ES-01-343	24 September 2026 · 03:50 Europe/Madrid	2026-09-26T01:43:16+02:00	2026-09-24T03:00+02:00	Europe/Madrid	42.3258	-2.8650	14	0	clear	0	0	4.3	0	08:00	20:05
+ES-01-344	24 September 2026 · 03:58 Europe/Madrid	2026-09-26T01:43:17+02:00	2026-09-24T03:00+02:00	Europe/Madrid	42.5533	-2.5850	14.4	0	clear	0	0	3.6	0	07:59	20:04
+ES-01-345	24 September 2026 · 04:06 Europe/Madrid	2026-09-26T01:43:18+02:00	2026-09-24T04:00+02:00	Europe/Madrid	42.8181	-1.6447	16.7	0	clear	0	0	0.8	0	07:55	20:00
+ES-01-346	24 September 2026 · 04:14 Europe/Madrid	2026-09-26T01:43:19+02:00	2026-09-24T04:00+02:00	Europe/Madrid	42.4816	-1.6474	16.3	1	mainly clear	39	0	1.6	0	07:55	20:00
+ES-01-347	24 September 2026 · 04:24 Europe/Madrid	2026-09-26T01:43:20+02:00	2026-09-24T04:00+02:00	Europe/Madrid	42.2170	-1.5190	18.2	0	clear	0	0	4.8	0	07:55	20:00
+ES-01-348	24 September 2026 · 04:32 Europe/Madrid	2026-09-26T01:43:21+02:00	2026-09-24T04:00+02:00	Europe/Madrid	43.0096	-1.3179	16.7	3	overcast	97	0	5.8	0	07:54	19:59
+ES-01-349	24 September 2026 · 04:40 Europe/Madrid	2026-09-26T01:43:22+02:00	2026-09-24T04:00+02:00	Europe/Madrid	40.4135	-3.6821	20.2	0	clear	6	0	5	0	08:04	20:08
+ES-01-350	24 September 2026 · 04:48 Europe/Madrid	2026-09-26T01:43:23+02:00	2026-09-24T04:00+02:00	Europe/Madrid	40.5892	-4.1479	21.5	0	clear	14	0	2.6	0	08:05	20:10
+ES-01-351	24 September 2026 · 04:56 Europe/Madrid	2026-09-26T01:43:24+02:00	2026-09-24T04:00+02:00	Europe/Madrid	40.4205	-3.6949	20.3	0	clear	6	0	5	0	08:04	20:08
+ES-01-352	24 September 2026 · 05:04 Europe/Madrid	2026-09-26T01:43:25+02:00	2026-09-24T05:00+02:00	Europe/Madrid	40.4193	-3.6933	19.7	1	mainly clear	1	0	4.4	0	08:04	20:08
+ES-01-353	24 September 2026 · 05:12 Europe/Madrid	2026-09-26T01:43:26+02:00	2026-09-24T05:00+02:00	Europe/Madrid	40.4242	-3.7178	19.7	1	mainly clear	1	0	4.4	0	08:04	20:08
+ES-01-354	24 September 2026 · 05:20 Europe/Madrid	2026-09-26T01:43:27+02:00	2026-09-24T05:00+02:00	Europe/Madrid	43.3671	-1.7939	17.9	3	overcast	87	0	6.2	0	07:56	20:01
+ES-01-355	24 September 2026 · 05:28 Europe/Madrid	2026-09-26T01:43:28+02:00	2026-09-24T05:00+02:00	Europe/Madrid	43.3050	-2.2014	16.4	3	overcast	100	0	4.5	0	07:58	20:02
+ES-01-356	24 September 2026 · 05:36 Europe/Madrid	2026-09-26T01:43:29+02:00	2026-09-24T05:00+02:00	Europe/Madrid	43.4465	-2.7833	17.3	3	overcast	90	0	12.2	0	08:00	20:05
+ES-01-357	24 September 2026 · 05:44 Europe/Madrid	2026-09-26T01:43:30+02:00	2026-09-24T05:00+02:00	Europe/Madrid	42.8509	-2.6727	14.2	0	clear	9	0	4.7	0	08:00	20:04
+ES-01-358	24 September 2026 · 05:52 Europe/Madrid	2026-09-26T01:43:31+02:00	2026-09-24T05:00+02:00	Europe/Madrid	35.8886	-5.3189	21.7	2	partly cloudy	54	0	9.5	0	08:10	20:15
+ES-01-359	24 September 2026 · 06:00 Europe/Madrid	2026-09-26T01:43:32+02:00	2026-09-24T06:00+02:00	Europe/Madrid	35.2936	-2.9362	22.3	0	clear	29	0	1.3	0	08:01	20:05
+ES-01-360	24 September 2026 · 06:08 Europe/Madrid	2026-09-26T01:43:33+02:00	2026-09-24T06:00+02:00	Europe/Madrid	42.4667	-2.4450	17.1	2	partly cloudy	67	0	4.6	0	07:59	20:03
+ES-01-361	24 September 2026 · 06:16 Europe/Madrid	2026-09-26T01:43:34+02:00	2026-09-24T06:00+02:00	Europe/Madrid	40.4200	-3.6886	18.5	0	clear	1	0	4.8	0	08:04	20:08
+ES-01-362	24 September 2026 · 06:24 Europe/Madrid	2026-09-26T01:43:35+02:00	2026-09-24T06:00+02:00	Europe/Madrid	40.4827	-3.3635	16.3	0	clear	0	0	4.2	0	08:02	20:07
+ES-01-363	24 September 2026 · 06:32 Europe/Madrid	2026-09-26T01:43:36+02:00	2026-09-24T06:00+02:00	Europe/Madrid	40.4078	-1.4442	12.3	0	clear	0	0	6.6	0	07:55	19:59
+ES-01-364	24 September 2026 · 06:40 Europe/Madrid	2026-09-26T01:43:37+02:00	2026-09-24T06:00+02:00	Europe/Madrid	40.2204	-5.7504	21.8	0	clear	9	0	7.5	0	08:12	20:17
+ES-01-365	24 September 2026 · 06:48 Europe/Madrid	2026-09-26T01:43:38+02:00	2026-09-24T06:00+02:00	Europe/Madrid	40.3418	-1.1072	12.8	0	clear	14	0	2.3	0	07:53	19:58
