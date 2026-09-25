@@ -2636,9 +2636,9 @@
       "scenario_label": "24 September 2026 · 03:18 Europe/Madrid",
       "composition": "Night · Theatre from the cavea, column backdrop floodlit against the sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Roman Theatre of Mérida at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: the two-tier marble scaenae frons glows floodlit above the semicircular cavea and orchestra, seen from the upper cavea — a plausible tourist viewpoint matching the anchored sightlines. Gate 2: on-image strings read exactly 'Roman Theatre, Mérida', 'Scenario: 24 September 2026 · 03:18 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080 with SHA matching the packet; weather provenance retrieved 2026-09-24T01:11, valid 01:00 — same night, within ~2h of scenario, honestly labeled model data, not reused across dates. Gate 3: packet records built-in text-only generation with Lanczos resampling; no photographic inputs reported. Gate 4: empty night theatre, no visible people, no logos; packet documents lighting state as unverified — noted, commercial call is Jason's. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-340",
