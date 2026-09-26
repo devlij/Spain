@@ -32,3 +32,6 @@ a.download:hover{border-color:var(--accent)}.flag-band{height:6px;background:lin
 .wotd .translit{color:#8f8a7d;font-size:12.5px}
 @media (max-width:520px){.wotd .day{margin-left:0;width:100%}}
 .flag-chip.flag-nl{background:linear-gradient(to bottom,#AE1C28 0 33.34%,#fff 0 66.67%,#21468B 0)}
+
+/* Daylight mode: 9:16 tab parked while no 9:16 day masters exist. */
+.fmt-tab.is-disabled{opacity:.35;cursor:not-allowed;pointer-events:none;}

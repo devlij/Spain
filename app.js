@@ -64,6 +64,18 @@ document.querySelectorAll('.card').forEach(card=>{
     dtab.classList.toggle('is-active',isDay);
     dtab.setAttribute('aria-pressed',isDay?'true':'false');
     dtab.setAttribute('data-daynight',isDay?'day':'night');
+    const t916=card.querySelector('.fmt-tab[data-format="9x16"]');
+    if(t916){
+      t916.disabled=isDay;
+      t916.classList.toggle('is-disabled',isDay);
+      if(isDay){
+        const cur=card.querySelector('.fmt-tab.is-active');
+        if(cur&&cur.getAttribute('data-format')==='9x16'){
+          const t16=card.querySelector('.fmt-tab[data-format="16x9"]');
+          if(t16)t16.click();
+        }
+      }
+    }
     const ftab=card.querySelector('.fmt-tab.is-active');
     const dfmt=ftab?ftab.getAttribute('data-format'):'16x9';
     if(dimg&&dlink){
@@ -76,7 +88,7 @@ document.querySelectorAll('.card').forEach(card=>{
       const f=a.getAttribute('data-dl')||((href===dimg.getAttribute('data-src-45')||href===dimg.getAttribute('data-src-45-day'))?'4x5':'16x9');
       const dk=f==='9x16'?(isDay?'data-src-916-day':'data-src-916'):f==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
       const u=dimg.getAttribute(dk);
-      if(u)a.href=u;
+      if(u){a.href=u;a.setAttribute('download',u.split('/').pop());}
     });
     const sc=card.querySelector('p.scenario');
     if(sc){
