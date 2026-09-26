@@ -3210,9 +3210,9 @@
       "scenario_label": "24 September 2026 · 06:24 Europe/Madrid",
       "composition": "Night · University façade from the plaza, illuminated front and cloister · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the University of Alcalá at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 PASS: the University of Alcala's ornate Plateresque facade framed through the arcaded cloister corridor, lit windows and the imperial eagle relief on the central bay glowing warm. Gate 2 PASS: exact caption 'University, Alcalá de Henares', scenario '24 September 2026 · 06:24 Europe/Madrid', AI disclosure and curly-apostrophe signature verified on-image; masters 1920x1080/864x1080, sha256 matched; per-scene Open-Meteo retrieval 2026-09-26T01:43:35+02:00 (valid 06:00, 16.3C clear 0%) — unique to this scene, no shared-retrieval issue. Gate 3 PASS: text-only generation, no photographic inputs. Gate 4: no people or logos; public university; commercial call stays Jason's. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-363",
