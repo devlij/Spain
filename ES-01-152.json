@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-152.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-152.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-152-r2-16x9.png",
+        "sha256": "65037dace5a77c7dbc5e8ed2c3bf6b2af13eb181eaebf0e48e26d8f808ad4e63"
+      },
+      "4x5": {
+        "path": "es-01-152-r2-4x5.png",
+        "sha256": "56754e2d12c2e0b4df98198d538896d056d15d39c8121a04f266a54fcf89e2fc"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-152-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "602ab4b18d33d354da5eedc96a329e8790bb835899afe3e0fb8778a53d3cb4e3"
+      },
+      "4x5": {
+        "path": "es-01-152-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "95eb9370bfd8d58623e7cc95a74d485864fd6394edda37731573e760914f8695"
+      }
+    },
+    "on_image_text": [
+      "Old town, Cehegín",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

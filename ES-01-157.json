@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-157.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-157.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-157-r1-16x9.png",
+        "sha256": "1636246b18ab6c5e4544840279ed080437d382d183055fd5a0a8d15a17979a13"
+      },
+      "4x5": {
+        "path": "es-01-157-r1-4x5.png",
+        "sha256": "9043f3f44b603e4de4c954fe48ef5de3da2eddc8323f49924eab882a5fb8100b"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-157-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "f6f5b87232687272fe937d579042e2b05fcf478ea9c1c161eea6735e0a0665a7"
+      },
+      "4x5": {
+        "path": "es-01-157-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "803326a06d195b85bcae23851654afcb0c3da7a2367cfd01470407bb910345d8"
+      }
+    },
+    "on_image_text": [
+      "La Manga, Cartagena",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

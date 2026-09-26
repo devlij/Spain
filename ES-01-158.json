@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-158.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-158.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-158-r1-16x9.png",
+        "sha256": "ae1a45c09a4dbcd9eb9cbdd03d9fed7feb8eda2ea9262bc4babdf9084f7ce711"
+      },
+      "4x5": {
+        "path": "es-01-158-r1-4x5.png",
+        "sha256": "bfbbef86c9b6ff1b724870951b75d9db45dc7170c70300b4515402c51826fd40"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-158-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "3ece6b940b295f4133f5755d14ee095af3c493dc80d20bedee3e140bb803412e"
+      },
+      "4x5": {
+        "path": "es-01-158-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "80e78667584ab9cb493e9481c8e95c56286e23b113764ba086ec56f1d28c9b06"
+      }
+    },
+    "on_image_text": [
+      "Jumilla, Jumilla",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

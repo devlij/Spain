@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-149.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-149.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-149-r1-16x9.png",
+        "sha256": "653f4de862aa5048be9592895d3b597ef82c351920cae46fc2acfb7e5dd47f9d"
+      },
+      "4x5": {
+        "path": "es-01-149-r1-4x5.png",
+        "sha256": "45fa32510a9614ac87a9c671b6ed58faa77645258db507ef13ed3934f317270f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-149-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "56515fef5287c250c44e4b9078c6bb6ca5a1d28576ee56f32c14d7f1aa259056"
+      },
+      "4x5": {
+        "path": "es-01-149-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "4e4ad091e3504b1972edb8fb5b7e5799e4f71c04997f8f44757d87aa8b5db70e"
+      }
+    },
+    "on_image_text": [
+      "Sagunto Castle, Sagunto",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

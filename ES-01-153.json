@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-153.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-153.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-153-r1-16x9.png",
+        "sha256": "cc64acc4e561e71b2a32286beff6e4d6bcfc8e92ee450023ef5b660b8e9a5046"
+      },
+      "4x5": {
+        "path": "es-01-153-r1-4x5.png",
+        "sha256": "439de9eec739439fedcf2ec58e3210fde387e0320f486008e3ed95d8e28e32a3"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-153-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "60d043d138cc451a259fb69b26a8a3aee62db079156ec7af90a92e8c86cb73a5"
+      },
+      "4x5": {
+        "path": "es-01-153-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "011b13eee9ca1e01ffbd7b7154da5e98c79aa75dd802c992ce8e3aa584c52fdc"
+      }
+    },
+    "on_image_text": [
+      "Cabo de Palos, Cartagena",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-147.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-147.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-147-r1-16x9.png",
+        "sha256": "319c9a3fbc6c32c6858d4864a8aa292e8b996d5efd59b6912dc1afc05041c85f"
+      },
+      "4x5": {
+        "path": "es-01-147-r1-4x5.png",
+        "sha256": "80478c6373d5436673d42c63f0ab8058a22a0ad2b3de3ae391034af5ec13713a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-147-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d68b30e885bdef964552c6676d4f28a5ace852be6e1e8f180fe686172163803d"
+      },
+      "4x5": {
+        "path": "es-01-147-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "84825c5cf0ccba86081a2166763d51251725cb158b671e4010076fa4c92ecb70"
+      }
+    },
+    "on_image_text": [
+      "Dénia Castle, Dénia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
