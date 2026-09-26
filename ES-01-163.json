@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-163.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-163.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-163-r1-16x9.png",
+        "sha256": "8575484b4c468fe9b23350f191a9a56e2cfe2213904c1f8dd2821ffd1f1386f4"
+      },
+      "4x5": {
+        "path": "es-01-163-r1-4x5.png",
+        "sha256": "f397ae5d49943faa0e67756cdcf09e580e8a3cc8e914f1c0125ee3b916bcef71"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-163-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "b6f4413f479cdedc4e2ff8117d5ac91caa46881ee4f42c4e07de0a770bbeef8d"
+      },
+      "4x5": {
+        "path": "es-01-163-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "434dc6b7dd49db78b3144b7dc79120f72c3cf3c98ce019b7f6c897d06575d5ff"
+      }
+    },
+    "on_image_text": [
+      "Old town, Alcúdia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

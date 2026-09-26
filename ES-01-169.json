@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-169.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-169.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-169-r1-16x9.png",
+        "sha256": "532fa545e9e3f9e5b64cc6d6a38d9752a8ab3bbc0965b24592e76010fbe1a9a2"
+      },
+      "4x5": {
+        "path": "es-01-169-r1-4x5.png",
+        "sha256": "35535079803b1583f848afb5b21b5e918ed02b928ace7f1ce39af37bc70525da"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-169-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "37b66f0aee18b42b9263a24023fd305fe2cf494e4cd0ee2f0de4089780c85c88"
+      },
+      "4x5": {
+        "path": "es-01-169-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "7ab9276cae761f557e7263948fc6e45396d7bc81650fa3bfc14180981049b52f"
+      }
+    },
+    "on_image_text": [
+      "Anaga, Santa Cruz de Tenerife",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

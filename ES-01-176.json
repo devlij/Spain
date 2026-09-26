@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-176.md. r2 rebuild (lost batch recovered)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-176.md. r2 rebuild (lost batch recovered).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-176-r1-16x9.png",
+        "sha256": "82304719d1694ebd14deee681efd4b87d66b94b8ea2cca2c8e1eec57092ac5b6"
+      },
+      "4x5": {
+        "path": "es-01-176-r1-4x5.png",
+        "sha256": "d831cdd397c940029af1084349987bf7b9de1a094be961d066a4ad73e5ecb85c"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-176-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "409dfcdf7d3d79e4f5ac18d73452411f4b3f3bdb812db54c6a6624b9a3d58af2"
+      },
+      "4x5": {
+        "path": "es-01-176-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "b392ff87455111ee7fe8105178f82f215666366b87700adbb80aded2d5204eba"
+      }
+    },
+    "on_image_text": [
+      "Caminito del Rey, Álora",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

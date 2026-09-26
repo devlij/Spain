@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-168.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-168.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-168-r1-16x9.png",
+        "sha256": "c2cb42e29ef5157429332df9e0e2fb16954e9175525dc62491e14ee4174bcd97"
+      },
+      "4x5": {
+        "path": "es-01-168-r1-4x5.png",
+        "sha256": "7aed289f998a409ae7d253054e4f09a9783566784fc795d118c1188e5cb357bb"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-168-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "58169b5a7b40fe70390a6a2c776046c19731d8e52e18e38d5f11684624b1f90d"
+      },
+      "4x5": {
+        "path": "es-01-168-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "cbbcc2319c5d3ba5ac2d2072aed35da8b9874083fb0fe48ea24ec5400bd4fb79"
+      }
+    },
+    "on_image_text": [
+      "Old town, La Orotava",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

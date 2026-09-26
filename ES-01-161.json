@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-161.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-161.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-161-r1-16x9.png",
+        "sha256": "7f9ca71b9d9fe92ba0e91b18f2de5c4926df1c1cfe59205fba8d17aad6c02aae"
+      },
+      "4x5": {
+        "path": "es-01-161-r1-4x5.png",
+        "sha256": "c6663bde5e3f01d6665472c9cf1cf0ee470a5133f012a2b7602fb290e3b99a51"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-161-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5c94403c3b67a2b60044dacf600e75889befe99edd931f5674b60a55540eaea9"
+      },
+      "4x5": {
+        "path": "es-01-161-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "6e4e55ac3df47c402ec12af45d12de04fbf812e8bde1716017e8037aeea56635"
+      }
+    },
+    "on_image_text": [
+      "Mahón Harbour, Mahón",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-167.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-167.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-167-r1-16x9.png",
+        "sha256": "edfef8ee9315e1500704cfdc84aa98e7249da5c5ac413c0cf322142cc795479a"
+      },
+      "4x5": {
+        "path": "es-01-167-r1-4x5.png",
+        "sha256": "8f4ae3d66c71ba41c5fe4bcc7a303d6cc6a2d11c31df943b8ff2490c231702cd"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-167-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "56144fea16695643f91652e474bb79673b3f66fa351ad24779cde2e25277168e"
+      },
+      "4x5": {
+        "path": "es-01-167-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "dbf13bd75fb785364bfd7e2347cca84c02f2f90586e256b9fb2152ee54725ad3"
+      }
+    },
+    "on_image_text": [
+      "Corralejo Dunes, La Oliva",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

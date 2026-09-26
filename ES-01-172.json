@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-172.md. r2 rebuild (lost batch recovered)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-172.md. r2 rebuild (lost batch recovered).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-172-r1-16x9.png",
+        "sha256": "8cb7bbf9f0aa555d4bd28d72e0cbd375269a3039e25936edb47c1eadf822e833"
+      },
+      "4x5": {
+        "path": "es-01-172-r1-4x5.png",
+        "sha256": "18304e3b9b989cb31009ef3aa70df709c39b71b4c0c95b5632d3aecc5196b885"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-172-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "35bad738c96b16345e888dd6a88d8dbaf7b46a7d090efeab80f7827d9a178e7d"
+      },
+      "4x5": {
+        "path": "es-01-172-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f30004b7cb53226c722b1159d9b875eacb5a590e0e4229dea893f102732b01f5"
+      }
+    },
+    "on_image_text": [
+      "Torre del Oro, Seville",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
