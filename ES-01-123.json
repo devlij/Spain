@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-123.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-123.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-123-r2-16x9.png",
+        "sha256": "41e1ecaef51fb4c6c92861473520b55235ab5567990b45a3f77492507d8338c0"
+      },
+      "4x5": {
+        "path": "es-01-123-r2-4x5.png",
+        "sha256": "2ddcfc2f24fb8fd89b3322dd2f7dca58f73e7d8033f88ff3049e2e96e34c6c09"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-123-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "cf9bb17b520ce0913ff07eb7eff6b64f3dd26b9b55771491ba1f4c1b07850242"
+      },
+      "4x5": {
+        "path": "es-01-123-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ba88ef5af97acdce1e6c6dab175596f5f323e2ca374fc4038ede685adf4cc3c4"
+      }
+    },
+    "on_image_text": [
+      "Molina de Aragón, Molina de Aragón",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -145,5 +145,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-125.md. weather correction disclosed in packet (archive-verified)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-125.md. weather correction disclosed in packet (archive-verified).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-125-r1-16x9.png",
+        "sha256": "33ecf63545c1bb47a374d9bf42505d7ce1883ff37dc2d3bf65e70ea43150aa6c"
+      },
+      "4x5": {
+        "path": "es-01-125-r1-4x5.png",
+        "sha256": "b1b21754b3c8cb222a6ef0837b0d285ad186eae7222e4c7aea00557e68e0150d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-125-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1cdda79d353460dd65541bebab6d1b2eb40fdfbe82faf825c5c8fa82423c3aa6"
+      },
+      "4x5": {
+        "path": "es-01-125-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "bce2e37af47b274479258f74ebd4abcfccbaf735911439ff48d41253928fecc3"
+      }
+    },
+    "on_image_text": [
+      "Mudejar Towers, Teruel",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

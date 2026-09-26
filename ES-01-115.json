@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-115.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-115.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-115-r1-16x9.png",
+        "sha256": "2273db1d25dfb19a5b36fdd2c3fbfb2220615c577ba477d138edd0a1aca8f437"
+      },
+      "4x5": {
+        "path": "es-01-115-r1-4x5.png",
+        "sha256": "e56fe64f4d9d757e4ee101a37e84888ada8d14f932438a62aab52903d75748ff"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-115-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "256f8d92bc26382c63a231d22a3a486226e32528d8c763d619ee725e7a26c442"
+      },
+      "4x5": {
+        "path": "es-01-115-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "4327c53ee4f5aa346051315245f2db6ed6406d7b90289fbddc1448e37a7b1ba6"
+      }
+    },
+    "on_image_text": [
+      "Villanueva de los Infantes, Villanueva de los Infantes",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

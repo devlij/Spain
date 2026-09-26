@@ -156,5 +156,46 @@
   "ref_changes": [
     "2026-09-24: dead https://en.wikipedia.org/wiki/Citadel_of_Jaca (404) replaced with official spain.info listing."
   ],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-128.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-128.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-128-r2-16x9.png",
+        "sha256": "3c0a86f0c0ab70c4df6e4300a9e891a50b1abba97ccbb3e3bcfd9cb23aed7cf9"
+      },
+      "4x5": {
+        "path": "es-01-128-r2-4x5.png",
+        "sha256": "9c2ce47fd162e966818bd77cbf641bdcffc5f4b86fa20475743705132c6f09f0"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-128-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "0a287a89c67c2baae4a8d024b95b27b936dc4664973f48d9c1dea8f9b570d511"
+      },
+      "4x5": {
+        "path": "es-01-128-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "efab247cf6a406f271c0e3f50fe8390341450596ca3e9834bd45a0e43c92215c"
+      }
+    },
+    "on_image_text": [
+      "Citadel, Jaca",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

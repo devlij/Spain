@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-116.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-116.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-116-r1-16x9.png",
+        "sha256": "00136bfc8d951421e1d5fc06ee5aff4b0f2c61230884298c8cabf4da4e9c48da"
+      },
+      "4x5": {
+        "path": "es-01-116-r1-4x5.png",
+        "sha256": "7cd7c9ec6b87e08c1903bdc29b4ecfb9cfd5173e44ef55eb77a932fe996e960c"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-116-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "039f5a3d16e8433c624fa0d750b7e3f3a12c84cfc826929d1019947fe58246e4"
+      },
+      "4x5": {
+        "path": "es-01-116-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "7396dc049b9662a1e5b1d7e146133648d5bd166e7a639122ca35ecde5dde8f07"
+      }
+    },
+    "on_image_text": [
+      "Old town, Pastrana",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

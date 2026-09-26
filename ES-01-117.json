@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-117.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-117.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-117-r1-16x9.png",
+        "sha256": "9f98491f10deaf15e4e6e747f38b80eb7bc5385c9c070f0ec0f3b1269f6bf806"
+      },
+      "4x5": {
+        "path": "es-01-117-r1-4x5.png",
+        "sha256": "63c3119b4b899f429faa0ee6099224984874ad8795ace5bbbf0ce352b9ef77d6"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-117-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7aec489c1f5c25468a57e1ccc54512050e9b815c21965aa7bbe55127a45af754"
+      },
+      "4x5": {
+        "path": "es-01-117-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c95aec997b3597996249b64f9ea5e1c31846e3c0f2b5a20e52840f944e788720"
+      }
+    },
+    "on_image_text": [
+      "Old town, Almagro",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

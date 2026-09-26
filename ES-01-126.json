@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-126.md. r3 rebuild (weather record proven wrong; fresh regeneration)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-126.md. r3 rebuild (weather record proven wrong; fresh regeneration).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-126-r3-16x9.png",
+        "sha256": "6c57aa4801f91933fa66cfb8d7cc41651dee761d8cd09e9aa4dff38bffb615b4"
+      },
+      "4x5": {
+        "path": "es-01-126-r3-4x5.png",
+        "sha256": "b972e77b047b0061c4db9613a589f777325c1ad2da7a69c8539430d372cb9bd9"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-126-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "32afc68be5f5e35e65c99794e8685ed8fe2ba929ee008fe8ff056a3a01e0aa30"
+      },
+      "4x5": {
+        "path": "es-01-126-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "b2d71d8750a0de47e338b617d9438cc71aefa3c28ad9d40906c81e25d19e135c"
+      }
+    },
+    "on_image_text": [
+      "Sos del Rey Católico, Sos del Rey Católico",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

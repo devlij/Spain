@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-113.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-113.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-113-r1-16x9.png",
+        "sha256": "f6668885fd54408cb636b6be4d5a054fabe13b8dff3e3ec1a115d6d6406593a6"
+      },
+      "4x5": {
+        "path": "es-01-113-r1-4x5.png",
+        "sha256": "7e456dad37e9dfc9ab337ed56ffa3540deb0289d42f951e1ecc0e7be13d20464"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-113-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "3531660f95a8452286ddba3599642b8ea353c53a433bde0b44c2849711a4c1c1"
+      },
+      "4x5": {
+        "path": "es-01-113-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e4f0bae4717ca6757e99623def3d79681c9939cbd3facdcdc97cf90807a638c7"
+      }
+    },
+    "on_image_text": [
+      "Almudena Cathedral, Madrid",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
