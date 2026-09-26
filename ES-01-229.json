@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1 visual/location pass: recognizable Plaza Santa Maria church ruins with Cazorla castle on the hill above, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents text-only generation, no photographic inputs. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers."
+  "approval_basis": "Gate 1 visual/location pass: recognizable Plaza Santa Maria church ruins with Cazorla castle on the hill above, plausible plaza viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents text-only generation, no photographic inputs. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-229-r1-16x9.png",
+        "sha256": "1af3078ac4f44f2847008e779494f2cc4622420f45c58d3c018c7bc80076e83c"
+      },
+      "4x5": {
+        "path": "es-01-229-r1-4x5.png",
+        "sha256": "3639ea5ee2c4d82a1ad3385a3b2a47dd65ea01314ae84b06eed442281cb3b0cb"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-229-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "ae0e5dd5bb8e5ba3187295a4d2b44ccccc16e644b0356e6eb0fc5a53026a6409"
+      },
+      "4x5": {
+        "path": "es-01-229-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "641df4e405a105888598b9a243c0536ef835e1b69dd74786705b1be2ab5a685b"
+      }
+    },
+    "on_image_text": [
+      "Plaza Santa María, Cazorla",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

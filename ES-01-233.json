@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Balcón de Europa, Nerja recognizably depicted — marble balustrade terrace overlooking the cove with the Alfonso XII statue at the railing, lit promenade and moonlit sea, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public viewpoint with public statue only; documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-233-r1-16x9.png",
+        "sha256": "9d2d3e0e4f2404280697c948be2ca9f33bcd4792dc6e4146b61ce150511a3013"
+      },
+      "4x5": {
+        "path": "es-01-233-r1-4x5.png",
+        "sha256": "3f696ee5cb59812187e489c59d4717c36d03168659de6b64f31bd697620d1201"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-233-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "ca2d5b516ec6a1e0e85c2d4a88a5614253d99f7e5538c6ee051ece13d97255d4"
+      },
+      "4x5": {
+        "path": "es-01-233-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "59ddacbbdf882514d0a59a457f098c4304ab47aaf68c8515dbd448af164fc91f"
+      }
+    },
+    "on_image_text": [
+      "Balcón de Europa, Nerja",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

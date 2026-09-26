@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Jaén Cathedral's Renaissance twin-tower facade floodlit against deep blue night, crescent moon upper right, Santa Catalina castle silhouette on the hill behind, lit plaza and lamp posts in the foreground — recognizably Jaén Cathedral from the Plaza de Santa María viewpoint; no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Jaén Cathedral, Jaén', scenario '24 September 2026 · 01:41 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:38:39 valid 01:41:33 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-227-r1-16x9.png",
+        "sha256": "62d96dd50f9d617d48bb1a4c3c00c69c7e55ca494e9dac08b2740722827a67e0"
+      },
+      "4x5": {
+        "path": "es-01-227-r1-4x5.png",
+        "sha256": "83fb8b954a225a5b5aaa7cef4978514b02cbb7ba696d1d01f82448839fe08056"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-227-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a03f360c12c227ba4ddd271c8e11c048fa96f62958a46a0e697ad0c33e5932b9"
+      },
+      "4x5": {
+        "path": "es-01-227-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "297b556f67116692caa51eff70b3577c66e0fc9e0e39d15e74051c34696f384e"
+      }
+    },
+    "on_image_text": [
+      "Jaén Cathedral, Jaén",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

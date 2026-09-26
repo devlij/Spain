@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Puente Nuevo, Ronda recognizably depicted spanning the El Tajo gorge with whitewashed town both sides, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public landmark only; documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-232-r1-16x9.png",
+        "sha256": "c272ff37f916472149a714f7cb443594783ac5b5a2119d2143f5801148dd8468"
+      },
+      "4x5": {
+        "path": "es-01-232-r1-4x5.png",
+        "sha256": "b4e616a33a984b078c403b1a7def38ce3d0adb02b4e8ca85779bc2c3f204f2ea"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-232-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "835195ab1281c6da1e8b2e3ee1d5b18c5c43b3c92704defd2f892d7de0bf11bc"
+      },
+      "4x5": {
+        "path": "es-01-232-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "8dd5d6ec0636f8913ef1be01e14deb8c8440a4a00baac171b8cf2aa6ce5b487d"
+      }
+    },
+    "on_image_text": [
+      "Puente Nuevo, Ronda",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

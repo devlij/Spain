@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Monumento a Colón recognizably depicted from a plausible tourist viewpoint at Punta del Sebo, estuary marshland and port lights behind, clean framing, no artifacts. Gate 2: both masters 1920x1080/864x1080 with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation with image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public monument only; noted as documented, not certified. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-231-r1-16x9.png",
+        "sha256": "35fecde01518437654e980f84b63c57f3200f0d715b18901d7b084bff7700673"
+      },
+      "4x5": {
+        "path": "es-01-231-r1-4x5.png",
+        "sha256": "7869338f553855c3f2078bdb686fd0a0c94aee73da58447fa81cd0497b56f54a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-231-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a175db29056195d2c24ce5ae055575daf3a250072901ef661020bd818b99c22e"
+      },
+      "4x5": {
+        "path": "es-01-231-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "8a5004ee7dbc5b62e48efab3917ef50748e3b2a4d725c42e9b12a67e04d157f7"
+      }
+    },
+    "on_image_text": [
+      "Monumento a Colón, Huelva",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

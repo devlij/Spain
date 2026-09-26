@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Baeza's lamp-lit wall walkway (Paseo de Antonio Machado) leading toward the twin-tower Renaissance church above the walls, olive groves rolling to the moonlit mountains beyond, crescent moon upper right — recognizably Baeza's wall-side night scene with the Machado promenade character; church tower count is interpretive per packet disclosure; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Paseo de Antonio Machado, Baeza', scenario '24 September 2026 · 02:31 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 02:29:06 valid 02:31:18 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted)."
+  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-237-r1-16x9.png",
+        "sha256": "04ed68a3db003f5770f344c4f245422e887f98618513d05e54c9becb89f50d3a"
+      },
+      "4x5": {
+        "path": "es-01-237-r1-4x5.png",
+        "sha256": "df7361ea329f14141e56be9275d80e9a889558abe9a6fc02f630a429fd950669"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-237-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d78ae49295159a3c9098059ead014b7bbb3cd49612a1606c8b2d154c38e426e7"
+      },
+      "4x5": {
+        "path": "es-01-237-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ab9d936897110ec2f745abedec8614c6893a75d9a110b40565b82ece2d80abe3"
+      }
+    },
+    "on_image_text": [
+      "Paseo de Antonio Machado, Baeza",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

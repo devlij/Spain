@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1 visual/location pass: recognizable crenellated Walls of Niebla with gate towers and whitewashed town behind, plausible viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents text-only generation, no photographic inputs. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers."
+  "approval_basis": "Gate 1 visual/location pass: recognizable crenellated Walls of Niebla with gate towers and whitewashed town behind, plausible viewpoint, clean framing, no artifacts. Gate 2 technical pass: exact 1920x1080 + 864x1080, SHA-256 matches packet, exact Jason D's Vision signature bottom-right, caption/scenario timestamp/AI disclosure bottom-left legible. Gate 3 originality: packet documents text-only generation, no photographic inputs. Gate 4 commercial/IP documented only: no visible people or logos. Gate 5 publication readiness confirmed, no open blockers.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-230-r1-16x9.png",
+        "sha256": "5dab3e62ac694248546691366f5a9f9b63d65e7c8fb6b0d74754a3bb86b784b7"
+      },
+      "4x5": {
+        "path": "es-01-230-r1-4x5.png",
+        "sha256": "09d927940e91fa28b459fb2010c420fb3158a82605e48c6de832fb9c3ce563d3"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-230-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7ac91cf508482aa4537c90205a6303983b8f5201e8e3351ab366895f6edd1bb1"
+      },
+      "4x5": {
+        "path": "es-01-230-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "27fe7b8ef10fbd275d8d3568fddc216590a8f93dbf4a822f0d3143b021fee714"
+      }
+    },
+    "on_image_text": [
+      "Walls of Niebla, Niebla",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

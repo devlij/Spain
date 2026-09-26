@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Cádiz Cathedral recognizably depicted — golden-tiled dome, twin towers, stone façade and plaza, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dimensions with SHA-256 matching packet, exact 'Jason D's Vision' signature bottom-right, exact caption, scenario timestamp and AI disclosure bottom-left on gradient scrim, legible. Gate 3: packet documents text-only generation, image_inputs: [], no photographic inputs. Gate 4: no people, logos, or private property visible — public cathedral only; documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-235-r1-16x9.png",
+        "sha256": "6d9693ad4e1b04f3c526ba227ef5ab902af8506181907b3ee1f2731e2cd43510"
+      },
+      "4x5": {
+        "path": "es-01-235-r1-4x5.png",
+        "sha256": "54082d7901208aa33f3fc6ff035ae0f7788b932a1eeeda6175060f3d6f837928"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-235-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "b256372c422a65c22ef78225cc26485b0ba66175d4c0d93c371cc8d2bdcd493e"
+      },
+      "4x5": {
+        "path": "es-01-235-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "88d9302f74876cc6c4abf144e0397e69f38a03d685282cd158031cb42d7c0bc8"
+      }
+    },
+    "on_image_text": [
+      "Cádiz Cathedral, Cádiz",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

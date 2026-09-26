@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Aracena's whitewashed houses climbing the hillside at night, viewed from the old castle wall walkway with the lit brick bell-gable tower foreground-left and moonlit sierra beyond — recognizably Aracena from a plausible castle-rampart viewpoint; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Aracena, Huelva', scenario '24 September 2026 · 01:41 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:38:39 valid 01:41:33 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-226-r1-16x9.png",
+        "sha256": "40db00f51ffe63b4b15015b754e5dde47af5469753c3e195d5f6ff9c2d3483ad"
+      },
+      "4x5": {
+        "path": "es-01-226-r1-4x5.png",
+        "sha256": "e9bd59e166ecf0c753a761af7c5af0e2178043ac6c701161b79fdadc964541df"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-226-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d5e25ee1a852078f7151c42f96e646e93b5d91ecdd7f36205d2c6bfa2ce1f680"
+      },
+      "4x5": {
+        "path": "es-01-226-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e3b3c33371b96fa5b104cc7558316a4bc21200bc0ae9b0e9b2b6ee3b1a28ccca"
+      }
+    },
+    "on_image_text": [
+      "Aracena, Huelva",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

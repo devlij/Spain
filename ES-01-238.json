@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Alcázar of Jerez's crenellated stone keep rising above the lantern-lit inner courtyard, octagonal carved fountain centered among hedges, orange trees and palms, bell tower behind the right wall — recognizably the Alcázar's courtyard from a plausible interior viewpoint; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Alcázar of Jerez, Jerez de la Frontera', scenario '24 September 2026 · 02:31 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 02:29:06 valid 02:31:18 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted)."
+  "qc_notes": "Reverted to candidate 2026-09-24 ~02:35 EDT: the ~01:25 UTC QC run approved 25 scenes (ES-01-236..241, ES-01-347..365) with byte-identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals; copy-pasted approval text is invalid and must be reverted).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-238-r1-16x9.png",
+        "sha256": "25068408165273f342f06ea0bdd9a9503a0f58f159f7fb054c9d19ebecfd191b"
+      },
+      "4x5": {
+        "path": "es-01-238-r1-4x5.png",
+        "sha256": "4224e16c14fa4d3d24e0db55ce9a0b9581a2e5abdec0a8b01c1f6006756dfb1f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-238-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9a863e83a87d118e66396d25073b0c8e99cd3f673f431e6a0a09c4ebe4d55da7"
+      },
+      "4x5": {
+        "path": "es-01-238-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "21e1231967a5ad6c25ac5d576d74fb8e34b417207d8e1ccc338bb81928a1f720"
+      }
+    },
+    "on_image_text": [
+      "Alcázar of Jerez, Jerez de la Frontera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
