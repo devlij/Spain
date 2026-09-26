@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-195.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-195.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-195-r1-16x9.png",
+        "sha256": "aec11259063641913ea037fc129b51817d5bf69e0a05bd24da9f9e09d2a743d3"
+      },
+      "4x5": {
+        "path": "es-01-195-r1-4x5.png",
+        "sha256": "aa1d64a47c7b64d3d3f1d4da29cfcedd96e4831d964e90d00af717e67e3cef8d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-195-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "8ed0f3ee78ff7b2dc68f2cd2b3713cd6afb7985452517629c0d08aba2051d1d0"
+      },
+      "4x5": {
+        "path": "es-01-195-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ea3cbfe7a7906fd1a2b56eecbf9d8cf61628f6191370dbc51146c83f63ad97d1"
+      }
+    },
+    "on_image_text": [
+      "Olivenza, Olivenza",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

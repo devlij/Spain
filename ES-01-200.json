@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night Roman Theatre, Málaga: the crescent of floodlit cavea steps at the foot of the Alcazaba's ramparts, warm lampposts flanking the forecourt and the glass visitor pavilion to the right; on-image text verified: caption 'Roman Theatre, Málaga', scenario '24 September 2026 · 01:15 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:13:14+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; packet discloses the theatre is closed at night and the floodlit illumination is artistic interpretation, unverified (documented only — carried as packet limitation, not presented as verified state).",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-200-r1-16x9.png",
+        "sha256": "2e8e15b337b57e7fd53ddfb3a928fa7463e01aa1ee102fdc1a53b8a9dabb70f9"
+      },
+      "4x5": {
+        "path": "es-01-200-r1-4x5.png",
+        "sha256": "01847db84bd826ba3c391302d41d59a8274438903a704aaabb174aaaa0b373e1"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-200-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "e26f249da1da8127e32da52c62eff811c9247feaee1407a1a1de9a4270ff9389"
+      },
+      "4x5": {
+        "path": "es-01-200-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "14a4664e4e78de1dab7559a68ac4da1369fe4a52fda2e24b691b2c9d3bb9e11f"
+      }
+    },
+    "on_image_text": [
+      "Roman Theatre, Málaga",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

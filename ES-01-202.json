@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Málaga Cathedral's Renaissance west façade recognizably depicted from Plaza del Obispo — carved relief panels, arched portals, tall floodlit north tower ('La Manquita') rising right of center, old-town rooftops flanking; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet dd27569d/ffc5cb06; caption 'Málaga Cathedral, Málaga', scenario '24 September 2026 · 01:15 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' and 'Jason D's Vision' (curly apostrophe) verified on-image, legible on scrim; Open-Meteo retrieved 01:13:14 valid 01:15:17 — 2 minutes before scenario, no stale/reused weather. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; night floodlighting disclosed as artistic interpretation in packet. Gate 5: no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-202-r1-16x9.png",
+        "sha256": "dd27569d2c8af63c54f39307165105d04ed9b7210ce205d85d2ca93c8309d340"
+      },
+      "4x5": {
+        "path": "es-01-202-r1-4x5.png",
+        "sha256": "ffc5cb06e1be21d43708a1be0b9cebadc4010b294bd6ed1835c3e2d3e7113c68"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-202-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "46229c79600bf3d8aed4b477d2f424306d4ea25cb9e2abf523ebdf59f6f234dc"
+      },
+      "4x5": {
+        "path": "es-01-202-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "98783093232ad9bf2939ca40c02e3055b88977f0aa8001850fc901e4e3258765"
+      }
+    },
+    "on_image_text": [
+      "Málaga Cathedral, Málaga",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

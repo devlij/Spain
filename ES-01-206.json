@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Colomares Castle recognizably depicted — the eclectic Columbus-tribute monument's brick-and-stone towers, ornate pinnacles, carved prow of a ship on the façade, warm floodlighting against the night, cypress trees framing and Benalmádena town lights on the coast behind; plausible tourist viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Colomares Castle, Benalmádena', scenario '24 September 2026 · 01:17 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:13:14 valid 01:17:29 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; night floodlighting disclosed as artistic interpretation, unverified at the scenario hour. Gate 5: no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-206-r1-16x9.png",
+        "sha256": "fc69a6b769a7b86c36088db74bfbbbe4bf4dc8707405103056583f5f923e0e03"
+      },
+      "4x5": {
+        "path": "es-01-206-r1-4x5.png",
+        "sha256": "28fd8d74b18e3db9967f6b5d8e0f63e7e892e6256525faffe5e571cd86eda8db"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-206-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "125ec924cb5ca5451c430be349742991ed47818f1cf848fe11ac35af01152b7d"
+      },
+      "4x5": {
+        "path": "es-01-206-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "0acee3f6997462e206f59e6d06ea4e9eb66173473b8ade1a8fabad6708848765"
+      }
+    },
+    "on_image_text": [
+      "Colomares Castle, Benalmádena",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

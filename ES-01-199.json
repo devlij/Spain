@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-199.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-199.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-199-r1-16x9.png",
+        "sha256": "312089726c1359b8091d1e188f88ed0d43edd2878410a3c2d42f37c8c7d901db"
+      },
+      "4x5": {
+        "path": "es-01-199-r1-4x5.png",
+        "sha256": "cca10707ebd1ae4d3a463ab027bb6857e9e42daa8e1b9d6567a1348b0e38b170"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-199-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "b3d0f99593b794838ec66c5380b5bebb1f9ac654ae5b509a7ea1410253a1ffc5"
+      },
+      "4x5": {
+        "path": "es-01-199-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c10dfc36ba3704a9e18fdc2bce06765281324c0c4edccea842a3e032bcead8b8"
+      }
+    },
+    "on_image_text": [
+      "Ensanche Modernista, Melilla",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

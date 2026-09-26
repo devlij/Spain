@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Balcón de Europa recognizably depicted — palm-lined marble promenade curving along the headland, glowing lanterns, the bronze statue of King Alfonso XII on its plinth at left, two historic cannons at right, lit Nerja coastline sweeping both ways below; plausible tourist viewpoint on the balcony; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Balcón de Europa, Nerja', scenario '24 September 2026 · 01:17 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image (both formats checked visually); Open-Meteo retrieved 01:13:14 valid 01:17:29 — fresh, no stale weather. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: the only human form is a generic bronze public statue, no identifiable living people or logos; promenade illumination disclosed as partially tourism-guide-supported with artistic interpretation of brightness. Gate 5: no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-204-r1-16x9.png",
+        "sha256": "d717dc13f0d22fb772a7e2509b62e6c9fbc7068956b60ea23ef761dd67e4b46c"
+      },
+      "4x5": {
+        "path": "es-01-204-r1-4x5.png",
+        "sha256": "c8fd564653af3f17c87ecb2572fc24f483add6c41845cdcc60aa205de349e862"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-204-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "218479a27c3708056e9a282aa61f1f11b92190f219065d8e59efb066026d5742"
+      },
+      "4x5": {
+        "path": "es-01-204-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "da0fa520512d9272a20b1bf8f73b8fa6d12adb74e81d480d81e7f1b7351e1f86"
+      }
+    },
+    "on_image_text": [
+      "Balcón de Europa, Nerja",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Marbella old town recognizably depicted — whitewashed façades with wrought-iron balconies, terracotta geranium pots, street lanterns, orange trees lining a plaza, a white church tower with open bell arches and a stone clock-fronted building behind; plausible Plaza de los Naranjos viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Old Town, Marbella', scenario '24 September 2026 · 01:15 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image and legible; Open-Meteo retrieved 01:13:14 valid 01:15:17 — fresh, no stale weather. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; lantern/terrace lighting disclosed as artistic interpretation. Gate 5: no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-203-r1-16x9.png",
+        "sha256": "bc73e1b7fe8df7fa60839d9f803c0e0e454fe42ace5f63b4c793b3c910398545"
+      },
+      "4x5": {
+        "path": "es-01-203-r1-4x5.png",
+        "sha256": "ff795a681fa06bb3c1fc614290e1a4fed81ab1e19e158fcdea6dd2ac8e1d7971"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-203-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7e6be2cfef949441d542c67ecf66ac1a30c3ec8565e152ef2e6b5e641f5020ee"
+      },
+      "4x5": {
+        "path": "es-01-203-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "30ae7c84910b5432333fe9d120c682f560273c86035133e2b0665cf9a2068cbe"
+      }
+    },
+    "on_image_text": [
+      "Old Town, Marbella",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

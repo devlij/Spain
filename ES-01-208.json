@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Cádiz Cathedral recognizably depicted from its plaza — the golden dome glowing between the two ornate baroque towers, floodlit stone façade, street lamps and palm-frond silhouettes framing a wet reflective plaza; plausible tourist viewpoint; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Cádiz Cathedral, Cádiz', scenario '24 September 2026 · 01:22 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:20:58 valid 01:22:26 — fresh, within 2 minutes of scenario. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted; packet is transparent that evening illumination is documented only by a walking tour, exact state at 01:17 unverified — disclosed, not claimed. Gate 5: no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-208-r1-16x9.png",
+        "sha256": "2bbd2d414a3099985e79e640e338862c3f8e4919d9dfd18cd24382e66228b778"
+      },
+      "4x5": {
+        "path": "es-01-208-r1-4x5.png",
+        "sha256": "96d50de91246644e1c7eeac2a7aafc9519b7ab1a521ce7b620ff2d3a6e06bc62"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-208-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "3afcc46cfa5cad06aa130b4da6cec9171e3307d05a44f50c87c8213568d0d75c"
+      },
+      "4x5": {
+        "path": "es-01-208-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "dcc281f6f3e0934ed90e439b8a3b1577f14d16d1af49ad42e32df8c5fe898172"
+      }
+    },
+    "on_image_text": [
+      "Cádiz Cathedral, Cádiz",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
