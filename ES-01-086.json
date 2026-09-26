@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-086.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-086.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-086-r2-16x9.png",
+        "sha256": "c15f425d5c7394920bbe84b382b618d2766f47e7a0366f0f5e6694159f0615ce"
+      },
+      "4x5": {
+        "path": "es-01-086-r2-4x5.png",
+        "sha256": "fac198326b33a5ba353fc665639958e77e3873f2b8d04fd7d4bf7d40952fe180"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-086-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "06333b1a5f8859ad64e05daee436c72f821ebdefab279afd10291098a17c85c0"
+      },
+      "4x5": {
+        "path": "es-01-086-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "fa7566bf612bc80a1a4f464bb8d13650effbef91c7a7870b22fd06080efe4143"
+      }
+    },
+    "on_image_text": [
+      "Cíes Islands, Vigo",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-094.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-094.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-094-r1-16x9.png",
+        "sha256": "16352ed3abc1c578bf8778a0c536f5433395f2739f5f2cc48f959040d6c8d585"
+      },
+      "4x5": {
+        "path": "es-01-094-r1-4x5.png",
+        "sha256": "9a617e3bef61100fbebef5a4254cf8a644b87e44b5239c18b3795681e7218dfe"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-094-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "e05a64a602b949d04131c9e88af650332fc8ffc42b51d44c97b36cde1b3ddd1e"
+      },
+      "4x5": {
+        "path": "es-01-094-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "9c2b24dde7e21bcfeca2143313d12a394931982090ee7e516138970fdcddb1ac"
+      }
+    },
+    "on_image_text": [
+      "Tower of Hercules, A Coruña",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

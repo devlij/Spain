@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-085.md. description corrected (Rapa das Bestas de Candaoso, Viveiro-verified)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-085.md. description corrected (Rapa das Bestas de Candaoso, Viveiro-verified).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-085-r1-16x9.png",
+        "sha256": "ada38acd583dfd7d8d348ea388cde26e37e7bddda6be19ebc8cf9b60511f4fa4"
+      },
+      "4x5": {
+        "path": "es-01-085-r1-4x5.png",
+        "sha256": "993ecdeed746e41893837cc4006b65abae5718748f434043cb352988600589c6"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-085-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "389e803d50642adeda3058672bbf9c277ba6aa6c2d3a5d276da6714848b83bf3"
+      },
+      "4x5": {
+        "path": "es-01-085-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "b48a009e6fbe3bd56c73bd90d62d6143847f423c0718691958fb2b03e328bd48"
+      }
+    },
+    "on_image_text": [
+      "Old town, Viveiro",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

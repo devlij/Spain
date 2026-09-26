@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-092.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-092.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-092-r1-16x9.png",
+        "sha256": "8e8dffb19abc03ab8b6466694407252ef148203fc2b137e07f7e8598998c3f08"
+      },
+      "4x5": {
+        "path": "es-01-092-r1-4x5.png",
+        "sha256": "b045d5c3c1d3507bc1c640b1490ea01a78844d5c63c0decaf466907c7585c243"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-092-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "08ec65f4d9fd686dc57fcf6afaf8a77cf6884f2a1958276e149c72f95ea47c7a"
+      },
+      "4x5": {
+        "path": "es-01-092-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f15f3d10fbb794b6eff7ba5a25e5f40ca9529fb220dd40315f54170a35a8320e"
+      }
+    },
+    "on_image_text": [
+      "Sil Canyon, Ribeira Sacra",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

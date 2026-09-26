@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-083.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-083.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-083-r1-16x9.png",
+        "sha256": "4f65e55b8d4b1d954d0c7912308d8ad6a7925733392c73e25a26aaf03e9851dd"
+      },
+      "4x5": {
+        "path": "es-01-083-r1-4x5.png",
+        "sha256": "1c22fe62d1f9e71c3cbb479cf6763bfc8f68fe2fa83cbe64af79c150190b92af"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-083-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "412adcde6a10d834d8ef660eaa11eafb66477bf21fba8148feda665cbb66d91c"
+      },
+      "4x5": {
+        "path": "es-01-083-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f214430b34dbb634efc639cb152c18e104f6a4594d8959f274bd621d7e62b843"
+      }
+    },
+    "on_image_text": [
+      "Roman Bridge, Cangas de Onís",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

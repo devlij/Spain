@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-095.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-095.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-095-r1-16x9.png",
+        "sha256": "2851a884324d0df55625acac7ee460f741736341562ba60df6e38e63c394feb4"
+      },
+      "4x5": {
+        "path": "es-01-095-r1-4x5.png",
+        "sha256": "f40297690ad46101cf02f5fb6fe85b5aed182001051336a24236cfba25e89c6f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-095-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7bd9b2669891f973339e74f33adc065d1c698f7ce3ca0d0b5e71016fa8042675"
+      },
+      "4x5": {
+        "path": "es-01-095-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "791b3d8aa5495be7f1b4ba7a49c38150260e1f3d79dad1baff4aa15ba96f14ef"
+      }
+    },
+    "on_image_text": [
+      "Cathedral, Santiago de Compostela",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
