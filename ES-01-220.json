@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night view of Cabo de Gata, Almería from the Mirador de las Sirenas: the lighthouse with its sweeping beam on the headland at right, the jagged volcanic sea stacks in the dark sea, crescent moon and the Milky Way over drifting clouds, the stone parapet of the mirador in the left foreground. Gate 1 (visual/location): recognizable Cabo de Gata lighthouse and sea-stack coastline from a plausible mirador viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Cabo de Gata, Almería', scenario '24 September 2026 · 01:36 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:30:46+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; lighthouse beam treatment unverified in packet limitations but plausible for an operating lighthouse.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-220-r1-16x9.png",
+        "sha256": "6c2c6bc15a18f1ce35bc3c1b15be5ce8e31bbca6506c4af59fb026ebf3f8c55b"
+      },
+      "4x5": {
+        "path": "es-01-220-r1-4x5.png",
+        "sha256": "3956339b9daac6a272c2bf5a84539c794720580d32487d3a15e9db812e2da607"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-220-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5694e34efe857d22368365fa58635d5604da2169b1408a7a47ca7e1bacb3e950"
+      },
+      "4x5": {
+        "path": "es-01-220-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "11e3b5faee882351ab9d805142d2ccbe01538242dae262f7db98bfb59ccbc5bc"
+      }
+    },
+    "on_image_text": [
+      "Cabo de Gata, Almería",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

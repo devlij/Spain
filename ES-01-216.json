@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night view of Baeza Cathedral, Jaén from Plaza de Santa María: the Renaissance façade with its carved Plateresque portal, the Santa María fountain with twisted columns and coat of arms in the foreground, lit bell tower at right, cypresses and warm streetlamps framing the plaza. Gate 1 (visual/location): recognizable cathedral front and fountain from a plausible plaza viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Baeza Cathedral, Jaén', scenario '24 September 2026 · 01:28 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:27:03+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; exact illumination arrangement unverified per packet limitations.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-216-r1-16x9.png",
+        "sha256": "aebc14951ea0a686d000f57903bece77c0adacd19cb9a3f0545cbee9172add30"
+      },
+      "4x5": {
+        "path": "es-01-216-r1-4x5.png",
+        "sha256": "96076838280e6e94e634670ab2b18f8af310ec75227d2c1913f29b5802da8d42"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-216-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7186e800f454ba06838c9f2877e24de3849866f916475081d890025aee30faca"
+      },
+      "4x5": {
+        "path": "es-01-216-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "5a4b09edbc72022ed539cbd30e63bceeaa9cd67d8510188a1c6932dc5c6c4a66"
+      }
+    },
+    "on_image_text": [
+      "Baeza Cathedral, Jaén",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

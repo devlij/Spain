@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night view of the Tabernas Desert, Almería from the castle-ruins viewpoint: moonlit badlands of eroded gullies and a dry wash, ancient stone ruins in the left foreground, full moon and dense stars over the mountain silhouette. Gate 1 (visual/location): recognizable Tabernas badland formations from a plausible viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Tabernas Desert, Almería', scenario '24 September 2026 · 01:28 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:27:03+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; natural moonlight only, no invented artificial lighting, per packet discipline.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-219-r1-16x9.png",
+        "sha256": "e249df5d8225f28766e3417305ece2837fc3171848a6cc3bef172ef6307b8975"
+      },
+      "4x5": {
+        "path": "es-01-219-r1-4x5.png",
+        "sha256": "18817eae653e06f3759d9c647b2b9fb3e21d1c171bf9790e8fad62562f0c1e4c"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-219-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "db3343ab6949e5cc962c2b524bea9b80efcd5bad457e7d9b722b65b234505d12"
+      },
+      "4x5": {
+        "path": "es-01-219-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "529c04bd6bf7de9d2d0d1aabfb04673faaae0e32940f81b0cea5cb9960097726"
+      }
+    },
+    "on_image_text": [
+      "Tabernas Desert, Almería",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night view of Arcos de la Frontera, Cádiz from the reservoir road below: the whitewashed clifftop town along the Tajo gorge with two lit church towers (Santa María), warm lamplight reflecting on the river, crescent moon and stars. Gate 1 (visual/location): recognizable clifftop pueblo blanco from a plausible tourist viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Arcos de la Frontera, Cádiz', scenario '24 September 2026 · 01:24 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:23:32+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims, bottom-left and bottom-right. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property; generic whitewashed architecture documented only. Gate 5 (readiness): no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-212-r1-16x9.png",
+        "sha256": "9da6708e7690c8bc9570cc5c5c80aa8e3bd86d8e6e32fa15524ede9994d68e05"
+      },
+      "4x5": {
+        "path": "es-01-212-r1-4x5.png",
+        "sha256": "43c30b4e52dea664675bc639d2dded3fc01145a59414e994d8cbd84eee1a7d8a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-212-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "249eb9bf1e0139764e7a9ceb7c497cd1a7286837c21e77171bb010f0f3bfee5b"
+      },
+      "4x5": {
+        "path": "es-01-212-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "d02e96bc1837b1a9f600c1256a4ad09308a67d9b159f32df7cfbd04ebcab6932"
+      }
+    },
+    "on_image_text": [
+      "Arcos de la Frontera, Cádiz",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

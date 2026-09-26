@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Cosmo five-gate audit, independent re-audit after boilerplate reversion. Gate 1: Torre Tavira recognizably depicted — the view from the camera-obscura tower's rooftop terrace over the iron railing across Cádiz's white old-town rooftops, church towers rising between them, the golden-domed cathedral floodlit in the distance and the bay's lights beyond; plausible terrace viewpoint matching the scene brief; clean framing, no artifacts. Gate 2: 1920x1080 + 864x1080 masters, SHA-256 match packet; caption 'Torre Tavira, Cádiz', scenario '24 September 2026 · 01:22 Europe/Madrid', AI disclosure and 'Jason D's Vision' signature verified on-image, legible; Open-Meteo retrieved 01:20:58 valid 01:22:26 — fresh. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people or logos noted. Packet is honest that the tower is closed at the scenario hour, so this is an imagined night view — disclosed, not presented as possible in reality. Gate 5: no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-210-r1-16x9.png",
+        "sha256": "f3a48f3cfcdf35b8dd916afbcd63fab49ce6eda2dc6d7ee198341120023b5700"
+      },
+      "4x5": {
+        "path": "es-01-210-r1-4x5.png",
+        "sha256": "1fff11233e71dd2a550c42e4a8330ca78a1c2084b58f68c763907074ce8776f0"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-210-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "32bc45f80ef39e74afb80594e925d584d936a0936464cd9488089e85aca9a8b4"
+      },
+      "4x5": {
+        "path": "es-01-210-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c0057b648e4548e93e33a41a5bb8e985c9cd23a1c6edd1ea3560b6d8ba84d8cf"
+      }
+    },
+    "on_image_text": [
+      "Torre Tavira, Cádiz",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

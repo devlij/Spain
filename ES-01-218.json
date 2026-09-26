@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night view of the Alcazaba, Almería from the city below: the 10th-century Moorish fortress with its crenellated walls and towers spread along the hilltop ridge, the whitewashed La Chanca quarter glowing below, full moon over the sea at right. Gate 1 (visual/location): recognizable Alcazaba ridge silhouette from a plausible city viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Alcazaba, Almería', scenario '24 September 2026 · 01:28 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:27:03+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; honest restrained moonlit treatment matches the packet's no-invented-floodlighting discipline.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-218-r1-16x9.png",
+        "sha256": "61d05ff1395c63be1b01b72cda4ecf47e86693a337fc7d05428bd106c435bcd8"
+      },
+      "4x5": {
+        "path": "es-01-218-r1-4x5.png",
+        "sha256": "6e83dd5f58aad191ec304878d203afdcb13b8ded0fe4664ade8f80c9bf9be902"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-218-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d213e21f07b50afba026d28b74519d19f8b3ed95d9e73589ce2ae485dd0999c9"
+      },
+      "4x5": {
+        "path": "es-01-218-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ff8611fe7c7aae214f575d73c70e6160405b0599e46a85f246837b92e1059ff2"
+      }
+    },
+    "on_image_text": [
+      "Alcazaba, Almería",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

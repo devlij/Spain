@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Roman Theatre of Cartagena with its semicircular stone cavea tiers rising right, cypress trunks framing the left edge, Cartagena harbor and city lights behind, moon through cloud; recognizably the theatre from a plausible overlook viewpoint; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Roman Theatre, Cartagena', scenario '24 September 2026 · 01:33 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:30:46 valid 01:33:28 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-223-r1-16x9.png",
+        "sha256": "9bf34d896b0a81c802af6b72bf3ce49092da5fee60457aca863d054998979f34"
+      },
+      "4x5": {
+        "path": "es-01-223-r1-4x5.png",
+        "sha256": "2c081485c0ec4f1f4bf74981316ba089c11f7b4ed8df267fb4f320330eac2cb9"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-223-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "e95fc2ad7ee207b52fcd181d0c09c62229cbaa24585ffb229bac2f0c618df341"
+      },
+      "4x5": {
+        "path": "es-01-223-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "05354d4b524d0ea4f4df064896cdd8312970e5041da58b08044313f3e813d412"
+      }
+    },
+    "on_image_text": [
+      "Roman Theatre, Cartagena",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

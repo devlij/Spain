@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night view of Plaza Vázquez de Molina, Úbeda from the garden end: the church centered with its tower, flanked by the two lit Renaissance palaces, the cherub fountain and parterre gardens with orange trees in the foreground, crescent moon above. Gate 1 (visual/location): recognizable Úbeda Renaissance plaza ensemble from a plausible garden-end viewpoint; clean framing, no artifacts. Gate 2 (technical): 1920×1080 + 864×1080, SHA-256 matches packet; on-image caption 'Plaza Vázquez de Molina, Úbeda', scenario '24 September 2026 · 01:28 Europe/Madrid' consistent with Open-Meteo weather retrieved 2026-09-24T01:27:03+02:00 (fresh, no reuse), disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature — all legible on gradient scrims. Gate 3 (originality): packet documents text-only generation, image_inputs empty — no photographic inputs. Gate 4 (commercial/IP): no visible people, logos, or distinctive private property. Gate 5 (readiness): no open blockers; monument lighting arrangement unverified per packet limitations.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-217-r1-16x9.png",
+        "sha256": "3f03d65ad1ca17a4eb480ef7d2678a33c6450c377b1da9c94f3ab174afd8984b"
+      },
+      "4x5": {
+        "path": "es-01-217-r1-4x5.png",
+        "sha256": "0d5afc78c7e30e19668ca9bef00fcb66e0fb376166f149f997225d08f7c76d38"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-217-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "464ce9aacd7ab8a553d334aece98104ccbd73f24c6230b03ee279dc243ec8a13"
+      },
+      "4x5": {
+        "path": "es-01-217-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "971bd244299a5e8df8093bd3fdf00c91a0097bc6598ccd41176925727c85ef59"
+      }
+    },
+    "on_image_text": [
+      "Plaza Vázquez de Molina, Úbeda",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

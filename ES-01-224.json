@@ -154,5 +154,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: whitewashed Ermita del Rocío sanctuary with twin bell towers, wings of low village houses, marsh water and reeds in the foreground, stone-pine treeline behind, full moon and stars — recognizably El Rocío village from the marsh side, plausible night viewpoint; no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'El Rocío, Almonte', scenario '24 September 2026 · 01:41 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:38:39 valid 01:41:33 — fresh, matching the scenario hour. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-224-r1-16x9.png",
+        "sha256": "d0a1df959c1b44fbd06f788de72af8e51e688d473fcbbfdbf56657e406131ab8"
+      },
+      "4x5": {
+        "path": "es-01-224-r1-4x5.png",
+        "sha256": "bae6da6f550821ac9c6c386336d26a2c952b043e2183ed388326a1b7b7a0fd89"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-224-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "e1e45762fcf72204f5468e3a7ecdcc8a79365385ba5c45c6dfacaef38ba0a665"
+      },
+      "4x5": {
+        "path": "es-01-224-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "2f683b7e1d1f2d7bacd6c9f65bf9fc7aa2ea8f4a3d59cf10e47902aa4e01247f"
+      }
+    },
+    "on_image_text": [
+      "El Rocío, Almonte",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

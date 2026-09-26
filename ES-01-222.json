@@ -148,5 +148,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: baroque Murcia Cathedral facade with its tall clock bell tower rising left, Plaza de las Flores setting, ground-level night haze consistent with the Open-Meteo fog (code 45) weather model; clean framing, no artifacts. Gate 2: both masters exact 1920×1080 / 864×1080, SHA-256 matched the packet; on-image bottom-left reads exactly 'Murcia Cathedral, Murcia', scenario '24 September 2026 · 01:33 Europe/Madrid', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure; 'Jason D’s Vision' (curly apostrophe) bottom-right; weather retrieved 01:30:46 valid 01:33:28 — fresh, matching the scenario hour, not stale. Gate 3: packet documents text-only generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-222-r1-16x9.png",
+        "sha256": "e77683c4cb5ff49e8f5efee7e6291e6f36762b08e060c990737f8956b6cdc668"
+      },
+      "4x5": {
+        "path": "es-01-222-r1-4x5.png",
+        "sha256": "560e72c46e45625b57230fc4980b0ddfc830d1f291913fc8efca06e7c240836c"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-222-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "dae8fb15e5597552383ae88135dc13c9b41045b9a6c6d387ce27d2197a14dba6"
+      },
+      "4x5": {
+        "path": "es-01-222-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "483c279390969e0729b886a0c633309241bdc60b88ebc0cee88017a91ea104cb"
+      }
+    },
+    "on_image_text": [
+      "Murcia Cathedral, Murcia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
