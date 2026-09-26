@@ -19,8 +19,45 @@ document.querySelectorAll('.card').forEach(card=>{
     const fmt=tab.dataset.format;
     tabs.forEach(t=>t.classList.toggle('is-active',t===tab));
     if(!img||!link)return;
-    const next=fmt==='4x5'?img.getAttribute('data-src-45'):img.getAttribute('data-src-16');
+    const dtab0=card.querySelector('.day-tab.is-active');
+    const useDay=dtab0&&dtab0.getAttribute('data-daynight')==='day';
+    const next=fmt==='4x5'?(useDay&&img.getAttribute('data-src-45-day'))||img.getAttribute('data-src-45'):(useDay&&img.getAttribute('data-src-16-day'))||img.getAttribute('data-src-16');
     if(next){img.src=next;link.href=next;}
     link.classList.toggle('tall',fmt==='4x5');
   }));
+});
+
+/* Daylight toggle: one button per card, rendered only where day-variant masters
+   exist. Night is the default; toggles image, downloads, and scenario caption. */
+document.querySelectorAll('.card').forEach(card=>{
+  const dtab=card.querySelector('.day-tab');
+  if(!dtab)return;
+  const dlink=card.querySelector('a.thumb');
+  const dimg=dlink&&dlink.querySelector('img');
+  dtab.addEventListener('click',e=>{
+    e.preventDefault();
+    const isDay=!dtab.classList.contains('is-active');
+    dtab.classList.toggle('is-active',isDay);
+    dtab.setAttribute('aria-pressed',isDay?'true':'false');
+    dtab.setAttribute('data-daynight',isDay?'day':'night');
+    const ftab=card.querySelector('.fmt-tab.is-active');
+    const dfmt=ftab?ftab.getAttribute('data-format'):'16x9';
+    if(dimg&&dlink){
+      const dkey=dfmt==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
+      const dnext=dimg.getAttribute(dkey);
+      if(dnext){dimg.src=dnext;dlink.href=dnext;}
+    }
+    if(dimg)card.querySelectorAll('a.download').forEach(a=>{
+      const href=a.getAttribute('href');
+      const f=(href===dimg.getAttribute('data-src-45')||href===dimg.getAttribute('data-src-45-day'))?'4x5':'16x9';
+      const dk=f==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
+      const u=dimg.getAttribute(dk);
+      if(u)a.href=u;
+    });
+    const sc=card.querySelector('p.scenario');
+    if(sc){
+      if(!sc.getAttribute('data-scenario'))sc.setAttribute('data-scenario',sc.textContent);
+      sc.textContent=isDay?'\u2600 Daylight variant \u00b7 derived from the night interpretation':sc.getAttribute('data-scenario');
+    }
+  });
 });
