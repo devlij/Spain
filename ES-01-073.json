@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-073.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-073.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-073-r1-16x9.png",
+        "sha256": "f4f17341c2eab6502e76a708938dd19a0749df2127b0df1b3c0469562539a758"
+      },
+      "4x5": {
+        "path": "es-01-073-r1-4x5.png",
+        "sha256": "26d7e0d0a8b1dd82b1d8066d55ee9ea34f02459bc7eb73ab523142ba99d2a3c8"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-073-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "49d1f6df09c737dbe5d34d4808083f3f33fdf56bfb8c537bc7ebc381336325bf"
+      },
+      "4x5": {
+        "path": "es-01-073-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "cc88753e7fc32d95da2ec6a58ce01dbf0dfa778f9bd10146f7d71aae3d2121e4"
+      }
+    },
+    "on_image_text": [
+      "Old town, Lekeitio",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

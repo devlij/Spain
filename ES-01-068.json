@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-068.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-068.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-068-r1-16x9.png",
+        "sha256": "78d863a2dc68b6700f99046f97fb1785182562519ab4d9c340c1f9480283d917"
+      },
+      "4x5": {
+        "path": "es-01-068-r1-4x5.png",
+        "sha256": "226c22c8048d9016af3baa956d86bd9b8fdac5e7ded095cf085467ec3473b6d7"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-068-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "aead57d67f5afcaee4c116bae2f293c3d95f33c0f159d7c491d69d08aeccd544"
+      },
+      "4x5": {
+        "path": "es-01-068-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "3b97b16640cbb5d7529a95f33bed0af1782a3214751afbe85e6843b956d86300"
+      }
+    },
+    "on_image_text": [
+      "Ujué, Ujué",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

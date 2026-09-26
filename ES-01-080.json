@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-080.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-080.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-080-r1-16x9.png",
+        "sha256": "017103428a2014448a984f824aa35b51b156f4160aa7e6346542181195c590ce"
+      },
+      "4x5": {
+        "path": "es-01-080-r1-4x5.png",
+        "sha256": "03defa7f3edbc667d68d76c14e71d4d97150e02fc9af50a9edd340a345a6283a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-080-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5ace57fcd09d8261fb379b0529f32ee59a51a18f07792eb814d4e6a447223ad7"
+      },
+      "4x5": {
+        "path": "es-01-080-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "155162e568f7e391d0cf2db4685c369f0e2686befafa02b55bb4dc6e2c211542"
+      }
+    },
+    "on_image_text": [
+      "Lastres, Colunga",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

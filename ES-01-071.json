@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-071.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-071.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-071-r1-16x9.png",
+        "sha256": "0eb388050f25bcdf9ed1390f0dceb500bae87c8669ed6f89450c8083e9f19c8a"
+      },
+      "4x5": {
+        "path": "es-01-071-r1-4x5.png",
+        "sha256": "ee8f67f7c2c8be9006c3b5a458b929cd1f4501e87efd2966c2a72c0cd491d923"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-071-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9f0aa3a57371a6c8465d34887edaebb47fe532131e648708903a392283d9b65c"
+      },
+      "4x5": {
+        "path": "es-01-071-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ca7a22310f6a1a09543f8d13b15065b5c659243fa2aca380892ea40941e2ca5a"
+      }
+    },
+    "on_image_text": [
+      "Irati Forest, Ochagavía",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

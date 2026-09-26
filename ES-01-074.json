@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-074.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-074.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-074-r1-16x9.png",
+        "sha256": "00db87682e6b6c66a501bd0d01ca6e68f739198f8e838d9d2aae209b7e88ab24"
+      },
+      "4x5": {
+        "path": "es-01-074-r1-4x5.png",
+        "sha256": "a9cb237994513200f792950dbfb32e6e92837a25ab6a9952aac687e18629c638"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-074-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "f6da00402880669a9b6601a060c0fc9a74e32891fe231891f014498621cb4f69"
+      },
+      "4x5": {
+        "path": "es-01-074-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "06914aeb779c71d9d1588a71d5d10d8ceddd9aa3c351a42e1b5472ee628bfd8e"
+      }
+    },
+    "on_image_text": [
+      "Itzurun Cliffs, Zumaia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
