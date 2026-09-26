@@ -222,5 +222,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1: recognizably Es Vedrà at night — limestone sea-stack with Es Vedranell to its left, viewed from Ibiza's west coast across calm dark water, rocky foreshore; stack-and-satellite composition matches the iconic viewpoint. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
+  "approval_basis": "Gate 1: recognizably Es Vedrà at night — limestone sea-stack with Es Vedranell to its left, viewed from Ibiza's west coast across calm dark water, rocky foreshore; stack-and-satellite composition matches the iconic viewpoint. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-037-r1-16x9.png",
+        "sha256": "5cf848517029d35d3215d7607a008b297e059729b26fa3ec29f231534e22a155"
+      },
+      "4x5": {
+        "path": "es-01-037-r1-4x5.png",
+        "sha256": "0696c3c18ba935a5673771254e11114f0a0e9da85b7e26bd4e68dda0c39d4714"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-037-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "785d0558a8abfeb6acb936f87751592d6656f9d82deb7113286b1714ee81e38f"
+      },
+      "4x5": {
+        "path": "es-01-037-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "dd093b455c05e6b6217fe820ff36b77a8b0a2989cea4e675827ea3e8af02ba3a"
+      }
+    },
+    "on_image_text": [
+      "Es Vedrà, Ibiza",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

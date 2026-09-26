@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the Teror basilica facade with its stone bell tower, flanked by historic houses with traditional Canarian wooden balconies and a mountain backdrop, is recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
+  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the Teror basilica facade with its stone bell tower, flanked by historic houses with traditional Canarian wooden balconies and a mountain backdrop, is recognizably depicted from a plausible tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-043-r1-16x9.png",
+        "sha256": "46665557a77d23c14977e081baa7fe564b4bafaac57b36eba6a1f4affd1db9db"
+      },
+      "4x5": {
+        "path": "es-01-043-r1-4x5.png",
+        "sha256": "5d598f7a86a8f88dc2310cb8b45ca322eb1d2a5d1289f2048beb7d04416582c9"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-043-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d52b248ab64dc085bae50cc4bf696b7258a502dd03ac7b85eee04931c7bdb961"
+      },
+      "4x5": {
+        "path": "es-01-043-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "b46b40e88a67fe808588d72f4a79d3b5fb88ef1e6a2d5c7d76536dc8992d64f8"
+      }
+    },
+    "on_image_text": [
+      "Teror, Teror",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

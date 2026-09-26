@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-048.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-048.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-048-r1-16x9.png",
+        "sha256": "304dc96b1754c1b193c11255dca52a3766249adfb870895f0a8903acf361e9c5"
+      },
+      "4x5": {
+        "path": "es-01-048-r1-4x5.png",
+        "sha256": "11bb97c25bea382900deeebfecb1c933cad7347fd40ddc3b20ba478ef535c5b4"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-048-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "6b63ce0e1b8729efa6f1e4ff39eb94640791e00b51f62ceefa96a08686d72919"
+      },
+      "4x5": {
+        "path": "es-01-048-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "394af6289f569084cf1bf3cc39ae4cb8e7a4e27dfcd32cd107141760372ae008"
+      }
+    },
+    "on_image_text": [
+      "Langre Beach, Ribamontán al Mar",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the Maspalomas lighthouse beside moonlit dune ridges meeting the ocean is recognizably depicted from a plausible elevated tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
+  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the Maspalomas lighthouse beside moonlit dune ridges meeting the ocean is recognizably depicted from a plausible elevated tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-042-r1-16x9.png",
+        "sha256": "912da5dc027e39d8c55d52e5c43fb32da2a984a508bbee2be241bf848619e642"
+      },
+      "4x5": {
+        "path": "es-01-042-r1-4x5.png",
+        "sha256": "25ccbee99cb85734acbdbcf646e362b6ecdce0b7111544e350e534ea8fdd8f60"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-042-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "f1f30e166a9d232264026d422c7aba34cdfadd961f6d5718ef70e9782f7f6b52"
+      },
+      "4x5": {
+        "path": "es-01-042-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c12b9ffaef83427b3cf61f5ed6557e81406aba878edb282c825a1dbaa817ed43"
+      }
+    },
+    "on_image_text": [
+      "Maspalomas Dunes, San Bartolomé de Tirajana",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

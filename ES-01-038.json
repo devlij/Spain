@@ -238,5 +238,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1: recognizably Ses Illetes, Formentera — white-sand spit curving into turquoise shallows, dune grass and rope fence, low islets on the horizon toward the Ses Illetes–Espalmador strait. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. r2 revision removed inaccurate stars — verified: night sky is clean. Night illumination is an artistic long-exposure interpretation per packet disclosure."
+  "approval_basis": "Gate 1: recognizably Ses Illetes, Formentera — white-sand spit curving into turquoise shallows, dune grass and rope fence, low islets on the horizon toward the Ses Illetes–Espalmador strait. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. r2 revision removed inaccurate stars — verified: night sky is clean. Night illumination is an artistic long-exposure interpretation per packet disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-038-r2-16x9.png",
+        "sha256": "e21426fcdcfd2424812158b07f657ba55557e422fad8629941a6542f193c814f"
+      },
+      "4x5": {
+        "path": "es-01-038-r2-4x5.png",
+        "sha256": "0696ce8ba5e1cf4fdad33c1b6a29f2b23ffcf88323b050e9de3af8bf392fc1f3"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-038-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "94506c6e4fab5ce8667e01f4bc88ff37de1b8004cc1847c4168e9c66e46765a2"
+      },
+      "4x5": {
+        "path": "es-01-038-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "8b5e343365505cb73d820dd58e6c29aaa10b6114d3aa8039519ce7f2ee106240"
+      }
+    },
+    "on_image_text": [
+      "Ses Illetes, Formentera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

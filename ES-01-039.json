@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the walled Hondarribia old town with the castle of Charles V above and Txingudi bay below is recognizably depicted from a plausible waterfront viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
+  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the walled Hondarribia old town with the castle of Charles V above and Txingudi bay below is recognizably depicted from a plausible waterfront viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-039-r1-16x9.png",
+        "sha256": "0fcf3028b89e8f2708f2b56391f21f5035a2f16c98685c3d720046beaf775020"
+      },
+      "4x5": {
+        "path": "es-01-039-r1-4x5.png",
+        "sha256": "f26c532549455200fb9bd1f9e36106215cc96692550bca854b6d88972aebeb93"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-039-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "abe62afe7180ceab7c89e6397310ee3835ef8801a0338fddcc6f930f35a44272"
+      },
+      "4x5": {
+        "path": "es-01-039-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "8884c57378fbba12ba90867e87f782b175c728b062a55b1f076e5d2d25d56ef4"
+      }
+    },
+    "on_image_text": [
+      "Old town, Hondarribia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

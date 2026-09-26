@@ -222,5 +222,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1: recognizably the Naveta des Tudons — correct overturned-boat form, cyclopean dry-stone coursing, small dark doorway on the front face, scrubby Menorcan plain with dry-stone walls behind; boat silhouette and masonry are the definitive anchors. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
+  "approval_basis": "Gate 1: recognizably the Naveta des Tudons — correct overturned-boat form, cyclopean dry-stone coursing, small dark doorway on the front face, scrubby Menorcan plain with dry-stone walls behind; boat silhouette and masonry are the definitive anchors. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-035-r1-16x9.png",
+        "sha256": "2e44e1a41760352c72e4164177ad884072ab3e292ba5f5cd93aa2eeceeb7a03a"
+      },
+      "4x5": {
+        "path": "es-01-035-r1-4x5.png",
+        "sha256": "6cc2de3c7692baaa068fa45b25c7f4ca7aff2e12b7ae1ecefa2e997d868766ad"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-035-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "66470d707304ed742a26ff63c613d9935b7695b78f2f5d18de167bdd24567533"
+      },
+      "4x5": {
+        "path": "es-01-035-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "161395fb66d935ae89e84322557886f184444258550b7170ef24dbe09e98a29c"
+      }
+    },
+    "on_image_text": [
+      "Naveta des Tudons, Ciutadella",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

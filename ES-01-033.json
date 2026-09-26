@@ -222,5 +222,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1: recognizably Deià at night — ochre limestone houses stepping up terraced hillside, Sant Joan Baptista church and bell tower crowning the settlement, Serra de Tramuntana rock enclosing it, matching the documented Ma-10 overlook composition. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching review packet; exact caption/scenario/AI-disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork as focal subjects — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
+  "approval_basis": "Gate 1: recognizably Deià at night — ochre limestone houses stepping up terraced hillside, Sant Joan Baptista church and bell tower crowning the settlement, Serra de Tramuntana rock enclosing it, matching the documented Ma-10 overlook composition. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching review packet; exact caption/scenario/AI-disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork as focal subjects — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-033-r1-16x9.png",
+        "sha256": "3b31d87f2907893af1a07e9fef6676fdfafc1d57469528a7671e5f1fff1028e7"
+      },
+      "4x5": {
+        "path": "es-01-033-r1-4x5.png",
+        "sha256": "dc36b237e9af25bc85c7fa2a00d3417b39ad923c31de68a177f2af7a54dba4db"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-033-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1760522c25f499b12b71efb30f83e6f17cdeed7a895859877830263a0526d400"
+      },
+      "4x5": {
+        "path": "es-01-033-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ccabf8428dd12592c0632cd8ad2f14c006bdedf960c497b2bc581ee8bd0ac774"
+      }
+    },
+    "on_image_text": [
+      "Village, Deià",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

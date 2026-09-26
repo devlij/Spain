@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-045.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-045.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-045-r1-16x9.png",
+        "sha256": "ef2a89f22121974bdb46363eaacb847a5b6aa0f08caf399ac41f5348cafb3cf5"
+      },
+      "4x5": {
+        "path": "es-01-045-r1-4x5.png",
+        "sha256": "ebb300114b5c40dde4624006fe47186cdbeefba7f809e06466ddcbb86d8f9448"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-045-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "b94497624b8653c31f4c38bba3586e463f0e45471e3a38afe65031c0c8633f1e"
+      },
+      "4x5": {
+        "path": "es-01-045-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ec92b9bd7a15487d3f1667b3dcd7692b4a0ed13dcf4d8d4807c1d02c1a9da31b"
+      }
+    },
+    "on_image_text": [
+      "Old town, Castro Urdiales",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -222,5 +222,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Gate 1: recognizably Dalt Vila, Eivissa from the harbour at night — floodlit Renaissance bastions and walls, whitewashed houses stepping up, cathedral bell tower crowning, yacht masts and palm-lined quay in the foreground, water reflections; wall-to-cathedral arrangement matches the documented harbour-front view. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork as focal subjects — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure."
+  "approval_basis": "Gate 1: recognizably Dalt Vila, Eivissa from the harbour at night — floodlit Renaissance bastions and walls, whitewashed houses stepping up, cathedral bell tower crowning, yacht masts and palm-lined quay in the foreground, water reflections; wall-to-cathedral arrangement matches the documented harbour-front view. Gate 2: masters byte-verified 1920x1080 + 864x1080, SHA-256 matching packet; exact caption/scenario/disclosure/signature on gradient scrim, legible. Gate 3: text-prompt-only lineage, built-in generation, Lanczos resampling disclosed, no photographic inputs. Gate 4: no people/logos/artwork as focal subjects — notes only, commercial call is Jason's. Gate 5: no blockers. Night illumination is an artistic long-exposure interpretation per packet disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-036-r1-16x9.png",
+        "sha256": "613d2a03456279e1797458d09de035e6bc57e4f75514fc0f9fbea275fc35b1bd"
+      },
+      "4x5": {
+        "path": "es-01-036-r1-4x5.png",
+        "sha256": "a907294131987266170a75830fa99b62393d67528e6dc30726fca3ca5120668f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-036-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "fed887a5afd4e9430f5efdf6168993232829c136d81c0ea381e7687a9f8e0d34"
+      },
+      "4x5": {
+        "path": "es-01-036-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "b78baf3face7fffffbee522fd1a38f46f8903ac7bdc1c75485bc0c2ba19d4383"
+      }
+    },
+    "on_image_text": [
+      "Dalt Vila, Eivissa",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

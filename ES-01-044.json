@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the El Golfo green lagoon inside the volcanic crater with black sand and the ocean beyond is recognizably depicted from a plausible clifftop tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture."
+  "approval_basis": "Five-gate audit passed: Gate 1 visual/location — the El Golfo green lagoon inside the volcanic crater with black sand and the ocean beyond is recognizably depicted from a plausible clifftop tourist viewpoint, clean framing, no artifacts; Gate 2 technical — both masters at exact 1920x1080 and 864x1080 with SHA-256 matching the review packet, exact 'Jason D's Vision' signature, caption, scenario timestamp and AI disclosure all present and legible; Gate 3 provenance — review packet documents built-in text-only generation with no photographic inputs; Gate 4 IP — no visible people, logos, or recognizable private property, documented only; Gate 5 — no open blockers. Scenario label is a modelled night scenario, not a verified capture.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-044-r1-16x9.png",
+        "sha256": "9ef1a21a81e7a890256e943cbc540ed677bf1da692a8824416a5665f68fd46c2"
+      },
+      "4x5": {
+        "path": "es-01-044-r1-4x5.png",
+        "sha256": "084e963d03c31d00a085f20b5719a057fca5930f042c9bd53a5a9625f2795251"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-044-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "e7060ec7b7d9d4cc50ac4a9499949961a24f72c31902a129bc2803b289164813"
+      },
+      "4x5": {
+        "path": "es-01-044-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "a68cccea1271dc4bc9e5722869d13f52d3fe3dab317795090cb16da19d643642"
+      }
+    },
+    "on_image_text": [
+      "El Golfo, Yaiza",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
