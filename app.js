@@ -17,13 +17,37 @@ document.querySelectorAll('.card').forEach(card=>{
   tabs.forEach(tab=>tab.addEventListener('click',e=>{
     e.preventDefault();
     const fmt=tab.dataset.format;
+    const prev=card.querySelector('.fmt-tab.is-active');
     tabs.forEach(t=>t.classList.toggle('is-active',t===tab));
     if(!img||!link)return;
     const dtab0=card.querySelector('.day-tab.is-active');
     const useDay=dtab0&&dtab0.getAttribute('data-daynight')==='day';
-    const next=fmt==='4x5'?(useDay&&img.getAttribute('data-src-45-day'))||img.getAttribute('data-src-45'):(useDay&&img.getAttribute('data-src-16-day'))||img.getAttribute('data-src-16');
-    if(next){img.src=next;link.href=next;}
-    link.classList.toggle('tall',fmt==='4x5');
+    const next=fmt==='9x16'
+      ?(useDay&&img.getAttribute('data-src-916-day'))||img.getAttribute('data-src-916')
+      :fmt==='4x5'
+      ?(useDay&&img.getAttribute('data-src-45-day'))||img.getAttribute('data-src-45')
+      :(useDay&&img.getAttribute('data-src-16-day'))||img.getAttribute('data-src-16');
+    if(fmt==='9x16'&&next&&!card.hasAttribute('data-916-ok')){
+      // The 9:16 master lands with the label-bar backfill: probe it on first
+      // click. If the file 404s, drop the 9:16 tab + download and revert.
+      const probe=new Image();
+      probe.onload=function(){card.setAttribute('data-916-ok','1');swap();};
+      probe.onerror=function(){
+        card.setAttribute('data-916-missing','1');
+        tab.remove();
+        const dl=card.querySelector('a.download[data-dl="9x16"]');if(dl)dl.remove();
+        tabs.forEach(t=>t.classList.toggle('is-active',t===prev));
+        link.classList.remove('tall916');
+      };
+      probe.src=next;
+      return;
+    }
+    function swap(){
+      img.src=next;link.href=next;
+      link.classList.toggle('tall',fmt==='4x5');
+      link.classList.toggle('tall916',fmt==='9x16');
+    }
+    if(next)swap();
   }));
 });
 
@@ -43,14 +67,14 @@ document.querySelectorAll('.card').forEach(card=>{
     const ftab=card.querySelector('.fmt-tab.is-active');
     const dfmt=ftab?ftab.getAttribute('data-format'):'16x9';
     if(dimg&&dlink){
-      const dkey=dfmt==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
+      const dkey=dfmt==='9x16'?(isDay?'data-src-916-day':'data-src-916'):dfmt==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
       const dnext=dimg.getAttribute(dkey);
       if(dnext){dimg.src=dnext;dlink.href=dnext;}
     }
     if(dimg)card.querySelectorAll('a.download').forEach(a=>{
       const href=a.getAttribute('href');
-      const f=(href===dimg.getAttribute('data-src-45')||href===dimg.getAttribute('data-src-45-day'))?'4x5':'16x9';
-      const dk=f==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
+      const f=a.getAttribute('data-dl')||((href===dimg.getAttribute('data-src-45')||href===dimg.getAttribute('data-src-45-day'))?'4x5':'16x9');
+      const dk=f==='9x16'?(isDay?'data-src-916-day':'data-src-916'):f==='4x5'?(isDay?'data-src-45-day':'data-src-45'):(isDay?'data-src-16-day':'data-src-16');
       const u=dimg.getAttribute(dk);
       if(u)a.href=u;
     });
