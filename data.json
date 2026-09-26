@@ -3067,9 +3067,9 @@
       "scenario_label": "24 September 2026 · 04:56 Europe/Madrid",
       "composition": "Night · Avenue looking down the street toward the Metrópolis building, neon and streetlights · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Gran Vía, Madrid, at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1: recognizably Madrid's Gran Vía at night — the Metropolis building's beaux-arts dome with gilded sculpture left, the lit street canyon receding with rows of lamps; plausible viewpoint, clean framing, no artifacts. Gate 2: exact dims and SHA-256 match; exact signature, caption 'Gran Vía, Madrid', scenario '24 September 2026 · 04:56 Europe/Madrid', disclosure on-image; weather retrieved 2026-09-26T01:43:24+02:00, valid 2026-09-24T04:00+02:00 covering the scenario minute, timestamp unique to this scene. Gate 3: packet records text-only original generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property issues. Gate 5: clear — approved."
     },
     {
       "entry_id": "ES-01-352",
