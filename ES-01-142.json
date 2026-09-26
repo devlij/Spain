@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-142.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-142.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-142-r2-16x9.png",
+        "sha256": "f28a5648a10c8f9de746e879f2ef1d23225f45c4dc291c4770f7db350b1ad233"
+      },
+      "4x5": {
+        "path": "es-01-142-r2-4x5.png",
+        "sha256": "cc8327c1af94034e6a596e56d27694cd522cadf5c6c2dc721a6731efb524cdd4"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-142-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "2567c76c5b94df2d5fa6c91bd4e1dc40c10f688d76fff4ccb62a8b3fc77215a4"
+      },
+      "4x5": {
+        "path": "es-01-142-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f3d1113b73bf012a4ac9271ef21ceafbda2ba74ee447cc7aec9e1a8664a3a46d"
+      }
+    },
+    "on_image_text": [
+      "Tabarca, Alicante",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

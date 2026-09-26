@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-135.md. r3 rebuild (weather record proven wrong; fresh regeneration)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-135.md. r3 rebuild (weather record proven wrong; fresh regeneration).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-135-r3-16x9.png",
+        "sha256": "ba94cf729784777485de9990aa87855f3a26940df73eea64e38af31bf67c424d"
+      },
+      "4x5": {
+        "path": "es-01-135-r3-4x5.png",
+        "sha256": "534261d57089e7d933684ae19838629d53075d482fc09a473f9ec6b6529116d0"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-135-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "fd6a0fe53665c8692748507c39d78482233c889cc45f070d5dea8529af5163c1"
+      },
+      "4x5": {
+        "path": "es-01-135-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "3e364052a901dffe24d6b58e9d1bbe0520d9ba3c4bcdf5a89f5f6324c1ce824f"
+      }
+    },
+    "on_image_text": [
+      "Castellfollit de la Roca, Castellfollit de la Roca",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-139.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-139.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-139-r2-16x9.png",
+        "sha256": "b73551472284b072f440db615adec2f39cb6012535f0816bc9cc92612b22d9cb"
+      },
+      "4x5": {
+        "path": "es-01-139-r2-4x5.png",
+        "sha256": "22e80ae0a148e2402f44300d8e0a651ded80f6791bd74decfba116c824f9a1b8"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-139-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7770961d965d3ded74ab3f8c20a8d321d48b7e48f2b1ecf2c779350272fcccd6"
+      },
+      "4x5": {
+        "path": "es-01-139-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f52fff058bf687a745a00ad7961c96d83847e1fadd7213299c35242d7cdeec99"
+      }
+    },
+    "on_image_text": [
+      "Cardona Castle, Cardona",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-143.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-143.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-143-r1-16x9.png",
+        "sha256": "1826a7ec15656b1f2a7b2dbbc7e7a2ae4e2d95c7890a0edccb36518fcc0dcb27"
+      },
+      "4x5": {
+        "path": "es-01-143-r1-4x5.png",
+        "sha256": "f8950db89f92247f173a31e9bcb37e0ffaf8e7e0d832cc7286053f5029af7212"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-143-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "544848f179a1f63676343d4ff4f6a6d766400f361705587bdeaccd57fedce7d4"
+      },
+      "4x5": {
+        "path": "es-01-143-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "5e61726dff56214b6feca84dcaa950eec3464448dd4841fc783efce7a3363b8f"
+      }
+    },
+    "on_image_text": [
+      "Old town, Bocairent",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

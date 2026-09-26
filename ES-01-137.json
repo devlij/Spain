@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-137.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-137.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-137-r1-16x9.png",
+        "sha256": "565b39b501239a4c438315ece39f7d62f6d6a54e5b29d0b5da83349d9dc6879d"
+      },
+      "4x5": {
+        "path": "es-01-137-r1-4x5.png",
+        "sha256": "2f5b578890aa3d2e31847cd9350322de22f542a1be5915a1bc2bc16b462c5d50"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-137-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5c0b2b654d3fbe6a08aa9d92d37bfbe5a125dd439bf3b25b1c60008c8ab7995d"
+      },
+      "4x5": {
+        "path": "es-01-137-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "636b6b189b327b5d88d8134682393ec3a71e927cd4267e54cc125872e1c10e72"
+      }
+    },
+    "on_image_text": [
+      "Santa Pau, Santa Pau",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

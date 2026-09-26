@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-136.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-136.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-136-r2-16x9.png",
+        "sha256": "3251b4cf0c22c9d12456705a2cae7efcd1cc91e01bb6a976526bf956fe8fa761"
+      },
+      "4x5": {
+        "path": "es-01-136-r2-4x5.png",
+        "sha256": "b42965cf1b8f73a4323235b35ec418f072c83e33a09939ff6bfc91f7138a70c3"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-136-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1edeb4cf1efef8f33b10a778f518045292004a6895043ecd5d74c9e8b6a3aac7"
+      },
+      "4x5": {
+        "path": "es-01-136-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "0efe88bd7ebbd9445c7f284538d1608bccdf77794d01743437a578feceba34a6"
+      }
+    },
+    "on_image_text": [
+      "Old town, Begur",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

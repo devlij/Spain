@@ -149,5 +149,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-138.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-138.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-138-r1-16x9.png",
+        "sha256": "cdfb01d72c9216b92bce7f9aa5a5392b028d44449d0fc4adcbdc34a79c72d743"
+      },
+      "4x5": {
+        "path": "es-01-138-r1-4x5.png",
+        "sha256": "585ff2bd5b2abca8b778251233f513976d00a15573e19cc8ba819123c519b909"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-138-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5c0ad5025c21eadf458b961fc303d7f3e109211f08901d75aa4a8731ae28ef64"
+      },
+      "4x5": {
+        "path": "es-01-138-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "fd4264e26bff1ce66de4c06d3e7762d3ceb10de7521c5d4a01f8578d5ae9bac3"
+      }
+    },
+    "on_image_text": [
+      "Old town, Vic",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

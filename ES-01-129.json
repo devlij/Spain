@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-129.md. r2 rebuild (night/architecture defects fixed)."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor G: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/G/ES-01-129.md. r2 rebuild (night/architecture defects fixed).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-129-r2-16x9.png",
+        "sha256": "c7a8bd9d98e309f62efba0492bc4fb9af67c949cfa826171bd875a49becdfafb"
+      },
+      "4x5": {
+        "path": "es-01-129-r2-4x5.png",
+        "sha256": "50d18eb2e3347437b860ba9f982d0926cdb66e557fd53795ec30f925613a6af9"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-129-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "211b089bf2727ba97ca29ad7d4ca27dd41aa1074c8313d86695b0171849fc47f"
+      },
+      "4x5": {
+        "path": "es-01-129-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e61cb3653aba863dba750bd96985bdb9094c9e3d1a49b3b6a2631b5337c96c7a"
+      }
+    },
+    "on_image_text": [
+      "Old town, Tarazona",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
