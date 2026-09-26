@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Playa de las Catedrales at low tide — towering stratified slate arches spanning the beach like cathedral naves, sea visible through the arch openings, wet reflective sand in the foreground; plausibly recognizable as the Ribadeo landmark, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); on-image caption 'Playa de las Catedrales, Ribadeo', scenario '24 September 2026 · 01:35 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 5 minutes before scenario, fresh; thick drifting cloud with pale moonlight matches 72% model cloud. G3: provenance image_inputs=[] — text-only original generation, no photographic inputs. G4: no people, logos, or private property; public natural beach; IP documented only. G5: all gates pass.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-306-r1-16x9.png",
+        "sha256": "76288ec89608770d6f397842e23be1ee3af11e79207152574e9558b6afccb060"
+      },
+      "4x5": {
+        "path": "es-01-306-r1-4x5.png",
+        "sha256": "fc10cde259b628547e4e5fff5c16d1607c349b84609710c49b0fa2d673e22d7e"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-306-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "55d9dce4e5469041d56cbbf9a8bd06e6ee513a667da2da9bea0f536c845c05f7"
+      },
+      "4x5": {
+        "path": "es-01-306-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e9f9e53de2045e27868be129722d9bfdfbd3432f0ee98d32261a5a17f992cebd"
+      }
+    },
+    "on_image_text": [
+      "Playa de las Catedrales, Ribadeo",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

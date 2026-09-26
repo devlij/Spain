@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Lagos de Covadonga at night — a still glacial lake reflecting the jagged silhouetted peaks of the Picos de Europa, moon and stars mirrored in the water, dark mountain slopes framing the valley, foreground grass in silhouette; reads as a high-mountain lake under moonlight, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Lagos de Covadonga, Asturias', scenario '24 September 2026 · 01:42 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on scrim; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 12 minutes before scenario, fresh; the lake identity is an artistic choice, not claimed with certainty, per the packet. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no people, logos, or property; remote mountain landscape; IP documented only. G5: all gates pass.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-314-r1-16x9.png",
+        "sha256": "b3f9dd6bf23bf4e0d9b79a0649f7b809fa19fd623994bfa3e5c78243420dc884"
+      },
+      "4x5": {
+        "path": "es-01-314-r1-4x5.png",
+        "sha256": "0d3e26050ad674dad4cd5f03187cd7991f581979d159b6a2fd8985efdf117b4f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-314-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1583fb758922e32609cd425a276b87c666f3d75c7905780277cfcfa80009c5f4"
+      },
+      "4x5": {
+        "path": "es-01-314-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ece82401dd4482747f1ac2ffea07ed778f925325f53e6a833c317b91ead9de99"
+      }
+    },
+    "on_image_text": [
+      "Lagos de Covadonga, Asturias",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

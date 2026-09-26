@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Night view of the Tower of Hercules from the headland park — full rectangular Roman-era tower centered in frame with its rotating beacon glowing at the top, circular walled base at bottom, dark sea and rocky headland on both sides; clean framing, no cropping issue, no artifacts. G2: sweep MECHANICAL PASS (1920x1080 and 864x1080, SHA-256 match); on-image caption 'Tower of Hercules, A Coruña', scenario '24 September 2026 · 01:35 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on gradient scrim; 'Jason D's Vision' signature bottom-right with curly apostrophe; Open-Meteo weather retrieved 2026-09-24T01:30+02:00, 5 minutes before the scenario hour — fresh, not stale; clear starry sky matches 0% model cloud. G3: packet provenance image_inputs=[] — text-only original generation, no photographic inputs reported. G4: no prominent people, logos, or private property — public lighthouse monument; IP documented only. G5: all gates pass.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-305-r2-16x9.png",
+        "sha256": "0dd7d4e905361545a3db04ecb9e99e4b9708787caeef201fcb9110ac9aed6616"
+      },
+      "4x5": {
+        "path": "es-01-305-r2-4x5.png",
+        "sha256": "b366374ab5a18cda41c03078f9c82a954125c9be77bbd6fa280a2219d7852cd5"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-305-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "69a21e60cc28cad46ff495c650f28753506749e79f66061fe575cb00edaec580"
+      },
+      "4x5": {
+        "path": "es-01-305-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c06dd0d4e209f221892c9d4b516c2d98867688832c5eedb7eb77f5deda160c52"
+      }
+    },
+    "on_image_text": [
+      "Tower of Hercules, A Coruña",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

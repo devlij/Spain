@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Santander's city lights strung along the dark bay, their warmth reflected in calm moonlit water, with a dark wooded headland at the bay's right edge, under a starry sky with a visible moon — recognizable bay-from-water viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Santander Bay, Cantabria', 'Scenario: 24 September 2026 · 01:47 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 2 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-316-r1-16x9.png",
+        "sha256": "d12a913576b104cb47d270540334f8a73c1e983cce55a25d84ff1d63a6d83f22"
+      },
+      "4x5": {
+        "path": "es-01-316-r1-4x5.png",
+        "sha256": "7e864420fddf0045c61b97102ff8334d9d09b2fcd4ba4feaf5ec488d9cd2f455"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-316-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5ae35cf713fb617ebb4d8b2d7bf24a33701a4749babef494424bd54751228f3b"
+      },
+      "4x5": {
+        "path": "es-01-316-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "1129b9f46ba251c46c09e355af985081c15d91a631d7a6cee5f285cabdee1336"
+      }
+    },
+    "on_image_text": [
+      "Santander Bay, Cantabria",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

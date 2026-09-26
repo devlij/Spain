@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Gaudí's El Capricho rendered as a dark villa silhouette in the Comillas garden, its signature tile-clad tower with red-green ceramic checkerwork and arched colonnade visible against a moonlit starry sky — recognizable, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'El Capricho, Comillas', 'Scenario: 24 September 2026 · 01:47 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 2 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; distinctive private building rendered as honest generic night treatment — commercial clearance documented only, final call is Jason's. G5: all gates closed.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-318-r1-16x9.png",
+        "sha256": "b34d6396383ba9a8770072d50d39e83fb380a4a245402d329fd2542df7ff01ba"
+      },
+      "4x5": {
+        "path": "es-01-318-r1-4x5.png",
+        "sha256": "fae60a0e134a425103e86792c032588e06f301321b27332fd811e856c2d48688"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-318-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a24b020c7d539bf4a64a2b9f5621f5895ade1ed70c8a6dd029c04ed5a3971128"
+      },
+      "4x5": {
+        "path": "es-01-318-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "1548146057ce0b389f65cd6b15cdeb125604022f0b2a2b6c77c9d06911e4265a"
+      }
+    },
+    "on_image_text": [
+      "El Capricho, Comillas",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

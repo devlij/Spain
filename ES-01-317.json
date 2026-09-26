@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Santillana del Mar's medieval stone street with historic façades, arched doorways, wrought-iron balconies and ordinary warm street lamps under a starry sky — recognizable old-town street viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Santillana del Mar, Cantabria', 'Scenario: 24 September 2026 · 01:47 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 2 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-317-r1-16x9.png",
+        "sha256": "99d880e6fe472c4e3164dea5885c5bcd00bd5f2e5dea648939b30163038781c1"
+      },
+      "4x5": {
+        "path": "es-01-317-r1-4x5.png",
+        "sha256": "54e8b6d1b8964bdda350b447ac7b735c14cb8eecb189d35487d09641b9a0537d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-317-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7b5e7928a087463fe374799ab7d28b4b6fcb0e66dd015289f484875cc3cecfbd"
+      },
+      "4x5": {
+        "path": "es-01-317-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "6da26a2bfb63b217cb6a6cc79dee2f4a42047eba1883e40b7346ef2826674e02"
+      }
+    },
+    "on_image_text": [
+      "Santillana del Mar, Cantabria",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

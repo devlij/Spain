@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Oviedo Cathedral at night — tall ornate Gothic tower with intricate spirework and pinnacles, rose window and arched portals, lamp-lit stone plaza buildings flanking it, crescent moon and dense starry sky; the tower's distinctive silhouette and facade detail read as Oviedo's cathedral, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Cathedral, Oviedo', scenario '24 September 2026 · 01:42 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on scrim; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 12 minutes before scenario, fresh; clear starry sky matches 0% model cloud; illumination is plaza lamps and moonlight only, as documented. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no prominent people, logos, or private property; public cathedral; IP documented only. G5: all gates pass.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-312-r1-16x9.png",
+        "sha256": "612bf8296e0584e799b10307c304fe39bb433c885f0c6131c5cdd25e07342324"
+      },
+      "4x5": {
+        "path": "es-01-312-r1-4x5.png",
+        "sha256": "b6bd64bd7cc9f33310b0d42e712eb8b9fb6599dacf180ca12c88ad97fa6f2a48"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-312-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "cb053b0feaac4c7ff9c8923ef54d40a77bd4fe7b8b1c50747770ab9cae7928ba"
+      },
+      "4x5": {
+        "path": "es-01-312-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "88844b7b714ab2565b8fc9a51e2b662df14d04e31eaacb0e7fe39d1e2b91a263"
+      }
+    },
+    "on_image_text": [
+      "Cathedral, Oviedo",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

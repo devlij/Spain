@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: 16:9 master shows Cudillero's colorful terraced houses in an amphitheater around the harbor from the near-shore viewpoint, lit windows and warm harbor lamps under a starry sky — recognizable, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Cudillero, Asturias', 'Scenario: 24 September 2026 · 01:42 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:30+02:00, 12 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-315-r1-16x9.png",
+        "sha256": "3822f641331cd19d412a9a33f5426099f4e9436b2bf150d1be785c46285f8223"
+      },
+      "4x5": {
+        "path": "es-01-315-r1-4x5.png",
+        "sha256": "465720a2760cc96bcd0bb33e55eca0824a071bb9ea9566db2f9b7df4fe0556b3"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-315-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "79b05a98db240b393580cf053981391a562f46835f9a7839f146e225a1ca5f1a"
+      },
+      "4x5": {
+        "path": "es-01-315-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "fe91818f99f5490b1c059164bd0bffd41ef5dd5d2c98b256876de4996def1048"
+      }
+    },
+    "on_image_text": [
+      "Cudillero, Asturias",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -150,5 +150,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "G1: Cabo Fisterra from an elevated viewpoint — lighthouse complex with glowing beacon on the cliff edge, adjacent keepers' houses, winding approach path, dark cliffs falling to moonlit sea on the left, starry sky; recognizably the Fisterra headland, clean framing, no artifacts. G2: sweep MECHANICAL PASS (1920x1080, 864x1080, SHA-256 match); caption 'Cabo Fisterra, Galicia', scenario '24 September 2026 · 01:35 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' all legible bottom-left on scrim; 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:30+02:00 — 5 minutes before scenario, fresh. G3: provenance image_inputs=[] — text-only generation, no photographic inputs. G4: no prominent people or logos; lighthouse and outbuildings are public maritime infrastructure; IP documented only. G5: all gates pass.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-307-r1-16x9.png",
+        "sha256": "635a60f55523d83b23b262218ba33fef449884cdc110d3c4cfd205bf22ddf919"
+      },
+      "4x5": {
+        "path": "es-01-307-r1-4x5.png",
+        "sha256": "2bd45d6a252823c34360605732315d7c5e8549bc19716fe8ad0d0f9976359a76"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-307-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "58f3f2186ba665eae15d6af495cebed2a65ab9242ee424a45ef6bbe825747177"
+      },
+      "4x5": {
+        "path": "es-01-307-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "a4b758e7a9093ad204000fbc11b9530caa601521b14fb42bf2f499b5ca5bf5bc"
+      }
+    },
+    "on_image_text": [
+      "Cabo Fisterra, Galicia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
