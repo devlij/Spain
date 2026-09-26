@@ -2647,11 +2647,12 @@
       "scenario_label": "24 September 2026 · 01:49 Europe/Madrid",
       "composition": "Night · From Fuente Dé, the cable car station under the Picos wall near 43.1450,-4.8140. Approximate point only. · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of Fuente Dé, Cantabria at night.",
-      "status": "Awaiting Cosmo QC",
-      "approval_state": "candidate",
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
       "reverted_approval_basis": "G1: Fuente Dé's lit cable-car station in the dark valley with a gondola hanging on its lines, the massive moonlit rock wall of the Picos de Europa rising behind under a crescent-moon starry sky — recognizable station viewpoint, clean framing, no artifacts. G2: 1920×1080 and 864×1080 exact, SHA-256 matches packet; on-image 'Fuente Dé, Cantabria', 'Scenario: 24 September 2026 · 01:49 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' (curly apostrophe) bottom-right; Open-Meteo weather retrieved 2026-09-24T01:45+02:00, 4 minutes before the scenario — fresh, not stale. G3: packet documents text-only generation, image_inputs empty. G4: no prominent people or logos; commercial clearance documented only, per Jason. G5: all gates closed.",
       "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:45+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
-      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00",
+      "approval_basis": "Gate 1 PASS: moonlit cable-car station with warm lit windows at the cliff base, cabin on the cables, crescent moon and star field over the pale limestone cliff face — plausibly Fuente Dé from a valley tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: exact 1920×1080 + 864×1080, sha verified vs packet, 'Jason D’s Vision' signature bottom-right, exact caption, scenario '24 September 2026 · 01:49 Europe/Madrid' and AI disclosure bottom-left on a legible scrim; Open-Meteo weather retrieval recorded 2026-09-26T01:42:56+02:00 (archive fetch), model-valid hour 2026-09-24T01:00 contains scenario minute 01:49, timestamp unique to the second across all 43 reworked candidates. Gate 3 PASS: text-only generation, image_inputs empty, no photographic inputs reported. Gate 4 notes-only: no visible people, logos, or private property. Gate 5 PASS: all gates closed."
     },
     {
       "entry_id": "ES-01-324",
