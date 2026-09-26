@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-099.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-099.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-099-r1-16x9.png",
+        "sha256": "86777a12ca5633cd0fd98398bf4621467532bb3858e1c6579837b41838bd06e4"
+      },
+      "4x5": {
+        "path": "es-01-099-r1-4x5.png",
+        "sha256": "0d664d19d924c60f792b54b59b1810b0dd43edfe8d73985364add67e0d230404"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-099-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "ce85af9444217d6ba918299fbf1a8194879c7239ee36de965fa6b0ce5c4e4f86"
+      },
+      "4x5": {
+        "path": "es-01-099-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "788f949d9da26261399c57692b0e845eb561d65cdbda1dcb16f2e2044f72d0ae"
+      }
+    },
+    "on_image_text": [
+      "Cape Fisterra, Costa da Morte",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

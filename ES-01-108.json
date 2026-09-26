@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-108.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-108.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-108-r1-16x9.png",
+        "sha256": "906786252fc1874b80ef89efc1ea8601c0308d3508f3212f0435b1c0ed01430c"
+      },
+      "4x5": {
+        "path": "es-01-108-r1-4x5.png",
+        "sha256": "f59f19d0d2676299ce7d021f0f33a8f957caf0c235439f69ba44b80136526976"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-108-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1f55ad651b5959166617e298c7731cf5283286c374ad5aaa08eb3949b2490a2c"
+      },
+      "4x5": {
+        "path": "es-01-108-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "59ac6ef8e30262d4822bf47d75527925bf7033d8fb71677edced3338ce87fbd3"
+      }
+    },
+    "on_image_text": [
+      "Monastery, San Lorenzo de El Escorial",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

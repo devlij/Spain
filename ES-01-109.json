@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-109.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-109.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-109-r1-16x9.png",
+        "sha256": "eb80a07fc0816ecb9c9c9f58118bafb8a7c7407ae1df9da10a0640bfe1c8d7be"
+      },
+      "4x5": {
+        "path": "es-01-109-r1-4x5.png",
+        "sha256": "9620b0dec894f9ba447486721390e9c28d4e76cd21e0345934659f3729c7ed7f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-109-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1808785b7ead2c852e83600be0dbcb26bfab3e8bbe900fcfd387faa8a71f9d3d"
+      },
+      "4x5": {
+        "path": "es-01-109-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "d908f6b55136cef6b049ffad39e67f8c5b5da35d67c01f54b512fed8c27a0266"
+      }
+    },
+    "on_image_text": [
+      "Walled town, Buitrago del Lozoya",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

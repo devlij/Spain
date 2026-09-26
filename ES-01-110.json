@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-110.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-110.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-110-r1-16x9.png",
+        "sha256": "ef73f05a0fc3098549194b5412f9f5c5a91ee2fb2ef8cff1545f8aa398d7a56f"
+      },
+      "4x5": {
+        "path": "es-01-110-r1-4x5.png",
+        "sha256": "afa8e0b27e41c19806ba39e0af58ef4a534aa6311a89ea7f8c3db7641c52eb55"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-110-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7bbc866a12d56786ced8ea7a073343ffd0e15d5eb6fcf7d70c7a888f5ada4430"
+      },
+      "4x5": {
+        "path": "es-01-110-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "56c1eb2c9e541445eb9ef34d5ca5635b5074bfe8dfa7ef9405e27540685a15e7"
+      }
+    },
+    "on_image_text": [
+      "Roman aqueduct, Segovia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

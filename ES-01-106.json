@@ -153,5 +153,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-106.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor F: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/F/ES-01-106.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-106-r1-16x9.png",
+        "sha256": "c8caee814a394a3ac92db1b18270f0609af38953b759cb5a00351b6a369ccac8"
+      },
+      "4x5": {
+        "path": "es-01-106-r1-4x5.png",
+        "sha256": "5a00f20b5d366bbd39c100ec7f767c8bc84818c2f769e7c4defbab67251bf590"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-106-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "18b8c0158e2262e9ab1efd06022b31e0a75c9a546bb9dae6476a0b79a0b3e13b"
+      },
+      "4x5": {
+        "path": "es-01-106-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e30927c8afc8b1cc0620fd3fe7c01a3c8c25ca4c586e32672c740955b0159bae"
+      }
+    },
+    "on_image_text": [
+      "Cathedral, Zamora",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
