@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1 PASS: night view of the boat-shaped Bronze Age naveta — coursed megalithic masonry, small square upper window and dark entrance doorway — under a starry sky with a crescent moon, stone boundary wall in the foreground; recognizably Naveta des Tudons from a plausible tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified (1920x1080 + 864x1080, SHA-256 match); baked caption reads 'Naveta des Tudons, Ciutadella de Menorca' — correctly spelled, which supersedes the 09:30 EDT qc note (that note was mistaken: the baked text does contain the n in Tudons, matching Wikipedia 'Naveta des Tudons'); scenario '24 September 2026 · 01:27 Europe/Madrid' matches packet; weather retrieved 01:12:51+02:00 valid 01:15 covers the scenario hour — fresh, not the reused 01:11 block; signature 'Jason D's Vision' with curly apostrophe bottom-right and 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left, both legible on the scrim. Gate 3 PASS: packet documents text-only generation, image_inputs empty, no photographic inputs. Gate 4: no people, logos, or private property visible — open prehistoric monument. Gate 5: no open blockers. Modelled night scenario, not a verified capture.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nCosmo QC rejection (2026-09-24 ~09:30 EDT): Gate 2/5 OPEN — the caption baked into both masters and the packet reads 'Naveta des Tudons, Ciutadella de Menorca'; the monument's correct name is Naveta des Tudons (missing n in 'Tudons'). Gates 1/3/4 pass (recognizable boat-shaped megalith, text-only generation, no people/logos). Rebuild with corrected caption 'Naveta des Tudons, Ciutadella de Menorca' and resubmit. Stays candidate."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).\nCosmo QC rejection (2026-09-24 ~09:30 EDT): Gate 2/5 OPEN — the caption baked into both masters and the packet reads 'Naveta des Tudons, Ciutadella de Menorca'; the monument's correct name is Naveta des Tudons (missing n in 'Tudons'). Gates 1/3/4 pass (recognizable boat-shaped megalith, text-only generation, no people/logos). Rebuild with corrected caption 'Naveta des Tudons, Ciutadella de Menorca' and resubmit. Stays candidate.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-267-r1-16x9.png",
+        "sha256": "ad251f7235fda742e5c19311edf79c90066bf065bbbbd9eefdf0ba344d6ba818"
+      },
+      "4x5": {
+        "path": "es-01-267-r1-4x5.png",
+        "sha256": "0b11ece4f3f7e284d13588576257c2360c0864c07d4c8ca9ebcaf5d39e2fe862"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-267-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1a479072997ba8917fadb6de16518f4aad53421b2cf35cbb193e59e337634d19"
+      },
+      "4x5": {
+        "path": "es-01-267-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "dc183b37a73a92d5956841c882967f19ff7ee760ffe62f40d93a7507b7bff56f"
+      }
+    },
+    "on_image_text": [
+      "Naveta des Tudons, Ciutadella de Menorca",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

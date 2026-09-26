@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — the massive sheer-sided limestone islet of Es Vedrà rises centered from the dark Mediterranean, moonlight edging its craggy cliffs, the smaller Vedranell rock to the left, thin clouds drifting across the starry sky, dark mainland pines at the frame edges; naturally dark, no artificial lighting. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Es Vedrà, Sant Josep de sa Talaia', 'Scenario: 24 September 2026 · 01:26 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 11 min before scenario, fresh. Gate 3 PASS — text-only generation, no photo inputs. Gate 4 — no people, logos, or private property visible; not legally certified. Gate 5 — no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-265-r1-16x9.png",
+        "sha256": "e21d1408c5232f8cbf5027eabcb29e4cd2145101c04020668217b4e37a22fca3"
+      },
+      "4x5": {
+        "path": "es-01-265-r1-4x5.png",
+        "sha256": "6a2be52415682c7ccbf0dc92377b806651b3e33359c174e4b094732955766d16"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-265-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "bf0bbda23206cf1c843e25b6cbd66552d0bd17ca7d0b1e17d690701e22f5ba7e"
+      },
+      "4x5": {
+        "path": "es-01-265-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "49a45dacae46957f63d48cfa3e65d1eacc2da3e5c13c8513896ec108e5f47771"
+      }
+    },
+    "on_image_text": [
+      "Es Vedrà, Sant Josep de sa Talaia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gates: (1) The narrow white-sand spit of Ses Illetes running centered between two dark sea stretches, shallow water faintly glowing under a clear starry sky, dark Ibiza silhouette on the horizon, honest moonlit treatment with no invented floodlighting; plausible tourist viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match; on-image caption 'Ses Illetes, Formentera', scenario '24 September 2026 · 01:28 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather retrieval 2026-09-24T01:12:51+02:00 for the 01:28 scenario — same night, ~15 min prior batch retrieval, valid and consistent (no stale reuse). (3) Packet documents text-only generation, image_inputs: [], third-party photos inspected for facts only. (4) IP: empty beach, no people, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-266-r1-16x9.png",
+        "sha256": "3eda5a8c6eb606271a86d2ea80da489aac64e00b679dfe5eb69e2c30cea93552"
+      },
+      "4x5": {
+        "path": "es-01-266-r1-4x5.png",
+        "sha256": "23c27851fbe3e231f05d86d139b77651954cb9cf2203ff741c795d195ba25aad"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-266-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "0fd7a812f2f501c03b1d930c69f0881b55861f87ad2c96adeea33a60f9ae3214"
+      },
+      "4x5": {
+        "path": "es-01-266-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "5b41f1c9745b51d3f1a28871c76b71e8660cdbebf8f9b16823904ca8fbe1a6cc"
+      }
+    },
+    "on_image_text": [
+      "Ses Illetes, Formentera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

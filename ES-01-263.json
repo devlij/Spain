@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — from the cliff viewpoint, the small white-sand cove sits between dark pine-clad limestone headlands, turquoise-dark water lying still under a starry sky with a thin sliver of moonlight on gentle waves; naturally dark, no artificial lighting, honest moonlit treatment. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Cala Macarella, Ciutadella de Menorca', 'Scenario: 24 September 2026 · 01:26 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 11 min before scenario, fresh. Gate 3 PASS — text-only generation, no photo inputs. Gate 4 — no people, logos, or private property visible; not legally certified. Gate 5 — no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-263-r1-16x9.png",
+        "sha256": "db77bbb65077a3a832560155c018a3775cd35b16b3451680b8e70cd2951620c0"
+      },
+      "4x5": {
+        "path": "es-01-263-r1-4x5.png",
+        "sha256": "9d2eaca075f4d9ac5a531b75c12126801a27484ed2bb5bcff3166f21cdf6be43"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-263-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1e9f3196712a47766f6517f3279944ae6b3eb064903948fb265f2e0b353ceb66"
+      },
+      "4x5": {
+        "path": "es-01-263-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "6635fdf4af0daf62ac2808f5f13e70a90671b06a87eaa3a9eac3f56b467fda14"
+      }
+    },
+    "on_image_text": [
+      "Cala Macarella, Ciutadella de Menorca",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

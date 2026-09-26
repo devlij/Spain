@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gates: (1) The Hemisfèric with its closed eye-lid shell centered over dark reflecting pools, Science Museum's arched spine left and Palau de les Arts silhouette right under a partly cloudy starry sky; recognizable Calatrava forms, plausible bridge viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match; on-image caption 'City of Arts and Sciences, Valencia', scenario '24 September 2026 · 01:27 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather retrieval 2026-09-24T01:12:51+02:00 for the 01:27 scenario — same night, consistent batch retrieval. (3) Packet documents text-only generation, image_inputs: [], third-party photos inspected for facts only. (4) IP: no people, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-268-r1-16x9.png",
+        "sha256": "d48da63a0646eb482dab769d83061df7f912051b2c2b7d5ae8db1e53ea69f4e9"
+      },
+      "4x5": {
+        "path": "es-01-268-r1-4x5.png",
+        "sha256": "a3e698fc97f10e1eb3f7a3f267b291f81db6ed9e4a18a31ea1f7fa5c37f14cdf"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-268-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "4d61d00144fe0deeb7a6d7876e82cf440881c26bb90c7eddf4f9bd7335e4ebe0"
+      },
+      "4x5": {
+        "path": "es-01-268-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "34a2ac3d6be5dceec0b7a0c0ace675c8724a55b5ec9f2f7f5e00856e20374cfd"
+      }
+    },
+    "on_image_text": [
+      "City of Arts and Sciences, Valencia",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

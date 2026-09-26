@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gates: (1) The walled old town of Morella climbing its hill to the floodlit castle ruins at the summit, warm lamps tracing the ramparts and glowing stone houses under a clear starry sky, dark Maestrazgo slopes falling away on both sides; recognizable hilltop form, plausible approach-road viewpoint, clean framing, no artifacts. (2) Both masters 1920x1080/864x1080, SHA-256 match; on-image caption 'Morella old town, Morella', scenario '24 September 2026 · 01:30 Europe/Madrid', AI-disclosure 'Not a photograph' bottom-left on scrim, legible; 'Jason D's Vision' (curly apostrophe) bottom-right. Weather retrieval 2026-09-24T01:12:51+02:00 for the 01:30 scenario — same night, consistent batch retrieval. (3) Packet documents text-only generation, image_inputs: [], third-party photos inspected for facts only. (4) IP: no people, no logos, no recognizable private property; documented only. (5) No blockers — publication-ready.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-271-r1-16x9.png",
+        "sha256": "0d69b3233b18f89b0bc1b643e5558736f9466f35b79b6c4bf399231fa4ae3d2c"
+      },
+      "4x5": {
+        "path": "es-01-271-r1-4x5.png",
+        "sha256": "306a6215ab24e1fba134fbfd71174240c862a6ec338b819a874f2d81f486bb7f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-271-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d3fd77cef937507eb3f920bbe60bb272ba4085926b9c5acc942c943dcdadfde4"
+      },
+      "4x5": {
+        "path": "es-01-271-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "72e71b6019a9de0b499650cfa5a918f03954b5c9e8825b91931d79ba9f6d951c"
+      }
+    },
+    "on_image_text": [
+      "Morella old town, Morella",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

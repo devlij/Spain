@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — from the western shore, traditional stilt pesquera huts line the water's edge bottom-left, the glassy lake mirrors a starry sky with a thin moonlight path on the water, tree-lined far shore and faint Banyoles town lights behind; calm, clean, no artifacts. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Lake Banyoles, Banyoles', 'Scenario: 24 September 2026 · 01:23 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 8 min before the 01:23 scenario, fresh. Gate 3 PASS — text-only generation, zero photo inputs. Gate 4 — no people, logos, or private property; not legally certified. Gate 5 — no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-258-r1-16x9.png",
+        "sha256": "ca435d78b1b8e486ffd1748b3e5053c55f8ff137b294f43aa44c92ed1e53b0e5"
+      },
+      "4x5": {
+        "path": "es-01-258-r1-4x5.png",
+        "sha256": "a9d4d92a42c72dffd6565377f6938d5cc2482e013e09d292ae94c1cc51af945d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-258-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5071e24d32dafc959b867e83fc9a58cc19a0471aa7a79643a4460a848b5cd663"
+      },
+      "4x5": {
+        "path": "es-01-258-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c5fc6ccd2294a37fafda95033663d0fce40e3e19c290f01e7156468aa0d44c04"
+      }
+    },
+    "on_image_text": [
+      "Lake Banyoles, Banyoles",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

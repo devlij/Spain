@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — honey-colored stone houses with green shutters and terracotta roofs cluster below the viewpoint, warm windows glowing, the bell tower of the Carthusian monastery rising above the rooftops, dark Tramuntana silhouette behind under a starry sky; plausible mirador viewpoint, clean framing. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Valldemossa, Valldemossa', 'Scenario: 24 September 2026 · 01:26 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 11 min before scenario, fresh; window/lamp light only, no floodlighting claimed. Gate 3 PASS — text-only generation, no photo inputs. Gate 4 — no people, logos, or recognizable private property visible; not legally certified. Gate 5 — no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-262-r1-16x9.png",
+        "sha256": "ab569120aa61e9beaca57a5a862e05041cfc9d67ff2756cf841150c2bff6ff3f"
+      },
+      "4x5": {
+        "path": "es-01-262-r1-4x5.png",
+        "sha256": "2f7df220211df1a0242de2dd2ecc611e364434afbb8863659ba2259218c283e3"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-262-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "8b5d5edadb7d1d493da489f70776b67388a12dae1d5edcda989180c1bf3a7dd6"
+      },
+      "4x5": {
+        "path": "es-01-262-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ba22f60f7083540f97a0b0068357fbcd3464982dbf1e766d49fc2116be65c2af"
+      }
+    },
+    "on_image_text": [
+      "Valldemossa, Valldemossa",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

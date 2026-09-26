@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — the towering limestone walls of the Torrent de Pareis gorge mouth rise on both sides of a narrow cove opening onto the dark Mediterranean, moonlight tracing the cliff edges and still water under a starry sky; naturally dark with no artificial lighting, no glaring misconfiguration. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Sa Calobra cove, Escorca', 'Scenario: 24 September 2026 · 01:22 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.') and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 9 min before scenario, fresh. Gate 3 PASS — text-only generation, no photographic inputs. Gate 4 — no people, logos, or private property visible; not legally certified. Gate 5 — no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-261-r1-16x9.png",
+        "sha256": "8e3aeaeeae09df677970c51e0048305ab15660ce12e882a7753d7337920e36fb"
+      },
+      "4x5": {
+        "path": "es-01-261-r1-4x5.png",
+        "sha256": "08d2f1f561ce8a5229e56e287c32b174c486a736b002f3d234b4274397014891"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-261-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "91dedb70600715fe8f5d50ad6d21b282679581cf39f241da51f557153896ef50"
+      },
+      "4x5": {
+        "path": "es-01-261-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "39d1244ce2b268d566da2f28c5999512280be86bd4f7e1fe1787e2f998dd4930"
+      }
+    },
+    "on_image_text": [
+      "Sa Calobra cove, Escorca",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

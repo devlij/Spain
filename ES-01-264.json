@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — from the marina across the harbor, Dalt Vila rises on the hill with the Renaissance walls and bastions warmly lit at left, cathedral bell tower crowning the silhouette, whitewashed houses glowing with lamp light, sailboat masts and moored boats in the dark harbor foreground, starry sky; lamp light only, no wall floodlighting claimed. Gate 2 PASS — byte-verified 1920x1080 and 864x1080, SHA-256 matching the packet; on-image text exact ('Dalt Vila, Eivissa', 'Scenario: 24 September 2026 · 01:26 Europe/Madrid', disclosure) and 'Jason D\\u2019s Vision' signature bottom-right; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 11 min before scenario, fresh. Gate 3 PASS — text-only generation, no photo inputs. Gate 4 — no people, logos, or recognizable private property visible; not legally certified. Gate 5 — no blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-264-r1-16x9.png",
+        "sha256": "d40a8d44bdd4482945b781749dd018fe8768d31af794b4846b0a9b180009098e"
+      },
+      "4x5": {
+        "path": "es-01-264-r1-4x5.png",
+        "sha256": "1c2000927d6bde65628f4ff526218fa804e7479dd275fa3d5b1df6dd008cd33d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-264-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "92c4680925d9240652bd5f2480b55b0c79e125d63b572c743d34af5677d201cf"
+      },
+      "4x5": {
+        "path": "es-01-264-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e225409660ca81e6282e4d82596f38300846ff13d20777ab2405736759c2eb3c"
+      }
+    },
+    "on_image_text": [
+      "Dalt Vila, Eivissa",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
