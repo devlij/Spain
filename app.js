@@ -85,3 +85,22 @@ document.querySelectorAll('.card').forEach(card=>{
     }
   });
 });
+
+/* Word-of-day slim band rotation (2026-09-25, Jason directive) */
+(function(){
+  try{
+    var data=JSON.parse(document.getElementById('wotd-data').textContent);
+    if(!data||!data.length)return;
+    var now=new Date();
+    var doy=Math.floor((now-new Date(now.getFullYear(),0,0))/864e5); /* Jan 1 -> 1 */
+    var e=data[(doy-1)%data.length];
+    var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+    var h='<span class="word">'+esc(e.word)+'</span>';
+    if(e.translit)h+=' <span class="translit">('+esc(e.translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.word_en)+'&rdquo;</span> <span class="sep">&middot;</span> <span class="phrase">&ldquo;'+esc(e.phrase)+'&rdquo;</span>';
+    if(e.phrase_translit)h+=' <span class="translit">('+esc(e.phrase_translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.phrase_en)+'&rdquo;</span>';
+    document.querySelector('#wotd .wotd-body').innerHTML=h;
+    document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
+  }catch(err){}
+})();
