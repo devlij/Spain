@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-063.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-063.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-063-r1-16x9.png",
+        "sha256": "02748c416f35e1c5096680d83b1bf1d99ca6e8f8377fbfbde013e7d83d250ec1"
+      },
+      "4x5": {
+        "path": "es-01-063-r1-4x5.png",
+        "sha256": "be24b8c47d30029b4c68fb1d56b72d688add4e6740c0871d0091cff4bdfc2e98"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-063-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d7b02933cb5bb58a3f12e3600c027ed2b1053c1385ef477f54e110627519779c"
+      },
+      "4x5": {
+        "path": "es-01-063-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f2486d31bd9c10073933b5d9844fbfd69e55b4ac88e663cf11c2014d7a2e9d38"
+      }
+    },
+    "on_image_text": [
+      "Puente la Reina, Puente la Reina",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

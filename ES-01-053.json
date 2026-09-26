@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-053.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-053.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-053-r1-16x9.png",
+        "sha256": "531fab6175d716e159ca87108cf7ba09586ba2a8aeb4df2f8d9cc7f1d9a9956e"
+      },
+      "4x5": {
+        "path": "es-01-053-r1-4x5.png",
+        "sha256": "4ceb6c134109f84a8592243300cee70f83f7487c7d690d31219dab0dd27c2940"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-053-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "97eb6f9d57e58f014f1dc9e9c8ce4444a40b5642859d41ba837f0d4f93e63f2e"
+      },
+      "4x5": {
+        "path": "es-01-053-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "0bc46f608160913012baebe95d784015eca59c1c3a601b846b75a12a9dd60a9a"
+      }
+    },
+    "on_image_text": [
+      "Oyambre Estuary, San Vicente de la Barquera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

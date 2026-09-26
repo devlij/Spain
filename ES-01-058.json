@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-058.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-058.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-058-r1-16x9.png",
+        "sha256": "23a8f6a6ee596143264e70d5242c0358868215d4310b15adf6f35c9dab29a3b5"
+      },
+      "4x5": {
+        "path": "es-01-058-r1-4x5.png",
+        "sha256": "e59161166cba283f2cc2069f7496cdb0c7ce748d0bba200f0d07ac38e012f05d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-058-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "f110ba8595e5144bc563ceca64c0d30e354588112600a04a05ef4d163e93f9dc"
+      },
+      "4x5": {
+        "path": "es-01-058-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "90065eeb4a72c86e9e99e24548c8ff8b4d7adeb3d0b9370cd50b964c4b337a39"
+      }
+    },
+    "on_image_text": [
+      "Santo Domingo de la Calzada, Santo Domingo de la Calzada",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

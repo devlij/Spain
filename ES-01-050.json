@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-050.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-050.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-050-r1-16x9.png",
+        "sha256": "54cdd33b7f4d86afe47ea31ab037b7eca540edce7a2ecf68e78525edff0f6593"
+      },
+      "4x5": {
+        "path": "es-01-050-r1-4x5.png",
+        "sha256": "89642a44899201a625305e2fd757171f7504e5c700e06d3121621ed8c275d7fb"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-050-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "67e8720f77556ab74bc4562e93fc147e79d1a0ffc13b671d36b7a084a60f85fa"
+      },
+      "4x5": {
+        "path": "es-01-050-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "72e07293296f1a177bcf1c5264cdf1ac266d7df07cccf3b91639902f6c4d3ab3"
+      }
+    },
+    "on_image_text": [
+      "El Soplao Cave, Rionansa",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

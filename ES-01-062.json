@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-062.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-062.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-062-r1-16x9.png",
+        "sha256": "7c8da6713fd703005b6e90c5513752020c096293b43268021298ddb74dd04bd7"
+      },
+      "4x5": {
+        "path": "es-01-062-r1-4x5.png",
+        "sha256": "2029ccfb2aa071ac0c9b1d258bbe71d8de52fe2bb156fd913760df8b2a81cbf9"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-062-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "3146c6a30933bcb8d8cb5be072af091f6ebd2a71c06448a86dd85dd3a6107b74"
+      },
+      "4x5": {
+        "path": "es-01-062-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "79a1f1a05315a195e0f75a64a503eff5150c7df13dc33f857f8d2fed65fcb0fc"
+      }
+    },
+    "on_image_text": [
+      "Vineyards, Rioja Alta",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

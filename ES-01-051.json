@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-051.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-051.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-051-r1-16x9.png",
+        "sha256": "2fe80c73e02b650c4e3264daff16567d153d1ebe69c1cfa606be99f4c2598fc4"
+      },
+      "4x5": {
+        "path": "es-01-051-r1-4x5.png",
+        "sha256": "344e4bfc0e11dbbacc6dff0b2bdb5b8100387ffc817bdabe9f020ea45af207f8"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-051-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "c6eb783c2f511c04e93e12aecc83156338a17e7a828c6dbcc7a933c0e1c3518e"
+      },
+      "4x5": {
+        "path": "es-01-051-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "3fb0497d6e6f993fcdb418d03df9c51f43c3c668bafb2b183e4b9f12568b9485"
+      }
+    },
+    "on_image_text": [
+      "Potes, Potes",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

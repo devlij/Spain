@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-052.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-052.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-052-r1-16x9.png",
+        "sha256": "a26a6a8eec3be2027a3843cce34592994b71b7901e74b016605afcbdd43c8648"
+      },
+      "4x5": {
+        "path": "es-01-052-r1-4x5.png",
+        "sha256": "9d6bec32927db2dfb75c7c08cae738b9dfcb132bdcf03eda0415324e60f12421"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-052-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5a4287bfbfade8692f7d9a053a3d705129dd2d5af956b622591c8c18d8a962dd"
+      },
+      "4x5": {
+        "path": "es-01-052-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "0eb1a929bb5d853ab186205d7566981724ec8caa7021b44dfffc2b7bd8c63ede"
+      }
+    },
+    "on_image_text": [
+      "Bárcena Mayor, Los Tojos",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

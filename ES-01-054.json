@@ -148,5 +148,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-054.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor E: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/E/ES-01-054.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-054-r1-16x9.png",
+        "sha256": "39944f4ef1f1725067fad07ff7fbd220307dc9740e56b7dfdd7f8ca4cc2ea630"
+      },
+      "4x5": {
+        "path": "es-01-054-r1-4x5.png",
+        "sha256": "90f3d1a9784b7da3826539bc2508ba051163d44ec08f1ade5dc0ec690496166f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-054-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "ccc5482a5c67aedd71352156b87c0f24d04d79b09ffecccfd85c6ae25c74dd17"
+      },
+      "4x5": {
+        "path": "es-01-054-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "4c7489f0e7a6508e37846ac66a05f8ad976aa2e73f19eab477d0188347abf9b5"
+      }
+    },
+    "on_image_text": [
+      "Liérganes, Liérganes",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
