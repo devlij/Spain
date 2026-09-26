@@ -22,8 +22,8 @@
       "Guruwalk Madrid night tours: Gran Vía is 'spectacularly illuminated' at night"
     ]
   ],
-  "status": "Awaiting Cosmo QC · Night",
-  "approval_state": "candidate",
+  "status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_state": "approved",
   "scenario_label": "24 September 2026 · 04:56 Europe/Madrid",
   "time_of_day": "Night",
   "composition": "Night · Avenue looking down the street toward the Metrópolis building, neon and streetlights · AI-generated artistic interpretation",
@@ -159,6 +159,6 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "",
+  "approval_basis": "Gate 1: recognizably Madrid's Gran Vía at night — the Metropolis building's beaux-arts dome with gilded sculpture left, the lit street canyon receding with rows of lamps; plausible viewpoint, clean framing, no artifacts. Gate 2: exact dims and SHA-256 match; exact signature, caption 'Gran Vía, Madrid', scenario '24 September 2026 · 04:56 Europe/Madrid', disclosure on-image; weather retrieved 2026-09-26T01:43:24+02:00, valid 2026-09-24T04:00+02:00 covering the scenario minute, timestamp unique to this scene. Gate 3: packet records text-only original generation, no photographic inputs. Gate 4: no identifiable people, logos, or private property issues. Gate 5: clear — approved.",
   "qc_notes": "Gate 2 FAILED (Cosmo QC 2026-09-25): weather metadata reused across ES-01-351..360 and stale vs scenario. Conditions blocks are byte-identical (temp 18.3°C, cloud 80, wind 8.0, is_day 0) for geographically dispersed sites (Madrid ×3, Hondarribia, Getaria, Gaztelugatxe, Vitoria, Ceuta, Melilla, Logroño) — one Open-Meteo fetch reused for all 10. Retrieved 2026-09-24T01:11+02:00 (valid 01:00), scenario timestamps 04:56–06:08 Europe/Madrid — 4–5h stale. ES-01-334–365 lesson applies: refresh weather per scene near its scenario time and re-land.\n[2026-09-26T01:43:24+02:00 — builder weather rework] Per-scene Open-Meteo HTTP retrieval (own GET, HTTP 200). Retrieved 2026-09-26T01:43:24+02:00 Europe/Madrid. Model-valid hour 2026-09-24T04:00+02:00 contains scenario minute 04:56 on 2026-09-24. Model data only; not a verified on-site observation. approval_state left Candidate. Images not regenerated."
 }
