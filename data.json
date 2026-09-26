@@ -1933,11 +1933,12 @@
       "scenario_label": "24 September 2026 · 02:00 Europe/Madrid",
       "composition": "Night · Castle from the Pradera de San Marcos, floodlit against the dark sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Alcázar of Segovia at night.",
-      "status": "Awaiting Cosmo QC",
-      "approval_state": "candidate",
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
       "reverted_approval_basis": "G1: Alcázar's ship-prow castle on the rocky crag between the Eresma and Clamores rivers is unmistakable — pointed slate spires, crenellated walls and keep all floodlit warm against dark woods; plausible night view from Mirador de la Pradera de San Marcos; clean framing, no artifacts. G2: 16:9 (1920×1080) and 4:5 (864×1080) SHA-256 both verified against packet; on-image caption 'Alcázar, Segovia', scenario '24 September 2026 · 02:00 Europe/Madrid' and 'AI-generated artistic interpretation · Not a photograph.' legible bottom-left on gradient scrim, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh, no staleness. G3: packet documents text-only original generation, image_inputs empty. G4: no visible people, logos or private property — public monument at night. G5: no blockers.",
       "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
-      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00",
+      "approval_basis": "Gate 1 PASS: ship-prow Alcázar on its rocky crag, floodlit turrets and curtain walls, mist over the river confluence below — recognizably Segovia's Alcázar from the Pradera de San Marcos tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: exact 1920×1080 + 864×1080, sha verified vs packet, 'Jason D’s Vision' signature bottom-right, exact caption, scenario '24 September 2026 · 02:00 Europe/Madrid' and AI disclosure bottom-left on a legible scrim; Open-Meteo weather retrieval recorded 2026-09-26T01:43:02+02:00 (archive fetch), model-valid hour 2026-09-24T02:00 contains scenario minute 02:00, timestamp unique to the second across all 43 reworked candidates. Gate 3 PASS: text-only generation, image_inputs empty. Gate 4 notes-only: no visible people or logos. Gate 5 PASS: all gates closed."
     },
     {
       "entry_id": "ES-01-330",
