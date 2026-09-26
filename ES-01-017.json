@@ -51,5 +51,46 @@
       "sha256": "f527f8f248cae5df5ac8895091a005461e87c4d2230131a1fb23ea17a97dab2f"
     }
   },
-  "file_naming_note": "Canonical ES-01 filenames are byte-identical copies. ES-AN filenames are retained only as compatibility aliases for historical links."
+  "file_naming_note": "Canonical ES-01 filenames are byte-identical copies. ES-AN filenames are retained only as compatibility aliases for historical links.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-017-16x9.png",
+        "sha256": "b3645b915fa7124ef122196ebcf7fae62aa272da799dc3f419a68d0a2c77ba97"
+      },
+      "4x5": {
+        "path": "es-01-017-4x5.png",
+        "sha256": "f527f8f248cae5df5ac8895091a005461e87c4d2230131a1fb23ea17a97dab2f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-017-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1f2894d47021de458468a5790fadcecbd37d80dc878bc9eb8758e26242125e22"
+      },
+      "4x5": {
+        "path": "es-01-017-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "38e1bf19f4cdafb68d19fd05844c2f14bdbdbfc65e27b49966837a9cde9ecb29"
+      }
+    },
+    "on_image_text": [
+      "Puerta del Puente, Córdoba",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

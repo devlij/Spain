@@ -227,5 +227,46 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "approval_basis": "Cosmo five-gate audit 2026-09-23: visual/location inspected; SHA-256 + exact 1920x1080/864x1080 verified; provenance documented; Gate 4 documentation-only; publication readiness passed."
+  "approval_basis": "Cosmo five-gate audit 2026-09-23: visual/location inspected; SHA-256 + exact 1920x1080/864x1080 verified; provenance documented; Gate 4 documentation-only; publication readiness passed.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-026-r2-16x9.png",
+        "sha256": "18faea962746f21d26e0741ac239dfab366b955b6c7558f4a3311502bfc799cf"
+      },
+      "4x5": {
+        "path": "es-01-026-r2-4x5.png",
+        "sha256": "577a0753bf5e6557dd3e852c148ef5f18e9d98f6d599db7a0bf42ed531c17d39"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-026-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a485629f963e431476473d82cf6b0ca2548fe16623ea894f457cb8913e21a905"
+      },
+      "4x5": {
+        "path": "es-01-026-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "856f53b65f84f79676acd8b88cc0bbaa0c96eed51fe9cb8170c1d3d2b02eb15b"
+      }
+    },
+    "on_image_text": [
+      "Cathedral, Oviedo",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

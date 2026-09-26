@@ -227,5 +227,46 @@
       "sha256": "39bb770ecbaba3b6a16b9bfbcfc45fe2e211222deb4721b599b755dd0a6faac9"
     }
   ],
-  "approval_basis": "Five-gate audit passed. Gate 1: dark night long-exposure interpretation of Lago Enol — rocky/grassy north-shore foreground, compact lake basin flanked by rounded limestone-and-grass ridges with a low saddle, no invented jagged peaks, snow, cabins, or lamps; recognizably the site from a plausible shore viewpoint. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents built-in text-only generation lineage with no photographic inputs; restrained ambient light disclosed as artistic interpretation, not measured luminance. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready."
+  "approval_basis": "Five-gate audit passed. Gate 1: dark night long-exposure interpretation of Lago Enol — rocky/grassy north-shore foreground, compact lake basin flanked by rounded limestone-and-grass ridges with a low saddle, no invented jagged peaks, snow, cabins, or lamps; recognizably the site from a plausible shore viewpoint. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents built-in text-only generation lineage with no photographic inputs; restrained ambient light disclosed as artistic interpretation, not measured luminance. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-028-r1-16x9.png",
+        "sha256": "2f1821acfedbf94b0efcf9f9ff02a7d4231674c5fee2d304c0aa0c3d7a18dd3c"
+      },
+      "4x5": {
+        "path": "es-01-028-r1-4x5.png",
+        "sha256": "3e623898498a5c3435c78d0355a6000735706803210bbdaf330060325deb2999"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-028-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "fac320e25572ae7c1f77feb0846ae0d8a2f164fda563830fec55046860364995"
+      },
+      "4x5": {
+        "path": "es-01-028-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "52f579c403cf8beb929802c1b3dcbb89924934ab4315fcb894c435ff1d21d2cf"
+      }
+    },
+    "on_image_text": [
+      "Lago Enol, Covadonga",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -231,5 +231,46 @@
       "sha256": "1f41f56ea827bdddb4ee9c4ca6792b28145d90fcf97c8719dd65530efb177277"
     }
   ],
-  "approval_basis": "Gate 1: recognizably Cartoixa de Valldemossa — the monastery mass with its green-spired tower rising above the village rooftops against the Tramuntana mountain backdrop from the documented overlook viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night lighting noted as precedent-based per the packet's honest limitations disclosure."
+  "approval_basis": "Gate 1: recognizably Cartoixa de Valldemossa — the monastery mass with its green-spired tower rising above the village rooftops against the Tramuntana mountain backdrop from the documented overlook viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night lighting noted as precedent-based per the packet's honest limitations disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-031-r1-16x9.png",
+        "sha256": "eeb568d907fdaf3b9322fc6adb7f1b0d3cf43c6a1623886ff4125e74fa69e02a"
+      },
+      "4x5": {
+        "path": "es-01-031-r1-4x5.png",
+        "sha256": "9d7f78bbb8cd63d4e4ba201eb94fbb606b4ce6b23629f1c10278ee11dbc0f1f0"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-031-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "61df82e388deae0f6f244a52db236704679df387634e3ffa8d9bd97e47a7ffd7"
+      },
+      "4x5": {
+        "path": "es-01-031-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "3b29c3182d0d981e051a1c6cb9124634450178b64c1893ef583a16dd8fb5ce78"
+      }
+    },
+    "on_image_text": [
+      "Cartoixa, Valldemossa",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

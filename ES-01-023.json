@@ -290,5 +290,46 @@
     "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
     "rejection_notes": [],
     "independent_verdict": null
+  },
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-023-r1-16x9.png",
+        "sha256": "91b46fc6cf110fb8962a302fed9749bdad495645c1e2b79073bdcb514d33bd24"
+      },
+      "4x5": {
+        "path": "es-01-023-r1-4x5.png",
+        "sha256": "8fb0b16630b14914f8fb5f7ab92f9f1887a5aecab891e6ed1525ede9d0c04a4a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-023-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9dfbecf5f5175a80b0f5cc6e8cce39eaf579b0cbcfafcf6a5d9cf0c05976026b"
+      },
+      "4x5": {
+        "path": "es-01-023-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "12257768cecc442e960f2510ac0260287d33e027865b2792d15a0705d6876bed"
+      }
+    },
+    "on_image_text": [
+      "Basílica del Pilar, Zaragoza",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
   }
 }

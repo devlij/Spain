@@ -337,5 +337,46 @@
     "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
     "rejection_notes": [],
     "independent_verdict": null
+  },
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-021-r3-16x9.png",
+        "sha256": "6fbe6b0990d11947c515915794c0eddf28621459a5f34c7a006b9eead4845561"
+      },
+      "4x5": {
+        "path": "es-01-021-r3-4x5.png",
+        "sha256": "56be77ec9d9fd95603bb21d44abbc847626dbf81b521703c742070dc1efc20ab"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-021-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "e4a685d56020f9fa01284571e739f959ffd48bcb2b5f68e33ef603c735edd031"
+      },
+      "4x5": {
+        "path": "es-01-021-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "38a37270f05aed73669fc59ac255c1cad5c1d97e88ee17357e1477f450db9505"
+      }
+    },
+    "on_image_text": [
+      "Alcazaba, Málaga",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
   }
 }

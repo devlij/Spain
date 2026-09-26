@@ -231,5 +231,46 @@
       "sha256": "c8e2c7faa20ee1cb57a8255de4d1504eb83e987a01b58381ccf10b5e0228f3df"
     }
   ],
-  "approval_basis": "Gate 1: recognizably La Seu — long Gothic south wall with repeated buttresses and pinnacles, large eastern rose window right, raised city wall, palms, and Parc de la Mar reflecting pool from the documented public promenade viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night illumination noted as precedent-based per the packet's honest limitations disclosure."
+  "approval_basis": "Gate 1: recognizably La Seu — long Gothic south wall with repeated buttresses and pinnacles, large eastern rose window right, raised city wall, palms, and Parc de la Mar reflecting pool from the documented public promenade viewpoint; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: no visible people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Night illumination noted as precedent-based per the packet's honest limitations disclosure.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-030-r1-16x9.png",
+        "sha256": "77e3d5bec7c48cdff83b95e74459d7a5661cbf15cb2f5232530bd151a15bc804"
+      },
+      "4x5": {
+        "path": "es-01-030-r1-4x5.png",
+        "sha256": "92d89d655d33b338a2fac4066dd75e70f3ff497c9195bd38fd3daf6d9333002a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-030-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "84ca5e3c28e7d15a84f78cde4e32323f94ef4839b2739bb5bbdd844e8873fe4f"
+      },
+      "4x5": {
+        "path": "es-01-030-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "9412aa2b78582b5ab71ba586bef8dc30be4690f724ef959bd57a0e95f7683551"
+      }
+    },
+    "on_image_text": [
+      "La Seu, Palma",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

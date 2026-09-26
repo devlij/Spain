@@ -51,5 +51,46 @@
       "sha256": "39ccce6bcfff601271f0fe74a8b1a8c6c191d72471be71e48183a4a8af6f08e6"
     }
   },
-  "file_naming_note": "Canonical ES-01 filenames are byte-identical copies. ES-AN filenames are retained only as compatibility aliases for historical links."
+  "file_naming_note": "Canonical ES-01 filenames are byte-identical copies. ES-AN filenames are retained only as compatibility aliases for historical links.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-018-16x9.png",
+        "sha256": "fbcc34933ea542422dac8e5638fd7233844dab7758fada215e529e15d8de5f78"
+      },
+      "4x5": {
+        "path": "es-01-018-4x5.png",
+        "sha256": "39ccce6bcfff601271f0fe74a8b1a8c6c191d72471be71e48183a4a8af6f08e6"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-018-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "f5271c039b14d6e1d333227502cf676ee54de87a7cce7874828d0d53b527c286"
+      },
+      "4x5": {
+        "path": "es-01-018-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "1ea2365b36ede0ba74c0384e7d7339ce82deee3c148bfbb733f111530dd66334"
+      }
+    },
+    "on_image_text": [
+      "Roman Bridge, Córdoba",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -296,5 +296,46 @@
     "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
     "rejection_notes": [],
     "independent_verdict": null
+  },
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-019-r2-16x9.png",
+        "sha256": "d2ce3a81d736910ea80d411e383441e1256b911cbfa74c82c70f805f686c5eab"
+      },
+      "4x5": {
+        "path": "es-01-019-r2-4x5.png",
+        "sha256": "c94ae29ed6701b547f4712b0612ac4caf52b6298c6b0f7490563b97367421594"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-019-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a31b36307e60f950b185dbe8be591954492d98dd67845ec7f3a04915676421b0"
+      },
+      "4x5": {
+        "path": "es-01-019-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "d0eaa8e9bebf95d1734af2fb946135fa11ede6fb53e55d673c6c87d57587a559"
+      }
+    },
+    "on_image_text": [
+      "Puerta del León, Seville",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
   }
 }

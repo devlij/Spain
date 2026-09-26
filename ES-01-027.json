@@ -235,5 +235,46 @@
       "sha256": "2d4de88a4958944905d5deda922145d84667623622ee2cd111ebb998b1f6c41a"
     }
   ],
-  "approval_basis": "Five-gate audit passed. Gate 1: twin-tower neo-Romanesque façade with pyramid spires, clock faces, pink limestone, and mountain backdrop recognizably depict the Basílica de Santa María la Real de Covadonga from the public esplanade; clean framing, no misconfiguration or artifacts. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents built-in text-only generation lineage with no photographic inputs; night lighting disclosed as historical precedent only, not tonight's schedule. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready."
+  "approval_basis": "Five-gate audit passed. Gate 1: twin-tower neo-Romanesque façade with pyramid spires, clock faces, pink limestone, and mountain backdrop recognizably depict the Basílica de Santa María la Real de Covadonga from the public esplanade; clean framing, no misconfiguration or artifacts. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents built-in text-only generation lineage with no photographic inputs; night lighting disclosed as historical precedent only, not tonight's schedule. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-027-r1-16x9.png",
+        "sha256": "4a8de2fe1a71224a79265c092ad877291912903e71654439e305fb5f4b3461fb"
+      },
+      "4x5": {
+        "path": "es-01-027-r1-4x5.png",
+        "sha256": "31749a4a20b9d460c8c68136b106215361e0fc7e547f5e94eb44c6bd7e097bde"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-027-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5803443966438780b2d5862f8ad7ecaa75c479699b6d60be1d321d30ed2f793d"
+      },
+      "4x5": {
+        "path": "es-01-027-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "7fb89d5a9130edfee379db59e912cc4ed85cdc4fe81d87cb36eb1dfa5d51039e"
+      }
+    },
+    "on_image_text": [
+      "Basílica, Covadonga",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

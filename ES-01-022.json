@@ -290,5 +290,46 @@
     "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
     "rejection_notes": [],
     "independent_verdict": null
+  },
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-022-r1-16x9.png",
+        "sha256": "7050061c977ca749241d1f8b024f0f18ddd07a32fe75cd17c89a808cdd4ff9fd"
+      },
+      "4x5": {
+        "path": "es-01-022-r1-4x5.png",
+        "sha256": "8168c8890cb3fde197312ec91379470e016fa89ebf0acc562741de68760bfe52"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-022-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "edc7ceb5ea36cb700162a27e5a6f74e799f4a15fdba34b8116f8ba060e5ad652"
+      },
+      "4x5": {
+        "path": "es-01-022-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "73da0f835129b714b0f2366882700b8087d7ddc97a74ea3cedba20c4c7c6df7b"
+      }
+    },
+    "on_image_text": [
+      "Campo del Sur, Cádiz",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
   }
 }

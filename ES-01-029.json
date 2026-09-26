@@ -253,5 +253,46 @@
       "sha256": "19c177c6fa5fd590f5f0bc5ea732b7558501a172423f94e5d0a5920463819b94"
     }
   ],
-  "approval_basis": "Five-gate audit passed. Gate 1: San Pedro church with its single square sandy-stone belfry and pointed tile roof stands on the stone seawall at the western beach end, town buildings behind left, Cantabrian surf breaking right; recognizably the real landmark from the El Muro promenade viewpoint. The packet's residual deviations (main window slightly pointed, side-aisle treatment differing from reference) assessed as acceptable ornament-level differences, not misconfiguration. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents own text-only r2 source edited to r3, no third-party image pixels; tide depicted is compositional (disclosed) and lighting precedent historical only. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready."
+  "approval_basis": "Five-gate audit passed. Gate 1: San Pedro church with its single square sandy-stone belfry and pointed tile roof stands on the stone seawall at the western beach end, town buildings behind left, Cantabrian surf breaking right; recognizably the real landmark from the El Muro promenade viewpoint. The packet's residual deviations (main window slightly pointed, side-aisle treatment differing from reference) assessed as acceptable ornament-level differences, not misconfiguration. Gate 2: both masters at exact 1920×1080/864×1080 with packet-matching SHA-256; exact caption, scenario timestamp, disclosure, and 'Jason D’s Vision' signature verified on the master. Gate 3: packet documents own text-only r2 source edited to r3, no third-party image pixels; tide depicted is compositional (disclosed) and lighting precedent historical only. Gate 4: no visible people, logos, or recognizable private property — documentation only; final commercial call is Jason's. Gate 5: publication-ready.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-029-r3-16x9.png",
+        "sha256": "db95c57dd89019a4c069fbf6868b5dcbd546213319e770d7f4e8b31956c15be0"
+      },
+      "4x5": {
+        "path": "es-01-029-r3-4x5.png",
+        "sha256": "2698724ed16355c3b66020971f5cd13c73e5eb971ad90a91f6581223fc438bff"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-029-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5582ed7b319755d5d49c84f28734d64dcec8a7f2eb32fdb97854b25afeb62244"
+      },
+      "4x5": {
+        "path": "es-01-029-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "2c55f777dbb21023dc2bcec82ba756488e960ff3c1452a054c2b54a98501e2ab"
+      }
+    },
+    "on_image_text": [
+      "Playa de San Lorenzo, Gijón",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

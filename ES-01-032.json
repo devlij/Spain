@@ -231,5 +231,46 @@
       "sha256": "77167a9215c4fc27496e0d1ecbc44fc6e7b6301ea9258ae406a62c1f3f4c6590"
     }
   ],
-  "approval_basis": "Gate 1: recognizably Torrent de Pareis at Sa Calobra — the narrow gorge mouth with sheer limestone walls opening onto the public pebble beach, viewed inland from the documented beach viewpoint; restrained night treatment with no invented lights, people, or boats; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: natural landscape — no people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Noted as an artistic long-exposure interpretation per the packet's honest disclosure, not a claim of nighttime access."
+  "approval_basis": "Gate 1: recognizably Torrent de Pareis at Sa Calobra — the narrow gorge mouth with sheer limestone walls opening onto the public pebble beach, viewed inland from the documented beach viewpoint; restrained night treatment with no invented lights, people, or boats; clean framing, no artifacts. Gate 2: masters byte-verified at 1920x1080 and 864x1080 with SHA-256 matching the review packet; exact 'Jason Ds Vision' signature bottom-right and exact caption, scenario timestamp, and AI disclosure bottom-left on a gradient scrim, legible. Gate 3: provenance documents text-only original generation with no photographic inputs (image_inputs empty; reference photos inspected for facts only). Gate 4: natural landscape — no people, logos, or recognizable private property — documented only, commercial call is Jason's. Gate 5: no blockers. Noted as an artistic long-exposure interpretation per the packet's honest disclosure, not a claim of nighttime access.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-032-r1-16x9.png",
+        "sha256": "b42a5685c8ee0ffa20cd229f8c18c4c4b57b4394c62e19c932c5ca171a33ee71"
+      },
+      "4x5": {
+        "path": "es-01-032-r1-4x5.png",
+        "sha256": "218c6236ef930986f96ea4ce0b4eccfa71cc2f5e9bf5e41f5c2f1e4756ee6300"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-032-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "b09ebf5855f9dd1f7a841eb5e25ade583d76afb16c9cd3f50e54adb25b5cd1d3"
+      },
+      "4x5": {
+        "path": "es-01-032-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "6266adfb660ea2f912c8db2cc47afe9a51c4e64a95012a25fe90fda24ec8db2f"
+      }
+    },
+    "on_image_text": [
+      "Torrent de Pareis, Sa Calobra",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -221,5 +221,46 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
-  "approval_basis": "Cosmo five-gate audit 2026-09-23: visual/location inspected; SHA-256 + exact 1920x1080/864x1080 verified; provenance documented; Gate 4 documentation-only; publication readiness passed."
+  "approval_basis": "Cosmo five-gate audit 2026-09-23: visual/location inspected; SHA-256 + exact 1920x1080/864x1080 verified; provenance documented; Gate 4 documentation-only; publication readiness passed.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-024-r1-16x9.png",
+        "sha256": "634b326fd91309e2caa9a4bd2dedbdc826a3e52beb2ad0ec84ab0d734c3cdd06"
+      },
+      "4x5": {
+        "path": "es-01-024-r1-4x5.png",
+        "sha256": "388f255260cd55c512f514ebc32ebc2bdd6ce5da9726e599c91d4840787e6921"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-024-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "f4852d8dec929d9bdd025cd198dfcc39665a2ba0bd88024568be908eea7b2856"
+      },
+      "4x5": {
+        "path": "es-01-024-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "876e0cedcf71473ec47475621d53e2e85f904324364b530063eea29144653680"
+      }
+    },
+    "on_image_text": [
+      "Old town, Albarracín",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -282,5 +282,46 @@
     "publication_ownership": "Production submits only these two PNGs and this JSON, one file per commit/push. Cosmo owns index.html, data.json, cards, approval counts and approval publication.",
     "rejection_notes": [],
     "independent_verdict": null
+  },
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-020-r1-16x9.png",
+        "sha256": "33a40acc84048fa54396223ceb709ec0ccde92d9492d434f7b542d5528f1ab3e"
+      },
+      "4x5": {
+        "path": "es-01-020-r1-4x5.png",
+        "sha256": "a7ac7c1d1a37ed974caa093f5787e8a591be16f6cc79f86c4917afa77166603f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-020-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "6ac740539c1d19fae036e82846073c74062afe9012613b3e33871399d24bf05e"
+      },
+      "4x5": {
+        "path": "es-01-020-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "f445c5c0d22c01250c1ffa214cdd9d4703feaf3a2bc08ea482d3f32b87e0beb7"
+      }
+    },
+    "on_image_text": [
+      "Carrera del Darro, Granada",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
   }
 }
