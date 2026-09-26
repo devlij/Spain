@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Five-gate Cosmo QC: Gate 1 PASS — mountain sanctuary with its slender bell tower sits centered at the valley floor, warmly lit windows glowing, dark Pyrenean slopes rising on both sides, the lake of Núria reflecting the lamps in the foreground under a starry sky; clean framing, no artifacts. Gate 2 PASS — both masters byte-verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact ('Vall de Núria, Queralbs', 'Scenario: 24 September 2026 · 01:19 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.') and 'Jason D\\u2019s Vision' signature bottom-right on an unobtrusive scrim; weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15 — 6 min before the 01:19 scenario hour, fresh, no stale reuse. Gate 3 PASS — packet documents text-only generation with zero photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; not legally certified. Gate 5 — no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-256-r1-16x9.png",
+        "sha256": "1b0dc679b2d19dfb90edbbaa1e20203025ea06c1d04630a6fb0416f0991072e5"
+      },
+      "4x5": {
+        "path": "es-01-256-r1-4x5.png",
+        "sha256": "6905e57e966e1b3e7f87187ac2a510ff37b45297dfa22800f19af3eedaf10677"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-256-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "b2540f2d0b53dfa858e981acd8b10d6aa465faa98e620f1e2337468bb0ed434f"
+      },
+      "4x5": {
+        "path": "es-01-256-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c3c24b8733adbee2e83c0512f53e33f3ee119b75d8a1c053d2755c62e12ae705"
+      }
+    },
+    "on_image_text": [
+      "Vall de Núria, Queralbs",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

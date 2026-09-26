@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Night Girona old town: the broad stone cathedral staircase rises between shuttered stone houses to the baroque west façade with its rose window, glowing vintage street lamps flanking the steps; on-image text verified: caption 'Old town, Girona', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; lamp-lit street detail interpretive per packet limitations (documented only).",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-243-r1-16x9.png",
+        "sha256": "86034449243c6771a9d5d617dcfed82bc79accfcea706d6a36f2c0bdbc189309"
+      },
+      "4x5": {
+        "path": "es-01-243-r1-4x5.png",
+        "sha256": "69f4f2004ffe64edd54f1e4698818f5bfe7a69f81f7c4670919d0a2f4a233a3f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-243-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "32f8b14bd3b15ad1829490a0daa892566a28587dc00c745bb69677c07c5ef6a8"
+      },
+      "4x5": {
+        "path": "es-01-243-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "2e26ad301f0ce612f445019b978d13c3e83e842444eb349ba7c3c437611b3302"
+      }
+    },
+    "on_image_text": [
+      "Old town, Girona",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

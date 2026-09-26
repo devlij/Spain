@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: night facade recognizably Tarragona Cathedral — Gothic-Romanesque front with glowing rose window, sculpted portal flanked by saint statues, balustraded stone staircase descending toward the viewer, bell tower and cloister arches flanking; plausible eye-level tourist viewpoint from Pla de la Seu; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080 and SHA-256 match against the packet; on-image caption, Scenario 24 September 2026 01:16 Europe/Madrid, and AI disclosure bottom-left on gradient scrim, exact Jason Ds Vision signature (curly apostrophe) bottom-right; weather retrieved 01:12:51 valid 01:15 — fresh, not stale or reused. Gate 3: packet documents image_inputs empty, text-only original generation, third-party photographs inspected for facts only. Gate 4: no people, logos, or recognizable private property visible — documented only, no chain certified. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-246-r1-16x9.png",
+        "sha256": "35d89fba7a38b7049bd66491519b178d0f33d8f39a41d675696fe2adb9dce59b"
+      },
+      "4x5": {
+        "path": "es-01-246-r1-4x5.png",
+        "sha256": "b738701c834e4595900851905d95cfcd1d39e8106f5ec483e566a90dbf8d0347"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-246-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9997c32681b0421d182578790cd770d4f215c795b9e9472e246cbef18f717240"
+      },
+      "4x5": {
+        "path": "es-01-246-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "28cefd6e9431917129824f90c384dfbdcbab4bb22875d2036d9e60d31a3f0030"
+      }
+    },
+    "on_image_text": [
+      "Tarragona Cathedral, Tarragona",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

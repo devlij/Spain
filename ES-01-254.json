@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Cap de Creus lighthouse recognizable — whitewashed keeper buildings on the rocky headland, tower with glowing lamp room casting a beam over the sea under a starry night sky; plausible tourist viewpoint from the approach path; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080 and SHA-256 match; on-image caption, Scenario 24 September 2026 01:19 Europe/Madrid, AI disclosure bottom-left on gradient scrim, exact Jason Ds Vision signature (curly apostrophe) bottom-right; weather retrieved 01:12:51 valid 01:15 — fresh. Gate 3: packet documents image_inputs empty, text-only original generation, third-party photographs inspected for facts only. Gate 4: no people, logos, or recognizable private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-254-r1-16x9.png",
+        "sha256": "6d027bd7daca83d140444c2cdc93f30693cf69faec0e6c43e00c31c38fcccd74"
+      },
+      "4x5": {
+        "path": "es-01-254-r1-4x5.png",
+        "sha256": "0dc65607cd26da5610738bf11784f4a3e45e71302cf9570948f12515b8dd32c4"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-254-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "0dd1e691399b63ce86720c0e3dd9f5acff2c094d05227ba32b4dc3e953b8156b"
+      },
+      "4x5": {
+        "path": "es-01-254-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "449eda972fbe5b0321ebb9f4d3b51fdfb122f6d0c2eaa82bae15b2d7faeffdad"
+      }
+    },
+    "on_image_text": [
+      "Cap de Creus Lighthouse, Cadaqués",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

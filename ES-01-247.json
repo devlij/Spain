@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: unmistakable Dalí Theatre-Museum — central red bread-roll-dotted tower, giant eggs along the parapet, golden rooftop figures, glowing geodesic dome against deep blue night sky, lit facade windows; plausible tourist viewpoint from Plaça Gala i Salvador Dalí; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080 and SHA-256 match; on-image caption Dali Theatre-Museum Figueres, Scenario 24 September 2026 01:16 Europe/Madrid, AI disclosure bottom-left on gradient scrim, exact Jason Ds Vision signature (curly apostrophe) bottom-right; weather retrieved 01:12:51 valid 01:15 — fresh. Gate 3: packet documents image_inputs empty, text-only original generation, third-party photographs inspected for facts only. Gate 4: two dark foreground sculptures (not people), no logos — documented only, no chain certified. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-247-r1-16x9.png",
+        "sha256": "3fe5da2d836abd4e36a761c01c6fd2c68f8cac363bca8db25ed0506067edbb14"
+      },
+      "4x5": {
+        "path": "es-01-247-r1-4x5.png",
+        "sha256": "7e9718394789518af1b9da56b7d3747aae89ed84aca217532488f4b96e851fdc"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-247-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "86f691f49b259fa7d8766d8ade86596ef5a5fe33852dd5b68dbbfc3596c1528b"
+      },
+      "4x5": {
+        "path": "es-01-247-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "8ffdacce7b201f511a1845b4b8bca86c53d0923f32872e3539652a511cc62875"
+      }
+    },
+    "on_image_text": [
+      "Dalí Theatre-Museum, Figueres",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

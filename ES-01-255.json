@@ -155,5 +155,46 @@
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
   "approval_basis": "Gate 1: Estany de Sant Maurici recognizable — still lake mirroring the twin peaks of Els Encantats, pine slopes framing both sides, low mist drifting over the water under a moonlit cloud break; plausible shoreline viewpoint; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080 and SHA-256 match; on-image caption, Scenario 24 September 2026 01:19 Europe/Madrid, AI disclosure bottom-left on gradient scrim, exact Jason Ds Vision signature (curly apostrophe) bottom-right; weather retrieved 01:12:51 valid 01:15 — fresh. Gate 3: packet documents image_inputs empty, text-only original generation, third-party photographs inspected for facts only. Gate 4: no people, logos, or recognizable private property visible — documented only. Gate 5: no open blockers.",
-  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+  "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals).",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-255-r1-16x9.png",
+        "sha256": "0f818437d8263a3932cc6ccdd357f193d7a4ad5d2eb9f57db196bbfabc782f9a"
+      },
+      "4x5": {
+        "path": "es-01-255-r1-4x5.png",
+        "sha256": "6f4dada471abea9554bd7d6c1f2951aeabe86e2124e6f0d566d80ab62605f1a1"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-255-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "65fac54544430f0429ce3ea2715fa0c353b74d2176fe6f57556a09546067479a"
+      },
+      "4x5": {
+        "path": "es-01-255-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "e833d53c7eb51a3edac3b39de1b909ff10b4cd892d4b1de48933cdd4ed3720e3"
+      }
+    },
+    "on_image_text": [
+      "Estany de Sant Maurici, Espot",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
