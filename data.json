@@ -3132,9 +3132,9 @@
       "scenario_label": "24 September 2026 · 05:36 Europe/Madrid",
       "composition": "Night · Islet from the mainland path, moonlit hermitage and footbridge · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of San Juan de Gaztelugatxe at night.",
-      "status": "Awaiting Cosmo QC · Night",
-      "approval_state": "candidate",
-      "approval_basis": ""
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
+      "approval_basis": "Gate 1 PASS: the rocky islet at night with the winding stone causeway bridge climbing to the hermitage silhouette on top, white moonlit surf breaking on the dark rocks — recognizably Gaztelugatxe. Gate 2 PASS: exact caption 'Gaztelugatxe, Bermeo', scenario '24 September 2026 · 05:36 Europe/Madrid', AI disclosure and curly-apostrophe signature verified on-image; masters 1920x1080/864x1080, sha256 matched; per-scene Open-Meteo retrieval 2026-09-26T01:43:29+02:00 (valid 05:00, 17.3C overcast 90%, wind 12.2 km/h) — unique to this scene, replacing the earlier shared-retrieval hold. Gate 3 PASS: text-only generation, no photographic inputs. Gate 4: no people or logos; public site; commercial call stays Jason's. Gate 5: no open blockers."
     },
     {
       "entry_id": "ES-01-357",
