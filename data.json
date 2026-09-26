@@ -2077,11 +2077,12 @@
       "scenario_label": "24 September 2026 · 03:10 Europe/Madrid",
       "composition": "Night · Castle from the approach, standing out against the starry sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Castle of Loarre at night.",
-      "status": "Awaiting Cosmo QC",
-      "approval_state": "candidate",
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
       "reverted_approval_basis": "G1: Loarre castle complex on its rocky ridge — Romanesque church with rounded apse and lit arched windows, square keep, round defensive towers and lower walled enclosure, valley lights far below; coherent night view from the approach path; no artifacts. G2: 1920×1080 / 864×1080 SHA-256 verified; caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid' and AI disclosure legible bottom-left, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-24T01:11+02:00, valid 01:00 — fresh. G3: text-only original generation, image_inputs empty. G4: no visible people, logos or private property — heritage fortress at night. G5: no blockers.",
       "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
-      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00",
+      "approval_basis": "Gate 1: recognizably the Loarre castle at night — hilltop fortress mass with round towers and apse, warm lit windows under a star field; plausible viewpoint, clean framing, no artifacts. Gate 2: exact dims and SHA-256 match; exact signature, caption 'Castle, Loarre', scenario '24 September 2026 · 03:10 Europe/Madrid', disclosure on-image; weather retrieved 2026-09-26T01:43:11+02:00, valid 2026-09-24T03:00+02:00 covering the scenario minute, timestamp unique to this scene. Gate 3: packet records text-only original generation, no photographic inputs. Gate 4: no visible people, logos, or private property issues. Gate 5: clear — approved."
     },
     {
       "entry_id": "ES-01-224",
