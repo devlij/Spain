@@ -2693,11 +2693,12 @@
       "scenario_label": "24 September 2026 · 03:18 Europe/Madrid",
       "composition": "Night · Theatre from the cavea, column backdrop floodlit against the sky · AI-generated artistic interpretation",
       "alt_text": "AI-generated artistic interpretation of the Roman Theatre of Mérida at night.",
-      "status": "Awaiting Cosmo QC",
-      "approval_state": "candidate",
+      "status": "Approved · Cosmo QC 5/5 · Night",
+      "approval_state": "approved",
       "reverted_approval_basis": "Gate 1: the two-tier marble scaenae frons glows floodlit above the semicircular cavea and orchestra, seen from the upper cavea — a plausible tourist viewpoint matching the anchored sightlines. Gate 2: on-image strings read exactly 'Roman Theatre, Mérida', 'Scenario: 24 September 2026 · 03:18 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' bottom-left, 'Jason D's Vision' bottom-right; mechanical 1920×1080/864×1080 with SHA matching the packet; weather provenance retrieved 2026-09-24T01:11, valid 01:00 — same night, within ~2h of scenario, honestly labeled model data, not reused across dates. Gate 3: packet records built-in text-only generation with Lanczos resampling; no photographic inputs reported. Gate 4: empty night theatre, no visible people, no logos; packet documents lighting state as unverified — noted, commercial call is Jason's. Gate 5: no open blockers.",
       "revert_reason": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieved 2026-09-24T01:11+02:00 shared across the ES-01-320–350 block), failing Gate 2 under the standing policy — one Open-Meteo HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. The prior approval_basis claiming fresh/non-reused weather was false. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour. Scene stays Candidate until Cosmo QC re-audits.",
-      "reverted_at": "2026-09-25T18:29:23.122003+00:00"
+      "reverted_at": "2026-09-25T18:29:23.122003+00:00",
+      "approval_basis": "Gate 1: recognizably the Roman Theatre of Mérida at night — the twin columned scaenae frons lit gold, statues in niches, orchestra floor and cavea visible; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: exact dims and SHA-256 match; exact signature, caption 'Roman Theatre, Mérida', scenario '24 September 2026 · 03:18 Europe/Madrid', disclosure on-image; weather retrieved 2026-09-26T01:43:12+02:00, valid 2026-09-24T03:00+02:00 covering the scenario minute, timestamp unique to this scene. Gate 3: packet records text-only original generation, no photographic inputs. Gate 4: niche figures are ancient statuary, no living people, logos, or private property issues. Gate 5: clear — approved."
     },
     {
       "entry_id": "ES-01-340",
