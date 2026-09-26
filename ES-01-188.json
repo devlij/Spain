@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-188.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-188.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-188-r1-16x9.png",
+        "sha256": "613f513cc27556a62072e2dc5fc7fad5348260e904e3a09ce34e740d6fab596c"
+      },
+      "4x5": {
+        "path": "es-01-188-r1-4x5.png",
+        "sha256": "4bf2ddcfed8bdd17527f9b0a5e35ae321c298361fe1aa0061397ba6464b1280f"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-188-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a674b841b92a68e5a489d531c60e55b9ed758450b32bff4ae57659cf0e5408f3"
+      },
+      "4x5": {
+        "path": "es-01-188-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "a29bfda16873e9f6def948a91ebc31d033e990e378750c50dc68ed419a826d55"
+      }
+    },
+    "on_image_text": [
+      "Cave Quarter, Guadix",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

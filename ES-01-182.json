@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-182.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-182.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-182-r1-16x9.png",
+        "sha256": "a134db6e05efbfdcd79d9aec223cc58a5130c73b5e235f5312143ee628e33fb1"
+      },
+      "4x5": {
+        "path": "es-01-182-r1-4x5.png",
+        "sha256": "9b55dfe8f34cd33d59a4a7cfe3ae33842c784a0b20d1da29fac568258f3b3885"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-182-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "84e874812560439e7df097de362f86070bc7a38c66596b83e7d8fdd5e3beaa9e"
+      },
+      "4x5": {
+        "path": "es-01-182-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "33318c1318ad4da1447ae1853040a8536f176369d045484fb3ead020a99b5cdc"
+      }
+    },
+    "on_image_text": [
+      "Segura de la Sierra, Segura de la Sierra",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

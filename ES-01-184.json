@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-184.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-184.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-184-r1-16x9.png",
+        "sha256": "fe1fc16b2c784e1a47a7432b109eb56bc592c4153f0bd10e04fba6c3b4ab9bc5"
+      },
+      "4x5": {
+        "path": "es-01-184-r1-4x5.png",
+        "sha256": "0f9ea175d913fc010f66fba83daba490c30a91cc65b3e1ad0261460f2e5034e9"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-184-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "78dc8ed07d189755520be761a655daa320643b341ca84b9bcb644b997c787055"
+      },
+      "4x5": {
+        "path": "es-01-184-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "d7334949e03f04ad572ef672df19d28299a84102067a580218a1ed06748f2e70"
+      }
+    },
+    "on_image_text": [
+      "Arcos de la Frontera, Arcos de la Frontera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

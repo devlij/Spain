@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-181.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-181.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-181-r1-16x9.png",
+        "sha256": "a33fac1ee66f8379b21c66366ceee57742e99094564cd8ee943377c42d68b9bb"
+      },
+      "4x5": {
+        "path": "es-01-181-r1-4x5.png",
+        "sha256": "a7dd0ae3a63f95d3383b9e3bbd07397d1247fd55e06e72c18dc375340284e8f6"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-181-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1f86bdbbcbc2b22014357c92e213865d53960b85783ad65f26af7beed4691125"
+      },
+      "4x5": {
+        "path": "es-01-181-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "b3d411d83904dbf5567f131fc821162eca894fb0ca21a61756c4b29cf02746cd"
+      }
+    },
+    "on_image_text": [
+      "Old town, Almuñécar",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

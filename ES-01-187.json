@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-187.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-187.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-187-r1-16x9.png",
+        "sha256": "5b0dcd343466209ea7229e387e66c7822d1e4bb9815d39cea450f704d0bdebbe"
+      },
+      "4x5": {
+        "path": "es-01-187-r1-4x5.png",
+        "sha256": "bf9fbeb583cd74338350d24f7502cdc93ba687f0720c0e388662d8c30f410ea8"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-187-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "4ca0577ba2d234f0ac4eb11782d583cc8d07fa14c924aca249f8595be4c82e05"
+      },
+      "4x5": {
+        "path": "es-01-187-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c94d69dea4ba72f8e3b82127c48243401fb5bf48affc300e43da30664c86ec2b"
+      }
+    },
+    "on_image_text": [
+      "Old town, Marbella",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

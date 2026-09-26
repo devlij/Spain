@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-191.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-191.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-191-r1-16x9.png",
+        "sha256": "3de625647091404201882ff5a8a45fe648e0cdc9da1335fd5e6f90b5dfe304f5"
+      },
+      "4x5": {
+        "path": "es-01-191-r1-4x5.png",
+        "sha256": "cedd836083c89c533c8c6f3a058c4e26d2c8a0c9764fc24252d4dd396067c6e5"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-191-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "15845943b94078381b5426b05a2617391ea39707be43331ace8d984116a9484a"
+      },
+      "4x5": {
+        "path": "es-01-191-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ff96c5b2f4e7b491252fafbf96bccfd932ee271e8bcad9a8f84782ce5c23206b"
+      }
+    },
+    "on_image_text": [
+      "Alcántara Bridge, Alcántara",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-185.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-185.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-185-r1-16x9.png",
+        "sha256": "3fe9a1567be84fb0da04d6439e4b5d8550fc43abf52af8cffb685066ccc25b9b"
+      },
+      "4x5": {
+        "path": "es-01-185-r1-4x5.png",
+        "sha256": "577d298a8f34f6450e66210fadcd5919ec6cb0b78fc436e20ac882ebb831f013"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-185-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "29cd8fbbb9622ebf80a8b91f698271760396bcb50a397ee5c07b72f1284d0ad8"
+      },
+      "4x5": {
+        "path": "es-01-185-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "bf720fa5b31af0d87284e8701ba4ed190b3be82acbc23d95ffd5fbcd1427cc20"
+      }
+    },
+    "on_image_text": [
+      "Olvera, Olvera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

@@ -154,5 +154,46 @@
   "license_anchor": "#license",
   "rights_limitation": "Creator permission does not clear third-party rights. Internal review is not legal certification.",
   "reference_evidence": [],
-  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-190.md. r1."
+  "approval_basis": "Cosmo independent five-gate audit 2026-09-24 — Auditor H: visual/location, exact technical, originality/provenance, publication readiness PASS; commercial/IP facts documented only (not certified). Record: spain-blitz/audits/H/ES-01-190.md. r1.",
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-190-r1-16x9.png",
+        "sha256": "8448b4181aeb48b4f9b8290dcf43e7234889ba13e16ed6c63cf98b50ed560b92"
+      },
+      "4x5": {
+        "path": "es-01-190-r1-4x5.png",
+        "sha256": "1f9f853cf958e9f0a0982fd8ccf95f4bd869c6904e8b6b12d448c6e2875a83a2"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-190-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "99c455794c2fed0435b671beddaf8478ca48d4b5653f1dfe40f504d80fe25183"
+      },
+      "4x5": {
+        "path": "es-01-190-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "77fea62ba96ec9f92d3be0f0064c5c442de84b0e7448bfa5ddb2af499e2c8f5f"
+      }
+    },
+    "on_image_text": [
+      "Old town, Cáceres",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
