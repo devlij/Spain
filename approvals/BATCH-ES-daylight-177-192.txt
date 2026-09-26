@@ -2,7 +2,7 @@ BATCH ES daylight 177–192 — approved night scenes ES-01-177 through ES-01-19
 Repo: devlij/jason-ds-vision-spain-preview
 Base tip before this batch: 7058e7251b22300b3516b4e66e9772ef6fec11f1
 Stated parent after ES-01-161–176: 7058e7251b22300b3516b4e66e9772ef6fec11f1
-Fast-forwarded onto origin/main before committing. Work started at 7058e72. While the variants were built, origin/main advanced to c28c61ea0b9adb441bc6f5ac7b639e81cde6661a (ES-01-332 and ES-01-338–351 approval commits, including header-count edits in index.html). Those commits were fast-forwarded in and were not rewritten. index.html and style.css were not edited by this batch. Overlay cleanup (fd37cc1 era) stays.
+Fast-forwarded onto origin/main before committing. Work started at 7058e72. While the variants were built, origin/main advanced through c28c61ea0b9adb441bc6f5ac7b639e81cde6661a (ES-01-332 and ES-01-338–351 approval commits, including header-count edits in index.html) and then to 83e2de13ef120943f65cec84d1e57978a46078e9 (ES-01-332 packet reverted to Candidate; shared weather retrieval). Those commits were rebased onto and were not rewritten. index.html, style.css, and data.json were not edited by this batch. Overlay cleanup (fd37cc1 era) stays.
 Directive: 2026-09-25 Jason daylight-variants workstream, Spain batch 12.
 Scope: ES-01-177–ES-01-192 only. Sixteen approved night scenes. Stop after 192.
 Germany excluded. Other countries not touched. Weather fields not edited. Night masters not regenerated.
@@ -321,5 +321,5 @@ Pre-work and post-work SHA-256 match for all 32 night PNG files under ES-01-177�
 No night hash drifted. Batch not aborted.
 Variant scene count: 16. Variant master count: 32.
 Pre-batch origin/main tip (parent of ES-01-161–176 daylight): 7058e7251b22300b3516b4e66e9772ef6fec11f1
-Fast-forward tip this batch commits onto: c28c61ea0b9adb441bc6f5ac7b639e81cde6661a
+Fast-forward tip this batch commits onto: 83e2de13ef120943f65cec84d1e57978a46078e9
 This note lands in the ES-01-177–192 daylight commit on origin/main.
