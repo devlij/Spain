@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1: Telde's Basilica of San Juan Bautista reads recognizably — whitewashed facade with twin clock bell towers, lit windows and wooden portal, warm plaza lamps and a receding old-town street at right, starry sky above; the twin-tower facade arrangement is interpretive per the packet's limitations, framing is clean. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Telde, Gran Canaria', scenario '24 September 2026 · 01:33 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:30, valid 01:30 — fresh, not reused. G3: text-only generation, image_inputs empty. G4: no visible people, no logos; public plaza church. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-300-r1-16x9.png",
+        "sha256": "9488e3f6c9782fcb27a06133465a442fb8f9d75af33c90c2966e1b559db97bd2"
+      },
+      "4x5": {
+        "path": "es-01-300-r1-4x5.png",
+        "sha256": "ace52f3eb0030cf2400ad7ab329af6a2f56817526e44f81bf0555f85bf954d00"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-300-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "dc34432bb64672c7294ef2fbfa80ba37c9130dcb69da77c96cea95882bc828ed"
+      },
+      "4x5": {
+        "path": "es-01-300-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "708e04d6852d9f2c15284d87bc109758a5194f833d4267a8f75b816e25b8657e"
+      }
+    },
+    "on_image_text": [
+      "Telde, Gran Canaria",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

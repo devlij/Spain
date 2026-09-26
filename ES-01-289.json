@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1 visual: the 16:9 master recognizably renders a La Laguna old-town street — cobbled roadway under warm street lamps, pastel colonial facades with dark wooden balconies lining both sides, the cathedral's twin towers silhouetted at the street's vanishing point; clean one-point perspective, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'San Cristóbal de La Laguna, Tenerife', scenario '24 September 2026 · 01:21 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:21 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos; no floodlighting claimed, only ordinary street lamps. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-289-r1-16x9.png",
+        "sha256": "797e2b686dd36266827b97a5d17cdb3735182b0206c14ab0ac6f3d5a595c568e"
+      },
+      "4x5": {
+        "path": "es-01-289-r1-4x5.png",
+        "sha256": "2e4b4c562b8734d5f5e87122fefce74293e1cfed151464155a950ca6d7c6775d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-289-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "8756acc3c3726a8d1f4d1a4dbca7e8c2f9389690780880d9a6360192459d97bd"
+      },
+      "4x5": {
+        "path": "es-01-289-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "edb491c99534500de7764997e054d20ce3cc25404cf022b42f371088a4d8d17b"
+      }
+    },
+    "on_image_text": [
+      "San Cristóbal de La Laguna, Tenerife",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

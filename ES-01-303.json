@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1: Betancuria sleeps recognizably under moonlight — whitewashed houses scattered among dark volcanic hills, the Santa Maria church bell tower with its distinctive brick-quoined facade rising at the center, a few lit windows, near-full moon and stars in an essentially clear sky (1% model cloud consistent); quiet inland night, clean framing. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Betancuria, Fuerteventura', scenario '24 September 2026 · 01:33 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:30, valid 01:30 — fresh. G3: text-only generation, image_inputs empty. G4: no visible people or logos; ordinary village houses noted, documented only. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-303-r1-16x9.png",
+        "sha256": "8c404cc967c53e48abb8f6baef516f038efca7c49cde5fd370a93335ceb133a0"
+      },
+      "4x5": {
+        "path": "es-01-303-r1-4x5.png",
+        "sha256": "35c78016d9ec41ede13a2a00d56809ba16d389d4f64fbd4268566ad5c1aede16"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-303-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "1dad6d43c1702f430295e8df2d6ec199ef0f6a41280e9b8da676a391f09675b3"
+      },
+      "4x5": {
+        "path": "es-01-303-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "df1edf66f0d2b1b275572d34c9061121f732724bf3fac8126c391d14241c76e1"
+      }
+    },
+    "on_image_text": [
+      "Betancuria, Fuerteventura",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

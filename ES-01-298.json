@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1: Charco Azul reads as the El Hierro natural pool — turquoise water ringed by black lava rock, honest near-dark treatment under thick overcast cloud with no invented moon or stars (matches the packet's 97% cloud model), the Atlantic as a darker band beyond; moody and clean, no artifacts. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Charco Azul, El Hierro', scenario '24 September 2026 · 01:29 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:15, valid 01:15 — fresh, not reused. G3: text-only generation, image_inputs empty. G4: no people, logos, or private property — natural coastal site. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-298-r1-16x9.png",
+        "sha256": "78e35f8dd78d4df0bf6ecf9006e59524977096b9d034367702fb99f5cbf82ba4"
+      },
+      "4x5": {
+        "path": "es-01-298-r1-4x5.png",
+        "sha256": "abc3f1cf5a2907828c1545157306b31fcc5003299fdfe4e46f85c6cd6cb0aa74"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-298-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "c5c5ca4c39dfb86033f6105067d5545695f686ba605042645b0d854b6a64a695"
+      },
+      "4x5": {
+        "path": "es-01-298-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "024fafef599380194e38bf811f42b4b0dd62abec2c1ea866d630dd0c18281488"
+      }
+    },
+    "on_image_text": [
+      "Charco Azul, El Hierro",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

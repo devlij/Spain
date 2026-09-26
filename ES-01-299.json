@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1: the Arucas church is recognizable — dark neo-Gothic Church of San Juan Bautista with twin spires, rose window and lancet arches, rising over a quiet plaza lit only by ordinary warm street lamps, starry sky above; restrained Canarian town night, no floodlighting claimed, no artifacts. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Arucas, Gran Canaria', scenario '24 September 2026 · 01:29 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:15, valid 01:15 — fresh for this build. G3: text-only generation, image_inputs empty. G4: no visible people, no logos; a church façade in a public plaza. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-299-r1-16x9.png",
+        "sha256": "64b77abb6050d171e12c25ac4ef3a68a6a5b2db87b221de164f7c9bb6b26ebb5"
+      },
+      "4x5": {
+        "path": "es-01-299-r1-4x5.png",
+        "sha256": "50b766bfbdcd43eabb87eb1a2aba6686f7fcb9765fd599797e9605cc97ef603a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-299-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d91d415d5e60a9ba7efc6e13de336c4997613608d166aab29eb98aae04eace18"
+      },
+      "4x5": {
+        "path": "es-01-299-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "8ac8cdf10d3c88ca572e698715ec19d93f608a1be8aafefc1b1a2a6b78120017"
+      }
+    },
+    "on_image_text": [
+      "Arucas, Gran Canaria",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

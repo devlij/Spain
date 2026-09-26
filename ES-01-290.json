@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1 visual: the 16:9 master recognizably renders the Corralejo dunes at night — pale moonlit dune ridges with wind-ripple texture across the frame, the dark cone of Montaña Roja on the left, the silhouette of Isla de Lobos on the right under a starry sky; clean composition, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Dunas de Corralejo, Fuerteventura', scenario '24 September 2026 · 01:21 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:21 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; the packet honestly discloses no claim of nighttime access to the protected dune area, and the scene reads as a modelled moonlit vista, not a claimed capture.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-290-r1-16x9.png",
+        "sha256": "805338fc397288091d7a6b382503f956618c863bfbcd394520b9b0d0885b19f8"
+      },
+      "4x5": {
+        "path": "es-01-290-r1-4x5.png",
+        "sha256": "1024a7d2c9b1e1799d40b38918b959b83f182024eb8ce7ec578d6b2b4fb74b7d"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-290-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "d93a7f0874808914c5132f00fcb41b0c84c18efd84716d97bf6991881d0fbc70"
+      },
+      "4x5": {
+        "path": "es-01-290-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "752a415679ac88201ea3390996216ba2dae364260b5be1d534eab441b6cea103"
+      }
+    },
+    "on_image_text": [
+      "Dunas de Corralejo, Fuerteventura",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

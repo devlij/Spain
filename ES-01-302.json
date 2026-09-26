@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1: Arrecife waterfront reads clearly — Castillo de San Gabriel on its islet in near-silhouette, the stone Puente de las Bolas causeway with its rounded ball-topped piers in the foreground, warm harbor lamps trembling on the water, crescent moon under a clear starry sky (0% model cloud consistent); no floodlighting claimed, clean framing. G2: mechanical sweep PASS on exact 1920×1080 + 864×1080 with packet-matching SHA-256; exact caption 'Arrecife, Lanzarote', scenario '24 September 2026 · 01:33 Europe/Madrid', AI disclosure on scrim; exact 'Jason D's Vision' signature; weather retrieved 01:30, valid 01:30 — fresh. G3: text-only generation, image_inputs empty. G4: no people, no logos; historic castle in public harbor. G5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-302-r1-16x9.png",
+        "sha256": "d94ee63ca1c15ef26dfa02a8b52a6518bf7a4853f175c804e320075ae1ffee4d"
+      },
+      "4x5": {
+        "path": "es-01-302-r1-4x5.png",
+        "sha256": "0fbf9d67a629f182f21f8d011053db3528f4724034cec8d2a193b863a5caa793"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-302-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5a9fc6db0dcec2999e39ca8d2805a469047cf70ea0184d716be5f9681c4caeb6"
+      },
+      "4x5": {
+        "path": "es-01-302-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "3dff0bcd0624a3b70429b667d141b7081aacccf39a4d95aebca8d6a123f772d6"
+      }
+    },
+    "on_image_text": [
+      "Arrecife, Lanzarote",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

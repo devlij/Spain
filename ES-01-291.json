@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "G1 visual: the 16:9 master recognizably renders Garajonay's laurisilva — moss-draped laurel trunks arching overhead along a forest trail, low mist drifting between the ferns, shafts of dim light through the canopy; the misty mood is honest against the model's cloud and the island's horizontal-rain reputation; clean framing, no artifacts. G2 technical: both masters verified 1920x1080 and 864x1080 with SHA-256 matching the packet; on-image text exact — caption 'Garajonay, La Gomera', scenario '24 September 2026 · 01:21 Europe/Madrid', 'AI-generated artistic interpretation · Not a photograph.' on a bottom-left gradient scrim, 'Jason D’s Vision' signature bottom-right, legible and non-intrusive; Open-Meteo weather retrieved 2026-09-24T01:15+02:00, valid 01:15 — fresh against the 01:21 scenario, no reuse. G3 originality: packet documents built-in text-only generation, zero photographic inputs, Lanczos resampling lineage. G4 IP: no people, no logos, no recognizable private property. G5: no open blockers; trail point honestly disclosed as unverified and no nighttime access claimed.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-291-r1-16x9.png",
+        "sha256": "75e17e38a2466f3df80613d4870b917789171f4ca2210837762f87270168d80a"
+      },
+      "4x5": {
+        "path": "es-01-291-r1-4x5.png",
+        "sha256": "d5a22b2193b957c5b1408de3fcfcce110db6f937ce176de2ebf23f4b4d54c8ce"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-291-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "60df649b609656b411729ab17c8bf1f49e2c3895fdeceb80318120acfa3b7ab8"
+      },
+      "4x5": {
+        "path": "es-01-291-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "ce994f34ab2f5c34a61712416528a722d6bd3c65e99f755a797ceff27cce21b0"
+      }
+    },
+    "on_image_text": [
+      "Garajonay, La Gomera",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
