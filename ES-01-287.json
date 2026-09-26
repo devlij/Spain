@@ -151,4 +151,46 @@
   "reference_evidence": [],
   "approval_basis": "Night Timanfaya (r2): rust-red cinder cones rising over a black lava field, volcanic slopes fading under a starry sky; on-image text verified: caption 'Timanfaya, Lanzarote', scenario '24 September 2026 · 01:14 Europe/Madrid', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right; SHA-256 + 1920×1080/864×1080 match packet; Open-Meteo weather retrieved 2026-09-24T01:00+02:00 consistent with scenario hour; packet documents text-only generation, no photographic inputs; no people or logos; Timanfaya closes at dusk so the scene is acknowledged in the packet as an artistic interpretation of restricted-access terrain, not a claim of presence (documented only).",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-287-r2-16x9.png",
+        "sha256": "0a4d417d955bcdfb3a0c458000e7e409f5d76bd5c3750d7b42b6851cf246a0a9"
+      },
+      "4x5": {
+        "path": "es-01-287-r2-4x5.png",
+        "sha256": "f303a550233bfdee239fe6ba7d8c4b4e79d6f5839184be5941e4e68e2799904c"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-287-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "726461ce48de692e9970cabbce310e62393a659a20b616d6f4eff0cb1facad09"
+      },
+      "4x5": {
+        "path": "es-01-287-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "9ab07abb897a96dc27cb436e371661b20996eedae4c08c6287a28520ca7e1c5c"
+      }
+    },
+    "on_image_text": [
+      "Timanfaya, Lanzarote",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

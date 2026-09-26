@@ -156,4 +156,46 @@
   "reference_evidence": [],
   "approval_basis": "Gate 1: the 16:9 master frames the medieval stone village of Rupit from its famous hanging bridge — suspension cables and wooden walkway leading into warmly lit stone houses with the illuminated church above, forested ravine on both sides — the classic Pont Penjant viewpoint. Gate 2: masters 1920×1080/864×1080 with SHA-256 matching the packet; on-image caption 'Rupit i Pruit, Rupit', scenario '24 September 2026 · 01:35 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left; 'Jason D's Vision' with curly apostrophe bottom-right; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00, valid 01:30, consistent with the 01:35 scenario. Gate 3: provenance documents text-only original generation, image_inputs empty, no photographic inputs. Gate 4: no visible people, logos, or recognizable private property. Gate 5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-278-r1-16x9.png",
+        "sha256": "65f08c0959e4876ef83180ff1055159d77edc194b52f861f42778c9700bfe08f"
+      },
+      "4x5": {
+        "path": "es-01-278-r1-4x5.png",
+        "sha256": "89c74a8412eafbbef4cd4be66a5a1416e7c6ed0a813ecd001680413404cce592"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-278-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "a4d2faee6ffcaed4ada8506c5752df55c2efbcbe0aaa0431dfc1d1456ddca48d"
+      },
+      "4x5": {
+        "path": "es-01-278-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "385da9d378ec098c2b4cdf6c844946a0a3cd0f8e9e79335ea243245433c2f149"
+      }
+    },
+    "on_image_text": [
+      "Rupit i Pruit, Rupit",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

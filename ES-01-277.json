@@ -156,4 +156,46 @@
   "reference_evidence": [],
   "approval_basis": "Gate 1: the 16:9 master shows the floodlit Castillo de Santa Bárbara crowning Mount Benacantil, its walls and towers glowing above Alicante's lit cityscape, port lights and palms below — a recognizable night panorama of the city. Gate 2: masters 1920×1080/864×1080 with SHA-256 matching the packet; on-image caption 'Castillo de Santa Bárbara, Alicante', scenario '24 September 2026 · 01:33 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left; 'Jason D's Vision' with curly apostrophe bottom-right; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00, valid 01:30, consistent with the 01:33 scenario. Gate 3: provenance documents text-only original generation, image_inputs empty, no photographic inputs. Gate 4: no visible people or logos; city panorama only. Gate 5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-277-r1-16x9.png",
+        "sha256": "ed2f7a462637b98500d0e89b7b28c9c6b27081c6420e96486bdaffe795face5f"
+      },
+      "4x5": {
+        "path": "es-01-277-r1-4x5.png",
+        "sha256": "3518454c247274dce4add81d674fc6500e04912f8e739fed0fbfe4319aeda5b4"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-277-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "896a672b499fa42a4958e761254471c61c5c3552ab6c95185990bd63a2fb5baa"
+      },
+      "4x5": {
+        "path": "es-01-277-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "2ee3e7dc1906b3c7b0449ad69280dd7350a25a763d2f2a8cf90d503adf928e4d"
+      }
+    },
+    "on_image_text": [
+      "Castillo de Santa Bárbara, Alicante",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }

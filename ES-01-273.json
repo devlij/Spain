@@ -156,4 +156,46 @@
   "reference_evidence": [],
   "approval_basis": "Gate 1: the 16:9 master shows the whitewashed bell tower of Castell de Guadalest floodlit on the rock spur, ruined castle walls behind, the village's warm lights and the reservoir below — a recognizable night view of Guadalest. Gate 2: masters 1920×1080/864×1080 with SHA-256 matching the packet; on-image caption 'Castell de Guadalest, Guadalest', scenario '24 September 2026 · 01:31 Europe/Madrid', and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left; 'Jason D's Vision' with curly apostrophe bottom-right; Open-Meteo weather retrieved 2026-09-24T01:12:51+02:00, valid 01:15, consistent with the 01:31 scenario — no stale metadata. Gate 3: provenance documents text-only original generation, image_inputs empty, no photographic inputs. Gate 4: no visible people, logos, or recognizable private property. Gate 5: no open blockers.",
   "qc_notes": "Reverted to candidate 2026-09-24: prior approval carried canned boilerplate basis with no recorded five-gate audit. Queued for genuine independent Cosmo QC.\nReverted to candidate 2026-09-24 ~01:50 EDT: the 01:24 EDT QC run batch-approved 131 scenes in ~19 minutes with identical canned boilerplate approval_basis and no recorded per-scene audit observations. Not a genuine five-gate audit. Queued for genuine individual Cosmo QC (standing rule: no bulk/blitz approvals)."
+,
+  "daylight_variant": {
+    "derivative_disclosure": "Daylight variant derived from the night interpretation of this same viewpoint and composition. Not a new scene. No weather claim and no scenario timestamp are printed on the variant masters.",
+    "source_night": {
+      "16x9": {
+        "path": "es-01-273-r1-16x9.png",
+        "sha256": "84fdce055778e1dc0323644ad3f03e1cb1597a172b271b9ac28e13320c013bf2"
+      },
+      "4x5": {
+        "path": "es-01-273-r1-4x5.png",
+        "sha256": "c7fab1f4cfdb295c8042a530a34eab75e63cdf84542843cabed41befaf4e457a"
+      }
+    },
+    "masters": {
+      "16x9": {
+        "path": "es-01-273-daylight-16x9.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9074fdce9e9a808ce81bf9d283b3347eb9121fc66e35609903c79cfc90faf989"
+      },
+      "4x5": {
+        "path": "es-01-273-daylight-4x5.png",
+        "width": 864,
+        "height": 1080,
+        "sha256": "c64c02dc0cf29a6b7136ade2a178ac12fa341eeb4ae72bca15a479f4e7a293a0"
+      }
+    },
+    "on_image_text": [
+      "Castell de Guadalest, Guadalest",
+      "☀ Daylight variant · derived from the night interpretation",
+      "AI-generated artistic interpretation · Not a photograph.",
+      "Jason D’s Vision"
+    ],
+    "art50_png_chunks": [
+      "Title",
+      "Description",
+      "Copyright",
+      "Software",
+      "Comment"
+    ],
+    "country": "Spain"
+  }
 }
